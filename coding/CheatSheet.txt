@@ -8,7 +8,13 @@ ssh -l ktwu01 ls6.tacc.utexas.edu
 ssh -t -l ktwu01 tacc.utexas.edu
 
 # Git
+拉取远程改动并合并：
+git pull origin main
+如果没有冲突，这条命令会自动合并远程提交到你的本地分支。
+
+推送合并后的结果：
 git add . && git commit -m "Update local changes" && git push origin main
+这样就能将本地的更新成功推送到 GitHub 上了。
 
 # UCAR
 ssh -L 3300:fastx.ucar.edu:3300 wukoutian@fastx.ucar.edu
