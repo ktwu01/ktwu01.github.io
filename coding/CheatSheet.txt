@@ -9,8 +9,8 @@ ssh -t -l ktwu01 tacc.utexas.edu
 
 # Git
 打开 Terminal 的终端，然后执行：
-git clone https://github.com/kokomomo250/kokomomo250.github.io.git
-这会在你的本地创建一个 kokomomo250.github.io 文件夹。
+git clone https://github.com/ktwu01/ktwu01.github.io.git
+这会在你的本地创建一个 ktwu01.github.io 文件夹。
 
 拉取远程改动并合并：
 git pull origin main
