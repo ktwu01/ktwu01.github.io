@@ -1,0 +1,49 @@
+# Temp_tmp.txt
+
+# TA
+Please draw figure, not only text. Please try to submit in Canvas again..
+
+# TACC
+ssh -l ktwu01 ls6.tacc.utexas.edu
+ssh -t -l ktwu01 tacc.utexas.edu
+
+# Git
+git add . && git commit -m "Update local changes" && git push origin main
+
+# UCAR
+ssh -L 3300:fastx.ucar.edu:3300 wukoutian@fastx.ucar.edu
+ssh -Y -l wukoutian derecho.hpc.ucar.edu
+ssh -t -l wukoutian derecho.hpc.ucar.edu /glade/u/apps/casper/23.10/opt/utils/bin/vncmgr
+ssh -t -l wukoutian casper.ucar.edu /glade/u/apps/casper/23.10/opt/utils/bin/vncmgr
+execcasper -A P28100036
+
+# SCP
+File from local to Casper:
+scp "D:\0lrn\0Res\0met.rar" wukoutian@casper.ucar.edu:~/Downloads/
+scp "D:\0lrn\0Res\0met.rar" ktwu01@ls6.tacc.utexas.edu:/home1/10024/ktwu01/bkup/
+scp ""D:\0lrn\0Res\Data\bkup\Mc_ht_GS1_daily_2014_2023.mat"" wukoutian@casper.ucar.edu:~/0Res/Data/
+
+File from Casper to local:
+scp wukoutian@casper.ucar.edu:~/0Res/NFig_MC_2.zip D:\0lrn\0Res\0met\
+
+# Python
+
+
+# MATLAB
+load('../../Data/Mc_sp_dis_ave_2014_2023.mat');
+load('../../Data/MCMR_MetData_2014_2023.mat');
+load('../../Data/MCMR_ids_2022.mat');
+
+addpath '../../Functions'
+
+selected_day = datenum(2022,10,02);
+inds = find(mcest>24*(selected_day- datenum(2014,01,01)) & mcest<24*(selected_day+1- datenum(2014,01,01)));
+title(datestr((datenum(2022,10,02)),'mmm dd, yyyy'));
+title(datestr((selected_day),'mmm dd, yyyy'));
+
+error
+
+%% EXPORT FIG ==============================================================
+
+figure_name = ['Fig8'];
+print(gcf,figure_name,'-djpeg','-r600');
