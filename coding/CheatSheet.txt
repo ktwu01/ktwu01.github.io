@@ -4,6 +4,8 @@
 Please draw figure, not only text. Please try to submit in Canvas again..
 
 # TACC
+https://tap.tacc.utexas.edu/
+https://jupyter.tacc.cloud/user/ktwu01/lab/tree/work/Ori_RPM/Cpr_obs_mod
 ssh -l ktwu01 ls6.tacc.utexas.edu
 ssh -t -l ktwu01 tacc.utexas.edu
 
