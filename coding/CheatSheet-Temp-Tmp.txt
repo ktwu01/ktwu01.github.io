@@ -14,6 +14,11 @@ ssh -t -l ktwu01 tacc.utexas.edu
 git clone https://github.com/ktwu01/ktwu01.github.io.git
 这会在你的本地创建一个 ktwu01.github.io 文件夹。
 
+# Move QuantResearch repository
+mv ~/Downloads/QuantResearch ~/Downloads/quant101/
+
+git status
+
 拉取远程改动并合并：
 git pull origin main
 如果没有冲突，这条命令会自动合并远程提交到你的本地分支。
