@@ -7,15 +7,30 @@
 
 . **Generate a New Token:**  
    Click **Generate new token**.  
-   Select Scopes:
-For repository access (push/pull, etc.), check at least:
-repo (for full control of private repositories, if needed)
+   Select Scopes: For repository access (push/pull, etc.), check at least:
+`repo` (for full control of private repositories, if needed)
 
 . **Generate and Copy the Token:**  
    Click **Generate token**. **Immediately copy the token** (you won’t be able to see it again).  
    *Store it securely, for example in a password manager.*
 
 ---
+
+2. **PAT Usage:**  
+   - When cloning via HTTPS with a PAT, **use your GitHub username** (in this case, `ktwu01`) as the username.  
+   - When prompted for a password, **paste your PAT** (the long token you generated on GitHub).  
+   This token replaces your GitHub account password in command-line operations.
+
+3. **Configuration on TACC (ls6.tacc):**  
+   - On your TACC system, you’ll need to configure Git to use your GitHub identity. For example, run:  
+     ```bash
+     git config --global user.name "ktwu01"
+     git config --global user.email "ktwu01@gmail.com"
+     ```
+     
+4. **Credential Storage:**  
+   - On your MacBook, you might have configured the macOS Keychain helper to store your credentials. On TACC, check if a similar credential helper is available or if you’ll need to enter your PAT manually each time.
+
 
 ## 2. Configuring Git on Your MacBook Terminal
 
