@@ -89,3 +89,23 @@ This change tells Git to use “ktwu01” as the username when communicating wit
    ```
    Ensure the URLs include `https://ktwu01@github.com/...`
 
+
+### 1. Disable or Change the Credential Helper on TACC
+
+Since TACC is not macOS, you can configure Git to use an alternative credential helper:
+
+- **For temporary caching (credentials expire after a set time):**
+
+  ```bash
+  git config --global credential.helper cache
+  ```
+
+  *This caches your credentials in memory (default timeout is 15 minutes, but you can adjust it).*
+
+- **For storing credentials permanently (saved in plain text):**
+
+  ```bash
+  git config --global credential.helper store
+  ```
+
+*This will save your credentials in a file (usually in your home directory under `~/.git-credentials`). Use this option only if you are comfortable with credentials being stored in plain text.*
