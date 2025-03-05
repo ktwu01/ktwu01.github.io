@@ -3,7 +3,7 @@
 1. **Log in to GitHub:**  
 
 . **Access Personal Access Tokens:**  
-   Under Developer settings, click **[Personal access tokens](https://github.com/settings/tokens)** and then select **Tokens (classic)**.
+   Under Developer settings, click **[Personal access tokens](https://github.com/settings/tokens/new)** and then select **Tokens (classic)**.
 
 . **Generate a New Token:**  
    Click **Generate new token**.  
