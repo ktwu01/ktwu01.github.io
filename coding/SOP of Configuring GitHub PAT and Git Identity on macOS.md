@@ -1,30 +1,14 @@
 ## 1. Creating a Personal Access Token (PAT) on GitHub
 
 1. **Log in to GitHub:**  
-   Go to [GitHub](https://github.com) and sign in with your account.
 
-2. **Open Settings:**  
-   Click on your profile picture (upper-right corner) and select **Settings**.
+. **Access Personal Access Tokens:**  
+   Under Developer settings, click **[Personal access tokens](https://github.com/settings/tokens)** and then select **Tokens (classic)**.
 
-3. **Navigate to Developer Settings:**  
-   In the left sidebar, scroll down and click **Developer settings**.
-
-4. **Access Personal Access Tokens:**  
-   Under Developer settings, click **Personal access tokens** and then select **Tokens (classic)**.
-
-5. **Generate a New Token:**  
+. **Generate a New Token:**  
    Click **Generate new token**.  
-   - **Note:** If prompted, confirm your password.
 
-6. **Configure Token Details:**  
-   - **Token Name:** Enter a descriptive name (e.g., “MacBook Terminal PAT for ktwu01”).
-   - **Expiration:** Choose an expiration date that fits your security needs (or select “No expiration” if you prefer—but be aware of the security implications).
-   - **Select Scopes:**  
-     For repository access (push/pull, etc.), check at least:
-     - `repo` (for full control of private repositories, if needed)
-     - You might add additional scopes as required for your workflow.
-
-7. **Generate and Copy the Token:**  
+. **Generate and Copy the Token:**  
    Click **Generate token**. **Immediately copy the token** (you won’t be able to see it again).  
    *Store it securely, for example in a password manager.*
 
