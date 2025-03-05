@@ -7,6 +7,9 @@
 
 . **Generate a New Token:**  
    Click **Generate new token**.  
+   Select Scopes:
+For repository access (push/pull, etc.), check at least:
+repo (for full control of private repositories, if needed)
 
 . **Generate and Copy the Token:**  
    Click **Generate token**. **Immediately copy the token** (you won’t be able to see it again).  
