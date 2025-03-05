@@ -1,7 +1,8 @@
 # Temp_tmp.txt
 
 # TA
-Please draw figure, not only text. Please try to submit in Canvas again..
+Please draw figure, not only text. Please try to submit in Canvas again.
+
 
 # TACC
 https://tap.tacc.utexas.edu/
