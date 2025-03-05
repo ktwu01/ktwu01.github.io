@@ -27,23 +27,30 @@
      git config --global user.name "ktwu01"
      git config --global user.email "ktwu01@gmail.com"
      ```
-     
+
+- **A. Verify your Git configuration?**  
+  For example, checking that your user name, email, and remote URL are correctly set on TACC. You can run:
+  ```bash
+  git config --list
+  git remote -v
+  ```
+- **B. Test your authenticated connection to GitHub using your PAT?**  
+  For instance, running a command like:
+  ```bash
+  git ls-remote https://github.com/ktwu01/NOAH-MP-PHS-TACC.git
+  ```
+  which will query the remote repository without cloning it fully.
+
+- **C. Check your TACC login or environment status?**  
+  For example, using:
+  ```bash
+  whoami
+  ```
+  to verify your current TACC username.
+
 4. **Credential Storage:**  
    - On your MacBook, you might have configured the macOS Keychain helper to store your credentials. On TACC, check if a similar credential helper is available or if you’ll need to enter your PAT manually each time.
 
-
-## 2. Configuring Git on Your MacBook Terminal
-
-### A. Update Your Git Identity
-
-Set your global Git configuration to use your GitHub name and email:
-
-```bash
-git config --global user.name "ktwu01"
-git config --global user.email "ktwu01@gmail.com"
-```
-
-This ensures all future commits use the correct author details.
 
 ### B. Configure Credential Storage
 
@@ -63,16 +70,6 @@ git remote set-url origin https://ktwu01@github.com/kokomomo250/kokomomo250.gith
 
 This change tells Git to use “ktwu01” as the username when communicating with GitHub.
 
-### D. Using Your PAT
-
-- **First Push:**  
-  When you push changes (e.g., using `git push`), Git will prompt you for a password.  
-  - **Enter the PAT** you generated instead of your GitHub account password.
-  
-- **Storing Credentials:**  
-  Because of the credential helper, your PAT will be saved securely in your macOS keychain and used automatically for subsequent operations.
-
----
 
 ## 3. Verifying Everything Works
 
@@ -92,12 +89,3 @@ This change tells Git to use “ktwu01” as the username when communicating wit
    ```
    Ensure the URLs include `https://ktwu01@github.com/...`
 
----
-
-## Additional Questions for Clarity
-
-- **Do you need further details on securing your PAT or managing token expiration?**
-- **Would you like guidance on using GitHub’s web interface to revoke or update tokens later on?**
-- **Do you have any specific concerns about how these changes might affect your existing repository history or backups?**
-
-Please let me know if any part of this process needs more detail or if you have further questions.
