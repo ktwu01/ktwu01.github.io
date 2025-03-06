@@ -3,30 +3,53 @@
 # TA
 Please draw figure, not only text. Please try to submit in Canvas again.
 
-
 # TACC
 https://tap.tacc.utexas.edu/
 https://jupyter.tacc.cloud/user/ktwu01/lab/tree/work/Ori_RPM/Cpr_obs_mod
 ssh -l ktwu01 ls6.tacc.utexas.edu
 ssh -t -l ktwu01 tacc.utexas.edu
 
-# Git
-打开 Terminal 的终端，然后执行：
-git clone https://github.com/ktwu01/ktwu01.github.io.git
-这会在你的本地创建一个 ktwu01.github.io 文件夹。
 
-# Move QuantResearch repository
+# MBP
 mv ~/Downloads/QuantResearch ~/Downloads/quant101/
 
-git status
+ls -a  #这里-a是查看隐藏文件
 
-拉取远程改动并合并：
-git pull origin main
-如果没有冲突，这条命令会自动合并远程提交到你的本地分支。
+# Git
+打开 Terminal 的终端，然后执行：
+git clone https://github.com/ktwu01/NOAH-MP-PHSs.git
+这会在你的本地创建一个 ktwu01.github.io 文件夹。
 
-推送合并后的结果：
+命令名称	作用
+git config user.name "ktwu01"			设置用户名名称
+git config user.email "ktwu01@gmail.com"	设置用户签名
+
+git init					初始化本地库
+git status					查看本地库状态
+
+git reflog					查看历史记录
+git log						查看版本详细信息
+git reset —hard 				版本号	版本穿梭
+
+git pull origin main				拉取远程改动并合并：如果没有冲突，这条命令会自动合并远程提交到你的本地分支。
+
+git add 文件名					添加到暂存区
+git commit -m “日志信息” 文件名			提交到本地库
+
 git add . && git commit -m "Update local changes" && git push origin main
-这样就能将本地的更新成功推送到 GitHub 上了。
+推送合并后的结果：这样就能将本地的更新成功推送到 GitHub 上了。
+
+git branch 分支名称	创建分支
+git branch -v		查看分支
+git checkout 分支名称	切换分支
+git merge 分支名		把指定的分支合并到当前分支上
+
+git remote -v			查看当前所有远程地址别名
+git remote add 别名 远程地址	起别名
+git push 别名 分支		推送本地分支上的内容到远程仓库
+git clone 远程仓库		将远程仓库的内容克隆到本地
+git pull 远程库地址别名 远程分支名	将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并
+
 
 # UCAR
 ssh -L 3300:fastx.ucar.edu:3300 wukoutian@fastx.ucar.edu
