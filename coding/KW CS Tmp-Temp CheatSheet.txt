@@ -1,5 +1,7 @@
 # Temp_tmp.txt
 
+# Python
+
 # TA
 Please draw figure, not only text. Please try to submit in Canvas again.
 
@@ -9,10 +11,11 @@ https://jupyter.tacc.cloud/user/ktwu01/lab/tree/work/Ori_RPM/Cpr_obs_mod
 ssh -l ktwu01 ls6.tacc.utexas.edu
 ssh -t -l ktwu01 tacc.utexas.edu
 
+# Mac remote control
+wireless-10-147-37-118.public.utexas.edu:5900
 
-# MBP
+# MacBook Terminal
 mv ~/Downloads/QuantResearch ~/Downloads/quant101/
-
 ls -a  #这里-a是查看隐藏文件
 
 # Git
@@ -50,24 +53,20 @@ git push 别名 分支		推送本地分支上的内容到远程仓库
 git clone 远程仓库		将远程仓库的内容克隆到本地
 git pull 远程库地址别名 远程分支名	将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并
 
-
 # UCAR
 ssh -L 3300:fastx.ucar.edu:3300 wukoutian@fastx.ucar.edu
 ssh -Y -l wukoutian derecho.hpc.ucar.edu
 ssh -t -l wukoutian derecho.hpc.ucar.edu /glade/u/apps/casper/23.10/opt/utils/bin/vncmgr
 ssh -t -l wukoutian casper.ucar.edu /glade/u/apps/casper/23.10/opt/utils/bin/vncmgr
-execcasper -A P28100036
 
 # SCP
-File from local to Casper:
+File from local to Supercomputer:
 scp "D:\0lrn\0Res\0met.rar" wukoutian@casper.ucar.edu:~/Downloads/
 scp "D:\0lrn\0Res\0met.rar" ktwu01@ls6.tacc.utexas.edu:/home1/10024/ktwu01/bkup/
 scp ""D:\0lrn\0Res\Data\bkup\Mc_ht_GS1_daily_2014_2023.mat"" wukoutian@casper.ucar.edu:~/0Res/Data/
 
 File from Casper to local:
 scp wukoutian@casper.ucar.edu:~/0Res/NFig_MC_2.zip D:\0lrn\0Res\0met\
-
-# Python
 
 
 # MATLAB
