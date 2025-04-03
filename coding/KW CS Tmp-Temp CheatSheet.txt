@@ -9,6 +9,36 @@ https://jupyter.tacc.cloud/user/ktwu01/lab/tree/work/Ori_RPM/Cpr_obs_mod
 ssh -l ktwu01 ls6.tacc.utexas.edu
 ssh -t -l ktwu01 tacc.utexas.edu
 
+# Linux file
+cd $WORK
+## Directory Navigation
+cd /path/to/directory     # Change directory
+pwd                       # Print working directory
+ls                        # List files in current directory
+ls -la                    # List all files (including hidden) with details
+
+## File Operations
+cp file.txt backup.txt          # Copy a file
+cp -r dir1/ dir2/               # Copy directory and contents recursively
+mv file.txt newname.txt         # Rename/move a file
+mv file.txt /path/to/directory/ # Move a file to another directory
+rm file.txt                     # Delete a file
+rm -r directory/                # Delete directory and contents recursively
+
+## File Creation
+touch newfile.txt         # Create empty file
+mkdir newdirectory        # Create new directory
+mkdir -p dir1/dir2/dir3   # Create nested directories
+
+## File Viewing
+cat file.txt              # Display file contents
+less file.txt             # View file with pagination
+head file.txt             # View first 10 lines
+tail file.txt             # View last 10 lines
+
+## File Permissions
+chmod 755 file.txt        # Change file permissions
+chown user:group file.txt # Change file ownership
 
 # MBP
 mv ~/Downloads/QuantResearch ~/Downloads/quant101/
