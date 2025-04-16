@@ -10,10 +10,30 @@ https://tap.tacc.utexas.edu/
 https://jupyter.tacc.cloud/user/ktwu01/lab/tree/work/Ori_RPM/Cpr_obs_mod
 ssh -l ktwu01 ls6.tacc.utexas.edu
 ssh -t -l ktwu01 tacc.utexas.edu
-
 https://tap.tacc.utexas.edu/jobs/
 https://docs.tacc.utexas.edu/
 https://www.youtube.com/@TACC_training
+
+echo 'export WORK=/work/10024/ktwu01/' >> ~/.bashrc
+source ~/.bashrc
+
+###################################
+# Optional Startup Script tracking 
+
+if [ -n "$SHELL_STARTUP_DEBUG" ]; then
+  DBG_ECHO "${DBG_INDENT}}"
+fi
+
+#  Environment Variables
+export NETCDF=/opt/apps/intel19/netcdf/4.6.2/x86_64/
+export NETCDF_INC=/opt/apps/intel19/netcdf/4.6.2/x86_64/include
+export NETCDF_LIB=/opt/apps/intel19/netcdf/4.6.2/x86_64/lib
+
+PS1='login1.ls6($PWD)$ '
+export WORK=/work/10024/ktwu01/
+
+###################################
+
 
 # NCAR
 https://www2.cisl.ucar.edu/what-we-do/training-library/remote-desktop-services-casper
@@ -28,12 +48,13 @@ https://fastx.ucar.edu:3300/auth/ssh/
 
 
 # Linux file
-cd $WORK
+
 ## Directory Navigation
 cd /path/to/directory     # Change directory
 pwd                       # Print working directory
 ls                        # List files in current directory
 ls -la                    # List all files (including hidden) with details
+cdw   			  # equates to cd $WORK
 
 ## File Operations (from left to right)
 cp file.txt backup.txt          # Copy a file (from left to right)
@@ -61,6 +82,9 @@ chown user:group file.txt # Change file ownership
 
 ## Environment Setup
 1. Load modules and software:
+   module list
+   module save
+
    module load matlab
    matlab
    matlab -nodesktop -nojvm
@@ -133,7 +157,6 @@ scp ""D:\0lrn\0Res\Data\bkup\Mc_ht_GS1_daily_2014_2023.mat"" wukoutian@casper.uc
 
 File from Casper to local:
 scp wukoutian@casper.ucar.edu:~/0Res/NFig_MC_2.zip D:\0lrn\0Res\0met\
-
 
 # MATLAB
 load('../../Data/Mc_sp_dis_ave_2014_2023.mat');
