@@ -76,6 +76,21 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+# main links
+main:
+  - title: "About Me"
+    url: /
+  - title: "CV"
+    url: /cv/
+  - title: "Publications"
+    url: /publications/
+  - title: "Talks"
+    url: /talks/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Teaching"
+    url: /teaching/
+
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
