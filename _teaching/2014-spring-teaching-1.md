@@ -1,20 +1,22 @@
 ---
-title: "Teaching experience 1"
+title: "Sample Course Title"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+type: "Course Type"
+permalink: /teaching/sample-course
+venue: "University Name, Department"
+date: 2024-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This is a sample teaching entry. Replace this with information about courses you have taught.
 
-Heading 1
-======
+## Course Description
+Replace this with your course description.
 
-Heading 2
-======
+## Learning Objectives
+* Objective 1
+* Objective 2
+* Objective 3
 
-Heading 3
-======
+## Course Materials
+Describe the materials used in this course.
