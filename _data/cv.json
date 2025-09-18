@@ -1,152 +1,217 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Koutian Wu (吴叩天)",
+    "email": "koutian.wu@utexas.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://ktwu01.github.io",
+    "summary": "AI4Geoscience PhD student at UT-Austin Jackson School of Geosciences, specializing in explainable AI for physics-based land surface modeling. Former undergraduate at USTC with expertise in space physics and atmospheric sciences.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Austin, TX",
       "countryCode": "US",
-      "region": ""
+      "region": "Texas"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "s9w1k-cAAAAJ",
+        "url": "https://scholar.google.com/citations?hl=en&user=s9w1k-cAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ktwu01",
+        "url": "https://github.com/ktwu01"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Jackson School of Geosciences, The University of Texas at Austin",
+      "position": "Graduate Research Assistant",
+      "website": "",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "AI for Noah-MP Land Surface Model: Implementing rock and wood moisture into the Noah-MP land surface model. Advised by Dr. Zong-Liang Yang, Dr. Daniella Rampe, Dr. Ashley Matheny."
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "NSF NCAR - The National Center for Atmospheric Research",
+      "position": "Project Admin",
+      "website": "",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Project Admin for NCAR/CISL Allocation Project UTAA0012: 'Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions.' Awarded 1,000 GPU hours on NSF NCAR Derecho-GPU, 20,000 CPU core-hours, and 2 TB campaign storage."
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "PineAI",
+      "position": "AI Agent Evaluation Engineer Intern",
+      "website": "",
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-31",
+      "summary": "Designed and implemented AI evaluation system architecture for AI Agent knowledge base assessment. Developed automated data anonymization algorithms processing 1000+ conversation texts with 70%+ accuracy."
+    },
+    {
+      "company": "Beijing ZaiwenAI Technology Co., Ltd.",
+      "position": "Full-Stack LLM Developer Intern",
+      "website": "",
+      "startDate": "2025-06-01",
+      "endDate": "2025-07-31",
+      "summary": "Built comprehensive LLM text processing system integrating text polishing, AI detection, and plagiarism reduction features. Developed RESTful API backend using FastAPI with Celery+Redis, improving processing efficiency by 65%+."
+    },
+    {
+      "company": "The University of Texas at Austin",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2024-08-01",
+      "endDate": "2025-05-31",
+      "summary": "Earth in 2100 (GEO 303E): Prepared course syllabus, office hours, and graded homework for ~1040 students."
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "The University of Texas at Austin",
+      "area": "Ph.D. in Geological and Earth Sciences/Geosciences",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2024-08-01",
+      "endDate": "2029-05-31",
+      "gpa": null,
+      "courses": ["Model Optimization: Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)", "Rock Climbing"]
+    },
+    {
+      "institution": "University of Science and Technology of China",
+      "area": "B.S. with Honors in Geological and Earth Sciences/Geosciences",
+      "studyType": "Bachelor of Science",
+      "startDate": "2020-09-01",
+      "endDate": "2024-07-31",
+      "gpa": null,
+      "courses": ["Founding President, USTC Student Xingyun Poetry Club (Currently 1,197+ members)"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": ["Python", "MATLAB", "Fortran", "Shell Scripting", "Perl", "HTML", "JavaScript"]
+    },
+    {
+      "name": "AI/ML Technologies",
+      "level": "Advanced",
+      "keywords": ["Machine Learning", "LLM APIs", "Prompt Engineering", "AI Agent Evaluation", "LLM-as-a-judge"]
+    },
+    {
+      "name": "Frameworks and Tools",
+      "level": "Advanced",
+      "keywords": ["FastAPI", "Celery", "Redis", "Vue.js", "LaTeX"]
+    },
+    {
+      "name": "Geoscience Specialties",
+      "level": "Expert",
+      "keywords": ["Land Surface Model Development", "Model Evaluation", "High Performance Computing (HPC)", "Noah-MP", "CTSM", "HRLDAS", "WACCM"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Chinese (Mandarin)",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "AI for Land Surface Modeling",
+      "keywords": ["Explainable AI", "Physics-based modeling", "Noah-MP"]
+    },
+    {
+      "name": "Plant-Rock-Water Interactions",
+      "keywords": ["Hydrological modeling", "Plant hydraulics"]
+    },
+    {
+      "name": "Space Physics",
+      "keywords": ["Meteor radar observations", "Atmospheric dynamics"]
+    },
+    {
+      "name": "Poetry and Leadership",
+      "keywords": ["Poetry club founding", "Cultural activities"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar",
+      "publisher": "JGR: Space Physics",
+      "releaseDate": "2024-12-01",
+      "website": "https://doi.org/10.1029/2024JA032767",
+      "summary": "Investigation of diurnal and seasonal variations of meteor speed and arrival angle using Mengcheng meteor radar observations, providing insights into meteoroid dynamics in the mesosphere and lower thermosphere."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A Summary Report on the Space Physics Practical Education in 2022",
+      "publisher": "Review of Geophysics and Planetary Physics",
+      "releaseDate": "2024-08-01",
+      "website": "https://www.sjdz.org.cn/en/article/doi/10.19975/j.dqyxx.2023-019",
+      "summary": "Comprehensive report on space physics practical education initiatives in 2022, documenting educational programs and outcomes in space science education."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Noah-MP land surface model with plant hydraulics scheme (Noah-MP-PHS) Evaluation",
+      "event": "JSG Research Symposium",
+      "date": "2025-02-01",
+      "location": "Austin, TX",
+      "description": "Poster presentation evaluating the Noah-MP land surface model with plant hydraulics scheme."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using WACCM-X Simulation and Meteor Radar Observations",
+      "event": "4th NASA DRIVE CGS Workshop",
+      "date": "2023-11-01",
+      "location": "Boulder, CO",
+      "description": "Oral presentation on volcanic perturbations in the mesosphere and lower thermosphere."
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using the WACCM-X Simulation and Meteor Radar Observations",
+      "event": "AGU Fall Meeting 2023",
+      "date": "2023-12-01",
+      "location": "San Francisco, CA",
+      "description": "Poster presentation at AGU 2023 documenting global-scale atmospheric perturbations from volcanic eruption."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Earth in 2100 (GEO 303E)",
+      "institution": "University of Texas at Austin, Jackson School of Geosciences",
+      "date": "2024-08-01",
+      "role": "Graduate Teaching Assistant",
+      "description": "Prepared and led weekly office hours for 520+ students, graded assignments, and provided mentorship for an interdisciplinary course examining Earth system changes and climate projections."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Explainable AI for Noah-MP Land Surface Modeling",
+      "category": "research",
+      "date": "2025-08-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "NCAR-funded project implementing AI to improve physics-based land surface models for plant-rock-water interactions. Awarded 1,000 GPU hours and significant computational resources."
+    },
+    {
+      "name": "AI Text Processing System",
+      "category": "software",
+      "date": "2025-06-01",
+      "url": "https://github.com/ktwu01/1AI-polish/",
+      "description": "Full-stack LLM text processing system with polishing, AI detection, and plagiarism reduction features. Built with FastAPI, Celery, Redis, achieving 65%+ efficiency improvement."
+    },
+    {
+      "name": "AI Agent Knowledge Base Evaluation System",
+      "category": "software",
+      "date": "2025-07-01",
+      "url": "",
+      "description": "Multi-dimensional AI agent evaluation system with data anonymization and LLM-as-a-judge architecture. Achieved 70%+ accuracy in sensitive information identification."
     }
   ]
 }
