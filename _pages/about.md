@@ -11,6 +11,10 @@ Welcome to my personal academic website. I'm Koutian Wu (吴叩天), a PhD stude
 
 ## About Me
 
+Hey there! Welcome here. How are you? 欢迎来到这儿，很高兴认识你！
+
+This is Koutian "KT" Wu (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>). I am a Proud Longhorn at **UT Austin** from 2024.
+
 I am an AI4Geoscience PhD student at UT Austin's Jackson School of Geosciences, passionate about advancing the intersection of artificial intelligence and earth sciences. My work focuses on implementing machine learning techniques to improve physics-based land surface models, particularly the Noah-MP model. I hold a Bachelor of Science with Honors in Geological and Earth Sciences from the University of Science and Technology of China (USTC).
 
 ## Research Interests
