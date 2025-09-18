@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: "CV"
+title: "CV - Koutian Wu | AI4Geoscience PhD Student at UT Austin"
+excerpt: "Comprehensive CV of Koutian Wu, AI4Geoscience PhD student specializing in explainable AI for land surface modeling, with experience in Python, MATLAB, HPC, and Earth system science research."
 permalink: /cv/
 author_profile: true
 redirect_from:

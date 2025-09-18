@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Koutian Wu"
+title                    : "Koutian Wu - AI4Geoscience PhD Student"
 title_separator          : "-"
 name                     : &name "Koutian Wu"
-description              : &description "Personal academic website"
+description              : &description "AI4Geoscience PhD student at UT Austin specializing in explainable AI for physics-based land surface modeling, Noah-MP research, and Earth system science. Expert in Python, MATLAB, HPC, and machine learning for atmospheric and geoscience applications."
 url                      : https://ktwu01.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ktwu01/ktwu01.github.io"
@@ -29,7 +29,7 @@ author:
   location         : "Austin, Texas, United States"
   employer         : "Jackson School of Geosciences at The University of Texas at Austin"
   uri              : "https://ktwu01.github.io"
-  email            : "koutian.wu@utexas.edu"
+  email            : "ktwu01@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -152,13 +152,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/profile.png"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Koutian Wu"
+  links:
+    - "https://github.com/ktwu01"
+    - "https://scholar.google.com/citations?hl=en&user=s9w1k-cAAAAJ"
+    - "https://ktwu01.github.io"
 
 
 # Analytics
