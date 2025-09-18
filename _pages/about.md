@@ -1,8 +1,9 @@
 ---
 permalink: /
-title: "About Me"
+title: "About Me - Koutian Wu | AI4Geoscience PhD Student"
+excerpt: "AI4Geoscience PhD student at UT Austin specializing in explainable AI for physics-based land surface modeling, Noah-MP research, and Earth system science."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
