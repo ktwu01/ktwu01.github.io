@@ -24,17 +24,17 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Koutian Wu"
-  pronouns         : # example: "she/her"  
-  bio              : "Researcher and Academic"
-  location         : # Add your location
-  employer         : # Add your employer/institution
-  uri              : # URL
-  email            : # Add your email
+  pronouns         : "He/Him"
+  bio              : "AI4Geoscience PhD student@UT-Austin. ex-Undergrad@USTC."
+  location         : "Austin, Texas, United States"
+  employer         : "Jackson School of Geosciences at The University of Texas at Austin"
+  uri              : "https://ktwu01.github.io"
+  email            : "koutian.wu@utexas.edu"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # Add your Google Scholar profile if you have one
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=s9w1k-cAAAAJ"
   impactstory      : # URL
   orcid            : # Add your ORCID if you have one
   semantic         : # URL
