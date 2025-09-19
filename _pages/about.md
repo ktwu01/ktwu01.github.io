@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me - Koutian Wu | AI4Geoscience PhD Student"
+title: "About Me - Koutian Wu AI4Geoscience PhD Student"
 excerpt: "AI4Geoscience PhD student at UT Austin specializing in explainable AI for physics-based land surface modeling, Noah-MP research, and Earth system science."
 author_profile: true
 redirect_from:
@@ -8,15 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal academic website. I'm Koutian Wu (吴叩天), a PhD student in Geological and Earth Sciences at The University of Texas at Austin, specializing in AI for geoscience applications.
-
 ## About Me
 
-Hey there! Welcome here. How are you? 欢迎来到这儿，很高兴认识你！
-
-This is Koutian "KT" Wu (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>). I am a Proud Longhorn at **UT Austin** from 2024.
-
-I am an AI4Geoscience PhD student at UT Austin's Jackson School of Geosciences, passionate about advancing the intersection of artificial intelligence and earth sciences. My work focuses on implementing machine learning techniques to improve physics-based land surface models, particularly the Noah-MP model. I hold a Bachelor of Science with Honors in Geological and Earth Sciences from the University of Science and Technology of China (USTC).
+Welcome to my personal academic website. Hey there! 欢迎来到这儿，很高兴认识你！ I’m Koutian "KT" Wu (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>), a Proud Longhorn at **UT Austin** since 2024. I’m an AI4Geoscience PhD student at UT Austin’s Jackson School of Geosciences, focusing on applying explainable machine learning to improve physics‑based land surface models, especially Noah‑MP. I hold a Bachelor of Science with Honors in Geological and Earth Sciences from the University of Science and Technology of China (USTC).
 
 ## Research Interests
 
