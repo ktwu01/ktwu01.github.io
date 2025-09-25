@@ -4,7 +4,7 @@ excerpt: "NCAR-funded project implementing AI to improve physics-based land surf
 collection: portfolio
 ---
 
-A major research project funded by NSF NCAR, focusing on implementing explainable AI to improve physics-based Noah-MP land surface modeling of plant-rock-water interactions.
+A major research project funded by NSF NCAR, focusing on implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling of plant-rock-water interactions.
 
 ## Project Overview
 This project represents a significant advancement in geoscience modeling, combining traditional physics-based approaches with cutting-edge AI techniques. As Project Admin for NCAR/CISL Allocation Project UTAA0012, I coordinate technical leadership and implementation of innovative workflows that enhance our understanding of land surface processes.

@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+<!-- ## About Me -->
 
 Welcome to my personal academic website. Hey there! 欢迎来到这儿，很高兴认识你！ I’m Koutian "KT" Wu (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>), a Proud Longhorn at **UT Austin** since 2024. I’m an AI4Geoscience PhD student at UT Austin’s Jackson School of Geosciences, focusing on applying explainable machine learning to improve physics‑based land surface models, especially Noah‑MP. I hold a Bachelor of Science with Honors in Geological and Earth Sciences from the University of Science and Technology of China (USTC).
 
 ## Research Interests
 
 My research centers on:
-- **AI for Land Surface Modeling**: Implementing explainable AI to improve physics-based Noah-MP land surface modeling
+- **AI for Land Surface Modeling**: Implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling
 - **Plant-Rock-Water Interactions**: Developing models for rock and wood moisture in land surface systems
 - **High Performance Computing**: Utilizing GPU and CPU clusters for large-scale geoscience simulations
 - **Model Optimization**: Physics-based land surface models including Noah-MP, CTSM, and HRLDAS
