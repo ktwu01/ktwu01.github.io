@@ -76,7 +76,7 @@ Work Experience
 
 Research Interests
 ======
-* **AI for Land Surface Modeling**: Implementing explainable AI to improve physics-based Noah-MP land surface modeling
+* **AI for Land Surface Modeling**: Implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling
 * **Plant-Rock-Water Interactions**: Developing models for rock and wood moisture in land surface systems
 * **High Performance Computing**: Utilizing GPU and CPU clusters for large-scale geoscience simulations
 * **Model Optimization**: Physics-based land surface models including Noah-MP, CTSM, and HRLDAS
