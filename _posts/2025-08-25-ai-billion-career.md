@@ -10,15 +10,7 @@ tags:
   - dashboard
 ---
 
-# AI Billion Career Project
-
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fktwu01.github.io%2Fai-career-dashboard%2F)](https://ktwu01.github.io/ai-career-dashboard/) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/ai-career-dashboard)](https://github.com/ktwu01/ai-career-dashboard) [![GitHub forks](https://img.shields.io/github/forks/ktwu01/ai-career-dashboard)](https://github.com/ktwu01/ai-career-dashboard/fork) ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
-
-[![Build Status](https://img.shields.io/travis/com/ktwu01/ai-career-dashboard.svg)](https://travis-ci.com/ktwu01/ai-career-dashboard) [![Coverage Status](https://coveralls.io/repos/github/ktwu01/ai-career-dashboard/badge.svg?branch=main)](https://coveralls.io/github/ktwu01/ai-career-dashboard?branch=main) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/ktwu01?style=social)](https://twitter.com/ktwu01)
-
-This repository contains the source code and resources for the AI Billion Career platform, a comprehensive tool to help individuals plan and navigate their careers in the AI industry.
+A comprehensive tool built with React, Vite, and Supabase to help individuals plan and navigate their careers in the AI industry.
 
 ## Project Structure
 

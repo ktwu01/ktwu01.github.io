@@ -9,15 +9,7 @@ tags:
   - automation
 ---
 
-# Tmux Orchestrator
-
-![Orchestrator Hero](/images/tmux-orchestrator/Orchestrator.png)
-
-**Run AI agents 24/7 while you sleep** - The Tmux Orchestrator enables Claude agents to work autonomously, schedule their own check-ins, and coordinate across multiple projects without human intervention.
-
-> **Note:** This is a project I explored and learned a lot from. It's a fascinating tool for orchestrating AI agents using Tmux.
-
-
+The Tmux Orchestrator enables Claude agents to work autonomously, schedule their own check-ins, and coordinate across multiple projects without human intervention - a project I explored and learned a lot from.
 ## 🤖 Key Capabilities & Autonomous Features
 
 - **Self-trigger** - Agents schedule their own check-ins and continue work autonomously

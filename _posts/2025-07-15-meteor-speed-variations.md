@@ -9,9 +9,7 @@ tags:
   - manuscript
 ---
 
-# Meteor Speed Variations Manuscript
-
-Research manuscript repository for meteor speed variations study.
+Research manuscript repository for meteor speed variations study submitted to Journal of Geophysical Research (JGR).
 
 **Repository**: https://github.com/ktwu01/Meteor-Speed-Variations-manuscript
 

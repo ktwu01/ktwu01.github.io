@@ -9,9 +9,7 @@ tags:
   - resources
 ---
 
-# NASA FINESST Resources Guide & Links
-
-A comprehensive guide for applying to NASA's Future Investigators in NASA Earth and Space Science and Technology (FINESST) program.
+A comprehensive guide for applying to NASA's Future Investigators in NASA Earth and Space Science and Technology (FINESST) program, providing graduate student research funding up to $50K/year for 3 years.
 
 ## What is FINESST?
 
