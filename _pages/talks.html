@@ -1,15 +1,16 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
 <h2>Talk Locations Map</h2>
-<p>This interactive map shows all the locations where I've given talks and presentations. The map is automatically generated from the location fields in the talk metadata.</p>
-<iframe src="/talkmap/map.html" height="700" width="100%" style="border:none; max-width: 850px; margin: 20px 0;"></iframe>
+<p>This interactive map shows locations where I've given talks and presentations.</p>
+<iframe src="/talkmap/map.html" height="700" width="100%"
+  style="border:none; max-width: 850px; margin: 20px 0;"></iframe>
 
 <h2>All Talks</h2>
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% include archive-single-talk.html %}
 {% endfor %}
