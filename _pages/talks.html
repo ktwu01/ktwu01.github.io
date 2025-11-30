@@ -5,12 +5,11 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<h2>Talk Locations Map</h2>
+<p>This interactive map shows all the locations where I've given talks and presentations. The map is automatically generated from the location fields in the talk metadata.</p>
+<iframe src="/talkmap/map.html" height="700" width="100%" style="border:none; max-width: 850px; margin: 20px 0;"></iframe>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
+<h2>All Talks</h2>
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
