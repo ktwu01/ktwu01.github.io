@@ -1,22 +1,7 @@
 var addressPoints = [
-  [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
-  ],
-  [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
-  ]
+    [30.2672, -97.7431, "An open-source geospatial AI platform based on the AlphaEarth Foundation Model<br />Geoscience Hackathon '25; Austin, TX"],
+    [30.2672, -97.7431, "Noah-MP land surface model with plant hydraulics scheme (Noah-MP-PHS) Evaluation<br />Advancing Land Modeling Symposium; Austin, TX"],
+    [30.2672, -97.7431, "Noah-MP land surface model with plant hydraulics scheme (Noah-MP-PHS) Evaluation<br />JSG research symposium; Austin, TX"],
+    [40.0150, -105.2705, "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using WACCM-X Simulation and Meteor Radar Observations<br />4th NASA DRIVE CGS Workshop; Boulder, CO"],
+    [37.7749, -122.4194, "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using WACCM-X Simulation and Meteor Radar Observations<br />AGU 2023; San Francisco, CA"]
 ];
