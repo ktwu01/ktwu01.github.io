@@ -9,8 +9,6 @@ tags:
   - cultural-exchange
 ---
 
-# Cultural Bridge
-
 A web-based platform for facilitating cross-cultural communication and understanding.
 
 ## Local Deployment

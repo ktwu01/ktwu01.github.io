@@ -9,15 +9,7 @@ tags:
   - group-website
 ---
 
-# LEAD-UTexas
-
-LEAD Group Homepage at UT Austin
-
-![LEAD Group](img/LEAD.jpg)
-
-**Welcome to Dr. Zong-Liang Yang's Land Environment and Atmospheric Dynamics (LEAD) Group at UT-Austin.**
-
-The LEAD group consists of graduate research assistants, postdoctoral fellows, and visiting scholars. We view the Earth system holistically, linking the atmosphere, ocean, biosphere, cryosphere, and solid Earth as an integrated system. We employ powerful methodologies, including satellite remote sensing, earth system modeling, and high-performance computing, which are now profoundly transforming research in Earth system sciences.
+Dr. Zong-Liang Yang's Land Environment and Atmospheric Dynamics (LEAD) Group at UT-Austin employs satellite remote sensing, earth system modeling, and high-performance computing to advance understanding of Earth system sciences.
 
 ## Research Questions
 

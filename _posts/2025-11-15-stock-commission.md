@@ -9,13 +9,7 @@ tags:
   - web-app
 ---
 
-# Stock-Commission 计算A股 股票手续费
-
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fktwu01.github.io%2Fstock-commission%2F)](https://ktwu01.github.io/stock-commission/) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/stock-commission)](https://github.com/ktwu01/stock-commission) [![GitHub forks](https://img.shields.io/github/forks/ktwu01/stock-commission)](https://github.com/ktwu01/stock-commission/fork) ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
-
-[![Build Status](https://img.shields.io/travis/com/ktwu01/stock-commission.svg)](https://travis-ci.com/ktwu01/stock-commission) [![Coverage Status](https://coveralls.io/repos/github/ktwu01/stock-commission/badge.svg?branch=main)](https://coveralls.io/github/ktwu01/stock-commission?branch=main) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/ktwu01?style=social)](https://twitter.com/ktwu01)
+A single-page calculator for estimating commissions, stamp duty, transfer fees, and target net proceeds when trading A-share stocks. [Visit Calculator](https://ktwu01.github.io/stock-commission/)
 
 ---
 
