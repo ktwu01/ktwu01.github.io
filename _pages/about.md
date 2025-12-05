@@ -52,12 +52,8 @@ Founding President, USTC Student Xingyun Poetry Club (Currently 1,197+ members)
 
 ## Leadership & Community
 
-Former President & Founder of USTC Student Xingyun Poetry Club (2020-2022), where I led the establishment of USTC's first poetry club, growing it to over 1,000 members and organizing 25+ cultural events. At age 17, I was the second youngest student club president in USTC history.
+Former President & Founder of USTC Student Xingyun Poetry Club (2020-2022), where I led the establishment of USTC's first poetry club, growing it to over 1,000 members and organizing 25+ cultural events. At age 17, I was the second youngest student club president in USTC at that time.
 
 ## Contact
 
 I'm always interested in discussing research collaborations, academic opportunities, and AI applications in geoscience. Feel free to reach out through the contact information provided in the sidebar.
-
----
-
-*This website is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub Pages.*
