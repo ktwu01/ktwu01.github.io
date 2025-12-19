@@ -15,7 +15,11 @@ tags:
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub](https://github.com/ktwu01/) 290 stars
 
-> 首先，我非常感谢这几家IDE，要么学生会员，要么是免费使用，我都没有花钱。免费使用的生产力工具，我没有资格进行批评hhh，所以下面只是我一些个人的使用经验探讨。
+> TL;DR 太长不看版本
+> Vibe coding 重度使用者, 比如说我, 为了多快好省的 hao 羊毛, 在老板不给 API 的情况下, 建议全部都用。
+> Vibe coding 轻微使用者, 如果你是学生你可以用 Cursor 学生会员, 拥有最强大的 vibe coding 功能. Kiro / Antigravity 无需验证, 直接 google帐号注册就可以用, 是最方便上手的。
+
+> Disclaimer: 首先，我非常感谢这几家IDE，要么我有学生会员，要么是免费使用，我都没有花钱。免费使用的生产力工具，我没有资格进行批评hhh，所以下面只是我一些个人的使用经验探讨。
 
 我没正经用Trae作生产工具，Vibe Coding IDE只用过VS Code，Cursor，AWS Kiro，Google Antigravity。 使用这么多的原因不是"差生文具多"，而是Cursor的学生会员免费额度+ Claude Code + Gemini CLI + Codex 加起来都不够用。 Claude Code + Gemini CLI + Codex 可能会放到下一期来聊几句。
 
@@ -55,6 +59,13 @@ Antigravity 它有一个非常贴心的功能，它默认情况下不会在你�
 
 总的来说，我觉得 Antigravity 还是挺好用的。而且选择 Gemini 模型，它思考的速度比其他几个更快一些。当然，可能只是我没有怎么用它作为生产力工具，所以产生了系统性观察偏差。
 
-最后祝 LLM 厂商们大家多多打起来，这样我们可以持续使用免费的IDE。
+
+## 总结
+
+每一家都有每一家的好处。
+Vibe coding 重度使用者, 比如说我, 为了多快好省的 hao 羊毛, 在老板不给 API 的情况下, 建议全部都用。
+Vibe coding 轻微使用者, 如果你是学生你可以用 Cursor 学生会员, 拥有最强大的 vibe coding 功能. Kiro / Antigravity 无需验证, 直接 google帐号注册就可以用, 是最方便上手的。
+
+最后祝 LLM/IDE 厂商们大家多多打起来，这样我们可以持续使用免费的IDE。
 
 > 看到文章的朋友不要转发, 知道这个羊毛的人太多之后, 羊毛的活动福利就没有了
