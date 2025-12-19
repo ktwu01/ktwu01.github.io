@@ -11,20 +11,17 @@ tags:
   - Developer Tools
 ---
 
-## Vibe Coding IDEs brief comparison
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub](https://github.com/ktwu01/) 290 stars
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/) 290 stars
 
 > TL;DR 太长不看版本
 
-> Vibe coding 重度使用者, 比如说我, 为了多快好省的 hao 羊毛, 在老板不给 API 的情况下, 建议全部都用。
+> Vibe coding 重度使用者, 比如说我, 为了多快好省的薅羊毛, 在老板不给 API 的情况下, 建议全部都用。
 
-> Vibe coding 轻微使用者, 如果你是学生你可以用 Cursor 学生会员, 拥有最强大的 vibe coding 功能. Kiro / Antigravity 无需验证, 直接 google 帐号注册就可以用, 是最方便上手的。
-
-> Disclaimer: 首先，我非常感谢这几家 IDE，要么我有学生会员，要么是免费使用，我都没有花钱。
-> 免费使用的生产力工具，我没有资格进行批评 hhh，所以下面只是我一些个人的使用经验探讨。
+> Vibe coding 轻微使用者, 如果你是学生, 建议使用 Cursor 学生会员, 拥有最强大的 vibe coding 功能. 如果不是学生, Kiro / Antigravity 无需验证, 直接 google 帐号注册就可以用, 是性价比最高的。
 
 我没正经用 Trae 作生产工具，Vibe Coding IDE 只用过 VS Code，Cursor，AWS Kiro，Google Antigravity。 使用这么多的原因不是"差生文具多"，而是 Cursor 的学生会员免费额度 + Claude Code + Gemini CLI + Codex 加起来都不够用。 Claude Code + Gemini CLI + Codex 可能会放到下一期来聊几句。
+
+## Cursor
 
 Cursor 花活多，各套 vibe coding 配置最全。设计比较细心。
 
@@ -34,7 +31,15 @@ Cursor 花活多，各套 vibe coding 配置最全。设计比较细心。
 
 ![Cursor revert choice](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.13.08.png)
 
-Kiro 适合免费用 Claude 模型, 对每个新注册的用户, 不需要验证, 直接提供 500 个 credit. 使用多个 Google/AWS/ 账号薅，但是它只提供 Claude 的模型，包括 Opus 4.5
+## Kiro
+
+AWS 的 Kiro 免费用 Claude 模型, 对每个新注册的用户, 不需要验证直接提供 500 credit. 也就是说你可以创建+使用多个 Google/AWS/ 账号连续不断的薅羊毛.
+
+并且kiro最近热度下降的原因，导致LLM反应速度比之前更快。刚刚我正好free tier的一个账号耗尽了credit，算了一下 500 credit 可以搭一个 60k+ lines 的 multiagents system MVP, 还是挺不错的.
+
+![Kiro usage limits](/images/vibe-coding-ides/db0ed4ed320b45abc3020419b8cfdb69.JPG)
+
+Kiro 免费tier就可以用几种Claude模型，包括opus 4.5. 但是 Kiro 只提供 Claude 的模型.
 
 ![Kiro models](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.25.50.png)
 
@@ -58,6 +63,8 @@ Kiro 一个缺点是，LLM 对话超过最大内容限度之后，会强制性 s
 
 ![Kiro conversation splitting](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.26.19.png)
 
+## Antigravity
+
 Google 的 Antigravity 反倒是不仅限于自家模型，免费提供了 Gemini Pro high, GPT OSS, Claude Opus 4.5. 这真的可以算是海纳百川，天地良心了。
 
 ![Antigravity models](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.27.13.png)
@@ -78,4 +85,8 @@ Vibe coding 轻微使用者, 如果你是学生你可以用 Cursor 学生会员,
 
 最后祝 LLM/IDE 厂商们大家多多打起来，这样我们可以持续使用免费的 IDE。
 
-> 看到文章的朋友不要转发, 知道这个羊毛的人太多之后, 羊毛的活动福利就没有了
+> Note: 看到文章的朋友不要转发, 知道这个羊毛的人太多之后, 羊毛的活动福利就没有了
+
+> Acknowledgement: 我非常感谢这几家 IDE，要么我有学生会员，要么是免费使用，我都没有花钱。免费使用的生产力工具，我没有资格进行批评 hhh，所以上面的内容只是我一些个人的使用经验探讨。
+
+> Disclaimer: 不是提倡薅羊毛, 而是提倡先用大公司大爱无疆提供的免费资源 先成就自己, 而后再利人, 创造出比单纯付费购买会员更大的价值.
