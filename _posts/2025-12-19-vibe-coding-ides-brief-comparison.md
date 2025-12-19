@@ -31,11 +31,14 @@ Vibe Coding IDE 只用过Cursor，AWS Kiro，Google Antigravity。 使用这么�
 
 Cursor 花活多，各套 vibe coding 配置最全。设计比较细心, 符合它的"卓越的生产力工具"的定位。
 
+> 比如说，可以选择多个不同的模式进行思考和创作.
+![Cursor modes](/images/vibe-coding-ides/Cursor-modes.png)
+
 > 比如说，可以选择多个模型 在不同的 git worktree 一起思考。
-> ![Cursor multi-model worktrees](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.14.49.png)
+![Cursor multi-model worktrees](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.14.49.png)
 
 ![Cursor models](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2015.55.14.png)
-可以选择多个模型的好处就是, 你可以使用各种功能. 有的模型它不能自带网页搜索功能, 这个就会令人头疼.
+> 可以选择多个模型的好处就是, 你可以使用各种功能. 有的模型它不能自带网页搜索功能, 这个就会令人头疼.
 
 ![Cursor revert choice](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.13.08.png)
 > Cursor 这里可以选择是“revert”，也可以选择不“revert”。 留给用户更自主的选择，是尊重用户智商的表现。其他几家都强制默认“revert”, 我个人觉得这不好。
@@ -47,7 +50,7 @@ Agentic AI development from prototype to production. Kiro helps you do your best
 
 所以它的关键词是 "spec-driven".
 
-AWS 的 Kiro 刚出来的时候，最大的的特色是他的 spec 功能, 可以选择“fast”，也可以选择先出 very detailed plan 再执行，但是现在其他家也有类似功能。
+Kiro 的 spec 功能, 可以选择"Vibe"，也可以选择先 make very detailed plan 再执行，但是现在其他家也有类似功能。就比如说 Antigravity 的 “fast” 也可以生成相应的计划。
 
 ![Kiro spec feature](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.16.58.png)
 
@@ -90,6 +93,9 @@ Google 的 Antigravity 反倒是不仅限于自家模型，免费提供了 Gemin
 Antigravity 它有一个非常贴心的功能，它默认情况下不会在你的代码库里面创建那么多乱七八糟的仓库介绍。 但是他仍然默认会拉屎。 不会在你的代码库里面拉屎；它会在它自己的库 (brain) 里面拉屎。 是的，希望不要满脑子都是屎。
 
 ![Antigravity brain artifacts](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.28.27.png)
+
+> Antigravity可以选择不同的模式进行coding.
+![Antigravity modes](/images/vibe-coding-ides/Antigravity-modes.png)
 
 总的来说，我觉得 Antigravity 还是挺好用的。而且选择 Gemini 模型，它思考的速度比其他几个更快一些。当然，可能只是我没有怎么用它作为生产力工具，所以产生了系统性观察偏差。
 
