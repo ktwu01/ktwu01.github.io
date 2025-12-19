@@ -6,4 +6,8 @@ This is a simple rule to add a new blog post: just to follow exactly this format
 
 `_posts/2025-12-19-vibe-coding-ides-brief-comparison.md`
 
-- Place images under `/_posts/attachments/`. Use quotes during copy and URL-encode spaces (`%20`) in Markdown links so Jekyll can render them.
+- Place images under `/images/<post-name>/` (e.g., `/images/vibe-coding-ides/`). Use absolute paths with URL-encoded spaces (`%20`) in Markdown links (e.g., `![alt text](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.14.49.png)`). Do NOT use `_posts/attachments/` as Jekyll won't serve files from the `_posts/` directory.
+
+Line Breaks: Added blank lines between natural paragraphs to ensure correct rendering.
+
+Spacing: Added spaces between Chinese and English characters throughout the document (e.g., "Cursor学生会员" -> "Cursor 学生会员", "vibe coding功能" -> "vibe coding 功能").
