@@ -78,3 +78,4 @@ With over 38,000 subscribers already, you'll be joining a community of developer
 
 > If you know of other high-quality AI/LLM resources, feel free to share them with me. Building a good reading list is one of the best investments you can make in this rapidly changing field.
 
+
