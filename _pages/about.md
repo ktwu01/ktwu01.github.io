@@ -10,6 +10,30 @@ redirect_from:
 
 <!-- ## About Me -->
 
+<!-- TODO!!! 侧边栏可以加入小红书微信公众号的链接 -->
+
+## Quick facts
+
+<!-- **Founder**: Dropout founder, acquired company. -->
+
+**GitHub Commits**: 3,000+ per year.
+
+**GitHub Stars**: 3,00+.
+
+<!-- Capital: Involved in managing USD 450M+ -->
+
+<!-- % ref: 吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
+Network: 7,500+ intern sourcing engine built.
+
+Writing: 1M+ reads, student founders.
+
+<!-- Fieldwork: Visited 140+ universities globally. -->
+
+<!-- Speed: 30 young founders backed during that trip. -->
+
+Personal: I love swimming and boudering.
+
+
 I focus on applying explainable machine learning to improve physics‑based land surface models, especially Noah‑MP. I hold a Bachelor of Science with Honors in Geological and Earth Sciences from the University of Science and Technology of China (USTC).
 
 ## Research Interests
