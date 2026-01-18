@@ -11,6 +11,9 @@ redirect_from:
 <!-- ## About Me -->
 
 <!-- TODO!!! 侧边栏可以加入小红书微信公众号的链接 -->
+<!-- For social meadia count, see /Users/kw35262/Library/Mobile Documents/com~apple~CloudDocs/0KWCV/吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
+
+**Mission**: I want to be the bridge connecting scientific and technological idealism with commercial realism.
 
 ## Quick facts
 
@@ -23,15 +26,27 @@ redirect_from:
 <!-- Capital: Involved in managing USD 450M+ -->
 
 <!-- % ref: 吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
-Network: 7,500+ intern sourcing engine built.
+Network: 9,650+ followers/friends across all platforms.
 
-Writing: 1M+ reads, student founders.
+Writing: 1M+ reads, research/VC/methodology.
 
 <!-- Fieldwork: Visited 140+ universities globally. -->
 
 <!-- Speed: 30 young founders backed during that trip. -->
 
 Personal: I love swimming and boudering.
+
+## What I’m Looking For
+
+I am most interested in connecting with:
+
+Young founders with unusual agency.
+
+Scientists who want to build, not just publish.
+
+Educators designing systems, not courses.
+
+People who take responsibility for their own trajectory.
 
 
 I focus on applying explainable machine learning to improve physics‑based land surface models, especially Noah‑MP. I hold a Bachelor of Science with Honors in Geological and Earth Sciences from the University of Science and Technology of China (USTC).
