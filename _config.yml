@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Koutian Wu"
-  pronouns         : "He/Him/His"
+  # pronouns         : "He/Him/His"
   bio              : "AI4Geoscience PhD student @ UT-Austin. ex-Undergrad @ USTC."
   location         : "Austin, Texas, US | Beijing, China"
   employer         : "University of Texas at Austin"
