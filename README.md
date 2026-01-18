@@ -31,7 +31,7 @@ To run this website locally, ensure you have Ruby and Bundler installed, then fo
 
 ## Contact
 
-I am always open to discussing research collaborations. Please feel free to contact me at `ktwu01@utexas.edu`.
+I am always open to discussing research collaborations. Please feel free to contact me at `ktwugoat@gmail.com`.
 
 ---
 
