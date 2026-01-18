@@ -13,7 +13,7 @@ redirect_from:
 <!-- TODO!!! 侧边栏可以加入小红书微信公众号的链接 -->
 <!-- For social meadia count, see /Users/kw35262/Library/Mobile Documents/com~apple~CloudDocs/0KWCV/吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
 
-**Mission**: I want to be the bridge connecting scientific and technological idealism with commercial realism.
+# I want to be the bridge connecting scientific and technological idealism with commercial realism.
 
 ## Quick facts
 
