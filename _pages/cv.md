@@ -14,8 +14,8 @@ Education
 ======
 * **Ph.D. in Geological and Earth Sciences/Geosciences**, The University of Texas at Austin, Aug 2024 - May 2029
   * Focus: Model Optimization of Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
-  * Activities: Rock Climbing, Model Optimization research
-  * Advisors: Dr. Zong-Liang Yang, Dr. Daniella Rampe, Dr. Ashley Matheny
+  * Activities: Model Optimization research
+  * Advisors: Dr. Zong-Liang Yang
 
 * **B.S. with Honors in Geological and Earth Sciences/Geosciences**, University of Science and Technology of China, Sep 2020 - Jul 2024
   * Founding President, USTC Student Xingyun Poetry Club (Currently 1,197+ members) 2020-2022
