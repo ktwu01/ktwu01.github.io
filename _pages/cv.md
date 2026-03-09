@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+This may not be fully updated. Please refer to my fully updated PDF version resume at https://github.com/ktwu01/CV.
+
 Education
 ======
 * **Ph.D. in Geological and Earth Sciences/Geosciences**, The University of Texas at Austin, Aug 2024 - May 2029
