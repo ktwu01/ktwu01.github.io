@@ -12,6 +12,70 @@ redirect_from:
 
 This may not be fully updated. Please refer to my fully updated PDF version resume at https://github.com/ktwu01/CV.
 
+Highlights
+======
+* Seeking internships in AI Agent Development/Test/Evaluation, ML/DL/DS, and Full-Stack Engineering
+* 2+ years work experience (US/International)
+* 4+ years research/programming experience
+* 290+ stars on GitHub
+
+Education
+======
+* **Ph.D. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: May 2029
+  * TA for 1,000+ students (Rating: 4.5/5.0)
+  * Invited Reviewer for *Planetary and Space Sciences* (Elsevier, Scopus Q2)
+
+* **B.S. in Geosciences (Honors Class)**, University of Science and Technology of China, 2020 - 2024
+  * Nominated for the Highest Honor for USTC undergraduates (one of the two ESS School nominees)
+  * Founded one of the largest student clubs, grew from 0 to 1,300+ members. [News]
+
+Work Experience
+======
+* **Technical Co-Founder, Lead Engineer & Investor Relations** (Jan 2026 - Present)
+  * Tacite.AI, Austin, TX
+  * Designed and built Atomize - a proactive AI assistant that works 24/7 and targets 10x higher efficiency than human secretaries - using a local-first React/Electron architecture for privacy and speed.
+  * Led core product implementation (65%+ of codebase) with test-driven development, focused on agentic team alignment and dynamic scheduling.
+  * Managed repository version control and CI/CD pipelines, establishing branching and review processes across 300+ commits.
+  * Leveraged venture capital experience to support investor relations, translating technical architecture into clear value propositions.
+
+* **AI Intern, AI Agent Knowledge Base Evaluation** (Jul 2025 - Aug 2025)
+  * 19Pine.AI (Singapore), Remote
+  * Implemented a multi-dimensional evaluation system from scratch for PineAgent's RAG knowledge base.
+  * Developed a data sanitization module removing 2,000+ PII entries and noise from 1,000+ call sessions.
+  * Extracted 3,000+ Q&A pairs (knowledge/method/strategy) from call sessions to form the evaluation dataset.
+  * Deployed concurrent LLM-as-judge + rule-based engine, measuring precision/recall/F1 to enable RLHF optimization.
+
+* **Full-Stack Intern, LLM Text Processing System** (Jun 2025 - Jul 2025)
+  * ZaiwenAI.com, Beijing, China
+  * Fulfilled multiple roles in the startup, from design to deployment. [Code] (non-company business) [Demo]
+  * Developed a 3-module MVP: LLM-footprint detection, removal, and plagiarism checking for researchers.
+  * Built a RESTful backend with FastAPI and an asynchronous task queue with Celery + Redis.
+  * Created a Vue.js frontend with 9-format document upload and SSE-based real-time LLM response streaming.
+
+* **AI Consulting Expert** (May 2025 - Jun 2025)
+  * Invited by the CEO, Keshi Edu, Remote (Beijing)
+  * Designed an architecture for a RAG-based knowledge base to customize student graduate program applications.
+  * Identified critical bugs and exposed API keys, helping avoid significant potential losses.
+
+* **Research Assistant, ML Model/Multi-agent Development** (Aug 2025 - Jan 2026)
+  * UT Austin, Austin, TX
+
+* **Project Lead, High-Performance Computing Allocation** (Aug 2025 - Present)
+  * NSF NCAR, Remote
+  * Proposed and secured NSF NCAR allocation: 1k GPU + 22k CPU hours.
+  * Integrating machine learning parameter calibration for a SOTA physics-based land surface model (Noah-MP).
+  * Developing a multi-expert AI agent system for automated parameterization for physics-based climate models.
+
+Publications
+======
+* Wu, K., He, C., & Yang, Z.-L.* (in preparation). **Noah-Agent: A Multi-Expert AI Agent Framework for Automated Parameterization and Validation of Large-Scale Fortran Climate Models** [Preprint]
+* Wu, K., Yi, W.*, Xue, X.*, Reid, I., & Lu, M. (2024). **Diurnal and Seasonal Variations of Meteor Speed and Arrival Angle Observed by Mengcheng Meteor Radar**. *JGR: Space Physics*. [Paper] [Code] [Data]
+
+Skills
+======
+* Python, FastAPI, JavaScript, TypeScript, React, SQL, PyTorch, TensorFlow, LangChain, RAG
+* Docker, HPC, AWS/GCP, Redis, Git, HuggingFace
+
 Education
 ======
 * **Ph.D. in Geological and Earth Sciences/Geosciences**, The University of Texas at Austin, Aug 2024 - May 2029
