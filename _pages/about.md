@@ -28,7 +28,7 @@ redirect_from:
 <!-- % ref: 吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
 Network: 9,650+ followers/friends across all platforms.
 
-Writing: 1M+ reads, research/VC/methodology.
+Writing: 1M+ reads, Startup/Research/VC/Life.
 
 <!-- Fieldwork: Visited 140+ universities globally. -->
 
