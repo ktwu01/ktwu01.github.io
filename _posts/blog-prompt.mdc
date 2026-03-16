@@ -2,12 +2,61 @@
 alwaysApply: false
 ---
 
-This is a simple rule to add a new blog post: just to follow exactly this format of below post.
+Use this prompt when creating a new blog post under `_posts/`.
+
+Reference format:
 
 `_posts/2025-12-19-vibe-coding-ides-brief-comparison.md`
 
-- Place images under `/images/<post-name>/` (e.g., `/images/vibe-coding-ides/`). Use absolute paths with URL-encoded spaces (`%20`) in Markdown links (e.g., `![alt text](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.14.49.png)`). Do NOT use `_posts/attachments/` as Jekyll won't serve files from the `_posts/` directory.
+Core output rules:
 
-Line Breaks: Added blank lines between natural paragraphs to ensure correct rendering.
+- If the task asks for both Chinese and English versions of the same post, create two separate files under `_posts/`. Do not mix two languages in one markdown file.
+- Use parallel filenames for the same piece:
+  - English: `YYYY-MM-DD-topic-slug.md`
+  - Chinese: `YYYY-MM-DD-topic-slug-cn.md`
+- Give each file its own front matter, title, permalink, and tags.
+- Keep the argument, structure, and examples aligned across languages, but do not translate sentence by sentence. Each version should read like it was originally written in that language.
+- The Chinese version is not a subtitle track for the English version, and the English version is not a mechanical translation of the Chinese version.
 
-Spacing: Added spaces between Chinese and English characters throughout the document (e.g., "Cursor学生会员" -> "Cursor 学生会员", "vibe coding功能" -> "vibe coding 功能").
+Writing rules:
+
+- Organize the article by natural paragraphs, not by sentence fragments.
+- Do not turn the body into bullet points unless the user explicitly asks for bullets.
+- Prefer short-to-medium paragraphs with clear progression: claim, pressure, consequence, example, takeaway.
+- Keep the tone sharp, practical, direct, and unsentimental.
+- Avoid empty inspiration, soft motivational filler, and corporate wording.
+- **Avoid robotic labels or "Label: Description" formatting (e.g., "Step 1: ...", "Experience 1: ..."). Use natural language transitions instead.** 去掉“具体经历一/二/三”这类生硬的标签，改用更自然的过渡词（如“比如”、“再比如”、“而最关键的一次”）
+- Every paragraph should do real work: advance the argument, sharpen the frame, or add evidence.
+- When writing in Chinese, keep the prose natural and forceful. When writing in English, keep it crisp and readable rather than over-literal.
+
+First sentence rules:
+
+- The first sentence is critical because it appears in archive listings and RSS feeds.
+- Make it substantive and engaging, not generic or meta.
+- For technical posts: Lead with the problem solved, capability enabled, or key insight.
+- For narrative posts: Lead with an intriguing statement, personal observation, or compelling hook.
+- For guide posts: Lead with who benefits and what concrete value they'll gain.
+- Avoid weak openings like "Welcome to...", "This is a post about...", "In this article...", or "This is a legacy post..."
+- Test: Would this sentence make a reader want to click in an archive listing? Does it convey unique value?
+- Examples of strong first sentences:
+  - "The Tmux Orchestrator enables Claude agents to work autonomously, schedule their own check-ins, and coordinate across multiple projects without human intervention."
+  - "三次死亡让我完成了自我升级。"
+  - "Today I had an interesting experience collaborating with Claude Code to completely overhaul my personal academic website."
+
+Formatting rules:
+
+- Place images under `/images/<post-name>/` (e.g. `/images/vibe-coding-ides/`).
+- Use absolute paths with URL-encoded spaces (`%20`) in Markdown links.
+- Do not use `_posts/attachments/` because Jekyll will not serve files from `_posts/`.
+- Add blank lines between natural paragraphs so Markdown renders correctly.
+- Add spaces between Chinese and English characters where appropriate (e.g. `Cursor 学生会员`, `vibe coding 功能`).
+
+Front matter rules:
+
+- Follow the repo's existing Jekyll format with `title`, `date`, `permalink`, and `tags`.
+- Use distinct permalinks for bilingual pairs so they do not collide.
+- Keep titles native to the target language rather than awkwardly mirrored.
+
+Execution rule:
+
+- When the user requests a bilingual post, output both files completely, with each file ready to save directly into `_posts/`.
