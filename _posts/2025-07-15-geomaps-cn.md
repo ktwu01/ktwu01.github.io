@@ -10,7 +10,7 @@ tags:
   - visualization
 ---
 
-这是一个综合工具集，用于在 Python 和 MATLAB 环境中创建适合论文发表的地理可视化图与科学地图。
+用 Python 和 MATLAB 创建适合论文发表的科学地图与地理可视化图件。
 
 ## 项目
 

@@ -9,7 +9,7 @@ tags:
   - legacy
 ---
 
-This is a legacy post preserved from an older backup. While some links or formatting may be dated, the resources remain useful for students and researchers.
+A collection of USTC academic resources covering career planning, library access, and research tools.
 
 <h3><p><a style="color: #447ec9" href="https://www.zhihu.com/question/515187337/answer/2338226609">How to build a USTC homepage in 5 minutes (5分钟搭建中科大学术主页) </a></p></h3>
 
