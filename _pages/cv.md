@@ -10,7 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-This may not be fully updated. Please refer to my fully updated PDF version resume at https://github.com/ktwu01/CV.
+<iframe src="https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf" width="100%" height="800px" style="border: none;">
+    <p>It appears your web browser doesn't support iframes. You can <a href="https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf">download the PDF</a> instead.</p>
+</iframe>
 
 Highlights
 ======
@@ -31,12 +33,9 @@ Education
 
 Work Experience
 ======
-* **Technical Co-Founder, Lead Engineer & Investor Relations** (Jan 2026 - Present)
+* **Co-Founder** (Jan 2026 - Present)
   * Tacite.AI, Austin, TX
-  * Designed and built Atomize - a proactive AI assistant that works 24/7 and targets 10x higher efficiency than human secretaries - using a local-first React/Electron architecture for privacy and speed.
-  * Led core product implementation (65%+ of codebase) with test-driven development, focused on agentic team alignment and dynamic scheduling.
-  * Managed repository version control and CI/CD pipelines, establishing branching and review processes across 300+ commits.
-  * Leveraged venture capital experience to support investor relations, translating technical architecture into clear value propositions.
+  * Co-founded an AI startup focused on developing Atomize, a proactive AI assistant utilizing a local-first React/Electron architecture for privacy and speed.
 
 * **AI Intern, AI Agent Knowledge Base Evaluation** (Jul 2025 - Aug 2025)
   * 19Pine.AI (Singapore), Remote
