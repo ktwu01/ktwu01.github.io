@@ -10,9 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf&embedded=true" width="100%" height="800px" style="border: none;">
-    <p>It appears your web browser doesn't support iframes. You can <a href="https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf">download the PDF</a> instead.</p>
-</iframe>
+<embed src="https://cdn.jsdelivr.net/gh/ktwu01/CV@main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf" type="application/pdf" width="100%" height="800px" />
 
 Highlights
 ======
