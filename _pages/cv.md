@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf" width="100%" height="800px" style="border: none;">
+<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf&embedded=true" width="100%" height="800px" style="border: none;">
     <p>It appears your web browser doesn't support iframes. You can <a href="https://raw.githubusercontent.com/ktwu01/CV/main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf">download the PDF</a> instead.</p>
 </iframe>
 
@@ -19,7 +19,7 @@ Highlights
 * Seeking internships in AI Agent Development/Test/Evaluation, ML/DL/DS, and Full-Stack Engineering
 * 2+ years work experience (US/International)
 * 4+ years research/programming experience
-* 290+ stars on GitHub
+* 300+ stars on GitHub
 
 Education
 ======
