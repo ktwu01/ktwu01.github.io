@@ -28,6 +28,7 @@ Writing rules:
 - **Avoid robotic labels or "Label: Description" formatting (e.g., "Step 1: ...", "Experience 1: ..."). Use natural language transitions instead.** 去掉“具体经历一/二/三”这类生硬的标签，改用更自然的过渡词（如“比如”、“再比如”、“而最关键的一次”）
 - Every paragraph should do real work: advance the argument, sharpen the frame, or add evidence.
 - When writing in Chinese, keep the prose natural and forceful. When writing in English, keep it crisp and readable rather than over-literal.
+- **When the user provides source text, be faithful to the original text. Do not write in an overly abstract way. Use the user's original text as much as possible, do not modify the original expressions too much. You can rearrange sentences, but do not change the original wording. Be faithful to the original text, do not try to rewrite or improve the original text. You can rearrange sentences, but do not change the original wording.**
 
 First sentence rules:
 
