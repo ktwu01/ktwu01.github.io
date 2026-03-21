@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="https://cdn.jsdelivr.net/gh/ktwu01/CV@main/CV_Koutian_Wu_UTAustin_PhD_AI.pdf" type="application/pdf" width="100%" height="800px" />
+<embed src="https://cdn.jsdelivr.net/gh/ktwu01/resume@main/resume_AI_Koutian_Wu_UTAustin_PhD.pdf" type="application/pdf" width="100%" height="800px" />
 
 Highlights
 ======
