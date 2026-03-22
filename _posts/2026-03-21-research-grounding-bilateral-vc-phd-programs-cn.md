@@ -1,5 +1,5 @@
 ---
-title: '为什么这篇关于博士制度与 VC 模型的 preprint 很重要'
+title: 'AI 时代，PhD 应该按风投模式培养'
 date: 2026-03-21
 permalink: /posts/2026/03/research-grounding-bilateral-vc-phd-programs-cn/
 tags:
