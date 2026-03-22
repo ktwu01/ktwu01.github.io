@@ -1,0 +1,236 @@
+## Abstract
+
+A PhD system built on a 19th-century apprenticeship model is failing by nearly every empirical measure: **~40-50% attrition**, depression rates six times the general population, and tenure-track placement below 15% in many fields. At the same time, venture capital has spent four decades perfecting bilateral contracts that manage exactly the risks PhD programs ignore: information asymmetry, moral hazard, hold-up, and misaligned incentives. The literature across economics, education policy, signaling theory, and AI research converges on a striking conclusion: the structural tools to fix the PhD already exist in VC contract design, but academia has never imported them. This research compendium maps the evidentiary landscape across six domains to ground the argument.
+
+## 1. The PhD system is failing by its own metrics
+
+### 1.1 Attrition and completion
+
+The most robust estimate of PhD attrition comes from the **Council of Graduate Schools' PhD Completion Project** (Sowell et al., 2008), which tracked ~49,000 students across 30 institutions: the **10-year completion rate was only 56.6%**, with humanities at 49% and engineering at 64%. Bair and Haworth's (2004) meta-synthesis established the widely cited **40-60% attrition** range across doctoral programs. Wollast et al. (2018) confirmed these rates and found that unfunded students had **2.5-6x higher dropout**, while Lovitts (2001), the foundational monograph on doctoral departure, showed that most students leave not for financial or academic reasons but due to dissatisfaction with the program itself, and that some departments had attrition exceeding 80%.
+
+Completion times compound the problem. The **NSF Survey of Earned Doctorates** reports median time-to-degree of **5.5-5.8 years** in STEM, **6-7 years** in social sciences, and **7+ years** in humanities, with overall averages around 7.3 years. Historical NSF data shows median total time from bachelor's to doctorate exceeding 10 years in some fields.
+
+### 1.2 Mental health crisis
+
+The empirical picture of PhD mental health is grim across every study design. **Evans et al. (2018)** in *Nature Biotechnology* surveyed 2,279 students across 26 countries and found **>40% with moderate-to-severe anxiety and ~39% with moderate-to-severe depression**, rates six times higher than the general population. **Levecque et al. (2017)** in *Research Policy*, using the validated GHQ-12 instrument on 3,659 Belgian PhD students, found **32% at risk of psychiatric disorder**, 2.43x higher than matched highly educated populations. Key predictors included work-family conflict, low job control, and supervisor leadership style.
+
+**Satinsky et al. (2021)** conducted the first systematic review and meta-analysis, synthesizing 32 studies: pooled depression prevalence was **24% (95% CI: 18-31%)**, anxiety **17% (95% CI: 12-23%)**, and suicidal ideation **2-12%** across six studies. Nature's 2019 survey of 6,320 PhD students found **36% had sought help for anxiety or depression** (up from 12% in earlier surveys), with 20% reporting bullying and 20% reporting harassment.
+
+A critical methodological corrective comes from **Keloharju et al. (2024)**, who used Swedish administrative data on psychiatric medication prescriptions for the entire PhD population. They confirmed a causal PhD effect: medication use rose **40% by year five** compared to pre-PhD levels and declined after graduation, but noted the effect may be smaller than self-report surveys suggest.
+
+### 1.3 Advisor relationships and labor market outcomes
+
+**Zhao, Golde, and McCormick (2007)** found that advisor behaviors, particularly academic mentoring quality and using students as cheap labor, were robust predictors of doctoral satisfaction across 27 universities. Berdanier's GrAD model found that **advisor relationship quality explained 12% of variance in early departure**, with financial dependency on advisor grants creating structural power asymmetry.
+
+Labor market data tells a stark story. **Cyranoski et al. (2011)** in *Nature* documented that in 1973, **55% of US bio-science PhDs** secured tenure-track positions within six years; by 2006, **only 15%** did. Hayter and Parker (2019) confirmed that **fewer than 15% of postdocs** find tenure-track positions. Weinstein et al. (2016) linked NSF data to Census records and found biology PhDs earned only ~$36,000 annually post-graduation, reflecting low postdoc wages.
+
+### 1.4 Why students leave
+
+Golde (2005) established that **departments, not students, are primarily responsible for attrition patterns**, with departmental culture, advising quality, and career prospects as key drivers. Glorieux et al. (2024) showed that first-year experiences predict later dropout: time pressure increased dropout likelihood by **42% in life sciences**. A PMC review found that only **27.7% of faculty supervising PhD students had formal mentoring training**.
+
+## 2. Principal-agent theory diagnoses what is structurally wrong
+
+### 2.1 Moral hazard and information asymmetry
+
+**Guston (1996, 2000)** introduced principal-agent theory to science policy, identifying moral hazard (scientists diverting resources to their own agendas) and adverse selection (inability to assess agent quality ex ante) as inherent to delegation relationships in research. Braun and Guston (2003) extended this framework in a *Science and Public Policy* special issue, arguing it provides both theoretical rigor and practical diagnostic power for analyzing research policy failures.
+
+Applied to PhD supervision, **double moral hazard** is the core problem: advisors face temptation to exploit student labor for publications and grants; students may shirk once committed. The power asymmetry makes advisor moral hazard far more consequential. **Paula Stephan's** *How Economics Shapes Science* (2012) documents that universities use PhD students as "cheap, highly motivated and disposable labour," with faculty preferring temporary workers over permanent staff due to cost, a system she compares to a "pyramid scheme."
+
+### 2.2 Adverse selection in PhD matching
+
+**Posselt (2016)** conducted the first ethnographic study of elite PhD admissions committees and found faculty describing admissions as **"gambling"** under severe information asymmetry, relying on imperfect signals (GRE scores, institutional prestige) while stereotyping applicants. **Sauermann and Roach (2012, 2017)** documented that advisors predominantly encourage academic careers even when students have non-academic interests, a form of biased information provision, and that **~25% of students lose interest in academic careers during training**, driven by discovering misalignment between their preferences and the reality of academic work they could not observe before committing.
+
+### 2.3 Hold-up and relationship-specific investment
+
+The hold-up problem, formalized by **Williamson (1979)** and **Klein, Crawford, and Alchian (1978)**, maps precisely onto the PhD. Students make years of relationship-specific human capital investments: learning an advisor's methodology, building on their data, developing narrow subfield expertise, all of which have substantially lower value outside the specific relationship. This creates lock-in where switching advisors entails lost years, forfeited co-authorships, and reputational damage, giving advisors disproportionate bargaining power.
+
+### 2.4 Multitask incentive distortion
+
+**Holmstrom and Milgrom's (1991)** multitask principal-agent model explains why advisors may neglect hard-to-measure mentoring in favor of measurable research output: when an agent performs multiple tasks with different measurability, high-powered incentives on measurable tasks cause neglect of the rest. This directly explains why publication pressure crowds out mentoring quality.
+
+### 2.5 Matching market design failure
+
+**Roth's (1984)** work on the medical residency match demonstrated how uncoordinated matching markets suffer from unraveling and instability. Unlike medical matching, PhD-advisor matching remains largely uncoordinated, producing systematic inefficiencies that existing economic theory can diagnose. **Ehrenberg et al. (2007)**, in an NBER working paper, identified which program characteristics influence attrition and graduation probabilities, but these factors are largely opaque to prospective students, providing direct evidence for the information asymmetry problem.
+
+**A notable gap in the literature**: no paper formally models the PhD advisor-student relationship using a complete bilateral contract-theory framework. This represents a genuine contribution opportunity for the position paper.
+
+## 3. Venture capital has already solved bilateral risk management
+
+### 3.1 How VC contracts allocate risk
+
+The foundational empirical work is **Kaplan and Stromberg (2003)**, who analyzed 213 VC investments and showed that VC contracts separately allocate cash flow rights, voting rights, board rights, and liquidation rights, frequently contingent on performance. If entrepreneurs perform poorly, control transfers to investors; if they perform well, VCs retain cash flow but abandon most control rights. Their 2004 follow-up showed that **greater internal risk leads to more contingencies for the entrepreneur**, meaning contract terms are calibrated to specific risk assessments.
+
+**Sahlman (1990)** described the foundational VC organizational structure, emphasizing that staged capital infusion, compensation structures, and covenants all evolved specifically to manage principal-agent conflicts. **Gompers and Lerner (2001)** provided the clearest concise treatment of how VC mechanisms solve information problems through screening, staged financing, syndication, and monitoring, each of which has a direct PhD analogue (admissions as screening, qualifying exams as staged financing, committee oversight as syndication, advisor meetings as monitoring).
+
+**Ewens, Gorbenko, and Korteweg (2022)** estimated the optimal equity split, about **15% VC ownership upon conversion**, that maximizes success probability, consistent with double moral hazard theories. Wang and Zhou (2004) formally derived the advantage of staged financing over upfront financing under information asymmetry: staged funding creates the **option to abandon** bad projects, reducing costs and mitigating moral hazard.
+
+### 3.2 Mutual due diligence reduces information asymmetry
+
+Research on two-sided information asymmetry in VC (Landstrom and Mason, 2020) identified four mechanisms entrepreneurs use to mitigate information problems: optimal timing, ensuring VC fit, studying the VC process, and building trust-based relationships. **Entrepreneurs must conduct "due diligence on the investors"**, a bilateral process conspicuously absent from PhD admissions, where students have almost no structured way to evaluate advisors before committing.
+
+### 3.3 Human capital as investable asset
+
+**Becker's (1964)** *Human Capital* established the theoretical foundation for treating education as investment. **Palacios (2004)** developed the concept of "human capital contracts" where students pay a percentage of future income in exchange for educational funding, building on Friedman's 1955 proposal. The **Federal Reserve Bank of Philadelphia** (Ritter and Webber, 2019) published the most thorough empirical analysis of Income Share Agreements (ISAs). A **RAND Corporation study** (Zaber et al., 2022) found that ~40% of adults would consider an ISA but identified serious equity concerns and lack of information standards.
+
+### 3.4 Talent investing models already exist
+
+Five models demonstrate that investing in individuals based on potential, before they have projects or companies, can generate extraordinary returns:
+
+- **Entrepreneur First** (founded 2011) pioneered "talent investing," providing stipends and investing 80K pounds for 10% equity in individuals before they have co-founders or ideas. Its portfolio is now worth **$16B+ across 600+ companies**. EF explicitly recruits people who would otherwise do PhDs or postdocs.
+- **Thiel Fellowship** (since 2010) pays ~20 young people $200K each to drop out of college. **290 fellows have created $750B+ in value**, including Ethereum's Vitalik Buterin and Figma's Dylan Field. About 25% returned to college; the program is deliberately non-scalable.
+- **Emergent Ventures** (Tyler Cowen, launched 2018) has funded 1,000+ individuals globally with minimal bureaucracy: a three-question application and two- to three-week decisions. It also spawned Fast Grants, which deployed **$50M+ for COVID-19 research**.
+- **Pioneer** (Daniel Gross, 2018) runs global online tournaments where innovators compete for $1K-$100K investments at 1% equity, using software to identify talent at scale.
+- **Lambda School/BloomTech** (ISA model) is a **cautionary tale**: students paid 17% of income for 24 months after finding $50K+ jobs. It raised $48M in VC at a $150M valuation but collapsed. Job placement rates were inflated (~50% actual vs. ~86% advertised), and the CFPB permanently banned the CEO from student lending. This demonstrates that aligning education with investment incentives requires honest metrics and external accountability.
+
+## 4. Signaling theory explains why reform is so hard
+
+### 4.1 The PhD as costly signal
+
+**Spence (1973)** established that education can increase wages even with zero productivity contribution, purely through signaling, because acquiring education is differentially costly for high-ability versus low-ability workers. **Caplan (2018)** argues approximately **80% of the return to education is signaling** rather than human capital accumulation, supported by the "sheepskin effect" (disproportionate wage increases at degree completion versus additional years of study). Applied to the PhD, this means the credential itself, not the training, drives much of the labor market return, which explains why partial credentials have so little value.
+
+**Collins (2011)**, the preeminent sociologist of credentialism, argues that credential inflation follows an inexorable logic: "An educational diploma is like money: **a piece of paper whose value depends inversely on how much of it is in circulation**." Araki (2022) adds nuance: at higher credential levels, skills and credentials operate as complements, and actual competence moderates devaluation. That suggests PhD reform should strengthen the human capital dimension rather than relying solely on signaling.
+
+### 4.2 Alternative credentials and blockchain verification
+
+The **OECD (2023)** published a comprehensive policy paper finding that micro-credentials are increasingly prominent but evidence on their labor market value remains scarce. The **Lumina Foundation** developed a common credentials framework connecting diverse credentials using competencies as reference points. **MIT debuted blockchain-based digital diplomas** in 2017 using Blockcerts, allowing tamper-proof, recipient-owned, cryptographically signed credentials. Schmidt (2017) argued in *EDUCAUSE Review* that blockchain credentials could prevent fraud and unbundle learning from institutional authority.
+
+### 4.3 Portable reputation and recommendation letter reform
+
+**ORCID** (Haak et al., 2012) provides persistent, unique researcher identifiers that follow individuals across institutions and career stages, the most significant existing infrastructure for portable academic reputation. Yet adoption remains uneven: Boudry et al. (2020) found only ~15% adoption at a French university.
+
+The recommendation letter system is deeply flawed. **Trix and Psenka (2003)** analyzed 300+ letters for medical faculty and found systematic gender bias: letters for women were shorter, contained more "doubt raisers," and portrayed women as teachers while men were portrayed as researchers. Letters of recommendation were first required at Harvard, Princeton, and Yale specifically to limit admission of marginalized groups (documented in Karabel's *The Chosen*).
+
+### 4.4 Skills-based hiring is more rhetoric than reality
+
+The most rigorous study, **Fuller, Langer, and Sigelman (2024)** from Harvard Business School and Burning Glass Institute, found that among companies that dropped degree requirements, only **3.5 percentage points** more non-degree holders were hired. Across the economy, **fewer than 1 in 700 hires** benefited. Only 37% of companies were genuine "skills-based hiring leaders." This suggests disrupting credential-based evaluation is extremely difficult even with institutional support, a cautionary finding for alternative PhD credential proposals.
+
+## 5. Existing reform proposals have not gone far enough
+
+### 5.1 The reform canon in Nature and Science
+
+Nature published a landmark 2011 special issue including **"Fix the PhD"** (editorial), **Cyranoski et al.'s "The PhD Factory"** (368+ citations), and **Taylor's "Reform the PhD system or close it down"**, a Columbia professor arguing the system is "broken and unsustainable" and conforms to "a medieval apprenticeship model of cloning." Nature returned in 2023 to declare **"PhD training is no longer fit for purpose"** and in 2024 called to **"Bring PhD assessment into the twenty-first century,"** noting the single-authored dissertation and viva remain "curious throwbacks."
+
+### 5.2 European structured models vs. US apprenticeship
+
+The European University Association (EUA-CDE) documented that **73% of European universities** now have organized doctoral schools following the Bologna Process and Salzburg Principles, with structured training, formal progress monitoring, and career development. **Barnett et al. (2017)** systematically compared European (3-4 year, immediate research immersion) and US (5-7 year, coursework-first) models and found distinct advantages in each, but the European model produces PhDs in roughly half the time.
+
+### 5.3 The National Academies' vision and modular innovations
+
+The **National Academies (2018)** published the most comprehensive US policy report on graduate STEM education, calling for expanding success measures beyond publications, student-centric education with diverse career preparation, and individual development plans. **Boston University's NSF-funded PhD Progression project** piloted stackable "badges" in communication, management, and teaching that supplement PhD training. In the UK, the **MPhil serves as a formal exit ramp**: students register for MPhil first and transfer to PhD upon satisfactory progress, providing meaningful intermediate credentials.
+
+**Spronken-Smith (2018)** at UC Berkeley proposed "constructive alignment": tailoring PhD programs to individuals' career pathways with portfolio or digital badge assessment to demonstrate breadth of doctoral competencies beyond the dissertation.
+
+### 5.4 The closest existing VC-PhD hybrid
+
+**Deep Science Ventures' Venture Science Doctorate (VSD)**, launched in 2023, is the world's first venture creation-focused PhD. This fully funded three-year program embeds startup creation at the core of the doctoral experience. Backed by UKRI, SPRIND, Schmidt Futures, and Helmholtz, it aims to train 1,000 "Venture Scientists" by 2033, with **80%+ creating startups**. DSV argues that less than 0.5% of traditional PhDs result in spin-out companies and that 80% of STEM PhD holders leave science within a few years.
+
+### 5.5 PhD by publication gaining ground
+
+**Pare et al. (2022)** conducted a scoping review of the thesis-by-publication (TBP) format, also called article-based or cumulative thesis, documenting its growing popularity across disciplines. The format provides real-world research training and a publication track record. German universities now widely offer structured three- to four-year doctoral programs alongside the traditional apprenticeship model, through Bonn International Graduate Schools, International Max Planck Research Schools, and similar frameworks.
+
+## 6. AI makes the reform case urgent and the 5-year timeline indefensible
+
+### 6.1 AI compresses research timelines by orders of magnitude
+
+The most striking evidence is **AlphaFold**: determining a single protein structure previously took **a year or more of expensive experimental work**; AlphaFold predicts structures in **minutes**. The database now contains **200+ million structures** and has had 1.6 million unique visitors from 190+ countries. Turkish undergraduate students taught themselves structural biology using AlphaFold tutorials during the pandemic, with no prior training, and published **15 research papers**, directly demonstrating AI enabling research without traditional PhD training.
+
+In drug discovery, Insilico Medicine's INS018_055 progressed from target identification to preclinical candidate in **under 18 months** (vs. several years traditionally). Exscientia's DSP-1181 went from project start to clinical trial in **12 months** (vs. ~5 years normally). As of early 2026, over **173 AI-discovered drug programs** are in clinical development.
+
+### 6.2 Individual researchers with AI produce dramatically more
+
+**Hao et al. (2024/2025)**, in a landmark study published in *Nature* analyzing **41.3 million research papers** (1980-2024), found that scientists using AI publish **3.02x more papers**, receive **4.84x more citations**, and become research project leaders **1.37 years earlier**. However, AI adoption also narrows collective scientific topics by 4.63%, a crucial tradeoff the paper identifies. A *Science* editorial by Schmidt and Manyika (2025) calls for new research infrastructure integrating AI agents that can "compress discovery timelines."
+
+### 6.3 PhD training must reboot for an AI world
+
+**Sen Gupta (2025)** wrote in *Nature* that "a quieter, deeper disruption is unfolding in research" beyond the undergraduate cheating debate, arguing that PhD programs must train students to leverage AI outputs rather than perform tasks AI can automate. A former head of Google's generative AI team, Jad Tarifi, argued that **"AI itself is going to be gone by the time you finish a PhD"**, reflecting that 70% of AI doctoral graduates in 2023 took private-sector jobs, up from 20% two decades ago.
+
+### 6.4 AI democratizes research and enables independent scholarship
+
+The **World Economic Forum (2025)** reported that "democratized AI tools that even non-computer scientists can use" are lowering barriers to innovation. **Sakana AI's "AI Scientist" (2024)** demonstrated fully automated end-to-end scientific discovery, from idea generation to manuscript writing, at **~$15 per paper**, raising fundamental questions about what PhD training should teach. Google's **AI Co-Scientist** (2025) independently proposed novel research hypotheses later validated experimentally.
+
+The **Institute for Progress (2024)** published a policy proposal noting that of 67% of PhD students who wanted to stay in academia, only 30% succeeded, and argued independent scholarship is a viable alternative. They recommend federal funding allocation through NSF for independent scholars, people who produce research outside traditional institutional structures.
+
+## 7. Conclusion: the structural gap this paper can fill
+
+The literature reveals a striking asymmetry. On one side, a mature body of work in financial economics has formalized how bilateral contracts manage information asymmetry, moral hazard, hold-up, and misaligned incentives through staged financing, contingent control rights, mutual due diligence, vesting schedules, and structured exit options. On the other, a growing body of empirical evidence documents that PhD programs suffer from precisely these problems, yet no paper has formally mapped VC contract mechanisms onto PhD program design. The closest existing implementation is Deep Science Ventures' Venture Science Doctorate, but it focuses narrowly on venture creation rather than the broader bilateral contract redesign.
+
+Three factors make the argument newly urgent. First, AI compresses research timelines from years to months, making 5-7 year lock-in periods increasingly absurd. Second, talent investing models (Entrepreneur First, Thiel Fellowship, Emergent Ventures) have demonstrated that investing in individuals based on potential, with structured bilateral protections, can generate extraordinary returns. Third, the infrastructure for portable, verifiable credentials now exists (ORCID, blockchain verification, micro-credentials) but has not been integrated into PhD program design. The position paper has a genuine gap to fill: formalizing the bilateral VC model for PhD programs, drawing on both the financial contracting literature and the empirical evidence on PhD system failures to propose a structural redesign with staged investment, mutual due diligence, contingent control rights, vesting of partial credentials, and structured exit options for both sides.
+
+## References
+
+- Council of Graduate Schools PhD Completion Project. [Source](https://cgsnet.org/wp-content/uploads/2022/01/phd_completion_and_attrition_analysis_of_baseline_demographic_data-2.pdf)
+- Wollast et al. (2018), *International Journal of Higher Education*. [Source](https://files.eric.ed.gov/fulltext/EJ1188721.pdf)
+- Lovitts (2001), *Leaving the Ivory Tower*, Rowman & Littlefield. [Source](https://eric.ed.gov/?id=ED462026)
+- NSF Survey of Earned Doctorates (2023). [Source](https://ncses.nsf.gov/surveys/earned-doctorates/2023)
+- Evans et al. (2018), *Nature Biotechnology*. [Source](https://www.nature.com/articles/nbt.4089)
+- Levecque et al. (2017), *Research Policy*. [Source](https://www.sciencedirect.com/science/article/abs/pii/S0048733317300422)
+- Satinsky et al. (2021), *Scientific Reports*. [Source](https://www.nature.com/articles/s41598-021-93687-7)
+- Nature PhD Survey (2019). [Source](https://www.nature.com/articles/d41586-019-03489-1)
+- Keloharju et al. (2024), *Journal of Health Economics*. [Source](https://www.sciencedirect.com/science/article/pii/S0167629625001055)
+- Zhao et al. (2007). [Source](https://www.researchgate.net/publication/263249838)
+- Berdanier et al., *Frontiers in Education*. [Source](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1770054/full)
+- Cyranoski et al. (2011), *Nature*. [Source](https://www.nature.com/articles/472276a)
+- Weinstein et al. (2016), *Science / PMC*. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4836945/)
+- Glorieux et al. (2024), *Studies in Continuing Education*. [Source](https://www.tandfonline.com/doi/full/10.1080/0158037X.2024.2314694)
+- PMC Review (2019), *International Journal of Exercise Science*. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC6355122/)
+- Guston (1996), *Science and Public Policy*. [Source](https://academic.oup.com/spp/article-abstract/23/4/229/1706805)
+- Braun and Guston (2003), *Science and Public Policy*. [Source](https://academic.oup.com/spp/article-abstract/30/5/302/1697393)
+- Stephan (2012), *How Economics Shapes Science*, Harvard University Press. [Source](https://www.hup.harvard.edu/books/9780674088160)
+- The Economist (2010), *The Disposable Academic*. [Source](https://jimidisu.com/the-disposable-academic-why-doing-a-phd-is-often-a-waste-of-time-the-economist/)
+- Posselt (2016), *Inside Graduate Admissions*, Harvard University Press. [Source](https://www.insidehighered.com/news/2016/01/06/new-book-reveals-how-elite-phd-admissions-committees-review-candidates)
+- Sauermann and Roach (2012), *PLoS ONE*. [Source](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036307)
+- Roach and Sauermann (2017), *PLoS ONE*. [Source](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184130)
+- Holmstrom and Milgrom (1991), *Journal of Law, Economics, and Organization*. [Source](https://academic.oup.com/jleo/article-abstract/7/special_issue/24/2194011)
+- Roth (1984), *Journal of Political Economy*. [Source](https://stanford.edu/~alroth/match.html)
+- Ehrenberg et al. (2007), NBER Working Paper No. 12065. [Source](https://www.nber.org/papers/w12065)
+- Kaplan and Stromberg (2003), *Review of Economic Studies / NBER WP 7660*. [Source](https://www.nber.org/papers/w7660)
+- Kaplan and Stromberg (2004), *Journal of Finance / SSRN*. [Source](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=299808)
+- Sahlman (1990), *Journal of Financial Economics*. [Source](https://www.sciencedirect.com/science/article/abs/pii/0304405X90900658)
+- Gompers and Lerner (2001), *Journal of Economic Perspectives*. [Source](https://ideas.repec.org/a/aea/jecper/v15y2001i2p145-168.html)
+- Ewens et al. (2022), *Journal of Financial Economics*. [Source](https://www.sciencedirect.com/science/article/abs/pii/S0304405X21003123)
+- Wang and Zhou (2004), *Journal of Corporate Finance*. [Source](https://www.sciencedirect.com/science/article/pii/S0929119902000457)
+- Landstrom and Mason (2020), *Venture Capital*. [Source](https://www.tandfonline.com/doi/full/10.1080/13691066.2020.1827502)
+- Becker (1964/1993), NBER. [Source](https://www.nber.org/books-and-chapters/human-capital-theoretical-and-empirical-analysis-special-reference-education-third-edition)
+- Palacios (2004), Cambridge University Press. [Source](https://www.cambridge.org/core/books/investing-in-human-capital/92EB81589778E14B334C73B00F4D333A)
+- Ritter and Webber (2019), Federal Reserve Bank of Philadelphia discussion paper. [Source](https://www.philadelphiafed.org/-/media/frbp/assets/consumer-finance/discussion-papers/dp19-06.pdf)
+- Zaber et al. (2022), RAND. [Source](https://www.rand.org/pubs/research_reports/RRA2649-1.html)
+- Entrepreneur First. [Source](https://medium.com/entrepreneurs-first/funding-individuals-before-theyve-founded-a-company-meet-the-talent-investors-abc47314815e)
+- Thiel Fellowship. [Source](https://en.wikipedia.org/wiki/Thiel_Fellowship)
+- Emergent Ventures. [Source](https://www.mercatus.org/emergent-ventures)
+- Pioneer. [Source](https://pioneer.app/about)
+- Lambda School / Bloom Institute of Technology. [Source](https://en.wikipedia.org/wiki/Bloom_Institute_of_Technology)
+- Spence (1973), *Quarterly Journal of Economics*. [Source](https://www.sfu.ca/~allen/Spence.pdf)
+- Caplan (2018), *The Case Against Education*, Princeton University Press. [Source](https://press.princeton.edu/books/hardcover/9780691174655/the-case-against-education)
+- Collins (2011), *Italian Journal of Sociology of Education*. [Source](https://ijse.padovauniversitypress.it/system/files/papers/2011_2_12_0.pdf)
+- Araki (2022), *European Sociological Review*. [Source](https://academic.oup.com/esr/article/38/6/904/6523878)
+- OECD (2023), *Micro-credentials Policy Perspectives*. [Source](https://www.oecd.org/en/publications/micro-credentials-for-lifelong-learning-and-employability_9c4b7b68-en.html)
+- MIT Digital Diplomas (2017). [Source](https://news.mit.edu/2017/mit-debuts-secure-digital-diploma-using-bitcoin-blockchain-technology-1017)
+- Schmidt (2017), *EDUCAUSE Review*. [Source](https://er.educause.edu/articles/2017/4/credentials-reputation-and-the-blockchain)
+- Haak et al. (2012), *Learned Publishing*. [Source](https://onlinelibrary.wiley.com/doi/10.1087/20120404)
+- Trix and Psenka (2003), *Discourse and Society*. [Source](https://journals.sagepub.com/doi/abs/10.1177/0957926503014002277)
+- Fuller et al. (2024), Harvard Business School / Burning Glass. [Source](https://www.hbs.edu/managing-the-future-of-work/Documents/research/Skills-Based%20Hiring.pdf)
+- Nature (2011), *Fix the PhD*. [Source](https://www.nature.com/articles/472259b)
+- Taylor (2011), *Nature*. [Source](https://www.nature.com/articles/472261a)
+- Nature (2023). [Source](https://www.nature.com/articles/d41586-023-00084-3)
+- Nature (2024). [Source](https://www.nature.com/articles/d41586-024-00718-0)
+- Nature Special Collection (2011). [Source](https://www.nature.com/collections/htvnvntvrd)
+- EUA-CDE Survey (2019). [Source](https://eua.eu/publications/reports/doctoral-education-in-europe-today-enhanced-structures-and-practices-for-the-european-knowledge-society.html)
+- Barnett et al. (2017), *FEBS Open Bio*. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5623696/)
+- O'Carroll et al. (2012), *European Higher Education at the Crossroads*. [Source](https://link.springer.com/chapter/10.1007/978-94-007-3937-6_26)
+- NASEM (2018). [Source](https://www.nationalacademies.org/our-work/reshaping-graduate-stem-education-for-the-21st-century)
+- BU PhD Progression / IGE Hub. [Source](https://igehub.org/project/phd-progression-creating-workforce-driven-flexible-credentials-for-doctoral-students/)
+- Spronken-Smith (2018), UC Berkeley CSHE. [Source](https://cshe.berkeley.edu/publications/reforming-doctoral-education-there-better-way-rachel-spronken-smith)
+- Deep Science Ventures Venture Science Doctorate. [Source](https://www.deepscienceventures.com/venture-science-doctorate)
+- Times Higher Education coverage of the Venture Science Doctorate. [Source](https://www.timeshighereducation.com/news/venture-science-doctorate-reorientates-phds-towards-start-ups)
+- Deep Science Ventures, *Why We Need to Reinvent the PhD*. [Source](https://www.deepscienceventures.com/articles/why-we-need-to-reinvent-the-phd)
+- Pare et al. (2022), *Higher Education Research and Development*. [Source](https://www.tandfonline.com/doi/full/10.1080/07294360.2022.2110575)
+- AlphaFold Five Years of Impact, Google DeepMind (2025). [Source](https://deepmind.google/blog/alphafold-five-years-of-impact/)
+- Millan et al. (2024), *PNAS*. [Source](https://www.pnas.org/doi/10.1073/pnas.2315002121)
+- PMC review on AI in drug discovery (2025). [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12298131/)
+- Hao et al. (2025), *Nature*. [Source](https://www.nature.com/articles/s41586-025-09922-y)
+- Schmidt and Manyika (2025), *Science*. [Source](https://www.science.org/doi/10.1126/science.aee0605)
+- Sen Gupta (2025), *Nature*. [Source](https://www.nature.com/articles/d41586-025-03572-w)
+- World Economic Forum (2025). [Source](https://www.weforum.org/stories/2025/06/ai-innovation-democratizes-breakthrough-science/)
+- Sakana AI, *The AI Scientist* (2024). [Source](https://sakana.ai/ai-scientist/)
+- Google AI Co-Scientist (2025). [Source](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
+- Institute for Progress (2024). [Source](https://ifp.org/broadening-the-knowledge-economy-through-independent-scholarship/)
