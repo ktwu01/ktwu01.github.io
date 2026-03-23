@@ -82,6 +82,10 @@ Five models demonstrate that investing in individuals based on potential, before
 - **Pioneer** (Daniel Gross, 2018) runs global online tournaments where innovators compete for $1K-$100K investments at 1% equity, using software to identify talent at scale.
 - **Lambda School/BloomTech** (ISA model) is a **cautionary tale**: students paid 17% of income for 24 months after finding $50K+ jobs. It raised $48M in VC at a $150M valuation but collapsed. Job placement rates were inflated (~50% actual vs. ~86% advertised), and the CFPB permanently banned the CEO from student lending. This demonstrates that aligning education with investment incentives requires honest metrics and external accountability.
 
+### 3.5 The research market as a primary market
+
+A powerful analogy for this model is that the research market operates very much like the primary market (venture capital and private equity). In academic research, article citations generally only increase and do not decrease over time, much like startup valuations in early funding rounds. This represents a fundamentally different logic from other industries, which typically function more like the secondary market (public equities) where values fluctuate continuously in both directions. This structural similarity further justifies applying VC mechanisms to academic research and PhD training.
+
 ## 4. Signaling theory explains why reform is so hard
 
 ### 4.1 The PhD as costly signal
