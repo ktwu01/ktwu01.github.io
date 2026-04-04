@@ -15,26 +15,40 @@ redirect_from:
 
 # I want to be the bridge connecting scientific and technological idealism with commercial realism.
 
-## Quick facts
-
-<!-- **Founder**: Dropout founder, acquired company. -->
+## Quick Facts
 
 **GitHub Commits**: 3,000+ per year.
 
-**GitHub Stars**: 3,00+.
+**GitHub Stars**: 3,000+.
 
 <!-- Capital: Involved in managing USD 450M+ -->
 
 <!-- % ref: 吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
-Network: 9,650+ followers/friends across all platforms.
+<!-- Network: 9,650+ followers/friends across all platforms. -->
 
-Writing: 1M+ reads, Startup/Research/VC/Life.
+**Writing**: 1M+ reads, Startup/Research/VC/Life.
 
 <!-- Fieldwork: Visited 140+ universities globally. -->
 
 <!-- Speed: 30 young founders backed during that trip. -->
 
-Personal: I love swimming and boudering.
+**Personal**: I love swimming and bouldering.
+
+## Journey Highlights
+
+1. **From Zero to 1,200**: Founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,200+ members
+
+2. **From Research Novice to Honor Graduate**: First cohort honor graduate at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)
+
+3. **From Bottom to Top**: From last place to [USTC Guo Moruo Scholarship](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) finalist
+
+4. **From Biology & Geoscience to AI for Science**: Pivoted research focus to explainable AI for physics-based modeling
+
+5. **From Tech Novice to Published Researcher**: Published SCI papers as undergraduate despite starting with minimal tech skills
+
+6. **From Zero Business Knowledge to Funded Founder**: Co-founded startup with $2M USD valuation
+
+*Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
 
 ## What I’m Looking For
 
