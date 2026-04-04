@@ -10,6 +10,21 @@ Reference format:
 
 Core output rules:
 
+---
+title: 'Startup Probability: If You Begin at 16, Failing 10 Times in a Row Is Unlikely'
+date: 2026-03-12
+permalink: /posts/2026/03/startup-probability-if-you-begin-at-16/
+tags:
+  - Startup
+  - Probability
+  - Sam Altman
+  - AI
+  - Career
+  - Thinking
+---
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 - If the task asks for both Chinese and English versions of the same post, create two separate files under `_posts/`. Do not mix two languages in one markdown file.
 - Use parallel filenames for the same piece:
   - English: `YYYY-MM-DD-topic-slug.md`
