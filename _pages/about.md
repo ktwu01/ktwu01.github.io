@@ -12,19 +12,17 @@ redirect_from:
 <!-- TODO!!! 侧边栏可以加入小红书微信公众号的链接 -->
 <!-- For social meadia count, see /Users/kw35262/Library/Mobile Documents/com~apple~CloudDocs/0KWCV/吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
 
-## Journey Highlights
+* I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
-1. Founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members
+* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), advancing from a research novice.
 
-2. From Research Novice to First Honor Graduate at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)
+* I achieved the Finalist position for the USTC Guo Moruo Scholarship (the university's highest honor) after initially ranking last in the college entrance exam.
 
-3. From last place in the college entrance exam to Finalist of USTC Guo Moruo Scholarship (Highest honor of USTC students)
+* I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg), only three years after being rejected by the institution.
 
-4. I was rejected by Tsinghua University after the college entrance exam, yet only three years later, I was invited back to give a [lecture to 40+ teachers across the country at Tsinghua University](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg)
+* I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
 
-5. From tech novice to publishing an SCI paper soon after graduation despite starting with minimal tech skills
-
-6. From Zero Business Knowledge to Co-founding [tacite.ai](https://tacite.ai) with $2M+ USD valuation
+* I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge.
 
 *Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
 
