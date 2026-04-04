@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>), a researcher, founder, and investor."
+title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>), a researcher and a founder."
 author_profile: true
 redirect_from:
   - /about/
@@ -16,15 +16,15 @@ redirect_from:
 
 1. Founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members
 
-2. From Research Novice First Honor Graduate at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)
+2. From Research Novice to First Honor Graduate at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)
 
 3. From last place in the college entrance exam to Finalist of USTC Guo Moruo Scholarship (Highest honor of USTC students)
 
-4. I was rejected by the college entrance exam at Tsinghua, yet only three years later, I was invited back to give a [lecture to 40+ teachers across the country at Tsinghua University](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg)
+4. I was rejected by Tsinghua University after the college entrance exam, yet only three years later, I was invited back to give a [lecture to 40+ teachers across the country at Tsinghua University](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg)
 
-5. From tech Novice to publish SCI paper soon after undergraduate despite starting with minimal tech skills
+5. From tech novice to publishing an SCI paper soon after graduation despite starting with minimal tech skills
 
-6. From Zero Business Knowledge to Co-founded [tacite.ai ](https://tacite.ai) with $2M+ USD valuation
+6. From Zero Business Knowledge to Co-founding [tacite.ai](https://tacite.ai) with $2M+ USD valuation
 
 *Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
 
@@ -32,7 +32,7 @@ redirect_from:
 
 **GitHub Commits**: 3,000+ per year.
 
-**GitHub Stars**: 3,00+.
+**GitHub Stars**: 300+.
 
 <!-- Capital: Involved in managing USD 450M+ -->
 
