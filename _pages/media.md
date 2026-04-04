@@ -29,7 +29,7 @@ author_profile: true
 
 - **[教育变革的技术奇点时刻到来了吗？](https://mp.weixin.qq.com/s/5PdjLR-f7dPwozvgEFWQsg)** — *As a USTC student and X-Institute scholar, Koutian Wu shares his experiences at the Shenzhen X-Institute*
 
-- **[寻找X-学子说 | 吴叩天：从零到一、创造无限](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)** — *Interview featuring Koutian Wu discussing his journey of innovation from zero to one*
+- **[寻找X-学子说：吴叩天：从零到一、创造无限](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)** — *Interview featuring Koutian Wu discussing his journey of innovation from zero to one*
 
 - **[拔尖创新人才联合培养系列研讨会](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg)** — *Invited to speak as student representative at Tsinghua University during a seminar on cultivating top innovative talents*
 
