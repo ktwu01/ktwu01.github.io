@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>)"
+title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>), a researcher, founder, and investor."
 author_profile: true
 redirect_from:
   - /about/
@@ -11,8 +11,6 @@ redirect_from:
 
 <!-- TODO!!! 侧边栏可以加入小红书微信公众号的链接 -->
 <!-- For social meadia count, see /Users/kw35262/Library/Mobile Documents/com~apple~CloudDocs/0KWCV/吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
-
-# I am researcher, founder, and investor.
 
 ## Journey Highlights
 
