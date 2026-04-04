@@ -18,7 +18,7 @@ redirect_from:
 
 * I achieved the Finalist position for the USTC Guo Moruo Scholarship (the university's highest honor) after initially ranking last in the college entrance exam.
 
-* I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg), only three years after being rejected by the institution.
+* I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
 
 * I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
 
