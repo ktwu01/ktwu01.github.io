@@ -1,7 +1,7 @@
 ---
 title: 'When Climate Data Comes Alive: A Day at TACC'
-date: 2025-04-10
-permalink: /posts/2025/04/tacc-field-trip/
+date: 2026-04-10
+permalink: /posts/2026/04/tacc-field-trip/
 tags:
   - field-trip
   - TACC
