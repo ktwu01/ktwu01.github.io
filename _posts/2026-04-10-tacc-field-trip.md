@@ -12,7 +12,9 @@ tags:
 
 <!-- https://gemini.google.com/app/44385fe12abbae34 -->
 
-On April 10, 2026, our GEO 371/391T Climate Data class ventured to the Texas Advanced Computing Center (TACC)—one of the largest university supercomputing facilities in the United States. What started as a routine field trip became something Professor Geeta Persad later described as "one of the best in recent years," noting she saw "lights in students' eyes" for the first time in a while. This wasn't just about seeing big computers. It was about wrestling with real climate science challenges and experiencing the moment when abstract data transforms into tangible understanding.
+The roar of cooling systems in the Texas Advanced Computing Center (TACC) isn't just noise—it's the power of supercomputers translating the overwhelming dimensionality of climate data into something students can finally see and understand.
+
+On April 10, 2026, our GEO 371/391T Climate Data class ventured to this facility, one of the largest university supercomputing centers in the U.S., for what Professor Geeta Persad described as a transformative experience. What started as a routine field trip became a moment of scientific clarity where abstract data transformed into tangible understanding.
 
 ## The Challenge: Making Sense of Dimensional Chaos
 
@@ -120,6 +122,6 @@ One student summed it up during the bus ride back: "I finally get why climate sc
 
 That's the light Professor Persad saw: the moment when climate data stopped being abstract numbers and became a window into understanding our planet's future.
 
----
+## Acknowledgments
 
 *Special thanks to Francesca Samsel and Greg Abram from TACC's visualization team for their patient guidance throughout the day. Francesca, a research scientist and trained artist at TACC, brought her expertise in "sculpting" data through artistic principles of color and form. Greg, with over 40 years of experience in computer science and visualization, provided the technical expertise to help students turn their ideas into actual visualizations. Thanks also to Cameron Cummins, who recently joined the Department of Earth and Planetary Sciences as a Computational Geoscientist, for making the trip down from Dallas to support our session. And finally, thanks to Professor Geeta Persad for designing a field trip that challenged us to think like climate scientists rather than just learn about climate science.*
