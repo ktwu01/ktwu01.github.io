@@ -13,10 +13,11 @@ tags:
   - Business Model
   - PMF
 ---
+[Wispr Flow](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D) 是我今年用过的最好的AI产品。但我一分钱都没付给他们。这既令人印象深刻，又令人担忧。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> [Wispr Flow](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D) 是我今年用过的最好的AI产品。但我一分钱都没付给他们。这既令人印象深刻，又令人担忧。
 
 ![Wispr Flow 使用统计](/images/wispr-flow-2026-01-06.png)
 
@@ -54,4 +55,3 @@ tags:
 你怎么看——不惜一切代价增长，还是可修复的变现缺口？
 
 **查看 [Wispr Flow LinkedIn主页](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D)**
-

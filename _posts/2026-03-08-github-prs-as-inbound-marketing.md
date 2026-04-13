@@ -10,15 +10,13 @@ tags:
   - Developer Relations
   - Personal Branding
 ---
+For technical people, a strong pull request on a fast-growing open-source repo can become better inbound marketing than another generic post about AI.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> For technical people, a strong pull request on a fast-growing open-source repo can become better inbound marketing than another generic post about AI.
->
+
 > A good PR is public proof of work: it shows code quality, problem-solving, taste, and the ability to collaborate in public.
->
 > People may discover you through contributors, commits, reviews, and your GitHub profile — but the deeper value is that your work becomes visible and credible.
 
 Recently I have been thinking about a simple but underrated idea:

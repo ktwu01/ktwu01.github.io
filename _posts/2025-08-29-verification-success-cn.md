@@ -7,8 +7,9 @@ tags:
   - html
   - ui-ux
 ---
-
 这是一个简洁干净的 HTML 页面，用于展示邮箱验证成功提示，具备响应式布局和专业风格设计。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 功能
 

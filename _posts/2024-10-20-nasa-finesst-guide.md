@@ -8,8 +8,9 @@ tags:
   - funding
   - resources
 ---
+Securing up to $150,000 in research funding over three years can define a graduate career, and NASA’s FINESST program is the primary vehicle for that transformation. This guide distills the complex application process into actionable strategies for Earth and Space Science researchers seeking to join the next generation of Future Investigators.
 
-A comprehensive guide for applying to NASA's Future Investigators in NASA Earth and Space Science and Technology (FINESST) program, providing graduate student research funding up to $50K/year for 3 years.
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## What is FINESST?
 
@@ -41,19 +42,7 @@ NASA's DAPR guidelines require that reviewers do not see personal or institution
 Official DAPR guidance: [https://science.nasa.gov/researchers/dual-anonymous-peer-review](https://science.nasa.gov/researchers/dual-anonymous-peer-review)
 
 ## Success Strategies
-
-### Successful Research Approaches:
-1. **Satellite Data Applications**: Leveraging space-based observations for global-scale studies
-2. **Multi-Disciplinary Studies**: Combining different data sources and methodologies
-3. **Validation Studies**: Product validation and quality assessment
-
-### Key Success Patterns:
-- Strong research collaborations
-- Clear scientific objectives
-- Focus on high-impact research questions
-- International partnerships
-- Demonstrated progress
-- Well-structured proposals
+The most competitive proposals often leverage satellite data applications to address global-scale challenges using unique space-based observations. Successful applicants frequently design multi-disciplinary studies that bridge disparate data sources, or focus on rigorous validation studies that assess the quality and utility of existing NASA products. Beyond the technical approach, success stems from demonstrating clear scientific objectives backed by strong research collaborations and international partnerships. High-impact research questions, a well-structured narrative, and evidence of consistent professional progress are the hallmarks of a winning FINESST submission.
 
 ## Helpful Resources
 
@@ -71,13 +60,7 @@ Official DAPR guidance: [https://science.nasa.gov/researchers/dual-anonymous-pee
 5. **Await Notification**: Results typically announced a few months later
 
 ## Review Criteria
-
-NASA evaluates FINESST proposals on four main criteria:
-
-1. **Scientific/Technical Merit**
-2. **Relevance to NASA**
-3. **Research Readiness** (FI's background, timeline feasibility)
-4. **Cost Reasonableness** (budget clarity, adherence to $50K/year limit)
+NASA evaluates submissions through a multi-faceted lens, prioritizing scientific and technical merit alongside the project's direct relevance to NASA’s strategic goals. Beyond the science, reviewers assess 'Research Readiness'—which includes your own professional background and the feasibility of your proposed timeline—as well as cost reasonableness to ensure the budget is transparent and respects the $50K annual limit.
 
 ## FAQ
 

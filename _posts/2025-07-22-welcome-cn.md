@@ -6,8 +6,9 @@ tags:
   - website
   - introduction
 ---
+在 UT Austin 攻读地球科学博士学位的过程中，我始终在试图寻找复杂气候模型与真实世界影响之间的联结。这个学术网站不仅是我研究、论文和项目经历的展示入口，更是我记录如何利用数据驱动的科学方法去理解地球系统演变的思考空间。
 
-欢迎来到我的新个人网站！我很高兴能通过这个平台与你分享我的研究、论文以及人生旅程。
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 关于这个网站
 

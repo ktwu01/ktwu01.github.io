@@ -8,8 +8,9 @@ tags:
   - tmux
   - automation
 ---
-
 Tmux Orchestrator 让 Claude agents 能够自主工作、自己安排 check-in，并在多个项目之间协同推进——这是一个我探索过、也从中学到很多的项目。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 🤖 核心能力与自治特性
 

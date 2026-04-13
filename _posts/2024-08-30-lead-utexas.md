@@ -8,8 +8,9 @@ tags:
   - climate
   - group-website
 ---
-
 Dr. Zong-Liang Yang's Land Environment and Atmospheric Dynamics (LEAD) Group at UT-Austin employs satellite remote sensing, earth system modeling, and high-performance computing to advance understanding of Earth system sciences.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Research Questions
 

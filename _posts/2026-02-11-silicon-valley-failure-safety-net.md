@@ -9,10 +9,9 @@ tags:
   - Career
   - Risk
 ---
+Silicon Valley startup culture celebrates the winners so loudly that we rarely hear what happens to everyone else. The reality is more nuanced than either the success stories or the cautionary tales suggest.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-Silicon Valley startup culture celebrates the winners so loudly that we rarely hear what happens to everyone else. The reality is more nuanced than either the success stories or the cautionary tales suggest.
 
 The ecosystem isn't just survivorship bias, but it's not a perfect safety net either. Understanding what actually happens when startups fail matters for anyone considering the leap, especially young founders wondering about worst-case scenarios.
 

@@ -10,15 +10,13 @@ tags:
   - Productivity
   - Open Source
 ---
+Early-career growth usually comes down to a few repeatable layers: alignment, delivery, visibility, communication, leadership, and trust.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> Early-career growth usually comes down to a few repeatable layers: alignment, delivery, visibility, communication, leadership, and trust.
->
+
 > AI can help at every layer — not by replacing judgment, but by compressing the loop from understanding to execution to visible impact.
->
 > From an AI for Science perspective, this matters even more: the future will not be shaped only by better models, but by better workflows, better tooling, and better human-agent collaboration.
 
 Recently I saw a simple but useful diagram for early-career growth at work. The flow was intuitive:

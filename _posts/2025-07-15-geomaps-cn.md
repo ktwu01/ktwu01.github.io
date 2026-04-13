@@ -9,8 +9,9 @@ tags:
   - scientific-computing
   - visualization
 ---
-
 用 Python 和 MATLAB 创建适合论文发表的科学地图与地理可视化图件。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 项目
 

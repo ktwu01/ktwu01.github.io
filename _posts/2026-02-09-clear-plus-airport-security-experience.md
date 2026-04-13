@@ -9,8 +9,9 @@ tags:
   - uber
   - privilege
 ---
+Exchanging money for time is a privilege I rarely indulge in, but a surprise membership benefit that cleared airport security in ten minutes changed my perspective on friction and market regulation. While a Clear Plus membership normally costs over a hundred dollars annually, obtaining it for free through an Uber membership allowed me to experience a level of efficiency that money can't always buy—at least not without a well-regulated system behind it.
 
-I want to rewrite this article. What I want to express is that I feel pleasantly surprised because I rarely use money to enjoy privileges. This privilege was actually obtained for free through my Uber annual membership. Originally, I wouldn't have paid over a hundred dollars a year for this service. It was only because Uber's annual membership gave me this privilege for free that I had the opportunity to experience this privilege that money can't necessarily buy. Therefore, I'm quite pleasantly surprised.
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Austin Airport: 10-Minute Security Clearance
 
@@ -28,7 +29,7 @@ America is truly a place where money can make the world go round. If you have mo
 
 On the contrary, in San Francisco, we see many wealthy people. They cut in line, and even compared to regular queuing, they might queue even slower. This actually shows that in San Francisco, there are too many people, too many wealthy people. So this doesn't mean wealthy people are taking excessive privileges. On the contrary, wealthy people can appropriately obtain privileges, but social rules won't allow them to obtain them without limits. This is actually healthy market regulation.
 
-## Money and Privilege
+## The Value of Mobilizing Resources
 
 I think being able to enjoy this privilege shows that money can effectively mobilize social resources, which is a useful thing. Moreover, airports being crowded is something everyone needs to be mentally prepared for. It's not that having a privilege means you can cut in line - that wouldn't be good.
 

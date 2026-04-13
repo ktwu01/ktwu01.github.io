@@ -1,0 +1,25 @@
+name: Blog Format Linter
+
+on:
+  push:
+    paths:
+      - '_posts/**.md'
+  pull_request:
+    paths:
+      - '_posts/**.md'
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Blog Linter
+        run: python3 scripts/lint_blog_format.py

@@ -8,8 +8,9 @@ tags:
   - 数学
   - 机器学习
 ---
-
 当连续函数遇上离散真理：从傅里叶分析的视角理解LLM幻觉。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 

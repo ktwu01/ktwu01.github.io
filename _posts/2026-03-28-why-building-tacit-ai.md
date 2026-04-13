@@ -9,8 +9,10 @@ tags:
   - vc
   - TacitAI
 ---
-
 Why I'm Building Tacit AI
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 **By Koutian Wu**
 
 I came into Earth system science because I wanted to tackle some of the most pressing climate and hydrology challenges of our time. But as I transitioned from my undergraduate studies at USTC to my PhD research at UT Austin, I realized that one of the biggest barriers to scientific progress isn't a lack of computing power or ambition. It comes from broken knowledge infrastructure: too much expertise living exclusively in researchers' heads, and complex modeling efforts depending entirely on a few individuals to keep them running.

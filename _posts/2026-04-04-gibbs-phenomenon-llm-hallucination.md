@@ -8,8 +8,9 @@ tags:
   - LLM
   - Fourier Analysis
 ---
-
 When Large Language Models (LLMs) hallucinate, we often treat it as an engineering bug to be fixed. But what if hallucinations are not a flaw, but a mathematical inevitability? A recent interdisciplinary discussion revealed a profound connection between the [Gibbs phenomenon](https://en.wikipedia.org/wiki/Gibbs_phenomenon) in Fourier analysis and the fundamental limitations of neural networks.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## The Gibbs Phenomenon: A Mathematical Truth
 

@@ -10,15 +10,13 @@ tags:
   - Career
   - Thinking
 ---
+Every generation has its own way of managing work: paper notebooks, SaaS task managers, and now programmable agentic workflows powered by tools like OpenClaw heartbeat.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> Every generation has its own way of managing work: paper notebooks, SaaS task managers, and now programmable agentic workflows powered by tools like OpenClaw heartbeat.
->
+
 > A lot has changed. More things have become digitizable, automatable, and intelligent.
->
 > But the core standard has not changed: if you want to do world-class work, you need to stay in consensus with the strongest people in the world. The most advanced workflow is not the goal. Staying connected to the most advanced minds is.
 
 Every generation has its own to-do list.

@@ -9,8 +9,9 @@ tags:
   - fastapi
   - nlp
 ---
+学术写作的严谨性不仅在于数据，更在于表达的精准，而 1AI-polish 通过集成 DeepSeek-R1 的推理能力，为研究者提供了一套集文本润色与 AI 检测于一体的深度协作系统，旨在让复杂的科研思想以更专业、更透明的方式呈现。
 
-基于 DeepSeek-R1 的 AI 写作助手，支持学术文本润色与 AI 生成内容检测。
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 核心功能
 

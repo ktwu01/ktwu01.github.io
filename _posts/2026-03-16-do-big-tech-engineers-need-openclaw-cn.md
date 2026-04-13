@@ -10,15 +10,13 @@ tags:
   - Developer Tools
   - Silicon Valley
 ---
+硅谷大厂的工程师究竟需不需要用 OpenClaw？
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> 硅谷大厂的工程师究竟需不需要用 OpenClaw？
->
+
 > 结论很简单：**如果你不需要大幅提升自动化效率，别用。如果你非常在意本地敏感数据的绝对安全，别用（除非你完全跑在测试服务器或沙盒里）。**
->
 > OpenClaw 为什么突然爆火？本质上是大模型厂商不赚钱，所以需要推直接消耗 token 的 Agent 产品来跑通商业模式。但在这个过程中，安全性和控制权成了最大的博弈点。对于大厂人，更安全的替代品（比如 RustClaw）或者原生受控的 Claude Code Remote Control 可能是更现实的过渡方案。
 
 最近硅谷有一个非常有意思的现象：一方面，像 OpenClaw 这样的个人 AI 助理框架在 GitHub 上被疯狂 Star，甚至登上了 Trending 榜首；另一方面，大厂的安全团队却在疯狂拉响警报。

@@ -9,8 +9,9 @@ tags:
   - Interferometry
   - Machine Learning
 ---
-
 How photographing a black hole and training GPT-4 are fundamentally the same process: extracting coherent structure from impossibly sparse frequency-domain measurements.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 
@@ -237,4 +238,3 @@ The universe and human knowledge are both being reconstructed from sparse measur
 7. [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 8. [LLM Latent Space Geometry](https://arxiv.org/html/2511.21594v2)
 9. [Nyquist-Shannon Sampling Theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) (Content rephrased for compliance)
-

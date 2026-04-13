@@ -9,8 +9,9 @@ tags:
   - supabase
   - dashboard
 ---
-
 A comprehensive tool built with React, Vite, and Supabase to help individuals plan and navigate their careers in the AI industry.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Project Structure
 

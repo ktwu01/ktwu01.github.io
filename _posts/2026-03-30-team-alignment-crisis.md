@@ -8,10 +8,9 @@ tags:
   - Lessons Learned
   - Communication
 ---
+It's 2 AM. I'm running on zero sleep, heart racing from exhaustion, supposed to be resting for my qualifying exams tomorrow. Instead, I'm scrambling to finish a pitch application that I thought was being handled by someone else.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-It's 2 AM. I'm running on zero sleep, heart racing from exhaustion, supposed to be resting for my qualifying exams tomorrow. Instead, I'm scrambling to finish a pitch application that I thought was being handled by someone else.
 
 We had a deadline for a pitch application. One cofounder told me what needed to be done and mentioned that another cofounder was well-suited for these tasks. I naturally assumed they would handle it together and get everything done. But somewhere along the way, both of them went offline without notice. The work sat incomplete. And now I'm pulling an all-nighter to salvage it.
 

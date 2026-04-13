@@ -8,8 +8,9 @@ tags:
   - Mathematics
   - Machine Learning
 ---
-
 When continuous functions meet discontinuous truth: Understanding LLM hallucinations through the lens of Fourier analysis.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 

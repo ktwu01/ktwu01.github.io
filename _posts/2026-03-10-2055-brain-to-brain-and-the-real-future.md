@@ -10,15 +10,13 @@ tags:
   - Future
   - Thinking
 ---
+Sometimes a piece of old science fiction stays in your head not because of the gadgets, but because it got the emotional structure of the future right.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> Sometimes a piece of old science fiction stays in your head not because of the gadgets, but because it got the emotional structure of the future right.
->
+
 > Recalling Xu Youbin's *2055* reminded me how powerful the idea of direct brain-to-brain communication still is: no keyboards, no speech, just thought connecting to thought.
->
 > But what makes the story memorable is not only the technology. It is the warmth underneath the futuristic shell: family, displacement, loneliness, and the question of what remains human when everything else changes.
 
 There are certain science-fiction images that stay with you for years.

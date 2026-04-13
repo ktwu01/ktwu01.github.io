@@ -9,8 +9,9 @@ tags:
   - Machine Learning
   - Manifold Theory
 ---
-
 Why next token prediction isn't just "stochastic parroting"—it's solving geodesics on the manifold of human knowledge.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 
@@ -130,4 +131,3 @@ Because in a sufficiently structured space, the shortest path between two points
 5. [Shared Global and Local Geometry of Language Model Embeddings](https://arxiv.org/html/2503.21073v1)
 6. [Deep Generative Models through the Lens of the Manifold Hypothesis](https://arxiv.org/abs/2404.02954)
 7. [Intuition Emerges in Maximum Caliber Models at Criticality](https://arxiv.org/html/2508.06477v2)
-

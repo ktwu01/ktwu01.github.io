@@ -8,8 +8,9 @@ tags:
   - atmospheric-science
   - manuscript
 ---
+Research manuscript repository for meteor speed variations study published on Journal of Geophysical Research (JGR): Space Physics.
 
-Research manuscript repository for meteor speed variations study submitted to Journal of Geophysical Research (JGR).
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 **Repository**: https://github.com/ktwu01/Meteor-Speed-Variations-manuscript
 

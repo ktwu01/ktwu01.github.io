@@ -9,8 +9,9 @@ tags:
   - supabase
   - dashboard
 ---
-
 这是一个基于 React、Vite 和 Supabase 构建的综合工具，帮助个人规划并导航自己在 AI 行业中的职业发展路径。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 项目结构
 

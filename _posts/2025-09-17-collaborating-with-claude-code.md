@@ -8,8 +8,9 @@ tags:
   - academic website
   - automation
 ---
-
 Today I had an interesting experience collaborating with Claude Code to completely overhaul my personal academic website. As a PhD student in Geological and Earth Sciences at UT Austin, I needed to update my GitHub Pages site with real professional information instead of the placeholder content that had been sitting there.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## The Challenge
 

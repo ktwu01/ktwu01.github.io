@@ -10,15 +10,13 @@ tags:
   - Antigravity
   - Developer Tools
 ---
+Every product has its own pros and cons. Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/) 290 stars
 
 > TL;DR
->
-> Every product has its own pros and cons. Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
->
+
 > If you are a heavy vibe-coding user (like me) and you want to ship faster and cheaper when your boss won’t give you API keys, my suggestion is: use *all* of them in parallel.
->
 > If you are a light vibe-coding user: if you are a student, get Cursor’s student plan (best overall vibe-coding experience). If you’re not a student, Kiro / Antigravity don’t require verification—just sign up with a Google account—so they’re the best value.
 
 I haven’t seriously used Trae as a production tool. For a long time, I used VS Code only as a normal editor plus copy/pasting code from web-based GPT. After the vibe-coding era arrived, I basically stopped using it—not because VS Code isn’t free, but because the AI assistant experience around it usually isn’t.

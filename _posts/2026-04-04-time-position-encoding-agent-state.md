@@ -9,8 +9,9 @@ tags:
   - Position Encoding
   - Time
 ---
-
 Why AI agents lack temporal awareness, and how injecting timestamps transforms them from stateless automata into coherent entities.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 

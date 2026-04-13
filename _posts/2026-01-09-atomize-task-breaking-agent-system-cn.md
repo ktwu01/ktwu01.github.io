@@ -10,10 +10,11 @@ tags:
   - Productivity
   - Open Source
 ---
+我和 [Yuxuan](https://www.linkedin.com/in/yuxuan-cao-4b235110b/) 讨论 AI Agent 的想法已经有一段时间了。昨天，我们终于做出了决定：我们要做 **Atomize**，一个从 [Goblin Tools](https://goblin.tools/) 演化而来的任务分解 Agent 系统。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> 我和 [Yuxuan](https://www.linkedin.com/in/yuxuan-cao-4b235110b/) 讨论 AI Agent 的想法已经有一段时间了。昨天，我们终于做出了决定：我们要做 **Atomize**，一个从 [Goblin Tools](https://goblin.tools/) 演化而来的任务分解 Agent 系统。
 
 ## 灵感来源：Goblin Tools
 
@@ -74,4 +75,3 @@ Goblin Tools 为人类做这件事。我们想构建一个既能为 AI Agent 也
 **联合创始人：** [Yuxuan Cao](https://www.linkedin.com/in/yuxuan-cao-4b235110b/)
 
 **灵感来源：** [Goblin Tools](https://goblin.tools/)
-

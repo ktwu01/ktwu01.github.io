@@ -10,10 +10,11 @@ tags:
   - Python
   - Open Source
 ---
+如果你认真想要理解 LLM 和 AI 工程，[Simon Willison 的 Newsletter](https://simonw.substack.com/?r=6hkfaf&utm_campaign=subscribe-page-share-screen&utm_medium=web) 是最好的资源之一。拥有超过 38,000 名订阅者，它提供关于 AI、LLM、Web 工程、开源、数据科学和 Python 的深度分析。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> 如果你认真想要理解 LLM 和 AI 工程，[Simon Willison 的 Newsletter](https://simonw.substack.com/?r=6hkfaf&utm_campaign=subscribe-page-share-screen&utm_medium=web) 是最好的资源之一。拥有超过 38,000 名订阅者，它提供关于 AI、LLM、Web 工程、开源、数据科学和 Python 的深度分析。
 
 ## Simon Willison 是谁？
 
@@ -77,5 +78,3 @@ Simon 最精彩的文章之一是他的年度回顾 **[2025: The year in LLMs](h
 ---
 
 > 如果你知道其他高质量的 AI/LLM 资源，欢迎与我分享。在这个快速变化的领域，建立一个好的阅读清单是你能做的最好的投资之一。
-
-

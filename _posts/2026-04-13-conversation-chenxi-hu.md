@@ -8,8 +8,9 @@ tags:
   - tropical-cyclones
   - extreme-weather
 ---
+Chenxi Hu's research reveals that urbanization doesn't just respond to extreme weather—it actively reshapes how tropical cyclones dump rain on coastal megacities.
 
-Recently, I had the opportunity to sit down with Chenxi Hu, a researcher at the Jackson School of Geosciences at The University of Texas at Austin. With an impressive research portfolio spanning urban climate, extreme weather, and tropical cyclones, Chenxi's work bridges critical questions about how our cities interact with Earth's most powerful weather systems.
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Discipline tags: urban climate, climate change, extreme weather, tropical cyclones
 
@@ -28,7 +29,6 @@ One of his most fascinating findings comes from studying how urbanization impact
 His 2023 paper on mega-city development's impact on extreme rainfall under near-future climate warming (22 citations) demonstrates the compound effects of urbanization and climate change. The message is clear: as cities grow and the climate warms, we're facing a double whammy for extreme precipitation events.
 
 ## Collaborative Science Across Institutions
-
 
 Looking at Chenxi's co-author network reveals the collaborative nature of modern climate science. His primary collaborators include:
 
@@ -60,7 +60,6 @@ While much of Chenxi's work focuses on South China—particularly the Pearl Rive
 His research on how urban development affects tropical cyclone rainfall has direct relevance for cities from Manila to Miami, from Mumbai to New York. The methodologies he's developed—using convection-permitting models and pseudo-global warming experiments—provide a template for studying urban-weather interactions in other regions.
 
 ## The Cutting Edge: Convection-Resolving Models
-
 
 One aspect of Chenxi's work that particularly impressed me is his use of convection-permitting and convection-resolving models. These high-resolution simulations can capture the small-scale processes that drive extreme rainfall—something coarser climate models miss. His 2024 AGU presentation on "Investigating Global Warming Controls on Tropical Cyclone Rainfall Using Convection-Resolving Model Experiments" (co-authored with M. Xiao, F.C.Y. Tam, J. Chen, and T.N. Chow) represents the frontier of this approach.
 

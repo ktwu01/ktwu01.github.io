@@ -10,10 +10,9 @@ tags:
   - Neuromorphic Computing
   - Gene Expression
 ---
+Virtual cell models powered by neuromorphic computing and gene language models represent one of the most capital-intensive and scientifically ambitious convergences in biotech AI. If you're evaluating this space as a VC intern, you need to understand three core components: what these systems actually do, why the market is moving now, and where the investable opportunities lie.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-Virtual cell models powered by neuromorphic computing and gene language models represent one of the most capital-intensive and scientifically ambitious convergences in biotech AI. If you're evaluating this space as a VC intern, you need to understand three core components: what these systems actually do, why the market is moving now, and where the investable opportunities lie.
 
 ## What Are Virtual Cell Models?
 

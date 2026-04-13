@@ -8,8 +8,9 @@ tags:
   - funding
   - resources
 ---
+每年 5 万美元且连续 3 年的科研资助，让 NASA FINESST 项目成为地球与空间科学博士生必须争取的黄金机会。这份指南旨在将复杂的申请流程拆解为可操作的策略，帮助下一代“未来研究员”（Future Investigators）在激烈的竞争中脱颖而出。
 
-这是一份关于申请 NASA Future Investigators in NASA Earth and Space Science and Technology（FINESST）项目的综合指南。该项目可为研究生提供最高每年 5 万美元、连续 3 年的科研资助。
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 什么是 FINESST？
 
@@ -41,19 +42,8 @@ NASA 的 DAPR 指南要求评审人在主体科学计划中看不到个人或机
 官方 DAPR 指南： [https://science.nasa.gov/researchers/dual-anonymous-peer-review](https://science.nasa.gov/researchers/dual-anonymous-peer-review)
 
 ## 提高成功率的策略
-
-### 常见成功研究路径：
-1. **Satellite Data Applications**：利用空间观测开展全球尺度研究
-2. **Multi-Disciplinary Studies**：结合多源数据和多种方法的交叉研究
-3. **Validation Studies**：产品验证与质量评估
-
-### 常见成功模式：
-- 强有力的研究合作
-- 清晰明确的科学目标
-- 聚焦高影响力研究问题
-- 国际合作背景
-- 可证明的研究进展
-- 结构良好的提案写作
+最具竞争力的提案往往能够巧妙利用卫星观测（Satellite Data Applications）来解决全球尺度的科学难题。成功的申请者通常会设计跨学科研究（Multi-Disciplinary Studies）来整合多源数据，或专注于严格的产品验证研究（Validation Studies）以评估 NASA 现有数据的科学价值。
+除了技术路径，成功的核心还在于清晰的科学目标以及强有力的研究合作背景。聚焦高影响力的科学问题、展示可证明的研究进展以及撰写逻辑严密的提案，是获得评审青睐的关键。此外，良好的国际合作背景通常也能为申请加分。
 
 ## 有帮助的资源
 
@@ -71,13 +61,7 @@ NASA 的 DAPR 指南要求评审人在主体科学计划中看不到个人或机
 5. **等待通知**：结果通常会在几个月后公布
 
 ## 评审标准
-
-NASA 会从四个主要维度评估 FINESST 申请：
-
-1. **Scientific/Technical Merit**
-2. **Relevance to NASA**
-3. **Research Readiness**（FI 的背景、时间线可行性）
-4. **Cost Reasonableness**（预算清晰度，以及是否符合每年 50K 美元上限）
+NASA 的评审过程非常严谨，评审人会重点评估提案的科学与技术价值，以及项目与 NASA 战略目标的相关性。此外，评审还会考察“研究就绪度”（Research Readiness），包括申请人的专业背景和项目时间线的可行性，并确保预算透明且严格遵守每年 5 万美元的上限。
 
 ## FAQ
 

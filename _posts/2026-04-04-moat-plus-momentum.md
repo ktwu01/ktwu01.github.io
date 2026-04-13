@@ -9,10 +9,9 @@ tags:
   - Research
   - Career
 ---
+Research, stock trading, and startups all share a common pattern: success comes from combining a defensible core competency with the ability to ride trending waves. You don't need exhaustive preparation anymore. You need methodology and the ability to produce content when it matters. When the right moment arrives, you strike.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-Research, stock trading, and startups all share a common pattern: success comes from combining a defensible core competency with the ability to ride trending waves. You don't need exhaustive preparation anymore. You need methodology and the ability to produce content when it matters. When the right moment arrives, you strike.
 
 The formula is simple: moat plus momentum. Your moat is whatever you're genuinely good at—domain expertise, technical skill, network access, proprietary data. Momentum is the trending topic that suddenly makes your expertise valuable to a wider audience. AI doesn't replace either component. It amplifies your ability to capitalize on the intersection.
 

@@ -8,8 +8,9 @@ tags:
   - Texas
   - culture
 ---
+The silence surrounding the Alamo chapel in San Antonio belies the brutal, thirteen-day siege that transformed this former Spanish mission into the ultimate symbol of Texan independence. Standing before its weathered facade today, one can almost hear the echoes of a conflict that remains one of the most legendary chapters in American history.
 
-Today I stood before the Alamo chapel in San Antonio. This seemingly peaceful building holds one of the most brutal and legendary chapters in Texas and American history.
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Spanish Mission Origins (1718-1793)
 

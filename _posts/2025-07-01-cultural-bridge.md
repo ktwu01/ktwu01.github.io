@@ -8,8 +8,9 @@ tags:
   - fastapi
   - cultural-exchange
 ---
-
 A web-based platform for facilitating cross-cultural communication and understanding.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Local Deployment
 

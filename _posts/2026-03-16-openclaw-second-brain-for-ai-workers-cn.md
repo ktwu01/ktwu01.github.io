@@ -9,8 +9,9 @@ tags:
   - Automation
   - Productivity
 ---
-
 用不用 OpenClaw？这是个问题
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 这篇文章我按三个顺序来讲：
 

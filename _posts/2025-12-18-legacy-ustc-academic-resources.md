@@ -8,8 +8,9 @@ tags:
   - academic
   - legacy
 ---
-
 A collection of USTC academic resources covering career planning, library access, and research tools.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 <h3><p><a style="color: #447ec9" href="https://www.zhihu.com/question/515187337/answer/2338226609">How to build a USTC homepage in 5 minutes (5分钟搭建中科大学术主页) </a></p></h3>
 
@@ -53,4 +54,3 @@ A collection of USTC academic resources covering career planning, library access
 <p><a href="https://feynmanlectures.caltech.edu/info/">The Feynman Lectures on Physics Website</a>
 &nbsp;&nbsp;<a href="http://www.cas.cn/zkyzs/">"中科院之声"电子杂志</a></p>
 <p><a href="https://www.gaopinimages.com/edit">高品图像 - 正版商用图片、视频、音乐数字版权服务</a></p>
-
