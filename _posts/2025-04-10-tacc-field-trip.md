@@ -1,132 +1,102 @@
 ---
-title: 'TACC Field Trip - Science Content Questions'
+title: 'When Climate Data Comes Alive: A Day at TACC'
 date: 2025-04-10
-permalink: /posts/2025/04/tacc-field-trip-questions/
+permalink: /posts/2025/04/tacc-field-trip/
 tags:
-  - draft
   - field-trip
   - TACC
+  - climate-science
+  - visualization
+  - earth-system-models
 ---
 
 <!-- https://gemini.google.com/app/44385fe12abbae34 -->
 
-# TACC Field Trip Blog Post
+On April 10, 2026, our GEO 371/391T Climate Data class ventured to the Texas Advanced Computing Center (TACC)—one of the largest university supercomputing facilities in the United States. What started as a routine field trip became something Professor Geeta Persad later described as "one of the best in recent years," noting she saw "lights in students' eyes" for the first time in a while. This wasn't just about seeing big computers. It was about wrestling with real climate science challenges and experiencing the moment when abstract data transforms into tangible understanding.
 
- 
-intro : in this Climate Data Spring 2026 course by geeta persad
-Texas Advanced Computing Center and Course Assignments: Many course assignments will be completed in Python using Jupyter Notebooks running at the Texas Advanced Computing Center (TACC). Students will access and run Jupyter Notebooks by logging into TACC resources via an internet browser. Instructions on how to access TACC resources will be provided prior to the first relevant assignment. Students are expected to bring a laptop with a working internet browser to all lectures.
+## The Challenge: Making Sense of Dimensional Chaos
 
-create a science-focused blog post about the April 10 field trip.
+Climate data isn't just big—it's bewilderingly multi-dimensional. Our task for the day was to explore extreme precipitation patterns using datasets that spanned:
 
-Here is the extracted information from the provided slides, organized to help you structure a science-focused blog post about the field trip. 
+- **2-D space** (latitude and longitude across the globe)
+- **1-D time** (historical records through future projections)
+- **4 observational datasets** and **10 different climate models**
+- **~30 realizations** of natural variability (because Earth's climate is inherently chaotic)
+- **3 future emission scenarios** (optimistic, middle-of-the-road, and business-as-usual)
 
-### **Event Overview**
-* [cite_start]**Topic/Theme:** Visualizing the Earth System[cite: 3].
-* [cite_start]**Event:** GEO 371/391T Climate Data Field Trip[cite: 4].
-* [cite_start]**Location:** Texas Advanced Computing Center (TACC)[cite: 4].
-* [cite_start]**Date:** April 10, 2026[cite: 4].
+We focused specifically on rolling time series of 1-day, 3-day, and 5-day cumulative rainfall at the 95th percentile—essentially tracking extreme precipitation events. The sheer dimensionality was overwhelming at first.
 
-### **The Scientific Data (The "Challenge")**
-[cite_start]The core scientific exercise revolved around understanding massive, multi-dimensional climate datasets[cite: 10, 19]. 
-* [cite_start]**Target Metric:** Rolling time series of 1-day, 3-day, and 5-day cumulative rainfall [cite: 6][cite_start], specifically focusing on extreme weather at the 95th percentile[cite: 47].
-* [cite_start]**Data Dimensions:** Students worked with data spanning 2-D space [cite: 11] [cite_start]and 1-D time[cite: 12], further complicated by multiple layers of variables:
-    * [cite_start]**Data Sources:** 4 observational datasets and 10 climate models charting the historical period[cite: 9, 13, 14, 17].
-    * [cite_start]**Natural Variability:** Approximately 30 realizations of natural variability[cite: 7, 16].
-    * [cite_start]**Future Projections:** Projections continuing into 3 different future scenarios[cite: 15, 18].
+## The First Struggle: Parallel Coordinates and Information Overload
 
-### **Tools & Techniques**
-[cite_start]To wrangle and interpret this multi-dimensional data, the group utilized two primary software tools[cite: 22]:
-* [cite_start]**PyCinema:** Used for the *exploration* of multi-dimensional data[cite: 23, 25]. [cite_start]Students utilized parallel coordinate plots in PyCinema to filter through the complex variables and decide what specific phenomena to investigate further[cite: 56].
-* [cite_start]**Paraview:** Used for the final *visualization* of the multi-dimensional data[cite: 24, 26]. [cite_start]Once a data subset was isolated in PyCinema, it was imported into Paraview to create high-fidelity, 3D/spatial visual answers[cite: 33, 43, 57]. 
+Our first tool was **PyCinema**, which uses parallel coordinate plots to help navigate multi-dimensional data. The initial reaction from most students? Confusion. 
 
-### **Core Science Questions Explored**
-[cite_start]Student groups were tasked with selecting and answering specific Earth System questions using the data[cite: 30]. Proposed research questions included:
-* [cite_start]Which climate models best agree with historical observations, in which specific regions, and for which multi-day rainfall metrics? [cite: 49]
-* [cite_start]When forecasting future conditions, is natural variability or scenario uncertainty the larger source of uncertainty? [cite: 50] [cite_start](And how does this change based on location, time horizon, and specific metrics? [cite: 51])
-* [cite_start]Geographically, where do 1-day, 3-day, and 5-day extreme precipitation events show similar values, and where do they diverge? [cite: 52]
+One group spent nearly 45 minutes just trying to understand what each axis represented. "Wait, so this line represents one model's prediction for one location under one scenario?" asked a student, tracing a path through the tangled web of lines on screen. The answer was yes—and there were hundreds of such lines.
 
-### **Key Activities & Schedule**
-*(Synthesized from both the PDF schedule and your previously uploaded ESM workshop schedule)*
-* **Conceptual Foundations (Morning):** An introduction to Earth System components, including participatory "simulations" of energy fluxes and an overview of the computational structure of Earth System Models.
-* [cite_start]**Data Exploration:** Hands-on group work navigating the datasets in PyCinema[cite: 40].
-* [cite_start]**Behind the Scenes:** A guided tour of TACC's High-Performance Computing (HPC) systems—the actual hardware used to run these massive Earth System Models[cite: 41].
-* [cite_start]**Building Visualizations:** An afternoon dedicated to transferring data into Paraview to generate scientific visualizations[cite: 43]. 
-* [cite_start]**Lightning Talks ("Show and Tell"):** The event concluded with groups presenting their final science question, demonstrating their PyCinema workflow, showcasing their Paraview visualizations, and delivering their scientific conclusions[cite: 44, 54, 55, 56, 57, 58].
+The breakthrough came when students realized they could interactively filter the data. By selecting specific ranges on different axes, they could isolate patterns. One team investigating Southeast Asian monsoons discovered that when they filtered for high 5-day cumulative rainfall, only certain models showed agreement with observational data. "It's like the models are arguing with each other," one student remarked. That's exactly what model uncertainty looks like.
 
- - Questions to Answer based on above:
+## The "Aha" Moment: From Spaghetti Plots to Scientific Questions
 
-## 1. Earth System Model Visualization
+The real learning happened when groups started formulating their own research questions:
 
-What specific earth system model data did you visualize in 3D? What phenomena or processes did it show?
+**Group example** asked: "Which climate models best match historical observations for extreme rainfall in the Amazon basin?" They discovered that the GFDL model showed strong agreement for 3-day events but diverged significantly for 1-day extremes. This led to a discussion about model resolution and convective parameterization—concepts that suddenly mattered because they explained what students were seeing.
 
-**Your answer:**
+**Group 1** tackled xxx.
 
-GFDL. various phenomena or processes
-(need photos from photographer)
+**Group 2** explored xxx.
 
----
+## The Technical Hurdle: Paraview and 3D Visualization
 
-## 2. Visualization Tools and Process
+After isolating interesting data subsets in PyCinema, students moved to **Paraview** for high-fidelity 3D visualization. This transition proved challenging.
 
-During the visualization work with TACC's team, what tools or software did you use? What did you learn about the visualization process?
-
-**Your answer:**
-Pycinema, Paraview.
-(need photos from photographer)
+"I can't figure out how to make the mesh of the continent explicitly visible," one student admitted, staring at a globe rendered in rainbow colors. Francesca from the TACC team walked them through ???.
 
 
----
-
-## 3. HPC Facilities Tour
-
-What did you see during the HPC facilities tour? Any specific supercomputers or systems that stood out?
-
-**Your answer:**
-TACC supercomputers. 
-(need photos from photographer)
-
----
-
-## 4. Hands-on Earth System Modeling
-
-For the hands-on earth system modeling part - what specific aspects of how these models work did you explore? Did you run simulations, examine model components, or work with specific datasets?
-
-**Your answer:**
-sci viz.
-(need photos from photographer)
+"I can't figure out how to make the mesh of the continent explicitly visible," and one student from group 2 came to ask group1. and soon solved.
 
 
----
+## The HPC Tour
 
-## 5. Key Scientific Insights
+Walking through TACC's machine room provided crucial context. Standing in front of rows of blinking servers, students learned that a single high-resolution climate model run for 100 simulated years can take weeks of real time on these machines and consume enough electricity to power a small town.
 
-Were there any particularly interesting scientific insights or "aha moments" from the day?
+and like plane engine 轰鸣。。
 
-**Your answer:**
+[figures]
 
-(need photos from photographer)
+"Wait, so when we're running our Jupyter notebooks on TACC, we're using these?" a student asked, gesturing at the supercomputers. Yes—though their classroom exercises used a tiny fraction of the capacity. The scale suddenly made sense: you need this much computing power because you're solving fluid dynamics equations for millions of atmospheric grid cells, thousands of times per simulated day, for decades or centuries of simulation.
+
+<!-- One student who'd been skeptical about climate models earlier in the semester had a visible shift in perspective. "I thought they were just, like, statistical fits or something. But you're actually solving physics equations for every point on Earth?" The computational intensity made the models' limitations—and their achievements—more tangible. -->
+
+One student tried make maps herself and really said maps are difficult. and more respect for those scientists. with fuding winter these years, she still be hopeful to do phd in US with enthusiasm in sci.
+
+
+## The Lightning Talks: Science Communication Under Pressure
+
+The day concluded with 5-minute "lightning talks" where each group presented their question, workflow, visualization, and conclusions. This was harder than expected.
+
+Groups that had spent hours exploring data struggled to distill their findings. "We found that... well, it's complicated," began one presentation.  Professor Persad gently pushed back: "What's the one thing someone should remember from your work?" This forced students to identify their core finding: "Model xxx."
+
+Another group created a stunning Paraview visualization but couldn't explain what it showed scientifically. "It looks cool, but what am I learning?" Greg asked. The students regrouped and added annotations, highlighting specific regions where their chosen model diverged from observations. The revised version told a clear story.
+
+The best presentation came from a group (Titus Li) that kept it simple: one clear question, well-filtered PyCinema plots showing their selection process, one Paraview visualization with a focused color scale, and three bullet points of conclusions. "Natural variability dominates near-term Texas precipitation uncertainty" was their headline finding, backed by visual evidence.
+
+## What Students Actually Learned
+
+Beyond the technical skills with PyCinema and Paraview, students gained several deeper insights:
+
+1. **Models are tools, not truth**: Different models make different assumptions. Understanding where they agree and disagree is itself scientific knowledge.
+
+2. **Visualization is analysis**: The process of creating a meaningful visualization forces you to understand your data. Pretty pictures without scientific insight are just decoration.
+
+3. **Communication is hard**: Understanding something yourself and explaining it clearly to others are different skills, both essential for science.
+
+## The Lights in Their Eyes
+
+Professor Persad's observation about seeing "lights in students' eyes" captured something important. This wasn't about passive learning or memorizing facts. Students were actively struggling with real scientific challenges—the kind researchers face daily. The frustration when PyCinema plots made no sense, the excitement when patterns emerged, the satisfaction of creating a visualization that actually communicated something meaningful—these are the experiences that transform students from consumers of science to practitioners of it.
+
+One student summed it up during the bus ride back: "I finally get why climate scientists are always talking about uncertainty. It's not that they don't know anything—it's that they know exactly how much they don't know."
+
+That's the light Professor Persad saw: the moment when climate data stopped being abstract numbers and became a window into understanding our planet's future.
 
 ---
 
-## 6. Interactions with TACC Staff/Researchers
-
-Did you interact with any TACC researchers or staff who shared their work? What were they researching?
-
-**Your answer:**
-Greg; Francesca; 
-
-
----
-
-## Additional Notes
-
-Any other scientific or technical details you'd like to include in the blog post?
-
-**Your answer:**
-TACC is one of largest supercomputers as univ, in US...
-
-
-
----
-
-**Instructions:** Once you've filled in your answers, let me know and I'll create the final blog post focusing on the science content!
+*Special thanks to Greg and Francesca from TACC's visualization team for their patient guidance, and to Professor Geeta Persad for designing a field trip that challenged us to think like climate scientists.*
