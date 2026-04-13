@@ -8,8 +8,9 @@ tags:
   - react
   - threejs
 ---
-
 A hand-controlled 3D visualization of your AI conversation history - fly through ChatGPT conversations and explore artificial intelligence concepts. [Try Live Demo](https://ktwu01.github.io/neural-galaxy/)
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 [![GitHub stars](https://img.shields.io/github/stars/ktwu01/neural-galaxy?style=social)](https://github.com/ktwu01/neural-galaxy/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ktwu01/neural-galaxy?style=social)](https://github.com/ktwu01/neural-galaxy/fork) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ktwu01/neural-galaxy/issues) ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational.svg)
 

@@ -9,10 +9,11 @@ tags:
   - visualization
   - earth-system-models
 ---
+The roar of cooling systems in the Texas Advanced Computing Center (TACC) isn't just noise—it's the power of supercomputers translating the overwhelming dimensionality of climate data into something students can finally see and understand.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 <!-- https://gemini.google.com/app/44385fe12abbae34 -->
-
-The roar of cooling systems in the Texas Advanced Computing Center (TACC) isn't just noise—it's the power of supercomputers translating the overwhelming dimensionality of climate data into something students can finally see and understand.
 
 On April 10, 2026, our GEO 371/391T Climate Data class ventured to this facility, one of the largest university supercomputing centers in the U.S., for what Professor Geeta Persad described as a transformative experience. What started as a routine field trip became a moment of scientific clarity where abstract data transformed into tangible understanding.
 
@@ -67,7 +68,6 @@ The real learning happened when groups started formulating their own research qu
 
 **Group 2** explored xxx.
 
-
 ## The Technical Hurdle: Paraview and 3D Visualization
 
 After isolating interesting data subsets in PyCinema, students moved to **Paraview** for high-fidelity 3D visualization. This transition proved challenging, but it also showcased the collaborative spirit that made the day special.
@@ -77,8 +77,6 @@ After isolating interesting data subsets in PyCinema, students moved to **Paravi
 What happened next was exactly the kind of peer learning we hope for. Pranav Rajkumar, an undergraduate from Group 3, walked over to Group 2's workstation to ask for help with the same mesh visibility issue. Through collaborative troubleshooting—comparing settings, sharing tips from the TACC documentation, trying different rendering options—they figured it out together. 
 
 Professor Persad, Cameron Cummins (who had driven down from Dallas to support the session), and the TACC science and visualization team provided guidance when students got stuck, but the actual problem-solving came from the students themselves. This kind of collaborative learning, where students teach each other through shared struggle, often sticks better than any lecture.
-
-
 
 ## A New Appreciation for the Work
 

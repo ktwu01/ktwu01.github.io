@@ -9,8 +9,9 @@ tags:
   - 干涉测量
   - 机器学习
 ---
-
 拍摄黑洞照片和训练GPT-4在根本上是同一个过程：从极度稀疏的频域测量中提取相干结构。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 
@@ -237,4 +238,3 @@ EHT的成功关键取决于重建算法（PRIMO、稀疏建模），而不仅仅
 7. [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 8. [LLM潜在空间几何](https://arxiv.org/html/2511.21594v2)
 9. [Nyquist-Shannon采样定理](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)（内容已改写以符合许可限制）
-

@@ -8,8 +8,9 @@ tags:
   - 德克萨斯
   - 文化
 ---
-
 今天我站在了圣安东尼奥的阿拉莫教堂前。这座看似宁静的建筑，却承载着德克萨斯乃至美国历史上最惨烈、最具传奇色彩的一页。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 西班牙传教站的起源 (1718-1793)
 

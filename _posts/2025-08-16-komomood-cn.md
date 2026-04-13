@@ -9,8 +9,9 @@ tags:
   - sqlite
   - nodejs
 ---
-
 这是一个优雅的情侣心情记录网站，采用自托管后端和 SQLite，以 GitHub contribution graph 风格展示每日心情记录。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 🌸 功能特点
 

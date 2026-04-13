@@ -7,8 +7,9 @@ tags:
   - html
   - ui-ux
 ---
-
 A simple, clean HTML page displaying email verification success message with responsive design and professional styling.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Features
 

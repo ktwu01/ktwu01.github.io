@@ -8,8 +8,9 @@ tags:
   - atmospheric-science
   - manuscript
 ---
+这是一个关于流星速度变化研究的论文仓库，相关稿件已在 Journal of Geophysical Research (JGR)发表。
 
-这是一个关于流星速度变化研究的论文仓库，相关稿件已投稿至 Journal of Geophysical Research (JGR)。
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 **Repository**: https://github.com/ktwu01/Meteor-Speed-Variations-manuscript
 

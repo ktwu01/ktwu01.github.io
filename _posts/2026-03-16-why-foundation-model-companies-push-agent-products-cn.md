@@ -9,8 +9,9 @@ tags:
   - Agent
   - Strategy
 ---
-
 真正值得警惕的信号不是 AI 公司增长太慢，而是它们增长得很快，现金流压力却仍在放大。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 很多人问：为什么 OpenAI、Anthropic、xAI 还在重投入，甚至继续推更重的 Agent 产品？答案不是一句“它们贪心”，而是当前行业还处在“先抢结构位置，再谈利润兑现”的阶段。
 

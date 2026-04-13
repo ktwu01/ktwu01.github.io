@@ -8,8 +8,9 @@ tags:
   - react
   - threejs
 ---
-
 一个支持手势控制的 3D 可视化项目，把你的 AI 对话历史变成可以飞行探索的星系。你可以在 ChatGPT 对话之间穿梭，也可以把抽象的人工智能概念变成一个能亲手操作的可视化空间。[Try Live Demo](https://ktwu01.github.io/neural-galaxy/)
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 [![GitHub stars](https://img.shields.io/github/stars/ktwu01/neural-galaxy?style=social)](https://github.com/ktwu01/neural-galaxy/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ktwu01/neural-galaxy?style=social)](https://github.com/ktwu01/neural-galaxy/fork) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ktwu01/neural-galaxy/issues) ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational.svg)
 

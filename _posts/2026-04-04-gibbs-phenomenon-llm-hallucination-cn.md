@@ -8,8 +8,9 @@ tags:
   - 大语言模型
   - 傅里叶分析
 ---
-
 当大语言模型（LLM）产生幻觉时，我们通常将其视为需要修复的工程缺陷。但如果幻觉不是缺陷，而是数学上的必然结果呢？最近一场跨学科讨论揭示了傅里叶分析中的[吉布斯现象](https://en.wikipedia.org/wiki/Gibbs_phenomenon)与神经网络根本局限性之间的深刻联系。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 吉布斯现象：一个数学真理
 

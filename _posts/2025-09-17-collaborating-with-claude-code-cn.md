@@ -8,8 +8,9 @@ tags:
   - academic website
   - automation
 ---
-
 今天我经历了一次挺有意思的合作：和 Claude Code 一起，把我的个人学术网站彻底重做了一遍。作为 UT Austin Geological and Earth Sciences 的博士生，我需要把 GitHub Pages 站点从一堆占位符内容，更新成真正能代表我专业背景的信息。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 挑战是什么
 

@@ -9,8 +9,9 @@ tags:
   - venture-capital
   - llm
 ---
+大模型厂商用造火箭的成本，培养出了一群只想买两块钱鞭炮听个响的极客。
 
-> 大模型厂商用造火箭的成本，培养出了一群只想买两块钱鞭炮听个响的极客。
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ---
 

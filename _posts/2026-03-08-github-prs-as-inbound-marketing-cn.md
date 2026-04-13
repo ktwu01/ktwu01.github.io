@@ -10,15 +10,13 @@ tags:
   - Developer Relations
   - Personal Branding
 ---
+对技术人来说，在一个高速增长的开源仓库里做出高质量 PR，往往比再发一篇泛泛而谈的 AI 观点帖更像真正有效的 inbound marketing。
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> 对技术人来说，在一个高速增长的开源仓库里做出高质量 PR，往往比再发一篇泛泛而谈的 AI 观点帖更像真正有效的 inbound marketing。
->
+
 > 一个好的 PR，是公开可验证的 work proof：它能展示代码质量、解决问题的能力、审美，以及在公开环境中协作的能力。
->
 > 别人可能会通过 contributors、commits、reviews，甚至你的 GitHub profile 发现你——但更深层的价值在于：你的工作因此变得可见、可信、可检查。
 
 最近我一直在想一个简单但被低估的点：

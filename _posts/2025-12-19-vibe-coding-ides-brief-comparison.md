@@ -10,12 +10,11 @@ tags:
   - Antigravity
   - Developer Tools
 ---
+每一家都有每一家的优点和缺点。Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/) 290 stars
 
 > TL;DR 太长不看版本
-
-> 每一家都有每一家的优点和缺点。Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
 
 > Vibe coding 重度使用者, 比如说我, 为了多快好省的做出东西, 在老板不给 API 的情况下, 建议每一种IDE都同时使用。
 

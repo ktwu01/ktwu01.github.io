@@ -13,10 +13,11 @@ tags:
   - Business Model
   - PMF
 ---
+[Wispr Flow](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D) is the best AI product I've used this year. But I haven't paid them a cent. Here's why that's both impressive and concerning.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> [Wispr Flow](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D) is the best AI product I've used this year. But I haven't paid them a cent. Here's why that's both impressive and concerning.
 
 ![Wispr Flow Usage Stats](/images/wispr-flow-2026-01-06.png)
 
@@ -54,4 +55,3 @@ Either way, time will tell. The product execution is flawless. The business mode
 What do you think—growth at all costs or fixable monetization gap?
 
 **Check out [Wispr Flow on LinkedIn](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D)**
-

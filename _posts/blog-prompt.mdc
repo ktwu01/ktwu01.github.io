@@ -23,8 +23,6 @@ tags:
   - Thinking
 ---
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
 - If the task asks for both Chinese and English versions of the same post, create two separate files under `_posts/`. Do not mix two languages in one markdown file.
 - Use parallel filenames for the same piece:
   - English: `YYYY-MM-DD-topic-slug.md`
@@ -58,6 +56,16 @@ First sentence rules:
   - "The Tmux Orchestrator enables Claude agents to work autonomously, schedule their own check-ins, and coordinate across multiple projects without human intervention."
   - "三次死亡让我完成了自我升级。"
   - "Today I had an interesting experience collaborating with Claude Code to completely overhaul my personal academic website."
+
+Author attribution rules:
+
+- **The first sentence must be a punchy and hooky statement.** It is critical because it appears in archive listings and RSS feeds.
+- **The author attribution must be the second line/sentence.** Use the following blockquote format:
+  - Chinese: `> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)`
+  - English: `> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)`
+- Ensure this order is strictly followed: 1) Punchy Hook, 2) Author Attribution.
+- If the source only has the author line, you MUST generate a punchy hook for the first sentence.
+- If the source only has the content, you MUST add the author line as the second sentence.
 
 Formatting rules:
 

@@ -10,10 +10,9 @@ tags:
   - PhD
   - 人工智能
 ---
+2015 年秋天，有两件事同时发生了。
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-2015 年秋天，有两件事同时发生了。
 
 第一件：一批刚拿到本科或硕士学位的年轻人，背着书包走进了 MIT、Stanford、CMU、UCB 的 CS 系，开始了漫长的博士生涯。他们的导师告诉他们："大概五年，也许六年。慢慢来。"
 

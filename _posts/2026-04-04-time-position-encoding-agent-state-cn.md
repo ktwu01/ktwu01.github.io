@@ -9,8 +9,9 @@ tags:
   - 位置编码
   - 时间
 ---
-
 为什么AI Agent缺乏时间意识，以及注入时间戳如何将它们从无状态自动机转变为连贯的实体。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 [Koutian Wu](ktwu01.github.io)
 

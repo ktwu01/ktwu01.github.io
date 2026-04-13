@@ -9,10 +9,9 @@ tags:
   - RLHF
   - PhD
 ---
+In the fall of 2015, two things happened simultaneously.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-In the fall of 2015, two things happened simultaneously.
 
 First: A cohort of freshly-minted undergrads and master's students packed their bags and walked into the CS departments of MIT, Stanford, CMU, and Berkeley to begin the long journey of a PhD. Their advisors told them: "About five years. Maybe six. Take your time."
 

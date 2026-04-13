@@ -10,10 +10,11 @@ tags:
   - Productivity
   - Open Source
 ---
+[Yuxuan](https://www.linkedin.com/in/yuxuan-cao-4b235110b/) and I have been discussing AI agent ideas for a while. Yesterday, we finally decided: we're building **Atomize**, a task-breaking agent system evolved from [Goblin Tools](https://goblin.tools/).
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> [Yuxuan](https://www.linkedin.com/in/yuxuan-cao-4b235110b/) and I have been discussing AI agent ideas for a while. Yesterday, we finally decided: we're building **Atomize**, a task-breaking agent system evolved from [Goblin Tools](https://goblin.tools/).
 
 ## The Spark: Goblin Tools
 
@@ -74,4 +75,3 @@ Stay tuned for updates on our progress.
 **Co-founder:** [Yuxuan Cao](https://www.linkedin.com/in/yuxuan-cao-4b235110b/)
 
 **Inspiration:** [Goblin Tools](https://goblin.tools/)
-

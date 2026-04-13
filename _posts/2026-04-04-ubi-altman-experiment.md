@@ -12,8 +12,9 @@ tags:
   - OpenResearch
   - future-of-work
 ---
+What Happens When You Just Give People Money? Sam Altman's UBI Experiment
 
-# What Happens When You Just Give People Money? Sam Altman's UBI Experiment
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 In 2020, as the world was grappling with a pandemic and the accelerating rise of AI, a quiet but consequential experiment began in Texas and Illinois. For three years, 1,000 low-income adults received $1,000 every month — no strings attached, no conditions, no questions asked. Another 2,000 people received just $50 a month as a control group.
 

@@ -10,101 +10,28 @@ tags:
   - Career
   - Thinking
 ---
+Startup is better understood as a probability game than as a one-time exam.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> Startup is better understood as a probability game than as a one-time exam.
->
+
 > If someone starts building at 16 and seriously launches one startup attempt per year, then by 26 they have already played 10 rounds. Even under conservative assumptions, failing all 10 rounds is much less likely than people intuitively think.
->
 > The deeper reason is not just math. It is that startup attempts are not independent. Your judgment, speed, network, and leverage compound. In the AI era, both iteration speed and individual leverage rise further.
 
-The biggest mistake people make about startup is thinking of it as a single event.
-
-They talk about it as if one company is one final exam: either you pass and prove you are exceptional, or you fail and prove you were never meant for it.
-
-That framing is emotionally dramatic, but analytically weak.
-
-Startup is not a one-shot exam.
-
-It is a probability game.
-
-And once you start viewing it that way, a lot of things become clearer.
+The biggest mistake people make about startups is thinking of them as a single, high-stakes event. They talk about it as if one company is a final exam: either you pass and prove you are exceptional, or you fail and prove you were never meant for it. That framing is emotionally dramatic but analytically weak. In reality, startup is not a one-shot exam; it is a probability game. Once you start viewing it through that lens, the entire path to success becomes much clearer.
 
 ## What happens if you begin at 16?
 
-Suppose someone begins building seriously at **16**.
+Suppose someone begins building seriously at **16**. I don't mean raising venture capital or chasing unicorn fantasies prematurely, but rather engaging in the practical labor of shipping: building products, launching projects, testing demand, and learning to survive uncertainty. It is about the grit involved in recruiting a team and the discipline required to ship consistently. Now suppose they do this once per year. By the time they are 26, they have already played 10 rounds of the game.
 
-Not necessarily by raising venture capital at 16, and not by trying to force a unicorn fantasy too early. I mean something more practical:
-- building products
-- launching projects
-- trying distribution
-- testing demand
-- learning to sell
-- learning to recruit
-- learning to ship
-- learning to survive uncertainty
-
-Now suppose they do this **once per year** in a serious way.
-
-By the time they are **26**, they have already played **10 rounds**.
-
-That alone changes the entire discussion.
-
-The relevant question is no longer:
-
-**“Will this startup work?”**
-
-The relevant question becomes:
-
-**“What is the probability that someone who starts at 16 and seriously iterates for 10 rounds still has absolutely nothing working by 26?”**
-
-My claim is simple:
-
-**much lower than most people think.**
+That alone changes the entire discussion. The relevant question is no longer whether *this* particular startup will work, but rather the probability that someone who iterates seriously for ten years still has absolutely nothing working by the end. My claim is simple: that probability is much lower than most people think.
 
 ## The naive model already looks better than people assume
 
-Let us start with a deliberately pessimistic model.
+Let us start with a deliberately pessimistic model. Assume each startup attempt has only a 10% chance of success and each attempt is independent. While this is not how reality works, the probability of failing ten times in a row in this model is still only about 34.9%—meaning the chance of succeeding at least once is 65.1%. This is already higher than the emotional narrative suggests, and it completely ignores critical factors like learning, reputation, compounding judgment, and network effects.
 
-Assume each startup attempt has only a **10% chance of success**, and assume each attempt is independent. That is not how reality works, but let us begin there.
-
-Then the probability of failing 10 times in a row is:
-
-\[
-(0.9)^{10} \approx 34.9\%
-\]
-
-Even in this crude model, the probability of succeeding at least once is about **65.1%**.
-
-That is already much higher than the emotional story people tell themselves.
-
-And again, this model is too pessimistic, because it assumes:
-- no learning
-- no reputation accumulation
-- no compounding judgment
-- no network effects
-- no acceleration from tools
-
-Real startup careers are not 10 independent coin flips.
-
-They are path-dependent.
-
-## The real model is that your win rate changes
-
-The most important thing people miss is that each round changes the player.
-
-You are not the same founder on your 5th attempt that you were on your 1st. And you are definitely not the same on your 10th.
-
-Your odds improve because:
-- your judgment improves
-- your execution speed improves
-- your ability to detect fake demand improves
-- your understanding of timing improves
-- your network improves
-- your confidence in ambiguity improves
+Real startup careers are path-dependent; they are not 10 independent coin flips. Each round fundamentally changes the player, ensuring you are not the same founder on your fifth attempt as you were on your first. Your odds improve because your judgment sharpens, your execution speed increases, and your ability to detect fake demand becomes intuitive. You become more understanding of timing, your network expands, and you grow more stable in the face of ambiguity.
 
 So a more realistic model is not “10% success every year forever.”
 

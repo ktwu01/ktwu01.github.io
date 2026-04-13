@@ -8,6 +8,9 @@ tags:
   - mantle-convection
   - jackson-school
 ---
+Xiang He builds computer models of mantle convection to understand how processes 1000 kilometers beneath our feet drive the vertical motion we measure at Earth's surface.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 *This is part of our "Research & Recreation" series, where we share conversations with Jackson School graduate students about their incredible work and interests beyond the classroom.*
 

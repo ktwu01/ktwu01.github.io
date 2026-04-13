@@ -10,15 +10,13 @@ tags:
   - Career
   - Thinking
 ---
+每一代人都有自己管理任务的方式：最早是纸和笔，后来是 SaaS 任务管理工具，现在则开始进入像 OpenClaw heartbeat 这样可程序化、可持续运行的 agentic workflow 时代。
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> 每一代人都有自己管理任务的方式：最早是纸和笔，后来是 SaaS 任务管理工具，现在则开始进入像 OpenClaw heartbeat 这样可程序化、可持续运行的 agentic workflow 时代。
->
+
 > 很多东西确实变了。越来越多过去无法数字化、无法自动化的事情，现在都变得可以数字化、可以自动化、也更智能了。
->
 > 但核心标准没有变：如果你想做世界上最顶尖的事，你就要和世界上最厉害的人保持共识。最先进的 workflow 不是目的，和最先进的人保持连接才是。
 
 每一代人，都有每一代人的 to-do list。

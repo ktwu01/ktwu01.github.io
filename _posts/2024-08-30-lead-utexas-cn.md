@@ -8,8 +8,9 @@ tags:
   - climate
   - group-website
 ---
-
 UT Austin 宗良杨博士（Dr. Zong-Liang Yang）领导的陆地环境与大气动力学研究组（LEAD Group）利用卫星遥感、地球系统建模和高性能计算，推动人类对地球系统科学的理解。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 研究问题
 

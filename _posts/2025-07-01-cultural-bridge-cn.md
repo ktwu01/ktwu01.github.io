@@ -8,8 +8,9 @@ tags:
   - fastapi
   - cultural-exchange
 ---
-
 一个基于 Web 的平台，用于促进跨文化交流与理解。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 本地部署
 

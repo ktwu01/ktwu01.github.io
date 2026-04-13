@@ -9,8 +9,9 @@ tags:
   - proof-of-work
   - work-measurement
 ---
-
 衡量工作效率，最重要的指标或许不是投入的时间，而是消耗的能源。
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 传统上，我们习惯用"思考了多少小时"或"工作了多长时间"来衡量工作成果。然而，这种基于时间的衡量方式存在根本性缺陷——它无法区分高效与低效的思考，也无法衡量思考的深度与质量。
 

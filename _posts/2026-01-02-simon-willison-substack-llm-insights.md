@@ -10,10 +10,11 @@ tags:
   - Python
   - Open Source
 ---
+If you're serious about understanding LLMs and AI engineering, [Simon Willison's Newsletter](https://simonw.substack.com/?r=6hkfaf&utm_campaign=subscribe-page-share-screen&utm_medium=web) is one of the best resources out there. With over 38,000 subscribers, it provides detailed analysis on AI, LLMs, web engineering, open source, data science, and Python.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
->
-> If you're serious about understanding LLMs and AI engineering, [Simon Willison's Newsletter](https://simonw.substack.com/?r=6hkfaf&utm_campaign=subscribe-page-share-screen&utm_medium=web) is one of the best resources out there. With over 38,000 subscribers, it provides detailed analysis on AI, LLMs, web engineering, open source, data science, and Python.
 
 ## Who is Simon Willison?
 
@@ -77,5 +78,3 @@ With over 38,000 subscribers already, you'll be joining a community of developer
 ---
 
 > If you know of other high-quality AI/LLM resources, feel free to share them with me. Building a good reading list is one of the best investments you can make in this rapidly changing field.
-
-

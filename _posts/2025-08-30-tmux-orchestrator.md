@@ -8,8 +8,9 @@ tags:
   - tmux
   - automation
 ---
-
 The Tmux Orchestrator enables Claude agents to work autonomously, schedule their own check-ins, and coordinate across multiple projects without human intervention - a project I explored and learned a lot from.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 🤖 Key Capabilities & Autonomous Features
 
