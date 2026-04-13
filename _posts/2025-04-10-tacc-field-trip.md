@@ -28,7 +28,13 @@ We focused specifically on rolling time series of 1-day, 3-day, and 5-day cumula
 
 ## The First Struggle: Parallel Coordinates and Information Overload
 
-Our first tool was **PyCinema**, which uses parallel coordinate plots to help navigate multi-dimensional data. The initial reaction from most students? Confusion. 
+Our first tool was **PyCinema**, 
+
+---> wrong! first is intro in the morning, then TACC see supercomputers, and oil cooling, extreme loud sound, 
+
+finally do the viz and pre.
+
+which uses parallel coordinate plots to help navigate multi-dimensional data. The initial reaction from most students? Confusion. 
 
 One group spent nearly 45 minutes just trying to understand what each axis represented. "Wait, so this line represents one model's prediction for one location under one scenario?" asked a student, tracing a path through the tangled web of lines on screen. The answer was yes—and there were hundreds of such lines.
 
@@ -38,42 +44,51 @@ The breakthrough came when students realized they could interactively filter the
 
 The real learning happened when groups started formulating their own research questions:
 
-**Group example** asked: "Which climate models best match historical observations for extreme rainfall in the Amazon basin?" They discovered that the GFDL model showed strong agreement for 3-day events but diverged significantly for 1-day extremes. This led to a discussion about model resolution and convective parameterization—concepts that suddenly mattered because they explained what students were seeing.
+[Need to gather more thinking from students]
+
+**Mock Group example** asked: "Which climate models best match historical observations for extreme rainfall in the Amazon basin?" They discovered that the GFDL model showed strong agreement for 3-day events but diverged significantly for 1-day extremes. This led to a discussion about model resolution and convective parameterization—concepts that suddenly mattered because they explained what students were seeing.
 
 **Group 1** tackled xxx.
 
 **Group 2** explored xxx.
 
+## The HPC Tour: Where the Real Work Happens
+
+Walking through TACC's machine room provided crucial context. Standing in front of rows of blinking servers, the roar of cooling systems filled the air—like standing next to a jet engine. Students learned that a single high-resolution climate model run for 100 simulated years can take weeks of real time on these machines and consume enough electricity to power a small town.
+
+"Wait, so when we're running our Jupyter notebooks on TACC, we're using these?" a student asked, gesturing at the supercomputers. Yes—though their classroom exercises used a tiny fraction of the capacity. The scale suddenly made sense: you need this much computing power because you're solving fluid dynamics equations for millions of atmospheric grid cells, thousands of times per simulated day, for decades or centuries of simulation.
+
 ## The Technical Hurdle: Paraview and 3D Visualization
 
 After isolating interesting data subsets in PyCinema, students moved to **Paraview** for high-fidelity 3D visualization. This transition proved challenging.
 
-"I can't figure out how to make the mesh of the continent explicitly visible," one student admitted, staring at a globe rendered in rainbow colors. Francesca from the TACC team walked them through ???.
+(KW Note: group sort is clockwise as we did in final pre)
+
+"I can't figure out how to make the mesh of the continent explicitly visible," one student from Group 3 admitted, staring at a globe rendered in rainbow colors. The technical barrier was real, but what happened next illustrated the collaborative spirit of the day.
+
+Pranav Rajkumar, an ug from Group 3 came over to ask Group 2 for help with the same issue. Through peer-to-peer troubleshooting—comparing settings, sharing tips from the TACC documentation—they solved it together. geeta-persad and cameron and the TACC team provided guidance, but the students did the actual problem-solving. This kind of collaborative learning, where students teach each other through shared struggle, often sticks better than any lecture.
 
 
-"I can't figure out how to make the mesh of the continent explicitly visible," and one student from group 2 came to ask group1. and soon solved.
 
+## A New Appreciation for the Work
 
-## The HPC Tour
+The hands-on experience gave students a visceral understanding of what climate scientists actually do. MS student Raha Helali Esfahani, who had been working on creating her own maps during the session, expressed newfound respect: "Maps are really difficult. I have so much more respect for the scientists who do this work."
 
-Walking through TACC's machine room provided crucial context. Standing in front of rows of blinking servers, students learned that a single high-resolution climate model run for 100 simulated years can take weeks of real time on these machines and consume enough electricity to power a small town.
+Her comment resonated with many in the group. The field trip transformed abstract appreciation into concrete understanding. Despite facing funding challenges in recent years, Helali remained hopeful and enthusiastic about pursuing PhD research in the US. The experience at TACC reinforced why she wanted to continue in science—not despite the difficulties, but because of the meaningful challenges the work presents.
 
-and like plane engine 轰鸣。。
+## The Data Availability Problem
 
-[figures]
+One of the most frustrating challenges came early in the session. Several groups had been briefed about specific datasets or models they wanted to examine, only to discover that the data wasn't actually available in the system. This led to confusion and roadblocks that ate into precious time.
 
-"Wait, so when we're running our Jupyter notebooks on TACC, we're using these?" a student asked, gesturing at the supercomputers. Yes—though their classroom exercises used a tiny fraction of the capacity. The scale suddenly made sense: you need this much computing power because you're solving fluid dynamics equations for millions of atmospheric grid cells, thousands of times per simulated day, for decades or centuries of simulation.
+"We were informed about a specific dataset or model we wanted to examine, but the data was not actually available," explained Sarim Ahmad, an undergraduate student. His group spent valuable minutes troubleshooting before realizing they needed to pivot to a different dataset entirely.
 
-<!-- One student who'd been skeptical about climate models earlier in the semester had a visible shift in perspective. "I thought they were just, like, statistical fits or something. But you're actually solving physics equations for every point on Earth?" The computational intensity made the models' limitations—and their achievements—more tangible. -->
-
-One student tried make maps herself and really said maps are difficult. and more respect for those scientists. with fuding winter these years, she still be hopeful to do phd in US with enthusiasm in sci.
-
+This wasn't a failure of the field trip—it was an authentic research experience. As I noted in my role as TA, this is exactly what happens in real climate science work: datasets have gaps, documentation is incomplete, and researchers must adapt. The time constraints made it more stressful, though. "An extra hour would have allowed us to complete everything," Sarim reflected. "We eventually figured out how to fix the issues at the end, but by then we were rushing."
 
 ## The Lightning Talks: Science Communication Under Pressure
 
 The day concluded with 5-minute "lightning talks" where each group presented their question, workflow, visualization, and conclusions. This was harder than expected.
 
-Groups that had spent hours exploring data struggled to distill their findings. "We found that... well, it's complicated," began one presentation.  Professor Persad gently pushed back: "What's the one thing someone should remember from your work?" This forced students to identify their core finding: "Model xxx."
+Groups that had spent hours exploring data struggled to distill their findings. "We found that... well, it's complicated," began one presentation. Professor Persad gently pushed back: "What's the one thing someone should remember from your work?" This forced students to identify their core finding: "Model xxx."
 
 Another group created a stunning Paraview visualization but couldn't explain what it showed scientifically. "It looks cool, but what am I learning?" Greg asked. The students regrouped and added annotations, highlighting specific regions where their chosen model diverged from observations. The revised version told a clear story.
 
@@ -89,6 +104,8 @@ Beyond the technical skills with PyCinema and Paraview, students gained several 
 
 3. **Communication is hard**: Understanding something yourself and explaining it clearly to others are different skills, both essential for science.
 
+4. **Real research means adapting**: The data availability issues and time constraints weren't bugs in the field trip design—they were features. Learning to pivot when your planned approach doesn't work is an essential research skill.
+
 ## The Lights in Their Eyes
 
 Professor Persad's observation about seeing "lights in students' eyes" captured something important. This wasn't about passive learning or memorizing facts. Students were actively struggling with real scientific challenges—the kind researchers face daily. The frustration when PyCinema plots made no sense, the excitement when patterns emerged, the satisfaction of creating a visualization that actually communicated something meaningful—these are the experiences that transform students from consumers of science to practitioners of it.
@@ -100,3 +117,10 @@ That's the light Professor Persad saw: the moment when climate data stopped bein
 ---
 
 *Special thanks to Greg and Francesca from TACC's visualization team for their patient guidance, and to Professor Geeta Persad for designing a field trip that challenged us to think like climate scientists.*
+add cameron thanks to come from Dallas to this paper:
+
+Cameron Cummins, and I recently joined the Department of Earth and Planetary Sciences as a Computational Geoscientist. I
+
+Cameron Cummins Developing and optimizing research software/workflows, including leveraging distributed/parallel computing
+Programming/bug fixing, although I can adopt any language, I am most skilled in Python and C++
+Utilizing GitHub for version control and open-source distribution
