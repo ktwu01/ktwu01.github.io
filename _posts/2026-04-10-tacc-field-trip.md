@@ -24,7 +24,7 @@ Climate data isn't just big—it's bewilderingly multi-dimensional. Our task for
 - **~30 realizations** of natural variability (because Earth's climate is inherently chaotic)
 - **3 future emission scenarios** (optimistic, middle-of-the-road, and business-as-usual)
 
-We focused specifically on rolling time series of 1-day, 3-day, and 5-day cumulative rainfall at the 95th percentile—essentially tracking extreme precipitation events. The sheer dimensionality was overwhelming at first.
+We focused specifically on rolling time series of 1-day, 3-day, and 5-day cumulative rainfall at the 95th percentile—essentially tracking extreme precipitation events.
 
 ## Morning: Setting the Stage
 The day began with an introduction to the challenge ahead. Professor Persad outlined our mission: explore extreme precipitation patterns across multiple dimensions of climate data. The scale of what we were about to tackle was daunting, but the energy in the room was palpable.
@@ -106,15 +106,11 @@ The strongest presentation came from Titus Li's group, which kept it simple: one
 
 ## What Students Actually Learned
 
-Beyond the technical skills with PyCinema and Paraview, students gained several deeper insights:
+Beyond the technical skills with PyCinema and Paraview, students gained several deeper insights about the nature of the work. They quickly realized that models are tools, not absolute truth, and that understanding where different models agree or disagree is itself a form of scientific knowledge. 
 
-1. **Models are tools, not truth**: Different models make different assumptions. Understanding where they agree and disagree is itself scientific knowledge.
+They also learned that visualization is fundamentally a form of analysis. The process of creating a meaningful visual representation explicitly forces you to understand your data, reinforcing that pretty pictures without scientific insight are just decoration. Furthermore, the lightning talks proved that communication is an entirely separate challenge; understanding something yourself and communicating it clearly to others are distinct skills, yet both are essential for science. 
 
-2. **Visualization is analysis**: The process of creating a meaningful visualization forces you to understand your data. Pretty pictures without scientific insight are just decoration.
-
-3. **Communication is hard**: Understanding something yourself and explaining it clearly to others are different skills, both essential for science.
-
-4. **Real research means adapting**: The data availability issues and time constraints weren't bugs in the field trip design—they were features. Learning to pivot when your planned approach doesn't work is an essential research skill.
+Ultimately, students saw firsthand that real research requires continuous adaptation. The data availability issues and time constraints they faced weren't bugs in the field trip design—they were features. Learning to pivot when a planned approach inevitably breaks down is perhaps the most essential research skill of all.
 
 ## The Lights in Their Eyes
 
