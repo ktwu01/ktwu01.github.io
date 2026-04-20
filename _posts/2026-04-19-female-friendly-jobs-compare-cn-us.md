@@ -1,7 +1,7 @@
 ---
 title: '中美女性友好职业全景对比'
 date: 2026-04-19
-permalink: /zh/posts/2026/04/female-friendly-jobs-analysis/
+permalink: /zh/posts/2026/04/female-friendly-jobs-compare-cn-us/
 tags:
   - Career
   - Workplace
