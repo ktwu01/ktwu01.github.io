@@ -16,7 +16,7 @@ The past few days we have been working on something a bit crazy, but honestly pr
 
 Whenever I read a new paper, I always feel that the most valuable parts never make it into the final text. All those intuitions about tuning parameters, avoiding hidden pitfalls, and navigating the messy reality of research, they usually just vanish when someone graduates or switches fields. It is honestly a huge waste.
 
-So we are building an open source project called ResearchSkills. It is essentially an Alexandria Library for the AGI era.
+So we are building an open source project called ResearchSkills.ai. It is essentially an Alexandria Library for the AGI era.
 
 What we are trying to do is extract all that precious tacit knowledge from your brain and turn it into skills that AI agents like Claude Code or Codex can directly read and reuse.
 
