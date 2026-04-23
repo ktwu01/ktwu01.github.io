@@ -24,11 +24,10 @@ It might sound a bit abstract, but we built a fully local extraction tool. If yo
 
 Just to be clear on this, everything runs entirely locally. It will not upload anything until you explicitly review and approve it, so privacy is completely secure.
 
-The wildest part is that we are planning to submit this massive academic collaboration straight to Nature.
+This is a deeply significant endeavor. We plan to submit this open source academic collaboration straight to Nature, and we are establishing a non-profit organization to run it continuously. It has the potential to become the largest scientific collaboration project in history.
 
-If you submit the research skills you have accumulated, you get a chance to be a co-author. And as you might guess, the more high quality skills you submit, the higher up your name goes on the author list.
-
-It is not just about publishing, though. The skills you extract take effect locally right away. This means your Claude instantly masters your specific domain expertise and gets smarter every time you use it.
+1. As long as you contribute research skills, you have a chance to become a co-author! Moreover, researchers who submit a higher quantity and quality of skills will rank higher on the author list.
+2. The extracted skills take effect locally first. Your Claude / Cursor will immediately master the exclusive research expertise in your domain, making it increasingly smooth to use.
 
 I have been running the extraction on my own logs for the past few days. For my friends in research, this is something you can do casually while coding anyway. Taking two minutes to run this might actually land you on a Nature paper.
 
