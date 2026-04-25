@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ESM Leaderboard</title>
+<title>ESM-bench Leaderboard</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 2em auto; max-width: 960px; background: #fff; color: #1a1a2e; }
   h1 { color: #0366d6; border-bottom: 2px solid #0366d6; padding-bottom: 8px; }
@@ -21,17 +21,107 @@
 </style>
 </head>
 <body>
-<h1>ESM Leaderboard</h1>
+<h1>ESM-bench Leaderboard</h1>
 <p class="subtitle">Can AI agents understand the physics behind Earth System Model code?</p>
 
 <div class="meta">
-  <strong>Generated:</strong> 2026-04-24 23:25 &nbsp;|&nbsp;
+  <strong>Generated:</strong> 2026-04-25 01:20 &nbsp;|&nbsp;
   <strong>Mode:</strong> Direct prompting (single API call, no scaffold)
 </div>
 
 <h2 style="color: #0366d6; border-bottom: 2px solid #0366d6; padding-bottom: 8px;">Track A: Repository Localization</h2>
 <p class="subtitle">Given a physics description, can the agent find the right file(s)?</p>
 
+
+
+<div style="background:white;padding:16px 20px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.1);margin:16px 0;">
+  <h3 style="margin:0 0 12px 0;color:#1a1a2e;font-size:1em;">File Localization F1 by Model</h3>
+  
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">claude-opus-4-7 (noah_mp)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:100.0%;background:#E69F00;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.858</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">gpt-5.4-2026-03-05 (noah_mp)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:96.3%;background:#2ea44f;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.826</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">qwen.qwen3-coder-480b-a35b-v1:...</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:93.8%;background:#6f42c1;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.804</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">claude-sonnet-4-6 (noah_mp)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:90.8%;background:#E69F00;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.779</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">gpt-4.1-2025-04-14 (noah_mp)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:90.0%;background:#2ea44f;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.772</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">mistral-large-3-675b-instruct ...</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:86.8%;background:#0e8a16;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.745</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">qwen.qwen3-coder-480b-a35b-v1:...</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:86.3%;background:#6f42c1;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.740</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">deepseek.v3.2 (clm5)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:84.3%;background:#0366d6;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.723</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">claude-opus-4-7 (clm5)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:83.3%;background:#E69F00;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.714</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">qwen.qwen3-235b-a22b-2507-v1:0...</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:83.1%;background:#6f42c1;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.713</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">gpt-5.4-2026-03-05 (clm5)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:81.4%;background:#2ea44f;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.698</span>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:200px;text-align:right;font-size:0.75em;color:#333;white-space:nowrap;overflow:hidden;">deepseek.v3.2 (noah_mp)</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:20px;position:relative;">
+          <div style="width:80.1%;background:#0366d6;height:100%;border-radius:4px;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.7em;font-weight:600;">0.687</span>
+        </div>
+      </div>
+</div>
 
 <table>
 <thead>
@@ -253,6 +343,88 @@
 <h2 style="color: #0366d6; border-bottom: 2px solid #0366d6; padding-bottom: 8px; margin-top: 40px;">Track B: Physics-Aware Patch Synthesis</h2>
 <p class="subtitle">Given the correct file(s), can the agent produce a physically valid code fix?</p>
 
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:20px 0;">
+  <div style="background:white;padding:16px 20px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+    <h3 style="margin:0 0 12px 0;color:#1a1a2e;font-size:1em;">Best F1 by Model (Track B)</h3>
+    
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:180px;text-align:right;font-size:0.8em;color:#333;white-space:nowrap;overflow:hidden;">claude-opus-4-7</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;position:relative;">
+          <div style="width:100.0%;background:#E69F00;height:100%;border-radius:4px;transition:width 0.5s;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.75em;font-weight:600;">0.312</span>
+        </div>
+        <div style="width:30px;font-size:0.7em;color:#586069;">v4</div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:180px;text-align:right;font-size:0.8em;color:#333;white-space:nowrap;overflow:hidden;">claude-sonnet-4-6</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;position:relative;">
+          <div style="width:56.0%;background:#E69F00;height:100%;border-radius:4px;transition:width 0.5s;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.75em;font-weight:600;">0.175</span>
+        </div>
+        <div style="width:30px;font-size:0.7em;color:#586069;">v3</div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:180px;text-align:right;font-size:0.8em;color:#333;white-space:nowrap;overflow:hidden;">gpt-4.1-2025-04-14</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;position:relative;">
+          <div style="width:31.8%;background:#2ea44f;height:100%;border-radius:4px;transition:width 0.5s;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.75em;font-weight:600;">0.100</span>
+        </div>
+        <div style="width:30px;font-size:0.7em;color:#586069;">v2</div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:180px;text-align:right;font-size:0.8em;color:#333;white-space:nowrap;overflow:hidden;">mistral-large-3-675b-inst...</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;position:relative;">
+          <div style="width:5.5%;background:#0e8a16;height:100%;border-radius:4px;transition:width 0.5s;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.75em;font-weight:600;">0.017</span>
+        </div>
+        <div style="width:30px;font-size:0.7em;color:#586069;">v2</div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:180px;text-align:right;font-size:0.8em;color:#333;white-space:nowrap;overflow:hidden;">nova-pro-v1:0</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;position:relative;">
+          <div style="width:4.1%;background:#1a1a2e;height:100%;border-radius:4px;transition:width 0.5s;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.75em;font-weight:600;">0.013</span>
+        </div>
+        <div style="width:30px;font-size:0.7em;color:#586069;">v2</div>
+      </div>
+      <div style="display:flex;align-items:center;margin:4px 0;gap:8px;">
+        <div style="width:180px;text-align:right;font-size:0.8em;color:#333;white-space:nowrap;overflow:hidden;">llama3-3-70b-instruct-v1:...</div>
+        <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;position:relative;">
+          <div style="width:3.7%;background:#d73a49;height:100%;border-radius:4px;transition:width 0.5s;"></div>
+          <span style="position:absolute;right:8px;top:2px;font-size:0.75em;font-weight:600;">0.012</span>
+        </div>
+        <div style="width:30px;font-size:0.7em;color:#586069;">v2</div>
+      </div>
+  </div>
+  <div style="background:white;padding:16px 20px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+    <h3 style="margin:0 0 12px 0;color:#1a1a2e;font-size:1em;">Category Difficulty (v3 claude-opus-4-7)</h3>
+    <p style="font-size:0.8em;color:#586069;margin:0 0 8px 0;">PBF = bug fixes (easiest) → PSS = scheme switches (hardest)</p>
+    <div style="display:flex;gap:16px;align-items:end;height:120px;margin-top:8px;">
+        <div style="text-align:center;flex:1;">
+          <div style="background:#2ea44f;width:100%;height:100px;border-radius:4px 4px 0 0;"></div>
+          <div style="font-size:0.75em;font-weight:600;margin-top:4px;">PBF</div>
+          <div style="font-size:0.7em;color:#586069;">0.302</div>
+        </div>
+        <div style="text-align:center;flex:1;">
+          <div style="background:#0366d6;width:100%;height:66px;border-radius:4px 4px 0 0;"></div>
+          <div style="font-size:0.75em;font-weight:600;margin-top:4px;">PO</div>
+          <div style="font-size:0.7em;color:#586069;">0.200</div>
+        </div>
+        <div style="text-align:center;flex:1;">
+          <div style="background:#e36209;width:100%;height:27px;border-radius:4px 4px 0 0;"></div>
+          <div style="font-size:0.75em;font-weight:600;margin-top:4px;">PRM</div>
+          <div style="font-size:0.7em;color:#586069;">0.083</div>
+        </div>
+        <div style="text-align:center;flex:1;">
+          <div style="background:#d73a49;width:100%;height:21px;border-radius:4px 4px 0 0;"></div>
+          <div style="font-size:0.75em;font-weight:600;margin-top:4px;">PSS</div>
+          <div style="font-size:0.7em;color:#586069;">0.065</div>
+        </div></div>
+  </div>
+</div>
+
+
 <table>
 <thead>
 <tr>
@@ -428,6 +600,27 @@
     </tr>
     <tr>
       <td>8</td>
+      <td><strong>claude-opus-4-7</strong></td>
+      <td><code>v2</code></td>
+      <td><code>clm5</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>98%</td>
+      <td>0%</td>
+      <td><strong>0.188</strong></td>
+      <td>0.294</td>
+      <td>0.173</td>
+      <td>98%</td>
+      <td>0.231</td>
+      <td>0.135</td>
+      <td>0.155</td>
+      <td>0.209</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
       <td><strong>claude-sonnet-4-6</strong></td>
       <td><code>v3</code></td>
       <td><code>noah_mp</code></td>
@@ -448,7 +641,70 @@
       <td><a href="direct/noah_mp/L0/claude_sonnet_4_6/20260424_032142/human_review/index.html">review</a></td>
     </tr>
     <tr>
-      <td>9</td>
+      <td>10</td>
+      <td><strong>claude-sonnet-4-6</strong></td>
+      <td><code>v2</code></td>
+      <td><code>clm5</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>89%</td>
+      <td>0%</td>
+      <td><strong>0.108</strong></td>
+      <td>0.192</td>
+      <td>0.103</td>
+      <td>89%</td>
+      <td>0.105</td>
+      <td>0.126</td>
+      <td>0.088</td>
+      <td>0.136</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><strong>gpt-4.1-2025-04-14</strong></td>
+      <td><code>v2</code></td>
+      <td><code>clm5</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>71%</td>
+      <td>0%</td>
+      <td><strong>0.100</strong></td>
+      <td>0.107</td>
+      <td>0.129</td>
+      <td>71%</td>
+      <td>0.072</td>
+      <td>0.067</td>
+      <td>0.117</td>
+      <td>0.126</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><strong>claude-opus-4-7</strong></td>
+      <td><code>v2</code></td>
+      <td><code>mom6</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>100%</td>
+      <td>0%</td>
+      <td><strong>0.098</strong></td>
+      <td>0.322</td>
+      <td>0.072</td>
+      <td>100%</td>
+      <td>0.148</td>
+      <td>0.025</td>
+      <td>0.083</td>
+      <td>0.074</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
       <td><strong>claude-opus-4-7</strong></td>
       <td><code>v3</code></td>
       <td><code>clm5</code></td>
@@ -469,7 +725,196 @@
       <td><a href="direct/clm5/L0/claude_opus_4_7/20260424_071747/human_review/index.html">review</a></td>
     </tr>
     <tr>
-      <td>10</td>
+      <td>14</td>
+      <td><strong>claude-opus-4-7</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>97%</td>
+      <td>0%</td>
+      <td><strong>0.067</strong></td>
+      <td>0.104</td>
+      <td>0.060</td>
+      <td>97%</td>
+      <td>0.094</td>
+      <td>0.000</td>
+      <td>0.007</td>
+      <td>0.024</td>
+      <td>0</td>
+      <td><a href="claude_opus_47_20260423_014136/human_review/index.html">review</a></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><strong>claude-opus-4-7</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>97%</td>
+      <td>0%</td>
+      <td><strong>0.057</strong></td>
+      <td>0.083</td>
+      <td>0.052</td>
+      <td>97%</td>
+      <td>0.078</td>
+      <td>0.000</td>
+      <td>0.025</td>
+      <td>0.011</td>
+      <td>1</td>
+      <td><a href="claude_opus_4_7_L1_20260423_191043/human_review/index.html">review</a></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><strong>claude-opus-4-7</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>97%</td>
+      <td>0%</td>
+      <td><strong>0.057</strong></td>
+      <td>0.076</td>
+      <td>0.052</td>
+      <td>97%</td>
+      <td>0.078</td>
+      <td>0.000</td>
+      <td>0.018</td>
+      <td>0.016</td>
+      <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td><strong>claude-sonnet-4-6</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>97%</td>
+      <td>0%</td>
+      <td><strong>0.050</strong></td>
+      <td>0.061</td>
+      <td>0.048</td>
+      <td>97%</td>
+      <td>0.073</td>
+      <td>0.000</td>
+      <td>0.013</td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td><strong>gpt-4.1-2025-04-14</strong></td>
+      <td><code>v2</code></td>
+      <td><code>mom6</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>70%</td>
+      <td>0%</td>
+      <td><strong>0.042</strong></td>
+      <td>0.133</td>
+      <td>0.044</td>
+      <td>70%</td>
+      <td>0.050</td>
+      <td>0.009</td>
+      <td>0.051</td>
+      <td>0.017</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><strong>gpt-4.1-2025-04-14</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>100%</td>
+      <td>0%</td>
+      <td><strong>0.039</strong></td>
+      <td>0.028</td>
+      <td>0.080</td>
+      <td>100%</td>
+      <td>0.055</td>
+      <td>0.000</td>
+      <td>0.009</td>
+      <td>0.010</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><strong>mistral-large-3-675b-instruct</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>100%</td>
+      <td>0%</td>
+      <td><strong>0.017</strong></td>
+      <td>0.025</td>
+      <td>0.020</td>
+      <td>100%</td>
+      <td>0.021</td>
+      <td>0.000</td>
+      <td>0.015</td>
+      <td>0.011</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td><strong>nova-pro-v1:0</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>100%</td>
+      <td>0%</td>
+      <td><strong>0.013</strong></td>
+      <td>0.020</td>
+      <td>0.010</td>
+      <td>88%</td>
+      <td>0.013</td>
+      <td>0.000</td>
+      <td>0.003</td>
+      <td>0.023</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td><strong>llama3-3-70b-instruct-v1:0</strong></td>
+      <td><code>v2</code></td>
+      <td><code>noah_mp</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>100%</td>
+      <td>0%</td>
+      <td><strong>0.012</strong></td>
+      <td>0.019</td>
+      <td>0.010</td>
+      <td>100%</td>
+      <td>0.012</td>
+      <td>0.000</td>
+      <td>0.006</td>
+      <td>0.017</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>23</td>
       <td><strong>gpt-4.1-2025-04-14</strong></td>
       <td><code>v3</code></td>
       <td><code>noah_mp</code></td>
