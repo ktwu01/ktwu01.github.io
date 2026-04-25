@@ -1,6 +1,6 @@
 ---
 
-title: "ESM-bench, Testing Whether AI Agents Understand Climate Model Physics"
+title: "ESM-bench, Testing Whether AI Agents Understand Earth System Model Physics"
 date: 2026-04-24
 permalink: /posts/2026/04/esm-bench-ai-agents-earth-system-models/
 tags:
@@ -11,7 +11,7 @@ tags:
   - Benchmark
 ---
 
-The scary part is not that AI agents fail on climate model code, but that they can fail while looking almost right.
+The scary part is not that AI agents fail on Earth system model code, but that they can fail while looking almost right.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
@@ -19,7 +19,7 @@ I have been thinking about this problem for a while. We have many AI coding benc
 
 But Earth System Models are a different beast.
 
-A climate model is not just a pile of code. It is a computational form of physics. It has mass, energy, momentum, water, radiation, turbulence, soil, snow, vegetation, ocean circulation, and a terrifying amount of Fortran sitting between an equation in a paper and a number in a simulation output.
+An Earth system model is not just a pile of code. It is a computational form of physics. It has mass, energy, momentum, water, radiation, turbulence, soil, snow, vegetation, ocean circulation, and a terrifying amount of Fortran sitting between an equation in a paper and a number in a simulation output.
 
 So when an AI agent edits this kind of code, the question is not only, does it compile.
 
@@ -31,7 +31,7 @@ ESM-bench is a benchmark for testing whether AI agents can modify Earth System M
 
 The thing I like about this setup is that it does not pretend scientific code is the same as normal app code.
 
-In a normal software benchmark, a patch passes if the tests pass. That is already hard enough. But in climate modeling, a patch can be syntactically clean and still be physically wrong. It can edit the wrong routine. It can use the wrong sign on a flux. It can break a conservation correction. It can keep the code looking reasonable while quietly pushing the model into a non-physical state.
+In a normal software benchmark, a patch passes if the tests pass. That is already hard enough. But in Earth system modeling, a patch can be syntactically clean and still be physically wrong. It can edit the wrong routine. It can use the wrong sign on a flux. It can break a conservation correction. It can keep the code looking reasonable while quietly pushing the model into a non-physical state.
 
 Honestly, that is the nightmare scenario.
 
@@ -59,7 +59,7 @@ Not a leaderboard where every model is already at 90 percent and we are arguing 
 
 I also published a live leaderboard snapshot here, [ESM Leaderboard](/esm-leaderboard.html). The April 24, 2026 snapshot includes both repository localization and physics-aware patch synthesis results. One row I find especially revealing is the newer code-level hint run, where Claude Opus 4.7 reaches 0.312 structural F1 under the most assisted v4 Noah-MP setting, while exact match is still 0 percent.
 
-That number is useful because it tells a more nuanced story than AI is bad at climate code.
+That number is useful because it tells a more nuanced story than AI is bad at Earth system model code.
 
 With enough code-level scaffolding, the model can move closer. It can parse the file. It can often touch the right place. It can recover fragments of the intended change. But even when the task is narrowed, the agent still struggles to reproduce the exact developer modification, and the hardest physics categories stay near zero.
 
@@ -79,7 +79,7 @@ ESM-bench is still a first step. The current release focuses on reviewable patch
 
 Still, I think this is the right place to start.
 
-Before we ask AI agents to run climate science, we should ask whether they can change one piece of climate model code without breaking the physics hiding inside it.
+Before we ask AI agents to run Earth system science, we should ask whether they can change one piece of Earth system model code without breaking the physics hiding inside it.
 
 And right now, the answer is, not reliably yet.
 
