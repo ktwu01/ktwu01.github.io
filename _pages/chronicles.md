@@ -3,6 +3,9 @@ layout: single
 title: "Chronicles"
 permalink: /chronicles/
 author_profile: true
+excerpt: "Animated founder and academic chronicle pages built with an open-source template, covering researchers and founders in geoscience, AI, and security."
+header:
+  og_image: /images/profile.png
 ---
 
 An animated founder and academic chronicle template I built, now adapted for 13 subjects across geoscience, AI, and security.
