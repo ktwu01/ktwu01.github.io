@@ -91,6 +91,8 @@ main:
     url: /portfolio/
   - title: "Teaching"
     url: /teaching/
+  - title: "Chronicles"
+    url: /chronicles/
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

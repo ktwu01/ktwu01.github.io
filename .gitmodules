@@ -1,0 +1,42 @@
+[submodule "chronicles/sean-xiang"]
+	path = chronicles/sean-xiang
+	url = https://github.com/ktwu01/sean-xiang-chronicle.git
+[submodule "chronicles/daniella-rempe"]
+	path = chronicles/daniella-rempe
+	url = https://github.com/ut01/daniella-rempe-chronicle.git
+[submodule "chronicles/ashley-matheny"]
+	path = chronicles/ashley-matheny
+	url = https://github.com/ut01/ashley-matheny-chronicle.git
+[submodule "chronicles/gengchen-mai"]
+	path = chronicles/gengchen-mai
+	url = https://github.com/ut01/gengchen-mai-chronicle.git
+[submodule "chronicles/marc-hesse"]
+	path = chronicles/marc-hesse
+	url = https://github.com/ut01/marc-hesse-chronicle.git
+[submodule "chronicles/geeta-persad"]
+	path = chronicles/geeta-persad
+	url = https://github.com/ut01/geeta-persad-chronicle.git
+[submodule "chronicles/kehan-dong"]
+	path = chronicles/kehan-dong
+	url = https://github.com/ut01/kehan-dong-chronicle.git
+[submodule "chronicles/zong-liang-yang"]
+	path = chronicles/zong-liang-yang
+	url = https://github.com/ktwugoat/zong-liang-yang-chronicle.git
+[submodule "chronicles/sean-xiang-ut01"]
+	path = chronicles/sean-xiang-ut01
+	url = https://github.com/ut01/sean-xiang-chronicle.git
+[submodule "chronicles/koutian-wu"]
+	path = chronicles/koutian-wu
+	url = https://github.com/ut01/koutian-wu-chronicle.git
+[submodule "chronicles/sean-xiang-lead"]
+	path = chronicles/sean-xiang-lead
+	url = https://github.com/LEAD-UTexas/sean-xiang-chronicle.git
+[submodule "chronicles/yu-clin-sean-xiang"]
+	path = chronicles/yu-clin-sean-xiang
+	url = https://github.com/Yu-CLin/sean-xiang-chronicle.git
+[submodule "chronicles/juan-santiago"]
+	path = chronicles/juan-santiago
+	url = https://github.com/qijiang-yoyo/juan-santiago-chronicle.git
+[submodule "chronicles/eric-greene"]
+	path = chronicles/eric-greene
+	url = https://github.com/yzliu03/Eric-Greene-chronicle.git
