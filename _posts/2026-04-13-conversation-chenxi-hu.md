@@ -2,13 +2,18 @@
 title: 'In Conversation with Chenxi Hu'
 date: 2026-04-13
 permalink: /posts/2026/04/conversation-chenxi-hu/
+fake: true
+disclaimer: "THIS IS A FAKE BLOG"
 tags:
   - research-conversation
   - urban-climate
   - tropical-cyclones
   - extreme-weather
+  - fake-blog
 ---
-Chenxi Hu's research reveals that urbanization doesn't just respond to extreme weather—it actively reshapes how tropical cyclones dump rain on coastal megacities.
+> **THIS IS A FAKE BLOG.** The content below is fabricated and should not be cited or treated as a real interview or factual record.
+
+Chenxi Hu's research reveals that urbanization doesn't just respond to extreme weather, it actively reshapes how tropical cyclones dump rain on coastal megacities.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
