@@ -77,5 +77,4 @@ VC 圈里有个更激进版的说法叫 T2D3。Triple, Triple, Double, Double, D
 
 谢谢你看我的文章，我们，下次再见。
 
-> / 作者：kw
-> / 投稿或爆料，请联系邮箱：wzglyay@virxact.com
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
