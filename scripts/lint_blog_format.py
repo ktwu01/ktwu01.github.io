@@ -7,9 +7,16 @@ AUTHOR_PATTERNS = [
     r"^> Author: \[Koutian Wu\]",
     r"^> 作者：\[Koutian Wu\]"
 ]
+DISCLAIMER_PATTERNS = [
+    r"^> \*\*THIS IS A FAKE BLOG",
+    r"^> \*\*这是一篇虚构博客",
+]
 
 def is_author(line):
     return any(re.match(p, line.strip()) for p in AUTHOR_PATTERNS)
+
+def is_disclaimer(line):
+    return any(re.match(p, line.strip()) for p in DISCLAIMER_PATTERNS)
 
 def check_file(filepath):
     try:
@@ -24,17 +31,21 @@ def check_file(filepath):
     
     body = '---'.join(parts[2:]).strip()
     lines = [l.strip() for l in body.split('\n') if l.strip()]
-    
+
+    # Strip a leading fake-blog disclaimer; it's meta-content, not part of the hook/author sequence.
+    if lines and is_disclaimer(lines[0]):
+        lines = lines[1:]
+
     if not lines:
         return f"File is empty after front matter"
 
     first_line = lines[0]
     if is_author(first_line):
         return "First line is an author line. It should be a punchy hook instead."
-    
+
     if len(lines) < 2:
         return "Missing content or author line after the hook."
-    
+
     second_line = lines[1]
     if not is_author(second_line):
         # Check if it's deeper, which we also don't want
