@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Claude 使用演示</title>
+  <style>
+    :root {
+      --bg: #0e0f12;
+      --fg: #f5f5f5;
+      --muted: #9aa0a6;
+      --accent: #d97757;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .deck {
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8vh 10vw;
+    }
+
+    .slide.active {
+      display: flex;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 1.1rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 4rem;
+      line-height: 1.1;
+      margin: 0 0 1.5rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+      line-height: 1.15;
+      margin: 0 0 2rem;
+    }
+
+    ul {
+      font-size: 1.6rem;
+      line-height: 1.6;
+      color: var(--fg);
+      padding-left: 1.4em;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 3vh;
+      left: 10vw;
+      right: 10vw;
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .nav {
+      position: absolute;
+      bottom: 3vh;
+      right: 10vw;
+      color: var(--muted);
+    }
+
+    kbd {
+      background: #1c1d21;
+      border: 1px solid #2a2c31;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: ui-monospace, Menlo, monospace;
+      font-size: 0.9rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #1c1d21;
+      border: 1px solid #2a2c31;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="deck" id="deck">
+
+    <section class="slide active">
+      <div class="eyebrow">开场 / 自我介绍</div>
+      <h2>各种 AI 编码工具我都能熟练使用</h2>
+      <ul>
+        <li>Vibe Coding IDE：Cursor、AWS Kiro、Google Antigravity 都用过</li>
+        <li> Cursor 学生免费额度 + Gemini CLI 加起来都不够用</li>
+
+      </ul>
+      <div class="sub">本场重点：Claude 在我日常工作里的五个真实场景</div>
+      <div class="footer"><span>Koutian Wu</span><span>2026-05-09</span></div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Claude 实践演示</div>
+      <h1>我是怎么用 Claude 工作的</h1>
+      <div class="sub">五个真实使用场景，每页一个 demo</div>
+      <div class="footer"><span>Koutian Wu</span><span>2026-05-09</span></div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">场景 1 / 5</div>
+      <h2>用 Claude Code 写代码、提 PR</h2>
+      <ul>
+        <li>在终端里直接跑 <kbd>claude</kbd>，让它读仓库、改文件、跑测试</li>
+        <li>改完自动 <kbd>git commit</kbd>，再用 <kbd>gh pr create</kbd> 开 PR</li>
+        <li>从「输入需求」到「PR 链接」，不用离开命令行</li>
+      </ul>
+      <div class="sub">Demo: 现场让它修一个 bug 并提 PR</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">场景 2 / 5</div>
+      <h2>用 Claude Code Skills 封装常用流程</h2>
+      <ul>
+        <li>把重复的判断流程写成 skill，按名字一键调用</li>
+        <li>例如：<span class="tag">buffett-check</span><span class="tag">hedge-review</span><span
+            class="tag">redteam</span></li>
+        <li>团队共享同一套 skill，结果可复现</li>
+      </ul>
+      <div class="sub">Demo: 触发一个 skill，看它如何按步骤执行</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">场景 3 / 5</div>
+      <h2>给 Tacit 搭一个内部知识网站</h2>
+      <ul>
+        <li>把公司内部文档、流程、决策记录作为上下文导入 Claude</li>
+        <li>员工用自然语言提问，直接拿到带引用的答案</li>
+        <li>新人 onboarding、跨团队信息同步、合规问答都能用</li>
+      </ul>
+      <div class="sub">Demo: 提一个内部问题，看检索 + 回答效果</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">场景 4 / 5</div>
+      <h2>用 Claude 浏览器扩展做 Computer Use</h2>
+      <ul>
+        <li>让 Claude 直接在浏览器里点按钮、填表单</li>
+        <li>典型用例：在 LinkedIn 上批量发连接请求 + 个性化备注</li>
+        <li>把「人工 + 重复点击」的活儿交给 agent</li>
+      </ul>
+      <div class="sub">Demo: 现场打开 LinkedIn，让它发一条连接请求</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">场景 5 / 5</div>
+      <h2>Skills 实例：投资组合分析</h2>
+      <ul>
+        <li>本仓库 KW-portfolio：YAML 持仓 + skill 自动出报告</li>
+        <li>每个快照生成 HTML dashboard，含对冲、red team、Buffett 检查</li>
+        <li>同一套 skill 也能用于客户资产、内部财务复盘</li>
+      </ul>
+      <div class="sub">Demo: 打开 reports/20260508.html</div>
+    </section>
+
+    <section class="slide">
+      <h1>谢谢</h1>
+      <div class="sub">问题、想试的场景，欢迎现场点</div>
+      <div class="footer"><span>ktwu01@gmail.com</span><span>Koutian Wu</span></div>
+    </section>
+
+    <div class="nav"><kbd>←</kbd> <kbd>→</kbd> 翻页</div>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".slide");
+    let i = 0;
+    function show(n) {
+      slides[i].classList.remove("active");
+      i = (n + slides.length) % slides.length;
+      slides[i].classList.add("active");
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight" || e.key === " " || e.key === "PageDown") show(i + 1);
+      if (e.key === "ArrowLeft" || e.key === "PageUp") show(i - 1);
+      if (e.key === "Home") show(0);
+      if (e.key === "End") show(slides.length - 1);
+    });
+    document.addEventListener("click", (e) => {
+      const w = window.innerWidth;
+      if (e.clientX < w / 3) show(i - 1); else show(i + 1);
+    });
+  </script>
+</body>
+
+</html>
