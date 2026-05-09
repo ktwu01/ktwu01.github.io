@@ -54,12 +54,3 @@ The real difference between Wang Ming and 教员 wasn't intelligence or even tot
 In the AI era, I think this is still the right frame. It's not about how much AI you know or how much AI you use. It's about whether you own the problem. If you're always solving the hardest, most concrete, most real version of a problem that actually exists in the world, AI will always be a weapon in your hands and never your replacement.
 
 If not, at some point you'll have to ask yourself honestly: are you studying the map, or walking the terrain.
-
----
-
-以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标⭐～
-
-谢谢你看我的文章，我们，下次再见。
-
-> / 作者：kw
-> / 投稿或爆料，请联系邮箱：wzglyay@virxact.com
