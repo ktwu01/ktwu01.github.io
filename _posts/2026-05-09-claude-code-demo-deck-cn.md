@@ -1,5 +1,5 @@
 ---
-title: '弄了一份全屏幻灯，专门讲 Claude Code 和几个真干活场景'
+title: '在硅谷校友会聊 Claude Code，真正重要的是它怎么改变工作'
 date: 2026-05-10
 permalink: /posts/2026/05/claude-code-demo-deck/
 tags:
@@ -10,20 +10,28 @@ tags:
   - skills
   - agent
 ---
-打开浏览器全屏，左右键翻页，不用 Keynote 也能把 Claude Code 从终端一路演示到浏览器 Computer Use。
+今天在硅谷校友会的「师问」AI 交流活动上，我想讲的不是 Claude Code 多酷，而是它到底怎么把真实工作重新拆开。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-仓库根目录下的 `2026-05-09-claude-code-demo.html` 是自包含全屏幻灯，点屏幕左三分之一或右三分之一也能翻页，不挂 Jekyll，拖进浏览器就能讲。
+我把这次分享整理成了 [Claude Code Demo](https://ktwu01.github.io/2026-05-09-claude-code-demo.html)，核心是把我平时怎么用 Claude Code 写代码、组织知识、调用 skills、做浏览器 Computer Use 这些场景摊开给校友们看。
 
-我把上一版文件名里含糊的 tacit 去掉了，页面标题也改成「Claude Code Demo」，跟这场演示的主角对齐。
+比较有意思的是，它不是提前几天慢慢磨出来的。我当时是临时花了 15 分钟，在第一个嘉宾罗由之师兄分享 Claude Code 理论知识的同时，把后面要讲的场景和 demo 内容准备好了。
 
-第一张片子直接承认一件事，我还在同时叠好几套 vibe coding 栈，Cursor 学生额度加 Gemini CLI 之类凑在一起也常常不够烧。这块我当时写过一篇更细的 IDE 对比，Cursor、Kiro、Antigravity 各有什么性格，你可以在 [这篇 vibe coding IDE 简报](https://ktwu01.github.io/posts/2025/12/vibe-coding-ides-brief-comparison/)里慢慢翻。
+这就很 Claude Code。
 
-幻灯正文从第二场开始往后排了五个我平时真在用的场景。第一场是 Claude Code 在终端里从读仓库到跑测试、`git commit`、再用 `gh pr create` 把 PR 甩出来。第二场是把重复流程收成 Claude Code Skills，像 `buffett-check`、`hedge-review`、`redteam` 这种标签能一键拉起来，团队对齐口径会轻松很多。
+开头我直接承认一件事，我还在同时叠好几套 vibe coding 栈，Cursor 学生额度加 Gemini CLI 之类凑在一起也常常不够烧。这块我当时写过一篇更细的 IDE 对比，Cursor、Kiro、Antigravity 各有什么性格，你可以在 [这篇 vibe coding IDE 简报](https://ktwu01.github.io/posts/2025/12/vibe-coding-ides-brief-comparison/)里慢慢翻。
 
-后面几场顺着往业务侧摊开，公司内部知识检索、浏览器扩展 Computer Use（例如 LinkedIn 上那点重复点击的活），再到本仓库里 YAML 持仓加 skill 出 HTML dashboard 的那条路。每一页只讲一个场景，现场要展开哪一页就停在哪一页。
+分享里我讲了五个平时真在用的场景。第一场是 Claude Code 在终端里从读仓库到跑测试、`git commit`、再用 `gh pr create` 把 PR 甩出来。第二场是把重复流程收成 Claude Code Skills，像 `buffett-check`、`hedge-review`、`redteam` 这种标签能一键拉起来，团队对齐口径会轻松很多。
 
-坦率的讲，这份东西不是教程，也不是什么完整产品路演，就是一页一页把「我平时到底怎么用 Claude 把活儿干完」摊在桌面上。你如果也在多 IDE、多 CLI 之间切来切去找额度，先看看上面那篇 IDE 对比，再打开这份 HTML，说不定能省掉几次「我跟别人解释我在干什么」的口水。
+后面几场顺着往业务侧摊开，TaciteAI公司内部知识检索、浏览器扩展 Computer Use（例如 LinkedIn 上那点重复点击的活），再到KW-PORTFOLIO仓库里 YAML 持仓加 skill 出 HTML dashboard 的那条路。每个场景都尽量讲清楚它解决什么问题，而不是只炫一个功能。
 
-在线直接打开可以这样拼 URL，把域名换成你自己的 GitHub Pages 域名即可，`https://ktwu01.github.io/2026-05-09-claude-code-demo.html`。
+大家聊下来的体会其实很一致，Claude Code 确实能把效率往上抬。不是那种 PPT 里写得很漂亮的效率提升，而是你现场看着它读文件、改东西、生成页面、组织内容，那种很具体的效率提升。
+
+但赵鑫校友说得也很对，资本家不会让大家效率增加之后就去玩耍，而是效率提升 100%，工作量提升 140%。
+
+我觉得这个判断挺真实的，也挺刺耳。
+
+坦率的讲，这次分享不是教程，也不是什么完整产品路演，就是把「我平时到底怎么用 Claude 把活儿干完」摊在桌面上。你如果也在多 IDE、多 CLI 之间切来切去找额度，先看看上面那篇 IDE 对比，再打开这个 demo，说不定能省掉几次「我跟别人解释我在干什么」的口水。
+
+Demo 链接在这里，[Claude Code Demo](https://ktwu01.github.io/2026-05-09-claude-code-demo.html)。
