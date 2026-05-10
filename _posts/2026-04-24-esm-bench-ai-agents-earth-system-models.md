@@ -4,11 +4,11 @@ title: "ESM-bench, Testing Whether AI Agents Understand Earth System Model Physi
 date: 2026-04-24
 permalink: /posts/2026/04/esm-bench-ai-agents-earth-system-models/
 tags:
-  - ESM-bench
-  - AI
-  - Climate
-  - EarthSystemModels
-  - Benchmark
+  - esm-bench
+  - ai
+  - climate
+  - earthsystemmodels
+  - benchmark
 ---
 
 The scary part is not that AI agents fail on Earth system model code, but that they can fail while looking almost right.

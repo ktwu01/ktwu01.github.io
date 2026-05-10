@@ -3,12 +3,12 @@ title: "Zero to a Billion in Ten Years Sounds Normal, Until You Realize It Means
 date: 2026-05-08
 permalink: /posts/2026/05/unicorn-growth-rate/
 tags:
-  - Startup
-  - Valuation
-  - Compound Growth
-  - Unicorn
-  - Financial Modeling
-  - Thinking
+  - startup
+  - valuation
+  - compound-growth
+  - unicorn
+  - financial-modeling
+  - thinking
 ---
 
 People love saying that ten years to a billion-dollar valuation is the normal pace for a unicorn, neither fast nor slow. But once you actually crunch the compound numbers, you realize what hides behind that word "normal" is a beast that doubles in value every single year.

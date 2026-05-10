@@ -3,15 +3,15 @@ title: "When Product Excellence Meets Monetization Disaster: A VC Perspective on
 date: 2026-01-09
 permalink: /posts/2026/01/wispr-flow-product-vs-monetization/
 tags:
-  - VC
-  - AI Agent
-  - LLM
-  - AI
-  - Product
-  - Startup
-  - Voice-to-Text
-  - Business Model
-  - PMF
+  - vc
+  - ai-agent
+  - llm
+  - ai
+  - product
+  - startup
+  - voice-to-text
+  - business-model
+  - pmf
 ---
 [Wispr Flow](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D) is the best AI product I've used this year. But I haven't paid them a cent. Here's why that's both impressive and concerning.
 

@@ -3,10 +3,10 @@ title: 给非AI研究者的发顶会指南：如何用你的专业知识在AI论
 date: 2026-02-04
 permalink: /zh/posts/2026/02/ai-paper-collaboration-for-domain-experts/
 tags:
-  - AI
-  - Research
-  - Career
-  - Methodology
+  - ai
+  - research
+  - career
+  - methodology
 ---
 坦率的讲，你不需要懂任何大模型底层的原理，只要你是一个真的懂行的领域专家，你现在就能在顶级 AI 论文上署名。
 

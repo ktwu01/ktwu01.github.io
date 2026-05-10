@@ -3,13 +3,13 @@ title: "What Happens When You Just Give People Money? Sam Altman's UBI Experimen
 date: 2026-04-04
 permalink: /posts/2026/04/ubi-altman-experiment/
 tags:
-  - Society
-  - Economics
-  - AI
-  - UBI
+  - society
+  - economics
+  - ai
+  - ubi
   - universal-basic-income
-  - Sam-Altman
-  - OpenResearch
+  - sam-altman
+  - openresearch
   - future-of-work
 ---
 What Happens When You Just Give People Money? Sam Altman's UBI Experiment

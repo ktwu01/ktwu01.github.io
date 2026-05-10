@@ -3,12 +3,12 @@ title: "Atomize: Building a Task-Breaking Agent System Inspired by Goblin Tools"
 date: 2026-01-09
 permalink: /posts/2026/01/atomize-task-breaking-agent-system/
 tags:
-  - AI Agent
-  - LLM
-  - Startup
-  - Product
-  - Productivity
-  - Open Source
+  - ai-agent
+  - llm
+  - startup
+  - product
+  - productivity
+  - open-source
 ---
 [Yuxuan](https://www.linkedin.com/in/yuxuan-cao-4b235110b/) and I have been discussing AI agent ideas for a while. Yesterday, we finally decided: we're building **Atomize**, a task-breaking agent system evolved from [Goblin Tools](https://goblin.tools/).
 

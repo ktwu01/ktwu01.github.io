@@ -3,12 +3,12 @@ title: "Gemini Says My Ego Essay Is Still a Humblebrag"
 date: 2026-05-09
 permalink: /posts/2026/05/gemini-says-my-ego-essay-is-still-humblebrag/
 tags:
-  - Startup
-  - Founder
-  - Ego
-  - Reflection
-  - AI
-  - Skill
+  - startup
+  - founder
+  - ego
+  - reflection
+  - ai
+  - skill
 ---
 
 Earlier today I published a piece called "Four Ego Mistakes I Made as a 22-Year-Old Founder." Then I ran it through Gemini 2.5 Pro as an independent reviewer. Gemini's verdict was that the essay is itself an ego move. I think Gemini is mostly right.

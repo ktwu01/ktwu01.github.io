@@ -3,13 +3,13 @@ title: "直接发钱会怎样？奥特曼的全民基本收入实验"
 date: 2026-04-04
 permalink: /posts/2026/04/ubi-altman-experiment-cn/
 tags:
-  - Society
-  - Economics
-  - AI
-  - UBI
+  - society
+  - economics
+  - ai
+  - ubi
   - 全民基本收入
   - 奥特曼
-  - OpenResearch
+  - openresearch
   - 未来工作
 ---
 直接发钱会怎样？奥特曼的全民基本收入实验

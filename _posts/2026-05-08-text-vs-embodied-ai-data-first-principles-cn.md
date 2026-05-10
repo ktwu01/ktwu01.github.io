@@ -3,14 +3,14 @@ title: '五个数量级，「十万倍」可能还是保守的，第一性原理
 date: 2026-05-08
 permalink: /zh/posts/2026/05/text-vs-embodied-ai-data-first-principles/
 tags:
-  - AI
-  - LLM
+  - ai
+  - llm
   - 具身智能
   - 机器人
   - 信息论
   - 第一性原理
-  - Earth System Model
-  - AI4Science
+  - earth-system-model
+  - ai4science
 ---
 
 「十万倍」这个说法乍听像聊天里随手甩出去的量级，但如果把它放回语义信息熵和有效训练样本这两把尺子下面，它非但不夸张，反而可能是保守的。关键是你得把「原始物理比特」和「带语义的、可被学习的数据」分开看。

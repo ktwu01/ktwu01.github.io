@@ -3,10 +3,10 @@ title: "The Gibbs Phenomenon in LLMs: Why Hallucination is Mathematical Destiny"
 date: 2026-04-04
 permalink: /posts/2026/04/04/llm-gibbs-phenomenon/
 tags:
-  - AI
-  - LLM
-  - Mathematics
-  - Machine Learning
+  - ai
+  - llm
+  - mathematics
+  - machine-learning
 ---
 When continuous functions meet discontinuous truth: Understanding LLM hallucinations through the lens of Fourier analysis.
 

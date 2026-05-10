@@ -4,7 +4,7 @@ date: 2026-04-10
 permalink: /posts/2026/04/tacc-field-trip/
 tags:
   - field-trip
-  - TACC
+  - tacc
   - climate-science
   - visualization
   - earth-system-models

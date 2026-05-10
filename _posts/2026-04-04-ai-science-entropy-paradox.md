@@ -3,10 +3,10 @@ title: "The Entropy Paradox: Why AI Struggles with Scientific Discovery"
 date: 2026-04-04
 permalink: /posts/2026/04/ai-science-entropy-paradox/
 tags:
-  - AI
-  - Science
-  - Philosophy
-  - AI4S
+  - ai
+  - science
+  - philosophy
+  - ai4s
   - scientific-discovery
   - information-theory
   - tacit-knowledge

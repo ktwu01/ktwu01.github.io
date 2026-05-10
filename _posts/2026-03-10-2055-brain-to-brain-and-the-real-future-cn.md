@@ -3,12 +3,12 @@ title: '《2055》、脑内对话，以及那个依然温热的未来'
 date: 2026-03-10
 permalink: /posts/2026/03/2055-brain-to-brain-and-the-real-future-cn/
 tags:
-  - Science Fiction
-  - AI
-  - Brain Computer Interface
-  - Literature
-  - Future
-  - Thinking
+  - science-fiction
+  - ai
+  - brain-computer-interface
+  - literature
+  - future
+  - thinking
 ---
 有些旧科幻会一直留在脑子里，不只是因为它写了什么炫酷科技，而是因为它提前抓住了未来的情感结构。
 

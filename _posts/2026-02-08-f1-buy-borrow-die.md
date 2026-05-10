@@ -3,13 +3,13 @@ title: "I Spent a Night Reverse-Engineering Buy Borrow Die With Gemini, and Real
 date: 2026-02-08
 permalink: /posts/2026/02/f1-buy-borrow-die/
 tags:
-  - F-1
-  - Personal Finance
-  - International Students
-  - IBKR
-  - Tax
-  - Investing
-  - Thinking
+  - f-1
+  - personal-finance
+  - international-students
+  - ibkr
+  - tax
+  - investing
+  - thinking
 ---
 
 I spent a whole evening with Gemini taking apart the Buy Borrow Die playbook that American billionaires run, expecting that with a little scaling down I could just copy the moves, and what I found instead was that almost every single move has an F-1 trapdoor underneath it, and the list of things I can actually do fits on one page.

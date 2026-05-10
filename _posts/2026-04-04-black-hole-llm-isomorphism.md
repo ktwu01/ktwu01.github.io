@@ -3,11 +3,11 @@ title: "Epistemological Interferometry: The Deep Isomorphism Between Black Hole 
 date: 2026-04-04
 permalink: /posts/2026/04/04/black-hole-llm-isomorphism/
 tags:
-  - AI
-  - LLM
-  - Physics
-  - Interferometry
-  - Machine Learning
+  - ai
+  - llm
+  - physics
+  - interferometry
+  - machine-learning
 ---
 How photographing a black hole and training GPT-4 are fundamentally the same process: extracting coherent structure from impossibly sparse frequency-domain measurements.
 

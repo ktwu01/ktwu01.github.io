@@ -3,12 +3,12 @@ title: 'GitHub PRs as Inbound Marketing for Technical People'
 date: 2026-03-08
 permalink: /posts/2026/03/github-prs-as-inbound-marketing/
 tags:
-  - GitHub
-  - Open Source
-  - Career
-  - AI
-  - Developer Relations
-  - Personal Branding
+  - github
+  - open-source
+  - career
+  - ai
+  - developer-relations
+  - personal-branding
 ---
 For technical people, a strong pull request on a fast-growing open-source repo can become better inbound marketing than another generic post about AI.
 

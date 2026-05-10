@@ -3,12 +3,12 @@ title: "Gemini 说我那篇 ego 文还是凡尔赛"
 date: 2026-05-09
 permalink: /zh/posts/2026/05/gemini-says-my-ego-essay-is-still-humblebrag/
 tags:
-  - Startup
-  - Founder
-  - Ego
-  - Reflection
-  - AI
-  - Skill
+  - startup
+  - founder
+  - ego
+  - reflection
+  - ai
+  - skill
 ---
 
 今天早些时候我发了一篇叫《22 岁 founder 的四个 ego 错误》。然后我把这篇喂给了 Gemini 2.5 Pro 当独立审稿人。Gemini 的判决是：这篇文章本身就是一个 ego 动作。我觉得 Gemini 大体是对的。

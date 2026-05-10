@@ -3,17 +3,17 @@ title: '「图片地主」对「视频钥匙」对「实时百科」，多模态
 date: 2026-05-08
 permalink: /zh/posts/2026/05/multimodal-data-moat-meta-bytedance-x-visa/
 tags:
-  - AI
+  - ai
   - 多模态
-  - Meta
-  - ByteDance
-  - TikTok
-  - X
-  - Twitter
+  - meta
+  - bytedance
+  - tiktok
+  - x
+  - twitter
   - 训练数据
-  - Visa
-  - LLM
-  - VLM
+  - visa
+  - llm
+  - vlm
 ---
 
 这题问到刀尖上了。如果把「高质量多模态训练数据」收窄到对 GPT-4V、Sora、Gemini、Emu 这类模型真有喂饭价值的图文或视频，短答其实很锋利，Meta（Facebook / Instagram）静态图片数量的库存对其他两家几乎是断层第一，ByteDance（TikTok / 抖音）在短视频也就是动态图片流上占最大优势，X（Twitter）绝对量级最小，但图文的贴脸相关性和实时信息密度是独一份。

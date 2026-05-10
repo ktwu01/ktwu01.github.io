@@ -4,7 +4,7 @@ date: 2026-03-20
 permalink: /posts/2026/03/search-ads-rec-vs-ai-matching-cn/
 tags:
   - 推荐系统
-  - AI
+  - ai
   - 产品
   - 创业
 ---

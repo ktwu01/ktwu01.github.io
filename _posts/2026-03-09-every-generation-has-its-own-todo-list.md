@@ -3,12 +3,12 @@ title: 'Every Generation Has Its Own To-Do List'
 date: 2026-03-09
 permalink: /posts/2026/03/every-generation-has-its-own-todo-list/
 tags:
-  - AI
-  - Productivity
-  - Workflow
-  - OpenClaw
-  - Career
-  - Thinking
+  - ai
+  - productivity
+  - workflow
+  - openclaw
+  - career
+  - thinking
 ---
 Every generation has its own way of managing work: paper notebooks, SaaS task managers, and now programmable agentic workflows powered by tools like OpenClaw heartbeat.
 

@@ -3,12 +3,12 @@ title: "What Actually Happens to Failed Founders in San Francisco"
 date: 2026-02-08
 permalink: /posts/2026/02/sf-startup-failure-safety-net/
 tags:
-  - Startup
-  - Silicon Valley
-  - San Francisco
-  - Failure
-  - Safety Net
-  - Thinking
+  - startup
+  - silicon-valley
+  - san-francisco
+  - failure
+  - safety-net
+  - thinking
 ---
 
 In San Francisco and Silicon Valley, the word "failure" has been quietly redefined. There is not just a playbook for success here, there is an equally mature playbook for failure, complete with safety nets that most outsiders never see.

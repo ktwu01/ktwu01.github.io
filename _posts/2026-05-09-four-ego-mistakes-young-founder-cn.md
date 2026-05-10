@@ -3,11 +3,11 @@ title: "22 岁 founder 的四个 ego 错误"
 date: 2026-05-09
 permalink: /zh/posts/2026/05/four-ego-mistakes-young-founder/
 tags:
-  - Startup
-  - Founder
-  - Ego
-  - Reflection
-  - Thinking
+  - startup
+  - founder
+  - ego
+  - reflection
+  - thinking
 ---
 
 Ego 不是以"嚣张"的形式出现的。它是以一组你偷偷在心里给自己记的假记分牌的形式出现的，你一旦把记分牌当成了真比赛，你就开始输了。

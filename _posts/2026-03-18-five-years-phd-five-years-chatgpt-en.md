@@ -3,11 +3,11 @@ title: 'A Fun Coincidence: The Time It Takes to Finish a PhD Is Exactly How Long
 date: 2026-03-18
 permalink: /posts/2026/03/five-years-phd-chatgpt-en/
 tags:
-  - AI
-  - OpenAI
-  - ChatGPT
-  - RLHF
-  - PhD
+  - ai
+  - openai
+  - chatgpt
+  - rlhf
+  - phd
 ---
 In the fall of 2015, two things happened simultaneously.
 

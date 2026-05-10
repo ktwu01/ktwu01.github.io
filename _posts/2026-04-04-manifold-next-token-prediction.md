@@ -3,11 +3,11 @@ title: "High-Dimensional Manifolds and the Rationality of Next Token Prediction"
 date: 2026-04-04
 permalink: /posts/2026/04/04/manifold-next-token-prediction/
 tags:
-  - AI
-  - LLM
-  - Mathematics
-  - Machine Learning
-  - Manifold Theory
+  - ai
+  - llm
+  - mathematics
+  - machine-learning
+  - manifold-theory
 ---
 Why next token prediction isn't just "stochastic parroting"—it's solving geodesics on the manifold of human knowledge.
 

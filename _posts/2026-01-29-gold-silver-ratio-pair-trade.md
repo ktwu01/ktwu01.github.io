@@ -3,13 +3,13 @@ title: 'The Gold/Silver Ratio Pair Trade: Swap Gold for Silver When the Ratio Sc
 date: 2026-01-29
 permalink: /posts/2026/01/gold-silver-ratio-pair-trade/
 tags:
-  - Investing
-  - Precious Metals
-  - Trading Strategy
-  - Gold
-  - Silver
-  - Pair Trade
-  - Thinking
+  - investing
+  - precious-metals
+  - trading-strategy
+  - gold
+  - silver
+  - pair-trade
+  - thinking
 ---
 
 When gold gets too expensive relative to silver, you sell your gold and buy silver. When silver catches up, you swap back. This sounds like folk wisdom, but it's one of the most time-tested strategies in precious metals.

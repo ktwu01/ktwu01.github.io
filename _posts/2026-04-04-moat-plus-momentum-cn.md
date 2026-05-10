@@ -3,7 +3,7 @@ title: '护城河加热点：为什么 AI 让准备变得可选'
 date: 2026-04-04
 permalink: /posts/2026/04/moat-plus-momentum-cn/
 tags:
-  - AI
+  - ai
   - 策略
   - 创业
   - 科研

@@ -3,12 +3,12 @@ title: 'Virtual Cell Neuromorphic Gene Language Models: A VC Intern's Field Guid
 date: 2026-04-04
 permalink: /posts/2026/04/virtual-cell-neuromorphic-gene-language-models/
 tags:
-  - AI
-  - Biotech
-  - Venture Capital
-  - Virtual Cell
-  - Neuromorphic Computing
-  - Gene Expression
+  - ai
+  - biotech
+  - venture-capital
+  - virtual-cell
+  - neuromorphic-computing
+  - gene-expression
 ---
 Virtual cell models powered by neuromorphic computing and gene language models represent one of the most capital-intensive and scientifically ambitious convergences in biotech AI. If you're evaluating this space as a VC intern, you need to understand three core components: what these systems actually do, why the market is moving now, and where the investable opportunities lie.
 

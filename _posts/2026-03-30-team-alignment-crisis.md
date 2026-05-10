@@ -3,10 +3,10 @@ title: 'When Team Alignment Breaks: A 2 AM Wake-Up Call'
 date: 2026-03-30
 permalink: /posts/2026/03/team-alignment-crisis/
 tags:
-  - Startup
-  - Team Management
-  - Lessons Learned
-  - Communication
+  - startup
+  - team-management
+  - lessons-learned
+  - communication
 ---
 It's 2 AM. I'm running on zero sleep, heart racing from exhaustion, supposed to be resting for my qualifying exams tomorrow. Instead, I'm scrambling to finish a pitch application that I thought was being handled by someone else.
 

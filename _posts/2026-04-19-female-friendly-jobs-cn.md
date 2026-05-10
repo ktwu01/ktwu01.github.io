@@ -3,9 +3,9 @@ title: '适合中国女性的「不看人脸色」工作：横纵分析'
 date: 2026-04-19
 permalink: /zh/posts/2026/04/female-friendly-jobs-cn/
 tags:
-  - Career
-  - Workplace
-  - Analysis
+  - career
+  - workplace
+  - analysis
 ---
 
 

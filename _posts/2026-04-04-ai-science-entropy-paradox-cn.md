@@ -3,10 +3,10 @@ title: "熵悖论：为什么AI难以实现科学发现"
 date: 2026-04-04
 permalink: /posts/2026/04/ai-science-entropy-paradox-cn/
 tags:
-  - AI
-  - Science
-  - Philosophy
-  - AI4S
+  - ai
+  - science
+  - philosophy
+  - ai4s
   - scientific-discovery
   - information-theory
   - tacit-knowledge

@@ -3,11 +3,11 @@ title: Think First, Code Later with AI
 date: 2026-05-07
 permalink: /posts/2026/05/think-and-plan-first/
 tags:
-  - AI
-  - Development
-  - Startup
-  - Thinking
-  - Vibe Coding
+  - ai
+  - development
+  - startup
+  - thinking
+  - vibe-coding
 ---
 
 In an era where AI can write code in seconds, I just learned the hard way that blindly moving fast is actually slowing me down.

@@ -3,11 +3,11 @@ title: "Four Ego Mistakes I Made as a 22-Year-Old Founder"
 date: 2026-05-09
 permalink: /posts/2026/05/four-ego-mistakes-young-founder/
 tags:
-  - Startup
-  - Founder
-  - Ego
-  - Reflection
-  - Thinking
+  - startup
+  - founder
+  - ego
+  - reflection
+  - thinking
 ---
 
 Ego does not show up as arrogance. It shows up as a set of fake scoreboards you secretly keep, and the moment you confuse the scoreboard with the actual game, you start losing.

@@ -8,7 +8,7 @@ tags:
   - 交易策略
   - 黄金
   - 白银
-  - Pair Trade
+  - pair-trade
   - 思考
 ---
 

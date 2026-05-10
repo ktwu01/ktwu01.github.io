@@ -3,11 +3,11 @@ title: 谋定而后动，不要让 AI 一股脑地写代码
 date: 2026-05-07
 permalink: /zh/posts/2026/05/think-and-plan-first/
 tags:
-  - AI
-  - Development
-  - Startup
-  - Thinking
-  - Vibe Coding
+  - ai
+  - development
+  - startup
+  - thinking
+  - vibe-coding
 ---
 
 在这个闭着眼睛就能让 AI 写代码的时代，我今天结结实实地挨了一锤。

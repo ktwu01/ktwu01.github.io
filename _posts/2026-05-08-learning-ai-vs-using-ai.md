@@ -3,12 +3,12 @@ title: "The Physics Professor Who Won't Touch AI, and the Student Who Can't Stop
 date: 2026-05-08
 permalink: /posts/2026/05/learning-ai-vs-using-ai/
 tags:
-  - AI
-  - Career
-  - Research
-  - Physics
-  - Pragmatism
-  - Thinking
+  - ai
+  - career
+  - research
+  - physics
+  - pragmatism
+  - thinking
 ---
 
 Top physics researchers aren't blind to what AI is doing in the application layer. They're locked by their own evaluation system and can't afford to look.

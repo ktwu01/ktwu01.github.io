@@ -3,12 +3,12 @@ title: "Simon Willison's Newsletter: Deep Dives into LLMs and AI Engineering"
 date: 2026-01-02
 permalink: /posts/2026/01/simon-willison-substack-llm-insights/
 tags:
-  - LLM
-  - AI
-  - Newsletter
-  - Resources
-  - Python
-  - Open Source
+  - llm
+  - ai
+  - newsletter
+  - resources
+  - python
+  - open-source
 ---
 If you're serious about understanding LLMs and AI engineering, [Simon Willison's Newsletter](https://simonw.substack.com/?r=6hkfaf&utm_campaign=subscribe-page-share-screen&utm_medium=web) is one of the best resources out there. With over 38,000 subscribers, it provides detailed analysis on AI, LLMs, web engineering, open source, data science, and Python.
 

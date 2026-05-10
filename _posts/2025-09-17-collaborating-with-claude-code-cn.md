@@ -3,9 +3,9 @@ title: '和 Claude Code 一起更新我的学术网站'
 date: 2025-09-17
 permalink: /posts/2025/09/claude-code-collaboration-cn/
 tags:
-  - web development
-  - AI tools
-  - academic website
+  - web-development
+  - ai-tools
+  - academic-website
   - automation
 ---
 今天我经历了一次挺有意思的合作：和 Claude Code 一起，把我的个人学术网站彻底重做了一遍。作为 UT Austin Geological and Earth Sciences 的博士生，我需要把 GitHub Pages 站点从一堆占位符内容，更新成真正能代表我专业背景的信息。

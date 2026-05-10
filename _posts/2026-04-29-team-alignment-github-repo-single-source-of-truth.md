@@ -3,12 +3,12 @@ title: 'One Repo to Rule Them All, Why GitHub Is the Only Honest Place to Align 
 date: 2026-04-29
 permalink: /posts/2026/04/team-alignment-github-repo-single-source-of-truth/
 tags:
-  - Team
-  - Alignment
-  - GitHub
-  - Engineering
-  - Workflow
-  - Knowledge Management
+  - team
+  - alignment
+  - github
+  - engineering
+  - workflow
+  - knowledge-management
 ---
 
 A team has too many things, too many open questions, too many half-decisions floating across Slack threads and meeting notes, and the only way I have found to keep that chaos from turning into quiet decay is to force every piece of valuable knowledge into one place, the GitHub repo, and treat everywhere else as a temporary scratchpad.

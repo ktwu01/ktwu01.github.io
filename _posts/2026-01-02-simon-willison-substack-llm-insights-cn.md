@@ -3,12 +3,12 @@ title: "Simon Willison 的 Newsletter：深入解析 LLM 与 AI 工程"
 date: 2026-01-02
 permalink: /posts/2026/01/simon-willison-substack-llm-insights-cn/
 tags:
-  - LLM
-  - AI
-  - Newsletter
-  - Resources
-  - Python
-  - Open Source
+  - llm
+  - ai
+  - newsletter
+  - resources
+  - python
+  - open-source
 ---
 如果你认真想要理解 LLM 和 AI 工程，[Simon Willison 的 Newsletter](https://simonw.substack.com/?r=6hkfaf&utm_campaign=subscribe-page-share-screen&utm_medium=web) 是最好的资源之一。拥有超过 38,000 名订阅者，它提供关于 AI、LLM、Web 工程、开源、数据科学和 Python 的深度分析。
 

@@ -3,9 +3,9 @@ title: '中美女性友好型工作：不陪酒、不看脸色的职业选择'
 date: 2026-04-19
 permalink: /zh/posts/2026/04/female-friendly-jobs/
 tags:
-  - Career
-  - Workplace
-  - Analysis
+  - career
+  - workplace
+  - analysis
 ---
 
 帮女朋友做职业规划的时候，我生成了这份报告。一边看一边觉得，挺魔幻的。

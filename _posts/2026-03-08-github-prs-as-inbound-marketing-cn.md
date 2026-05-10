@@ -3,12 +3,12 @@ title: '把 GitHub PR 当作技术人的 Inbound Marketing'
 date: 2026-03-08
 permalink: /posts/2026/03/github-prs-as-inbound-marketing-cn/
 tags:
-  - GitHub
-  - Open Source
-  - Career
-  - AI
-  - Developer Relations
-  - Personal Branding
+  - github
+  - open-source
+  - career
+  - ai
+  - developer-relations
+  - personal-branding
 ---
 对技术人来说，在一个高速增长的开源仓库里做出高质量 PR，往往比再发一篇泛泛而谈的 AI 观点帖更像真正有效的 inbound marketing。
 

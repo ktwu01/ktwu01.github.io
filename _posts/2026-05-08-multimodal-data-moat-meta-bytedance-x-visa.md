@@ -3,17 +3,17 @@ title: 'Who Hoards Multimodal Data for Real, Meta, ByteDance, X, and the Visa Pl
 date: 2026-05-08
 permalink: /posts/2026/05/multimodal-data-moat-meta-bytedance-x-visa/
 tags:
-  - AI
-  - Multimodal
-  - Meta
-  - ByteDance
-  - TikTok
-  - X
-  - Twitter
-  - Training data
-  - Visa
-  - LLM
-  - VLM
+  - ai
+  - multimodal
+  - meta
+  - bytedance
+  - tiktok
+  - x
+  - twitter
+  - training-data
+  - visa
+  - llm
+  - vlm
 ---
 
 Ask which campus actually sits on the best multimodal feedstock for GPT-4V-class perception, Sora-class video, Gemini-scale bundles, and Meta Emu-style image stacks, and the short answer is almost vulgar in how cleanly it splits three big piles. Meta still pulls ahead by a chasm on stills, ByteDance owns the high-velocity short-video river that is really motion plus audio, and X ships the smallest absolute media volume yet the weirdest leverage on tight text-image coupling and live-event semantics.

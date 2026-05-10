@@ -3,7 +3,7 @@ title: '虚拟细胞神经形态基因语言模型：VC 实习生的领域指南
 date: 2026-04-04
 permalink: /posts/2026/04/virtual-cell-neuromorphic-gene-language-models-cn/
 tags:
-  - AI
+  - ai
   - 生物技术
   - 风险投资
   - 虚拟细胞

@@ -3,15 +3,15 @@ title: "当产品卓越遭遇变现灾难：从VC视角看Wispr Flow"
 date: 2026-01-09
 permalink: /posts/2026/01/wispr-flow-product-vs-monetization-cn/
 tags:
-  - VC
-  - AI Agent
-  - LLM
-  - AI
-  - Product
-  - Startup
-  - Voice-to-Text
-  - Business Model
-  - PMF
+  - vc
+  - ai-agent
+  - llm
+  - ai
+  - product
+  - startup
+  - voice-to-text
+  - business-model
+  - pmf
 ---
 [Wispr Flow](https://www.linkedin.com/company/wisprflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BPsk%2FlKl5TrKqT2i%2BaOyDyg%3D%3D) 是我今年用过的最好的AI产品。但我一分钱都没付给他们。这既令人印象深刻，又令人担忧。
 

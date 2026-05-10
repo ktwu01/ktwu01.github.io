@@ -3,14 +3,14 @@ title: 'Five Orders of Magnitude on Purpose, Why Text AI and Embodied AI Are Not
 date: 2026-05-08
 permalink: /posts/2026/05/text-vs-embodied-ai-data-first-principles/
 tags:
-  - AI
-  - LLM
-  - Robotics
-  - Embodied AI
-  - Information theory
-  - First principles
-  - Earth System Model
-  - AI4Science
+  - ai
+  - llm
+  - robotics
+  - embodied-ai
+  - information-theory
+  - first-principles
+  - earth-system-model
+  - ai4science
 ---
 
 Call it a \(10^5\) gap if you like, once you put semantic entropy and effective training samples on the board, the difference between internet-scale text and embodied robotics data stops sounding like rhetorical inflation and starts sounding almost conservative. You just have to separate raw physics bits from semantics a learner can actually use.

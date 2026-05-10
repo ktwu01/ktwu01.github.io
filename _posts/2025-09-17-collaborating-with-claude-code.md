@@ -3,9 +3,9 @@ title: 'Collaborating with Claude Code to Update My Academic Website'
 date: 2025-09-17
 permalink: /posts/2025/09/claude-code-collaboration/
 tags:
-  - web development
-  - AI tools
-  - academic website
+  - web-development
+  - ai-tools
+  - academic-website
   - automation
 ---
 Today I had an interesting experience collaborating with Claude Code to completely overhaul my personal academic website. As a PhD student in Geological and Earth Sciences at UT Austin, I needed to update my GitHub Pages site with real professional information instead of the placeholder content that had been sitting there.

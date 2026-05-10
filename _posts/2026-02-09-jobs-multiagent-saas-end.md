@@ -3,14 +3,14 @@ title: 'If Jobs Were Building Today, He Would Toss Most multiAgent Products in t
 date: 2026-02-09
 permalink: /posts/2026/02/jobs-multiagent-saas-end/
 tags:
-  - AI
-  - Multi-Agent
-  - SaaS
-  - Steve Jobs
-  - Startup
-  - Product
-  - Jony Ive
-  - Knowledge Navigator
+  - ai
+  - multi-agent
+  - saas
+  - steve-jobs
+  - startup
+  - product
+  - jony-ive
+  - knowledge-navigator
 ---
 
 Lay out every hyped multiAgent product on a table in front of Steve Jobs and he would probably squint, frown, and ask one question, why on earth are you showing the user any of this.

@@ -3,11 +3,11 @@ title: 'OpenClaw：把命令行世界接成你的第二大脑'
 date: 2026-03-16
 permalink: /posts/2026/03/openclaw-second-brain-for-ai-workers-cn/
 tags:
-  - AI
-  - OpenClaw
-  - Workflow
-  - Automation
-  - Productivity
+  - ai
+  - openclaw
+  - workflow
+  - automation
+  - productivity
 ---
 用不用 OpenClaw？这是个问题
 

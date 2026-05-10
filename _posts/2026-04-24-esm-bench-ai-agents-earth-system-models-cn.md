@@ -3,11 +3,11 @@ title: "ESM-bench：测试AI智能体是否理解地球系统模型的物理学"
 date: 2026-04-24
 permalink: /posts/2026/04/esm-bench-ai-agents-earth-system-models-cn/
 tags:
-  - ESM-bench
-  - AI
-  - Climate
-  - EarthSystemModels
-  - Benchmark
+  - esm-bench
+  - ai
+  - climate
+  - earthsystemmodels
+  - benchmark
 ---
 
 最可怕的部分不在于 AI 智能体在处理地球系统模型代码时失败了，而是它们可能在看似正确的代码中失败。

@@ -3,11 +3,11 @@ title: "Why I'm Building Tacit AI"
 date: 2026-03-28
 permalink: /posts/2026/03/why-building-tacit-ai/
 tags:
-  - AI
+  - ai
   - entrepreneurship
   - research
   - vc
-  - TacitAI
+  - tacitai
 ---
 Why I'm Building Tacit AI
 

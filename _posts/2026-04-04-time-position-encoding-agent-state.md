@@ -3,11 +3,11 @@ title: "The Arrow of Time: How Timestamps Give AI Agents a Soul"
 date: 2026-04-04
 permalink: /posts/2026/04/04/time-position-encoding-agent-state/
 tags:
-  - AI
-  - Agent
-  - Transformer
-  - Position Encoding
-  - Time
+  - ai
+  - agent
+  - transformer
+  - position-encoding
+  - time
 ---
 Why AI agents lack temporal awareness, and how injecting timestamps transforms them from stateless automata into coherent entities.
 

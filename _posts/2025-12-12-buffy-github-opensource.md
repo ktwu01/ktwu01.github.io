@@ -5,7 +5,7 @@ permalink: /posts/2025/12/buffy-github-opensource/
 tags:
   - finance
   - opensource
-  - warren buffett
+  - warren-buffett
   - github
 ---
 In an era driven by code, collaboration, and transparency, GitHub has become synonymous with the "open source" spirit. But if we turn our gaze to the world of finance, we find a pioneer of "open source" who predates the birth of GitHub by a full half-century. His name is Warren Buffett.

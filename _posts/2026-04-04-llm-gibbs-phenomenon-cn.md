@@ -3,8 +3,8 @@ title: "LLM的吉布斯现象：为什么幻觉是数学宿命"
 date: 2026-04-04
 permalink: /posts/2026/04/04/llm-gibbs-phenomenon-cn/
 tags:
-  - AI
-  - LLM
+  - ai
+  - llm
   - 数学
   - 机器学习
 ---

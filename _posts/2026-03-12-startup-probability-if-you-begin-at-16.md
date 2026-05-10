@@ -3,12 +3,12 @@ title: 'Startup Probability: If You Begin at 16, Failing 10 Times in a Row Is Un
 date: 2026-03-12
 permalink: /posts/2026/03/startup-probability-if-you-begin-at-16/
 tags:
-  - Startup
-  - Probability
-  - Sam Altman
-  - AI
-  - Career
-  - Thinking
+  - startup
+  - probability
+  - sam-altman
+  - ai
+  - career
+  - thinking
 ---
 Startup is better understood as a probability game than as a one-time exam.
 

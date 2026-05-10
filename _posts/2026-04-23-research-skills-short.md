@@ -3,8 +3,8 @@ title: "分享科研绝活，成为 Nature 合著者"
 date: 2026-04-23
 permalink: /zh/posts/2026/04/share-research-skills-short/
 tags:
-  - ResearchSkills
-  - AI
+  - researchskills
+  - ai
 ---
 
 只要你贡献一点科研绝活，就能成为 Nature 文章的合著者。

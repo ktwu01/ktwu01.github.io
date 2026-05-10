@@ -3,11 +3,11 @@ title: 'The Truth About Silicon Valley Startup Failures: What Happens When You D
 date: 2026-02-11
 permalink: /posts/2026/02/silicon-valley-failure-safety-net/
 tags:
-  - Startup
-  - Silicon Valley
-  - Entrepreneurship
-  - Career
-  - Risk
+  - startup
+  - silicon-valley
+  - entrepreneurship
+  - career
+  - risk
 ---
 Silicon Valley startup culture celebrates the winners so loudly that we rarely hear what happens to everyone else. The reality is more nuanced than either the success stories or the cautionary tales suggest.
 

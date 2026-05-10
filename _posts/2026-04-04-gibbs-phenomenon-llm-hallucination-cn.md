@@ -3,7 +3,7 @@ title: "吉布斯现象：为什么大模型幻觉在数学上不可避免"
 date: 2026-04-04
 permalink: /posts/2026/04/04/gibbs-phenomenon-llm-hallucination-cn/
 tags:
-  - AI
+  - ai
   - 数学
   - 大语言模型
   - 傅里叶分析

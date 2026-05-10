@@ -3,12 +3,12 @@ title: 'Vibe Coding IDEs brief comparison'
 date: 2025-12-19
 permalink: /posts/2025/12/vibe-coding-ides-brief-comparison/
 tags:
-  - IDE
-  - AI
-  - Cursor
-  - Kiro
-  - Antigravity
-  - Developer Tools
+  - ide
+  - ai
+  - cursor
+  - kiro
+  - antigravity
+  - developer-tools
 ---
 每一家都有每一家的优点和缺点。Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
 

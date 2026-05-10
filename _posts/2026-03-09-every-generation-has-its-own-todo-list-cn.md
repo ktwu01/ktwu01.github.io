@@ -3,12 +3,12 @@ title: '每一代人，都有每一代人的 To-Do List'
 date: 2026-03-09
 permalink: /posts/2026/03/every-generation-has-its-own-todo-list-cn/
 tags:
-  - AI
-  - Productivity
-  - Workflow
-  - OpenClaw
-  - Career
-  - Thinking
+  - ai
+  - productivity
+  - workflow
+  - openclaw
+  - career
+  - thinking
 ---
 每一代人都有自己管理任务的方式：最早是纸和笔，后来是 SaaS 任务管理工具，现在则开始进入像 OpenClaw heartbeat 这样可程序化、可持续运行的 agentic workflow 时代。
 

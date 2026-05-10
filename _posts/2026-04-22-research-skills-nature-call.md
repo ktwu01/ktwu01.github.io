@@ -3,10 +3,10 @@ title: 'We Are Building an Alexandria Library for the AGI Era, and We Aim for Na
 date: 2026-04-22
 permalink: /posts/2026/04/research-skills-nature-call/
 tags:
-  - AI
-  - Research
-  - Claude
-  - Open Source
+  - ai
+  - research
+  - claude
+  - open-source
 ---
 
 Just by running a single command while using AI for research, you can turn your tacit knowledge into a Nature co-authorship.

@@ -3,12 +3,12 @@ title: "Atomize：受 Goblin Tools 启发的任务分解 Agent 系统"
 date: 2026-01-09
 permalink: /posts/2026/01/atomize-task-breaking-agent-system-cn/
 tags:
-  - AI Agent
-  - LLM
-  - Startup
-  - Product
-  - Productivity
-  - Open Source
+  - ai-agent
+  - llm
+  - startup
+  - product
+  - productivity
+  - open-source
 ---
 我和 [Yuxuan](https://www.linkedin.com/in/yuxuan-cao-4b235110b/) 讨论 AI Agent 的想法已经有一段时间了。昨天，我们终于做出了决定：我们要做 **Atomize**，一个从 [Goblin Tools](https://goblin.tools/) 演化而来的任务分解 Agent 系统。
 

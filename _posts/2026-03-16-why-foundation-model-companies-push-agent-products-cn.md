@@ -3,11 +3,11 @@ title: '为什么大模型厂商还在亏钱，却还要拼命推 Agent 产品'
 date: 2026-03-16
 permalink: /posts/2026/03/why-foundation-model-companies-push-agent-products-cn/
 tags:
-  - AI
-  - LLM
-  - Economics
-  - Agent
-  - Strategy
+  - ai
+  - llm
+  - economics
+  - agent
+  - strategy
 ---
 真正值得警惕的信号不是 AI 公司增长太慢，而是它们增长得很快，现金流压力却仍在放大。
 

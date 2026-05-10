@@ -3,12 +3,12 @@ title: '2055, Brain-to-Brain Conversation, and the Future That Still Feels Warm'
 date: 2026-03-10
 permalink: /posts/2026/03/2055-brain-to-brain-and-the-real-future/
 tags:
-  - Science Fiction
-  - AI
-  - Brain Computer Interface
-  - Literature
-  - Future
-  - Thinking
+  - science-fiction
+  - ai
+  - brain-computer-interface
+  - literature
+  - future
+  - thinking
 ---
 Sometimes a piece of old science fiction stays in your head not because of the gadgets, but because it got the emotional structure of the future right.
 

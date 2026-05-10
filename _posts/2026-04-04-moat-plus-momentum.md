@@ -3,11 +3,11 @@ title: 'Moat Plus Momentum: Why AI Makes Preparation Optional'
 date: 2026-04-04
 permalink: /posts/2026/04/moat-plus-momentum/
 tags:
-  - AI
-  - Strategy
-  - Entrepreneurship
-  - Research
-  - Career
+  - ai
+  - strategy
+  - entrepreneurship
+  - research
+  - career
 ---
 Research, stock trading, and startups all share a common pattern: success comes from combining a defensible core competency with the ability to ride trending waves. You don't need exhaustive preparation anymore. You need methodology and the ability to produce content when it matters. When the right moment arrives, you strike.
 

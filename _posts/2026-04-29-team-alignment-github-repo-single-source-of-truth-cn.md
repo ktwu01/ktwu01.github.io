@@ -5,7 +5,7 @@ permalink: /zh/posts/2026/04/team-alignment-github-repo-single-source-of-truth/
 tags:
   - 团队
   - 协作
-  - GitHub
+  - github
   - 工程文化
   - 知识管理
 ---

@@ -3,12 +3,12 @@ title: 'How AI Can Accelerate Career Growth — and Why This Matters for AI for 
 date: 2026-03-08
 permalink: /posts/2026/03/ai-can-accelerate-career-growth-and-ai-for-science/
 tags:
-  - AI
-  - Career
-  - AI for Science
-  - Research Engineering
-  - Productivity
-  - Open Source
+  - ai
+  - career
+  - ai-for-science
+  - research-engineering
+  - productivity
+  - open-source
 ---
 Early-career growth usually comes down to a few repeatable layers: alignment, delivery, visibility, communication, leadership, and trust.
 

@@ -3,10 +3,10 @@ title: 'A Non-AI Researcher’s Guide: Publishing Top AI Papers Using Your Domai
 date: 2026-02-04
 permalink: /posts/2026/02/ai-paper-collaboration-for-domain-experts/
 tags:
-  - AI
-  - Research
-  - Career
-  - Methodology
+  - ai
+  - research
+  - career
+  - methodology
 ---
 To be totally honest with you, you don't need to understand the underlying architecture of large language models to get your name on a top-tier AI paper right now, you just need to be a true expert in your own field.
 

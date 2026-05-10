@@ -5,7 +5,7 @@ permalink: /posts/2026/04/alamo-visit/
 tags:
   - travel
   - history
-  - Texas
+  - texas
   - culture
 ---
 The silence surrounding the Alamo chapel in San Antonio belies the brutal, thirteen-day siege that transformed this former Spanish mission into the ultimate symbol of Texan independence. Standing before its weathered facade today, one can almost hear the echoes of a conflict that remains one of the most legendary chapters in American history.
