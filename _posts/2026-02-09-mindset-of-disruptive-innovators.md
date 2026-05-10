@@ -8,6 +8,8 @@ tags:
   - thoughts
 ---
 
+改变世界的人到底看到了什么是普通人看不到的？
+
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Prompt:
