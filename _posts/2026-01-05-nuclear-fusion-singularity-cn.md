@@ -3,11 +3,11 @@ title: "能源奇点与智能革命：可控核聚变全景深度研究报告—
 date: 2026-01-05
 permalink: /zh/posts/2026/01/nuclear-fusion-singularity/
 tags:
-  - Energy
-  - Nuclear-Fusion
-  - AI
-  - Sam-Altman
-  - Deep-Dive
+  - energy
+  - nuclear-fusion
+  - ai
+  - sam-altman
+  - deep-dive
 ---
 
 引言：AI 的算力尽头，是能源的终极解法。
