@@ -470,3 +470,67 @@ kw的开头永远从一个具体的、当下的事件切入，绝不宏大叙事
 
 更详细的风格示例和修改对比，参考 `references/style_examples.md`。
 完整的内容方法论（选题来源、选题分类、过往爆款案例、创意案例工作法），参考 `references/content_methodology.md`。
+
+---
+
+## 第五步：格式 Lint 与 AI 工具尾部泄漏检查（强制）
+
+写完任何 `_posts/*.md` 或 `chronicles/*/research/*.md`、`chronicles/*/data/*.json` 之后，**报告完成之前**，必须跑一次格式 lint：
+
+```bash
+cd /Users/kw35262/Documents/dev/ktwu01.github.io-1
+python3 scripts/lint_blog_format.py
+```
+
+如果输出 `All blog posts follow the correct structure ...`，OK，可以收尾。如果出现 `FAILED:`，必须在汇报之前修完。
+
+### 这个 lint 在查什么
+
+两件事：
+
+1. **Hook → Author 结构**：第一句非 frontmatter 非 disclaimer 的内容必须是有冲击力的钩子（不能是作者署名），第二句必须是规定格式的作者署名 blockquote。这一条覆盖了 L1-L4 的开头规则。
+
+2. **AI 工具尾部泄漏**：检测以下八种 token 出现在文件里——
+   - `content` / `invoke` / `function_calls` / `parameter` 的闭合 XML tag
+   - `parameter` 的开标签前缀
+   - 带 `antml:` namespace 的三种变体
+
+为什么要查这个，因为历史上写超长 markdown 的时候，模型偶尔会把工具调用的闭合 tag 当作 markdown 内容写进文件末尾，文件看起来正常，但下游解析全炸（Jekyll YAML、JSON 消费者都会断）。这个 bug 静默而且会复发，所以必须有自动检查兜底。
+
+### 命中之后怎么修
+
+不要手写删除（容易自己又把 token 写到 transcript 里再次触发）。用下面这段把 token 从 `chr()` 拼出来的 Python 一行修：
+
+```bash
+target="/path/to/the/broken/file.md"
+python3 - "$target" <<'PY'
+import sys
+path = sys.argv[1]
+LT, SLASH, GT = chr(60), chr(47), chr(62)
+bad_lines = {
+    LT + SLASH + "content" + GT,
+    LT + SLASH + "invoke" + GT,
+    LT + SLASH + "function_calls" + GT,
+    LT + SLASH + "parameter" + GT,
+}
+prefix = LT + "parameter "
+with open(path, encoding="utf-8") as f:
+    lines = f.readlines()
+out = [ln for ln in lines if ln.rstrip("\n") not in bad_lines and not ln.startswith(prefix)]
+with open(path, "w", encoding="utf-8") as f:
+    f.writelines(out)
+PY
+```
+
+修完再跑一次 lint 确认零 hit。
+
+### 怎么从源头降低概率
+
+- 改动能用 `Edit` 就别用 `Write`。`Edit` 的 payload 小，泄漏概率低。
+- 新建文件时，单次 `Write` 的 payload 控制在 500 行以内。越长越容易出问题。
+- **不要因为 `Write` 工具返回成功就以为文件是对的。** 这个 bug 的特征就是 Write 成功，但文件尾巴被污染。
+- 如果出现了新形态的泄漏 token（比如未来平台 schema 改了），把新 pattern 加到 `scripts/lint_blog_format.py` 的 `LEAK_PATTERNS` 里，**用 `chr()` 拼**，不要直接写字面量，否则脚本扫自己时就会假阳性。
+
+### 心智模型
+
+这一步是 forcing function。和 `npm run build` 一样的地位：跑通了才算干完。不跑就不要汇报"全部完成"。
