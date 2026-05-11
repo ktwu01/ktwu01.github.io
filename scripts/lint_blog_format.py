@@ -56,6 +56,33 @@ def check_leaks(content):
     return hits
 
 
+# GitHub Pages (Jekyll/Kramdown) requires $$ ... $$ for both inline and block
+# math. A single-$ pair containing LaTeX-shaped content silently breaks rendering.
+# Allow currency like $50 / $1.5K / $10K through by requiring a LaTeX hint
+# character inside the dollars.
+SINGLE_DOLLAR_MATH = re.compile(r'(?<!\$)\$([^\$\n]{1,80}?)\$(?!\$)')
+LATEX_HINT = re.compile(
+    r'[\\\^_=\{\}]|\\frac|\\alpha|\\beta|\\tau|\\rightarrow|\\leftarrow|'
+    r'\\sum|\\int|\\partial|\\nabla|\\geq|\\leq|\\approx|\\neq|\\cdot|\\times'
+)
+
+
+def check_single_dollar_math(content):
+    hits = []
+    in_fence = False
+    for lineno, line in enumerate(content.split("\n"), 1):
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        for m in SINGLE_DOLLAR_MATH.finditer(line):
+            inner = m.group(1)
+            if LATEX_HINT.search(inner):
+                hits.append((lineno, m.group(0)))
+    return hits
+
+
 def check_file(filepath):
     try:
         with open(filepath, "r", encoding="utf-8") as f:
@@ -68,6 +95,10 @@ def check_file(filepath):
     leaks = check_leaks(content)
     for leak in leaks:
         issues.append(leak)
+
+    math_hits = check_single_dollar_math(content)
+    for ln, fragment in math_hits:
+        issues.append(f"Single-$ LaTeX math at line {ln} ({fragment!r}); GitHub Pages requires $$ ... $$")
 
     parts = content.split("---")
     if len(parts) < 3:
