@@ -9,9 +9,9 @@ tags:
   - AI
 ---
 
-# Prompt Caching Is Not Technical Debt
+Prompt Caching Is Not Technical Debt. It's what the math demands.
 
-*It's what the math demands.*
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ---
 
