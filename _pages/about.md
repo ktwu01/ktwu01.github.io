@@ -14,9 +14,9 @@ redirect_from:
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
-* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), advancing from a research novice.
+* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), after starting as a research novice.
 
-* I achieved the Finalist position for the USTC Guo Moruo Scholarship (the university's highest honor) after initially ranking last in the college entrance exam.
+* I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
 
 * I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
 
