@@ -15,7 +15,7 @@ A new paper looked at 739 science Nobel laureates from 1901 to 2023, and the hea
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-Earlier today I posted a [questions only blog about Chen Ning Yang's family wealth](https://ktwu01.github.io/posts/2026/05/yang-zhenning-wealth-questions/) and the broader question of how scientific privilege actually works. I deliberately left every question unanswered, because the methodology has to come before the numbers or the numbers are just vibes. Then a few hours later somebody pointed me at a paper that answers a big chunk of those questions empirically. Novosad and coauthors, 2024, Access to Scientific Opportunity, Evidence from the Nobel Prizes. So this is the follow up.
+Earlier today I posted a [questions only blog about Chen Ning Yang's family wealth](https://ktwu01.github.io/posts/2026/05/yang-zhenning-wealth-questions/) and the broader question of how scientific privilege actually works. I deliberately left every question unanswered, because the methodology has to come before the numbers or the numbers are just vibes. Then a few hours later somebody pointed me at a paper that answers a big chunk of those questions empirically. Novosad, Asher, Farquharson and Iljazi, December 2025, Access to Opportunity in the Sciences, Evidence from the Nobel Laureates. So this is the follow up.
 
 The setup is straightforward but the dataset is impressive. They went and collected the childhood socioeconomic status of every science Nobel laureate from 1901 to 2023, all 739 of them, by tracing the father's occupation and converting that into an income and education percentile rank inside the laureate's home country and the laureate's birth year. That is a lot of historical archive work. The percentile is the unit of analysis.
 
@@ -55,6 +55,6 @@ So that is what I am sitting with tonight. A 600 year timeline at the current ra
 
 If you have not read the question list, here it is again, [How Rich Is Chen Ning Yang](https://ktwu01.github.io/posts/2026/05/yang-zhenning-wealth-questions/). Read it before you read the answers, otherwise the answers are just trivia.
 
-Reference, Novosad, P. et al. 2024, Access to Scientific Opportunity, Evidence from the Nobel Prizes.
+Reference, Novosad, P., Asher, S., Farquharson, C., Iljazi, E. 2025, Access to Opportunity in the Sciences, Evidence from the Nobel Laureates. Dartmouth College, Imperial College London, Princeton University, UPenn Wharton. December 2025. PDF, [paulnovosad.com/pdf/nobel-prizes.pdf](https://paulnovosad.com/pdf/nobel-prizes.pdf).
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

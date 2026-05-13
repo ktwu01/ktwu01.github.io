@@ -15,7 +15,7 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-今天早些时候我发了一篇[关于杨振宁家族财富的、只有问题没有答案的博客](https://ktwu01.github.io/zh/posts/2026/05/yang-zhenning-wealth-questions/)，里面我故意一个问题都没回答，因为在数字之前必须先把方法论捋清楚，不然数字就只是情绪。结果几个小时之后，有人甩给我一篇论文，把我那篇里的一大堆问题用真实数据回答了。Novosad 和合作者，2024 年，Access to Scientific Opportunity, Evidence from the Nobel Prizes。所以这一篇就是那篇的后续。
+今天早些时候我发了一篇[关于杨振宁家族财富的、只有问题没有答案的博客](https://ktwu01.github.io/zh/posts/2026/05/yang-zhenning-wealth-questions/)，里面我故意一个问题都没回答，因为在数字之前必须先把方法论捋清楚，不然数字就只是情绪。结果几个小时之后，有人甩给我一篇论文，把我那篇里的一大堆问题用真实数据回答了。Novosad、Asher、Farquharson、Iljazi 四位，2025 年 12 月，Access to Opportunity in the Sciences, Evidence from the Nobel Laureates。所以这一篇就是那篇的后续。
 
 研究设计很直接，但数据量很硬核。他们把 1901 到 2023 年所有 739 位科学类诺奖得主的童年社会经济地位都查了一遍，通过父亲的职业反推出这个孩子出生当年、在他自己国家收入分布里的百分位排名，以及教育百分位排名。这是一大堆历史档案的工作。分析单位是百分位。
 
@@ -55,6 +55,6 @@ tags:
 
 如果你还没看那份问题清单，链接在这里，[杨振宁到底有多少钱](https://ktwu01.github.io/zh/posts/2026/05/yang-zhenning-wealth-questions/)。先看问题再看答案，不然答案就只是冷知识。
 
-参考文献，Novosad, P. et al. 2024, Access to Scientific Opportunity, Evidence from the Nobel Prizes.
+参考文献，Novosad, P., Asher, S., Farquharson, C., Iljazi, E. 2025, Access to Opportunity in the Sciences, Evidence from the Nobel Laureates. Dartmouth College, Imperial College London, Princeton University, UPenn Wharton. December 2025. PDF, [paulnovosad.com/pdf/nobel-prizes.pdf](https://paulnovosad.com/pdf/nobel-prizes.pdf)。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
