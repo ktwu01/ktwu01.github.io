@@ -1,5 +1,5 @@
 ---
-title: 'The Truth About Silicon Valley Startup Failures: What Happens When You Don't Make It'
+title: "The Truth About Silicon Valley Startup Failures: What Happens When You Don't Make It"
 date: 2026-02-11
 permalink: /posts/2026/02/silicon-valley-failure-safety-net/
 tags:

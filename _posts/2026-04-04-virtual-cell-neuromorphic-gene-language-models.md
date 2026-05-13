@@ -1,5 +1,5 @@
 ---
-title: 'Virtual Cell Neuromorphic Gene Language Models: A VC Intern's Field Guide'
+title: "Virtual Cell Neuromorphic Gene Language Models: A VC Intern's Field Guide"
 date: 2026-04-04
 permalink: /posts/2026/04/virtual-cell-neuromorphic-gene-language-models/
 tags:

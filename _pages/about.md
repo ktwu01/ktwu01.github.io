@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>), a researcher and a founder."
+title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>)"
 author_profile: true
 redirect_from:
   - /about/
@@ -11,6 +11,69 @@ redirect_from:
 
 <!-- TODO!!! 侧边栏可以加入小红书微信公众号的链接 -->
 <!-- For social meadia count, see /Users/kw35262/Library/Mobile Documents/com~apple~CloudDocs/0KWCV/吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
+
+<style>
+  .home-priority-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .home-priority-column {
+    border-top: 3px solid var(--global-border-color);
+    padding-top: 0.85rem;
+  }
+
+  .home-priority-column h2 {
+    margin-top: 0;
+    padding-bottom: 0.35em;
+  }
+
+  .home-priority-column ul {
+    margin-bottom: 0;
+    padding-left: 1.1rem;
+  }
+
+  @media (max-width: 900px) {
+    .home-priority-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+I am a researcher and founder working across AI for geoscience, early-stage company building, and education systems. I am most interested in people who take responsibility for their own trajectory and build from first principles.
+
+<div class="home-priority-grid">
+  <section class="home-priority-column">
+    <h2>Most Interested In</h2>
+    <ul>
+      <li>Young founders with unusual agency</li>
+      <li>Scientists who want to build, not just publish</li>
+      <li>Educators designing systems, not courses</li>
+      <li>People who treat their own life as a serious project</li>
+    </ul>
+  </section>
+  <section class="home-priority-column">
+    <h2>What I Build</h2>
+    <ul>
+      <li>Research tools for land surface and Earth system modeling</li>
+      <li>AI-native workflows for writing, coding, and research</li>
+      <li>Communities that turn isolated talent into durable networks</li>
+      <li>Founder-facing systems for learning, evaluation, and execution</li>
+    </ul>
+  </section>
+  <section class="home-priority-column">
+    <h2>Research Interests</h2>
+    <ul>
+      <li><strong>AI for Land Surface Modeling</strong>: explainable AI/ML for Noah-MP</li>
+      <li><strong>High Performance Computing</strong>: GPU and CPU clusters for geoscience simulations</li>
+      <li><strong>Model Optimization</strong>: Noah-MP, CTSM, and HRLDAS</li>
+    </ul>
+  </section>
+</div>
+
+## Personal Notes
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
@@ -44,26 +107,6 @@ redirect_from:
 <!-- Speed: 30 young founders backed during that trip. -->
 
 **Personal**: I love swimming and bouldering.
-
-## What I’m Looking For
-
-I am most interested in connecting with:
-
-Young founders with unusual agency.
-
-Scientists who want to build, not just publish.
-
-Educators designing systems, not courses.
-
-People who take responsibility for their own trajectory.
-
-## Research Interests
-
-My research centers on:
-- **AI for Land Surface Modeling**: Implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling
-- **Plant-Rock-Water Interactions**: Developing models for rock and wood moisture in land surface systems
-- **High Performance Computing**: Utilizing GPU and CPU clusters for large-scale geoscience simulations
-- **Model Optimization**: Physics-based land surface models including Noah-MP, CTSM, and HRLDAS
 
 ## Current Work
 

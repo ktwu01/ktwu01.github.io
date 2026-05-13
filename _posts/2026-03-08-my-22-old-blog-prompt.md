@@ -1,4 +1,6 @@
 ---
+published: false
+---
 
 ## Prompt 2: English Full Version Readability (`2026-03-08-my-22-old.md`)
 
@@ -14,5 +16,3 @@
 Prompt 3: Standalone Tacit AI Blog
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
-
-
