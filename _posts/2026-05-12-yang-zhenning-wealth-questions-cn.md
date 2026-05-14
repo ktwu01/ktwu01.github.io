@@ -15,7 +15,7 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-我得先叠个甲。写这篇文章，完全是出于对科研生态和社会学运作机制的好奇，以及我本人对杨先生极高的尊重。作为一个物理学背景出身的人，他几乎是我童年时代神一般的偶像。那时候我在中科大（USTC）读本科，每逢期中期末的重要考试，我经常跑去第二教学楼，摸一摸杨先生的雕像来祈祷逢考必过。后来我在学校里筹办诗社的时候，脑子里反复回响的也是他在 1957 年诺贝尔奖晚宴上的那段关于中国文化的演讲词：
+我得先叠个甲。写这篇文章，完全是出于对科研生态和社会学运作机制的好奇，以及我本人对杨先生极高的尊重。作为一个学物理的人，杨先生曾经是我心目中神一般的偶像。在中科大（USTC）读本科时，每逢期中期末的重要考试，我除了抱一抱郭沫若先生全身铜像的佛脚，还经常跑去二教，摸一摸杨振宁先生半身雕像慈祥的笑脸来祈祷逢考必过。后来我在学校里筹办诗社的时候，脑子里反复回响的也是他在 1957 年诺贝尔奖晚宴上的那段关于中国文化的演讲词：
 
 「As I stand here today and tell you about these, I am heavy with an awareness of the fact that I am in more than one sense a product of both the Chinese and Western cultures, in harmony and in conflict. I should like to say that I am as proud of my Chinese heritage and background as I am devoted to modern science, a part of human civilization of Western origin, to which I have dedicated and I shall continue to dedicate my work.」
 
