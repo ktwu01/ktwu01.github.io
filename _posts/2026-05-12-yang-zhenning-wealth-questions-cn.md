@@ -14,6 +14,10 @@ tags:
 一张 1957 年的诺贝尔奖支票，一个中国第一位数论博士的父亲，三套不同的货币制度，加上七十年的复利，我们到底要怎么给杨振宁家族 2026 年的财富估出一个不是瞎编的数字？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+>
+> 本文所有 6 张图表（图 1 到图 6）的 matplotlib 脚本、原始 CSV 数据、复现说明，全部开源在 [github.com/ktwu01/yang-zhenning-wealth-figures](https://github.com/ktwu01/yang-zhenning-wealth-figures)，`git clone` 后执行 `make all` 即可一键复现全部 6 张图。
+>
+> English version: [How Rich Is Chen Ning Yang?](/posts/2026/05/yang-zhenning-wealth-questions/)
 
 我得先叠个甲。写这篇文章，完全是出于对科研生态和社会学运作机制的好奇，以及我本人对杨先生极高的尊重。作为一个学物理的人，杨先生曾经是我心目中神一般的偶像。在中科大（USTC）读本科时，每逢期中期末的重要考试，我除了抱一抱郭沫若先生全身铜像的佛脚，还经常跑去二教，摸一摸杨振宁先生半身雕像慈祥的笑脸来祈祷逢考必过。后来我在学校里筹办诗社的时候，脑子里反复回响的也是他在 1957 年诺贝尔奖晚宴上的那段关于中国文化的演讲词：
 
