@@ -17,6 +17,8 @@ A 1957 Nobel prize cheque, a father who was the first Chinese PhD in number theo
 >
 > All 6 figures in this post (Figure 1 through Figure 6), including matplotlib scripts, raw CSV data, and reproduction instructions, are open-sourced at [github.com/ktwu01/yang-zhenning-wealth-figures](https://github.com/ktwu01/yang-zhenning-wealth-figures). After `git clone`, run `make all` to reproduce all 6 figures in one shot.
 >
+> Companion animated chronicle (timeline + map + sources): [ut01.github.io/chen-ning-yang-chronicle](https://ut01.github.io/chen-ning-yang-chronicle/). A separate [blog companion to the chronicle](/posts/2026/05/yang-zhenning-chronicle/) walks through how the family tree turned out to be the load-bearing structure of his biography.
+>
 > 中文版：[杨振宁先生到底有多少财富？](/zh/posts/2026/05/yang-zhenning-wealth-questions/)
 
 A disclaimer first. I am writing this post out of genuine curiosity about the scientific ecosystem and the sociological machinery behind it, and out of deep respect for Professor Yang. As someone trained in physics, Yang was once an almost godlike idol to me. As an undergraduate at the University of Science and Technology of China (USTC), every time a midterm or final exam was looming, I would not only touch the foot of the full-body bronze statue of Guo Moruo on campus, I would also walk over to the No.2 Teaching Building and rub the smiling cheek of Yang Zhenning's bust to pray for safe passage. Later, when I was setting up a poetry society at the school, what kept echoing in my head was that passage from his speech at the 1957 Nobel banquet about Chinese culture:

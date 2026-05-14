@@ -17,6 +17,8 @@ tags:
 >
 > 本文所有 6 张图表（图 1 到图 6）的 matplotlib 脚本、原始 CSV 数据、复现说明，全部开源在 [github.com/ktwu01/yang-zhenning-wealth-figures](https://github.com/ktwu01/yang-zhenning-wealth-figures)，`git clone` 后执行 `make all` 即可一键复现全部 6 张图。
 >
+> 配套动画 Chronicle（时间线 + 地图 + 史料）：[ut01.github.io/chen-ning-yang-chronicle](https://ut01.github.io/chen-ning-yang-chronicle/)。另有一篇[围绕这份 Chronicle 的博客](/posts/2026/05/yang-zhenning-chronicle/)，重点讲了为什么"家族结构"才是这份传记的承重墙。
+>
 > English version: [How Rich Is Chen Ning Yang?](/posts/2026/05/yang-zhenning-wealth-questions/)
 
 我得先叠个甲。写这篇文章，完全是出于对科研生态和社会学运作机制的好奇，以及我本人对杨先生极高的尊重。作为一个学物理的人，杨先生曾经是我心目中神一般的偶像。在中科大（USTC）读本科时，每逢期中期末的重要考试，我除了抱一抱郭沫若先生全身铜像的佛脚，还经常跑去二教，摸一摸杨振宁先生半身雕像慈祥的笑脸来祈祷逢考必过。后来我在学校里筹办诗社的时候，脑子里反复回响的也是他在 1957 年诺贝尔奖晚宴上的那段关于中国文化的演讲词：
