@@ -19,3 +19,5 @@ vendor/
 */.obsidian/
 .obsidian/
 output/
+*/.lingtai/
+_posts/.recipe/
