@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Koutian Wu - AI4Geoscience"
+title                    : "koutian.is-a.dev"
 title_separator          : "-"
 name                     : &name "Koutian Wu"
 description              : &description "AI4Geoscience PhD student at UT Austin specializing in explainable AI for physics-based land surface modeling, Noah-MP research, and Earth system science. Expert in Python, MATLAB, HPC, and machine learning for atmospheric and geoscience applications."
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Koutian Wu"
   # pronouns         : "He/Him/His"
-  bio              : "AI4Geoscience PhD student @ UT-Austin. ex-Undergrad @ USTC."
+  bio              : "AI4Sci @ UT-Austin. ex-Undergrad @ USTC."
   location         : "Austin, TX, US | Beijing, China"
   employer         : "University of Texas at Austin"
   uri              : "https://ktwu01.github.io"
