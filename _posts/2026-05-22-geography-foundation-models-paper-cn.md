@@ -1,5 +1,5 @@
 ---
-title: '新论文发表：Geography According to Foundation Models'
+title: '新论文发表：On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust'
 date: 2026-05-22
 permalink: /zh/posts/2026/05/geography-foundation-models-paper/
 tags:
@@ -9,7 +9,7 @@ tags:
   - publication
 ---
 
-我非常荣幸能够参与到这篇新发表的论文 **《Geography According to Foundation Models》** 的合作中，并作为共同作者之一，贡献了关于 **GeoAI信任（GeoAI Trust）** 的章节（第八章）。
+我非常荣幸能够参与到这篇新发表的论文 **《On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust》** 的合作中，并作为共同作者之一，贡献了关于 **GeoAI信任（GeoAI Trust）** 的章节（第八章）。
 
 我特别印象深刻的是，当时 Mai 老师召集我们参与这篇文章的时候特别提到，这篇文章不只关注目前的技术，而是要去引导思考哪些问题才是真正值得我们去探索的。
 
@@ -30,6 +30,7 @@ tags:
 *   **作者：** Gengchen Mai, Ni Lao, Jielu Zhang, Lishen Mao, Zhangyu Wang, Nemin Wu, Krzysztof Janowicz, Koutian Wu, Jinmeng Rao, Song Gao, Rui Zhu
 *   **页码：** 215 - 232
 *   **DOI：** 10.3233/FAIA260483
+*   **链接：** [https://ebooks.iospress.nl/doi/10.3233/FAIA260483](https://ebooks.iospress.nl/doi/10.3233/FAIA260483)
 *   **书籍：** Volume 422: Geography According to Foundation Models
 
 **摘要：** 随着生成式人工智能（GenAI）的快速发展，出现了多个伦理问题，其中许多对地理学和地理空间人工智能（GeoAI）有着独特的影响。本章以GeoAI及其对人类地理认知的影响为重点，回顾了生成式AI系统在概念化、开发和部署过程中的关键伦理问题。我们将讨论模型可解释性、偏见、幻觉、问责制、隐私和信任等关键挑战。最后，我们将推荐符合既定伦理准则的生成式GeoAI模型开发最佳实践。

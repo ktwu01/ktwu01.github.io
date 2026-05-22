@@ -1,5 +1,5 @@
 ---
-title: 'New Paper Published: Geography According to Foundation Models'
+title: 'New Paper Published: On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust'
 date: 2026-05-22
 permalink: /posts/2026/05/geography-foundation-models-paper/
 tags:
@@ -9,7 +9,7 @@ tags:
   - publication
 ---
 
-I am deeply honored to join my colleagues in contributing to the newly published paper, **"Geography According to Foundation Models,"** specifically focusing on the section regarding **GeoAI Trust** (Section 8).
+I am deeply honored to join my colleagues in contributing to the newly published paper, **"On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust,"** specifically focusing on the section regarding **GeoAI Trust** (Section 8).
 
 What impressed me most was that when Dr. Gengchen Mai invited us to participate in this paper, he specifically mentioned that this article should not only focus on current technologies but also guide us to think about which questions are truly worth exploring.
 
@@ -30,6 +30,7 @@ A unique threat to the geospatial domain is "GeoAI collapse." As generative mode
 *   **Authors:** Gengchen Mai, Ni Lao, Jielu Zhang, Lishen Mao, Zhangyu Wang, Nemin Wu, Krzysztof Janowicz, Koutian Wu, Jinmeng Rao, Song Gao, Rui Zhu
 *   **Pages:** 215 - 232
 *   **DOI:** 10.3233/FAIA260483
+*   **Link:** [https://ebooks.iospress.nl/doi/10.3233/FAIA260483](https://ebooks.iospress.nl/doi/10.3233/FAIA260483)
 *   **Book:** Volume 422: Geography According to Foundation Models
 
 **Abstract:** With the rapid development of generative artificial intelligence (GenAI), multiple ethical problems emerge, many of which have distinct implications for geography and geospatial artificial intelligence (GeoAI). With a focus on GeoAI and its impact on humans’ perception of geography, this chapter reviews key ethical issues in the conceptualization, development, and deployment of generative AI systems. Our discussion will address key challenges, including model explainability, bias, hallucination, accountability, privacy, and trust, which influence both model training and user interaction. We will conclude by recommending best practices for developing generative GeoAI models that align with established ethical guidelines.
