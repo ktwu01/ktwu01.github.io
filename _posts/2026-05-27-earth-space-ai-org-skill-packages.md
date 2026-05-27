@@ -92,7 +92,7 @@ The org has a [homepage](https://github.com/ktwu01/earth-modeling-agent-homepage
 
 1. **List every skill repo by domain** with a one-line description and a link out to the upstream repo. The source of truth is `lib/skills.ts`; both the home page and the nav/footer regenerate from that one file. Adding a new skill is a one-line edit.
 2. **Explain the skill package layout** (the `SKILL.md` + `reference/` shape) so a new contributor understands the shape before they propose a new repo.
-3. **Surface the people.** A `/teams` page lists the Scientific Committee (faculty PIs like Vassilis Angelopoulos, Jacob Bortnik, Marco Velli at UCLA; Chuanfei Dong at BU; Tian Zhou at PNNL), the Executive Committee (Zesen Huang at UCLA, Koutian Wu at UT Austin), and Scholars across UCLA, Caltech, UMich, Oxford, Meta, ETH Zürich, and UIUC. Contribution is the organizing principle, not affiliation.
+3. **Surface the people.** A `/teams` page lists the Scientific Committee (faculty PIs like Chuanfei Dong at BU; Vassilis Angelopoulos, Jacob Bortnik, Marco Velli at UCLA; Tian Zhou at PNNL), the Executive Committee (Zesen Huang at UCLA, Koutian Wu at UT Austin), and Scholars across UCLA, Caltech, UMich, Oxford, Meta, ETH Zürich, and UIUC. Contribution is the organizing principle, not affiliation.
 
 Deployment is Vercel from `main`. No backend, no database, no auth, no environment variables. The repository is intentionally simple so that the friction of contributing a new skill is editing one TypeScript array.
 
