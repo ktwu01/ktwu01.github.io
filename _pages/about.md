@@ -48,6 +48,8 @@ I am a researcher and founder working on AI agent for Science.
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
+* I founded [earth-space-ai.org](https://earth-space-ai.org) to democratize Earth and space sciences modeling with AI, covering 8 domains from Earth-system models to heliophysics.
+
 * I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), after starting as a research novice.
 
 * I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
