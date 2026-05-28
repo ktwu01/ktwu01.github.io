@@ -42,7 +42,7 @@ redirect_from:
   }
 </style>
 
-I am a researcher and founder working across AI for geoscience, early-stage company building, and education systems. I am most interested in people who take responsibility for their own trajectory and build from first principles.
+I am a researcher and founder working on AI agent for Science.
 
 ## Quick Facts
 
