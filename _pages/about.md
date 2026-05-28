@@ -44,6 +44,22 @@ redirect_from:
 
 I am a researcher and founder working across AI for geoscience, early-stage company building, and education systems. I am most interested in people who take responsibility for their own trajectory and build from first principles.
 
+## Quick Facts
+
+* I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
+
+* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), after starting as a research novice.
+
+* I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
+
+* I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
+
+* I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
+
+* I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge.
+
+*Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
+
 <div class="home-priority-grid">
   <section class="home-priority-column">
     <h2>Most Interested In</h2>
@@ -72,41 +88,6 @@ I am a researcher and founder working across AI for geoscience, early-stage comp
     </ul>
   </section>
 </div>
-
-## Personal Notes
-
-* I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
-
-* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), after starting as a research novice.
-
-* I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
-
-* I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
-
-* I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
-
-* I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge.
-
-*Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
-
-## Quick Facts
-
-**GitHub Commits**: 3,000+ per year.
-
-**GitHub Stars**: 300+.
-
-<!-- Capital: Involved in managing USD 450M+ -->
-
-<!-- % ref: 吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
-<!-- Network: 9,650+ followers/friends across all platforms. -->
-
-**Writing**: 1M+ reads, Startup/Research/VC/Life.
-
-<!-- Fieldwork: Visited 140+ universities globally. -->
-
-<!-- Speed: 30 young founders backed during that trip. -->
-
-**Personal**: I love swimming and bouldering.
 
 ## Current Work
 
