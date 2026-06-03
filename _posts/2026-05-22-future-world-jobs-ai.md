@@ -11,6 +11,8 @@ tags:
 
 In the future world, everyone will have their own AI agent assistant. 
 
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 When you look at physicists, their ultimate goal is to understand how to predict the world, how to understand the ultimate questions of existence, and how humanity lives. All scientists share this goal of understanding the world. But physicists take it a step further—they believe that high-dimensional worlds have low-dimensional manifolds, and they use classic learning to manifest them. So, how can an ordinary Ph.D. student, with just an hour or two of free time a day, participate in these grand questions? The most direct way might be to join places like Google DeepMind.
 
 Does this mean we won't need to learn physics anymore, and AI will do all the derivations? Even if AI does the deriving, humans will still need to learn those concepts. The things we have to learn will only increase and get harder. The *nature* of the difficulty will change. Before, the difficulty was doing arithmetic by hand; now, with computers, we don't need slide rules, but the difficulty has shifted to a different dimension.

@@ -11,6 +11,8 @@ tags:
 
 我非常荣幸能够参与到这篇新发表的论文 **《On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust》** 的合作中，并作为共同作者之一，贡献了关于 **GeoAI信任（GeoAI Trust）** 的章节（第八章）。
 
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
 我特别印象深刻的是，当时 Mai 老师召集我们参与这篇文章的时候特别提到，这篇文章不只关注目前的技术，而是要去引导思考哪些问题才是真正值得我们去探索的。
 
 正因为如此，我觉得这篇文章一定会对大家很有帮助，也非常有启发。希望这些文章在十年后来看，仍然会启发新的思考。

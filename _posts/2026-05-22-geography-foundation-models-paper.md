@@ -11,6 +11,8 @@ tags:
 
 I am deeply honored to join my colleagues in contributing to the newly published paper, **"On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust,"** specifically focusing on the section regarding **GeoAI Trust** (Section 8).
 
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 What impressed me most was that when Dr. Gengchen Mai invited us to participate in this paper, he specifically mentioned that this article should not only focus on current technologies but also guide us to think about which questions are truly worth exploring.
 
 Because of this vision, I believe this paper will be highly helpful and inspiring to everyone in the field. I hope that even ten years from now, these insights will continue to inspire researchers.
