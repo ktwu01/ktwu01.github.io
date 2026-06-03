@@ -11,6 +11,8 @@ tags:
   - open-science
 ---
 
+Decades of Earth-system modeling judgment live in PDFs, mailing lists, and senior researchers' heads, and none of it is loadable by an AI coding agent. earth-space-ai.org is an attempt to fix that.
+
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)  
 > Project home: [earth-space-ai.org](https://github.com/earth-space-ai) · Homepage repo: [earth-modeling-agent-homepage](https://github.com/ktwu01/earth-modeling-agent-homepage)
 
