@@ -145,6 +145,27 @@
   "references": [],
   "publications": [
     {
+      "name": "On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust",
+      "publisher": "Geography According to Foundation Models, Vol. 422, IOS Press",
+      "releaseDate": "2026-01-01",
+      "website": "https://ebooks.iospress.nl/doi/10.3233/FAIA260483",
+      "summary": "Peer-reviewed book chapter (pp. 215-232) reviewing ethical issues in generative GeoAI. Wu authored Section 8, Trust in AI and GeoAI Models. DOI 10.3233/FAIA260483."
+    },
+    {
+      "name": "ESM-bench: A Benchmark for Evaluating Whether AI Agents Understand Earth System Model Physics and Code",
+      "publisher": "Preprint (Zenodo); in preparation for NeurIPS Datasets and Benchmarks",
+      "releaseDate": "2026-01-01",
+      "website": "https://zenodo.org/records/19802836",
+      "summary": "Preprint. A 243-task benchmark with a classification rubric, precision/recall/F1 scoring, multi-model evaluation, and leakage detection. In preparation."
+    },
+    {
+      "name": "Noah-Agent: A Multi-Expert AI Agent Framework for Automated Parameterization and Validation of Large-Scale Fortran Climate Models (v0.1)",
+      "publisher": "Preprint (Zenodo); in preparation",
+      "releaseDate": "2025-01-01",
+      "website": "https://zenodo.org/records/17862049",
+      "summary": "Preprint, version 0.1. A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models."
+    },
+    {
       "name": "Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar",
       "publisher": "JGR: Space Physics",
       "releaseDate": "2024-12-01",
@@ -192,6 +213,20 @@
     }
   ],
   "portfolio": [
+    {
+      "name": "ESM-bench: Benchmarking AI Agents on Earth System Model Physics and Code",
+      "category": "research",
+      "date": "2026-01-01",
+      "url": "https://zenodo.org/records/19802836",
+      "description": "Preprint. A 243-task benchmark evaluating whether AI agents understand Earth System Model physics and code, with multi-model evaluation, a classification rubric, precision/recall/F1 scoring, and leakage detection. In preparation for NeurIPS Datasets and Benchmarks."
+    },
+    {
+      "name": "Noah-Agent: Multi-Expert AI Agent Framework for Fortran Climate Models",
+      "category": "research",
+      "date": "2025-12-15",
+      "url": "https://zenodo.org/records/17862049",
+      "description": "Preprint, version 0.1. A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models."
+    },
     {
       "name": "Explainable AI for Noah-MP Land Surface Modeling",
       "category": "research",
