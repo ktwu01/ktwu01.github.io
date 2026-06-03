@@ -62,6 +62,12 @@ I am a researcher and founder working on AI agent for Science.
 
 *Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
 
+## NEWS
+
+* I co-authored a peer-reviewed book chapter on the ethics of generative GeoAI in [Geography According to Foundation Models](https://ebooks.iospress.nl/doi/10.3233/FAIA260483) (IOS Press, 2026), writing the section on trust in AI and GeoAI models.
+
+* I released two preprints on AI agents for Earth system science: [ESM-bench](https://zenodo.org/records/19802836), a 243-task benchmark for whether AI agents understand Earth System Model physics and code, and [Noah-Agent](https://zenodo.org/records/17862049), a multi-expert agent framework for Fortran climate models.
+
 <div class="home-priority-grid">
   <section class="home-priority-column">
     <h2>Most Interested In</h2>
