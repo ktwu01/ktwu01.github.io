@@ -22,6 +22,8 @@ author_profile: true
 
 - **[Mango TV - Gold Rush 2026 (夺金2026)](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525)** — *Featured as Austin young founder in Episode 1*
 
+- **[Starting Point One (SP1) startup documentary](https://www.bilibili.com/video/BV1yB7D6cEzd/?share_source=copy_web&vd_source=f6cb1d4d49fac24f8cbf7d78d9e52491)** — *Contributed to this documentary*
+
 ### Shenzhen X-Institute (深圳零一学院) Features
 
 - **[教育变革的技术奇点时刻到来了吗？](https://mp.weixin.qq.com/s/5PdjLR-f7dPwozvgEFWQsg)** — *As a USTC student and X-Institute scholar, Koutian Wu shares his experiences at the Shenzhen X-Institute*
