@@ -7,6 +7,8 @@ tags:
   - career
 ---
 
+如果你的家庭资产在美国不足一百万美元、在中国不足一千万人民币，那么去搞科研就是一场赔率极低且缺乏托底的赌博。
+
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > prompt: 搞科研就是赌博，事实上没钱人搞科研是赌博，搞什么也是赌博。搞风投是赌博，但是搞科研更是赌博，因为VC可以投很多，降低sigma，提升sharp, 但是搞科研精力所限.

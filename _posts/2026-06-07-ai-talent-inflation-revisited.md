@@ -8,6 +8,10 @@ tags:
   - reflection
 ---
 
+After two years of "All-in AI", my deep-seated belief in the "10,000-hour talent moat" was ruthlessly shattered by the rise of Agentic workflows.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 Six months ago, I posted a framework I called ["AI Talent Inflation"](https://github.com/ktwu01/AI-Talent-Inflation), arguing that the "10,000-hour rule" would soon create an unbridgeable gap in the AI industry. My empirical belief was straightforward: early adopters who went "All-in" on AI in 2022 would hit their 10,000-hour mastery milestone by late 2025 or early 2026. I predicted this would lead to an exponential divergence in capability, leaving "outsiders" permanently behind, and that the "democratization of AI" was a myth.
 
 ![AI-Talent-Inflation](/images/AI-Talent-Inflation.png)

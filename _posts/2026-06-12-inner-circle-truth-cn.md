@@ -7,6 +7,8 @@ tags:
   - career
 ---
 
+如果你每天还在各大平台疯狂收藏“干货”和“方法论”，那你可能永远都触碰不到这个世界真正值钱的信息。
+
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 大家好，我是美国留子小邱。

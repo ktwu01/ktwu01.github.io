@@ -8,6 +8,10 @@ tags:
   - reflection
 ---
 
+在“All-in AI”两年后，我曾经深信的“10,000小时人才护城河”理论，在Agentic工作流的冲击下被无情地打碎了一半。
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
 六个月前，我提出了一个名为 [“AI人才通胀” (AI Talent Inflation)](https://github.com/ktwu01/AI-Talent-Inflation) 的框架，认为“10,000小时定律”将很快在AI行业中制造出不可逾越的鸿沟。我当时的经验性判断很直接：在2022年就“All-in AI”的早期红利获得者，将在2025年底或2026年初达到他们的10,000小时精通里程碑。我预测这将导致能力的指数级分化，把“圈外人”永远留在后面，而所谓的“AI平民化”只不过是个神话。
 
 ![AI-Talent-Inflation](/images/AI-Talent-Inflation.png)
