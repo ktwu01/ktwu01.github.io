@@ -31,7 +31,7 @@ School Evaluator gives you the dimensions a ranking can't.
 - **Location and quality of life** — climate, cost of living, city energy.
 - **Network and alumni** — who you'll meet and who you'll know later.
 - **Research opportunities** — labs, funding, advisor availability.
-- **Visa and immigration support** — for international students.
+- **paperwork and paperwork support** — for international students.
 - **Personal fit** — culture, pace, values.
 
 Each dimension is weighted by you. The composite output is meaningful because it reflects *your* priorities, not US News's.

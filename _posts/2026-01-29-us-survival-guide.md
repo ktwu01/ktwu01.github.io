@@ -1,9 +1,9 @@
 ---
-title: 'US Survival Guide: A Practical Handbook for Chinese Students and Immigrants in America'
+title: 'US Survival Guide: A Practical Handbook for Chinese Students and newcomers in America'
 date: 2026-01-29
 permalink: /posts/2026/01/us-survival-guide/
 tags:
-  - immigration
+  - cross-border paperwork
   - survival-guide
   - chinese-students
   - international-students
@@ -11,7 +11,7 @@ tags:
   - legal-rights
   - united-states
 ---
-The US is full of small traps that nobody warns you about until after you've fallen into one. US Survival Guide is a handbook for Chinese students and immigrants on identifying risk early, knowing your rights, and building a financial defense before you need it. [Read the Guide](https://ktwu01.github.io/US-Survival-Guide/)
+The US is full of small traps that nobody warns you about until after you've fallen into one. US Survival Guide is a handbook for Chinese students and newcomers on identifying risk early, knowing your rights, and building a financial defense before you need it. [Read the Guide](https://ktwu01.github.io/US-Survival-Guide/)
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
@@ -19,16 +19,16 @@ The US is full of small traps that nobody warns you about until after you've fal
 
 ## Why This Guide Exists
 
-The "American dream" narrative for Chinese students and new immigrants tends to skip the parts that hurt. Visa anxiety, predatory lease clauses, healthcare bills that arrive six months after a checkup, employment-at-will surprises, scams that specifically target the international community — all of these are common, all of them are avoidable, and almost none of them are taught in the standard pre-departure briefing.
+The "American dream" narrative for Chinese students and new newcomers tends to skip the parts that hurt. paperwork anxiety, predatory lease clauses, healthcare bills that arrive six months after a checkup, employment-at-will surprises, scams that specifically target the international community — all of these are common, all of them are avoidable, and almost none of them are taught in the standard pre-departure briefing.
 
 US Survival Guide is the document I wish I had read before landing.
 
 ## What It Covers
 
-- **Visa and immigration risk** — F1, OPT, H1B, and the gray areas between them.
+- **paperwork and paperwork risk** — international student, post-graduation runway, work track, and the gray areas between them.
 - **Housing** — lease red flags, deposit recovery, eviction defense.
 - **Healthcare** — how the bill actually works, and how to never overpay.
-- **Employment rights** — at-will employment, wage theft, employer-sponsored visa pressure.
+- **Employment rights** — at-will employment, wage theft, employer-sponsored paperwork pressure.
 - **Legal rights** — interactions with police, ICE, customs.
 - **Financial defense** — credit, banking, taxes, and the buffer you should keep.
 - **Scams targeting Chinese-speaking communities** — phone, WeChat, real estate.
@@ -41,8 +41,8 @@ The full guide lives at [https://ktwu01.github.io/US-Survival-Guide/](https://kt
 ## Who This Is For
 
 - Chinese students starting an undergraduate or graduate program in the US.
-- Recent graduates on OPT navigating their first US job.
-- New immigrants in the first one to three years of US residency.
+- Recent graduates on post-graduation runway navigating their first US job.
+- New newcomers in the first one to three years of US residency.
 - Parents trying to brief a child who is about to leave.
 
 ## A Note on Tone
