@@ -60,7 +60,7 @@ I am a researcher and founder working on AI agent for Science.
 
 * I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge.
 
-*Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
+*Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), [Port Aransas South Jetty](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
 Contributed to the [Starting Point One (SP1) documentary](https://www.bilibili.com/video/BV1yB7D6cEzd/?share_source=copy_web&vd_source=f6cb1d4d49fac24f8cbf7d78d9e52491).
 
 ## NEWS

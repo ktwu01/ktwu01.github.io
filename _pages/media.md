@@ -7,6 +7,11 @@ author_profile: true
 
 ## Featured Media Coverage
 
+### Texas Coast & Research Media
+
+- **[Port Aransas South Jetty - How satellites and AI protect the Texas coast](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/)** — *Institute Insights feature on our UT team's satellite remote sensing and AI work for Texas coastal water quality (May 28, 2026)*
+  - [Related post](/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/)
+
 ### People's Daily & Major Chinese Media
 
 - **[People's Daily Overseas Edition (人民日报海外版)](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html)** — *从"零"到"一" 破界创新 (From "Zero" to "One": Breaking Boundaries in Innovation)*
