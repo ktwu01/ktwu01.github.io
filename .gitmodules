@@ -40,3 +40,6 @@
 [submodule "chronicles/eric-greene"]
 	path = chronicles/eric-greene
 	url = https://github.com/yzliu03/Eric-Greene-chronicle.git
+[submodule "AI-Talent-Inflation"]
+	path = AI-Talent-Inflation
+	url = https://github.com/ktwu01/AI-Talent-Inflation.git
