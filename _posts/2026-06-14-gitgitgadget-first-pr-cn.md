@@ -95,31 +95,53 @@ Error: User ktwu01 is not yet permitted to use GitGitGadget
 
 所以我已经在 PR 里留言，请 authorized user 帮我 allow。
 
-接下来要做的事情其实很清楚。
+然后，事情真的往前走了。
 
-第一，等一个已经有权限的人在 PR 里评论 `/allow`。
+一个已经有权限的用户（`mmontalbo`）在 PR 里评论了 `/allow`，GitGitGadget 随即回复，确认 `ktwu01` 现在可以使用 GitGitGadget 了。
 
-第二，拿到权限之后，再发一次 `/preview`。
+不过它同时给了我一个 warning。
+
+```text
+WARNING: ktwu01 has no public email address set on GitHub
+```
+
+意思是，我在 GitHub 上没有设置公开邮箱，而 GitGitGadget 需要一个邮箱地址，才能在补丁发到邮件列表时把我 Cc 进去，让我能收到 review 的回信。
+
+这一步很容易被忽略，但其实很重要。如果不设置，补丁是能发出去的，但别人在邮件列表上对你这个补丁的所有讨论，你自己反而收不到。
+
+所以我去 GitHub 的 profile 设置里，把 `ktwu01@gmail.com` 设成了公开邮箱。这个邮箱和我 commit 里 `Signed-off-by` 用的是同一个，前后一致。
+
+接下来才进入真正的发送流程。
+
+第一步，发 `/preview`。
 
 ```bash
 gh pr comment 2151 --repo gitgitgadget/git --body "/preview"
 ```
 
-这一步会让 GitGitGadget 生成邮件预览。重点是先看预览邮件，而不是急着 submit。要确认 subject、commit message、diff、Signed-off-by 都正常。
+GitGitGadget 生成了一封预览邮件。我特意先看预览，而不是急着 submit。subject 是 `gitattributes: fix eol attribute for Perl scripts`，commit message 完整，diff 就是那一行 `eof=lf` 改成 `eol=lf`，`Signed-off-by` 也在，没有 AI co-author。一切正常。
 
-第三，预览没问题之后，再发 `/submit`。
+第二步，预览确认没问题之后，发 `/submit`。
 
 ```bash
 gh pr comment 2151 --repo gitgitgadget/git --body "/submit"
 ```
 
-这一步才是真正把补丁发到 Git 邮件列表。
+这一步才是真正把补丁发到 Git 邮件列表。GitGitGadget 回复了。
 
-第四，等 review。
+```text
+Submitted as pull.2151.git.1781497525828.gitgitgadget@gmail.com
+```
 
-如果有人指出问题，就不要在原补丁后面追加一个修修补补的 commit。Git 的流程更倾向于改历史，重新整理 patch series。也就是用 `git rebase -i` 或 `git commit --amend` 修好，再 force-push，然后发下一版。
+补丁就这样作为 `v1` 上了 `git@vger.kernel.org`。它在邮件列表归档里的地址是：
 
-比如以后可能会出现 `v2`。
+[https://lore.kernel.org/git/pull.2151.git.1781497525828.gitgitgadget@gmail.com](https://lore.kernel.org/git/pull.2151.git.1781497525828.gitgitgadget@gmail.com)
+
+第三步，等 review。
+
+现在补丁已经在邮件列表上了，接下来就是等维护者和其他人的回信。因为邮箱已经公开，GitGitGadget 会把我 Cc 进去，回信会直接到我邮箱。
+
+如果有人指出问题，就不要在原补丁后面追加一个修修补补的 commit。Git 的流程更倾向于改历史，重新整理 patch series。也就是用 `git rebase -i` 或 `git commit --amend` 修好，再 force-push，然后发 `/submit`，GitGitGadget 会把它作为 `v2` 重新发一遍。
 
 这件事给我的最大感受是，开源贡献并不是在 GitHub 上点几个按钮那么简单。
 
@@ -131,8 +153,8 @@ gh pr comment 2151 --repo gitgitgadget/git --body "/submit"
 
 就是发现一个小拼写错误，确认它是真的，写一个小补丁，签上自己的名字，送到正确的地方，然后等别人 review。
 
-如果最后这个补丁真的被接收，那我才算真正迈出了成为 Git contributor 的第一步。
+现在补丁已经作为 `v1` 发到了 Git 邮件列表上。如果它最后真的被接收，我才算真正迈出了成为 Git contributor 的第一步。
 
-现在还不能吹。
+还没到能吹的时候。
 
-但门已经敲响了。
+但门不只是敲响了，补丁已经迈过了门槛，躺在邮件列表上等人来看。
