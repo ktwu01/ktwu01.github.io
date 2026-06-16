@@ -51,7 +51,7 @@ The talkmap feature creates an interactive Leaflet map showing all talk location
 ### ✅ What's Working
 - Talkmap is integrated into the talks page
 - Existing location data is preserved in `org-locations.js`
-- Map displays all 5 talks with proper clustering
+- Map displays all current talks with proper clustering
 - No separate talkmap page needed (as requested)
 - Documentation is complete
 

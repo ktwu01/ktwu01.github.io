@@ -1,5 +1,15 @@
 var addressPoints = [
     [
+        "ESM-bench: Can AI Agents Understand Earth System Model Physics and Code?<br />4th Annual Good Systems Smart Cities and AI Innovations Symposium; Austin, TX",
+        30.2672,
+        -97.7431
+    ],
+    [
+        "Noah-MP land surface model with plant hydraulics scheme (Noah-MP-PHS) Evaluation<br />106th AMS Annual Meeting; Houston, TX",
+        29.7604,
+        -95.3698
+    ],
+    [
         "An open-source geospatial AI platform based on the AlphaEarth Foundation Model<br />Geoscience Hackathon '25; Austin, TX",
         30.2672,
         -97.7431
