@@ -58,7 +58,7 @@ I am a researcher and founder working on AI agent for Science.
 
 * I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
 
-* I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge.
+<!-- * I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge. -->
 
 * I have a hamster named ASI, and I hope he lives to see artificial superintelligence.
 
