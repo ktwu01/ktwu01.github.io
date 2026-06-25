@@ -16,7 +16,9 @@ Today I got my first Git patch onto the mailing list.
 
 Here is how it went.
 
-The thing that first caught my eye was a line in the `git/git` repository on GitHub: `pull requests can be turned into patches to the mailing list via GitGitGadget`. That sentence is easy to misread. You might think that opening a PR the way you always do already counts as contributing to Git.
+It started with my own blog's repository, which I originally set up and maintained on a Mac. When I started operating on it from a Windows machine, `git status` began showing a pile of files as `modified` even though nobody had touched their contents. Git was flagging them as dirty purely because of line-ending normalization differences between the two OSes, CRLF on Windows versus LF on Mac/Linux. I did not just live with it. I treated it as a real Git problem worth solving, and added a `.gitattributes` file to that repo to force consistent LF line endings regardless of which OS touched it. Writing those rules by hand is what made the exact syntax stick: `eol=lf` is the attribute that normalizes line endings, not `eof=lf`.
+
+With that fresh in my head, the thing that first caught my eye was a line in the `git/git` repository on GitHub: `pull requests can be turned into patches to the mailing list via GitGitGadget`. That sentence is easy to misread. You might think that opening a PR the way you always do already counts as contributing to Git.
 
 Once I actually looked into it, that turned out not to be the case.
 
@@ -158,3 +160,20 @@ The patch is now on the Git mailing list as `v1`. If it really does get accepted
 It is not time to brag yet.
 
 But the door is not just knocked on. The patch has crossed the threshold and is sitting on the mailing list, waiting for someone to look at it.
+
+**Update, 2026-06-24: the patch landed.**
+
+Junio C Hamano merged the branch into `master`. The commit is there with my name on it as author.
+
+[https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa)
+
+```text
+Author: Koutian Wu <ktwu01@gmail.com>
+Committer: Junio C Hamano <gitster@pobox.com>
+```
+
+The merge itself is here.
+
+[https://github.com/git/git/commit/8cf57cbec4de63ad41e8b3c705505771784abf50](https://github.com/git/git/commit/8cf57cbec4de63ad41e8b3c705505771784abf50)
+
+So it is time to say it plainly now. I am a Git contributor.

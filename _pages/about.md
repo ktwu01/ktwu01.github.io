@@ -60,6 +60,8 @@ I am a researcher and founder working on AI agent for Science.
 
 <!-- * I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge. -->
 
+* I am a [contributor to Git](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa), the version control system used by virtually every software project in the world.
+
 * I have a hamster named ASI, and I hope he lives to see artificial superintelligence.
 
 *Featured in [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), [Port Aransas South Jetty](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). See more in [Media Coverage](/media/).*
