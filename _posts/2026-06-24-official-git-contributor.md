@@ -29,6 +29,13 @@ The merge itself:
 
 The fix was one line. The `.gitattributes` file had `*.pl text eof=lf diff=perl`, where `eof` should have been `eol`. Git's line-ending attribute is `eol=lf`, not `eof=lf`, so the rule never actually normalized line endings for Perl scripts. I changed it to match the neighboring `*.perl` and `*.pm` rules, signed it off under my own name, and sent it through GitGitGadget to the mailing list.
 
+I did not stumble onto this typo by browsing Git's source for fun. I found it because of a real CRLF/LF problem on this very blog's own repository, which I originally set up and maintained on a Mac. Once I started operating on it from a Windows machine, `git status` kept showing a pile of files as `modified` even though nobody had touched their contents, purely because of line-ending normalization differences between the two OSes. I did not just live with it. I added a `.gitattributes` file to this repo to force consistent LF endings, and writing those rules by hand is what taught me the correct syntax, `eol=lf`, not `eof=lf`. That is what let me spot the identical typo sitting in Git's own `.gitattributes` a day later.
+
 That patch is now part of the history that every `git clone` of the canonical repository carries forward.
 
 It was a one-line fix. It still counts.
+
+**Related posts:**
+- [Sending My First Git Patch to the GitGitGadget Doorstep]({{ site.baseurl }}/posts/2026/06/gitgitgadget-first-pr/), the original submission story.
+- [What It Actually Takes to Land a Patch in Git]({{ site.baseurl }}/posts/2026/06/what-it-takes-to-land-a-git-patch/), the full retrospective on the GitGitGadget process.
+- [中文版：我现在是正式的 Git Contributor 了]({{ site.baseurl }}/zh/posts/2026/06/official-git-contributor/)

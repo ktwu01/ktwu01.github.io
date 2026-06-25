@@ -47,3 +47,8 @@ When I first looked at the merge commit on GitHub, I only saw Junio listed, and 
 None of this required deep C knowledge or a large diff. It required reading the project's existing conventions before assuming I knew better than them, treating the human-in-the-loop permission step and the email-visibility warning as real blockers rather than noise, and being precise about what I was actually claiming when I signed my own name.
 
 That is the whole list. The technical fix was one character.
+
+**Related posts:**
+- [Sending My First Git Patch to the GitGitGadget Doorstep]({{ site.baseurl }}/posts/2026/06/gitgitgadget-first-pr/), the original submission story.
+- [I Am Now an Official Git Contributor]({{ site.baseurl }}/posts/2026/06/official-git-contributor/), the merge announcement with the verified commit links.
+- [中文版：把一个补丁真正送进 Git 需要什么]({{ site.baseurl }}/zh/posts/2026/06/what-it-takes-to-land-a-git-patch/)

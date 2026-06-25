@@ -47,3 +47,8 @@ GitGitGadget 之所以存在，是因为 Git 真正的 review 流程是 `git@vge
 这些都不需要很深的 C 语言知识，也不需要一个很大的 diff。需要的是先去读项目已有的约定，而不是想着自己更懂；把人工权限关卡和邮箱可见性的 warning 当成真正的阻塞项而不是噪音；以及在自己签名的时候，清楚自己到底在声明什么。
 
 就这些。技术上的修复，只有一个字符。
+
+**相关文章：**
+- [我把第一个 Git 补丁送到了 GitGitGadget 门口]({{ site.baseurl }}/zh/posts/2026/06/gitgitgadget-first-pr/)，最初提交的完整故事。
+- [我现在是正式的 Git Contributor 了]({{ site.baseurl }}/zh/posts/2026/06/official-git-contributor/)，合并公告，附带验证过的 commit 链接。
+- [English version: What It Actually Takes to Land a Patch in Git]({{ site.baseurl }}/posts/2026/06/what-it-takes-to-land-a-git-patch/)

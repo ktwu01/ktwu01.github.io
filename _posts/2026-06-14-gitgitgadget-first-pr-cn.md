@@ -177,3 +177,8 @@ Committer: Junio C Hamano <gitster@pobox.com>
 [https://github.com/git/git/commit/8cf57cbec4de63ad41e8b3c705505771784abf50](https://github.com/git/git/commit/8cf57cbec4de63ad41e8b3c705505771784abf50)
 
 所以现在可以说得明白一点了。我是 Git 的 contributor 了。
+
+**相关文章：**
+- [我现在是正式的 Git Contributor 了]({{ site.baseurl }}/zh/posts/2026/06/official-git-contributor/)，合并公告，附带验证过的 commit 链接。
+- [把一个补丁真正送进 Git 需要什么]({{ site.baseurl }}/zh/posts/2026/06/what-it-takes-to-land-a-git-patch/)，完整回顾，包括这个 bug 究竟是怎么被发现的。
+- [English version: Sending My First Git Patch to the GitGitGadget Doorstep]({{ site.baseurl }}/posts/2026/06/gitgitgadget-first-pr/)

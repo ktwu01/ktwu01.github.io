@@ -177,3 +177,8 @@ The merge itself is here.
 [https://github.com/git/git/commit/8cf57cbec4de63ad41e8b3c705505771784abf50](https://github.com/git/git/commit/8cf57cbec4de63ad41e8b3c705505771784abf50)
 
 So it is time to say it plainly now. I am a Git contributor.
+
+**Related posts:**
+- [I Am Now an Official Git Contributor]({{ site.baseurl }}/posts/2026/06/official-git-contributor/), the merge announcement with the verified commit links.
+- [What It Actually Takes to Land a Patch in Git]({{ site.baseurl }}/posts/2026/06/what-it-takes-to-land-a-git-patch/), the full retrospective, including how the bug was actually found.
+- [中文版：我把第一个 Git 补丁送到了 GitGitGadget 门口]({{ site.baseurl }}/zh/posts/2026/06/gitgitgadget-first-pr/)
