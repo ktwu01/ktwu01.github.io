@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <title>AI 在企业沟通中的应用 Demo</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1d1f23;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent2: #d97757;
+      --card: #f4f6f9;
+      --line: #e2e5ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .deck {
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8vh 10vw;
+    }
+
+    .slide.active {
+      display: flex;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 1.1rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: 4rem;
+      line-height: 1.1;
+      margin: 0 0 1.5rem;
+    }
+
+    h2 {
+      font-size: 2.8rem;
+      line-height: 1.15;
+      margin: 0 0 2rem;
+    }
+
+    ul {
+      font-size: 1.5rem;
+      line-height: 1.65;
+      color: var(--fg);
+      padding-left: 1.4em;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 1.2rem;
+      margin-top: 1.2rem;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 3vh;
+      left: 10vw;
+      right: 10vw;
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .nav {
+      position: absolute;
+      bottom: 3vh;
+      right: 10vw;
+      color: var(--muted);
+    }
+
+    kbd {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: ui-monospace, Menlo, monospace;
+      font-size: 0.9rem;
+      color: var(--fg);
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-right: 0.5rem;
+    }
+
+    .row {
+      display: flex;
+      gap: 4vw;
+      align-items: center;
+    }
+
+    .col {
+      flex: 1;
+    }
+
+    .chart {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1.6rem 1.8rem;
+      min-width: 26vw;
+    }
+
+    .chart-title {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+    }
+
+    .bar-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      gap: 0.8rem;
+    }
+
+    .bar-label {
+      width: 7em;
+      font-size: 1rem;
+      color: var(--fg);
+      flex-shrink: 0;
+    }
+
+    .bar-track {
+      flex: 1;
+      background: #e8eaf0;
+      border-radius: 6px;
+      height: 22px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      color: #fff;
+      font-size: 0.85rem;
+      padding-right: 8px;
+    }
+
+    .bar-fill.before {
+      background: var(--accent2);
+    }
+
+    .bar-fill.after {
+      background: var(--accent);
+    }
+
+    .chart-note {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .pillgrid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+    }
+
+    .pill {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.9rem 1.2rem;
+      font-size: 1.05rem;
+      color: var(--fg);
+    }
+
+    .question {
+      margin-top: 1.2rem;
+      border-left: 3px solid var(--accent);
+      padding: 0.6rem 0 0.6rem 1rem;
+      font-size: 1.15rem;
+      color: var(--fg);
+    }
+
+    .question b {
+      color: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="deck" id="deck">
+
+    <section class="slide active">
+      <div class="eyebrow">开场 / 关于我</div>
+      <h2>AI 研究员视角：企业沟通中的 LLM 应用</h2>
+      <ul>
+        <li>我是做 AI / LLM 应用研究的，今天不讨论开模、工艺这类生产环节</li>
+        <li>重点聊聊"沟通"这件事：对外的客户往来、对内的协同信息传递</li>
+      </ul>
+      <div class="sub">分享几个真实可落地的小 demo，给您一个参考，不是要教怎么做——今天更想听听您实际遇到的情况</div>
+      <div class="footer"><span>Koutian Wu</span><span>2026-06-26</span></div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">总览</div>
+      <h2>沟通类 AI 应用，行业里大致分两条线</h2>
+      <ul>
+        <li><b>对外</b>：客户邮件/询盘、多语言报价、技术资料往来</li>
+        <li><b>对内</b>：会议/群聊信息结构化、经验知识沉淀成问答库</li>
+        <li>共同的做法：<b>AI 先起草，人来审核拍板</b>，不是替代决策</li>
+      </ul>
+      <div class="sub">这是目前硅谷企业普遍在用的方式，不针对某个特定行业</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Demo 1 / 对外沟通</div>
+      <h2>客户邮件 / 询盘，自动提取 + 起草回复</h2>
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li>AI 读客户来信，提取产品、数量、交期等关键信息</li>
+            <li>自动生成回复或报价单草稿，业务员审核后一键发出</li>
+            <li>同样思路也能用在企业微信、邮箱的客户消息上</li>
+          </ul>
+          <div class="sub">价值：把"读信 → 理解 → 打草稿"从几十分钟压缩到几分钟</div>
+          <div class="question"><b>想请教您：</b>现在团队处理一封客户询盘，大概要经过哪几道手、花多久？哪个环节最容易卡？</div>
+        </div>
+        <div class="col chart">
+          <div class="chart-title">示意：单封询盘处理耗时（分钟，示例数据）</div>
+          <div class="bar-row">
+            <span class="bar-label">人工处理</span>
+            <div class="bar-track"><div class="bar-fill before" style="width:100%">25</div></div>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">AI辅助起草</span>
+            <div class="bar-track"><div class="bar-fill after" style="width:24%">6</div></div>
+          </div>
+          <div class="chart-note">示意数据，仅用于说明节省时间的方向</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Demo 2 / 对外沟通</div>
+      <h2>多语言报价单 / 技术资料互译</h2>
+      <ul>
+        <li>中英对照的报价单、技术规格书自动翻译，术语保持统一</li>
+        <li>保证对海外客户沟通的专业度和一致性</li>
+        <li>减少对个别懂外语的业务员/外贸专员的依赖</li>
+      </ul>
+      <div class="sub">价值：让更多业务员能直接对接海外客户，不卡在语言这一环</div>
+      <div class="question"><b>想请教您：</b>海外客户的报价单、技术资料，现在主要靠谁来翻译？有没有因为翻译/沟通不到位耽误过事？</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Demo 3 / 对内协同</div>
+      <h2>群聊 / 会议记录，自动整理成结构化纪要</h2>
+      <ul>
+        <li>把零散的微信群聊、电话会议转成"待办 + 决策 + 负责人"清单</li>
+        <li>业务 → 工程 → 生产之间交接的信息，不再靠口口相传</li>
+        <li>自动归档进对应的客户/项目档案，方便回溯</li>
+      </ul>
+      <div class="sub">价值：减少"开会没记住、传话变样"带来的隐性损耗</div>
+      <div class="question"><b>想请教您：</b>业务、工程、生产之间交接信息，您觉得哪个环节最容易出岔子，最近一次是什么情况？</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Demo 4 / 内部知识库</div>
+      <h2>把老师傅的经验，沉淀成 AI 可查的问答库</h2>
+      <ul>
+        <li>历史客户问题、常见技术答疑整理成知识库</li>
+        <li>新人或业务员遇到问题先问 AI，减少反复打断老员工</li>
+        <li>经验不会因为人员流动而跟着流失</li>
+      </ul>
+      <div class="sub">价值：降低培训成本，把"人的经验"变成"公司的资产"</div>
+      <div class="question"><b>想请教您：</b>新人现在是怎么学这些经验的？有没有遇到过老员工离职、经验也跟着带走的情况？</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">Demo 5 / 我的研究方向</div>
+      <h2>我平时怎么用 AI 做自动化结构化分析</h2>
+      <ul>
+        <li>举例：用 AI agent 自动生成结构化报告（比如我自己做的投资组合分析项目）</li>
+        <li>核心方法是一致的：把非结构化信息（邮件/群聊/会议）→ 自动转成结构化信息（数据/任务/报告）</li>
+        <li>这套方法可以迁移到企业沟通场景，不局限于某个行业</li>
+      </ul>
+      <div class="sub">这是我作为研究员目前在探索的方向，分享给您做参考</div>
+      <div class="question"><b>想请教您：</b>在您看来，公司里哪个环节最耗人力、但一直没找到明显的改善办法？</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">小结</div>
+      <h2>这些是"可以这样用"，不是建议立刻去做</h2>
+      <div class="pillgrid">
+        <div class="pill">沟通类场景成本低、见效快</div>
+        <div class="pill">AI 先起草，人决策把关</div>
+        <div class="pill">可以先挑一个小场景试点</div>
+      </div>
+      <div class="sub">是否深入，取决于实际效果和贵司具体情况</div>
+    </section>
+
+    <section class="slide">
+      <h1>谢谢</h1>
+      <div class="sub">欢迎随时交流，看看哪个场景值得先试一下</div>
+      <div class="footer"><span>ktwu01@gmail.com</span><span>Koutian Wu</span></div>
+    </section>
+
+    <div class="nav"><kbd>←</kbd> <kbd>→</kbd> 翻页</div>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".slide");
+    let i = 0;
+    function show(n) {
+      slides[i].classList.remove("active");
+      i = (n + slides.length) % slides.length;
+      slides[i].classList.add("active");
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight" || e.key === " " || e.key === "PageDown") show(i + 1);
+      if (e.key === "ArrowLeft" || e.key === "PageUp") show(i - 1);
+      if (e.key === "Home") show(0);
+      if (e.key === "End") show(slides.length - 1);
+    });
+    document.addEventListener("click", (e) => {
+      const w = window.innerWidth;
+      if (e.clientX < w / 3) show(i - 1); else show(i + 1);
+    });
+  </script>
+</body>
+
+</html>
