@@ -233,24 +233,79 @@
 
     <section class="slide active">
       <div class="eyebrow">开场 / 关于我</div>
-      <h2>AI 研究员视角：企业沟通中的 LLM 应用</h2>
+      <h2>今天先聊聊 AI 本身，不是来推方案的</h2>
       <ul>
         <li>我是做 AI / LLM 应用研究的，今天不讨论开模、工艺这类生产环节</li>
-        <li>重点聊聊"沟通"这件事：对外的客户往来、对内的协同信息传递</li>
+        <li>先讲讲 AI 现在的局限、怎么控制风险、云端和本地的区别</li>
       </ul>
-      <div class="sub">分享几个真实可落地的小 demo，给您一个参考，不是要教怎么做——今天更想听听您实际遇到的情况</div>
+      <div class="sub">想先听听您实际怎么看 AI、卡在哪些问题上，而不是假设您对哪个场景感兴趣</div>
       <div class="footer"><span>Koutian Wu</span><span>2026-06-26</span></div>
     </section>
 
     <section class="slide">
-      <div class="eyebrow">总览</div>
-      <h2>沟通类 AI 应用，行业里大致分两条线</h2>
+      <div class="eyebrow">先说局限</div>
+      <h2>制造业不怕 AI，怕的是"AI 出错没人发现"</h2>
       <ul>
-        <li><b>对外</b>：客户邮件/询盘、多语言报价、技术资料往来</li>
-        <li><b>对内</b>：会议/群聊信息结构化、经验知识沉淀成问答库</li>
-        <li>共同的做法：<b>AI 先起草，人来审核拍板</b>，不是替代决策</li>
+        <li>AI 会"自信地说错话"（行业里叫"幻觉"）——给出听起来合理、但事实不对的答案</li>
+        <li>它不知道自己什么时候错了，也不会主动提醒你"这条不确定"</li>
+        <li>大部分企业目前还没有一套现成的"怎么用、怎么查、出错了怎么办"的流程</li>
       </ul>
-      <div class="sub">这是目前硅谷企业普遍在用的方式，不针对某个特定行业</div>
+      <div class="sub">这是今天想重点聊的：不是"AI能干什么"，而是"怎么知道它没干错"</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">怎么控制风险</div>
+      <h2>几个通用的做法（不针对具体场景）</h2>
+      <ul>
+        <li><b>人在回路</b>：AI 给草稿/给建议，人审核拍板，关键决策不让 AI 直接绕过人</li>
+        <li><b>先用在低风险、可逆的环节</b>：比如整理文字、起草邮件，而不是直接接管影响质量/安全的环节</li>
+        <li><b>留痕可追溯</b>：AI 给结论时附上依据，方便事后查"它是怎么得出这个判断的"</li>
+      </ul>
+      <div class="sub">本质是把 AI 当成一个"经验不稳定的新人"来管，而不是当成黑箱权威</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">AI 现在的几个研究方向</div>
+      <h2>讲三个概念，不堆术语</h2>
+      <ul>
+        <li><b>自动化研究（autoresearch）</b>：AI 不只是回答问题，开始尝试自己设计实验、自己迭代，去找更优的参数或方案</li>
+        <li><b>隐性知识（tacit knowledge）</b>：老师傅靠手感、经验判断的东西，能不能被 AI 学习、提炼、传下去——目前还在摸索，没法完全替代经验</li>
+        <li><b>能力评测（benchmark）</b>：怎么知道 AI 现在到底靠不靠谱？业内靠公开的测试集/榜单去衡量，而不是听厂商自己说</li>
+      </ul>
+      <div class="sub">这三件事合在一起，大致代表了 AI 现在"往哪个方向在进步"</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">云端 AI vs 本地 AI</div>
+      <h2>区别在哪，隐私怎么保护</h2>
+      <ul>
+        <li><b>云端</b>：用现成的 AI 服务（如 Claude、ChatGPT），数据要传到对方服务器——通常有"不用于训练"的协议、传输加密，但数据终归要出公司</li>
+        <li><b>本地 / 私有部署</b>：模型跑在公司自己的机器上，数据不出内网，但成本更高、能力可能打折扣</li>
+        <li>怎么选要看数据敏感度：客户报价、工艺参数这类信息，担心外泄的话，会更倾向本地部署，或者跟供应商签明确的数据协议</li>
+      </ul>
+      <div class="sub">没有标准答案，取决于您对哪类数据最敏感</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">想先听听您的看法</div>
+      <h2>几个问题，想请教您</h2>
+      <ul>
+        <li>您比较担心 AI"出错"，具体是担心哪一类——说错话、算错数，还是别的？</li>
+        <li>公司现在有没有什么流程，是用来"检查/兜底"重要决策的？AI 如果要加进来，应该卡在哪一步？</li>
+        <li>如果要降低人力成本，您觉得该先从哪个环节、哪类岗位入手？</li>
+        <li>客户数据、工艺参数这些信息，您对"要不要上云"是怎么看的？</li>
+      </ul>
+      <div class="sub">这几个问题没有标准答案，想听听您怎么想</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">补充材料</div>
+      <h2>如果您感兴趣，后面有几个具体场景的小 demo</h2>
+      <ul>
+        <li>都是"沟通"相关的场景：客户邮件、多语言、会议纪要、知识库</li>
+        <li>纯粹作为参考案例，不是建议——看哪个跟您刚才提到的情况比较像</li>
+      </ul>
+      <div class="sub">不感兴趣可以直接跳到最后</div>
     </section>
 
     <section class="slide">
@@ -331,13 +386,13 @@
 
     <section class="slide">
       <div class="eyebrow">小结</div>
-      <h2>这些是"可以这样用"，不是建议立刻去做</h2>
+      <h2>今天主要是想听听您的实际情况</h2>
       <div class="pillgrid">
-        <div class="pill">沟通类场景成本低、见效快</div>
-        <div class="pill">AI 先起草，人决策把关</div>
-        <div class="pill">可以先挑一个小场景试点</div>
+        <div class="pill">AI 会出错，关键是怎么控制</div>
+        <div class="pill">云端 / 本地，看数据敏感度</div>
+        <div class="pill">demo 只是参考，不是建议</div>
       </div>
-      <div class="sub">是否深入，取决于实际效果和贵司具体情况</div>
+      <div class="sub">具体要不要做、做哪一块，还是要看您怎么判断</div>
     </section>
 
     <section class="slide">
