@@ -225,45 +225,347 @@
     .question b {
       color: var(--accent);
     }
+
+    .flow {
+      display: flex;
+      align-items: stretch;
+      gap: 0.6rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .flow-step {
+      flex: 1;
+      min-width: 160px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.2rem 1.1rem;
+      position: relative;
+    }
+
+    .flow-step .stage {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .flow-step .name {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .flow-step .desc {
+      font-size: 0.98rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .flow-step.now {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+    }
+
+    .flow-step.now .name {
+      color: var(--accent);
+    }
+
+    .flow-arrow {
+      align-self: center;
+      color: var(--muted);
+      font-size: 1.6rem;
+      flex: 0 0 auto;
+    }
+
+    .lead {
+      font-size: 1.35rem;
+      line-height: 1.6;
+      color: var(--fg);
+      margin: 0 0 1.6rem;
+      max-width: 52em;
+    }
+
+    .lead .hl {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .slide.dense {
+      justify-content: flex-start;
+      padding-top: 6vh;
+      padding-bottom: 6vh;
+      overflow-y: auto;
+    }
+
+    .dense h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .dense ul {
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+
+    .dense li {
+      margin-bottom: 1rem;
+    }
+
+    .note {
+      display: block;
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-top: 0.25rem;
+    }
+
+    .callout {
+      margin-top: 1.6rem;
+      background: #eef3fe;
+      border: 1px solid #cfe0fb;
+      border-radius: 12px;
+      padding: 1.1rem 1.4rem;
+      font-size: 1.2rem;
+      line-height: 1.55;
+      color: #1e3a8a;
+      max-width: 56em;
+    }
+
+    .callout b {
+      color: var(--accent);
+    }
   </style>
 </head>
 
 <body>
   <div class="deck" id="deck">
 
-    <section class="slide active">
+    <section class="slide dense">
       <div class="eyebrow">开场 / 关于我</div>
-      <h2>AI 研究员视角：企业沟通中的 LLM 应用</h2>
+      <h2>今天先聊聊 AI 本身，不是来推方案的</h2>
+      <p class="lead">我是做 AI / LLM 应用研究的。今天<span class="hl">不谈开模、工艺这类生产环节</span>——那是您的专业，我不懂。我想聊的是一个更基础的问题：AI 现在到底是个什么东西，它真实的能力边界在哪，哪些地方靠谱、哪些地方千万别信。</p>
       <ul>
-        <li>我是做 AI / LLM 应用研究的，今天不讨论开模、工艺这类生产环节</li>
-        <li>重点聊聊"沟通"这件事：对外的客户往来、对内的协同信息传递</li>
+        <li>外面关于 AI 的说法太多，有人吹上天，有人觉得是噱头
+          <span class="note">真相在中间：它确实有用，但有非常明确的"能"和"不能"，搞清楚边界比追新概念重要得多</span>
+        </li>
+        <li>所以今天的顺序是：先讲清楚 AI 的局限和怎么控制，再聊它的发展方向、云端和本地的区别
+          <span class="note">把基础聊透了，您自己就能判断哪些场景值得碰、哪些不值得</span>
+        </li>
       </ul>
-      <div class="sub">分享几个真实可落地的小 demo，给您一个参考，不是要教怎么做——今天更想听听您实际遇到的情况</div>
+      <div class="callout">我更想听您怎么看 AI、卡在哪些顾虑上，<b>而不是假设您对某个方案已经感兴趣</b>——所以中间会穿插几个问题向您请教。</div>
       <div class="footer"><span>Koutian Wu</span><span>2026-06-26</span></div>
     </section>
 
-    <section class="slide">
-      <div class="eyebrow">总览</div>
-      <h2>沟通类 AI 应用，行业里大致分两条线</h2>
+    <section class="slide dense">
+      <div class="eyebrow">先说局限</div>
+      <h2>制造业真正怕的，不是被 AI 取代，是"AI 出错没人发现"</h2>
+      <p class="lead">很多人担心 AI 抢饭碗，但在制造业里，更现实的风险其实是反过来的：<span class="hl">AI 算错一个参数、答错一个客户问题，而没人当场发现，等流到下游才暴雷。</span></p>
       <ul>
-        <li><b>对外</b>：客户邮件/询盘、多语言报价、技术资料往来</li>
-        <li><b>对内</b>：会议/群聊信息结构化、经验知识沉淀成问答库</li>
-        <li>共同的做法：<b>AI 先起草，人来审核拍板</b>，不是替代决策</li>
+        <li>AI 会"一本正经地说错话"——行业里叫"幻觉"
+          <span class="note">它会给出听起来非常合理、措辞专业、但事实上是错的答案。越是它不确定的领域，越容易这样，而且语气还特别自信</span>
+        </li>
+        <li>它不知道自己什么时候错了，也不会主动喊"这条我没把握"
+          <span class="note">人犯错时往往自己心里会打鼓、会去核对；AI 错和对的时候表现得一模一样，这才是最危险的地方</span>
+        </li>
+        <li>大多数企业还没有一套"怎么用、谁来查、错了怎么兜底"的规矩
+          <span class="note">没有流程不代表不能用，而是说：上 AI 之前，得先想清楚在哪个环节加一道人工核对</span>
+        </li>
       </ul>
-      <div class="sub">这是目前硅谷企业普遍在用的方式，不针对某个特定行业</div>
+      <div class="callout">所以今天重点不是"AI 能干什么"，而是 <b>"怎么知道它没干错"</b>——这个想明白了，才谈得上放心用。</div>
     </section>
 
-    <section class="slide">
+    <section class="slide dense">
+      <div class="eyebrow">AI 和人比</div>
+      <h2>AI 强在哪、弱在哪——拿它和一个员工对比就清楚了</h2>
+      <p class="lead">理解 AI 最简单的办法，是把它想象成一个<span class="hl">"反应极快、永不疲倦、但记性短、不会灵活变通"的员工</span>。它的强和弱，是一体两面。</p>
+      <ul>
+        <li><b>强：快、不累、可规模化</b>
+          <span class="note">一秒钟出结果，24 小时不停，同时处理一千封邮件也不会烦躁。重复性的活儿，这一点完胜人</span>
+        </li>
+        <li><b>弱：一次只能"看"有限的信息（context 小）</b>
+          <span class="note">一个老业务员脑子里装着十年的客户脾气、历史订单、车间情况；AI 每次对话只能看到你当场喂给它的那点材料，喂少了它就只能猜</span>
+        </li>
+        <li><b>强：固定流程能高度复用</b>
+          <span class="note">同一类任务定义清楚后，做一千次质量稳定，不会因为今天心情不好就出错——这是它最值钱的地方</span>
+        </li>
+        <li><b>弱：泛化性差，没见过的情况就抓瞎</b>
+          <span class="note">稍微变个花样、需要临场判断的特殊情况，它就容易出错。这正是前面说的"出错风险"的根源</span>
+        </li>
+      </ul>
+      <div class="callout">一句话记住：<b>谁要是说 AI "什么都能做、能无限替代人"，那基本是吹牛或者不懂。</b>它的能力边界非常清楚——固定流程交给它，灵活判断留给人。</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">边界具体卡在哪</div>
+      <h2>AI 真正的边界，恰恰是您公司里那些"没写下来的经验"</h2>
+      <p class="lead">很多人以为 AI 的瓶颈是"还不够聪明"。其实对企业来说，更现实的瓶颈是：<span class="hl">它根本没见过您公司的东西。</span></p>
+      <ul>
+        <li>AI 是靠"公开数据"训练出来的——书、网页、代码、论文
+          <span class="note">凡是网上能查到、书里写过的通用知识，它都懂，而且懂得比大多数人全</span>
+        </li>
+        <li>但您公司的经验，从来没被公开发表过，AI 自然也没学过
+          <span class="note">比如某个客户验货特别挑哪个尺寸、某种材料在南方梅雨季容易出什么问题、哪个老师傅一眼能看出的毛病——这些"隐性知识"只在人脑子里和车间里</span>
+        </li>
+        <li>这部分"没被训练过的知识"，恰恰是企业最值钱、也最护城河的资产
+          <span class="note">通用能力人人都能买到，真正的差异化就在这些别人不知道的细节里</span>
+        </li>
+      </ul>
+      <div class="callout">这反而是好消息：<b>AI 取代不了您的核心经验。</b>它能不能在您公司用好，取决于您愿不愿意、能不能把这些隐性知识整理出来喂给它——而不是指望它天生就懂。</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">怎么控制风险</div>
+      <h2>既然它会出错，那就用"管新人"的方式管它</h2>
+      <p class="lead">控制 AI 风险其实不神秘，和您带一个能力强但还不熟业务的新人一个道理：<span class="hl">放手让他干活，但关键环节得有人把关、有据可查。</span></p>
+      <ul>
+        <li><b>人在回路（最重要）</b>：AI 出草稿、出建议，人来审核拍板
+          <span class="note">关键决策绝不让 AI 绕过人直接生效。它是助手，不是签字的人——这一条守住，风险就去掉一大半</span>
+        </li>
+        <li><b>先用在"低风险、可逆"的环节</b>
+          <span class="note">从整理文字、起草邮件、做初稿这种"错了也能改、改了也不伤筋动骨"的活儿入手；先别让它碰直接影响质量、安全、报价的硬环节</span>
+        </li>
+        <li><b>留痕、可追溯</b>：让 AI 给结论时附上依据
+          <span class="note">出问题时能回头查"它当时是根据什么这么说的"，既方便纠错，也方便判断它到底靠不靠谱</span>
+        </li>
+      </ul>
+      <div class="callout">核心心态：把 AI 当成一个<b>"反应快但经验不稳定的新人"</b>来管，而不是当成一个不会错的黑箱权威。这样既敢用，又出不了大事。</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">AI 的发展轨迹</div>
+      <h2>从"对话框"，到"会自己干活的 Agent"</h2>
+      <p class="lead">您可能用过 ChatGPT 那种"问一句答一句"的对话框。其实那只是 AI 的<span class="hl">起点</span>，这两年它在快速往"会动手干活"进化——看清这条线，就能判断它接下来值不值得投入。</p>
+      <div class="flow">
+        <div class="flow-step">
+          <div class="stage">最早</div>
+          <div class="name">对话框</div>
+          <div class="desc">你问一句，它答一句。只会聊天，干不了实事</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="stage">后来</div>
+          <div class="name">会用工具</div>
+          <div class="desc">能查资料、读文件、调用软件，不只是"嘴上说"</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step now">
+          <div class="stage">现在</div>
+          <div class="name">Agent 自主执行</div>
+          <div class="desc">给一个目标，它自己拆步骤、自己动手、自己检查，能连续完成一整套任务</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="stage">趋势</div>
+          <div class="name">越来越智能</div>
+          <div class="desc">能处理的任务越来越复杂、越来越长，需要人盯的地方越来越少</div>
+        </div>
+      </div>
+      <div class="sub">方向是确定的：从"帮你说"走向"帮你做"，会一年比一年强</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">这意味着什么</div>
+      <h2>方向是确定的，但"趁早理解"和"全盘押上"是两回事</h2>
+      <p class="lead">AI 会一年比一年强，这点几乎没有争议。但<span class="hl">"它会越来越强"不等于"现在就什么都能交给它"</span>——这两件事经常被人混在一起，结果要么过度乐观踩坑，要么完全观望错过。</p>
+      <ul>
+        <li>正因为它在快速进步，<b>今天先从小场景试起，团队才能跟着一起长经验</b>
+          <span class="note">用 AI 是有学习曲线的——怎么提需求、怎么核对、怎么把公司知识喂进去，这些都要时间磨。早一年开始，就早一年熟练</span>
+        </li>
+        <li>真正的门槛往往不是 AI 本身，而是<b>您公司的数据和流程有没有准备好</b>
+          <span class="note">等到 AI 完全成熟那天再动手，会发现资料散在各处、经验都在人脑子里，光整理就要很久——别人已经跑在前面了</span>
+        </li>
+      </ul>
+      <div class="callout">所以我的态度不是"劝您马上大干"，而是：<b>早点真正理解它，比晚一步被动跟风更主动。</b>先小步试、把基础打好，等技术成熟时您是有准备的那个。</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">AI 现在的几个研究方向</div>
+      <h2>学术界正在攻的三个方向，用大白话讲</h2>
+      <p class="lead">我作为研究员，给您交个底：AI 接下来往哪走，大致看这三件事。<span class="hl">每一件都直接关系到"它对您这种企业到底有没有用"。</span></p>
+      <ul>
+        <li><b>自动化研究（autoresearch）</b>：让 AI 自己做实验、自己迭代
+          <span class="note">不再是你问它答，而是给它一个目标，它自己反复尝试、对比、找出更优的参数或方案。对应到工厂，就是"自己调参数找最优解"这类活儿的雏形</span>
+        </li>
+        <li><b>隐性知识（tacit knowledge）</b>：能不能把老师傅的"手感"学下来
+          <span class="note">这正是前面说的边界。学界在研究怎么把"只可意会"的经验提炼成 AI 能学的东西——目前还在摸索，远没到能完全替代老师傅的程度，谁说能了就要警惕</span>
+        </li>
+        <li><b>能力评测（benchmark）</b>：怎么客观衡量 AI 到底行不行
+          <span class="note">业内用公开的标准考题、排行榜来打分，而不是听厂商自吹。您将来选 AI 产品时，也该问一句"有没有第三方测评数据"，别只听销售说</span>
+        </li>
+      </ul>
+      <div class="callout">这三件事合起来，代表 AI 正在<b>"从会说话，走向会做研究、会学经验、且能被客观检验"</b>——但每一项都还在路上，没有一项是"已经全搞定了"。</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">云端 AI vs 本地 AI</div>
+      <h2>用 AI 绕不开的一个问题：您的数据会去哪</h2>
+      <p class="lead">这是制造业老板最该关心的一点。同样是用 AI，<span class="hl">数据出不出公司，是两条完全不同的路</span>，各有取舍。</p>
+      <ul>
+        <li><b>云端：用现成服务（如 Claude、ChatGPT），能力最强</b>
+          <span class="note">优点是最聪明、不用自己买设备、开箱即用。代价是数据要传到对方服务器——正规厂商通常承诺"不拿你的数据训练"、全程加密，但数据终归出了公司这道门</span>
+        </li>
+        <li><b>本地 / 私有部署：模型跑在自己机器上，数据不出内网</b>
+          <span class="note">优点是数据彻底留在公司，最安全。代价是要自己买服务器、成本高，而且能跑的模型通常比云端最强的弱一截</span>
+        </li>
+        <li><b>怎么选，取决于"哪些数据您最不愿外流"</b>
+          <span class="note">普通邮件、对外资料，用云端完全够；客户报价、工艺参数、配方这类核心机密，要么本地部署，要么和供应商签死数据条款，要么干脆不喂给 AI</span>
+        </li>
+      </ul>
+      <div class="callout">没有标准答案。实务上常见做法是<b>"分级"：普通沟通走云端图方便，核心机密走本地或干脆不上 AI。</b>关键是您先想清楚——哪类数据是绝对不能出公司的？</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">想先听听您的看法</div>
+      <h2>聊到这，几个问题想请教您</h2>
+      <p class="lead">前面都是我在讲 AI 的"底层逻辑"。<span class="hl">接下来我更想听您的</span>——下面这几个问题没有标准答案，您的回答能帮我判断 AI 到底在您这儿有没有用、用在哪。</p>
+      <ul>
+        <li>您说担心 AI"出错"，<b>具体是担心哪种错</b>？说错话、算错数、还是泄露信息？
+          <span class="note">想知道您最在意的风险点，好对应到前面讲的控制办法</span>
+        </li>
+        <li>公司现在重要决策有没有"检查 / 兜底"的环节？<b>AI 真要加进来，该卡在哪一步</b>？
+          <span class="note">如果本来就没什么固定流程，那其实是张白纸，反而好从头设计</span>
+        </li>
+        <li>如果目标是<b>降低人力成本，您觉得该先从哪个环节、哪类岗位入手</b>？
+          <span class="note">哪些活儿最重复、最耗人、又最不依赖临场判断——那通常就是 AI 最该先碰的地方</span>
+        </li>
+        <li>客户数据、工艺参数这些，<b>您对"要不要上云"是什么态度</b>？
+          <span class="note">这决定了走云端还是本地，是技术路线的第一个岔路口</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">补充材料</div>
+      <h2>如果您感兴趣，后面有几个具体场景的小 demo</h2>
+      <p class="lead">前面聊的是"AI 是什么、边界在哪"。<span class="hl">下面几页是更具体的例子</span>，都属于"沟通"这一类——也就是最容易上手、风险最低、最适合先试的那种场景。</p>
+      <ul>
+        <li>四个方向：客户邮件、多语言资料、会议纪要、内部知识库
+          <span class="note">为什么都选"沟通"？因为这类活儿重复、耗人、又错得起——正好是前面说的"低风险、可逆"，最适合 AI 先练手</span>
+        </li>
+        <li>它们只是参考案例，<b>不是给您的建议</b>
+          <span class="note">您看哪个跟刚才提到的痛点像，咱们就细聊哪个；都不像也没关系，直接跳过</span>
+        </li>
+      </ul>
+      <div class="sub">不感兴趣可以直接翻到最后一页</div>
+    </section>
+
+    <section class="slide dense">
       <div class="eyebrow">Demo 1 / 对外沟通</div>
       <h2>客户邮件 / 询盘，自动提取 + 起草回复</h2>
       <div class="row">
         <div class="col">
           <ul>
-            <li>AI 读客户来信，提取产品、数量、交期等关键信息</li>
-            <li>自动生成回复或报价单草稿，业务员审核后一键发出</li>
-            <li>同样思路也能用在企业微信、邮箱的客户消息上</li>
+            <li>AI 先读客户来信，<b>把产品、数量、交期、特殊要求挑出来</b>
+              <span class="note">业务员不用一字一句啃长邮件，关键信息一目了然，也不容易漏掉客户埋在末尾的条件</span>
+            </li>
+            <li>再自动生成回复或报价单草稿，<b>业务员审核后一键发出</b>
+              <span class="note">注意是"草稿+人审"——这就是前面说的人在回路，AI 提速，但拍板的还是人</span>
+            </li>
+            <li>同一套思路，企业微信、邮箱的客户消息都能用
+              <span class="note">不挑渠道，哪儿有客户文字往来，哪儿就能套</span>
+            </li>
           </ul>
-          <div class="sub">价值：把"读信 → 理解 → 打草稿"从几十分钟压缩到几分钟</div>
           <div class="question"><b>想请教您：</b>现在团队处理一封客户询盘，大概要经过哪几道手、花多久？哪个环节最容易卡？</div>
         </div>
         <div class="col chart">
@@ -281,63 +583,94 @@
       </div>
     </section>
 
-    <section class="slide">
+    <section class="slide dense">
       <div class="eyebrow">Demo 2 / 对外沟通</div>
       <h2>多语言报价单 / 技术资料互译</h2>
+      <p class="lead">如果有外贸或海外客户，<span class="hl">语言往往卡在少数几个人身上</span>——他们一忙，整个对外沟通就堵住了。AI 在这块特别成熟好用。</p>
       <ul>
-        <li>中英对照的报价单、技术规格书自动翻译，术语保持统一</li>
-        <li>保证对海外客户沟通的专业度和一致性</li>
-        <li>减少对个别懂外语的业务员/外贸专员的依赖</li>
+        <li>报价单、技术规格书<b>中英对照自动翻译，专业术语保持统一</b>
+          <span class="note">同一个零件名、同一个参数，每次翻译都用一致的说法，不会这次叫这个、下次叫那个，显得不专业</span>
+        </li>
+        <li>保证对海外客户沟通的<b>专业度和一致性</b>
+          <span class="note">翻译腔、口语化、用词不当这些小毛病，最容易让海外客户怀疑供应商不靠谱——AI 能稳定守住这个下限</span>
+        </li>
+        <li><b>减少对"个别懂外语的人"的依赖</b>
+          <span class="note">让普通业务员也能直接对接海外客户，不用什么都排队等那一两个外贸专员</span>
+        </li>
       </ul>
-      <div class="sub">价值：让更多业务员能直接对接海外客户，不卡在语言这一环</div>
       <div class="question"><b>想请教您：</b>海外客户的报价单、技术资料，现在主要靠谁来翻译？有没有因为翻译/沟通不到位耽误过事？</div>
     </section>
 
-    <section class="slide">
+    <section class="slide dense">
       <div class="eyebrow">Demo 3 / 对内协同</div>
       <h2>群聊 / 会议记录，自动整理成结构化纪要</h2>
+      <p class="lead">很多扯皮不是因为谁不负责，而是<span class="hl">"当时说了，但没记下来、传着传着就变样了"</span>。AI 擅长把一堆零散对话整理成清清楚楚的清单。</p>
       <ul>
-        <li>把零散的微信群聊、电话会议转成"待办 + 决策 + 负责人"清单</li>
-        <li>业务 → 工程 → 生产之间交接的信息，不再靠口口相传</li>
-        <li>自动归档进对应的客户/项目档案，方便回溯</li>
+        <li>把微信群聊、电话会议<b>转成"待办 + 决策 + 谁负责"的清单</b>
+          <span class="note">几百条聊天记录，AI 几秒钟提炼出"定了什么、谁来做、什么时候"，不用专门派人记会议纪要</span>
+        </li>
+        <li>业务 → 工程 → 生产之间的交接，<b>不再只靠口口相传</b>
+          <span class="note">这正是制造业最容易丢信息的地方：客户的特殊要求从业务传到车间，中间少一句，可能就是一批货返工</span>
+        </li>
+        <li>自动归档进对应的客户 / 项目档案，<b>事后能回溯</b>
+          <span class="note">出了问题能查"当初到底是怎么说的"，分清责任，也方便复盘</span>
+        </li>
       </ul>
-      <div class="sub">价值：减少"开会没记住、传话变样"带来的隐性损耗</div>
       <div class="question"><b>想请教您：</b>业务、工程、生产之间交接信息，您觉得哪个环节最容易出岔子，最近一次是什么情况？</div>
     </section>
 
-    <section class="slide">
+    <section class="slide dense">
       <div class="eyebrow">Demo 4 / 内部知识库</div>
       <h2>把老师傅的经验，沉淀成 AI 可查的问答库</h2>
+      <p class="lead">这一条直接呼应前面讲的<span class="hl">"隐性知识"</span>——AI 替代不了老师傅，但能帮您<span class="hl">把他脑子里的经验留下来</span>，让别人随时查得到。</p>
       <ul>
-        <li>历史客户问题、常见技术答疑整理成知识库</li>
-        <li>新人或业务员遇到问题先问 AI，减少反复打断老员工</li>
-        <li>经验不会因为人员流动而跟着流失</li>
+        <li>把历史客户问题、常见技术答疑<b>整理成一个可查的知识库</b>
+          <span class="note">这是把"只在某个人脑子里"的东西，变成"全公司能用"的资产——前面说的边界，正是从这里突破</span>
+        </li>
+        <li>新人、业务员遇到问题<b>先问 AI，少打断老员工</b>
+          <span class="note">老师傅不用一天到晚被同样的问题反复打断，能腾出手干真正要紧的活儿</span>
+        </li>
+        <li>经验<b>不会因为人一走就跟着流失</b>
+          <span class="note">老员工离职、退休，最值钱的经验沉在库里还在，新人上手也快得多</span>
+        </li>
       </ul>
-      <div class="sub">价值：降低培训成本，把"人的经验"变成"公司的资产"</div>
       <div class="question"><b>想请教您：</b>新人现在是怎么学这些经验的？有没有遇到过老员工离职、经验也跟着带走的情况？</div>
     </section>
 
-    <section class="slide">
-      <div class="eyebrow">Demo 5 / 我的研究方向</div>
-      <h2>我平时怎么用 AI 做自动化结构化分析</h2>
+    <section class="slide dense">
+      <div class="eyebrow">Demo 5 / 我自己的研究方向</div>
+      <h2>说回我自己在做的：让 AI 自动产出结构化报告</h2>
+      <p class="lead">前面四个是通用场景，这个是<span class="hl">我本人正在研究的东西</span>，给您看看研究员手里的 AI 长什么样——其实底层方法和您的场景是相通的。</p>
       <ul>
-        <li>举例：用 AI agent 自动生成结构化报告（比如我自己做的投资组合分析项目）</li>
-        <li>核心方法是一致的：把非结构化信息（邮件/群聊/会议）→ 自动转成结构化信息（数据/任务/报告）</li>
-        <li>这套方法可以迁移到企业沟通场景，不局限于某个行业</li>
+        <li>举例：我用 AI agent <b>自动生成结构化分析报告</b>（比如我自己做的投资组合分析项目）
+          <span class="note">给定一堆原始数据和目标，AI 自己拆解、分析、出图、写结论——这就是前面"Agent 自主执行"的实际样子</span>
+        </li>
+        <li>核心套路其实只有一句：<b>把"乱的"变成"齐的"</b>
+          <span class="note">非结构化信息（邮件、群聊、会议、原始数据）→ 自动转成结构化结果（清单、表格、报告）。前面四个 demo 全是这一招的不同应用</span>
+        </li>
+        <li>这套方法<b>不挑行业</b>，能迁移到您这边的沟通和管理场景
+          <span class="note">所以哪怕今天的例子来自金融，背后的方法对模切企业一样成立</span>
+        </li>
       </ul>
-      <div class="sub">这是我作为研究员目前在探索的方向，分享给您做参考</div>
-      <div class="question"><b>想请教您：</b>在您看来，公司里哪个环节最耗人力、但一直没找到明显的改善办法？</div>
+      <div class="question"><b>想请教您：</b>在您看来，公司里哪个环节最耗人力、但一直没找到明显改善办法？</div>
     </section>
 
-    <section class="slide">
+    <section class="slide dense">
       <div class="eyebrow">小结</div>
-      <h2>这些是"可以这样用"，不是建议立刻去做</h2>
-      <div class="pillgrid">
-        <div class="pill">沟通类场景成本低、见效快</div>
-        <div class="pill">AI 先起草，人决策把关</div>
-        <div class="pill">可以先挑一个小场景试点</div>
-      </div>
-      <div class="sub">是否深入，取决于实际效果和贵司具体情况</div>
+      <h2>今天就三句话，剩下想听您的</h2>
+      <p class="lead">如果今天只记三点，我希望是这三句——<span class="hl">都不是让您马上做什么，而是帮您判断的底层逻辑</span>。</p>
+      <ul>
+        <li><b>AI 会出错，关键不是"能不能用"，是"怎么管住它出错"</b>
+          <span class="note">人在回路、从低风险环节入手、留痕可查——守住这三条就敢用</span>
+        </li>
+        <li><b>它有明确边界：固定流程交给它，灵活判断和核心经验留给人</b>
+          <span class="note">谁说 AI 无所不能，要么不懂要么忽悠；您的隐性知识才是护城河</span>
+        </li>
+        <li><b>方向确定，趁早理解比押上更重要——先小步试，打好数据和流程的底</b>
+          <span class="note">云端还是本地，看您哪类数据最不能外流</span>
+        </li>
+      </ul>
+      <div class="callout">具体要不要做、先做哪一块，<b>还得看您的判断和公司的实际情况</b>。今天我更想听您怎么想。</div>
     </section>
 
     <section class="slide">
