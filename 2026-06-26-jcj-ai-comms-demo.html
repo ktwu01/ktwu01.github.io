@@ -225,6 +225,58 @@
     .question b {
       color: var(--accent);
     }
+
+    .flow {
+      display: flex;
+      align-items: stretch;
+      gap: 0.6rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .flow-step {
+      flex: 1;
+      min-width: 160px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.2rem 1.1rem;
+      position: relative;
+    }
+
+    .flow-step .stage {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .flow-step .name {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .flow-step .desc {
+      font-size: 0.98rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .flow-step.now {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+    }
+
+    .flow-step.now .name {
+      color: var(--accent);
+    }
+
+    .flow-arrow {
+      align-self: center;
+      color: var(--muted);
+      font-size: 1.6rem;
+      flex: 0 0 auto;
+    }
   </style>
 </head>
 
@@ -284,6 +336,48 @@
         <li><b>留痕可追溯</b>：AI 给结论时附上依据，方便事后查"它是怎么得出这个判断的"</li>
       </ul>
       <div class="sub">本质是把 AI 当成一个"经验不稳定的新人"来管，而不是当成黑箱权威</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">AI 的发展轨迹</div>
+      <h2>从"对话框"，到"会自己干活的 Agent"</h2>
+      <div class="flow">
+        <div class="flow-step">
+          <div class="stage">最早</div>
+          <div class="name">对话框</div>
+          <div class="desc">你问一句，它答一句。只会聊天，干不了实事</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="stage">后来</div>
+          <div class="name">会用工具</div>
+          <div class="desc">能查资料、读文件、调用软件，不只是"嘴上说"</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step now">
+          <div class="stage">现在</div>
+          <div class="name">Agent 自主执行</div>
+          <div class="desc">给一个目标，它自己拆步骤、自己动手、自己检查，能连续完成一整套任务</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="stage">趋势</div>
+          <div class="name">越来越智能</div>
+          <div class="desc">能处理的任务越来越复杂、越来越长，需要人盯的地方越来越少</div>
+        </div>
+      </div>
+      <div class="sub">方向是确定的：从"帮你说"走向"帮你做"，会一年比一年强</div>
+    </section>
+
+    <section class="slide">
+      <div class="eyebrow">这意味着什么</div>
+      <h2>方向确定，但落地要趁早、也要踩稳</h2>
+      <ul>
+        <li>AI 会越来越强，这是大趋势——但<b>"越来越强"不等于"现在什么都能交给它"</b></li>
+        <li>正因为它在快速进步，今天先从小场景试起，团队才能跟着一起长经验</li>
+        <li>等它真正成熟了再开始，反而会发现自己公司的数据、流程都没准备好</li>
+      </ul>
+      <div class="sub">不是劝您马上上，而是说：早点理解它，比晚一步更主动</div>
     </section>
 
     <section class="slide">
