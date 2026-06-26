@@ -198,6 +198,36 @@
       color: var(--muted);
     }
 
+    .story-grid {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      margin-top: 1rem;
+    }
+
+    .story-grid ul {
+      flex: 1.3;
+    }
+
+    .story-img-wrap {
+      flex: 1;
+      max-width: 38%;
+    }
+
+    .story-img-wrap img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      display: block;
+    }
+
+    .story-img-wrap .cap {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+      line-height: 1.4;
+    }
+
     .pillgrid {
       display: flex;
       flex-wrap: wrap;
@@ -513,6 +543,33 @@
         </li>
       </ul>
       <div class="callout">所以我的态度不是"劝您马上大干"，而是：<b>早点真正理解它，比晚一步被动跟风更主动。</b>先小步试、把基础打好，等技术成熟时您是有准备的那个。</div>
+    </section>
+
+    <section class="slide dense">
+      <div class="eyebrow">一个历史故事</div>
+      <h2>电网早就普及了，工厂的生产率却多等了 40 年</h2>
+      <p class="lead">经济史学家保罗·戴维（Paul David）写过一篇很有名的文章，研究一个让所有人困惑的现象：<span class="hl">电力技术 19 世纪末就成熟了，但美国工厂的生产率，要等到 20 世纪 20 年代才真正爆发</span>。中间这 40 年，电去哪了？答案藏在工厂的结构里。</p>
+      <div class="story-grid">
+        <ul>
+          <li>蒸汽时代的工厂，靠一根贯穿全厂的<b>中央传动轴</b>，用皮带和齿轮把动力分给每台机器
+            <span class="note">机器必须挤在传动轴周围——离得越远，皮带越长，动力损耗越大。工厂的形状不是为了生产，而是为了迁就那根轴</span>
+          </li>
+          <li>电来了，工厂主第一反应是<b>把中央蒸汽机直接换成中央电动机</b>，传动轴和车间布局一寸没改
+            <span class="note">生产率纹丝不动——真正卡住工厂的从来不是动力从哪来，是那根轴决定的整套结构。换了能源，没换结构，红利无从谈起</span>
+          </li>
+          <li>后来工程师把一台大电机拆成几台中型电机，<b>分车间驱动</b>，布局松动了些，但底层逻辑没变
+            <span class="note">这一步对应今天很多公司的"部门级 AI"：客服部搭智能客服，法务部接合同审查，各自为政、数据不通——好于第一步，但远没到位</span>
+          </li>
+          <li>真正的革命发生在<b>"单元驱动"</b>普及之后——每台机器装上自己的小电机，传动轴和皮带被彻底扔掉
+            <span class="note">机器不必再围着动力源转，可以按生产流程的顺序排列——流水线由此才成为可能。生产率，就在这一刻井喷</span>
+          </li>
+        </ul>
+        <div class="story-img-wrap">
+          <img src="https://picx.zhimg.com/50/v2-936b38c135fa3d7930303c7be1fd99d4_720w.jpg?source=2c26e567" alt="蒸汽时代工厂里贯穿车间的中央传动轴与皮带系统" />
+          <div class="cap">蒸汽时代工厂：机器围着中央传动轴布置，离轴越远动力损耗越大</div>
+        </div>
+      </div>
+      <div class="callout">这一幕熟悉吗？<b>把 AI 当成一个更快的打字员，塞进原有岗位，流程一寸没改，然后奇怪为什么没有回报</b>——这和当年把蒸汽机换成电动机、却不改车间布局，是同一个错误。真正的红利，往往要等到流程本身被重新设计之后才会出现。</div>
     </section>
 
     <section class="slide dense">
