@@ -10,7 +10,7 @@ tags:
 
 I've been playing with mixed-language builds (Fortran calling into C++ and C via
 `iso_c_binding`) and wanted a demo that was more interesting than "add two numbers
-across languages." So I built [Fortran-Playground](https://github.com/ktwu01/Fortran-Playground):
+across languages." So I built [fortran-zip-bomb](https://github.com/ktwu01/fortran-zip-bomb):
 a small program that generates a genuine **ZIP bomb** — a small archive that expands
 into a much larger file on decompression.
 
@@ -54,4 +54,4 @@ you should only extract it in a disposable VM/container with 10GB+ free disk**:
 
 Source, build instructions (gfortran + g++ + gcc + zlib), and the full write-up of how
 the Fortran ↔ C++ ↔ C interop is wired together are in the
-[GitHub repo](https://github.com/ktwu01/Fortran-Playground).
+[GitHub repo](https://github.com/ktwu01/fortran-zip-bomb).
