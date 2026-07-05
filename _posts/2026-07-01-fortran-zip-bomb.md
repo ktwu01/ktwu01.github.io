@@ -8,11 +8,9 @@ tags:
   - systems-programming
 ---
 
-I've been playing with mixed-language builds (Fortran calling into C++ and C via
-`iso_c_binding`) and wanted a demo that was more interesting than "add two numbers
-across languages." So I built [fortran-zip-bomb](https://github.com/ktwu01/fortran-zip-bomb):
-a small program that generates a genuine **ZIP bomb** — a small archive that expands
-into a much larger file on decompression.
+I've been playing with mixed-language builds (Fortran calling into C++ and C via `iso_c_binding`) and wanted a demo that was more interesting than "add two numbers across languages." So I built [fortran-zip-bomb](https://github.com/ktwu01/fortran-zip-bomb): a small program that generates a genuine **ZIP bomb** — a small archive that expands into a much larger file on decompression.
+
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## What a ZIP bomb actually is
 
