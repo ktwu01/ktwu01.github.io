@@ -1,7 +1,9 @@
 ---
 title: "Noah-Agent: Multi-Expert AI Agent Framework for Fortran Climate Models"
-excerpt: "A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models<br/><img src='/images/500x300.png'>"
+excerpt: "A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models."
 collection: portfolio
+header:
+  teaser: /images/portfolio/covers/noah-agent.svg
 ---
 
 Noah-Agent is a multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models.

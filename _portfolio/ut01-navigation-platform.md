@@ -1,7 +1,9 @@
 ---
 title: "UT01 Navigation Platform"
-excerpt: "Unified resource platform for UT Austin campus services with 10,700+ visits and cross-device optimization<br/><img src='/images/ut01-500x300.png'>"
+excerpt: "Unified resource platform for UT Austin campus services — 10,700+ visits, with cross-device optimization."
 collection: portfolio
+header:
+  teaser: /images/portfolio/covers/ut01-navigation.svg
 ---
 
 A comprehensive unified resource platform for UT Austin's fragmented campus services, designed based on extensive user research and achieving significant user engagement.

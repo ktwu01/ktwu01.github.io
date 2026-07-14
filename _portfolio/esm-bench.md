@@ -1,7 +1,9 @@
 ---
 title: "ESM-bench: Benchmarking AI Agents on Earth System Model Physics and Code"
-excerpt: "A 243-task benchmark evaluating whether AI agents understand Earth System Model physics and code, with multi-model evaluation and leakage detection<br/><img src='/images/500x300.png'>"
+excerpt: "A 243-task benchmark testing whether AI agents understand Earth System Model physics and code, with multi-model evaluation and leakage detection."
 collection: portfolio
+header:
+  teaser: /images/portfolio/covers/esm-bench.svg
 ---
 
 ESM-bench is a benchmark that tests whether AI agents understand the physics and code of Earth System Models, rather than producing plausible output without grounding.

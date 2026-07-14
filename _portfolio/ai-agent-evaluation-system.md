@@ -1,7 +1,9 @@
 ---
 title: "AI Agent Knowledge Base Evaluation System"
-excerpt: "Multi-dimensional AI agent evaluation system with data anonymization and LLM-as-a-judge architecture<br/><img src='/images/ai-evaluation-500x300.png'>"
+excerpt: "Multi-dimensional AI agent evaluation system with data anonymization and an LLM-as-a-judge architecture."
 collection: portfolio
+header:
+  teaser: /images/portfolio/covers/ai-agent-evaluation.svg
 ---
 
 An advanced AI agent evaluation system developed for PineAI, featuring multi-dimensional assessment capabilities, data anonymization, and automated knowledge extraction.
