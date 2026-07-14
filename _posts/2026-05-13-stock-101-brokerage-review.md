@@ -102,11 +102,11 @@ As for Chase self-directed investment, which my junior colleague also asked abou
 
 No. Not reliably. This is exactly the kind of sentence that sounds smart until you ask where the risk went.
 
-Imagine you have 30,000 USD. You keep 20,000 USD in a 4% savings account, so the expected annual interest is about 800 USD before tax. That is roughly 66 USD per month. Boring, but understandable.
+Imagine you have 30,000 USD. If you put all of it in a 4% savings account, the expected annual interest is about 1,200 USD before tax. That is roughly 100 USD per month. Boring, but understandable.
 
 Now imagine you put 30,000 USD in a brokerage. You buy 20,000 USD of stocks, keep 10,000 USD in cash or Treasury bills earning around 4%, and sell 300 USD of stock every month. On paper, it feels like you receive 300 USD from selling stock plus some interest, so it "beats" savings.
 
-But the 300 USD is not income by itself. It is partly your own principal coming back. If the stock goes from 20,000 USD to 18,000 USD, you can still sell 300 USD that month, but your portfolio is smaller. If it goes to 15,000 USD during a bad year, selling 300 USD every month forces you to sell more shares at bad prices. You are not creating guaranteed income. You are converting a risky asset into cash over time.
+But the 300 USD is not income by itself. Selling 300 USD of stock is not the same as earning 300 USD: if the price has not moved, you have only shifted 300 USD from the "stocks" column to the "cash" column, and your total is unchanged. It is partly your own principal coming back. If the stock goes from 20,000 USD to 18,000 USD, you can still sell 300 USD that month, but your portfolio is smaller. If it goes to 15,000 USD during a bad year, selling 300 USD every month forces you to sell more shares at bad prices. You are not creating guaranteed income. You are converting a risky asset into cash over time.
 
 **Why does savings have that interest rate in the first place?**
 
