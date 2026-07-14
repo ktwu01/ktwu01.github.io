@@ -11,11 +11,10 @@ tags:
   - strategy
 ---
 
+The opportunity is not the news itself. The opportunity is the friction created by the news.
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 # From News Signals to GitHub Repos: Turning Trends into Open-Source Influence and Business Opportunities
-
-The opportunity is not the news itself. The opportunity is the friction created by the news.
 
 When a platform blocks accounts, an API price changes, a model launches, a policy shifts, a tool goes viral, or a service goes down, most people see an event. Builders see a broken workflow. They look for the new judgment cost, migration cost, comparison cost, and compliance cost. A high-impact repo often does not start from a grand startup plan. It starts from one concrete question: **who now has to make a decision because of this event, and can that decision be compressed into a script, checklist, benchmark, dashboard, dataset, template, or guide?**
 
