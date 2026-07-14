@@ -1,7 +1,9 @@
 ---
 title: "AI Text Processing System"
-excerpt: "Full-stack LLM text processing system with polishing, AI detection, and plagiarism reduction features<br/><img src='/images/ai-polish-500x300.png'>"
+excerpt: "Full-stack LLM text processing system with polishing, AI detection, and plagiarism-reduction features."
 collection: portfolio
+header:
+  teaser: /images/portfolio/covers/ai-text-processing.svg
 ---
 
 A comprehensive LLM text processing system integrating text polishing, AI detection, and plagiarism reduction features, developed during my internship at Beijing ZaiwenAI Technology Co., Ltd.

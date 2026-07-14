@@ -1,7 +1,9 @@
 ---
 title: "Meteor Velocity Variations Research"
-excerpt: "Advanced signal processing and data analysis of meteor radar observations with novel Double-Gaussian fitting algorithm<br/><img src='/images/meteor-research-500x300.png'>"
+excerpt: "Advanced signal processing and data analysis of meteor-radar observations, with a novel double-Gaussian fitting algorithm."
 collection: portfolio
+header:
+  teaser: /images/portfolio/meteor-velocity-maps.jpg
 ---
 
 A comprehensive research project investigating diurnal and seasonal variations of meteor velocity at middle latitude, combining advanced signal processing techniques with novel algorithmic approaches to analyze atmospheric phenomena.

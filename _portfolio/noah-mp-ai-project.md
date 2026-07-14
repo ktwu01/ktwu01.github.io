@@ -1,7 +1,9 @@
 ---
 title: "Explainable AI for Noah-MP Land Surface Modeling"
-excerpt: "NCAR-funded project implementing AI to improve physics-based land surface models for plant-rock-water interactions<br/><img src='/images/noah-mp-500x300.png'>"
+excerpt: "NSF NCAR-funded project applying explainable AI to improve physics-based land-surface modeling of plant–rock–water interactions."
 collection: portfolio
+header:
+  teaser: /images/portfolio/covers/noah-mp.svg
 ---
 
 A major research project funded by NSF NCAR, focusing on implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling of plant-rock-water interactions.

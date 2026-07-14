@@ -7,67 +7,192 @@ author_profile: true
 
 {% include base_path %}
 
-<h3>Core Technical Stack Overview</h3>
+<p class="pf-intro">
+  A visual portfolio of my work in <strong>space physics &amp; atmospheric science</strong> and
+  <strong>AI/ML engineering</strong> — research figures, benchmarks, and shipped systems.
+  For the full technical stack with code and repositories, see
+  <a href="https://github.com/ktwu01/ktwu01">github.com/ktwu01/ktwu01</a>.
+</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Technology</th>
-      <th>Portfolio</th>
-      <th>Expertise</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Python</strong></td>
-      <td>Scientific Computing &amp; Data Analysis</td>
-      <td>Experienced</td>
-    </tr>
-    <tr>
-      <td><strong>MATLAB</strong></td>
-      <td>Signal Processing &amp; Meteorology</td>
-      <td>Advanced</td>
-    </tr>
-    <tr>
-      <td><strong>Fortran</strong></td>
-      <td>Physics-based Model Development</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td><strong>Web</strong></td>
-      <td>HTML/CSS/JS &amp; Visualization</td>
-      <td>Experienced</td>
-    </tr>
-    <tr>
-      <td><strong>Shell</strong></td>
-      <td>System Configuration &amp; Automation</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td><strong>Academic</strong></td>
-      <td>Research Resources &amp; Guides</td>
-      <td>Experienced</td>
-    </tr>
-  </tbody>
-</table>
+<!-- ============================ RESEARCH HIGHLIGHTS ============================ -->
+<section class="pf-section" aria-labelledby="pf-research-h">
+  <h2 id="pf-research-h" class="pf-section__title">Research Highlights</h2>
+  <p class="pf-section__lead">Peer-reviewed and submitted work in the mesosphere–lower thermosphere, observed with meteor radars.</p>
 
-<h3>Application Domains</h3>
+  <!-- Entry 1 -->
+  <article class="pf-entry">
+    <header class="pf-entry__head">
+      <span class="pf-num">1</span>
+      <div class="pf-entry__meta">
+        <h3 class="pf-entry__title">Diurnal and Seasonal Variations of Meteor Velocity Observed at Middle Latitude by the Mengcheng Meteor Radar</h3>
+        <p class="pf-entry__venue">Wu et&nbsp;al. &middot; Submitted to <i>JGR: Space Physics</i> &middot; Oral, 20th National Symposium on Solar-Terrestrial Space Physics</p>
+      </div>
+    </header>
+    <p class="pf-key"><span class="pf-key__label">Key Points</span></p>
+    <ul class="pf-points">
+      <li>The azimuth of maximum meteor velocity rotates clockwise, from north (local morning) to south (local evening).</li>
+      <li>The velocity distribution has two Gaussian peaks at ~28&nbsp;km/s and ~54&nbsp;km/s, revealing bi-annual and annual variations respectively.</li>
+      <li>Major meteor showers produce 45–97% higher counts than the background, driving the velocity peaks upward.</li>
+    </ul>
+    <div class="pf-figrow">
+      <figure class="pf-fig">
+        <img src="{{ base_path }}/images/portfolio/meteor-geometry.jpg" loading="lazy" alt="Schematic of the Mengcheng Meteor Radar (MCMR) viewing geometry across the Earth's orbit and rotation.">
+        <figcaption><b>Fig.&nbsp;3.</b> Viewing geometry of MCMR: its position through Earth's orbit and rotation, and how local time changes the observed meteor velocity and angle of arrival.</figcaption>
+      </figure>
+      <figure class="pf-fig">
+        <img src="{{ base_path }}/images/portfolio/meteor-velocity-maps.jpg" loading="lazy" alt="Distribution maps of meteor velocities by horizontal distance and azimuth, sorted into eight local-time intervals.">
+        <figcaption><b>Fig.&nbsp;7.</b> Meteor-velocity distribution maps by distance and azimuth, over eight local-time intervals; each point colored by velocity, with matching histograms below.</figcaption>
+      </figure>
+    </div>
+    <figure class="pf-fig">
+      <img src="{{ base_path }}/images/portfolio/meteor-9year.jpg" loading="lazy" alt="Nine-year time series of daily meteor-velocity distributions with lower and higher velocity peaks.">
+      <figcaption><b>Fig.&nbsp;9.</b> Nine years (2014–2023) of daily meteor-velocity distributions. Red and black mark the lower (μ₁) and higher (μ₂) peaks; the color bar is normalized number density. Panel (b) is the seasonal composite.</figcaption>
+    </figure>
+  </article>
 
-<ul>
-  <li><strong>Earth Science Modeling</strong>: Python + HPC + MATLAB</li>
-  <li><strong>Data Science</strong>: Python + Visualization</li>
-  <li><strong>Academic Resources</strong>: Application Guides + Resource Curation</li>
-  <li><strong>AI/ML Development</strong>: LLM APIs + FastAPI + Redis/Celery</li>
-</ul>
+  <!-- Entry 2 -->
+  <article class="pf-entry">
+    <header class="pf-entry__head">
+      <span class="pf-num">2</span>
+      <div class="pf-entry__meta">
+        <h3 class="pf-entry__title">Climatology of the Global Mesospheric Diurnal Tides Observed by Meteor Radars</h3>
+        <p class="pf-entry__venue">Yi et&nbsp;al. (incl. Wu,&nbsp;K.) &middot; Submitted to <i>Geophysical Research Letters</i></p>
+      </div>
+    </header>
+    <p class="pf-key"><span class="pf-key__label">Key Points</span></p>
+    <ul class="pf-points">
+      <li>The global diurnal tide climatology is resolved with fifteen meteor radars across the MLT region.</li>
+      <li>Diurnal tides are strong at low and mid-latitudes (10–50°N/S), and weak near the equator, higher-mid and polar latitudes.</li>
+      <li>The height of maximum tidal amplitude tracks the solar zenith angle at northern low and mid-latitudes.</li>
+    </ul>
+    <figure class="pf-fig">
+      <img src="{{ base_path }}/images/portfolio/global-meteor-radars.jpg" loading="lazy" alt="World map of the fifteen meteor radar stations and their working frequencies.">
+      <figcaption><b>Fig.&nbsp;1.</b> Locations and working frequencies of the fifteen meteor radars used in the global tidal climatology.</figcaption>
+    </figure>
+  </article>
 
-<p><strong>For my complete technical stack portfolio with detailed documentation, code examples, and project repositories, please visit:</strong><br>
-<strong><a href="https://github.com/ktwu01/ktwu01">https://github.com/ktwu01/ktwu01</a></strong></p>
+  <!-- Entry 3 -->
+  <article class="pf-entry">
+    <header class="pf-entry__head">
+      <span class="pf-num">3</span>
+      <div class="pf-entry__meta">
+        <h3 class="pf-entry__title">A Summary Report on Space Physics Practical Education</h3>
+        <p class="pf-entry__venue">Wu et&nbsp;al. &middot; Published in <i>Reviews of Geophysics and Planetary Physics</i></p>
+      </div>
+    </header>
+    <p class="pf-key"><span class="pf-key__label">Keywords</span></p>
+    <p class="pf-points pf-points--inline">Practical education &middot; Space Physics &middot; Chinese Meridian Project</p>
+    <figure class="pf-fig">
+      <img src="{{ base_path }}/images/portfolio/solar-disks-sdo.jpg" loading="lazy" alt="Solar disk images in six extreme-ultraviolet bands observed by the SDO satellite.">
+      <figcaption><b>Fig.&nbsp;3.</b> Solar disks in six EUV bands (94, 335, 193, 304, 131, 171&nbsp;Å) observed by the SDO satellite around 2022-02-01.</figcaption>
+    </figure>
+  </article>
 
-<hr>
+  <!-- Entry 4 -->
+  <article class="pf-entry">
+    <header class="pf-entry__head">
+      <span class="pf-num">4</span>
+      <div class="pf-entry__meta">
+        <h3 class="pf-entry__title">Perturbations from the 2022 Hunga-Tonga Eruption in the Mesosphere–Lower Thermosphere</h3>
+        <p class="pf-entry__venue">Wu et&nbsp;al. &middot; WACCM-X simulation &amp; meteor-radar observations &middot; Oral, 4th CGS Workshop &middot; Poster, AGU&nbsp;2023</p>
+      </div>
+    </header>
+    <p class="pf-key"><span class="pf-key__label">Key Points</span></p>
+    <ul class="pf-points">
+      <li>Wave perturbations from the eruption are tracked across four radar stations by projecting winds toward the great-circle direction from the epicenter.</li>
+      <li>Meteor-radar observations are compared directly against WACCM-X simulations in profile, amplitude, and wavelet space.</li>
+    </ul>
+    <figure class="pf-fig">
+      <img src="{{ base_path }}/images/portfolio/tonga-wavelet.jpg" loading="lazy" alt="Comparison of meteor radar and WACCM-X wind perturbations across four stations in profile, amplitude, and wavelet magnitude and phase.">
+      <figcaption><b>Fig.&nbsp;1.</b> One-hour high-pass filtered wind perturbations (Wp) at four stations — meteor radar vs. WACCM-X — across altitude profile, altitude-averaged amplitude, and wavelet magnitude &amp; phase.</figcaption>
+    </figure>
+  </article>
+</section>
 
-<h2>Featured Projects</h2>
+<!-- ============================ SELECTED PROJECTS ============================ -->
+<section class="pf-section" aria-labelledby="pf-projects-h">
+  <h2 id="pf-projects-h" class="pf-section__title">Selected Projects</h2>
+  <p class="pf-section__lead">AI/ML systems, benchmarks, and platforms — from research tooling to shipped products.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  <div class="pf-grid">
+    {% assign projects = site.portfolio | sort: 'title' %}
+    {% for post in projects %}
+      {% assign teaser = post.header.teaser | default: '/images/portfolio/covers/default.svg' %}
+      <a class="pf-card" href="{{ base_path }}{{ post.url }}">
+        <span class="pf-card__media">
+          <img src="{{ base_path }}{{ teaser }}" loading="lazy" alt="{{ post.title | escape }}">
+        </span>
+        <span class="pf-card__body">
+          <span class="pf-card__title">{{ post.title }}</span>
+          {% if post.excerpt %}
+            <span class="pf-card__excerpt">{{ post.excerpt | markdownify | strip_html | strip_newlines | truncate: 130 }}</span>
+          {% endif %}
+          <span class="pf-card__more">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
 
+<!-- ============================ BEYOND RESEARCH ============================ -->
+<section class="pf-section" aria-labelledby="pf-beyond-h">
+  <h2 id="pf-beyond-h" class="pf-section__title">Beyond Research</h2>
+  <p class="pf-section__lead">Invited talks, conference presentations — and life away from the desk.</p>
+
+  <div class="pf-photos">
+    <figure class="pf-photo">
+      <img src="{{ base_path }}/images/portfolio/talk-podium.jpg" loading="lazy" alt="Presenting at the Top-notch Innovative Talent Joint Training Symposium.">
+      <figcaption>Invited talk — Top-notch Innovative Talent Symposium, the only undergraduate among 40+ scholars.</figcaption>
+    </figure>
+    <figure class="pf-photo">
+      <img src="{{ base_path }}/images/portfolio/talk-cssr.jpg" loading="lazy" alt="Oral presentation on diurnal variations at the National Symposium on Solar-Terrestrial Space Physics.">
+      <figcaption>Oral — 20th National Symposium on Solar-Terrestrial Space Physics.</figcaption>
+    </figure>
+    <figure class="pf-photo">
+      <img src="{{ base_path }}/images/portfolio/talk-ncar.jpg" loading="lazy" alt="Presenting Hunga-Tonga results at the 4th CGS Workshop.">
+      <figcaption>Talk — 4th CGS (NASA DRIVE Center for Geospace Storms) Workshop.</figcaption>
+    </figure>
+    <figure class="pf-photo">
+      <img src="{{ base_path }}/images/portfolio/climbing.jpg" loading="lazy" alt="Rock climbing on an indoor wall.">
+      <figcaption>Off the clock — rock climbing.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================ TECHNICAL STACK ============================ -->
+<section class="pf-section" aria-labelledby="pf-stack-h">
+  <h2 id="pf-stack-h" class="pf-section__title">Technical Stack</h2>
+
+  <div class="pf-stack">
+    <div class="pf-stack__group">
+      <h3 class="pf-stack__label">Languages</h3>
+      <ul class="pf-chips">
+        <li class="pf-chip">Python <span>Experienced</span></li>
+        <li class="pf-chip">MATLAB <span>Advanced</span></li>
+        <li class="pf-chip">Fortran <span>Intermediate</span></li>
+        <li class="pf-chip">Shell <span>Intermediate</span></li>
+        <li class="pf-chip">HTML/CSS/JS <span>Experienced</span></li>
+      </ul>
+    </div>
+    <div class="pf-stack__group">
+      <h3 class="pf-stack__label">Domains</h3>
+      <ul class="pf-chips">
+        <li class="pf-chip pf-chip--plain">Earth-System Modeling</li>
+        <li class="pf-chip pf-chip--plain">Signal Processing</li>
+        <li class="pf-chip pf-chip--plain">Data Science &amp; Visualization</li>
+        <li class="pf-chip pf-chip--plain">LLM Apps &amp; Agents</li>
+        <li class="pf-chip pf-chip--plain">HPC</li>
+      </ul>
+    </div>
+    <div class="pf-stack__group">
+      <h3 class="pf-stack__label">Tooling</h3>
+      <ul class="pf-chips">
+        <li class="pf-chip pf-chip--plain">FastAPI</li>
+        <li class="pf-chip pf-chip--plain">Redis / Celery</li>
+        <li class="pf-chip pf-chip--plain">LLM APIs</li>
+        <li class="pf-chip pf-chip--plain">WACCM-X</li>
+        <li class="pf-chip pf-chip--plain">Jekyll</li>
+      </ul>
+    </div>
+  </div>
+</section>
