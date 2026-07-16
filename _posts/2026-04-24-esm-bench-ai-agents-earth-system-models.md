@@ -57,7 +57,7 @@ That feels like the right kind of benchmark result.
 
 Not a leaderboard where every model is already at 90 percent and we are arguing about decimal points. Not a toy task where the agent only has to write a small Python function. A real frontier should have failure in it. It should tell us where the models are still brittle.
 
-I also published a live leaderboard snapshot here, [ESM Leaderboard](/esm-leaderboard.html). The April 24, 2026 snapshot includes both repository localization and physics-aware patch synthesis results. One row I find especially revealing is the newer code-level hint run, where Claude Opus 4.7 reaches 0.312 structural F1 under the most assisted v4 Noah-MP setting, while exact match is still 0 percent.
+I also published a live leaderboard snapshot here, [ESM Leaderboard](https://koutian.is-a.dev/esm-leaderboard/). The April 24, 2026 snapshot includes both repository localization and physics-aware patch synthesis results. One row I find especially revealing is the newer code-level hint run, where Claude Opus 4.7 reaches 0.312 structural F1 under the most assisted v4 Noah-MP setting, while exact match is still 0 percent.
 
 That number is useful because it tells a more nuanced story than AI is bad at Earth system model code.
 

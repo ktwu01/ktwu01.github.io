@@ -12,11 +12,11 @@ tags:
 
 我提一个不太恰当、但确实抓住了开源协作某种结构的比喻：
 
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
 > 在 GitHub 到处提 issue 和 PR，非常像“捐精”，但不太像“捐卵”。
 
 这个比喻故意带有冒犯性。它不讨论性别，也不评价两种捐赠的价值。它描述的是一种关于**复制成本、贡献数量与筛选权**的不对称。
-
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 为什么这个比喻成立
 

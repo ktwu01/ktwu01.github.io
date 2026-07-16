@@ -14,7 +14,7 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-我把这次分享整理成了 [Claude Code Demo](https://ktwu01.github.io/2026-05-09-claude-code-demo.html)，核心是把我平时怎么用 Claude Code 写代码、组织知识、调用 skills、做浏览器 Computer Use 这些场景摊开给校友们看。
+我把这次分享整理成了 [Claude Code Demo](https://koutian.is-a.dev/claude-code-demo/)，核心是把我平时怎么用 Claude Code 写代码、组织知识、调用 skills、做浏览器 Computer Use 这些场景摊开给校友们看。
 
 比较有意思的是，它不是提前几天慢慢磨出来的。我当时是临时花了 15 分钟，在第一个嘉宾罗由之师兄分享 Claude Code 理论知识的同时，把后面要讲的场景和 demo 内容准备好了。
 
@@ -34,4 +34,4 @@ tags:
 
 坦率的讲，这次分享不是教程，也不是什么完整产品路演，就是把「我平时到底怎么用 Claude 把活儿干完」摊在桌面上。你如果也在多 IDE、多 CLI 之间切来切去找额度，先看看上面那篇 IDE 对比，再打开这个 demo，说不定能省掉几次「我跟别人解释我在干什么」的口水。
 
-Demo 链接在这里，[Claude Code Demo](https://ktwu01.github.io/2026-05-09-claude-code-demo.html)。
+Demo 链接在这里，[Claude Code Demo](https://koutian.is-a.dev/claude-code-demo/)。

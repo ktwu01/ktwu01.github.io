@@ -12,11 +12,11 @@ tags:
 
 Here is an inappropriate analogy that nevertheless captures something real about open-source work:
 
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 > Going around GitHub opening issues and pull requests is surprisingly like donating sperm—and not much like donating eggs.
 
 The analogy is deliberately provocative. It is not a claim about gender or the value of either form of donation. It describes an asymmetry in **replication cost, contribution volume, and selection**.
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Why the analogy works
 
