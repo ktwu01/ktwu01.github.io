@@ -1,7 +1,9 @@
 ---
 title: '在硅谷校友会聊 Claude Code，真正重要的是它怎么改变工作'
 date: 2026-05-10
-permalink: /posts/2026/05/claude-code-demo-deck/
+permalink: /zh/posts/2026/05/claude-code-demo-deck/
+redirect_from:
+  - /posts/2026/05/claude-code-demo-deck/
 tags:
   - Claude Code
   - Claude
