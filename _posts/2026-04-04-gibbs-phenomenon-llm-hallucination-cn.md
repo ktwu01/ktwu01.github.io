@@ -1,7 +1,9 @@
 ---
 title: "吉布斯现象：为什么大模型幻觉在数学上不可避免"
 date: 2026-04-04
-permalink: /posts/2026/04/04/gibbs-phenomenon-llm-hallucination-cn/
+permalink: /zh/posts/2026/04/gibbs-phenomenon-llm-hallucination/
+redirect_from:
+  - /posts/2026/04/04/gibbs-phenomenon-llm-hallucination-cn/
 tags:
   - ai
   - 数学

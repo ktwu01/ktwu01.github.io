@@ -1,7 +1,9 @@
 ---
 title: 'Benchmark 的价值、市场误判与提出问题的能力：一次和我滴好东北哥们儿（CMU）的原始对话'
 date: 2026-07-11
-permalink: /posts/2026/07/benchmark-value-market-and-scientific-question-setting-zh/
+permalink: /zh/posts/2026/07/benchmark-value-market-and-scientific-question-setting/
+redirect_from:
+  - /posts/2026/07/benchmark-value-market-and-scientific-question-setting-zh/
 tags:
   - AI
   - Benchmark
@@ -10,7 +12,6 @@ tags:
   - Science
   - Reflection
 ---
-
 Benchmark 到底是在做研究，还是在“众筹一篇论文”？它是在创造公共价值，还是在占用公共资源？它能不能形成长期能力，还是只适合创业团队向投资人展示潜力？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

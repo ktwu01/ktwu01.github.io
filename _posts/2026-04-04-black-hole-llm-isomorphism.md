@@ -1,7 +1,9 @@
 ---
 title: "Epistemological Interferometry: The Deep Isomorphism Between Black Hole Imaging and LLM Training"
 date: 2026-04-04
-permalink: /posts/2026/04/04/black-hole-llm-isomorphism/
+permalink: /posts/2026/04/black-hole-llm-isomorphism/
+redirect_from:
+  - /posts/2026/04/04/black-hole-llm-isomorphism/
 tags:
   - ai
   - llm

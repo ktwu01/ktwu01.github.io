@@ -1,7 +1,9 @@
 ---
 title: "High-Dimensional Manifolds and the Rationality of Next Token Prediction"
 date: 2026-04-04
-permalink: /posts/2026/04/04/manifold-next-token-prediction/
+permalink: /posts/2026/04/manifold-next-token-prediction/
+redirect_from:
+  - /posts/2026/04/04/manifold-next-token-prediction/
 tags:
   - ai
   - llm

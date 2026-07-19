@@ -56,11 +56,12 @@ def load_posts(posts_dir):
     for path in sorted(Path(posts_dir).glob("*.md")):
         content = path.read_text(encoding="utf-8")
         front_matter = FRONT_MATTER.match(content)
+        if not front_matter:
+            continue
         permalink = ""
-        if front_matter:
-            match = PERMALINK.search(front_matter.group(1))
-            if match:
-                permalink = match.group(2)
+        match = PERMALINK.search(front_matter.group(1))
+        if match:
+            permalink = match.group(2)
         posts.append(Post(path, permalink))
     return posts
 

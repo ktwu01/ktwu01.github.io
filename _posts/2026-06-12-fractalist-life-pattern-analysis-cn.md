@@ -1,12 +1,13 @@
 ---
 title: 'The Fractalist: 人生模式分析'
 date: 2026-06-12
-permalink: /posts/2026/06/fractalist-life-pattern-analysis-cn/
+permalink: /zh/posts/2026/06/fractalist-life-pattern-analysis/
+redirect_from:
+  - /posts/2026/06/fractalist-life-pattern-analysis-cn/
 tags:
   - reflection
   - life
 ---
-
 当我尝试用曼德博的分形几何去透视自己的人生轨迹时，我惊讶地发现，那些看似随机的碎片其实都在被同一个“生成元”悄然驱动着。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

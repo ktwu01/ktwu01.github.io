@@ -1,7 +1,9 @@
 ---
 title: "高维流形与Next Token Prediction的合理性"
 date: 2026-04-04
-permalink: /posts/2026/04/04/manifold-next-token-prediction-cn/
+permalink: /zh/posts/2026/04/manifold-next-token-prediction/
+redirect_from:
+  - /posts/2026/04/04/manifold-next-token-prediction-cn/
 tags:
   - ai
   - llm

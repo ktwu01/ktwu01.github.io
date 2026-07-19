@@ -1,7 +1,9 @@
 ---
 title: "时间之箭：时间戳如何赋予AI Agent灵魂"
 date: 2026-04-04
-permalink: /posts/2026/04/04/time-position-encoding-agent-state-cn/
+permalink: /zh/posts/2026/04/time-position-encoding-agent-state/
+redirect_from:
+  - /posts/2026/04/04/time-position-encoding-agent-state-cn/
 tags:
   - ai
   - agent

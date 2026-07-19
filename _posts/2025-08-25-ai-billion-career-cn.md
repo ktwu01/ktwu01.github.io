@@ -1,7 +1,9 @@
 ---
 title: 'AI Billion Career - 面向 AI 行业的职业规划平台'
 date: 2025-08-25
-permalink: /posts/2025/08/ai-billion-career-cn/
+permalink: /zh/posts/2025/08/ai-billion-career/
+redirect_from:
+  - /posts/2025/08/ai-billion-career-cn/
 tags:
   - ai
   - career

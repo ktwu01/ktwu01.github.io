@@ -1,7 +1,9 @@
 ---
 title: '每一代人，都有每一代人的 To-Do List'
 date: 2026-03-09
-permalink: /posts/2026/03/every-generation-has-its-own-todo-list-cn/
+permalink: /zh/posts/2026/03/every-generation-has-its-own-todo-list/
+redirect_from:
+  - /posts/2026/03/every-generation-has-its-own-todo-list-cn/
 tags:
   - ai
   - productivity

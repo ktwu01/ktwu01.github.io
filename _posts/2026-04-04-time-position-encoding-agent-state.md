@@ -1,7 +1,9 @@
 ---
 title: "The Arrow of Time: How Timestamps Give AI Agents a Soul"
 date: 2026-04-04
-permalink: /posts/2026/04/04/time-position-encoding-agent-state/
+permalink: /posts/2026/04/time-position-encoding-agent-state/
+redirect_from:
+  - /posts/2026/04/04/time-position-encoding-agent-state/
 tags:
   - ai
   - agent

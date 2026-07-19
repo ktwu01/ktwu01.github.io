@@ -1,7 +1,9 @@
 ---
 title: 'Vibe Coding IDEs: a brief comparison (EN)'
 date: 2025-12-19
-permalink: /posts/2025/12/vibe-coding-ides-brief-comparison-en/
+permalink: /posts/2025/12/vibe-coding-ides-brief-comparison/
+redirect_from:
+  - /posts/2025/12/vibe-coding-ides-brief-comparison-en/
 tags:
   - ide
   - ai

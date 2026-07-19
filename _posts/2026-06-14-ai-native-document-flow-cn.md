@@ -1,7 +1,9 @@
 ---
 title: '我为什么要把自己的信息流交给 AI Actions'
 date: 2026-06-14
-permalink: /posts/2026/06/ai-native-document-flow-cn/
+permalink: /zh/posts/2026/06/ai-native-document-flow/
+redirect_from:
+  - /posts/2026/06/ai-native-document-flow-cn/
 tags:
   - AI
   - automation
@@ -9,7 +11,6 @@ tags:
   - personal-ops
   - writing
 ---
-
 我今天真正想做的事情，其实是把自己从一座 mountains of 重复性的 work 里面捞出来。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

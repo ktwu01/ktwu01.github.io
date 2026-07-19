@@ -1,7 +1,9 @@
 ---
 title: 'komomood - 情侣心情追踪热力图'
 date: 2025-08-16
-permalink: /posts/2025/08/komomood-cn/
+permalink: /zh/posts/2025/08/komomood/
+redirect_from:
+  - /posts/2025/08/komomood-cn/
 tags:
   - web-app
   - mood-tracking

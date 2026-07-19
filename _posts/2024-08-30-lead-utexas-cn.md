@@ -1,7 +1,9 @@
 ---
 title: 'LEAD-UTexas - 德州大学奥斯汀分校陆地环境与大气动力学研究组'
 date: 2024-08-30
-permalink: /posts/2024/08/lead-utexas-cn/
+permalink: /zh/posts/2024/08/lead-utexas/
+redirect_from:
+  - /posts/2024/08/lead-utexas-cn/
 tags:
   - research
   - earth-science

@@ -1,7 +1,9 @@
 ---
 title: 'NASA FINESST 资源申请指南'
 date: 2024-10-20
-permalink: /posts/2024/10/nasa-finesst-guide-cn/
+permalink: /zh/posts/2024/10/nasa-finesst-guide/
+redirect_from:
+  - /posts/2024/10/nasa-finesst-guide-cn/
 tags:
   - nasa
   - graduate-research

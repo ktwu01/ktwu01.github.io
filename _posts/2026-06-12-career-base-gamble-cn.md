@@ -1,12 +1,13 @@
 ---
 title: '科研门槛一千万起：用“保底+赌博”框架看透职业选择'
 date: 2026-06-12
-permalink: /posts/2026/06/career-base-gamble-cn/
+permalink: /zh/posts/2026/06/career-base-gamble/
+redirect_from:
+  - /posts/2026/06/career-base-gamble-cn/
 tags:
   - reflection
   - career
 ---
-
 如果你的家庭资产在美国不足一百万美元、在中国不足一千万人民币，那么去搞科研就是一场赔率极低且缺乏托底的赌博。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

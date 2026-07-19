@@ -1,7 +1,9 @@
 ---
 title: '我在新加坡机场看到“亚洲最安全银行”：给10岁小朋友的银行安全课'
 date: 2026-07-19
-permalink: /posts/2026/07/dbs-asia-safest-bank-explained-zh/
+permalink: /zh/posts/2026/07/dbs-asia-safest-bank-explained/
+redirect_from:
+  - /posts/2026/07/dbs-asia-safest-bank-explained-zh/
 tags:
   - Finance
   - Banking
@@ -10,7 +12,6 @@ tags:
   - Risk
   - Explainer
 ---
-
 我在新加坡樟宜机场看到一块写着「亚洲最安全银行」的广告，脑子里第一个问题不是它有多厉害，而是，谁说的？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

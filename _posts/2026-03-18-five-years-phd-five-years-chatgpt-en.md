@@ -1,7 +1,9 @@
 ---
 title: 'A Fun Coincidence: The Time It Takes to Finish a PhD Is Exactly How Long It Took OpenAI to Change the World'
 date: 2026-03-18
-permalink: /posts/2026/03/five-years-phd-chatgpt-en/
+permalink: /posts/2026/03/five-years-phd-chatgpt/
+redirect_from:
+  - /posts/2026/03/five-years-phd-chatgpt-en/
 tags:
   - ai
   - openai

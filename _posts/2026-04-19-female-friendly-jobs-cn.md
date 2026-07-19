@@ -1,14 +1,14 @@
 ---
 title: '适合中国女性的「不看人脸色」工作：横纵分析'
 date: 2026-04-19
-permalink: /zh/posts/2026/04/female-friendly-jobs-cn/
+permalink: /zh/posts/2026/04/female-friendly-jobs-china/
+redirect_from:
+  - /zh/posts/2026/04/female-friendly-jobs-cn/
 tags:
   - career
   - workplace
   - analysis
 ---
-
-
 帮女朋友做职业规划的时候，我生成了这份报告。一边看一边觉得，挺魔幻的。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

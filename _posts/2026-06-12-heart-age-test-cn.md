@@ -1,12 +1,13 @@
 ---
 title: '测一测你的“心脏年龄”'
 date: 2026-06-12
-permalink: /posts/2026/06/heart-age-test-cn/
+permalink: /zh/posts/2026/06/heart-age-test/
+redirect_from:
+  - /posts/2026/06/heart-age-test-cn/
 tags:
   - health
   - life
 ---
-
 当一份看似普通的“心脏年龄”问卷让你算出自己的心脏比实际年龄还年轻时，你可能需要重新审视一下那些被你忽视的生活习惯了。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

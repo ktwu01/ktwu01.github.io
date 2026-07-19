@@ -1,7 +1,9 @@
 ---
 title: 'VerificationSuccess - 邮箱验证成功页面'
 date: 2025-08-29
-permalink: /posts/2025/08/verification-success-cn/
+permalink: /zh/posts/2025/08/verification-success/
+redirect_from:
+  - /posts/2025/08/verification-success-cn/
 tags:
   - web-design
   - html

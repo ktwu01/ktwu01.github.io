@@ -1,7 +1,9 @@
 ---
 title: '《2055》、脑内对话，以及那个依然温热的未来'
 date: 2026-03-10
-permalink: /posts/2026/03/2055-brain-to-brain-and-the-real-future-cn/
+permalink: /zh/posts/2026/03/2055-brain-to-brain-and-the-real-future/
+redirect_from:
+  - /posts/2026/03/2055-brain-to-brain-and-the-real-future-cn/
 tags:
   - science-fiction
   - ai

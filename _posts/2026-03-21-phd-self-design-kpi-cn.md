@@ -1,7 +1,9 @@
 ---
 title: 'PhD如何自我设计KPI：从“感觉努力”到“系统产出”'
 date: 2026-03-21
-permalink: /posts/2026/03/phd-self-design-kpi-cn/
+permalink: /zh/posts/2026/03/phd-self-design-kpi/
+redirect_from:
+  - /posts/2026/03/phd-self-design-kpi-cn/
 tags:
   - 博士教育
   - 效率

@@ -1,7 +1,9 @@
 ---
 title: '欢迎来到我的学术网站'
 date: 2025-07-22
-permalink: /posts/2025/07/welcome-cn/
+permalink: /zh/posts/2025/07/welcome/
+redirect_from:
+  - /posts/2025/07/welcome-cn/
 tags:
   - website
   - introduction

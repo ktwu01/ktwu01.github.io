@@ -1,7 +1,9 @@
 ---
 title: "Simon Willison 的 Newsletter：深入解析 LLM 与 AI 工程"
 date: 2026-01-02
-permalink: /posts/2026/01/simon-willison-substack-llm-insights-cn/
+permalink: /zh/posts/2026/01/simon-willison-substack-llm-insights/
+redirect_from:
+  - /posts/2026/01/simon-willison-substack-llm-insights-cn/
 tags:
   - llm
   - ai

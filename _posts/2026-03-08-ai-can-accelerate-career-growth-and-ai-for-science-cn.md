@@ -1,7 +1,9 @@
 ---
 title: 'AI 如何加速职业成长——以及这对 AI for Science 为什么更重要'
 date: 2026-03-08
-permalink: /posts/2026/03/ai-can-accelerate-career-growth-and-ai-for-science-cn/
+permalink: /zh/posts/2026/03/ai-can-accelerate-career-growth-and-ai-for-science/
+redirect_from:
+  - /posts/2026/03/ai-can-accelerate-career-growth-and-ai-for-science-cn/
 tags:
   - ai
   - career

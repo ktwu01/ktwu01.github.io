@@ -1,13 +1,14 @@
 ---
 title: '我为何（部分地）改变了对“AI人才通胀”的看法'
 date: 2026-06-07
-permalink: /posts/2026/06/ai-talent-inflation-revisited-cn/
+permalink: /zh/posts/2026/06/ai-talent-inflation-revisited/
+redirect_from:
+  - /posts/2026/06/ai-talent-inflation-revisited-cn/
 tags:
   - ai
   - career
   - reflection
 ---
-
 在“All-in AI”两年后，我曾经深信的“10,000小时人才护城河”理论，在Agentic工作流的冲击下被无情地打碎了一半。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

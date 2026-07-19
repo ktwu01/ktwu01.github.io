@@ -1,7 +1,9 @@
 ---
 title: "The Gibbs Phenomenon in LLMs: Why Hallucination is Mathematical Destiny"
 date: 2026-04-04
-permalink: /posts/2026/04/04/llm-gibbs-phenomenon/
+permalink: /posts/2026/04/llm-gibbs-phenomenon/
+redirect_from:
+  - /posts/2026/04/04/llm-gibbs-phenomenon/
 tags:
   - ai
   - llm

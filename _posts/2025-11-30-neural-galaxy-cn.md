@@ -1,7 +1,9 @@
 ---
 title: 'Neural Galaxy - 属于你的 AI 对话可视化宇宙'
 date: 2025-11-26
-permalink: /posts/2025/11/neural-galaxy-cn/
+permalink: /zh/posts/2025/11/neural-galaxy/
+redirect_from:
+  - /posts/2025/11/neural-galaxy-cn/
 tags:
   - visualization
   - ai

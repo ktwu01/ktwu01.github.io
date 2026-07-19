@@ -1,7 +1,9 @@
 ---
 title: '虚拟细胞神经形态基因语言模型：VC 实习生的领域指南'
 date: 2026-04-04
-permalink: /posts/2026/04/virtual-cell-neuromorphic-gene-language-models-cn/
+permalink: /zh/posts/2026/04/virtual-cell-neuromorphic-gene-language-models/
+redirect_from:
+  - /posts/2026/04/virtual-cell-neuromorphic-gene-language-models-cn/
 tags:
   - ai
   - 生物技术

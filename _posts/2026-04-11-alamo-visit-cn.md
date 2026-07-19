@@ -1,7 +1,9 @@
 ---
 title: '站在阿拉莫：德克萨斯历史的圣地'
 date: 2026-04-11
-permalink: /posts/2026/04/alamo-visit-cn/
+permalink: /zh/posts/2026/04/alamo-visit/
+redirect_from:
+  - /posts/2026/04/alamo-visit-cn/
 tags:
   - 旅行
   - 历史

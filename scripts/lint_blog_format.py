@@ -176,7 +176,8 @@ def check_file(filepath):
 
     filename = os.path.basename(filepath)
     permalink = front_matter_value(content, "permalink")
-    issues.extend(validate_post_url(filepath, permalink or ""))
+    if FRONT_MATTER.match(content):
+        issues.extend(validate_post_url(filepath, permalink or ""))
 
     if follows_local_image_policy(filename):
         issues.extend(check_local_images(content))

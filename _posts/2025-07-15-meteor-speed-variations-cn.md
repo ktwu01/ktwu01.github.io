@@ -1,7 +1,9 @@
 ---
 title: 'Meteor Speed Variations - 研究论文仓库'
 date: 2025-07-15
-permalink: /posts/2025/07/meteor-speed-variations-cn/
+permalink: /zh/posts/2025/07/meteor-speed-variations/
+redirect_from:
+  - /posts/2025/07/meteor-speed-variations-cn/
 tags:
   - research
   - meteor

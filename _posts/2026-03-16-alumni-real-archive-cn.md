@@ -1,7 +1,9 @@
 ---
 title: "校友真实档案：从作家梦到AI创业者的三次死亡与重生"
 date: 2026-03-16
-permalink: /posts/2026/03/alumni-real-archive-cn/
+permalink: /zh/posts/2026/03/alumni-real-archive/
+redirect_from:
+  - /posts/2026/03/alumni-real-archive-cn/
 tags:
   - 校友档案
   - 人生选择

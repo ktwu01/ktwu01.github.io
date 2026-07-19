@@ -1,7 +1,9 @@
 ---
 title: 'Geomaps - 科学计算与地图绘制工具集'
 date: 2025-07-15
-permalink: /posts/2025/07/geomaps-cn/
+permalink: /zh/posts/2025/07/geomaps/
+redirect_from:
+  - /posts/2025/07/geomaps-cn/
 tags:
   - python
   - matlab

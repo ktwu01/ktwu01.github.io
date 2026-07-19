@@ -1,7 +1,9 @@
 ---
 title: "直接发钱会怎样？奥特曼的全民基本收入实验"
 date: 2026-04-04
-permalink: /posts/2026/04/ubi-altman-experiment-cn/
+permalink: /zh/posts/2026/04/ubi-altman-experiment/
+redirect_from:
+  - /posts/2026/04/ubi-altman-experiment-cn/
 tags:
   - society
   - economics

@@ -1,7 +1,9 @@
 ---
 title: "统计学上如何寻找Outlier"
 date: 2026-03-28
-permalink: /posts/2026/03/28/finding-outliers-statistics-cn/
+permalink: /zh/posts/2026/03/finding-outliers-statistics/
+redirect_from:
+  - /posts/2026/03/28/finding-outliers-statistics-cn/
 tags:
   - 统计学
   - 数据分析

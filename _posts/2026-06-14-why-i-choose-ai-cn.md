@@ -1,13 +1,14 @@
 ---
 title: '为什么我一定要投身 AI 浪潮'
 date: 2026-06-14
-permalink: /posts/2026/06/why-i-choose-ai-cn/
+permalink: /zh/posts/2026/06/why-i-choose-ai/
+redirect_from:
+  - /posts/2026/06/why-i-choose-ai-cn/
 tags:
   - reflection
   - career
   - ai
 ---
-
 最近虽然有的时候也会因为 AI 的发展程度感到非常困惑，感到有一点迷茫、有些焦虑，不知道自己该干啥，然后又因为自己的身份和路径问题，在想有什么样的退路或者更好的方案。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

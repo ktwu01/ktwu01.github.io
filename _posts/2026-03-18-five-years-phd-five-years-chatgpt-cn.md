@@ -1,7 +1,9 @@
 ---
 title: '一个有趣的巧合：读完博士的时间，刚好够 OpenAI 改变世界'
 date: 2026-03-18
-permalink: /posts/2026/03/five-years-phd-chatgpt-cn/
+permalink: /zh/posts/2026/03/five-years-phd-chatgpt/
+redirect_from:
+  - /posts/2026/03/five-years-phd-chatgpt-cn/
 tags:
   - ai
   - openai

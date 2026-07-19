@@ -22,7 +22,7 @@ tags:
 
 这就很 Claude Code。
 
-开头我直接承认一件事，我还在同时叠好几套 vibe coding 栈，Cursor 学生额度加 Gemini CLI 之类凑在一起也常常不够烧。这块我当时写过一篇更细的 IDE 对比，Cursor、Kiro、Antigravity 各有什么性格，你可以在 [这篇 vibe coding IDE 简报](https://ktwu01.github.io/posts/2025/12/vibe-coding-ides-brief-comparison/)里慢慢翻。
+开头我直接承认一件事，我还在同时叠好几套 vibe coding 栈，Cursor 学生额度加 Gemini CLI 之类凑在一起也常常不够烧。这块我当时写过一篇更细的 IDE 对比，Cursor、Kiro、Antigravity 各有什么性格，你可以在 [这篇 vibe coding IDE 简报](https://ktwu01.github.io/zh/posts/2025/12/vibe-coding-ides-brief-comparison/)里慢慢翻。
 
 分享里我讲了五个平时真在用的场景。第一场是 Claude Code 在终端里从读仓库到跑测试、`git commit`、再用 `gh pr create` 把 PR 甩出来。第二场是把重复流程收成 Claude Code Skills，像 `buffett-check`、`hedge-review`、`redteam` 这种标签能一键拉起来，团队对齐口径会轻松很多。
 

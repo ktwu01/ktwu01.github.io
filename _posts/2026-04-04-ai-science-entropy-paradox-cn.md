@@ -1,7 +1,9 @@
 ---
 title: "熵悖论：为什么AI难以实现科学发现"
 date: 2026-04-04
-permalink: /posts/2026/04/ai-science-entropy-paradox-cn/
+permalink: /zh/posts/2026/04/ai-science-entropy-paradox/
+redirect_from:
+  - /posts/2026/04/ai-science-entropy-paradox-cn/
 tags:
   - ai
   - science

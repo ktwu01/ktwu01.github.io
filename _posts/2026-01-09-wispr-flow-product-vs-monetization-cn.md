@@ -1,7 +1,9 @@
 ---
 title: "当产品卓越遭遇变现灾难：从VC视角看Wispr Flow"
 date: 2026-01-09
-permalink: /posts/2026/01/wispr-flow-product-vs-monetization-cn/
+permalink: /zh/posts/2026/01/wispr-flow-product-vs-monetization/
+redirect_from:
+  - /posts/2026/01/wispr-flow-product-vs-monetization-cn/
 tags:
   - vc
   - ai-agent

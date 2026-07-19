@@ -1,7 +1,9 @@
 ---
 title: '1AI-polish - AI 学术写作润色系统'
 date: 2025-07-15
-permalink: /posts/2025/07/1ai-polish-cn/
+permalink: /zh/posts/2025/07/1ai-polish/
+redirect_from:
+  - /posts/2025/07/1ai-polish-cn/
 tags:
   - ai
   - academic-writing

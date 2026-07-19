@@ -1,7 +1,9 @@
 ---
 title: '为什么美国菜缺乏鲜味？'
 date: 2026-04-11
-permalink: /posts/2026/04/american-cuisine-umami-cn/
+permalink: /zh/posts/2026/04/american-cuisine-umami/
+redirect_from:
+  - /posts/2026/04/american-cuisine-umami-cn/
 tags:
   - 饮食文化
   - 鲜味

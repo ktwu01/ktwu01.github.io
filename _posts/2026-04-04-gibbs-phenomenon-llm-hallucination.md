@@ -1,7 +1,9 @@
 ---
 title: "The Gibbs Phenomenon: Why LLM Hallucinations Are Mathematically Inevitable"
 date: 2026-04-04
-permalink: /posts/2026/04/04/gibbs-phenomenon-llm-hallucination/
+permalink: /posts/2026/04/gibbs-phenomenon-llm-hallucination/
+redirect_from:
+  - /posts/2026/04/04/gibbs-phenomenon-llm-hallucination/
 tags:
   - ai
   - mathematics

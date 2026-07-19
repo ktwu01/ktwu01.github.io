@@ -1,7 +1,9 @@
 ---
 title: '技术不是壁垒，销售才是'
 date: 2026-03-06
-permalink: /posts/2026/03/sales-matters-more-than-tech-cn/
+permalink: /zh/posts/2026/03/sales-matters-more-than-tech/
+redirect_from:
+  - /posts/2026/03/sales-matters-more-than-tech-cn/
 tags:
   - 创业
   - 销售

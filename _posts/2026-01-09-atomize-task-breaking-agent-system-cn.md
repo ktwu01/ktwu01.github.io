@@ -1,7 +1,9 @@
 ---
 title: "Atomize：受 Goblin Tools 启发的任务分解 Agent 系统"
 date: 2026-01-09
-permalink: /posts/2026/01/atomize-task-breaking-agent-system-cn/
+permalink: /zh/posts/2026/01/atomize-task-breaking-agent-system/
+redirect_from:
+  - /posts/2026/01/atomize-task-breaking-agent-system-cn/
 tags:
   - ai-agent
   - llm

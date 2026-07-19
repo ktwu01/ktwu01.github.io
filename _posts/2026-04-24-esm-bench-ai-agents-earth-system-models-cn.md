@@ -1,7 +1,9 @@
 ---
 title: "ESM-bench：测试AI智能体是否理解地球系统模型的物理学"
 date: 2026-04-24
-permalink: /posts/2026/04/esm-bench-ai-agents-earth-system-models-cn/
+permalink: /zh/posts/2026/04/esm-bench-ai-agents-earth-system-models/
+redirect_from:
+  - /posts/2026/04/esm-bench-ai-agents-earth-system-models-cn/
 tags:
   - esm-bench
   - ai
@@ -9,7 +11,6 @@ tags:
   - earthsystemmodels
   - benchmark
 ---
-
 最可怕的部分不在于 AI 智能体在处理地球系统模型代码时失败了，而是它们可能在看似正确的代码中失败。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

@@ -1,12 +1,13 @@
 ---
 title: '社会矛盾的进一步思考'
 date: 2026-06-12
-permalink: /posts/2026/06/social-contradictions-reflections-cn/
+permalink: /zh/posts/2026/06/social-contradictions-reflections/
+redirect_from:
+  - /posts/2026/06/social-contradictions-reflections-cn/
 tags:
   - reflection
   - society
 ---
-
 当你还在为“只要努力就能向上流动”而拼命内卷时，你可能没有意识到，这个系统从一开始就不是为了培养你，而是为了筛选你。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

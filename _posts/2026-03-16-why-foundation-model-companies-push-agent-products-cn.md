@@ -1,7 +1,9 @@
 ---
 title: '为什么大模型厂商还在亏钱，却还要拼命推 Agent 产品'
 date: 2026-03-16
-permalink: /posts/2026/03/why-foundation-model-companies-push-agent-products-cn/
+permalink: /zh/posts/2026/03/why-foundation-model-companies-push-agent-products/
+redirect_from:
+  - /posts/2026/03/why-foundation-model-companies-push-agent-products-cn/
 tags:
   - ai
   - llm

@@ -1,7 +1,9 @@
 ---
 title: '如何避免平平无奇的人生'
 date: 2026-03-16
-permalink: /posts/2026/03/how-to-avoid-an-ordinary-life-cn/
+permalink: /zh/posts/2026/03/how-to-avoid-an-ordinary-life/
+redirect_from:
+  - /posts/2026/03/how-to-avoid-an-ordinary-life-cn/
 tags:
   - 人生
   - 成长

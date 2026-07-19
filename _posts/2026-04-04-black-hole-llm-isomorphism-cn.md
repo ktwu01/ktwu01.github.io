@@ -1,7 +1,9 @@
 ---
 title: "认识论干涉测量：黑洞成像与LLM训练的深层同构性"
 date: 2026-04-04
-permalink: /posts/2026/04/04/black-hole-llm-isomorphism-cn/
+permalink: /zh/posts/2026/04/black-hole-llm-isomorphism/
+redirect_from:
+  - /posts/2026/04/04/black-hole-llm-isomorphism-cn/
 tags:
   - ai
   - llm

@@ -1,7 +1,9 @@
 ---
 title: '硅谷创业失败的真相：那些没有成功的人后来怎么样了'
 date: 2026-02-11
-permalink: /posts/2026/02/silicon-valley-failure-safety-net-cn/
+permalink: /zh/posts/2026/02/silicon-valley-failure-safety-net/
+redirect_from:
+  - /posts/2026/02/silicon-valley-failure-safety-net-cn/
 tags:
   - 创业
   - 硅谷

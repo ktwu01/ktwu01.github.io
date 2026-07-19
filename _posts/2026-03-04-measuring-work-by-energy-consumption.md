@@ -1,7 +1,9 @@
 ---
 title: Measuring Work by Energy Consumption
 date: 2026-03-04
-permalink: /posts/2026/03/04/measuring-work-by-energy-consumption/
+permalink: /posts/2026/03/measuring-work-by-energy-consumption/
+redirect_from:
+  - /posts/2026/03/04/measuring-work-by-energy-consumption/
 tags:
   - productivity
   - energy-consumption

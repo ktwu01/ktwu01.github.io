@@ -1,7 +1,9 @@
 ---
 title: '和 Claude Code 一起更新我的学术网站'
 date: 2025-09-17
-permalink: /posts/2025/09/claude-code-collaboration-cn/
+permalink: /zh/posts/2025/09/claude-code-collaboration/
+redirect_from:
+  - /posts/2025/09/claude-code-collaboration-cn/
 tags:
   - web-development
   - ai-tools

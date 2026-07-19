@@ -1,7 +1,9 @@
 ---
 title: '把 GitHub PR 当作技术人的 Inbound Marketing'
 date: 2026-03-08
-permalink: /posts/2026/03/github-prs-as-inbound-marketing-cn/
+permalink: /zh/posts/2026/03/github-prs-as-inbound-marketing/
+redirect_from:
+  - /posts/2026/03/github-prs-as-inbound-marketing-cn/
 tags:
   - github
   - open-source

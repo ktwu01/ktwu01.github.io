@@ -1,7 +1,9 @@
 ---
 title: '当 Vibe Coding 的 VC 取代了 Venture Capital 的 VC'
 date: 2026-03-13
-permalink: /posts/2026/03/vibe-coding-vc-cn/
+permalink: /zh/posts/2026/03/vibe-coding-vc/
+redirect_from:
+  - /posts/2026/03/vibe-coding-vc-cn/
 tags:
   - ai
   - silicon-valley

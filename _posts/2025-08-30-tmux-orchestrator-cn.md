@@ -1,7 +1,9 @@
 ---
 title: 'Tmux Orchestrator - 让 AI agents 7×24 小时持续工作'
 date: 2025-08-30
-permalink: /posts/2025/08/tmux-orchestrator-cn/
+permalink: /zh/posts/2025/08/tmux-orchestrator/
+redirect_from:
+  - /posts/2025/08/tmux-orchestrator-cn/
 tags:
   - ai
   - agents

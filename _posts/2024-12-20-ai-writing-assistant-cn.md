@@ -1,13 +1,14 @@
 ---
 title: 'AI 就是论文开塞露：从狗屁不通变成拉了一坨大的'
 date: 2024-12-20
-permalink: /posts/2024/12/ai-writing-assistant-cn/
+permalink: /zh/posts/2024/12/ai-writing-assistant/
+redirect_from:
+  - /posts/2024/12/ai-writing-assistant-cn/
 tags:
   - AI
   - writing
   - academia
 ---
-
 当AI写作助手把学术论文里的“狗屁不通”梳理成“结构完整的一大坨”时，我们不得不承认：这简直是一剂赛博开塞露。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

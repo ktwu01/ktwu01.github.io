@@ -1,14 +1,15 @@
 ---
 title: '没有人靠蓝色链接变富：一架通往牌桌的梯子'
 date: 2026-06-30
-permalink: /posts/2026/06/design-defaults-and-ai-shovels-cn/
+permalink: /zh/posts/2026/06/design-defaults-and-ai-shovels/
+redirect_from:
+  - /posts/2026/06/design-defaults-and-ai-shovels-cn/
 tags:
   - reflection
   - ai
   - infrastructure
   - power
 ---
-
 我刚刚在火车上突然想起一件事：为什么互联网上的链接，几乎清一色都是那种饱和度极高的蓝色？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

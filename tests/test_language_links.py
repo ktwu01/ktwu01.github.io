@@ -160,6 +160,15 @@ class LanguageLinkTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("stale", result.stdout.lower())
 
+    def test_load_posts_ignores_markdown_without_front_matter(self):
+        with tempfile.TemporaryDirectory() as root:
+            root_path = Path(root)
+            (root_path / "notes.md").write_text("Unpublished notes\n", encoding="utf-8")
+
+            posts = self.module.load_posts(root_path)
+
+        self.assertEqual(posts, [])
+
 
 if __name__ == "__main__":
     unittest.main()

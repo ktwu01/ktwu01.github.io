@@ -1,7 +1,9 @@
 ---
 title: 'Do Big Tech Engineers Actually Need OpenClaw?'
 date: 2026-03-16
-permalink: /posts/2026/03/do-big-tech-engineers-need-openclaw-en/
+permalink: /posts/2026/03/do-big-tech-engineers-need-openclaw/
+redirect_from:
+  - /posts/2026/03/do-big-tech-engineers-need-openclaw-en/
 tags:
   - openclaw
   - claude-code

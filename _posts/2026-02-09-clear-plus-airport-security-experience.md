@@ -1,7 +1,9 @@
 ---
 title: "Clear Plus Airport Experience: Money, Privilege, and Market Regulation"
 date: 2026-02-09
-permalink: /clear-plus-airport-security-experience/
+permalink: /posts/2026/02/clear-plus-airport-security-experience/
+redirect_from:
+  - /clear-plus-airport-security-experience/
 tags:
   - travel
   - airport

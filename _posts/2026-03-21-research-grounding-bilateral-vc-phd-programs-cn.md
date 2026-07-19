@@ -1,7 +1,9 @@
 ---
 title: 'AI 时代，PhD 应该按风投模式培养'
 date: 2026-03-21
-permalink: /posts/2026/03/research-grounding-bilateral-vc-phd-programs-cn/
+permalink: /zh/posts/2026/03/research-grounding-bilateral-vc-phd-programs/
+redirect_from:
+  - /posts/2026/03/research-grounding-bilateral-vc-phd-programs-cn/
 tags:
   - 研究
   - preprint

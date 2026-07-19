@@ -1,7 +1,9 @@
 ---
 title: '婚恋和资源共享市场，到底该用传统搜广推还是 AI 推荐算法？'
 date: 2026-03-20
-permalink: /posts/2026/03/search-ads-rec-vs-ai-matching-cn/
+permalink: /zh/posts/2026/03/search-ads-rec-vs-ai-matching/
+redirect_from:
+  - /posts/2026/03/search-ads-rec-vs-ai-matching-cn/
 tags:
   - 推荐系统
   - ai

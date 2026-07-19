@@ -1,7 +1,9 @@
 ---
 title: "Clear Plus 体验：金钱、特权与市场调节"
 date: 2026-02-09
-permalink: /clear-plus-airport-security-experience-cn/
+permalink: /zh/posts/2026/02/clear-plus-airport-security-experience/
+redirect_from:
+  - /clear-plus-airport-security-experience-cn/
 tags:
   - travel
   - airport

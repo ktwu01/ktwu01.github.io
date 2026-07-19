@@ -1,7 +1,9 @@
 ---
 title: 'Cultural Bridge - 跨文化交流平台'
 date: 2025-07-01
-permalink: /posts/2025/07/cultural-bridge-cn/
+permalink: /zh/posts/2025/07/cultural-bridge/
+redirect_from:
+  - /posts/2025/07/cultural-bridge-cn/
 tags:
   - web-app
   - python

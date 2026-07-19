@@ -1,7 +1,9 @@
 ---
 title: '创业概率论：如果你从 16 岁开始，连续失败 10 次的概率并不高'
 date: 2026-03-12
-permalink: /posts/2026/03/startup-probability-if-you-begin-at-16-cn/
+permalink: /zh/posts/2026/03/startup-probability-if-you-begin-at-16/
+redirect_from:
+  - /posts/2026/03/startup-probability-if-you-begin-at-16-cn/
 tags:
   - startup
   - probability

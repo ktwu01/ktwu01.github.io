@@ -1,12 +1,13 @@
 ---
 title: '圈外人永远学不会：真经验从不公开'
 date: 2026-06-12
-permalink: /posts/2026/06/inner-circle-truth-cn/
+permalink: /zh/posts/2026/06/inner-circle-truth/
+redirect_from:
+  - /posts/2026/06/inner-circle-truth-cn/
 tags:
   - reflection
   - career
 ---
-
 如果你每天还在各大平台疯狂收藏“干货”和“方法论”，那你可能永远都触碰不到这个世界真正值钱的信息。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

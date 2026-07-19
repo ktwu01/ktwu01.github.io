@@ -1,14 +1,15 @@
 ---
 title: '你是哪一种？AI 时代的表演图鉴'
 date: 2026-06-12
-permalink: /posts/2026/06/ai-performance-which-one-are-you-cn/
+permalink: /zh/posts/2026/06/ai-performance-which-one-are-you/
+redirect_from:
+  - /posts/2026/06/ai-performance-which-one-are-you-cn/
 tags:
   - AI
   - observation
   - academia
   - industry
 ---
-
 当你在这个由PPT、Paper和焦虑构成的AI时代大剧院里找座位时，不如先看看台上的人都在演哪一出戏。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
