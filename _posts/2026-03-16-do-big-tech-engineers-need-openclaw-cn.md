@@ -1,7 +1,7 @@
 ---
 title: '硅谷大厂人究竟需不需要用 OpenClaw？'
 date: 2026-03-16
-permalink: /posts/2026/03/do-big-tech-engineers-need-openclaw/
+permalink: /zh/posts/2026/03/do-big-tech-engineers-need-openclaw/
 tags:
   - openclaw
   - claude-code

@@ -39,6 +39,21 @@ LEAK_PATTERNS = [
      "Leaked antml namespaced invoke token"),
 ]
 
+FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+
+
+def front_matter_value(content, field):
+    match = FRONT_MATTER.match(content)
+    if not match:
+        return None
+
+    value_match = re.search(
+        rf"^{re.escape(field)}:\s*(['\"]?)(.*?)\1\s*$",
+        match.group(1),
+        re.MULTILINE,
+    )
+    return value_match.group(2) if value_match else None
+
 
 def is_author(line):
     return any(re.match(p, line.strip()) for p in AUTHOR_PATTERNS)
@@ -91,6 +106,13 @@ def check_file(filepath):
         return [f"Error reading file: {e}"]
 
     issues = []
+
+    filename = os.path.basename(filepath)
+    permalink = front_matter_value(content, "permalink")
+    if filename.endswith("-cn.md") and not (
+        permalink and permalink.startswith("/zh/")
+    ):
+        issues.append("-cn.md post must use a /zh/ permalink")
 
     leaks = check_leaks(content)
     for leak in leaks:

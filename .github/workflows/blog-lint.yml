@@ -4,9 +4,17 @@ on:
   push:
     paths:
       - '_posts/**.md'
+      - 'scripts/lint_blog_format.py'
+      - 'tests/test_blog_lint.py'
+      - 'tests/fixtures/**'
+      - '.github/workflows/blog-lint.yml'
   pull_request:
     paths:
       - '_posts/**.md'
+      - 'scripts/lint_blog_format.py'
+      - 'tests/test_blog_lint.py'
+      - 'tests/fixtures/**'
+      - '.github/workflows/blog-lint.yml'
   workflow_dispatch: # Allow manual runs
 
 jobs:
@@ -23,3 +31,6 @@ jobs:
 
       - name: Run Blog Linter
         run: python3 scripts/lint_blog_format.py
+
+      - name: Run Blog Linter Tests
+        run: python3 -m unittest tests/test_blog_lint.py -v
