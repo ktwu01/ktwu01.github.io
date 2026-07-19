@@ -4,17 +4,25 @@ on:
   push:
     paths:
       - '_posts/**.md'
+      - '_data/language_links.json'
+      - '_includes/language-switcher.html'
+      - '_layouts/single.html'
       - 'images/**'
+      - 'scripts/generate_language_links.py'
       - 'scripts/lint_blog_format.py'
-      - 'tests/test_blog_lint.py'
+      - 'tests/**.py'
       - 'tests/fixtures/**'
       - '.github/workflows/blog-lint.yml'
   pull_request:
     paths:
       - '_posts/**.md'
+      - '_data/language_links.json'
+      - '_includes/language-switcher.html'
+      - '_layouts/single.html'
       - 'images/**'
+      - 'scripts/generate_language_links.py'
       - 'scripts/lint_blog_format.py'
-      - 'tests/test_blog_lint.py'
+      - 'tests/**.py'
       - 'tests/fixtures/**'
       - '.github/workflows/blog-lint.yml'
   workflow_dispatch: # Allow manual runs
@@ -34,5 +42,8 @@ jobs:
       - name: Run Blog Linter
         run: python3 scripts/lint_blog_format.py
 
-      - name: Run Blog Linter Tests
-        run: python3 -m unittest tests/test_blog_lint.py -v
+      - name: Check Generated Language Links
+        run: python3 scripts/generate_language_links.py --check
+
+      - name: Run Blog Tests
+        run: python3 -m unittest discover -s tests -v
