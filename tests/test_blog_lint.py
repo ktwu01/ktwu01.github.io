@@ -45,6 +45,23 @@ class ChinesePermalinkLintTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("-cn.md post must use a /zh/ permalink", result.stdout)
 
+    def test_rejects_noncanonical_chinese_permalink_before_2026(self):
+        with tempfile.TemporaryDirectory() as root:
+            post = Path(root) / "2024-01-01-example-cn.md"
+            post.write_text(
+                "---\n"
+                "title: Example\n"
+                "permalink: /posts/2024/01/example-cn/\n"
+                "---\n"
+                "A hook.\n\n"
+                "> 作者：[Koutian Wu](https://example.com)\n",
+                encoding="utf-8",
+            )
+
+            issues = BLOG_LINT.check_file(post)
+
+        self.assertTrue(any("must use a /zh/" in issue for issue in issues))
+
 
 class LocalImageLintTests(unittest.TestCase):
     def test_accepts_existing_root_relative_jpeg(self):

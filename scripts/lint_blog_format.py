@@ -4,10 +4,17 @@ import re
 import sys
 from urllib.parse import unquote, urlsplit
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+
+from generate_language_links import validate_post_url
+
+
 POSTS_DIR = "_posts/"
-# URL rules introduced on this date apply prospectively. Older posts retain
-# their published URLs so the linter does not force link-breaking migrations.
-URL_POLICY_START = "2026-07-16"
+# Local-image rules remain prospective so unrelated legacy content does not
+# need an image migration. URL rules are intentionally strict for all posts.
+LOCAL_IMAGE_POLICY_START = "2026-07-16"
 AUTHOR_PATTERNS = [
     r"^> Author: \[Koutian Wu\]",
     r"^> 作者：\[Koutian Wu\]",
@@ -48,9 +55,9 @@ FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 MARKDOWN_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)(?:\s+[^)]*)?\)")
 
 
-def follows_url_policy(filename):
+def follows_local_image_policy(filename):
     match = re.match(r"^(\d{4}-\d{2}-\d{2})-", filename)
-    return bool(match and match.group(1) >= URL_POLICY_START)
+    return bool(match and match.group(1) >= LOCAL_IMAGE_POLICY_START)
 
 
 def image_signature_matches(path):
@@ -169,12 +176,9 @@ def check_file(filepath):
 
     filename = os.path.basename(filepath)
     permalink = front_matter_value(content, "permalink")
-    if follows_url_policy(filename) and filename.endswith("-cn.md") and not (
-        permalink and permalink.startswith("/zh/")
-    ):
-        issues.append("-cn.md post must use a /zh/ permalink")
+    issues.extend(validate_post_url(filepath, permalink or ""))
 
-    if follows_url_policy(filename):
+    if follows_local_image_policy(filename):
         issues.extend(check_local_images(content))
 
     leaks = check_leaks(content)
