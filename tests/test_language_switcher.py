@@ -6,6 +6,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 INCLUDE = REPO_ROOT / "_includes" / "language-switcher.html"
 LAYOUT = REPO_ROOT / "_layouts" / "single.html"
 PAGE_STYLES = REPO_ROOT / "_sass" / "layout" / "_page.scss"
+JEKYLL_CONFIG = REPO_ROOT / "_config.yml"
 
 
 class LanguageSwitcherTemplateTests(unittest.TestCase):
@@ -30,6 +31,11 @@ class LanguageSwitcherTemplateTests(unittest.TestCase):
         styles = PAGE_STYLES.read_text(encoding="utf-8")
 
         self.assertIn(".page__language-switcher", styles)
+
+    def test_jekyll_excludes_linter_fixture_posts(self):
+        config = JEKYLL_CONFIG.read_text(encoding="utf-8")
+
+        self.assertRegex(config, r"(?m)^  - tests$")
 
 
 if __name__ == "__main__":
