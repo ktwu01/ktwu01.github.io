@@ -1,8 +1,13 @@
 import os
+import posixpath
 import re
 import sys
+from urllib.parse import unquote, urlsplit
 
 POSTS_DIR = "_posts/"
+# URL rules introduced on this date apply prospectively. Older posts retain
+# their published URLs so the linter does not force link-breaking migrations.
+URL_POLICY_START = "2026-07-16"
 AUTHOR_PATTERNS = [
     r"^> Author: \[Koutian Wu\]",
     r"^> 作者：\[Koutian Wu\]",
@@ -40,6 +45,61 @@ LEAK_PATTERNS = [
 ]
 
 FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+MARKDOWN_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)(?:\s+[^)]*)?\)")
+
+
+def follows_url_policy(filename):
+    match = re.match(r"^(\d{4}-\d{2}-\d{2})-", filename)
+    return bool(match and match.group(1) >= URL_POLICY_START)
+
+
+def image_signature_matches(path):
+    extension = os.path.splitext(path)[1].lower()
+    with open(path, "rb") as image:
+        header = image.read(16)
+
+    if extension in (".jpg", ".jpeg"):
+        return header.startswith(b"\xff\xd8\xff")
+    if extension == ".png":
+        return header.startswith(b"\x89PNG\r\n\x1a\n")
+    if extension == ".gif":
+        return header.startswith((b"GIF87a", b"GIF89a"))
+    if extension == ".webp":
+        return header.startswith(b"RIFF") and header[8:12] == b"WEBP"
+    if extension == ".svg":
+        return b"<svg" in header.lower() or header.startswith(b"<?xml")
+    return True
+
+
+def check_local_images(content, repo_root="."):
+    """Validate local image URLs, targets, and file signatures."""
+    issues = []
+    for match in MARKDOWN_IMAGE.finditer(content):
+        raw_url = match.group(1).strip("<>")
+        parsed = urlsplit(raw_url)
+        if parsed.scheme or parsed.netloc or raw_url.startswith("//"):
+            continue
+
+        decoded_path = unquote(parsed.path)
+        if not decoded_path.startswith("/images/"):
+            issues.append(
+                f"Local image path must start with /images/: {raw_url}"
+            )
+            continue
+        if "\\" in decoded_path or ".." in decoded_path.split("/"):
+            issues.append(f"Local image path contains unsafe traversal: {raw_url}")
+            continue
+
+        normalized = posixpath.normpath(decoded_path).lstrip("/")
+        target = os.path.join(repo_root, *normalized.split("/"))
+        if not os.path.isfile(target):
+            issues.append(f"Local image does not exist: {raw_url}")
+            continue
+        if not image_signature_matches(target):
+            issues.append(
+                f"Local image content does not match its extension: {raw_url}"
+            )
+    return issues
 
 
 def front_matter_value(content, field):
@@ -109,10 +169,13 @@ def check_file(filepath):
 
     filename = os.path.basename(filepath)
     permalink = front_matter_value(content, "permalink")
-    if filename.endswith("-cn.md") and not (
+    if follows_url_policy(filename) and filename.endswith("-cn.md") and not (
         permalink and permalink.startswith("/zh/")
     ):
         issues.append("-cn.md post must use a /zh/ permalink")
+
+    if follows_url_policy(filename):
+        issues.extend(check_local_images(content))
 
     leaks = check_leaks(content)
     for leak in leaks:

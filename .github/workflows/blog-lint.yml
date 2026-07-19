@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '_posts/**.md'
+      - 'images/**'
       - 'scripts/lint_blog_format.py'
       - 'tests/test_blog_lint.py'
       - 'tests/fixtures/**'
@@ -11,6 +12,7 @@ on:
   pull_request:
     paths:
       - '_posts/**.md'
+      - 'images/**'
       - 'scripts/lint_blog_format.py'
       - 'tests/test_blog_lint.py'
       - 'tests/fixtures/**'
