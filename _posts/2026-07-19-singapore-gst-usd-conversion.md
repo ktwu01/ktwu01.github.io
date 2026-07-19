@@ -12,6 +12,8 @@ tags:
 
 A receipt in Singapore showed **S$5.50**, while a U.S. credit-card account displayed only **US$4.27**. Another purchase of about S$48 appeared as roughly US$38. A bank-card transit ride also failed to appear immediately as pending.
 
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 This looked like three problems. Had the merchant skipped GST? Had the bank omitted part of the charge? Had the transit fare disappeared?
 
 The explanation combines three systems: **currency conversion, tax-inclusive pricing, and delayed transit settlement.**

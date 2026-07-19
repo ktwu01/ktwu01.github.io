@@ -11,6 +11,8 @@ tags:
 
 今天看航班时，我突然发现：**AI 是 Air India（印度航空）的航空公司代码。**
 
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
 也就是说，`AI 302` 并不是某个新模型，更不是“人工智能 302 号实验”，而是一班印度航空航班。印度航空自己的公告也把 `AI` 称为其 designator code（航司代码）。
 
 这件事让我意识到：我们现在看到字母 `AI`，几乎会条件反射地把它展开成 *Artificial Intelligence*。但这只是当下最强势的解释，并不是这两个字母的所有权证明。
