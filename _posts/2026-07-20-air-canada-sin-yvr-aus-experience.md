@@ -14,7 +14,7 @@ tags:
 
 My verdict on Air Canada after flying from Singapore to Austin through Vancouver is simple: **what a mess.**
 
-The journey was not uniformly bad. It felt more like a randomized experiment. On the fourteen-hour trans-Pacific leg, I unexpectedly had an entire row to myself—but spent the flight next to a lavatory odor. The connecting flight then involved a go-around, a towing delay, and an ugly recent on-time sample. Yet after eating Pad Thai at YVR, I crashed from the carbohydrates and slept through nearly the entire flight.
+The journey was not uniformly bad. It felt more like a randomized experiment. On the fourteen-hour trans-Pacific leg, I unexpectedly had an entire row to myself—but spent the flight next to a lavatory odor. The connecting flight then involved a go-around, a towing delay, and an ugly recent on-time sample. The Pad Thai I ate at YVR was disappointing too; it merely sent me into a carbohydrate crash, after which I slept through nearly the entire flight.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
@@ -57,18 +57,23 @@ There was also a go-around that day. A go-around is a standard safety procedure.
 
 Still, the travel experience combined the go-around, ground turnaround, towing, and delay into a distinctly Air Canada storyline: **the safety decision can be right while the ground operation remains a mess.**
 
-## Pad Thai ended my ability to complain
+## The Pad Thai was disappointing too—just cheap enough
 
-During the YVR connection, I ate Pad Thai. The carbohydrate load, combined with trans-Pacific fatigue, put me into an immediate food coma.
+While waiting at YVR, I ordered a dish labeled `Pad Thai Steak`.
 
-So despite AC1762's delay and everything that preceded it, I slept through nearly the entire flight. In a strange sense, this became the journey's most effective service recovery. Air Canada did not repair the experience; Pad Thai simply switched off my consciousness.
+It did not rescue the journey. The flavor was extremely one-dimensional. The beef had the texture of pre-prepared food and was notably dry. Despite the word `steak` on the menu, what arrived was crumbled beef rather than anything resembling a whole steak or freshly sliced beef.
 
-AC1762 therefore produced a peculiar result:
+Still, it cost C$20, which converted to about US$14.36 when I paid. For airport food, that was cheap enough. It was not good, but it was not expensive enough to justify a full rant. My assessment:
 
-- Operationally, it reinforced my poor impression of Air Canada.
-- Physically, I was too tired to stay angry.
-- Experientially, I slept through the segment instead of enduring it awake.
-- In the final score, the airline did not win. Pad Thai did.
+- one-dimensional flavor;
+- dry beef that tasted pre-prepared;
+- a gap between the word `steak` and the actual crumbled meat;
+- but an acceptable airport price of C$20 / US$14.36;
+- disappointing, yet not worth attacking further.
+
+The carbohydrate load, combined with fatigue from the trans-Pacific flight, quickly put me into a food coma. So despite AC1762's delay and everything that preceded it, I slept through nearly the entire flight.
+
+This was not service recovery by the restaurant, and the Pad Thai did not redeem Air Canada. A mediocre but acceptably priced airport meal simply pushed an already exhausted passenger into sleep.
 
 ## Not a disaster, but a chain of avoidable friction
 
@@ -84,7 +89,7 @@ But an airline should not be judged only by whether passengers eventually arrive
 
 No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, and delay.
 
-In the end, luck gave me a row, Pad Thai carried me through the next flight, and I carried myself through the journey. Air Canada completed the transportation. It did not deliver an experience I would trust.
+In the end, luck gave me a row. I ate a disappointing but cheap-enough Pad Thai, then slept through the next flight under the combined weight of carbohydrates and exhaustion. Air Canada completed the transportation. It did not deliver an experience I would trust.
 
 I recorded the other parts of this YVR transfer in two related posts:
 
