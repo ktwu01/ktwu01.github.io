@@ -91,6 +91,8 @@ At a major airport, entering the wrong line is not a moral failure. It is a huma
 
 I have already sent YVR my photos from the airport and suggestions for improvement. Its official customer-service page lists [customercallcentre@yvr.ca](mailto:customercallcentre@yvr.ca) and `604-207-7077`; YVR also says that customer-care staff and Green Coat volunteers are available around the clock. For that reason, I hope the airport checks more than whether help exists somewhere in the terminal. It should ask whether a first-time international connecting passenger can actually get help at this specific fork, within this specific field of view, before making a decision.
 
+Apart from this wayfinding fork, my overall experience with U.S. preclearance at YVR was fine. The entire preclearance process did not fail; one critical decision point failed to explain the correct path.
+
 The same connection at YVR also gave me several observations unrelated to wayfinding, including the apparent age distribution around me, the lack of spaces designed for work, and the visible differences between people in Vancouver and Texas. I recorded those in a separate post: [Another Side of Vancouver Airport: Age, Workspace, and the People I Saw](/posts/2026/07/yvr-airport-age-workspace-people-observations/).
 
 **References:**

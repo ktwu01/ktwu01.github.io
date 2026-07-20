@@ -16,6 +16,8 @@ The thing that almost stranded me on this international trip was not a typhoon, 
 
 My route was Chengdu, Shenzhen, Singapore, Vancouver, and Austin. A few days before departure, I tried to use Chase Travel and my Sapphire Preferred card to handle the long-haul segment from Singapore to the United States. Chase Travel was unavailable, and Air Canada had placed security restrictions on my account during the login and booking process. I switched to the [Air Canada website](https://www.aircanada.com/) and tried to pay as a guest.
 
+The problem did not end on the website. Air Canada locked my Aeroplan frequent-flyer account for no apparent reason. I called to resolve it, waited for an hour, and still did not reach an available agent. AI can generate troubleshooting steps and a call script, but it cannot make an airline put a human being on the phone.
+
 It sounds simple, right?
 
 I selected my CSP as the payment method and entered my United MileagePlus number because Air Canada and United are both part of Star Alliance. Then the payment page froze.

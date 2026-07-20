@@ -16,6 +16,8 @@ tags:
 
 我的路线是成都、深圳、新加坡、温哥华、奥斯汀。出发前几天，我试着用 Chase Travel 和 CSP 处理新加坡到美国的长途机票。Chase Travel 当时不可用，Air Canada 账户又因为登录和购票流程触发了安全限制。于是我切到 [Air Canada 官网](https://www.aircanada.com/)，准备直接以游客身份付款。
 
+问题并没有停在网页上。Air Canada 无缘无故封掉了我的 Aeroplan 常旅客账号；我打电话处理，等了一个小时，仍然没有等到 available agent。AI 可以生成排障步骤和通话话术，却不能替航空公司增加一个真正接电话的人。
+
 听起来很简单，对吧？
 
 我选择用 CSP 付款，在常旅客号码那里选择 United MileagePlus，因为 Air Canada 和 United 都属于 Star Alliance。然后支付页面卡住了。

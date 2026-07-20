@@ -14,9 +14,9 @@ tags:
 
 My verdict on Air Canada after flying from Singapore to Austin through Vancouver is simple: **what a mess.**
 
-The journey was not uniformly bad. It felt more like a randomized experiment. On the fourteen-hour trans-Pacific leg, I unexpectedly had an entire row to myself—but spent the flight next to a lavatory odor. The connecting flight then involved a go-around, a towing delay, and an ugly recent on-time sample. The Pad Thai I ate at YVR was disappointing too; it merely sent me into a carbohydrate crash, after which I slept through nearly the entire flight.
-
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
+The journey was not uniformly bad. It felt more like a randomized experiment. On the fourteen-hour trans-Pacific leg, I unexpectedly had an entire row to myself—but spent the flight next to a lavatory odor. The connecting flight then involved a go-around, a towing delay, and an ugly recent on-time sample. The Pad Thai I ate at YVR was disappointing too; it merely sent me into a carbohydrate crash, after which I slept through nearly the entire flight.
 
 ## AC20: I had seats 30A, 30B, and 30C to myself
 
@@ -161,6 +161,14 @@ But an airline should not be judged only by whether passengers eventually arrive
 No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, delay, and a dashboard that claimed `First Bag` 19 minutes before the first physical bag appeared, 54 minutes after touchdown.
 
 In the end, luck gave me a row. I ate a disappointing but cheap-enough Pad Thai, then slept through the next flight under the combined weight of carbohydrates and exhaustion. Air Canada completed the transportation. It did not deliver an experience I would trust.
+
+## The Full Set: My Final Verdict on Air Canada
+
+Air Canada is the worst airline I have flown, bar none. 🤣
+
+It locked my Aeroplan frequent-flyer account for no apparent reason. It also kept me on the phone for an hour without producing an available agent. It delayed departure by an hour and arrival by half an hour. Of the six recent flights I found in a 30-day sample, only three were on time. It gave me the first go-around of my life, fourteen hours beside a lavatory odor, and a baggage carousel that did not produce its first bag until roughly 54 minutes after landing. That completes the set.
+
+P.S. The food on SIN → YVR was decent, and the U.S. preclearance experience at YVR was generally fine.
 
 I recorded the other parts of this YVR transfer in two related posts:
 
