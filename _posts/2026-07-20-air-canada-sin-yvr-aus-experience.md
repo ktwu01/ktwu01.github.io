@@ -57,6 +57,10 @@ There was also a go-around that day. A go-around is a standard safety procedure.
 
 Still, the travel experience combined the go-around, ground turnaround, towing, and delay into a distinctly Air Canada storyline: **the safety decision can be right while the ground operation remains a mess.**
 
+![AC1762's in-flight map showing the repeated approach path near Austin](/images/air-canada/ac1762-go-around-map.webp)
+
+*The in-flight map preserved the repeated approach path: the aircraft neared AUS, looped away, and lined up again. The image documents the path, but cannot establish the reason for the go-around by itself.*
+
 ## The Pad Thai was disappointing too—just cheap enough
 
 While waiting at YVR, I ordered a dish labeled `Pad Thai Steak`.
@@ -95,12 +99,25 @@ Our conversation then produced a useful timeline:
 | 9:21 p.m. | ycao had reached Door M. |
 | 9:22 p.m. | Not a single bag had appeared on the carousel. |
 | 9:23 p.m. | Nothing had changed: about 32 minutes after landing, the first bag still had not appeared. |
+| 9:26 p.m. | The baggage-hall display finally showed `First Bag`, about 35 minutes after the 8:51 p.m. touchdown. |
+
+![At about 9:22 p.m., AC1762 passengers waited around the still-empty Carousel 6](/images/air-canada/ac1762-empty-baggage-carousel.webp)
+
+*AC1762 passengers had reached Carousel 6, while the belt had yet to begin delivering bags consistently.*
+
+![More passengers waiting around the empty baggage carousel](/images/air-canada/ac1762-passengers-waiting-baggage.webp)
+
+*The queue accumulated around the carousel before the bags did.*
+
+![The Austin baggage display showed First Bag for AC1762 at 9:26 p.m.](/images/air-canada/ac1762-first-bag-2126.webp)
+
+*At 9:26 p.m., the display finally marked AC1762 as `First Bag`—about 35 minutes after the 8:51 p.m. touchdown.*
 
 This timeline says more than “baggage was a little slow.” My friend left home, drove to the airport, and reached Door M before Air Canada delivered the first bag to the carousel. ycao's original 20-minute estimate barely covered the time from touchdown to my exit from the aircraft; it did not begin to cover checked-baggage delivery.
 
 For passengers, a flight marked “arrived” does not mean the journey has ended. Taxiing, reaching the gate, opening the door, unloading 39 rows of passengers, walking to baggage claim, and waiting for ground crews to unload and route bags can each consume more time. **8:51 p.m. was the aircraft's touchdown time, not the time when I could leave the airport.**
 
-Those final 32 minutes were especially conspicuous after a go-around, towing, and delay. Even after the aircraft finally reached Austin, passengers still had to wait for the door, deplaning, and a baggage system that had not begun producing bags. Air Canada turned the last mile into another queue.
+Those 35 minutes before the display reached `First Bag` were especially conspicuous after a go-around, towing, and delay. Even after the aircraft finally reached Austin, passengers still had to wait for the door, deplaning, and a baggage system that had not begun producing bags. Air Canada turned the last mile into another queue.
 
 ## Not a disaster, but a chain of avoidable friction
 
@@ -114,7 +131,7 @@ But an airline should not be judged only by whether passengers eventually arrive
 - Do delay notices provide explanations passengers can understand?
 - Do small failures keep stacking up until they drain passengers' energy and trust?
 
-No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, delay, and still no first bag 32 minutes after touchdown.
+No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, delay, and a baggage display that did not reach `First Bag` until 35 minutes after touchdown.
 
 In the end, luck gave me a row. I ate a disappointing but cheap-enough Pad Thai, then slept through the next flight under the combined weight of carbohydrates and exhaustion. Air Canada completed the transportation. It did not deliver an experience I would trust.
 
