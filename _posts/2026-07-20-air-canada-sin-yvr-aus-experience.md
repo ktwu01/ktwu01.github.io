@@ -75,6 +75,33 @@ The carbohydrate load, combined with fatigue from the trans-Pacific flight, quic
 
 This was not service recovery by the restaurant, and the Pad Thai did not redeem Air Canada. A mediocre but acceptably priced airport meal simply pushed an already exhausted passenger into sleep.
 
+## Landed at 8:51 p.m.; baggage had still not started at 9:23
+
+In Austin, Air Canada added one final segment to the story.
+
+My friend ycao was driving to pick me up. The aircraft landed at about 8:51 p.m. Austin time. I immediately told him that we had landed, while warning that I had a checked bag and did not know when I would reach the exit. He noted that a ride from the airport often costs more than $60 and still decided to pick me up.
+
+Our conversation then produced a useful timeline:
+
+| Time | Conversation and actual status |
+|---|---|
+| 8:51 p.m. | I told ycao that the aircraft had landed and that I had a checked bag. He set out for the airport. |
+| 8:52 p.m. | I asked how long airport parking would allow and warned him not to arrive too early because I did not know when my bag would reach the carousel. |
+| 8:53 p.m. | ycao estimated that 20 minutes would normally be enough. |
+| 8:54 p.m. | I noted that the aircraft had 39 rows and agreed that 20 minutes should, in principle, be enough to deplane. |
+| 8:55 p.m. | I suggested that he wait until I was actually inside the terminal before leaving, so he would not sit at the airport unnecessarily. |
+| 9:09 p.m. | ycao said he was almost there. I still had not left the aircraft. |
+| 9:13 p.m. | I finally exited the aircraft and headed for baggage claim, about 22 minutes after landing. |
+| 9:21 p.m. | ycao had reached Door M. |
+| 9:22 p.m. | Not a single bag had appeared on the carousel. |
+| 9:23 p.m. | Nothing had changed: about 32 minutes after landing, the first bag still had not appeared. |
+
+This timeline says more than “baggage was a little slow.” My friend left home, drove to the airport, and reached Door M before Air Canada delivered the first bag to the carousel. ycao's original 20-minute estimate barely covered the time from touchdown to my exit from the aircraft; it did not begin to cover checked-baggage delivery.
+
+For passengers, a flight marked “arrived” does not mean the journey has ended. Taxiing, reaching the gate, opening the door, unloading 39 rows of passengers, walking to baggage claim, and waiting for ground crews to unload and route bags can each consume more time. **8:51 p.m. was the aircraft's touchdown time, not the time when I could leave the airport.**
+
+Those final 32 minutes were especially conspicuous after a go-around, towing, and delay. Even after the aircraft finally reached Austin, passengers still had to wait for the door, deplaning, and a baggage system that had not begun producing bags. Air Canada turned the last mile into another queue.
+
 ## Not a disaster, but a chain of avoidable friction
 
 I completed the SIN → YVR → AUS journey. The go-around reflected a safety-first decision, and the delay did not destroy the trip. The empty row on AC20 even gave me unusually good economy-class sleep.
@@ -87,7 +114,7 @@ But an airline should not be judged only by whether passengers eventually arrive
 - Do delay notices provide explanations passengers can understand?
 - Do small failures keep stacking up until they drain passengers' energy and trust?
 
-No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, and delay.
+No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, delay, and still no first bag 32 minutes after touchdown.
 
 In the end, luck gave me a row. I ate a disappointing but cheap-enough Pad Thai, then slept through the next flight under the combined weight of carbohydrates and exhaustion. Air Canada completed the transportation. It did not deliver an experience I would trust.
 
