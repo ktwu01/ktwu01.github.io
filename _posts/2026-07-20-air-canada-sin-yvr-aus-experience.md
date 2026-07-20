@@ -39,6 +39,24 @@ That contradiction defined AC20:
 
 A long-haul experience depends on more than whether adjacent seats are empty. Seat location, ventilation, cleaning frequency, and odor control determine whether passengers can rest. Two empty seats were luck; persistent lavatory odor was a cabin-operations problem.
 
+## But the AC20 meal was genuinely good—and I saw the sunrise
+
+Criticism aside, AC20 had a part worth recognizing: **the in-flight meal exceeded my expectations.**
+
+The tray included several large shrimp that tasted fresh and sweet, rather than dry or chalky after sitting in an airline meal. The curry chicken with rice was also good; the sauce, chicken, and rice worked well together. This did not fix the lavatory odor, but it showed that not every part of Air Canada's service failed.
+
+![Large shrimp and curry chicken with rice served on AC20](/images/air-canada/ac20-shrimp-curry-chicken-meal.webp)
+
+*The AC20 meal: fresh, sweet shrimp and good curry chicken with rice.*
+
+During the trans-Pacific flight, I also saw the sunrise through the cabin windows. Golden-orange light passed through a row of windows and briefly lit the cabin. The long flight was exhausting, but the sunrise left one scene worth remembering from those fourteen hours.
+
+![Sunrise through the AC20 cabin windows](/images/air-canada/ac20-sunrise-cabin.webp)
+
+*Sunrise entering the cabin through a row of windows during the trans-Pacific flight.*
+
+That balance belongs in the full assessment. Air Canada's cabin odor, turnaround, delay, and baggage performance deserve criticism. The AC20 meal was still genuinely good, and the sunrise was worth seeing. One journey can contain both operational failures and satisfying moments; there is no reason to erase either side to strengthen the conclusion.
+
 ## At YVR, the Air Canada problems kept stacking up
 
 After AC20 reached Vancouver, I connected to AC1762 for Austin.
