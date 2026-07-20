@@ -629,6 +629,15 @@
       }
     ]
   },
+  "/posts/2026/07/air-canada-sin-yvr-aus-experience/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/air-canada-sin-yvr-aus-experience/"
+      }
+    ]
+  },
   "/posts/2026/07/egg-fried-rice-materials-model/": {
     "variants": [
       {
@@ -1337,6 +1346,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/07/ai-travel-and-the-return-of-the-high-end-secretary/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/air-canada-sin-yvr-aus-experience/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/air-canada-sin-yvr-aus-experience/"
       }
     ]
   },
