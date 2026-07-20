@@ -97,7 +97,7 @@ The carbohydrate load, combined with fatigue from the trans-Pacific flight, quic
 
 This was not service recovery by the restaurant, and the Pad Thai did not redeem Air Canada. A mediocre but acceptably priced airport meal simply pushed an already exhausted passenger into sleep.
 
-## Landed at 8:51 p.m.; baggage had still not started at 9:23
+## Landed at 8:51 p.m.; the first bag physically appeared at 9:45
 
 In Austin, Air Canada added one final segment to the story.
 
@@ -117,7 +117,8 @@ Our conversation then produced a useful timeline:
 | 9:21 p.m. | ycao had reached Door M. |
 | 9:22 p.m. | Not a single bag had appeared on the carousel. |
 | 9:23 p.m. | Nothing had changed: about 32 minutes after landing, the first bag still had not appeared. |
-| 9:26 p.m. | The baggage-hall display finally showed `First Bag`, about 35 minutes after the 8:51 p.m. touchdown. |
+| 9:26 p.m. | The baggage-hall display showed `First Bag`, but the belt had not started and no bag had appeared. |
+| 9:45 p.m. | The belt finally started and the first physical bag appeared—about 54 minutes after touchdown and 19 minutes after the dashboard claimed `First Bag`. |
 
 ![At about 9:22 p.m., AC1762 passengers waited around the still-empty Carousel 6](/images/air-canada/ac1762-empty-baggage-carousel.webp)
 
@@ -129,13 +130,21 @@ Our conversation then produced a useful timeline:
 
 ![The Austin baggage display showed First Bag for AC1762 at 9:26 p.m.](/images/air-canada/ac1762-first-bag-2126.webp)
 
-*At 9:26 p.m., the display finally marked AC1762 as `First Bag`—about 35 minutes after the 8:51 p.m. touchdown.*
+*At 9:26 p.m., the display already marked AC1762 as `First Bag`; this was only a system status. The belt had not started and no bag had appeared.*
 
-This timeline says more than “baggage was a little slow.” My friend left home, drove to the airport, and reached Door M before Air Canada delivered the first bag to the carousel. ycao's original 20-minute estimate barely covered the time from touchdown to my exit from the aircraft; it did not begin to cover checked-baggage delivery.
+![At 9:45 p.m., AC1762's first physical bag finally emerged](/images/air-canada/ac1762-actual-first-bag-2145.webp)
+
+*At 9:45 p.m., the belt actually started and the first bag appeared; the display at upper left still read `First Bag`.*
+
+When the carousel finally made its startup sound, waiting passengers applauded and whistled. They were not celebrating a service achievement. The collective reaction was a sarcastic response to a wait that had finally ended. An ordinary baggage belt received the reaction of a show beginning, which was itself the clearest on-site review of the delay.
+
+More importantly, the dashboard and physical reality differed by **19 minutes**. The dashboard claimed `First Bag` at 9:26, while the first actual bag did not emerge until 9:45. An observer reading only the system record would conclude that delivery had begun; passengers at the carousel were still looking at a motionless belt.
+
+This timeline says more than “baggage was a little slow.” My friend left home, drove to the airport, reached Door M, and then waited more than twenty additional minutes before Air Canada delivered the first bag to the carousel. ycao's original 20-minute estimate barely covered the time from touchdown to my exit from the aircraft; it did not begin to cover checked-baggage delivery.
 
 For passengers, a flight marked “arrived” does not mean the journey has ended. Taxiing, reaching the gate, opening the door, unloading 39 rows of passengers, walking to baggage claim, and waiting for ground crews to unload and route bags can each consume more time. **8:51 p.m. was the aircraft's touchdown time, not the time when I could leave the airport.**
 
-Those 35 minutes before the display reached `First Bag` were especially conspicuous after a go-around, towing, and delay. Even after the aircraft finally reached Austin, passengers still had to wait for the door, deplaning, and a baggage system that had not begun producing bags. Air Canada turned the last mile into another queue.
+Those 54 minutes before the first physical bag appeared were especially conspicuous after a go-around, towing, and delay. Even after the aircraft finally reached Austin, passengers still had to wait for the door, deplaning, and a baggage system that had not begun producing bags. Air Canada turned the last mile into another queue.
 
 ## Not a disaster, but a chain of avoidable friction
 
@@ -149,7 +158,7 @@ But an airline should not be judged only by whether passengers eventually arrive
 - Do delay notices provide explanations passengers can understand?
 - Do small failures keep stacking up until they drain passengers' energy and trust?
 
-No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, delay, and a baggage display that did not reach `First Bag` until 35 minutes after touchdown.
+No single issue on this trip was a disaster. The problem was the chain: fourteen hours of lavatory odor, a confusing YVR transfer, a weak recent on-time sample, a go-around, towing, delay, and a dashboard that claimed `First Bag` 19 minutes before the first physical bag appeared, 54 minutes after touchdown.
 
 In the end, luck gave me a row. I ate a disappointing but cheap-enough Pad Thai, then slept through the next flight under the combined weight of carbohydrates and exhaustion. Air Canada completed the transportation. It did not deliver an experience I would trust.
 
