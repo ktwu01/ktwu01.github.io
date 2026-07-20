@@ -11,8 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
     - uses: actions/checkout@v7
@@ -31,14 +29,11 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
-    - name: Commit changes
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add talkmap_out.ipynb talkmap/
-        if git diff --cached --quiet; then
-          echo "No talk-map changes to commit"
-          exit 0
-        fi
-        git commit -m "Automated update of talk locations"
-        git push
+    - name: Upload generated talk map
+      uses: actions/upload-artifact@v7
+      with:
+        name: talk-map
+        path: |
+          talkmap/map.html
+          talkmap/org-locations.js
+          talkmap_out.ipynb
