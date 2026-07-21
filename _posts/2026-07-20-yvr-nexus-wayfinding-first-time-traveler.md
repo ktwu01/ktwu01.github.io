@@ -91,6 +91,16 @@ At a major airport, entering the wrong line is not a moral failure. It is a huma
 
 I have already sent YVR my photos from the airport and suggestions for improvement. Its official customer-service page lists [customercallcentre@yvr.ca](mailto:customercallcentre@yvr.ca) and `604-207-7077`; YVR also says that customer-care staff and Green Coat volunteers are available around the clock. For that reason, I hope the airport checks more than whether help exists somewhere in the terminal. It should ask whether a first-time international connecting passenger can actually get help at this specific fork, within this specific field of view, before making a decision.
 
+## Update: YVR Responded Promptly
+
+I submitted my feedback at 8:56 a.m. on July 19. About 52 minutes later, YVR created case `SR1333471` and forwarded my comments to the relevant departments. The following day, Andrew Song from YVR's Guest Experience team confirmed that my six suggestions had been shared with the appropriate teams and would be included in future assessments of signage and passenger flow.
+
+That response time deserves recognition. Only about one day passed between my report and a substantive reply from a named staff member. YVR not only acknowledged the message but also created a formal case, reviewed the details, and specifically addressed my six suggestions.
+
+Changes to airport signage require assessment, design, approval, and coordination across multiple teams. They cannot reasonably be completed within two or three days. YVR's prompt and specific response already shows that documenting a problem and submitting clear, actionable suggestions can produce a formal response.
+
+I appreciate the YVR Guest Experience team's attention to this report. I look forward to the relevant teams completing their assessment and, where appropriate, improving the signs at this decision point for future first-time international connecting passengers.
+
 Apart from this wayfinding fork, my overall experience with U.S. preclearance at YVR was fine. The entire preclearance process did not fail; one critical decision point failed to explain the correct path.
 
 The same connection at YVR also gave me several observations unrelated to wayfinding, including the apparent age distribution around me, the lack of spaces designed for work, and the visible differences between people in Vancouver and Texas. I recorded those in a separate post: [Another Side of Vancouver Airport: Age, Workspace, and the People I Saw](/posts/2026/07/yvr-airport-age-workspace-people-observations/).
