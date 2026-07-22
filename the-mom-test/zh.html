@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>妈妈测试 — 幻灯片</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --bg-2: #161922;
+    --fg: #f4f1ea;
+    --fg-mute: #9aa0a6;
+    --accent: #ffb454;
+    --accent-2: #7ee2b8;
+    --bad: #ff6b6b;
+    --good: #7ee2b8;
+    --rule: #ffd479;
+    --card: #1c2030;
+    --line: #2a2f42;
+    --serif: "Noto Serif SC","Source Han Serif SC","STSong","SimSun","Georgia",serif;
+    --sans: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",-apple-system,Helvetica,Arial,sans-serif;
+    --mono: "JetBrains Mono","SF Mono",Menlo,Consolas,monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    overflow: hidden;
+    height: 100vh;
+  }
+  .deck {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .slide {
+    position: absolute;
+    inset: 0;
+    display: none;
+    padding: 6vh 8vw;
+    overflow-y: auto;
+    animation: fadeIn .35s ease;
+  }
+  .slide.active { display: flex; flex-direction: column; }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Header / footer */
+  .topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    font-size: 13px;
+    color: var(--fg-mute);
+    z-index: 10;
+    pointer-events: none;
+  }
+  .topbar .brand { letter-spacing: .05em; }
+  .topbar .counter { font-variant-numeric: tabular-nums; }
+  .topbar .lang-link {
+    pointer-events: auto;
+    color: var(--fg-mute);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 10px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    transition: color .15s, border-color .15s;
+  }
+  .topbar .lang-link:hover { color: var(--accent); border-color: var(--accent); }
+  .footbar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    font-size: 12px;
+    color: var(--fg-mute);
+    z-index: 10;
+  }
+  .progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    z-index: 11;
+    transition: width .3s ease;
+  }
+  .nav-hint { font-family: var(--mono); font-size: 11px; opacity: .6; }
+  .nav-btns { display: flex; gap: 8px; pointer-events: auto; }
+  .nav-btns button {
+    background: var(--card);
+    border: 1px solid var(--line);
+    color: var(--fg);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .nav-btns button:hover { background: var(--line); }
+
+  /* Typography */
+  h1, h2, h3 { font-family: var(--serif); font-weight: 700; margin: 0; line-height: 1.2; }
+  h1 { font-size: clamp(36px, 6vw, 88px); letter-spacing: -.01em; }
+  h2 { font-size: clamp(26px, 3.8vw, 58px); letter-spacing: -.01em; margin-bottom: .4em; }
+  h3 { font-size: clamp(20px, 2.2vw, 30px); }
+  p, li { font-size: clamp(16px, 1.4vw, 22px); line-height: 1.7; }
+  .lead { font-size: clamp(18px, 1.8vw, 26px); color: var(--fg); opacity: .92; line-height: 1.6; }
+  .kicker {
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-size: 12px;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .muted { color: var(--fg-mute); }
+  em { color: var(--accent); font-style: normal; }
+  strong { color: var(--fg); }
+
+  /* Cover */
+  .cover {
+    justify-content: center;
+    align-items: flex-start;
+    background:
+      radial-gradient(900px 600px at 80% 20%, rgba(255,180,84,.10), transparent 60%),
+      radial-gradient(700px 500px at 10% 90%, rgba(126,226,184,.08), transparent 60%),
+      var(--bg);
+  }
+  .cover .eyebrow {
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 13px;
+    color: var(--accent);
+    margin-bottom: 24px;
+  }
+  .cover h1 { font-size: clamp(52px, 8vw, 120px); }
+  .cover .subtitle {
+    font-family: var(--serif);
+    font-size: clamp(18px, 2.2vw, 28px);
+    margin-top: 18px;
+    max-width: 28ch;
+    color: var(--fg-mute);
+    line-height: 1.6;
+  }
+  .cover .byline {
+    margin-top: 48px;
+    font-size: 14px;
+    color: var(--fg-mute);
+    letter-spacing: .08em;
+  }
+
+  /* Layouts */
+  .center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 24px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px 26px;
+  }
+  .card.bad { border-color: rgba(255,107,107,.4); background: linear-gradient(180deg, rgba(255,107,107,.06), transparent), var(--card); }
+  .card.good { border-color: rgba(126,226,184,.4); background: linear-gradient(180deg, rgba(126,226,184,.06), transparent), var(--card); }
+  .card .label {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--fg-mute);
+    margin-bottom: 10px;
+  }
+  .card.bad .label { color: var(--bad); }
+  .card.good .label { color: var(--good); }
+
+  /* Rule of thumb */
+  .rule {
+    margin-top: 28px;
+    padding: 18px 24px;
+    border-left: 4px solid var(--rule);
+    background: rgba(255, 212, 121, .06);
+    border-radius: 0 10px 10px 0;
+    font-family: var(--serif);
+    font-size: clamp(16px, 1.5vw, 21px);
+    line-height: 1.6;
+  }
+  .rule::before {
+    content: "经验法则 — ";
+    font-style: normal;
+    font-family: var(--mono);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .18em;
+    color: var(--rule);
+    margin-right: 8px;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  /* Dialogue */
+  .dialogue {
+    font-family: var(--sans);
+    font-size: clamp(13px, 1.05vw, 16px);
+    line-height: 1.75;
+    background: rgba(255,255,255,.02);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 26px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .dialogue .line { display: grid; grid-template-columns: 72px 1fr; gap: 12px; padding: 6px 0; }
+  .dialogue .who { color: var(--fg-mute); }
+  .dialogue .who.son { color: var(--accent); }
+  .dialogue .who.mom { color: var(--accent-2); }
+  .dialogue .who.you { color: var(--accent); }
+  .dialogue .who.them { color: var(--accent-2); }
+  .dialogue .what { color: var(--fg); }
+  .dialogue .aside { color: var(--fg-mute); font-style: italic; display: block; margin-top: 4px; font-family: var(--serif); }
+
+  /* Big numbered list */
+  .bignum {
+    list-style: none;
+    padding: 0; margin: 0;
+    display: grid;
+    gap: 22px;
+  }
+  .bignum li {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 22px;
+    align-items: start;
+  }
+  .bignum li .n {
+    font-family: var(--serif);
+    font-size: clamp(48px, 5vw, 80px);
+    color: var(--accent);
+    line-height: .9;
+    font-weight: 700;
+  }
+  .bignum li .body { padding-top: 6px; }
+  .bignum li .body p { margin: 6px 0 0; }
+
+  /* Bullet list */
+  ul.clean { list-style: none; padding: 0; margin: 12px 0 0; }
+  ul.clean li {
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  ul.clean li:last-child { border-bottom: 0; }
+  ul.clean li::before {
+    content: "→";
+    color: var(--accent);
+    margin-right: 12px;
+    font-family: var(--mono);
+  }
+
+  /* Q&A flip */
+  .qa-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 18px;
+  }
+  .q {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 18px 20px;
+    border-radius: 10px;
+  }
+  .q .tag {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .15em;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-bottom: 8px;
+  }
+  .q.bad { border-color: rgba(255,107,107,.35); }
+  .q.bad .tag { background: rgba(255,107,107,.15); color: var(--bad); }
+  .q.good { border-color: rgba(126,226,184,.35); }
+  .q.good .tag { background: rgba(126,226,184,.15); color: var(--good); }
+  .q .ask { font-family: var(--serif); font-size: 18px; line-height: 1.5; }
+
+  /* Section divider */
+  .divider {
+    background: linear-gradient(135deg, #1a1f2e, #0f1115);
+  }
+  .divider .ch {
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    color: var(--accent);
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .divider h1 { font-size: clamp(52px, 7.5vw, 110px); }
+
+  /* Two column */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  /* Cheatsheet */
+  .sheet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 20px;
+  }
+  .sheet .box {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .sheet .box h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  .sheet .box ul { padding-left: 18px; margin: 0; }
+  .sheet .box li { font-size: 14px; line-height: 1.6; padding: 3px 0; }
+
+  /* Pillars */
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 30px;
+  }
+  .pillar {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pillar .num {
+    position: absolute;
+    top: -10px; right: 16px;
+    font-family: var(--serif);
+    font-size: 110px;
+    color: var(--accent);
+    opacity: .12;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .pillar h3 { font-size: 22px; margin-bottom: 8px; }
+  .pillar p { font-size: 15px; color: var(--fg-mute); }
+
+  /* Bad-data triangle */
+  .triangle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 26px;
+  }
+  .badbox {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px;
+  }
+  .badbox .icon {
+    font-family: var(--serif);
+    font-size: 36px;
+    color: var(--bad);
+    margin-bottom: 8px;
+  }
+  .badbox h3 { font-size: 22px; margin-bottom: 6px; }
+  .badbox p { font-size: 15px; color: var(--fg-mute); margin: 0; }
+
+  /* Map nav */
+  .map-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 24px;
+  }
+  .map-cell {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .map-cell:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .map-cell .num {
+    font-family: var(--mono);
+    color: var(--accent);
+    font-size: 11px;
+    letter-spacing: .15em;
+  }
+  .map-cell .title {
+    font-family: var(--serif);
+    font-size: 17px;
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  /* Highlight callout */
+  .callout {
+    margin-top: 22px;
+    padding: 22px 26px;
+    background: linear-gradient(135deg, rgba(255,180,84,.12), rgba(126,226,184,.08));
+    border: 1px solid rgba(255,180,84,.25);
+    border-radius: 14px;
+    font-family: var(--serif);
+    font-size: clamp(18px, 1.9vw, 26px);
+    line-height: 1.6;
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .grid-2, .grid-3, .pillars, .triangle, .sheet, .map-grid, .qa-grid, .two-col {
+      grid-template-columns: 1fr;
+    }
+    .slide { padding: 8vh 6vw; }
+  }
+
+  /* Scrollbar */
+  .slide::-webkit-scrollbar { width: 8px; }
+  .slide::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="topbar">
+  <div class="brand">妈妈测试 · Rob Fitzpatrick</div>
+  <div style="display:flex;align-items:center;gap:16px;pointer-events:auto">
+    <a href="index.html" class="lang-link">English</a>
+    <div class="counter"><span id="cur">1</span> / <span id="total">0</span></div>
+  </div>
+</div>
+<div class="footbar">
+  <div class="nav-hint">← →  ·  空格  ·  按 <strong>m</strong> 查看目录</div>
+  <div class="nav-btns">
+    <button onclick="prev()">← 上一页</button>
+    <button onclick="next()">下一页 →</button>
+  </div>
+</div>
+
+<main class="deck" id="deck">
+
+  <!-- 1. 封面 -->
+  <section class="slide cover active">
+    <div class="eyebrow">与客户沟通的实践指南</div>
+    <h1>妈妈测试</h1>
+    <div class="subtitle">当所有人都在对你说谎时，如何与客户交谈，并判断你的想法是否真的是一门好生意。</div>
+    <div class="byline">Rob Fitzpatrick 著 · 幻灯片摘要</div>
+  </section>
+
+  <!-- 2. 问题所在 -->
+  <section class="slide">
+    <div class="kicker">核心问题</div>
+    <h2>与客户沟通，难。</h2>
+    <p class="lead">我们都知道<em>应该</em>和客户谈。很多人<em>确实</em>在谈。但我们还是做出了没人买的东西。</p>
+    <div class="callout">
+      糟糕的客户对话不只是没用，它会给你假阳性——让你把钱、时间和团队都押注在错误的方向上。
+    </div>
+  </section>
+
+  <!-- 3. 考古比喻 -->
+  <section class="slide">
+    <div class="kicker">引言</div>
+    <h2>客户洞察是一门考古学。</h2>
+    <div class="two-col">
+      <p class="lead">真相很脆弱。每铲下去都能让你更近一步，但如果工具太粗暴，你会把它砸碎。</p>
+      <div>
+        <div class="card bad">
+          <div class="label">推土机与炸药</div>
+          <p>"你觉得这个想法好吗？"——这类重磅问题迫使对方奉承你。</p>
+        </div>
+        <div style="height:14px"></div>
+        <div class="card bad">
+          <div class="label">牙刷</div>
+          <p>畏惧深挖——永远找不到地下是否埋着什么。</p>
+        </div>
+      </div>
+    </div>
+    <p class="muted" style="margin-top:18px">真相是目标，问题是工具。学会驾驭它们。</p>
+  </section>
+
+  <!-- 4. 第一章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第一章</div>
+    <h1>妈妈测试</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:28ch">一套简单的提问规则——连你妈妈都无法对你说谎。</p>
+  </section>
+
+  <!-- 5. 失败的妈妈测试 -->
+  <section class="slide">
+    <div class="kicker">失败的妈妈测试</div>
+    <h2>"妈，你喜欢我的想法吗？"</h2>
+    <p class="muted">一个创业者要推销 iPad 菜谱 App，妈妈准备好撒谎了。</p>
+    <div class="dialogue">
+      <div class="line"><span class="who son">儿子：</span><span class="what">妈，如果有一个 iPad 上的菜谱 App，才 40 美元，你会买吗？<span class="aside">我正在乐观地问一个假设性问题，你知道我想让你说什么。</span></span></div>
+      <div class="line"><span class="who mom">妈妈：</span><span class="what">嗯……<span class="aside">好像我这把年纪还需要再买一本菜谱。</span></span></div>
+      <div class="line"><span class="who mom">妈妈：</span><span class="what">哦，好的，听起来很棒啊，宝贝。40 美元挺划算的。<span class="aside">我给了一个不痛不痒的赞美，顺带提了个功能需求，显得我在认真参与。</span></span></div>
+      <div class="line"><span class="who son">儿子：</span><span class="what">太好了，谢谢妈妈！爱你！<span class="aside">我完全误读了这段对话，把它当成了验证。</span></span></div>
+    </div>
+  </section>
+
+  <!-- 6. 通过妈妈测试 -->
+  <section class="slide">
+    <div class="kicker">通过妈妈测试</div>
+    <h2>别提你的想法，聊她的生活。</h2>
+    <div class="dialogue">
+      <div class="line"><span class="who son">儿子：</span><span class="what">妈，新 iPad 用起来怎么样？</span></div>
+      <div class="line"><span class="who mom">妈妈：</span><span class="what">哦，我很喜欢！天天都用。</span></div>
+      <div class="line"><span class="who son">儿子：</span><span class="what">最近一次用它做什么了？<span class="aside">聚焦到过去具体的行为，获取真实、具体的数据。</span></span></div>
+      <div class="line"><span class="who mom">妈妈：</span><span class="what">你爸和我在计划旅行，我在查住的地方。</span></div>
+      <div class="line"><span class="who son">儿子：</span><span class="what">用 App 查的吗？</span></div>
+      <div class="line"><span class="who mom">妈妈：</span><span class="what">没有，就用 Google。我不知道有这方面的 App。<span class="aside">年轻人把 App Store 当搜索引擎；老一辈则等别人推荐。</span></span></div>
+    </div>
+    <p class="muted" style="margin-top:14px">妈妈没法撒谎，因为我们从没提起我们的想法。</p>
+  </section>
+
+  <!-- 7. 三条规则 -->
+  <section class="slide">
+    <div class="kicker">妈妈测试</div>
+    <h2>三条简单规则。</h2>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="num">1</div>
+        <h3>聊他们的生活</h3>
+        <p>而不是你的想法。一旦你透露想法，偏见就会涌入。</p>
+      </div>
+      <div class="pillar">
+        <div class="num">2</div>
+        <h3>过去的具体事实</h3>
+        <p>而非笼统概括或对未来的看法。人们对自己未来的行为过于乐观。</p>
+      </div>
+      <div class="pillar">
+        <div class="num">3</div>
+        <h3>少说多听</h3>
+        <p>你开口的时候，什么都学不到。</p>
+      </div>
+    </div>
+    <div class="rule">客户对话默认是糟糕的。让它变好，是你的责任。</div>
+  </section>
+
+  <!-- 8. 第二章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第二章</div>
+    <h1>避免无效信息</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:30ch">假阴性会扼杀本可成功的想法。假阳性会葬送整个公司。后者更致命。</p>
+  </section>
+
+  <!-- 9. 三种无效信息 -->
+  <section class="slide">
+    <div class="kicker">无效信息的三种形式</div>
+    <h2>是什么在污染你的对话？</h2>
+    <div class="triangle">
+      <div class="badbox">
+        <div class="icon">★</div>
+        <h3>赞美</h3>
+        <p>"太酷了，我超喜欢！"——客户学习中的愚人金：闪亮、分心、毫无价值。</p>
+      </div>
+      <div class="badbox">
+        <div class="icon">∿</div>
+        <h3>废话</h3>
+        <p>笼统说法（"我通常……"）、未来承诺（"我会……"）、假设性表述（"我可能……"）。</p>
+      </div>
+      <div class="badbox">
+        <div class="icon">✦</div>
+        <h3>想法</h3>
+        <p>他们提的功能需求是动机的线索，不是你要照做的命令。</p>
+      </div>
+    </div>
+    <p class="muted" style="margin-top:18px">应对方法 → <strong>偏转</strong>赞美，<strong>锚定</strong>废话，<strong>挖掘</strong>想法背后的动机。</p>
+  </section>
+
+  <!-- 10. 最致命的废话 -->
+  <section class="slide center">
+    <div class="kicker">最致命的废话</div>
+    <h1 style="font-size: clamp(36px, 4.8vw, 68px); max-width: 22ch; text-align:center">"我<em>肯定</em>会买的。"</h1>
+    <p class="lead muted" style="max-width:44ch;margin-top:24px;text-align:center">听起来很具体，其实不然。人们对未来的自己极度乐观。在想象中，大家总是比现实里更积极、更兴奋、更愿意付钱。</p>
+    <div class="rule" style="margin-top:32px">凡是涉及未来的，都是过度乐观的谎言。</div>
+  </section>
+
+  <!-- 11. 锚定废话 -->
+  <section class="slide">
+    <div class="kicker">锚定废话</div>
+    <h2>把他们从幻想拉回现实。</h2>
+    <div class="dialogue">
+      <div class="line"><span class="who them">对方：</span><span class="what">我是"收件箱清零"的狂热信徒，这彻底改变了我的生活。<span class="aside">笼统（废话）式的宣言。</span></span></div>
+      <div class="line"><span class="who you">你：</span><span class="what">哈哈，不错。你现在收件箱里有多少封邮件？<span class="aside">具体化，看这个废话是否经得起推敲。</span></span></div>
+      <div class="line"><span class="who them">对方：</span><span class="what">今早进来大概十封吧。<span class="aside">事实！</span></span></div>
+      <div class="line"><span class="who you">你：</span><span class="what">上次彻底失控是什么时候？</span></div>
+      <div class="line"><span class="who them">对方：</span><span class="what">三周前。我出差，酒店网络不通——花了十天才恢复正常。</span></div>
+    </div>
+    <p class="muted" style="margin-top:14px">笼统宣言 → 过去的具体行为。现在才能真正学到东西。</p>
+  </section>
+
+  <!-- 12. 赞美 -->
+  <section class="slide">
+    <div class="kicker">偏转赞美</div>
+    <h2>"太棒了——有进展记得告诉我。"</h2>
+    <div class="grid-2">
+      <div class="card bad">
+        <div class="label">会议中的症状</div>
+        <ul class="clean">
+          <li>"谢谢！"</li>
+          <li>"很高兴你喜欢。"</li>
+        </ul>
+      </div>
+      <div class="card bad">
+        <div class="label">回到办公室后的症状</div>
+        <ul class="clean">
+          <li>"那次会谈进行得很顺利。"</li>
+          <li>"大家都喜欢这个想法。"</li>
+          <li>"我们收到了很多正面反馈。"</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">赞美是客户学习中的愚人金：闪亮、分心、毫无价值。</div>
+  </section>
+
+  <!-- 13. 第三章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第三章</div>
+    <h1>问重要的问题</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:30ch">一个不带偏向但对业务毫无推动的问题，只是在原地打转。</p>
+  </section>
+
+  <!-- 14. 好问题 vs 坏问题 -->
+  <section class="slide">
+    <div class="kicker">好问题 / 坏问题</div>
+    <h2>看出区别了吗？</h2>
+    <div class="qa-grid">
+      <div class="q bad">
+        <span class="tag">差</span>
+        <div class="ask">"你觉得这个想法好吗？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">只有市场能告诉你。其他的都是观点。</p>
+      </div>
+      <div class="q bad">
+        <span class="tag">差</span>
+        <div class="ask">"如果有个产品能做 X，你会买吗？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">来自想让你高兴的乐观者的假设性回答。</p>
+      </div>
+      <div class="q bad">
+        <span class="tag">差</span>
+        <div class="ask">"你愿意为 X 付多少钱？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">数字给人一种虚假的严谨感。</p>
+      </div>
+      <div class="q good">
+        <span class="tag">好</span>
+        <div class="ask">"跟我说说上次遇到这个情况是什么时候。"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">展示而非表述。从行动而非观点中学习。</p>
+      </div>
+      <div class="q good">
+        <span class="tag">好</span>
+        <div class="ask">"这对你意味着什么？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">区分"值得花钱解决"和"烦人但能忍"的问题。</p>
+      </div>
+      <div class="q good">
+        <span class="tag">好</span>
+        <div class="ask">"你现在是怎么应对这个问题的？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">揭示工作流程、变通方法和价格锚点。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 15. 爱上坏消息 -->
+  <section class="slide">
+    <div class="kicker">爱上坏消息</div>
+    <h2>"还行"比"哇塞"更有价值。</h2>
+    <p class="lead">最有信息量的回应听起来往往是：<em>"嗯，我不太确定"</em> 或 <em>"挺不错的。"</em> 两者都是他们不在意的信号。</p>
+    <div class="callout">
+      最典型的错误是"加大力度"继续推销，直到对方说出好话。除非他们拿着支票，否则你只会收获更多假阳性。
+    </div>
+    <div class="rule">"还行"里的信息量比"哇塞"更可靠。你无法靠一个温吞的回应支撑起一门生意。</div>
+  </section>
+
+  <!-- 16. 先看全局 -->
+  <section class="slide">
+    <div class="kicker">先看全局</div>
+    <h2>在搞清楚他们是否关心这件事之前，别急着深入细节。</h2>
+    <p class="lead">如果在确认他们是否在乎这个领域之前就钻进某个子问题，你收集到的每个细节都会产生误导。</p>
+    <ul class="clean" style="margin-top:24px">
+      <li>"你现在最大的目标是什么？" → 找到他们真正付诸行动的优先级。</li>
+      <li>"你有多重视自己的博客？" → 检验这个问题是否进了他们的前三名。</li>
+      <li>"你目前最想解决的三件大事是什么？" → 逼出诚实的排序。</li>
+    </ul>
+    <div class="rule">从宏观开始。找到强信号之后，再深入细节。</div>
+  </section>
+
+  <!-- 17. 三个最重要的问题 -->
+  <section class="slide center">
+    <div class="kicker">准备你的三个问题</div>
+    <h1 style="font-size:clamp(36px,5vw,72px);max-width:18ch;text-align:center">时刻准备好你最重要的三个问题。</h1>
+    <p class="lead muted" style="max-width:44ch;margin-top:24px;text-align:center">提前规划让你害怕的问题，会让它们更容易开口。随着认知变化，及时更新这份清单。</p>
+    <div class="rule" style="margin-top:30px">每次对话，你至少应该对其中一个问题感到害怕。</div>
+  </section>
+
+  <!-- 18. 第四章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第四章</div>
+    <h1>保持随意</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:30ch">去掉正式感。第一次对话做成聊天，比做成会议更有效。</p>
+  </section>
+
+  <!-- 19. 随意聊天 -->
+  <section class="slide">
+    <div class="kicker">不要"访谈"</div>
+    <h2>就是聊聊——喝咖啡、参加活动、排队时都行。</h2>
+    <div class="grid-2">
+      <div>
+        <p class="lead">去掉正式感之后，对话变得快速而轻量，你可以在一次聚会结束时收获十几段这样的对话——每一段都和一次正式长会一样有价值。</p>
+        <div class="rule">了解客户和他们的问题，随意的短聊比正式的长会更有效。</div>
+      </div>
+      <div class="card">
+        <div class="label">为什么有效</div>
+        <ul class="clean">
+          <li>无需为一小时会议协调四小时日程</li>
+          <li>不会因"我来访谈你"而带入偏见</li>
+          <li>人们天生喜欢聊自己和自己的问题</li>
+          <li>更容易被记住，更容易获得后续跟进</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 20. 第五章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第五章</div>
+    <h1>承诺与推进</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:30ch">停止收集僵尸线索，让会议成功或失败，给出明确结果。</p>
+  </section>
+
+  <!-- 21. 会议要么成功要么失败 -->
+  <section class="slide">
+    <div class="kicker">会议要么成功，要么失败</div>
+    <h2>不存在"进行得还不错"的会议。</h2>
+    <div class="grid-2">
+      <div>
+        <p class="lead"><strong>承诺</strong>——他们放弃了有价值的东西（时间、声誉、金钱）。</p>
+        <p class="lead"><strong>推进</strong>——他们进入了你真实漏斗的下一步。</p>
+        <div class="rule">如果产品或销售会议结束后你不知道下一步是什么，这次会议就是毫无意义的。</div>
+      </div>
+      <div>
+        <div class="card">
+          <div class="label">对话的货币</div>
+          <ul class="clean">
+            <li><strong>时间</strong>——带明确目标的下次会议、原型审查、真实试用</li>
+            <li><strong>声誉</strong>——引荐同行、决策者、公开背书</li>
+            <li><strong>金钱</strong>——意向书、预订、定金</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 22. 好与坏的会议结尾 -->
+  <section class="slide">
+    <div class="kicker">这次会议进行得怎么样？</div>
+    <h2>他们到底说了什么？</h2>
+    <div class="qa-grid">
+      <div class="q bad">
+        <span class="tag">差</span>
+        <div class="ask">"太棒了，我超喜欢！"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">纯粹的赞美，零数据。</p>
+      </div>
+      <div class="q bad">
+        <span class="tag">拖延</span>
+        <div class="ask">"看起来不错，发布了告诉我一声。"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">"别找我，我会找你的"的变体。</p>
+      </div>
+      <div class="q bad">
+        <span class="tag">危险</span>
+        <div class="ask">"我肯定会买的。"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">让一位创业者损失 1000 万美元的废话。</p>
+      </div>
+      <div class="q good">
+        <span class="tag">好</span>
+        <div class="ask">"下一步怎么走？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">会议只需要推进——即使没有支票。</p>
+      </div>
+      <div class="q good">
+        <span class="tag">很好</span>
+        <div class="ask">"我能买这个原型吗？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">你能听到的最好的会议结尾。</p>
+      </div>
+      <div class="q good">
+        <span class="tag">很好</span>
+        <div class="ask">"你什么时候能和我们团队谈？"</div>
+        <p class="muted" style="margin-top:8px;font-size:14px">B2B 的胜利——他们在押注自己的声誉。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 23. 第六章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第六章</div>
+    <h1>寻找对话机会</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:32ch">别再要求"访谈"了。找一个你们都关心的话题作为切入点。</p>
+  </section>
+
+  <!-- 24. 去哪里找人 -->
+  <section class="slide">
+    <div class="kicker">三种找人模式</div>
+    <h2>主动找他们、吸引他们来找你、融入他们。</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="label">主动找他们</div>
+        <ul class="clean">
+          <li>冷联系（成功率低，偶有惊喜）</li>
+          <li>把握活动中的偶遇机会</li>
+          <li>找一个好借口</li>
+          <li>落地页 → 联系注册用户</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="label">吸引他们来找你</div>
+        <ul class="clean">
+          <li>自己组织聚会</li>
+          <li>演讲与授课</li>
+          <li>行业博客写作</li>
+          <li>打造有用的工具作为诱饵</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="label">融入他们</div>
+        <ul class="clean">
+          <li>去他们常去的地方</li>
+          <li>让自己成为常客</li>
+          <li>成为社区的一部分</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">如果不是正式会议，你不需要解释自己为什么在场。直接聊他们的生活就好。</div>
+  </section>
+
+  <!-- 25. 第七章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第七章</div>
+    <h1>选择你的客户</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:30ch">创业公司不是被饿死的，而是被淹死的。把你的细分市场切得足够细，直到你知道找谁、去哪找。</p>
+  </section>
+
+  <!-- 26. 客户细分 -->
+  <section class="slide">
+    <div class="kicker">客户细分</div>
+    <h2>从"学生"到"谁+在哪里"的组合。</h2>
+    <p class="lead">模糊的细分市场会带来混乱的反馈。不断切分，直到你知道<strong>谁</strong>最需要它，以及<strong>去哪里</strong>找到他们。</p>
+    <ul class="clean" style="margin-top:18px">
+      <li>这个群体里，谁最需要它？</li>
+      <li>那个子群体为什么想要它？他们具体的动机是什么？</li>
+      <li>群体里的每个人都有这个动机，还是只有部分人？</li>
+      <li>还有哪些其他群体有同样的动机？</li>
+    </ul>
+    <div class="callout" style="margin-top:18px">
+      "25—35 岁的金融从业者，在大城市"→毫无用处。<br>
+      "在伦敦、正在备战马拉松、午餐时间去健身房的金融从业者"→可以找到。
+    </div>
+    <div class="rule">好的客户细分是"谁+在哪里"的组合。如果你不知道去哪找他们，就继续切分。</div>
+  </section>
+
+  <!-- 27. 第八章 分隔页 -->
+  <section class="slide divider center">
+    <div class="ch">第八章</div>
+    <h1>执行流程</h1>
+    <p class="lead muted" style="margin-top:24px;max-width:34ch">准备 · 保持随意 · 问好问题 · 推动承诺 · 记笔记 · 与团队复盘。</p>
+  </section>
+
+  <!-- 28. 完整闭环 -->
+  <section class="slide">
+    <div class="kicker">完整闭环</div>
+    <h2>每次对话：之前 · 之中 · 之后。</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="label">之前</div>
+        <ul class="clean">
+          <li>选定聚焦的细分市场</li>
+          <li>确定 3 个最大的学习目标</li>
+          <li>确定理想的承诺形式</li>
+          <li>如有可能，先做桌面研究</li>
+        </ul>
+      </div>
+      <div class="card good">
+        <div class="label">之中</div>
+        <ul class="clean">
+          <li>设定对话框架</li>
+          <li>保持随意</li>
+          <li>用妈妈测试提问</li>
+          <li>偏转、锚定、挖掘</li>
+          <li>认真记笔记</li>
+          <li>推动承诺与下一步</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="label">之后</div>
+        <ul class="clean">
+          <li>与团队一起回顾笔记和金句</li>
+          <li>更新认知与计划</li>
+          <li>确定下 3 个最大问题</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">如果你不知道想学什么，就不值得去进行这次对话。</div>
+  </section>
+
+  <!-- 29. 如果必须预约会议 -->
+  <section class="slide">
+    <div class="kicker">如果必须预约会议</div>
+    <h2>框架：愿景 · 定位 · 弱点 · 台阶 · 请求。</h2>
+    <ol class="bignum">
+      <li><span class="n">1</span><div class="body"><h3>愿景</h3><p class="muted">用半句话说明你如何让世界变得更好。</p></div></li>
+      <li><span class="n">2</span><div class="body"><h3>定位</h3><p class="muted">说明你目前所处的阶段，以及你想学什么。</p></div></li>
+      <li><span class="n">3</span><div class="body"><h3>弱点</h3><p class="muted">指出你卡在哪里——展示你真的需要帮助。</p></div></li>
+      <li><span class="n">4</span><div class="body"><h3>台阶</h3><p class="muted">表明<em>他们本人</em>特别能提供这种帮助。</p></div></li>
+      <li><span class="n">5</span><div class="body"><h3>请求</h3><p class="muted">直接请求帮助。人们其实很愿意给予。</p></div></li>
+    </ol>
+  </section>
+
+  <!-- 30. 速查表 -->
+  <section class="slide">
+    <div class="kicker">速查表</div>
+    <h2>一页纸搞定全部内容。</h2>
+    <div class="sheet">
+      <div class="box">
+        <h4>妈妈测试</h4>
+        <ul>
+          <li>聊他们的生活，不聊你的想法</li>
+          <li>过去的具体事实，不聊笼统概括或未来</li>
+          <li>少说多听</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>避免无效信息</h4>
+        <ul>
+          <li>偏转赞美</li>
+          <li>锚定废话</li>
+          <li>挖掘想法、观点和情绪背后的动机</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>好会议的结果</h4>
+        <ul>
+          <li>关于他们生活的事实</li>
+          <li>承诺（时间、声誉、金钱）</li>
+          <li>推进到漏斗下一步</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>注意这些错误</h4>
+        <ul>
+          <li>钓鱼要赞美</li>
+          <li>暴露自己的情绪</li>
+          <li>滑入推销模式</li>
+          <li>过于正式</li>
+          <li>成为学习瓶颈</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>走过场了吗？</h4>
+        <ul>
+          <li>你说得比他们多</li>
+          <li>他们在赞美你</li>
+          <li>你没有笔记</li>
+          <li>没有明确的下一步</li>
+          <li>没有一个问题让你感到害怕</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>最重要的准备问题</h4>
+        <ul>
+          <li><strong>"我们想从这些人身上学到什么？"</strong></li>
+          <li>始终备好 3 个最大问题</li>
+          <li>至少有一个让你感到害怕</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 31. 最终总结 -->
+  <section class="slide center">
+    <div class="kicker">一句话总结</div>
+    <h1 style="font-size:clamp(32px,4.5vw,64px);max-width:20ch;text-align:center">告诉你真相，不是他们的责任——是你去找到它。</h1>
+    <p class="lead muted" style="max-width:46ch;margin-top:24px;text-align:center">他们拥有问题，你拥有解决方案。聊他们的生活，不聊你的想法，让事实说话。</p>
+    <div class="rule" style="margin-top:36px">去他的，开始建你的公司吧。</div>
+  </section>
+
+  <!-- 32. 目录 -->
+  <section class="slide" id="map-slide">
+    <div class="kicker">幻灯片目录 · 点击跳转</div>
+    <h2>浏览全部内容。</h2>
+    <div class="map-grid" id="map-grid"></div>
+  </section>
+
+</main>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total = slides.length;
+  let idx = 0;
+
+  document.getElementById('total').textContent = total;
+
+  function show(i) {
+    idx = (i + total) % total;
+    slides.forEach((s, n) => s.classList.toggle('active', n === idx));
+    document.getElementById('cur').textContent = idx + 1;
+    document.getElementById('progress').style.width = ((idx + 1) / total * 100) + '%';
+    history.replaceState(null, '', '#' + (idx + 1));
+  }
+  function next() { show(idx + 1); }
+  function prev() { show(idx - 1); }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); next(); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') { show(0); }
+    else if (e.key === 'End') { show(total - 1); }
+    else if (e.key === 'm' || e.key === 'M') { show(total - 1); }
+    else if (/^[0-9]$/.test(e.key)) {
+      const target = parseInt(e.key, 10);
+      if (target >= 1 && target <= total) show(target - 1);
+    }
+  });
+
+  let tx = 0;
+  document.addEventListener('touchstart', (e) => { tx = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 40) { dx < 0 ? next() : prev(); }
+  });
+
+  const mapGrid = document.getElementById('map-grid');
+  slides.forEach((s, n) => {
+    if (s.id === 'map-slide') return;
+    const titleEl = s.querySelector('h1, h2');
+    const title = titleEl ? titleEl.textContent.trim() : '第 ' + (n + 1) + ' 页';
+    const cell = document.createElement('div');
+    cell.className = 'map-cell';
+    cell.innerHTML = '<div class="num">' + String(n + 1).padStart(2,'0') + '</div><div class="title">' + title + '</div>';
+    cell.addEventListener('click', () => show(n));
+    mapGrid.appendChild(cell);
+  });
+
+  const fromHash = parseInt((location.hash || '#1').slice(1), 10);
+  if (!isNaN(fromHash)) show(fromHash - 1); else show(0);
+</script>
+
+</body>
+</html>
