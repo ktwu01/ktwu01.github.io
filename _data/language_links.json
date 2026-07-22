@@ -656,6 +656,15 @@
       }
     ]
   },
+  "/posts/2026/07/no-stupid-questions-meaning/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/no-stupid-questions-meaning/"
+      }
+    ]
+  },
   "/posts/2026/07/ntfs-drive-read-only-on-mac/": {
     "variants": [
       {
@@ -689,6 +698,24 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/07/singapore-gst-usd-conversion/"
+      }
+    ]
+  },
+  "/posts/2026/07/steve-jobs-customer-experience-backwards/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/steve-jobs-customer-experience-backwards/"
+      }
+    ]
+  },
+  "/posts/2026/07/the-mom-test-customer-interviews/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/the-mom-test-customer-interviews/"
       }
     ]
   },
@@ -1376,6 +1403,15 @@
       }
     ]
   },
+  "/zh/posts/2026/07/no-stupid-questions-meaning/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/no-stupid-questions-meaning/"
+      }
+    ]
+  },
   "/zh/posts/2026/07/ntfs-drive-read-only-on-mac/": {
     "variants": [
       {
@@ -1409,6 +1445,24 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/07/singapore-gst-usd-conversion/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/steve-jobs-customer-experience-backwards/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/steve-jobs-customer-experience-backwards/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/the-mom-test-customer-interviews/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/the-mom-test-customer-interviews/"
       }
     ]
   },
