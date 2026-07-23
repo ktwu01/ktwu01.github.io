@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <style>
+@page {
+    size: A4;
+    margin: 25mm 20mm 20mm 20mm;
+
+    @top-center {
+        content: "LLM取代人类专家智力：商业机会分析  |  横纵分析法深度研究报告";
+        font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        color: #95a5a6;
+        border-bottom: 0.5pt solid #ecf0f1;
+        padding-bottom: 3mm;
+    }
+
+    @bottom-center {
+        content: "第 " counter(page) " 页";
+        font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        color: #95a5a6;
+        border-top: 0.8pt solid #1a5276;
+        padding-top: 2mm;
+    }
+}
+
+@page :first {
+    @top-center { content: none; }
+    @bottom-center { content: none; }
+}
+
+body {
+    font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.75;
+    color: #2c3e50;
+    text-align: justify;
+}
+
+/* 封面 */
+.cover {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 45%;
+}
+.cover h1 {
+    font-size: 28pt;
+    color: #1a5276;
+    margin-bottom: 8mm;
+    font-weight: bold;
+    letter-spacing: 2pt;
+}
+.cover .subtitle {
+    font-size: 14pt;
+    color: #95a5a6;
+    margin-bottom: 6mm;
+}
+.cover .meta {
+    font-size: 11pt;
+    color: #95a5a6;
+    margin-bottom: 4mm;
+}
+.cover .divider {
+    width: 60%;
+    margin: 8mm auto;
+    border: none;
+    border-top: 1.5pt solid #1a5276;
+}
+
+/* 一级标题 */
+h1 {
+    font-size: 20pt;
+    color: #1a5276;
+    margin-top: 16mm;
+    margin-bottom: 6mm;
+    padding-bottom: 3mm;
+    border-bottom: 2pt solid #1a5276;
+    page-break-before: always;
+    font-weight: bold;
+}
+
+/* 二级标题 */
+h2 {
+    font-size: 14pt;
+    color: #1e8449;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    font-weight: bold;
+}
+
+/* 三级标题 */
+h3 {
+    font-size: 12pt;
+    color: #2e86c1;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 11pt;
+    color: #5b2c6f;
+    margin-top: 5mm;
+    margin-bottom: 2mm;
+    font-weight: bold;
+}
+
+/* 段落 */
+p {
+    margin-top: 1.5mm;
+    margin-bottom: 1.5mm;
+    orphans: 3;
+    widows: 3;
+}
+
+/* 引用块 */
+blockquote {
+    margin: 4mm 0;
+    padding: 4mm 4mm 4mm 10mm;
+    background: #f8f9fa;
+    border-left: 3pt solid #1a5276;
+    color: #5d6d7e;
+    font-size: 10pt;
+}
+blockquote p {
+    margin: 1mm 0;
+}
+
+/* 粗体 */
+strong, b {
+    font-weight: bold;
+    color: #1a252f;
+}
+
+/* 行内代码 */
+code {
+    font-family: "Courier New", Courier, monospace;
+    background: #fdf2e9;
+    color: #c0392b;
+    padding: 0.5mm 1.5mm;
+    border-radius: 2pt;
+    font-size: 9.5pt;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+}
+thead th {
+    background: #1a5276;
+    color: white;
+    padding: 3mm;
+    text-align: left;
+    font-weight: bold;
+}
+tbody td {
+    padding: 2.5mm 3mm;
+    border-bottom: 0.5pt solid #bdc3c7;
+}
+tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+/* 分隔线 */
+hr {
+    border: none;
+    border-top: 0.5pt solid #bdc3c7;
+    margin: 4mm 0;
+}
+
+/* 列表 */
+ul, ol {
+    margin: 2mm 0;
+    padding-left: 8mm;
+}
+li {
+    margin-bottom: 1mm;
+}
+
+/* 链接 */
+a {
+    color: #2e86c1;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+    <div class="cover">
+        <h1 style="page-break-before: avoid; border: none;">LLM取代人类专家智力：商业机会分析</h1>
+        <div class="subtitle">横纵分析法深度研究报告</div>
+        <div class='meta'>研究时间：2026年7月 | 所属领域：人工智能应用、知识工作、企业软件 | 研究对象类型：技术范式与商业机会</div>
+        <hr class="divider">
+        <div class="meta">作者: Koutian Wu (https://ktwu01.github.io/)</div>
+    </div>
+    
+
+<blockquote>
+<p>研究时间：2026年7月 | 所属领域：人工智能应用、知识工作、企业软件 | 研究对象类型：技术范式与商业机会</p>
+</blockquote>
+<h2>一、一句话定义</h2>
+<p>LLM应用最值得做的机会，不是再造一个“更聪明的聊天框”，而是把某类专家长期积累的判断、流程、证据和责任边界，重写成一个可以接入真实系统、持续执行并被审计的“数字工作单元”。</p>
+<p>这件事有两个历史参照物。</p>
+<p>电力没有简单地“替代蒸汽机”。它先把机械动力从一根传动轴上解放出来，变成可以被每台机器、每个楼层、每个工位单独调用的公共能力；随后，工厂才围绕电机重新设计布局与生产流程。美国国家历史博物馆对这段转型的描述很关键：电灯和电机改变了工厂与城市，中央发电和输电让企业可以在新的地点布局，电力系统本身也必须通过电缆、变压器、发电机和公共事业组织才能成立。[1]</p>
+<p>PC也没有简单地“替代计算器”。计算器把一组固定运算做得更快；PC加上VisiCalc，给了普通业务人员一种可以自己建模、反复试错、分析“如果……会怎样”的工具。IBM PC在1981年进入企业后，硬件、MS-DOS、电子表格、文字处理和外围设备共同形成了生态，真正被替代的是一部分“由专人操作的计算工作”，而不是计算这个动作本身。[2][3]</p>
+<p>LLM的机会与此相似，但对象从机械动作和数字运算，变成了语言、检索、推理、写作、协调与决策准备。模型本身会越来越像电网和CPU：强大、普遍、便宜、可替换。商业价值将向上游的工作流、数据、系统连接、责任承担和行业分发迁移。</p>
+<h2>二、纵向分析：从蒸汽动力、计算器到可调用的智力</h2>
+<h3>2.1 蒸汽机阶段：能力被封装在“发动机”里</h3>
+<p>蒸汽机改变工业的第一层方式，是提供比人力、畜力和水力更稳定的动力。但早期工厂并没有因此立刻变成今天理解的“自动化工厂”。动力通常通过巨大的中心机、皮带和传动轴分配到各台机器。机器必须围绕动力源排布，工厂选址也受水源、煤炭、传动效率和维修能力限制。</p>
+<p>因此，早期蒸汽动力解决的是“有没有足够大的力”，没有解决“力能否灵活地到达每一个工作点”。它提高了产能，却把组织结构锁在动力源周围。</p>
+<p>电力的历史意义不止是效率更高。电机可以小型化、分布式安装，照明和动力可以分别设计；工厂不必让所有机器共享一条中央传动轴。美国国家历史博物馆记录的全电工厂案例显示，1899年开设的全电棉纺厂已经把安全、照明和生产布局放在一起考虑。[1]</p>
+<p>这带来一个重要的商业类比：新技术的第一阶段往往是把旧系统“换成新动力”，第二阶段才是以新动力为前提重做系统。很多所谓“AI转型”现在仍停留在第一阶段：把一个聊天机器人加到原来的流程旁边，让员工自己复制、粘贴、校验，再把结果放回原系统。它像把一台电机装在蒸汽机的传动轴旁边，动力换了，工厂没变。</p>
+<p>真正的应用公司，要回答的是：如果智力可以像电力一样按需调用，原来的岗位、审批、信息流和组织边界应该怎样重画？</p>
+<h3>2.2 计算器阶段：工具加速动作，但不改变问题的边界</h3>
+<p>机械计算器的历史很长。计算器制造商在20世纪60年代转向电子机器，部分企业还尝试制造小型计算机，但后来被更大的公司挤出市场。[4]这段历史提醒创业者：当核心能力变成标准件后，原来靠制造工具本身获得的利润会迅速下沉。</p>
+<p>电子计算器确实更轻、更安静、更便宜，但它的工作边界依旧是“输入数字，输出结果”。它没有替用户决定要建哪一个模型，也没有把销售、库存、现金流、预算和管理报告串成一条业务链。</p>
+<p>这个边界被个人电脑和电子表格打破。Computer History Museum将VisiCalc称为第一款个人电脑电子表格软件，之后才出现Lotus、Microsoft等跟进者。[3]IBM在1981年推出PC，凭借品牌和企业渠道让PC获得大规模商业采用；更重要的是，PC软件生态快速扩张，电子表格和文字处理成为企业日常工作的一部分。[2]</p>
+<p>VisiCalc的价值不在于“比计算器多几个函数”。它把计算从一个需要专门设备的动作，变成了一个业务人员能够自行构造的表达环境。财务人员不必把每个假设交给数据处理部门；创业者可以在桌面上调整变量；经理可以直接把计算与决策连接起来。</p>
+<p>这正是LLM应用的第二个历史启示：不要只做“回答更快”，要让用户可以把一个完整的判断任务搭出来。一个好的LLM应用应当让专家或一线员工完成四个动作：给出目标、提供边界、让系统运行、复核证据。它不只是回答问题，而是把原来分散在搜索、表格、邮件、专业软件和人脑中的工作，组合成可复用的任务结构。</p>
+<h3>2.3 LLM阶段：从“生成内容”进入“执行工作”</h3>
+<p>ChatGPT之后，行业先经历了“问答和写作”阶段。用户向模型提出一个问题，模型返回一段文字。这个阶段的产品门槛低，传播快，但也容易陷入替代：只要底层模型在语言质量上进步，独立的写作、摘要、翻译和普通问答功能就会被平台直接吸收。</p>
+<p>随后出现了三个关键迁移。</p>
+<p>第一，模型从单轮回答转向多步研究。OpenAI在2025年发布Deep Research时，将它描述为可以在网上进行多步骤调查、分析数百个来源、生成研究报告的代理能力；同一产品路线还把浏览器操作与研究能力组合起来。[5]这说明模型厂商正在把“知识工作”从文本生成扩展到信息搜集、判断和产出。</p>
+<p>第二，模型从“知道”转向“能调用工具”。Anthropic对高级工具调用的描述指出，未来的代理会连接数百甚至数千个工具，并按需发现与加载工具，而不是把所有工具定义一次性塞进上下文。[6]工具调用本身不是终点，但它把模型从一个语言界面变成了一个可以进入CRM、代码仓库、企业知识库、浏览器、财务系统的执行层。</p>
+<p>第三，组织开始把代理当作团队成员，而不是个人插件。Microsoft 2025 Work Trend Index基于31个市场、31,000名知识工作者的调查，提出“Frontier Firm”概念：企业由人和代理组成混合团队，员工会逐渐承担训练、委派和管理代理的工作。[7]这不是一个单纯的功能更新，而是组织设计问题。</p>
+<p>三个迁移叠加后，市场的基本单位发生变化：过去软件卖“席位”，未来一部分软件会卖“完成的工作”；过去员工使用软件，未来员工还要管理一组可以执行工作的代理；过去专家的产出被文档保存，未来专家的判断方式、审查标准和例外处理会被保存为系统能力。</p>
+<h3>2.4 三个历史阶段的共同结构</h3>
+<table>
+<thead>
+<tr>
+<th>技术阶段</th>
+<th>旧工具解决什么</th>
+<th>新系统真正改变什么</th>
+<th>赢家通常掌握什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>蒸汽到电力</td>
+<td>机械动力</td>
+<td>动力可分布、工厂可重构</td>
+<td>发电、输电、设备和组织系统</td>
+</tr>
+<tr>
+<td>计算器到PC</td>
+<td>固定数字运算</td>
+<td>业务人员可自己建模</td>
+<td>平台、软件生态、文件格式和渠道</td>
+</tr>
+<tr>
+<td>LLM到应用</td>
+<td>语言生成与信息检索</td>
+<td>专家工作可被编排、执行、审计</td>
+<td>工作流、数据、工具连接、责任与分发</td>
+</tr>
+</tbody>
+</table>
+<p>历史上，基础能力的价格下降会让“卖能力本身”变难，却会扩大“围绕能力重新组织工作”的市场。电力公司并没有因为电机变便宜就消失；PC也没有因为CPU普及就变成唯一价值。价值转移了。</p>
+<p>LLM应用的关键问题不是模型是否足够聪明，而是哪个工作系统仍然因为缺少可调用的智力而昂贵、缓慢、不可扩展。</p>
+<h2>三、横向分析：竞争图谱与机会分层</h2>
+<h3>3.1 当前不是一个赛道，而是四层竞争</h3>
+<p>当前竞争者至少分为四类：</p>
+<ol>
+<li><strong>通用助手</strong>：ChatGPT、Claude、Gemini、Microsoft 365 Copilot。它们掌握模型、分发和通用入口，适合覆盖大量轻任务。</li>
+<li><strong>企业代理平台</strong>：Salesforce Agentforce、ServiceNow、Glean、Writer等。它们把代理嵌入企业系统，竞争核心是权限、数据和组织采购。</li>
+<li><strong>垂直专家产品</strong>：法律、医疗、金融、保险、房地产、采购、客服、软件开发等场景的AI产品。它们以行业流程、专业数据和结果责任构建壁垒。</li>
+<li><strong>专家服务产品化公司</strong>：把律师、研究员、审计员、投行分析师、招聘顾问、工程师的服务拆成可标准化的交付单元，按结果收费，而非按软件席位收费。</li>
+</ol>
+<p>前两层会快速压低通用功能的价格。第三层仍有机会，但必须深入业务系统。第四层的想象空间最大，也最难：它不是卖工具，而是要承担交付质量、客户信任和行业责任。</p>
+<h3>3.2 通用助手：流量入口很强，独立创业空间很窄</h3>
+<p>ChatGPT、Claude和Copilot的共同优势是入口、品牌、模型能力和数据连接。OpenAI的ChatGPT agent已将网页操作、Deep Research、代码执行、文件和第三方连接器组合在一起，能够完成研究、表格和演示文稿等复杂任务。[8]这类产品会不断向下吞噬“通用写作、通用研究、通用会议纪要、通用资料整理”等应用。</p>
+<p>通用助手仍有创业机会，但机会不在“另一个更好的聊天框”，而在以下差异：</p>
+<ul>
+<li>特定企业的权限、数据和审计要求；</li>
+<li>一个行业中的深度工作流；</li>
+<li>能直接改变收入、成本、风险或交付周期的结果；</li>
+<li>模型厂商不会优先做的长尾系统连接；</li>
+<li>有明确责任边界的“人审+代理执行”机制。</li>
+</ul>
+<h3>3.3 企业代理平台：入口与系统连接形成强势防线</h3>
+<p>Microsoft的调查显示，81%的领导者预计代理会在未来12至18个月中度或广泛进入企业AI战略，46%的领导者表示企业已经使用代理完全自动化某些工作流或流程。[7]这会拉动企业代理平台、身份权限、数据治理和评测系统的采购。</p>
+<p>但平台型机会的难点是销售周期长、集成重、客户往往已经拥有Salesforce、Microsoft、ServiceNow或大型云服务商。创业公司若只提供“编排多个模型和工具”的基础层，很容易被平台集成；只有当它在某一行业拥有独特数据、工作流模板、部署经验或结果网络时，才可能形成独立价值。</p>
+<p>平台层更适合两类团队：一类拥有企业软件销售和集成能力；另一类掌握某个高价值行业的标准流程，能从一个垂直工作流切入，再逐渐平台化。反过来，纯技术创业者如果没有分发渠道，可能会被困在演示效果很好、续费很差的项目制生意里。</p>
+<h3>3.4 垂直专家产品：用户买的不是答案，而是“少出错地完成任务”</h3>
+<p>垂直AI是最值得观察的应用层。Menlo Ventures的2025企业AI报告估计，企业AI应用投资中，行业特定AI约为35亿美元；同期，通用Copilot约84亿美元，说明通用助手规模更大，但垂直产品已经形成相当可观的独立支出类别。[9]</p>
+<p>垂直产品的真实用户理由通常不是“模型回答更聪明”，而是：</p>
+<ul>
+<li>系统知道行业术语、文件格式、法规和例外；</li>
+<li>输出直接进入现有系统，而不是停留在对话窗口；</li>
+<li>用户可以看到引用、依据和操作记录；</li>
+<li>任务失败时知道应该交给哪个人处理；</li>
+<li>公司愿意为可量化的时间节省、案件处理量或风险下降付费。</li>
+</ul>
+<p>最有潜力的垂直场景通常同时满足五个条件：工作由大量非结构化文本驱动；任务重复但例外很多；每次任务价值高；现有软件体验差；结果可以由人复核。法律合同审查、保险理赔、医疗文书、税务申报、采购比价、合规证据准备、工程投标和企业销售研究，都符合部分或全部条件。</p>
+<h3>3.5 专家服务产品化：最接近“取代专家”，也最容易被误读</h3>
+<p>如果目标是“LLM取代人类专家的智力”，最直接的商业机会不是把专家放在聊天框里，而是把专家服务重新包装成一个可交付结果。</p>
+<p>例如，一家面向中型企业的合规公司，不必出售“合规顾问小时数”，可以出售“每季度完成的监管变更扫描、证据包、整改清单和董事会报告”。后台由代理完成资料采集、法规比对、初步判断、任务分派和报告草拟，少量高风险事项交由资深专家签字。</p>
+<p>客户愿意付费，是因为他们想要的是“按时完成、可审计、有人负责”的结果，而不是一段模型生成的文字。</p>
+<p>这一层的优势是客单价、留存和利润上限可能高于普通SaaS；缺点是需要行业品牌、保险或责任安排、专家审核体系、客户成功和交付运营。它更像“软件化的专业服务公司”，而不是一个纯软件产品。</p>
+<h3>3.6 机会对比</h3>
+<table>
+<thead>
+<tr>
+<th>机会类型</th>
+<th>客户买什么</th>
+<th style="text-align: right;">被基础模型吞噬风险</th>
+<th>建壁垒的来源</th>
+<th>适合的商业模式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>通用写作/摘要</td>
+<td>更快产出文本</td>
+<td style="text-align: right;">极高</td>
+<td>极弱</td>
+<td>低价订阅、流量变现</td>
+</tr>
+<tr>
+<td>企业知识问答</td>
+<td>在内部资料中找答案</td>
+<td style="text-align: right;">高</td>
+<td>权限、数据接入、评测</td>
+<td>按席位或用量</td>
+</tr>
+<tr>
+<td>垂直工作流</td>
+<td>完成一项行业任务</td>
+<td style="text-align: right;">中</td>
+<td>流程、数据、系统、信任</td>
+<td>按席位+用量/结果</td>
+</tr>
+<tr>
+<td>专家服务产品化</td>
+<td>可审计的业务结果</td>
+<td style="text-align: right;">中低</td>
+<td>责任、交付网络、案例和数据</td>
+<td>按结果、案件、交易或节省收费</td>
+</tr>
+<tr>
+<td>AI原生业务系统</td>
+<td>重做一个行业核心系统</td>
+<td style="text-align: right;">低</td>
+<td>数据结构、流程锁定、生态</td>
+<td>SaaS+交易/服务费</td>
+</tr>
+</tbody>
+</table>
+<p>我的判断是：最好的创业起点通常在第三层，最好的长期终局可能是第四层或第五层。先从一个窄任务切进去，得到真实交付数据，再把被反复执行的判断变成产品，而不是一开始就宣称要“替代整个行业”。</p>
+<h2>四、横纵交汇洞察：为什么“应用”会比“模型”更像一门生意</h2>
+<h3>4.1 电力的教训：不能只卖电机，要重做工厂</h3>
+<p>电力革命中，电机只是可见的产品；真正的效率来自布局、照明、输电和管理方式一起变化。LLM应用也一样。一个模型接入企业后，如果仍然要求员工自己寻找资料、复制内容、判断来源、录入系统和承担错误，那么企业买到的是“额外的认知工具”，不是新的生产系统。</p>
+<p>因此，应用公司的第一项能力不是提示词，而是流程重构。它要知道哪些步骤可以自动完成，哪些步骤必须保留人审，什么证据足以支持下一步行动，发生异常时如何回退。没有这些机制，代理越强，风险越大。</p>
+<h3>4.2 PC的教训：真正的爆发来自“业务人员能自己建模”</h3>
+<p>计算器公司在电子化之后面临被更大企业淘汰的问题；VisiCalc却抓住了另一层价值：它把计算能力放进了业务人员的桌面，让用户可以自行搭建模型。LLM应用也应该让行业人员能把自己的判断标准、模板、知识库和例外规则逐渐沉淀进去。</p>
+<p>这产生一个重要的产品方向：不是为专家做一个固定机器人，而是让专家能够训练、配置、审查并复制自己的工作方式。产品的用户不只是“被替代的人”，也可以是“把自己从低价值重复工作中释放出来的人”。</p>
+<h3>4.3 今天的优势与劣势，都来自同一个历史节点</h3>
+<p>LLM应用今天的优势来自基础模型的通用性：一个系统可以处理文字、表格、图像、代码和网页，不必为每种任务单独开发算法。但这个优势也带来劣势：模型能力会快速商品化，功能差异会缩短，客户会把你的产品与ChatGPT、Claude或Copilot比较。</p>
+<p>所以，应用公司的优势必须来自模型之外：</p>
+<ul>
+<li><strong>工作流锁定</strong>：客户的任务、审批和交付都在你的产品里完成；</li>
+<li><strong>数据反馈</strong>：系统知道哪些建议被采纳、哪些错误被纠正；</li>
+<li><strong>责任机制</strong>：每个结论有来源、版本、审核人和风险等级；</li>
+<li><strong>行业分发</strong>：你进入的是一个具体职业共同体，而不是互联网流量池；</li>
+<li><strong>结果定价</strong>：客户支付的是完成一项业务，而不是多买几个聊天席位。</li>
+</ul>
+<h3>4.4 三个未来剧本</h3>
+<p><strong>最可能的剧本：模型平台集中，垂直工作流繁荣。</strong></p>
+<p>基础模型供应商会继续把通用研究、浏览器操作、代码执行和办公协作整合到统一入口。企业会同时购买通用助手和少量关键垂直系统。大多数AI应用不会成为独立平台，而会成为某个行业系统的一部分，靠深度集成、客户关系和交付数据生存。</p>
+<p><strong>最危险的剧本：演示自动化，生产不承担责任。</strong></p>
+<p>很多公司可以用代理完成一次漂亮的演示，却无法在真实业务中稳定运行：权限不清、数据过期、边界案例没人处理、客户不接受错误、成本随任务复杂度爆炸。结果是客户试用很多，生产部署很少。创业公司会被迫回到项目制服务，毛利和扩张性都下降。</p>
+<p><strong>最乐观的剧本：专家服务被重组为人机混合组织。</strong></p>
+<p>当评测、权限、审计和模型成本成熟后，一家小型专业公司可以用一支很小的人类团队管理大规模代理团队。专家不再按小时处理全部案件，而是设计方法、处理例外、签署高风险结论、维护客户信任。专业服务的供给成本下降，过去因价格太高而无法购买的服务获得新市场。</p>
+<h3>4.5 给创业者的筛选公式</h3>
+<p>一个LLM应用机会可以用下面的公式做第一轮筛选：</p>
+<blockquote>
+<p>机会质量 = 任务价值 × 任务频率 × 可验证性 × 数据/系统独占性 × 责任可承接性 − 模型替代风险 − 集成摩擦</p>
+</blockquote>
+<p>这不是财务模型，而是避免被“模型很强”带偏的检查表。</p>
+<p>优先寻找这样的任务：客户每周或每天都做；每次出错都有真实成本；输入材料来自多个系统；输出有明确格式或下一步动作；专家可以快速判断结果对错；最初可以保留人审；随着使用增加，系统能积累组织专属数据。</p>
+<p>相反，谨慎对待这些方向：纯文本润色、普通会议纪要、没有独特数据的问答、只靠公开资料的通用研究、没有系统写入权限的“建议型”产品，以及无法证明节省了什么成本的AI顾问项目。</p>
+<h2>五、结论：不要做“更像专家的模型”，要做“没有专家也能运转的一段工作”</h2>
+<p>电力替代蒸汽机之后，赢家不是最会制造小电机的人，而是能把电力、工厂布局、设备和组织一起重做的人。PC替代计算器之后，赢家也不是按键更漂亮的计算器，而是把计算变成业务人员可以自行探索的工作环境的人。</p>
+<p>LLM应用的商业机会由此变得清楚：它不在“再训练一个基础模型”，也不在“让聊天回复更像专家”，而在于把专家工作的隐性部分变成显性的系统能力——什么资料要看，什么规则要用，什么判断可以自动化，什么风险必须升级，什么结果需要谁签字。</p>
+<p>最值得下注的公司，会从一个高价值、重复、可复核的窄任务开始，接入真实业务系统，保留清晰的人类责任边界，然后逐步扩大到相邻任务。它最终卖的不是token，不是prompt，也不是一个会聊天的角色；它卖的是一种新的生产能力：在没有增加同等数量专家的情况下，完成更多、速度更快、过程可追溯的专业工作。</p>
+<p>这才是LLM真正开始“取代专家智力”的时刻。不是专家突然消失，而是专家原本只能亲自完成的部分工作，开始变成组织可以调用、监督和复制的基础设施。</p>
+<h2>六、信息来源</h2>
+<ol>
+<li>Smithsonian National Museum of American History, “Generating Change”，关于电力、全电工厂、输电系统与工业组织的历史：https://americanhistory.si.edu/explore/exhibitions/american-enterprise/online/corporate-era/generating-change</li>
+<li>Computer History Museum, “The IBM PC”，关于1981年IBM PC、企业采用和软件生态：https://www.computerhistory.org/revolution/personal-computers/17/301</li>
+<li>Computer History Museum, “VisiCalc software”，关于1979年第一款个人电脑电子表格及其后续生态：https://www.computerhistory.org/revolution/personal-computers/17/305/1230</li>
+<li>Computer History Museum, “Calculators”，关于机械计算器向电子机器转型及行业淘汰：https://www.computerhistory.org/brochures/calculators/</li>
+<li>OpenAI, “Introducing deep research”，关于多步骤研究代理、来源综合和与Operator结合的产品路线：https://openai.com/index/introducing-deep-research/</li>
+<li>Anthropic, “Introducing advanced tool use on the Claude Developer Platform”，关于代理连接大规模工具库和按需发现工具：https://www.anthropic.com/engineering/advanced-tool-use</li>
+<li>Microsoft, “2025: The year the Frontier Firm is born”，关于31个市场、31,000名知识工作者、代理自动化和人机混合团队：https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born</li>
+<li>OpenAI, “Introducing ChatGPT agent: bridging research and action”，关于网页操作、研究、代码执行、文件和第三方连接器的组合：https://openai.com/index/introducing-chatgpt-agent/</li>
+<li>Menlo Ventures, “2025: The State of Generative AI in the Enterprise”，关于企业AI投资、通用Copilot、垂直AI和应用层支出的估计：https://menlovc.com/wp-content/uploads/2025/12/menlo_ventures_enterprise_ai_report-2025-121925.pdf</li>
+</ol>
+<p>访问时间：2026年7月23日。</p>
+<h2>七、方法论说明</h2>
+<p>本文采用数字生命卡兹克提出的横纵分析法：纵轴追踪技术与商业形态的历史演进，横轴比较当前不同应用层的竞争位置，再在交汇处判断商业机会与未来剧本。报告作者：Koutian Wu（https://ktwu01.github.io/）。</p>
+</body>
+</html>
