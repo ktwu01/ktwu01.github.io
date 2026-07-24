@@ -2,6 +2,7 @@
 title: "AI 不一定是人工智能：两个字母如何被不同世界反复占用"
 date: 2026-07-19
 permalink: /posts/2026/07/ai-does-not-always-mean-artificial-intelligence/
+lang: zh
 tags:
   - AI
   - language

@@ -9,6 +9,7 @@ on:
       - '_layouts/single.html'
       - 'images/**'
       - 'scripts/generate_language_links.py'
+      - 'scripts/generate_author_notes.py'
       - 'scripts/lint_blog_format.py'
       - 'tests/**.py'
       - 'tests/fixtures/**'
@@ -21,6 +22,7 @@ on:
       - '_layouts/single.html'
       - 'images/**'
       - 'scripts/generate_language_links.py'
+      - 'scripts/generate_author_notes.py'
       - 'scripts/lint_blog_format.py'
       - 'tests/**.py'
       - 'tests/fixtures/**'
@@ -41,6 +43,9 @@ jobs:
 
       - name: Run Blog Linter
         run: python3 scripts/lint_blog_format.py
+
+      - name: Check Generated Author Notes
+        run: python3 scripts/generate_author_notes.py --check
 
       - name: Check Generated Language Links
         run: python3 scripts/generate_language_links.py --check

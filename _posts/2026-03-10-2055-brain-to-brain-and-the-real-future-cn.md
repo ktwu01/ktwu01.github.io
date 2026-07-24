@@ -14,7 +14,7 @@ tags:
 ---
 有些旧科幻会一直留在脑子里，不只是因为它写了什么炫酷科技，而是因为它提前抓住了未来的情感结构。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
 

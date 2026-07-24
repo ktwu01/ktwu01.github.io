@@ -10,6 +10,7 @@ tags:
 ---
 
 I've been watching too many people who got lucky rolling a six six times in a row, standing on stage lecturing us about their dice-rolling strategies.
+
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 On January 27th of this year, I scribbled a random thought into my diary.

@@ -14,7 +14,7 @@ tags:
 ---
 每一代人都有自己管理任务的方式：最早是纸和笔，后来是 SaaS 任务管理工具，现在则开始进入像 OpenClaw heartbeat 这样可程序化、可持续运行的 agentic workflow 时代。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
 

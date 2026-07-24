@@ -219,5 +219,3 @@ Claude Code 这件事给我的启发就是这么简单。
 然后赶紧改。
 
 谢谢你看我的文章，我们，下次再见。
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

@@ -14,7 +14,7 @@ tags:
 ---
 Every product has its own pros and cons. Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/) 290 stars
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
 

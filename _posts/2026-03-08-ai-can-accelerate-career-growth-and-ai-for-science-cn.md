@@ -14,7 +14,7 @@ tags:
 ---
 职业早期的成长，通常可以拆成几个可重复的层次：方向对齐、稳定交付、建立可见度、提升沟通、展现领导力，以及赢得信任。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
 

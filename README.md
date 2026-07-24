@@ -14,6 +14,7 @@ The site is built with Jekyll and the [Academic Pages template](https://github.c
 - `_publications/`: publication entries.
 - `_talks/`: talk entries.
 - `images/`: site images and portfolio assets.
+- `scripts/generate_author_notes.py`: deterministic localized blog attribution generator using `lang`, then the canonical permalink.
 - `scripts/lint_blog_format.py`: blog-post format linter used by CI.
 
 Standalone demos and one-off HTML artifacts should not live at the repository root. Put them in dedicated static repos and link to their GitHub Pages URLs instead.
@@ -41,6 +42,7 @@ Open `http://localhost:4000`.
 Run the blog linter before pushing post changes:
 
 ```bash
+python3 scripts/generate_author_notes.py --check
 python3 scripts/lint_blog_format.py
 ```
 

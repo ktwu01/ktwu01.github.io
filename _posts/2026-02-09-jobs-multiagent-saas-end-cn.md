@@ -150,5 +150,3 @@ AI给了我们一次重新设计这辆自行车的机会。
 那才是产品。
 
 那才是乔布斯会做的东西。
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

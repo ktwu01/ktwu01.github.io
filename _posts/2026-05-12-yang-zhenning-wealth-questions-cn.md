@@ -345,5 +345,3 @@ Toda 和 Sun 在 2019 年发表于《Econ Journal Watch》上的研究分析了 
 - Toda 与 Sun（2019），"Publications, Citations, Position, and Compensation"：https://econjwatch.org/articles/publications-citations-position-and-compensation-of-economics-professors
 - Azoulay 等（2020），"Age and High-Growth Entrepreneurship"，*AER: Insights*：https://www.nber.org/papers/w24489
 - Zucker 与 Darby，"Star Scientists and Biotechnology"，NBER：https://www.nber.org/reporter/fall-1998/entrepreneurs-star-scientists-and-biotechnology
-
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

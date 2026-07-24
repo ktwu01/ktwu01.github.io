@@ -10,6 +10,7 @@ tags:
 ---
 
 Just by running a single command while using AI for research, you can turn your tacit knowledge into a Nature co-authorship.
+
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 The past few days we have been working on something a bit crazy, but honestly pretty amazing.
@@ -41,5 +42,3 @@ For those who prefer the web interface, you can manually submit at researchskill
 Research is hard enough as it is. We might as well save these hard earned experiences and make them the foundational building blocks for future AI scientists.
 
 That is all for today. If you found this interesting, feel free to share it around. Thanks for reading, and I will see you next time.
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

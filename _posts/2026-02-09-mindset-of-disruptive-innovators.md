@@ -2,6 +2,7 @@
 title: 颠覆性创新者的思维模式 ｜ 改变世界的这些人，究竟看到了什么？｜丰饶时代的认识论危机
 date: 2026-02-09
 permalink: /posts/2026/02/mindset-of-disruptive-innovators/
+lang: zh
 tags:
   - innovation
   - mindset
@@ -10,7 +11,7 @@ tags:
 
 改变世界的人到底看到了什么是普通人看不到的？
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## Prompt:
 这些改变世界的人一定是看到了什么。他们看到的东西比普通人太高，以至于普通人压根就不会去想这些事情，对普通人说就是误闯天家。他们是怎么会有改变世界的方法？乔布斯压根就不是从对比产品，而是冥想发明了iPhone，Musk是第一性原理创办了伟大的火星计划，而在Musk的后面，是几十年火星学会的积累，并不是一蹴而就。

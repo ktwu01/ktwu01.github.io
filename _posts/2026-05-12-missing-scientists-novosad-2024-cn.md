@@ -56,5 +56,3 @@ tags:
 如果你还没看那份问题清单，链接在这里，[杨振宁到底有多少钱](https://ktwu01.github.io/zh/posts/2026/05/yang-zhenning-wealth-questions/)。先看问题再看答案，不然答案就只是冷知识。
 
 参考文献，Novosad, P., Asher, S., Farquharson, C., Iljazi, E. 2025, Access to Opportunity in the Sciences, Evidence from the Nobel Laureates. Dartmouth College, Imperial College London, Princeton University, UPenn Wharton. December 2025. PDF, [paulnovosad.com/pdf/nobel-prizes.pdf](https://paulnovosad.com/pdf/nobel-prizes.pdf)。
-
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)

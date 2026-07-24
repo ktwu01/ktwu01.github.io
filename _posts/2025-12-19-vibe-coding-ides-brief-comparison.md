@@ -12,7 +12,7 @@ tags:
 ---
 每一家都有每一家的优点和缺点。Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/) 290 stars
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR 太长不看版本
 

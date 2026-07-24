@@ -12,7 +12,7 @@ tags:
 ---
 硅谷大厂的工程师究竟需不需要用 OpenClaw？
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
 

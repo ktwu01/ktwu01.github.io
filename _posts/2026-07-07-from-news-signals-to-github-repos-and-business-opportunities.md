@@ -12,6 +12,7 @@ tags:
 ---
 
 The opportunity is not the news itself. The opportunity is the friction created by the news.
+
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 # From News Signals to GitHub Repos: Turning Trends into Open-Source Influence and Business Opportunities

@@ -13,7 +13,7 @@ tags:
 ---
 最可怕的部分不在于 AI 智能体在处理地球系统模型代码时失败了，而是它们可能在看似正确的代码中失败。
 
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 我思考这个问题已经有一段时间了。现在我们有很多 AI 编程的基准测试，其中一些也确实很有用。它们能告诉我们一个模型是否能修复 Python 的 bug、通过单元测试，或者从真实的软件代码库中恢复一个补丁。
 

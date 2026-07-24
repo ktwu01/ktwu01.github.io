@@ -343,5 +343,3 @@ That is also why I wrote this long post. The greatness of an idol is not that th
 - Toda & Sun (2019), "Publications, Citations, Position, and Compensation": https://econjwatch.org/articles/publications-citations-position-and-compensation-of-economics-professors
 - Azoulay et al. (2020), "Age and High-Growth Entrepreneurship," *AER: Insights*: https://www.nber.org/papers/w24489
 - Zucker & Darby, "Star Scientists and Biotechnology," NBER: https://www.nber.org/reporter/fall-1998/entrepreneurs-star-scientists-and-biotechnology
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

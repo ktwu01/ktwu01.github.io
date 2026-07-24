@@ -8,6 +8,14 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if SCRIPT_DIR not in sys.path:
     sys.path.insert(0, SCRIPT_DIR)
 
+from generate_author_notes import (
+    expected_author_note,
+    has_ambiguous_legacy_language,
+    is_author_candidate,
+    is_author_line,
+    is_disclaimer_line,
+    logical_body_lines,
+)
 from generate_language_links import validate_post_url
 
 
@@ -15,15 +23,6 @@ POSTS_DIR = "_posts/"
 # Local-image rules remain prospective so unrelated legacy content does not
 # need an image migration. URL rules are intentionally strict for all posts.
 LOCAL_IMAGE_POLICY_START = "2026-07-16"
-AUTHOR_PATTERNS = [
-    r"^> Author: \[Koutian Wu\]",
-    r"^> 作者：\[Koutian Wu\]",
-]
-DISCLAIMER_PATTERNS = [
-    r"^> \*\*THIS IS A FAKE BLOG",
-    r"^> \*\*这是一篇虚构博客",
-]
-
 # Patterns that indicate AI tool-use markup leaked into the file. Any hit is a
 # parser-breaking format error and must be removed. Add new patterns here when
 # new leak shapes appear. Patterns are built from chr() so this script itself
@@ -122,14 +121,6 @@ def front_matter_value(content, field):
     return value_match.group(2) if value_match else None
 
 
-def is_author(line):
-    return any(re.match(p, line.strip()) for p in AUTHOR_PATTERNS)
-
-
-def is_disclaimer(line):
-    return any(re.match(p, line.strip()) for p in DISCLAIMER_PATTERNS)
-
-
 def check_leaks(content):
     hits = []
     for needle, label in LEAK_PATTERNS:
@@ -165,13 +156,8 @@ def check_single_dollar_math(content):
     return hits
 
 
-def check_file(filepath):
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            content = f.read()
-    except Exception as e:
-        return [f"Error reading file: {e}"]
-
+def check_file_content(content, filepath="2026-07-01-post.md"):
+    """Lint already-loaded post content (also convenient for unit tests)."""
     issues = []
 
     filename = os.path.basename(filepath)
@@ -190,14 +176,17 @@ def check_file(filepath):
     for ln, fragment in math_hits:
         issues.append(f"Single-$ LaTeX math at line {ln} ({fragment!r}); GitHub Pages requires $$ ... $$")
 
-    parts = content.split("---")
-    if len(parts) < 3:
+    if not FRONT_MATTER.match(content):
         return issues  # Not a Jekyll post or no front matter
 
-    body = "---".join(parts[2:]).strip()
-    lines = [l.strip() for l in body.split("\n") if l.strip()]
+    if has_ambiguous_legacy_language(content):
+        issues.append(
+            "Likely Chinese content must declare lang: zh or use a /zh/ permalink."
+        )
 
-    if lines and is_disclaimer(lines[0]):
+    lines = logical_body_lines(content)
+
+    if lines and is_disclaimer_line(lines[0]):
         lines = lines[1:]
 
     if not lines:
@@ -205,7 +194,7 @@ def check_file(filepath):
         return issues
 
     first_line = lines[0]
-    if is_author(first_line):
+    if is_author_line(first_line):
         issues.append("First line is an author line. It should be a punchy hook instead.")
         return issues
 
@@ -213,15 +202,40 @@ def check_file(filepath):
         issues.append("Missing content or author line after the hook.")
         return issues
 
-    second_line = lines[1]
-    if not is_author(second_line):
+    expected_note = expected_author_note(content)
+    author_positions = [
+        index for index, line in enumerate(lines) if is_author_candidate(line)
+    ]
+    if lines[1] != expected_note:
+        second_line = lines[1]
+        if is_author_candidate(second_line):
+            issues.append(
+                "Author attribution in the 2nd position is not the canonical "
+                "localized note."
+            )
+            return issues
         for i in range(2, min(len(lines), 10)):
-            if is_author(lines[i]):
+            if is_author_candidate(lines[i]):
                 issues.append(f"Author line found at position {i+1}, should be in 2nd position.")
                 return issues
         issues.append("Missing author attribution in the 2nd position.")
+        return issues
+
+    if len(author_positions) != 1:
+        issues.append(
+            f"Expected exactly one author attribution; found {len(author_positions)}."
+        )
 
     return issues
+
+
+def check_file(filepath):
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        return [f"Error reading file: {e}"]
+    return check_file_content(content, filepath)
 
 
 def main():
@@ -243,7 +257,10 @@ def main():
         print(f"\nTotal failures: {len(failures)}")
         sys.exit(1)
     else:
-        print("\nAll blog posts follow the correct structure (no AI-leak markup; hook -> author).")
+        print(
+            "\nAll blog posts follow the correct structure "
+            "(no AI-leak markup; hook -> deterministic localized author note)."
+        )
 
 
 if __name__ == "__main__":

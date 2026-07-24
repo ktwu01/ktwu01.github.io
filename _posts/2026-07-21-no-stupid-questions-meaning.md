@@ -121,4 +121,3 @@ At the brainstorming meeting described in the post, **No stupid questions** almo
 Yet the slogan permits the opposite reading. Writers addressing international teams should not force listeners to perform avoidable disambiguation. Use the complete sentence or write **All questions are welcome**.
 
 The goal of communication is not to prove whose intuition is more authentic. It is to cause the intended understanding and action.
-

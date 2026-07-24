@@ -13,6 +13,7 @@ tags:
   - strategy
 ---
 新闻本身不是机会。新闻制造的摩擦才是机会。
+
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 # 从新闻信号到 GitHub Repo：如何把趋势转化为开源影响力和商业机会

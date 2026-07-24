@@ -21,9 +21,17 @@ After adding, removing, or renaming a translated post, regenerate the automatic 
 python3 scripts/generate_language_links.py
 ```
 
+Author notes are generated from each post's explicit `lang` value when present,
+then from its canonical permalink language. Do not write or edit them manually:
+
+```bash
+python3 scripts/generate_author_notes.py
+```
+
 Before opening a pull request, run the same checks as CI:
 
 ```bash
+python3 scripts/generate_author_notes.py --check
 python3 scripts/lint_blog_format.py
 python3 scripts/generate_language_links.py --check
 python3 -m unittest discover -s tests -v

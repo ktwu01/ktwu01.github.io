@@ -76,4 +76,3 @@ It also preserves the path by which the method entered my work. Kehan recommende
 A book enters practice not when I finish its last page, but when I am about to ask, “What do you think?” and replace it with:
 
 > **Tell me exactly what happened the last time you dealt with this problem.**
-

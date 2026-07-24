@@ -33,5 +33,3 @@ When you write your solo draft, you put your intellect, your assumptions, your p
 And here is the thing I've come to believe pretty firmly, you cannot have true ownership over a startup without first bearing the risk of being explicitly, embarrassingly wrong about its direction. The two things come together. You cannot have one without the other.
 
 By forcing everyone to commit their exact vision to writing before the meeting, we re-introduced skin in the game. And with skin in the game, apathy dies. Not because you scared people, but because now it's personal. It matters to them whether they are right. And that mattering is the thing you actually need from a co-founder.
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

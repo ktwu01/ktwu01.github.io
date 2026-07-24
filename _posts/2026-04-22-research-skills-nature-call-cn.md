@@ -10,6 +10,7 @@ tags:
 ---
 
 只要你在用AI辅助科研，敲一行命令就能把你脑子里的「隐性经验」变成能发Nature的资本。
+
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 # 只要你在用AI辅助科研，敲一行命令就能把你脑子里的「隐性经验」变成能发Nature的资本

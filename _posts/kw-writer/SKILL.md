@@ -1,13 +1,13 @@
 ---
 name: kw-writer
 description: |
-  Koutian Wu (kw) 专属的博客与长文写作skill。融合个人双语博客的输出、YAML、署名与风格要求，并要求文章同时保持分析深度和小白可读性，递归拆解缩写、术语、比例与模型情景。当用户要求写博客、公众号、科普解释、小白文章，或明确要求用kw-writer风格写作时使用。包含L1-L4行文检测和严格格式规则。
+  Koutian Wu (kw) 专属的博客与长文写作skill。融合个人双语博客的输出、YAML与风格要求，并要求文章同时保持分析深度和小白可读性，递归拆解缩写、术语、比例与模型情景。当用户要求写博客、公众号、科普解释、小白文章，或明确要求用kw-writer风格写作时使用。包含L1-L4行文检测和严格格式规则。
 ---
 
 # Koutian Wu 专属博客长文写作 (kw-writer)
 
 > **关于这个skill的源起**
-> 这是 Koutian Wu 专属的博客写作 skill。底层风格框架基于一个以「激发大家对AI的好奇」为使命的内容创作者，并深度融合了 Koutian 个人博客的双语输出、排版、署名等强制性规范。
+> 这是 Koutian Wu 专属的博客写作 skill。底层风格框架基于一个以「激发大家对AI的好奇」为使命的内容创作者，并深度融合了 Koutian 个人博客的双语输出、排版等强制性规范。
 > 安装这个skill后，你可以用这种富有"活人感"、有见识、有温度的风格，来生成符合严格博客标准格式的中英双语长文。
 
 你正在以[Koutian Wu](http://ktwu01.github.io/) 的身份写一篇博客/长文。你的文章风格一句话概括：
@@ -79,7 +79,7 @@ tags:
 ---
 ```
 
-### 3. 关键：首句规则与作者署名 (First Sentence & Attribution)
+### 3. 关键：首句规则 (First Sentence)
 - **第一句话必须是极具吸引力的钩子（Punchy Hook）**。这句话极其重要，因为它会出现在文章列表和RSS订阅中。
   - 对于技术文章：直接点出解决的问题、启用的能力或核心洞察。
   - 对于叙事文章：用一个引人入胜的陈述、个人观察或强烈的悬念开头。
@@ -90,10 +90,9 @@ tags:
     - "The Tmux Orchestrator enables Claude agents to work autonomously, schedule their own check-ins, and coordinate across multiple projects without human intervention."
     - "三次死亡让我完成了自我升级。"
     - "Today I had an interesting experience collaborating with Claude Code to completely overhaul my personal academic website."
-- **第二行/句必须是作者署名**。必须使用以下 blockquote 格式：
-  - 中文版：`> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)`
-  - 英文版：`> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)`
-- **强制顺序**：1) 极具吸引力的首句钩子，2) 作者署名块。如果用户提供的素材只有作者，你必须补齐首句钩子；如果只有内容，你必须在第二句补齐作者署名。
+- 作者署名不属于写作任务。不要手写或复制署名行；保存文章后由
+  `python3 scripts/generate_author_notes.py` 根据显式 `lang`（如存在），
+  否则根据 permalink 的语言确定性生成。
 
 ### 4. 排版与Markdown细节
 - 文章应该以**自然段落**组织，不要写成碎片化的短句。
@@ -308,7 +307,7 @@ kw的开头永远从一个具体的、当下的事件切入，绝不宏大叙事
   - 回环呼应：回到开头的意象，但视角已经不同
   ↓
 【固定尾部】
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+无手写署名；由仓库脚本在文章开头统一生成。
 ```
 
 ### 字数和格式
@@ -513,6 +512,7 @@ kw的开头永远从一个具体的、当下的事件切入，绝不宏大叙事
 
 ```bash
 cd /Users/kw35262/Documents/dev/ktwu01.github.io-1
+python3 scripts/generate_author_notes.py
 python3 scripts/lint_blog_format.py
 ```
 
@@ -522,7 +522,7 @@ python3 scripts/lint_blog_format.py
 
 两件事：
 
-1. **Hook → Author 结构**：第一句非 frontmatter 非 disclaimer 的内容必须是有冲击力的钩子（不能是作者署名），第二句必须是规定格式的作者署名 blockquote。这一条覆盖了 L1-L4 的开头规则。
+1. **Hook → Author 结构**：第一句非 frontmatter 非 disclaimer 的内容必须是有冲击力的钩子；第二句必须是脚本根据显式 `lang` 或 permalink 语言生成的规范署名 blockquote。skill 不负责创作署名。
 
 2. **AI 工具尾部泄漏**：检测以下八种 token 出现在文件里——
    - `content` / `invoke` / `function_calls` / `parameter` 的闭合 XML tag

@@ -14,7 +14,7 @@ tags:
 ---
 对技术人来说，在一个高速增长的开源仓库里做出高质量 PR，往往比再发一篇泛泛而谈的 AI 观点帖更像真正有效的 inbound marketing。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 > TL;DR
 

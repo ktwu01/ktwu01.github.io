@@ -10,6 +10,7 @@ tags:
 ---
 
 这两天看了太多因为连续六次掷出色子六点而功成名就的人，在台上滔滔不绝地分享他们的掷色子心得。
+
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 今年1月27日的时候，我鬼使神差地在日记里写下了一句话。

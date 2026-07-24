@@ -150,5 +150,3 @@ I want the next generation of AI products to be that laundry object. I hand it d
 That is a product.
 
 That is what Jobs would have built.
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)

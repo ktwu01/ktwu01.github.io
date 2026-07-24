@@ -10,13 +10,9 @@ tags:
   - '2030'
 ---
 
-原文来源｜腾讯科技
+原文来源｜腾讯科技；原文整理｜顾翎羽；原文编辑｜徐青阳、苏扬；2030 注释与二次编辑｜Koutian Wu
 
-原文整理｜顾翎羽
-
-原文编辑｜徐青阳 苏扬
-
-2030注释与二次编辑｜Koutian Wu
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 在读梁文锋之前：先给一个2030年的坐标
 

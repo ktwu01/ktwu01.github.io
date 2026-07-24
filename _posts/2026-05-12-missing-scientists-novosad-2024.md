@@ -56,5 +56,3 @@ So that is what I am sitting with tonight. A 600 year timeline at the current ra
 If you have not read the question list, here it is again, [How Rich Is Chen Ning Yang](https://ktwu01.github.io/posts/2026/05/yang-zhenning-wealth-questions/). Read it before you read the answers, otherwise the answers are just trivia.
 
 Reference, Novosad, P., Asher, S., Farquharson, C., Iljazi, E. 2025, Access to Opportunity in the Sciences, Evidence from the Nobel Laureates. Dartmouth College, Imperial College London, Princeton University, UPenn Wharton. December 2025. PDF, [paulnovosad.com/pdf/nobel-prizes.pdf](https://paulnovosad.com/pdf/nobel-prizes.pdf).
-
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
