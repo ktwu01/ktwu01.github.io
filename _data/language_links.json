@@ -593,6 +593,15 @@
       }
     ]
   },
+  "/posts/2026/06/japan-travel-advice-from-a-friend/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/japan-travel-advice-from-a-friend/"
+      }
+    ]
+  },
   "/posts/2026/06/official-git-contributor/": {
     "variants": [
       {
@@ -1337,6 +1346,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/06/gitgitgadget-first-pr/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/japan-travel-advice-from-a-friend/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/japan-travel-advice-from-a-friend/"
       }
     ]
   },
