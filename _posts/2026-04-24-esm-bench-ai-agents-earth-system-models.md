@@ -27,6 +27,8 @@ The better question is, does it understand what physical world this code is tryi
 
 That is the motivation behind ESM-bench.
 
+The concept paper and benchmark design proposal is available as my [ESM-bench preprint on Zenodo](https://zenodo.org/records/19154932).
+
 ESM-bench is a benchmark for testing whether AI agents can modify Earth System Model code while respecting both the software structure and the physical logic encoded inside it. The current paper draft defines 576 tasks across four categories, physics-based bug fixes, process representation modifications, parameterization scheme selection, and parameter optimization. The benchmark is designed around production ESM repositories such as Noah-MP, CLM5, SUMMA, ParFlow, MOM6, VIC, WRF, and E3SM.
 
 The thing I like about this setup is that it does not pretend scientific code is the same as normal app code.
