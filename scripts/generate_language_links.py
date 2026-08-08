@@ -59,17 +59,19 @@ class Post:
 
 def load_posts(posts_dir):
     posts = []
+    skipped = []
     for path in sorted(Path(posts_dir).glob("*.md")):
         content = path.read_text(encoding="utf-8")
         front_matter = FRONT_MATTER.match(content)
         if not front_matter:
+            skipped.append(path)
             continue
         permalink = ""
         match = PERMALINK.search(front_matter.group(1))
         if match:
             permalink = match.group(2)
         posts.append(Post(path, permalink))
-    return posts
+    return posts, skipped
 
 
 def validate_post_url(path, permalink):
@@ -92,10 +94,16 @@ def validate_post_url(path, permalink):
 
     filename_match = DATED_FILENAME.match(path.name)
     if filename_match:
-        file_year, file_month, _day, _slug = filename_match.groups()
+        file_year, file_month, _day, file_slug = filename_match.groups()
         if (year, month) != (file_year, file_month):
             issues.append(
                 "permalink year/month must match the post filename date"
+            )
+        file_slug_clean = SOURCE_LANGUAGE_SUFFIX.sub("", file_slug)
+        if file_slug_clean.lower() != slug.lower():
+            issues.append(
+                f"filename slug '{file_slug_clean}' must match permalink "
+                f"slug '{slug}'"
             )
 
     lower_name = path.name.lower()
@@ -277,7 +285,13 @@ def parse_args(argv=None):
 
 def main(argv=None):
     args = parse_args(argv)
-    posts = load_posts(args.posts_dir)
+    posts, skipped = load_posts(args.posts_dir)
+    if skipped:
+        print("Blog URL validation failed:")
+        for path in skipped:
+            print(f"  - {path.name}: Markdown file has no front matter")
+        return 1
+
     issues = validate_posts(posts)
     if issues:
         print("Blog URL validation failed:")

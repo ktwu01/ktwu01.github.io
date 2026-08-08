@@ -126,6 +126,25 @@ class LanguageLinkTests(unittest.TestCase):
         self.assertTrue(any("date" in issue for issue in mismatch))
         self.assertTrue(any("month" in issue for issue in month))
 
+    def test_rejects_filename_slug_that_does_not_match_permalink_slug(self):
+        issues = self.module.validate_post_url(
+            Path("2026-07-19-old-slug.md"), "/posts/2026/07/new-slug/"
+        )
+
+        self.assertTrue(
+            any(
+                "old-slug" in issue and "new-slug" in issue
+                for issue in issues
+            )
+        )
+
+    def test_accepts_zh_filename_slug_matching_permalink_slug(self):
+        issues = self.module.validate_post_url(
+            Path("2026-07-19-topic-zh.md"), "/zh/posts/2026/07/topic/"
+        )
+
+        self.assertEqual(issues, [])
+
     def test_rejects_duplicate_language_variant(self):
         posts = [
             self.post("2026-07-19-one.md", "/posts/2026/07/topic/"),
@@ -304,14 +323,45 @@ class LanguageLinkTests(unittest.TestCase):
 
         self.assertEqual(result.returncode, 0)
 
-    def test_load_posts_ignores_markdown_without_front_matter(self):
+    def test_load_posts_reports_markdown_without_front_matter_as_skipped(self):
         with tempfile.TemporaryDirectory() as root:
             root_path = Path(root)
             (root_path / "notes.md").write_text("Unpublished notes\n", encoding="utf-8")
 
-            posts = self.module.load_posts(root_path)
+            posts, skipped = self.module.load_posts(root_path)
 
         self.assertEqual(posts, [])
+        self.assertEqual([path.name for path in skipped], ["notes.md"])
+
+    def test_check_mode_fails_for_markdown_without_front_matter(self):
+        with tempfile.TemporaryDirectory() as root:
+            root_path = Path(root)
+            posts_dir = root_path / "_posts"
+            posts_dir.mkdir()
+            (posts_dir / "notes.md").write_text(
+                "Unpublished notes\n", encoding="utf-8"
+            )
+            output = root_path / "language_links.json"
+            output.write_text("{}\n", encoding="utf-8")
+
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(SCRIPT),
+                    "--check",
+                    "--posts-dir",
+                    str(posts_dir),
+                    "--output",
+                    str(output),
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("notes.md", result.stdout)
+        self.assertIn("no front matter", result.stdout)
 
 
 if __name__ == "__main__":

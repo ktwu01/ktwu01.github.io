@@ -156,7 +156,7 @@ def check_single_dollar_math(content):
     return hits
 
 
-def check_file_content(content, filepath="2026-07-01-post.md"):
+def check_file_content(content, filepath="2026-07-01-example.md"):
     """Lint already-loaded post content (also convenient for unit tests)."""
     issues = []
 
