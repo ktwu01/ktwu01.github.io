@@ -1,4 +1,5 @@
 import importlib.util
+import json
 import subprocess
 import sys
 import tempfile
@@ -196,7 +197,7 @@ class LanguageLinkTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("stale", result.stdout.lower())
 
-    def test_check_mode_warns_but_passes_for_monolingual_post(self):
+    def test_check_mode_still_warns_for_baselined_monolingual_post(self):
         with tempfile.TemporaryDirectory() as root:
             root_path = Path(root)
             posts_dir = root_path / "_posts"
@@ -207,6 +208,10 @@ class LanguageLinkTests(unittest.TestCase):
             )
             output = root_path / "language_links.json"
             output.write_text("{}\n", encoding="utf-8")
+            baseline = root_path / "baseline.json"
+            baseline.write_text(
+                json.dumps(["2026-07-19-topic.md"]), encoding="utf-8"
+            )
 
             result = subprocess.run(
                 [
@@ -217,6 +222,8 @@ class LanguageLinkTests(unittest.TestCase):
                     str(posts_dir),
                     "--output",
                     str(output),
+                    "--baseline",
+                    str(baseline),
                 ],
                 capture_output=True,
                 text=True,
@@ -226,6 +233,76 @@ class LanguageLinkTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0)
         self.assertIn("::warning file=", result.stdout)
         self.assertIn("missing 中文 translation", result.stdout)
+
+    def test_check_mode_fails_for_monolingual_post_outside_baseline(self):
+        with tempfile.TemporaryDirectory() as root:
+            root_path = Path(root)
+            posts_dir = root_path / "_posts"
+            posts_dir.mkdir()
+            (posts_dir / "2026-07-19-topic.md").write_text(
+                "---\npermalink: /posts/2026/07/topic/\n---\nBody\n",
+                encoding="utf-8",
+            )
+            output = root_path / "language_links.json"
+            output.write_text("{}\n", encoding="utf-8")
+            baseline = root_path / "baseline.json"
+            baseline.write_text("[]\n", encoding="utf-8")
+
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(SCRIPT),
+                    "--check",
+                    "--posts-dir",
+                    str(posts_dir),
+                    "--output",
+                    str(output),
+                    "--baseline",
+                    str(baseline),
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("coverage regression", result.stdout)
+        self.assertIn("2026-07-19-topic.md", result.stdout)
+
+    def test_check_mode_passes_for_monolingual_post_in_baseline(self):
+        with tempfile.TemporaryDirectory() as root:
+            root_path = Path(root)
+            posts_dir = root_path / "_posts"
+            posts_dir.mkdir()
+            (posts_dir / "2026-07-19-topic.md").write_text(
+                "---\npermalink: /posts/2026/07/topic/\n---\nBody\n",
+                encoding="utf-8",
+            )
+            output = root_path / "language_links.json"
+            output.write_text("{}\n", encoding="utf-8")
+            baseline = root_path / "baseline.json"
+            baseline.write_text(
+                json.dumps(["2026-07-19-topic.md"]), encoding="utf-8"
+            )
+
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(SCRIPT),
+                    "--check",
+                    "--posts-dir",
+                    str(posts_dir),
+                    "--output",
+                    str(output),
+                    "--baseline",
+                    str(baseline),
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+        self.assertEqual(result.returncode, 0)
 
     def test_load_posts_ignores_markdown_without_front_matter(self):
         with tempfile.TemporaryDirectory() as root:

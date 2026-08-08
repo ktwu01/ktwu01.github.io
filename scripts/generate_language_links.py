@@ -12,6 +12,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_POSTS_DIR = REPO_ROOT / "_posts"
 DEFAULT_OUTPUT = REPO_ROOT / "_data" / "language_links.json"
+DEFAULT_BASELINE = REPO_ROOT / "_data" / "language_coverage_baseline.json"
 FRONT_MATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 PERMALINK = re.compile(
     r"^permalink:\s*(['\"]?)(.*?)\1\s*$", re.MULTILINE
@@ -248,11 +249,29 @@ def render_json(data):
     return json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
 
 
+def load_baseline(baseline_path):
+    if not baseline_path.is_file():
+        return set()
+    return set(json.loads(baseline_path.read_text(encoding="utf-8")))
+
+
+def find_new_monolingual_regressions(posts, baseline_path):
+    """Return monolingual warnings for posts not covered by the baseline allowlist."""
+    baseline = load_baseline(baseline_path)
+    warnings = find_monolingual_posts(posts)
+    return [
+        (post, message)
+        for post, message in warnings
+        if post.path.name not in baseline
+    ]
+
+
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--posts-dir", type=Path, default=DEFAULT_POSTS_DIR)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--baseline", type=Path, default=DEFAULT_BASELINE)
     return parser.parse_args(argv)
 
 
@@ -269,6 +288,22 @@ def main(argv=None):
     print_language_warnings(posts)
     rendered = render_json(build_language_links(posts))
     if args.check:
+        regressions = find_new_monolingual_regressions(posts, args.baseline)
+        if regressions:
+            print(
+                "Blog language coverage regression: the following posts are "
+                "missing a translation and are not in the coverage baseline "
+                f"({args.baseline.name}):"
+            )
+            for post, message in regressions:
+                print(f"  - {post.path.name}: {message}")
+            print(
+                "Either add the missing translation, or if this post is "
+                "intentionally monolingual, add its filename to "
+                f"{args.baseline}."
+            )
+            return 1
+
         current = (
             args.output.read_text(encoding="utf-8")
             if args.output.is_file()
