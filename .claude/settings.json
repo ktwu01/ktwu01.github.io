@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // .tool_input.filePath // empty'); case \"$f\" in *\"/_posts/\"*.md) cd /Users/kw35262/Documents/dev/ktwu01.github.io-1 && out=$(python3 scripts/lint_blog_format.py 2>&1); rc=$?; if [ $rc -ne 0 ]; then echo \"$out\" >&2; exit 2; fi ;; esac",
+            "timeout": 30,
+            "statusMessage": "Linting blog post format"
+          }
+        ]
+      }
+    ]
+  }
+}

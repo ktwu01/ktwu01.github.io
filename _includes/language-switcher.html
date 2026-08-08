@@ -1,0 +1,11 @@
+{% assign language_entry = site.data.language_links[page.url] %}
+{% if language_entry and language_entry.variants.size > 0 %}
+  <nav class="page__language-switcher" aria-label="Language versions">
+    <span class="page__language-switcher-label">
+      {% if page.url contains '/zh/' %}其他语言：{% else %}Also available in:{% endif %}
+    </span>
+    {% for variant in language_entry.variants %}
+      <a href="{{ variant.url | relative_url }}" hreflang="{{ variant.language }}">{{ variant.label }}</a>
+    {% endfor %}
+  </nav>
+{% endif %}

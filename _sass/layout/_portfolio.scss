@@ -1,0 +1,346 @@
+/* ==========================================================================
+   PORTFOLIO  (figure-forward research + project showcase)
+   ========================================================================== */
+
+/* Accent system - blue titles, orange labels - adapts to light/dark. */
+:root {
+  --pf-title      : #1a5f8a;
+  --pf-accent     : #d9682a;
+  --pf-panel-bg   : #f7f9fb;
+  --pf-panel-line : #e3e8ec;
+  --pf-fig-bg     : #ffffff;
+  --pf-muted      : #5d666d;
+}
+html[data-theme="dark"] {
+  --pf-title      : #57b7db;
+  --pf-accent     : #f0913f;
+  --pf-panel-bg   : #3f3f3f;
+  --pf-panel-line : #565656;
+  --pf-fig-bg     : #3a3a3a;
+  --pf-muted      : #c2c6c9;
+}
+
+.pf-intro {
+  font-size: $type-size-4;
+  line-height: 1.6;
+  color: var(--global-text-color);
+  margin: 0.5em 0 1.75em;
+}
+
+/* ---------- Section scaffolding ---------- */
+.pf-section {
+  margin: 2.75em 0;
+
+  & + .pf-section { margin-top: 3.25em; }
+}
+
+.pf-section__title {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: $type-size-2;
+  line-height: 1.15;
+  margin: 0 0 0.15em;
+  padding-bottom: 0.35em;
+  color: var(--global-text-color);
+  border-bottom: 3px solid var(--pf-accent);
+  display: inline-block;
+}
+
+.pf-section__lead {
+  color: var(--pf-muted);
+  font-size: $type-size-5;
+  margin: 0.5em 0 1.5em;
+}
+
+/* ---------- Research entries ---------- */
+.pf-entry {
+  background: var(--pf-panel-bg);
+  border: 1px solid var(--pf-panel-line);
+  border-left: 4px solid var(--pf-title);
+  border-radius: $border-radius;
+  padding: 1.35em 1.5em 1.55em;
+  margin-bottom: 1.75em;
+}
+
+.pf-entry__head {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85em;
+  margin-bottom: 0.6em;
+}
+
+.pf-num {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--pf-title);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.15em;
+}
+
+.pf-entry__title {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: $type-size-4;
+  line-height: 1.3;
+  color: var(--pf-title);
+  margin: 0 0 0.2em;
+}
+
+.pf-entry__venue {
+  font-size: $type-size-6;
+  color: var(--pf-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.pf-key {
+  margin: 0.9em 0 0.4em;
+}
+
+.pf-key__label {
+  display: inline-block;
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: $type-size-7;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--pf-accent);
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+}
+
+.pf-points {
+  margin: 0.3em 0 0;
+  padding-left: 1.2em;
+  font-size: $type-size-5;
+  line-height: 1.55;
+
+  li { margin-bottom: 0.35em; }
+
+  &--inline {
+    list-style: none;
+    padding-left: 0;
+    color: var(--pf-muted);
+  }
+}
+
+/* ---------- Figures ---------- */
+.pf-fig {
+  margin: 1.15em 0 0;
+  background: var(--pf-fig-bg);
+  border: 1px solid var(--pf-panel-line);
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    font-family: $serif;
+    font-size: $type-size-6;
+    line-height: 1.5;
+    color: var(--global-fig-caption-color);
+    padding: 0.6em 0.9em 0.7em;
+
+    b { color: var(--pf-accent); }
+  }
+}
+
+/* Two-up figure row that collapses on small screens. */
+.pf-figrow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.15em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(0, 0.62fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .pf-fig { margin-top: 1.15em; }
+
+  @include breakpoint($medium) {
+    .pf-fig { margin-top: 0; }
+  }
+}
+
+/* ---------- Project card grid ---------- */
+.pf-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25em;
+
+  @include breakpoint($small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pf-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--pf-panel-bg);
+  border: 1px solid var(--pf-panel-line);
+  border-radius: $border-radius;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: var(--global-text-color);
+  transition: $global-transition;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(#000, 0.14);
+    border-color: var(--pf-title);
+  }
+}
+
+.pf-card__media {
+  display: block;
+  aspect-ratio: 5 / 3;
+  overflow: hidden;
+  background: #123a5e;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.pf-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  padding: 0.9em 1em 1em;
+  flex: 1 1 auto;
+}
+
+.pf-card__title {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: $type-size-5;
+  line-height: 1.3;
+  color: var(--pf-title);
+}
+
+.pf-card__excerpt {
+  font-size: $type-size-6;
+  line-height: 1.5;
+  color: var(--pf-muted);
+  flex: 1 1 auto;
+}
+
+.pf-card__more {
+  font-size: $type-size-7;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pf-accent);
+
+  i { transition: transform 0.15s ease-in-out; }
+}
+.pf-card:hover .pf-card__more i { transform: translateX(4px); }
+
+/* ---------- Beyond research (photo strip) ---------- */
+.pf-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.pf-photo {
+  margin: 0;
+  background: var(--pf-panel-bg);
+  border: 1px solid var(--pf-panel-line);
+  border-radius: $border-radius;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+  }
+
+  figcaption {
+    font-size: $type-size-7;
+    line-height: 1.45;
+    color: var(--pf-muted);
+    padding: 0.55em 0.7em 0.65em;
+  }
+}
+
+/* ---------- Technical stack chips ---------- */
+.pf-stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pf-stack__label {
+  font-family: $sans-serif;
+  font-size: $type-size-7;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pf-muted);
+  margin: 0 0 0.6em;
+}
+
+.pf-chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.pf-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4em;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: 600;
+  color: var(--global-text-color);
+  background: var(--pf-fig-bg);
+  border: 1px solid var(--pf-panel-line);
+  border-left: 3px solid var(--pf-title);
+  border-radius: 3px;
+  padding: 0.3em 0.6em;
+
+  span {
+    font-weight: 500;
+    font-size: $type-size-8;
+    color: var(--pf-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  &--plain { border-left-color: var(--pf-accent); }
+}

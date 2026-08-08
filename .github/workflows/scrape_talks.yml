@@ -1,0 +1,39 @@
+name: Scrape Talk Locations
+
+on:
+  push:
+    paths:
+      - '_talks/**'
+      - 'talkmap.ipynb'
+      - '.github/workflows/scrape_talks.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v7
+
+    - name: Set up Python
+      uses: actions/setup-python@v7
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
+        pip install getorg --upgrade
+
+    - name: Run Jupyter Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+
+    - name: Upload generated talk map
+      uses: actions/upload-artifact@v7
+      with:
+        name: talk-map
+        path: |
+          talkmap/map.html
+          talkmap/org-locations.js
+          talkmap_out.ipynb

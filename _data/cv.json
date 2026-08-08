@@ -1,0 +1,252 @@
+{
+  "basics": {
+    "name": "Koutian Wu (吴叩天)",
+    "email": "ktwugoat@gmail.com",
+    "phone": "",
+    "website": "https://ktwu01.github.io",
+    "summary": "AI4Geoscience PhD student at UT-Austin Jackson School of Geosciences, specializing in explainable AI for physics-based land surface modeling. Former undergraduate at USTC with expertise in space physics and atmospheric sciences.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Austin, TX",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "s9w1k-cAAAAJ",
+        "url": "https://scholar.google.com/citations?hl=en&user=s9w1k-cAAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "ktwu01",
+        "url": "https://github.com/ktwu01"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Jackson School of Geosciences, The University of Texas at Austin",
+      "position": "Graduate Research Assistant",
+      "website": "",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "AI for Noah-MP Land Surface Model: Implementing rock and wood moisture into the Noah-MP land surface model. Advised by Dr. Zong-Liang Yang."
+    },
+    {
+      "company": "NSF NCAR - The National Center for Atmospheric Research",
+      "position": "Project Admin",
+      "website": "",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Project Admin for NCAR/CISL Allocation Project UTAA0012: 'Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions.' Awarded 1,000 GPU hours on NSF NCAR Derecho-GPU, 20,000 CPU core-hours, and 2 TB campaign storage."
+    },
+    {
+      "company": "PineAI",
+      "position": "AI Agent Evaluation Engineer Intern",
+      "website": "",
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-31",
+      "summary": "Designed and implemented AI evaluation system architecture for AI Agent knowledge base assessment. Developed automated data anonymization algorithms processing 1000+ conversation texts with 70%+ accuracy."
+    },
+    {
+      "company": "Beijing ZaiwenAI Technology Co., Ltd.",
+      "position": "Full-Stack LLM Developer Intern",
+      "website": "",
+      "startDate": "2025-06-01",
+      "endDate": "2025-07-31",
+      "summary": "Built comprehensive LLM text processing system integrating text polishing, AI detection, and plagiarism reduction features. Developed RESTful API backend using FastAPI with Celery+Redis, improving processing efficiency by 65%+."
+    },
+    {
+      "company": "The University of Texas at Austin",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2024-08-01",
+      "endDate": "2025-05-31",
+      "summary": "Earth in 2100 (GEO 303E): Prepared course syllabus, office hours, and graded homework for ~1040 students."
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Texas at Austin",
+      "area": "Ph.D. in Geological and Earth Sciences/Geosciences",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2024-08-01",
+      "endDate": "2029-05-31",
+      "gpa": null,
+      "courses": ["Model Optimization: Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)", "Rock Climbing"]
+    },
+    {
+      "institution": "University of Science and Technology of China",
+      "area": "B.S. with Honors in Geological and Earth Sciences/Geosciences",
+      "studyType": "Bachelor of Science",
+      "startDate": "2020-09-01",
+      "endDate": "2024-07-31",
+      "gpa": null,
+      "courses": ["Founding President, USTC Student Xingyun Poetry Club (Currently 1,197+ members)"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": ["Python", "MATLAB", "Fortran", "Shell Scripting", "Perl", "HTML", "JavaScript"]
+    },
+    {
+      "name": "AI/ML Technologies",
+      "level": "Advanced",
+      "keywords": ["Machine Learning", "LLM APIs", "Prompt Engineering", "AI Agent Evaluation", "LLM-as-a-judge"]
+    },
+    {
+      "name": "Frameworks and Tools",
+      "level": "Advanced",
+      "keywords": ["FastAPI", "Celery", "Redis", "Vue.js", "LaTeX"]
+    },
+    {
+      "name": "Geoscience Specialties",
+      "level": "Expert",
+      "keywords": ["Land Surface Model Development", "Model Evaluation", "High Performance Computing (HPC)", "Noah-MP", "CTSM", "HRLDAS", "WACCM"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Chinese (Mandarin)",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "AI for Land Surface Modeling",
+      "keywords": ["Explainable AI", "Physics-based modeling", "Noah-MP"]
+    },
+    {
+      "name": "Plant-Rock-Water Interactions",
+      "keywords": ["Hydrological modeling", "Plant hydraulics"]
+    },
+    {
+      "name": "Space Physics",
+      "keywords": ["Meteor radar observations", "Atmospheric dynamics"]
+    },
+    {
+      "name": "Poetry and Leadership",
+      "keywords": ["Poetry club founding", "Cultural activities"]
+    }
+  ],
+  "references": [],
+  "publications": [
+    {
+      "name": "On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust",
+      "publisher": "Geography According to Foundation Models, Vol. 422, IOS Press",
+      "releaseDate": "2026-01-01",
+      "website": "https://ebooks.iospress.nl/doi/10.3233/FAIA260483",
+      "summary": "Peer-reviewed book chapter (pp. 215-232) reviewing ethical issues in generative GeoAI. Wu authored Section 8, Trust in AI and GeoAI Models. DOI 10.3233/FAIA260483."
+    },
+    {
+      "name": "ESM-bench: A Benchmark for Evaluating Whether AI Agents Understand Earth System Model Physics and Code",
+      "publisher": "Preprint (Zenodo); in preparation for NeurIPS Datasets and Benchmarks",
+      "releaseDate": "2026-01-01",
+      "website": "https://zenodo.org/records/19802836",
+      "summary": "Preprint. A 243-task benchmark with a classification rubric, precision/recall/F1 scoring, multi-model evaluation, and leakage detection. In preparation."
+    },
+    {
+      "name": "Noah-Agent: A Multi-Expert AI Agent Framework for Automated Parameterization and Validation of Large-Scale Fortran Climate Models (v0.1)",
+      "publisher": "Preprint (Zenodo); in preparation",
+      "releaseDate": "2025-01-01",
+      "website": "https://zenodo.org/records/17862049",
+      "summary": "Preprint, version 0.1. A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models."
+    },
+    {
+      "name": "Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar",
+      "publisher": "JGR: Space Physics",
+      "releaseDate": "2024-12-01",
+      "website": "https://doi.org/10.1029/2024JA032767",
+      "summary": "Investigation of diurnal and seasonal variations of meteor speed and arrival angle using Mengcheng meteor radar observations, providing insights into meteoroid dynamics in the mesosphere and lower thermosphere."
+    },
+    {
+      "name": "A Summary Report on the Space Physics Practical Education in 2022",
+      "publisher": "Review of Geophysics and Planetary Physics",
+      "releaseDate": "2024-08-01",
+      "website": "https://www.sjdz.org.cn/en/article/doi/10.19975/j.dqyxx.2023-019",
+      "summary": "Comprehensive report on space physics practical education initiatives in 2022, documenting educational programs and outcomes in space science education."
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Noah-MP land surface model with plant hydraulics scheme (Noah-MP-PHS) Evaluation",
+      "event": "JSG Research Symposium",
+      "date": "2025-02-01",
+      "location": "Austin, TX",
+      "description": "Poster presentation evaluating the Noah-MP land surface model with plant hydraulics scheme."
+    },
+    {
+      "name": "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using WACCM-X Simulation and Meteor Radar Observations",
+      "event": "4th NASA DRIVE CGS Workshop",
+      "date": "2023-11-01",
+      "location": "Boulder, CO",
+      "description": "Oral presentation on volcanic perturbations in the mesosphere and lower thermosphere."
+    },
+    {
+      "name": "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using the WACCM-X Simulation and Meteor Radar Observations",
+      "event": "AGU Fall Meeting 2023",
+      "date": "2023-12-01",
+      "location": "San Francisco, CA",
+      "description": "Poster presentation at AGU 2023 documenting global-scale atmospheric perturbations from volcanic eruption."
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Earth in 2100 (GEO 303E)",
+      "institution": "University of Texas at Austin, Jackson School of Geosciences",
+      "date": "2024-08-01",
+      "role": "Graduate Teaching Assistant",
+      "description": "Prepared and led weekly office hours for 520+ students, graded assignments, and provided mentorship for an interdisciplinary course examining Earth system changes and climate projections."
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "ESM-bench: Benchmarking AI Agents on Earth System Model Physics and Code",
+      "category": "research",
+      "date": "2026-01-01",
+      "url": "https://zenodo.org/records/19802836",
+      "description": "Preprint. A 243-task benchmark evaluating whether AI agents understand Earth System Model physics and code, with multi-model evaluation, a classification rubric, precision/recall/F1 scoring, and leakage detection. In preparation for NeurIPS Datasets and Benchmarks."
+    },
+    {
+      "name": "Noah-Agent: Multi-Expert AI Agent Framework for Fortran Climate Models",
+      "category": "research",
+      "date": "2025-12-15",
+      "url": "https://zenodo.org/records/17862049",
+      "description": "Preprint, version 0.1. A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models."
+    },
+    {
+      "name": "Explainable AI for Noah-MP Land Surface Modeling",
+      "category": "research",
+      "date": "2025-08-01",
+      "url": "",
+      "description": "NCAR-funded project implementing AI to improve physics-based land surface models for plant-rock-water interactions. Awarded 1,000 GPU hours and significant computational resources."
+    },
+    {
+      "name": "AI Text Processing System",
+      "category": "software",
+      "date": "2025-06-01",
+      "url": "https://github.com/ktwu01/1AI-polish/",
+      "description": "Full-stack LLM text processing system with polishing, AI detection, and plagiarism reduction features. Built with FastAPI, Celery, Redis, achieving 65%+ efficiency improvement."
+    },
+    {
+      "name": "AI Agent Knowledge Base Evaluation System",
+      "category": "software",
+      "date": "2025-07-01",
+      "url": "",
+      "description": "Multi-dimensional AI agent evaluation system with data anonymization and LLM-as-a-judge architecture. Achieved 70%+ accuracy in sensitive information identification."
+    }
+  ]
+}

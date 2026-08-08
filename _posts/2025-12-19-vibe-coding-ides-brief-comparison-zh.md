@@ -1,0 +1,119 @@
+---
+title: 'Vibe Coding IDEs brief comparison'
+date: 2025-12-19
+permalink: /zh/posts/2025/12/vibe-coding-ides-brief-comparison/
+tags:
+  - ide
+  - ai
+  - cursor
+  - kiro
+  - antigravity
+  - developer-tools
+---
+每一家都有每一家的优点和缺点。Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
+> TL;DR 太长不看版本
+
+> Vibe coding 重度使用者, 比如说我, 为了多快好省的做出东西, 在老板不给 API 的情况下, 建议每一种IDE都同时使用。
+
+> Vibe coding 轻微使用者, 如果你是学生, 建议使用 Cursor 学生会员, 拥有最强大的 vibe coding 功能. 如果不是学生, Kiro / Antigravity 无需验证, 直接 google 帐号注册就可以用, 是性价比最高的。
+
+我没正经用 Trae 作生产工具. VS Code 有很长一段时间我只用过他普通的写代码功能+ GPT 网页版代码复制粘贴. Vibe coding 时代到来之后, 我就再也没用过它, 因为它不免费.
+
+Vibe Coding IDE 只用过Cursor，AWS Kiro，Google Antigravity。 使用这么多的原因不是"差生文具多"，而是 Cursor 的学生会员免费额度 + Claude Code + Gemini CLI + Codex 加起来都不够用。 Claude Code + Gemini CLI + Codex 可能会放到下一期来聊几句。
+
+## Cursor
+
+官方定位（[Cursor 官网](https://www.cursor.com/)）："Built to make you extraordinarily productive, Cursor is the best way to code with AI."
+
+Cursor 花活多，各套 vibe coding 配置最全。设计比较细心, 符合它的"卓越的生产力工具"的定位。
+
+> 比如说，可以选择多个不同的模式进行思考和创作.
+![Cursor modes](/images/vibe-coding-ides/Cursor-modes.png)
+
+> 比如说，可以选择多个模型 在不同的 git worktree 一起思考。
+![Cursor multi-model worktrees](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.14.49.png)
+
+> 有的模型它不能网页搜索, 这个就会令人头疼. Cursor 可以选择多个模型的优势就体现出来了.
+![Cursor models](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2015.55.14.png)
+
+> Cursor 这里可以选择是“revert”，也可以选择不“revert”。 留给用户更自主的选择，是尊重用户智商的表现。其他几家都强制默认“revert”, 我个人觉得这不好。
+![Cursor revert choice](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.13.08.png)
+
+## Kiro
+
+官方定位（[Kiro 官网](https://kiro.dev/)）："Agentic AI development from prototype to production
+Agentic AI development from prototype to production. Kiro helps you do your best work by bringing structure to AI coding with spec-driven development."
+
+所以它的关键词是 "spec-driven".
+
+> Kiro 的 spec 功能, 可以选择"Vibe"，也可以选择先 make very detailed plan 再执行，但是现在其他家也有类似功能。就比如说 Antigravity 的 “fast” 也可以生成相应的计划。
+![Kiro spec feature](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.16.58.png)
+
+![Kiro chat 1](/images/vibe-coding-ides/cfbe09318aa030ea5e8ac7e98c7e9787.jpg)
+
+![Kiro chat 2](/images/vibe-coding-ides/b7a400be25cd0de7913d5e642cb7e7ad.jpg)
+
+Kiro 里面可以免费用 Claude 模型, 对每个新注册的用户, 不需要验证直接提供 500 credit. 也就是说你可以创建+使用多个 Google/AWS/ 账号, 持续薅羊毛.
+
+并且很有可能是因为Kiro最近热度下降，LLM反应速度比之前快的多, 掉线也更少。现在用它, 可谓是
+
+> 买在无人问津处.
+
+> 刚刚我正好free tier的一个账号耗尽了credit，我估算了一下, 500 credit, 如果使用 Claude Opus 4.5, 可以搭一个 60k+ lines 的 multiagents system MVP, 非常强悍的水平.
+![Kiro usage limits](/images/vibe-coding-ides/db0ed4ed320b45abc3020419b8cfdb69.JPG)
+
+> Kiro 免费tier就可以用几种Claude模型，包括最强大的 Opus 4.5. 但是 Kiro 只提供 Claude 的模型.
+![Kiro models](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.25.50.png)
+
+Kiro 相比 Cursor 一大优点是，在设置 允许自动运行的命令的 allowlist 的时候，可以在 UI 里面手动选择 allow 命令的哪一段. Cursor 是不能这样做的。
+
+> e.g. In Kiro, You can choose from allow "git * " or "git add * ".
+
+但是他们都有一个特别傻的时候，就是如果第一行是一个注释，他们会让你选择把一个注释加到 allowlist 里面。
+
+> e.g. Choose if you wanna add "# This code is for xxx" to allowlist
+
+Kiro 一个缺点是，LLM 对话超过最大内容限度之后，会强制性 summarize，然后跳到另外一个对话窗口，而不是像 Cursor 那样在同一个窗口 summarize。
+
+> 如果你对话很长的话，就会出现这样的情况: 你会看到不停地有新的对话出来，而且它们的标题没有任何意义。
+![Kiro conversation splitting](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.26.19.png)
+
+## Antigravity
+
+官方定位（[Google Developers Blog](https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/)）：Google Antigravity is "a new agentic development platform" that combines "an AI-powered coding experience" with "a new agent-first interface".
+
+所以它的关键词是 "agent-first".
+
+> Google 的 Antigravity 反倒是不仅限于自家模型，免费提供了 Gemini Pro high, GPT OSS, Claude Opus 4.5. 这真的可以算是海纳百川，天地良心了。
+![Antigravity models](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.27.13.png)
+
+Antigravity 它有一个非常贴心的功能，它默认情况下不会在你的代码库里面创建那么多乱七八糟的仓库介绍。
+
+> 但是他仍然默认会拉屎!! 是的，不会在你的代码库里面拉屎；它会在它自己的库 (brain) 里面拉屎。 希望不要满脑子都是屎。
+![Antigravity brain artifacts](/images/vibe-coding-ides/Screenshot%202025-12-19%20at%2014.28.27.png)
+
+> Antigravity 它的UI相比Cursor还是略逊一筹 (这个不是致命问题。但是你用一用就知道),但是可以理解,因为它是最近刚出来的。免费了还要什么自行车?
+
+> Antigravity可以选择不同的模式进行coding.
+![Antigravity modes](/images/vibe-coding-ides/Antigravity-modes.png)
+
+总的来说，我觉得 Antigravity 还是挺好用的。而且选择 Gemini 模型，它思考的速度比其他几个更快一些。当然，可能只是相对于其他几家,我用它的时间比较短, 用它做的工作比较简单，所以产生了系统性观察偏差。
+
+## 总结
+
+每一家都有每一家的优点和缺点。Cursor: "extraordinarily productive"; Kiro: "spec-driven"; Antigravity: "agent-first".
+
+Vibe coding 重度使用者, 比如说我, 为了多快好省的做出东西, 在老板不给 API 的情况下, 建议每一种IDE都同时使用。
+
+Vibe coding 轻微使用者, 如果你是学生你可以用 Cursor 学生会员, 拥有最强大的 vibe coding 功能. Kiro / Antigravity 无需验证, 直接 google 帐号注册就可以用, 是最方便上手的。
+
+最后祝 LLM/IDE 厂商们大家多多打起来，这样我们可以持续使用免费的 IDE。
+
+> Note: 看到文章的朋友不要转发, 知道这个羊毛的人太多之后, 羊毛的活动福利就没有了
+
+> Acknowledgement: 我非常感谢这几家 IDE，要么我有学生会员，要么是免费使用，我都没有花钱。免费使用的生产力工具，我没有资格进行批评 hhh，所以上面的内容只是我一些个人的使用经验探讨。
+
+> Disclaimer: 不是提倡薅羊毛, 而是提倡先用大公司大爱无疆提供的免费资源, 先成就自己, 而后再利人, 创造出比单纯付费购买会员更大的价值.
