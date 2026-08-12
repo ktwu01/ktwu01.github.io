@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <style>
+@page {
+    size: A4;
+    margin: 25mm 20mm 20mm 20mm;
+
+    @top-center {
+        content: "UT Austin GenAI Society  |  横纵分析法深度研究报告";
+        font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        color: #95a5a6;
+        border-bottom: 0.5pt solid #ecf0f1;
+        padding-bottom: 3mm;
+    }
+
+    @bottom-center {
+        content: "第 " counter(page) " 页";
+        font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        color: #95a5a6;
+        border-top: 0.8pt solid #1a5276;
+        padding-top: 2mm;
+    }
+}
+
+@page :first {
+    @top-center { content: none; }
+    @bottom-center { content: none; }
+}
+
+body {
+    font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.75;
+    color: #2c3e50;
+    text-align: justify;
+}
+
+/* 封面 */
+.cover {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 45%;
+}
+.cover h1 {
+    font-size: 28pt;
+    color: #1a5276;
+    margin-bottom: 8mm;
+    font-weight: bold;
+    letter-spacing: 2pt;
+}
+.cover .subtitle {
+    font-size: 14pt;
+    color: #95a5a6;
+    margin-bottom: 6mm;
+}
+.cover .meta {
+    font-size: 11pt;
+    color: #95a5a6;
+    margin-bottom: 4mm;
+}
+.cover .divider {
+    width: 60%;
+    margin: 8mm auto;
+    border: none;
+    border-top: 1.5pt solid #1a5276;
+}
+
+/* 一级标题 */
+h1 {
+    font-size: 20pt;
+    color: #1a5276;
+    margin-top: 16mm;
+    margin-bottom: 6mm;
+    padding-bottom: 3mm;
+    border-bottom: 2pt solid #1a5276;
+    page-break-before: always;
+    font-weight: bold;
+}
+
+/* 二级标题 */
+h2 {
+    font-size: 14pt;
+    color: #1e8449;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    font-weight: bold;
+}
+
+/* 三级标题 */
+h3 {
+    font-size: 12pt;
+    color: #2e86c1;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 11pt;
+    color: #5b2c6f;
+    margin-top: 5mm;
+    margin-bottom: 2mm;
+    font-weight: bold;
+}
+
+/* 段落 */
+p {
+    margin-top: 1.5mm;
+    margin-bottom: 1.5mm;
+    orphans: 3;
+    widows: 3;
+}
+
+/* 引用块 */
+blockquote {
+    margin: 4mm 0;
+    padding: 4mm 4mm 4mm 10mm;
+    background: #f8f9fa;
+    border-left: 3pt solid #1a5276;
+    color: #5d6d7e;
+    font-size: 10pt;
+}
+blockquote p {
+    margin: 1mm 0;
+}
+
+/* 粗体 */
+strong, b {
+    font-weight: bold;
+    color: #1a252f;
+}
+
+/* 行内代码 */
+code {
+    font-family: "Courier New", Courier, monospace;
+    background: #fdf2e9;
+    color: #c0392b;
+    padding: 0.5mm 1.5mm;
+    border-radius: 2pt;
+    font-size: 9.5pt;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+}
+thead th {
+    background: #1a5276;
+    color: white;
+    padding: 3mm;
+    text-align: left;
+    font-weight: bold;
+}
+tbody td {
+    padding: 2.5mm 3mm;
+    border-bottom: 0.5pt solid #bdc3c7;
+}
+tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+/* 分隔线 */
+hr {
+    border: none;
+    border-top: 0.5pt solid #bdc3c7;
+    margin: 4mm 0;
+}
+
+/* 列表 */
+ul, ol {
+    margin: 2mm 0;
+    padding-left: 8mm;
+}
+li {
+    margin-bottom: 1mm;
+}
+
+/* 链接 */
+a {
+    color: #2e86c1;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+    <div class="cover">
+        <h1 style="page-break-before: avoid; border: none;">UT Austin GenAI Society</h1>
+        <div class="subtitle">横纵分析法深度研究报告</div>
+        <div class='meta'>研究时间：2026年8月11日 | 所属领域：大学学生组织 / 生成式AI / 跨学科社群 | 研究对象：GenAI Society at UT Austin</div>
+        <hr class="divider">
+        <div class="meta">作者: Koutian Wu (https://ktwu01.github.io/)</div>
+    </div>
+    
+
+<blockquote>
+<p>研究时间：2026年8月11日 | 所属领域：大学学生组织 / 生成式AI / 跨学科社群 | 研究对象：GenAI Society at UT Austin</p>
+</blockquote>
+<h2>执行摘要</h2>
+<p>GenAI Society at UT Austin 是一个在 2024 年生成式 AI 校园热潮中成立的年轻学生组织。它的公开定位不是传统的机器学习技术社团，而是同时覆盖 <strong>research exploration、industry entrepreneurship、free discussions</strong> 三条线：研究、产业创业、社会文化讨论。官网列出的创始团队由 President、Vice President、Secretary、Design Lead、Engagement Lead 五个职位组成，并展示了来自 UT Austin、Google 和 Amazon 的三位嘉宾。公开材料足以证明其愿景和创始架构，却不足以确认 2026 年仍在任的全体 officer、活跃会员数、章程、预算，以及它究竟是 Registered Student Organization（RSO）还是 Sponsored Student Organization（SSO）。因此，本报告不会把推测写成组织事实。</p>
+<p>一句话判断：<strong>它占据了一个好位置，却还没有形成一套别人一眼就能认出的“旗舰生产机制”。</strong></p>
+<p>UT Austin 校内已经有人做讲座、工具 workshop、Claude hackathon、通用 hackathon、机器学习学习和企业连接。新人若再办一次“某公司工程师谈 GenAI”，活动本身不会错，但很难给组织留下新的结构性资产。更值得做的是一个低门槛、跨专业、有真实使用者、有安全边界、能留下公开成果的常设项目。</p>
+<p>本报告给出的第一优先建议是：</p>
+<blockquote>
+<p><strong>启动 “Forty Acres GenAI Field Lab（四十英亩生成式 AI 实验室）”：每期 4—6 周，把 4—6 名不同专业学生、1 名校园问题提出者和 1 名技术/伦理导师组成小队，用公开或合成数据完成一个可演示的原型、一张风险卡和一份复盘。</strong></p>
+</blockquote>
+<p>首期不要追求大型 hackathon。选一个低风险问题，例如“把分散的公开校园资源整理成可追溯问答助手”“为学生组织制作活动无障碍检查器”“为公共课程资料制作带引用的学习导航”。首期 20—30 人、4 支队伍足够。成功标准不是报名人数，而是四周后有没有人实际使用、是否能复现、风险是否被写清、成员是否愿意再来。</p>
+<h2>一、研究口径与证据边界</h2>
+<h3>1. 研究对象</h3>
+<p>本报告将用户所说的 “UT GenAI Society” 识别为 <a href="https://genai-society-utaustin.webflow.io/">GenAI Society at UT Austin 官网</a>。官网明确写有 “founded in 2024”，使命是让 UT Austin 学生引领 AI 创新，愿景是推动有意义的 GenAI 进展。其三条公开方向分别是：</p>
+<ul>
+<li>连接学生、教师和产业专家，推动生成式 AI 研究与知识分享；</li>
+<li>分享产业应用、提供动手机会和导师支持，把想法转化为 AI 产品；</li>
+<li>围绕 AI 的社会、文化、伦理和技术影响开展自由讨论。</li>
+</ul>
+<p>官网列出的创始团队为 Anne Xu（Co-Founder &amp; President）、Harold Zhong（Co-Founder &amp; Vice President）、Asad Safarov（Co-Founder &amp; Secretary）、Manal Shah（Co-Founder &amp; Design Lead）和 John Knowlton（Co-Founder &amp; Engagement Lead）。公开嘉宾包括 UT Austin associate research scientist Dawei Liang、Google software engineer Chris Guo、Amazon applied scientist Tianhao Li。</p>
+<h3>2. 什么还不能确认</h3>
+<p>截至访问日，官网没有公开：</p>
+<ul>
+<li>2025—2026 学年的 officer 换届结果和部门名单；</li>
+<li>会员规模、活跃率、预算、章程和顾问；</li>
+<li>HornsLink 组织页面或 RSO/SSO 身份；</li>
+<li>各场活动的日期、出席人数、项目成果和复盘；</li>
+<li>与 UT.AI、某学院、Center for Generative AI 或企业之间的正式隶属/赞助协议。</li>
+</ul>
+<p>LinkedIn 页面将其描述为成立于 2024 年、规模 2—10 人的 nonprofit 页面，并称自己是 UT Austin 第一个聚焦 Generative AI 的 club；但 LinkedIn 的“company size”是平台自填字段，不能等同于活跃会员数，也不能证明学校注册状态。因此，下面涉及治理时采用两层表达：<strong>制度上学生组织如何被管理</strong>，以及 <strong>GenAI Society 最适合与哪些单位协作</strong>。两者不混写。</p>
+<p>校方资料提供了一个更细但仍不完整的信号：2026—27 <a href="https://deanofstudents.utexas.edu/safetyed/safety-education.php#status">Safety Education 状态表</a>中出现精确名称 “GenAI Society”，说明它在学生组织管理系统里有记录；截至 2026 年 8 月 11 日，两步培训显示 Incomplete，但最终截止日为 2027 年 3 月 14 日，因此不能说它已经逾期。该页面还明确警告，状态表不证明 annual registration 或 university standing。与此同时，公开 HornsLink 搜索未返回该组织。可能原因包括隐藏、冻结、年审未完成或索引/名称变化，公开证据无法判断。最准确结论是：<strong>组织记录存在，当前 good-standing 与可发现性需要向 Student Organization Center 或组织 officer 核实。</strong></p>
+<h2>二、纵向分析：为什么它在 2024 年出现</h2>
+<h3>1. 前史：UT 的 AI 基础早已存在，GenAI 改变的是入口</h3>
+<p>UT Austin 并不是在 ChatGPT 出现后才开始做 AI。校内已经有 Machine Learning Laboratory、Texas Robotics、Good Systems、TACC，以及分布在计算机、工程、信息、医学、法律和社会科学中的研究团队。学生也早已有机器学习、机器人、网络安全、产品开发和 hackathon 社群。</p>
+<p>变化发生在 2022 年末以后。生成式 AI 把加入门槛从“先学线性代数、Python 和模型训练”降到“任何专业的人都能在十分钟内试用”。技术对象也从一个学科，变成一种校园基础能力：学生拿它写代码、搜资料、做设计；教师重新设计作业；学校开始处理隐私、版权、学术诚信和采购问题。此时成立一个同时讨论 technology、culture、society 的组织，比再成立一个狭义 ML club 更符合新需求。</p>
+<p>UT Austin 在 2024 年将该年定为 <a href="https://tech.utexas.edu/initiatives/artificial-intelligence">Year of AI</a>，强调跨学科认知、实验与对话。同年 GenAI Society 成立。公开信息没有证明两者之间存在直接发起或隶属关系，但时间上的同频很清楚：学校把 AI 升为全校议题，学生组织则为学生提供更快、更非正式的参与入口。</p>
+<p>这一年，UT 还成立了 Center for Generative AI；<a href="https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/">校方年终回顾</a>称 Year of AI 期间举办了 100 多场 AI 活动与 workshop。GenAI Society 并不是在一片空地上冷启动，而是在注意力、研究基础设施和校园活动同时膨胀时出现。它可能受这一环境催化，但没有证据显示由 Year of AI 或 Center for Generative AI 孵化。</p>
+<h3>2. 第一阶段：创始定位期（2024）</h3>
+<p>创始团队的五个职位很能说明早期组织逻辑。President、Vice President、Secretary 是典型学生社团的治理骨架；Design Lead 和 Engagement Lead 说明它从一开始就把视觉传播、社区参与当成单独能力。团队没有在官网设置 Chief Technology Officer 或 Research Director，这与其三线并行的定位一致：它希望成为跨学科社会，而非纯工程队。</p>
+<p>这个选择带来两个好处。其一，它能吸引信息、商科、设计、传播、法律、公共政策和自然科学学生，而不是只和计算机社团争夺同一批人。其二，它能在模型快速更替时保持议题弹性——GPT、Claude、Gemini 谁领先会变化，但“AI 如何影响研究、创业与社会”不会很快过时。</p>
+<p>代价也同时出现。三条使命都很宽，若缺少稳定项目，组织容易退化为活动平台：这周请研究者，下周请工程师，再下周做一次自由讨论。每场活动可能有价值，会员却很难回答：“加入半年以后，我共同完成了什么？”</p>
+<h3>3. 第二阶段：嘉宾与内容验证期（可公开观察到的阶段）</h3>
+<p>官网展示的三位嘉宾横跨校园研究、Google 工程和 Amazon 应用科学，说明组织在尝试打通 academia—industry。资源页还整理 UT AI labs、行业应用和 AI competitions。由这些可见材料，可以确认的活动模型主要是：</p>
+<ol>
+<li>嘉宾知识输入；</li>
+<li>产业与研究资源导航；</li>
+<li>讨论和成员连接。</li>
+</ol>
+<p>这是一种适合冷启动的模型。新组织没有预算、没有稳定导师、没有历史品牌时，邀请一位嘉宾比运营十支项目队容易；一次公开活动也能迅速获得照片、社交媒体内容和新报名。然而它积累的多是“注意力”，不是“组织能力”。嘉宾走后，知识未必沉淀；新成员参加一次，也未必获得角色。</p>
+<p>Internet Archive 至迟在 2025 年 4 月 21 日已保存包含同一创始团队和三名 guest speakers 的官网版本；到 2026 年 8 月，官网核心内容基本未变。LinkedIn 后续更常见的是创始成员观点文章与行业内容转发。由此能确认的是“外联和内容策展”，不能虚构具体讲座日期、到场人数，也不能把转发当成组织主办活动。这个公开档案上的停滞不必然等于实际停运，却会削弱外界判断其活跃度和成果的能力。</p>
+<h3>4. 第三阶段：校园 AI 从宣传期进入治理与执行期（2025—2026）</h3>
+<p>到 2026 年，校园环境已经变化。UT.AI 被定义为全校 AI initiative，由 Enterprise Technology 协同校园伙伴推进战略、治理和投资；AI Studio 承接应用探索；学校提供经过审查的 AI 服务与教学工具；AI 规则开始细化到数据分类、合同、web search、AI detection 和 consequential decisions。</p>
+<p><a href="https://security.utexas.edu/ai-tools">UT Austin Information Security Office 的最新指南</a>规定：公开/已发布数据可以自由用于 AI 工具；Controlled 或 Confidential 数据只能进入学校管理且合同明确保护数据的工具。FERPA 学生记录、健康、专有等信息不得放入未获批准的个人版工具。2026 年更新还强调，涉及录取、评分、招聘、纪律、医疗等 consequential decisions 的 AI 受到更严格审查，不能在缺少有意义人工复核时成为控制性因素。</p>
+<p>这给 GenAI Society 带来新的角色机会。2024 年的稀缺品是“让我看看 AI 能做什么”；2026 年的稀缺品是“让我在真实工作中安全地做完一个有价值的东西，并能解释它何时会失败”。如果组织仍停在工具介绍，它会被供应商 builder club、课程、YouTube 和校级培训替代；如果它能把技术、文化、社会三条线压缩进一个真实项目流程，创始定位反而开始显出价值。</p>
+<h2>三、组织架构：现状、上级管理与推荐升级</h2>
+<h3>1. 公开可见的内部架构</h3>
+<table>
+<thead>
+<tr>
+<th>职位</th>
+<th>官网可见职责信号</th>
+<th>可能的空档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>President</td>
+<td>战略、外部代表、整体负责</td>
+<td>继任机制、年度目标未公开</td>
+</tr>
+<tr>
+<td>Vice President</td>
+<td>协助统筹与执行</td>
+<td>具体 portfolio 未公开</td>
+</tr>
+<tr>
+<td>Secretary</td>
+<td>记录、行政、合规基础</td>
+<td>财务/运营是否独立未知</td>
+</tr>
+<tr>
+<td>Design Lead</td>
+<td>视觉、传播、体验</td>
+<td>是否兼管 marketing 未知</td>
+</tr>
+<tr>
+<td>Engagement Lead</td>
+<td>招募、活动、社区关系</td>
+<td>新人 onboarding 和留存机制未公开</td>
+</tr>
+</tbody>
+</table>
+<p>这个架构适合五人创始团队，却不适合稳定承载研究、项目、活动和治理四条生产线。推荐在不增加过多头衔的前提下，改成“小型执行委员会 + 三个项目组合”：</p>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>推荐设置</th>
+<th>主要责任</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Executive Board</td>
+<td>President、VP、Operations/Secretary、Treasurer</td>
+<td>战略、预算、合规、换届、校方关系</td>
+</tr>
+<tr>
+<td>Programs</td>
+<td>Field Lab、Learning、Dialogues 三位负责人</td>
+<td>分别负责项目制、技能制、讨论制活动</td>
+</tr>
+<tr>
+<td>Shared Functions</td>
+<td>Community、Design/Comms、Partnerships、Safety &amp; Evaluation</td>
+<td>招新留存、内容、外联、风险与效果评估</td>
+</tr>
+<tr>
+<td>Project Pods</td>
+<td>每队 4—6 人，设 student lead、domain lead、builder、evaluator</td>
+<td>在固定周期内交付原型与复盘</td>
+</tr>
+<tr>
+<td>Advisory Circle</td>
+<td>1 名正式 advisor + 2—4 名按项目参与的 faculty/industry/community mentors</td>
+<td>提供边界、资源和反馈，不替学生做决定</td>
+</tr>
+</tbody>
+</table>
+<p>组织不需要十几个“VP”。真正的升级是把每个负责人绑定到一个可测量的输出，例如 Field Lab 每学期至少完成 4 个可复现项目；Community 负责首访到二次参与的转化；Safety &amp; Evaluation 负责每个项目的数据与风险检查。</p>
+<h3>2. “上面的管理机构”应如何理解</h3>
+<p>如果它是普通 Registered Student Organization，最准确的行政链条是：</p>
+<p><strong>UT System Board of Regents → UT System Chancellor → UT Austin President → 负责学生体验/学生事务的校级体系 → Office of the Dean of Students → Student Involvement / Student Organizations → RSO officers。</strong></p>
+<p><a href="https://www.utsystem.edu/board-of-regents/rules/10101-board-authority-and-duties">UT System 的规则</a>说明 Board of Regents 拥有系统治理的最终权力；<a href="https://catalog.utexas.edu/undergraduate/the-university/organization-of-the-university/">UT Austin 组织说明</a>称 President 是学校 chief executive。对学生组织而言，真正日常相关的不是 Regent 或 Chancellor，而是 Office of the Dean of Students 的注册、活动、场地、风险和纪律流程。</p>
+<p>根据 UT Austin <a href="https://catalog.utexas.edu/general-information/appendices/appendix-c/student-organizations/">Chapter 6 Student Organizations</a>，RSO 是在学校制度环境中运行的私人实体，不是学校某个学院或行政部门的延伸。维持资格通常需要至少 10 名成员、其中至少 3 名 officers（含 President）、现行章程、更新 roster、年度注册和 Safety Education。RSO 获得场地预约、募资、摆台、展示、邀请嘉宾等权利，但不能把活动宣传成学校官方赞助。</p>
+<p>对 GenAI Society 而言，治理升级的第零步不是增设部门，而是完成一次 status audit：核对 HornsLink profile 是否公开、2026 annual registration 是否完成、roster/constitution 是否最新、三名 officers 与十名 members 是否满足要求、Safety Education 由谁在何时完成。状态不清时，大型活动设计可能被订场、社团展和 SEFC funding 权限卡住。</p>
+<p>SSO 则不同。Sponsored Student Organization 是某个学术或行政单位的正式延伸；赞助单位需要 endorsement、support、supervision，并承担更强的财务和活动监督。只有确认 GenAI Society 的 HornsLink 和 sponsorship 文件后，才能说某个学院或 UT.AI 是其“直属上级”。目前公开证据不足。</p>
+<h3>3. UT.AI 是功能伙伴，不应被误写成行政上级</h3>
+<p><a href="https://tech.utexas.edu/initiatives/artificial-intelligence">UT.AI</a> 是 Enterprise Technology 牵头的全校 AI 协调框架，覆盖教学、学生体验、运营和研究。它最适合作为 GenAI Society 的功能合作方：</p>
+<ul>
+<li>请 AI Studio 提供真实但低风险的问题和导师；</li>
+<li>请 Information Security Office 做数据与工具边界 briefing；</li>
+<li>请 Office of Academic Technology/CTL 参与 AI literacy 与学习设计；</li>
+<li>请 Good Systems 或相关学院研究者参与伦理、公共利益和评估；</li>
+<li>与 Center for Generative AI、TACC、Texas Innovation Center 等连接研究和创业资源。</li>
+</ul>
+<p>合作不等于隶属。保持这个区别，既准确，也保护学生组织的自主性。</p>
+<h2>四、横向分析：它真正面对的不是一个竞品，而是四种替代品</h2>
+<h3>1. UT Austin Claude Builder Club：供应商资源驱动的“快速建造”</h3>
+<p><a href="https://txclaude.org/">UT Austin Claude Builder Club</a>的价值主张很直接：Claude Pro、API credits、merch、workshops、hackathons、monthly demos。它解决“我想马上用先进模型做东西”的需求，转化路径短，赞助资源清晰。</p>
+<p>GenAI Society 不应与它正面竞争“谁能发更多 credits、办更热闹的模型 hackathon”。供应商 club 天生擅长工具教育和品牌资源；GenAI Society 的差异应该是模型中立、跨专业、问题先行，并把社会影响与评估写进交付物。</p>
+<h3>2. UT Austin 校内 hackathon 体系：高能量、低持续性</h3>
+<p>HackTX、Hook ’Em Hacks、Energy AI Hackathon、Edge AI Hackathon 已经覆盖大型通用创新、AI、能源和硬件。它们擅长在 4—48 小时内聚集人、导师、奖品和曝光。问题是，许多原型在周末后停止，真实用户反馈和长期维护不足。</p>
+<p>GenAI Society 再办一个普通 hackathon，会进入拥挤赛道。更好的互补方式是做 “after-hackathon residency”：接收其他活动中最有潜力的 2—4 个项目，用四周完成用户验证、安全审查和部署判断。</p>
+<h3>3. 传统 ML/CS 社群：技术深度与同专业身份</h3>
+<p>Machine Learning/Data Science Club、ECLAIR、ACM、计算机系学生组织能提供算法、工程和专业网络。它们的优势是技术共同语言和长期学术传统。GenAI Society 若只做 prompting workshop，技术深度比不过 ML 社团，工具资源比不过 builder club。</p>
+<p>它应把非技术成员变成真正的生产角色：法律学生做政策与责任边界，设计学生做交互和无障碍，社科学生做用户研究与影响评估，专业领域学生定义问题与验收标准，工程学生负责实现。跨学科不能只体现在报名表，而要写进每支队伍的角色配置。</p>
+<h3>4. UTD Artificial Intelligence Society：从社团变成“人才生产系统”</h3>
+<p><a href="https://www.linkedin.com/company/ais-utd">Artificial Intelligence Society at UT Dallas</a>成立于 2016 年，公开活动显示它已经形成多层产品：ML Monday 提供持续学习；AI Mentorship Program（AIM）以 semester-long teams 带零基础 mentees 做全栈 AI 项目；AIM Night 展示成果；HackAI 形成年度品牌活动。其公开募款页面还把预算具体绑定到 hackathon、mentorship 和 community projects。</p>
+<p>它最值得借鉴的不是规模，而是“活动阶梯”：路过者参加公开课，认真者进入项目，成熟成员当导师，成果在展示夜被看见。GenAI Society 当前公开页面更像一组使命和资源；下一步需要把使命变成这种可重复的成员旅程。</p>
+<h3>5. ASU AI Society：项目制与产业合作</h3>
+<p>ASU AI Society 的公开活动包括 9 周生产级 AI 项目、weekly leaderboards、faculty/industry mentorship、MakerSpace 和 summit。它展示了另一条路径：用企业基础设施与导师增强项目制。风险是活动可能过度服务招聘或供应商目标。</p>
+<p>GenAI Society 可以借其长期项目节奏，但要保留自己的“society”部分：每个项目不仅有 demo，还要回答谁受益、谁承担错误、数据从哪里来、如何退出。</p>
+<h3>6. 横向定位表</h3>
+<table>
+<thead>
+<tr>
+<th>组织/活动类型</th>
+<th>核心承诺</th>
+<th>强项</th>
+<th>常见短板</th>
+<th>GenAI Society 应对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Builder Club</td>
+<td>用 Claude 快速 build</td>
+<td>credits、工具、hackathon</td>
+<td>单一平台导向</td>
+<td>模型中立、问题先行</td>
+</tr>
+<tr>
+<td>大型 hackathon</td>
+<td>周末完成原型</td>
+<td>能量、曝光、赞助</td>
+<td>缺乏后续验证</td>
+<td>做 4—6 周延伸验证</td>
+</tr>
+<tr>
+<td>ML/CS clubs</td>
+<td>学技术、找同伴</td>
+<td>深度、专业网络</td>
+<td>跨专业门槛</td>
+<td>让领域与评估角色进入核心</td>
+</tr>
+<tr>
+<td>UTD AIS</td>
+<td>教学—导师—项目—大赛阶梯</td>
+<td>成员成长机制成熟</td>
+<td>运营复杂</td>
+<td>学其阶梯，不照搬规模</td>
+</tr>
+<tr>
+<td>ASU AI Society</td>
+<td>产业支持的长期制作</td>
+<td>导师、基础设施、作品集</td>
+<td>易被招聘逻辑主导</td>
+<td>加入公共价值和退出机制</td>
+</tr>
+<tr>
+<td>GenAI Society</td>
+<td>tech + culture + society</td>
+<td>跨学科叙事位置好</td>
+<td>公开旗舰机制不清</td>
+<td>Field Lab + Dialogues 双轮</td>
+</tr>
+</tbody>
+</table>
+<h3>7. 四个外校样本：成熟组织把“活动”做成成员阶梯</h3>
+<h4>Stanford AI Club：演讲是入口，research cohort 才是核心</h4>
+<p><a href="https://www.stanfordai.club/">Stanford AI Club</a>公开定位聚焦前沿研究，活动主轴很克制：Speaker Series 吸引关注，小型 Research Cohort 提供导师和算力，已有项目覆盖奥赛推理、test-time learning、world models 和视频推理。其公开活动能邀请 Jeff Dean、Modal CEO 等高辨识度嘉宾，但组织价值不止于“见名人”，而是把流量送进研究小组。</p>
+<p>一个需要特别标明的制度事实是：Stanford CardinalEngage 目录截至研究时显示该 group “Not Registered Yet”。因此，它是有公开活动与项目的学生 AI 社群，但不能据此写成已完成校方 VSO 注册的组织。这个案例提醒 GenAI Society：外部声量与制度成熟度并非同一件事，两者都要建设。</p>
+<h4>Machine Learning at Berkeley：三条事业线与三种新人入口</h4>
+<p><a href="https://ml.studentorg.berkeley.edu/">Machine Learning at Berkeley</a>将组织拆为 Education、Research、Consulting/Industry Partnerships。更值得借鉴的是其招新分层：零经验成员进入训练项目，有能力者进入 research/consulting projects，硕博或访问学生可以 Fellows 身份加入。这避免了同一个 workshop 同时服务“第一次打开 notebook 的人”和“准备投稿的人”。</p>
+<p>ML@B 在 Berkeley 的学生组织目录中登记，但官网明确其活动由组织独立负责；校园注册不等于 UC 对全部活动背书。这与 UT Austin 的 RSO/SSO 区分相似。对 GenAI Society 来说，可直接复制的不是筛选强度，而是 <strong>Explorer—Builder—Fellow</strong> 三轨：</p>
+<ul>
+<li>Explorer：4 周零基础 AI literacy 与实践；</li>
+<li>Builder：直接进入 Field Lab；</li>
+<li>Fellow：硕博、研究人员或高级本科生担任技术/研究导师。</li>
+</ul>
+<h4>MIT AI Alignment：尖锐使命制造长期认同</h4>
+<p><a href="https://aialignment.mit.edu/">MIT AI Alignment</a>始于 2022 年，聚焦先进 AI 风险。其 Executive Board、Operations、Organizers、Faculty Advisor 结构公开，旗舰项目 AI Safety Fundamentals 采用 8 周小组制，每周固定讨论并配 facilitator。它证明了一件事：成员持续回来，不只是因为“AI 很热门”，而是因为组织对一个具体问题有共同立场、阅读路径和同伴关系。</p>
+<p>GenAI Society 不必变成 alignment club，却应为每学期提出一个足够尖锐的主题，例如“如何让校园 GenAI 原型可追溯、可退出”。主题越具体，跨专业讨论越容易从观点交换进入共同工作。</p>
+<h4>Harvard Undergraduate Society for AI：把 credits 变成有约束的微资助</h4>
+<p><a href="https://ai.hcs.harvard.edu/">HUSAI</a>通过 Fellowship 支持研究、开源工具和应用，提供算力/API credits，并由 Technical Directors 做双周 check-in，目标是达到可公开、可发表的完成度。相较于向所有成员平均发 credits，这种里程碑式微资助更容易产生真正成果。</p>
+<p>若 GenAI Society 获得赞助，建议首轮每队只给 200—500 美元等值 credits，按 problem brief、prototype、user test、final artifact 四个节点释放。钱不是奖励报名，而是降低完成项目的边际成本。</p>
+<h4>制度型补充：研究中心托管 cohort</h4>
+<p><a href="https://hai.stanford.edu/research/student-affinity-groups">Stanford HAI Student Affinity Groups</a>和 <a href="https://cyber.harvard.edu/projects/student-leaders-ai">Harvard Student Leaders in AI</a>不是普通学生 club 的简单复制品：前者由研究所支持跨学科主题小组，后者由 Berkman Klein Center hosted/facilitated，并要求成员在一个学期内持续参加和完成 group project。它们的价值是用 staff/faculty 连续性抵消学生换届。</p>
+<p>对 UT 的现实做法不是立刻转为 Sponsored Student Organization，而是先建立轻量 advisory circle：Office of Academic Technology、Good Systems/相关研究中心、Information Security 与一个校园问题伙伴每学期各指定一名 liaison，学生仍掌握项目选择和运营。</p>
+<h2>五、活动盘点：已有的、重复的、缺失的</h2>
+<h3>1. 已有或公开可见</h3>
+<p>根据官网，可以确认的活动/内容类别有：嘉宾分享、研究与产业交流、AI labs/centers 资源导航、行业应用介绍、竞赛信息、自由讨论。不能仅凭嘉宾头像推断场次、日期和参与规模。</p>
+<h3>2. 校园里已经很拥挤</h3>
+<ul>
+<li>“AI 是什么/如何 prompt”的入门讲座；</li>
+<li>企业工程师 career talk；</li>
+<li>一次性工具 workshop；</li>
+<li>24 小时 hackathon；</li>
+<li>泛化的 panel discussion；</li>
+<li>没有后续的 demo night。</li>
+</ul>
+<p>这些活动仍可做，但不应成为新人的旗舰提案。</p>
+<h3>3. 真正缺失的机制</h3>
+<ul>
+<li>从第一次参加到承担角色的 onboarding 路径；</li>
+<li>跨专业成员共同交付，而非共同听讲；</li>
+<li>真实使用者在项目开始前和结束后都出现；</li>
+<li>对数据、隐私、幻觉、偏差、无障碍的统一检查；</li>
+<li>四周后还能访问的公开 artifact；</li>
+<li>对项目“停止使用”的条件与维护责任；</li>
+<li>将 campus policy 翻译成学生可操作习惯的实践课。</li>
+</ul>
+<p>缺的不是活动数量，而是把一次兴趣变成长期能力的中间层。</p>
+<h2>六、新人应该做什么新活动</h2>
+<h3>第一优先：Forty Acres GenAI Field Lab</h3>
+<p>这是一个 4—6 周的小型 cohort，不是比赛。每期围绕 3—4 个由校园单位、学生组织或社区伙伴提出的低风险问题组队。</p>
+<h4>活动结构</h4>
+<p><strong>第 0 周：问题征集与风险筛选</strong><br>
+只接受公开/已发布数据或合成数据；排除医疗建议、心理诊断、评分、招生、纪律、招聘筛选、法律结论等 consequential decisions；确认问题提出者愿意参加两次反馈。</p>
+<p><strong>第 1 周：组队与 Problem Brief</strong><br>
+每队必须至少包含 builder、domain/user researcher、design/communication、evaluator 四类角色。交付一页问题定义：用户是谁、当前如何解决、成功标准、非目标。</p>
+<p><strong>第 2 周：最小原型与红队</strong><br>
+完成可点击/可运行原型；由另一队测试 hallucination、prompt injection、偏见、无障碍和失败处理。</p>
+<p><strong>第 3—4 周：真实反馈与迭代</strong><br>
+让 3—5 名目标使用者完成任务，不问“你喜欢吗”，而看完成率、时间、错误和是否愿意再次使用。</p>
+<p><strong>第 5 周：Public Demo + Failure Report</strong><br>
+每队展示 demo，同时公开“它做不到什么”。最终交付代码或流程、数据说明、model/tool disclosure、risk card、用户反馈摘要和维护/归档决定。</p>
+<h4>首期题目建议</h4>
+<ol>
+<li><strong>UT Public Resource Navigator</strong>：只使用公开网页，回答某类校园资源问题，必须逐条给出处；重点评测引用准确率和找不到答案时的拒答。</li>
+<li><strong>Accessible Event Kit</strong>：帮助学生组织检查活动文案、图片 alt text、场地信息和参与门槛；由相关校园人员验证，不处理个人健康数据。</li>
+<li><strong>Syllabus AI Policy Comparator</strong>：在获得许可的公开样本上，帮助学生理解不同课程 AI policy 的差异；只做导航，不判断学生行为是否违规。</li>
+<li><strong>Research-to-Public Explainer</strong>：将 UT 公开 AI 研究转化为面向非专业学生的可追溯解释，并由原作者或研究生审核。</li>
+</ol>
+<h4>为什么适合“新人”发起</h4>
+<p>新人通常没有预算、品牌和高层人脉，却可以做好范围控制、招募四个问题、搭模板、请两位导师。Field Lab 的护城河来自流程，不来自名人。新人还能借此与每个现有 officer 协作：Engagement 招募、Design 负责展示、Secretary 管文档、President 拉伙伴，避免另起炉灶。</p>
+<h3>第二优先：GenAI Office Hours / Workflow Clinic</h3>
+<p>每两周 90 分钟，学生带来一个真实但去敏的问题，现场由“技术 + 领域 + 风险”三人桌协助改进工作流。参与者离开时应得到一页可复用 workflow，而不是一串 prompt。</p>
+<p>建议固定三个站：</p>
+<ul>
+<li>Build：提示、检索、自动化、原型；</li>
+<li>Verify：引用、事实核查、评测；</li>
+<li>Govern：数据分类、课程政策、披露和版权。</li>
+</ul>
+<p>它成本低，可作为 Field Lab 的入口，也适合无法投入六周的成员。</p>
+<h3>第三优先：Model Court / AI Case Conference</h3>
+<p>每月选一个真实案例：AI tutor 给出错误解释、招聘 agent 产生偏差、聊天机器人泄露系统提示、创作者版权冲突。参与者分别扮演开发者、用户、机构、受影响者和审计者，最后写一页 decision memo。</p>
+<p>这比泛泛的“AI ethics panel”更具体，也能兑现 society 与 culture 的定位。它不要求每个人会写代码，却能训练论证、证据和责任分配。</p>
+<h3>不建议新人首先做</h3>
+<ul>
+<li>再办一个没有后续机制的大型 hackathon；</li>
+<li>以报名人数为唯一成功指标的明星嘉宾 panel；</li>
+<li>用真实学生记录做 demo；</li>
+<li>自动评判作业、简历、招生或心理健康的项目；</li>
+<li>建一个“万能校园 chatbot”却没有内容 owner、引用与下线规则；</li>
+<li>一开始就建立十个部门和复杂申请制。</li>
+</ul>
+<h2>七、新人加入后的 30—60—90 天行动表</h2>
+<h3>前 30 天：先成为问题侦察员</h3>
+<ul>
+<li>参加至少两种现有活动，与 10 名参与者做短访谈：他们上次活动后做了什么、什么阻止了第二次参与；</li>
+<li>与现有 officer 确认组织身份、章程、年度目标、预算、活动审批和已有伙伴；</li>
+<li>在 HornsLink 和官网补齐可公开的组织状态、officer、活动日历和成果归档；</li>
+<li>收集 6—10 个问题 brief，只留下公开数据、有人负责、四周可验证的问题。</li>
+</ul>
+<h3>31—60 天：做一个最小试点</h3>
+<ul>
+<li>选 2 个题目、招 12—16 人、运行四周；</li>
+<li>不承诺正式部署，只承诺 demo、风险卡和用户反馈；</li>
+<li>邀请 Office of Academic Technology、Information Security 或相关研究者做一次边界 review；</li>
+<li>每周公布进度和卡点，建立模板库。</li>
+</ul>
+<h3>61—90 天：把试点变成制度</h3>
+<ul>
+<li>Demo Day 后两周追踪：有人继续用吗、出现什么错误、谁维护；</li>
+<li>只保留有效流程，把失败项目也写入公开 archive；</li>
+<li>为下一期培训 project lead，让新人变成下一批导师；</li>
+<li>用结果争取小额经费、API credits、场地和 faculty advisor 支持，而不是先以赞助额定义成功。</li>
+</ul>
+<h2>八、指标、风险与治理清单</h2>
+<h3>1. 不要只看人头</h3>
+<p>推荐的学期 dashboard：</p>
+<table>
+<thead>
+<tr>
+<th>目标</th>
+<th>指标</th>
+<th>建议首期目标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>参与</td>
+<td>首次参与者中再次参与比例</td>
+<td>≥40%</td>
+</tr>
+<tr>
+<td>跨学科</td>
+<td>每队非计算专业角色</td>
+<td>至少2类</td>
+</tr>
+<tr>
+<td>生产</td>
+<td>完成公开 artifact 的队伍</td>
+<td>4队中≥3队</td>
+</tr>
+<tr>
+<td>使用</td>
+<td>完成真实用户测试的项目</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>安全</td>
+<td>完成数据/风险卡的项目</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>学习</td>
+<td>能解释一次失败模式的成员</td>
+<td>≥80%</td>
+</tr>
+<tr>
+<td>延续</td>
+<td>下一期愿任 mentor/lead 的成员</td>
+<td>≥25%</td>
+</tr>
+</tbody>
+</table>
+<p>这些是设计目标，不是已发生数据。首期结束后应根据实际容量调整。</p>
+<h3>2. 每个项目开工前的六问</h3>
+<ol>
+<li>数据是 Published、Controlled 还是 Confidential？</li>
+<li>使用的是 UT 管理工具还是个人/免费版本？</li>
+<li>项目是否影响评分、招生、招聘、纪律、健康或其他 consequential decision？</li>
+<li>输出如何引用、复核和披露 AI 使用？</li>
+<li>谁承担内容错误、谁有权暂停或下线？</li>
+<li>项目结束后，数据、账号、credits 和代码归谁维护？</li>
+</ol>
+<p>任何一问无人回答，就不进入 build。</p>
+<h2>九、横纵交汇：它应该成为什么</h2>
+<p>GenAI Society 在 2024 年选择了一个宽定位。早期看，这像是缺乏聚焦；到了 2026 年，它反而可能成为优势。单一模型 club 会随赞助和产品周期变化，纯 workshop 会被校级培训替代，纯 hackathon 会陷入活动通胀。一个同时能讨论技术、文化和社会的组织，最适合承担“跨专业翻译层”。</p>
+<p>但“跨学科”不能只是一句欢迎所有专业。它必须成为生产约束：没有 domain owner 的团队不开工，没有 evaluator 的 demo 不展示，没有风险卡的项目不发布。历史上的宽使命，只有被压进具体流程，才会变成今天的差异化。</p>
+<h3>最可能剧本：成为稳定的校园 AI 学习社区</h3>
+<p>组织继续做嘉宾、资源和小型项目，逐渐建立一定品牌。它不会成为最大技术社团，却能保持跨专业人群。这条路风险低，影响也较分散。</p>
+<h3>最危险剧本：被更强的替代品掏空</h3>
+<p>Claude Builder Club 提供工具与 credits，HackTX 提供规模与奖品，UT.AI 提供官方培训，ML clubs 提供技术深度。若 GenAI Society 仍以泛讲座为主，成员会把它当信息渠道，而不是归属与作品来源。创始人毕业后，组织可能只剩社交媒体账号和旧官网。</p>
+<h3>最乐观剧本：成为 UT 的学生侧“AI 实践翻译层”</h3>
+<p>Field Lab 把 UT.AI 的政策、研究者的方法、校园伙伴的问题和学生的创造力连接起来。组织每学期产出少量但可信的 public-interest prototypes、failure reports 和 policy-to-practice guides；成熟成员进入研究、创业或校级项目，新人通过 clinic 进入 cohort。它不与任何一个技术社团争夺全部功能，却成为大家需要的中间层。</p>
+<p>我的判断是，最乐观剧本并不需要最多的钱。它需要三件较难但可控的事：稳定的项目节奏、真实使用者反馈、敢于公开失败。做到这三点，“society”才不只是名称，而是一种共同学习如何与 AI 相处的制度。</p>
+<h2>十、结论：给新人的一句话</h2>
+<p><strong>不要从“我能办什么活动”开始，要从“这个组织每学期应该留下什么”开始。</strong></p>
+<p>最好的新人项目，不是再请一个人讲 AI，而是让一小群原本不会合作的人，在四到六周内为一个真实但低风险的校园问题做出可验证成果，并把失败、边界和维护责任一并公开。先跑 2 个题目的最小 Field Lab。它若成功，再扩成旗舰；它若失败，复盘本身也是组织资产。</p>
+<h2>信息来源</h2>
+<p>访问日期均为 2026 年 8 月 11 日。</p>
+<ol>
+<li><a href="https://genai-society-utaustin.webflow.io/">GenAI Society at UT Austin — Official Website</a></li>
+<li><a href="https://genai-society-utaustin.webflow.io/work">GenAI Society — Resources</a></li>
+<li><a href="https://genai-society-utaustin.webflow.io/contact">GenAI Society — Member / Contact</a></li>
+<li><a href="https://www.linkedin.com/company/gen-ai-society-at-ut-austin">GenAI Society at UT Austin — LinkedIn</a></li>
+<li><a href="https://catalog.utexas.edu/general-information/appendices/appendix-c/student-organizations/">UT Austin — Chapter 6: Student Organizations</a></li>
+<li><a href="https://deanofstudents.utexas.edu/so/student-organization-support.php">Office of the Dean of Students — Student Organization Support</a></li>
+<li><a href="https://catalog.utexas.edu/undergraduate/the-university/organization-of-the-university/">UT Austin — Organization of the University</a></li>
+<li><a href="https://www.utsystem.edu/board-of-regents/rules/10101-board-authority-and-duties">UT System — Rule 10101: Board Authority and Duties</a></li>
+<li><a href="https://www.utsystem.edu/board-of-regents/rules/20101-chancellor">UT System — Rule 20101: Chancellor</a></li>
+<li><a href="https://tech.utexas.edu/initiatives/artificial-intelligence">UT.AI — Artificial Intelligence Initiative</a></li>
+<li><a href="https://tech.utexas.edu/governance/guidance-for-ai">UT Austin — Guidance for Using Artificial Intelligence</a></li>
+<li><a href="https://security.utexas.edu/ai-tools">UT Austin Information Security Office — Acceptable Use of Generative AI Tools</a></li>
+<li><a href="https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/ai-for-teaching-learning-toolkit/policy-and-recommendations/">Office of Academic Technology — AI Toolkit: Policy &amp; Recommendations</a></li>
+<li><a href="https://txclaude.org/">UT Austin Claude Builder Club</a></li>
+<li><a href="https://www.cs.utexas.edu/undergraduate/community-and-organizations">UT Austin Computer Science — Undergraduate Community &amp; Organizations</a></li>
+<li><a href="https://www.pge.utexas.edu/energy-ai-hackathon/">UT Austin Energy AI Hackathon</a></li>
+<li><a href="https://hook-em-hacks.devpost.com/">Hook ’Em Hacks</a></li>
+<li><a href="https://www.linkedin.com/company/ais-utd">Artificial Intelligence Society at UT Dallas — LinkedIn</a></li>
+<li><a href="https://givingday.utdallas.edu/giving-day/115742/department/115818">UT Dallas Giving Day — Artificial Intelligence Society</a></li>
+<li><a href="https://www.linkedin.com/company/theaisocietyasu">The AI Society at ASU — LinkedIn</a></li>
+<li><a href="https://deanofstudents.utexas.edu/safetyed/safety-education.php#status">UT Austin — Safety Education Status</a></li>
+<li><a href="https://deanofstudents.utexas.edu/so/student-organization-leadership.php">UT Austin — Starting a New Student Organization / Leadership</a></li>
+<li><a href="https://news.utexas.edu/2024/01/23/ut-designates-2024-the-year-of-ai/">UT News — UT Designates 2024 the Year of AI</a></li>
+<li><a href="https://news.utexas.edu/2024/01/25/new-texas-center-will-create-generative-ai-computing-cluster-among-largest-of-its-kind/">UT News — New Texas Center for Generative AI</a></li>
+<li><a href="https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/">UT News — Year of AI Review</a></li>
+<li><a href="https://web.archive.org/web/20250421023319/https://genai-society-utaustin.webflow.io/">Internet Archive — GenAI Society Website, 2025-04-21</a></li>
+<li><a href="https://www.stanfordai.club/">Stanford AI Club</a></li>
+<li><a href="https://ml.studentorg.berkeley.edu/">Machine Learning at Berkeley</a></li>
+<li><a href="https://aialignment.mit.edu/">MIT AI Alignment</a></li>
+<li><a href="https://ai.hcs.harvard.edu/">Harvard Undergraduate Society for Artificial Intelligence</a></li>
+<li><a href="https://hai.stanford.edu/research/student-affinity-groups">Stanford HAI — Student Affinity Groups</a></li>
+<li><a href="https://cyber.harvard.edu/projects/student-leaders-ai">Harvard Berkman Klein Center — Student Leaders in AI</a></li>
+</ol>
+<h2>方法论说明</h2>
+<p>本报告使用数字生命卡兹克（Khazix）提出的横纵分析法：纵轴追踪组织从诞生环境到当下治理阶段的演变，横轴比较同一时点上的校内替代品与外校成熟组织，再从两条轴的交叉处提出行动建议。报告作者：Koutian Wu（https://ktwu01.github.io/）。</p>
+</body>
+</html>
