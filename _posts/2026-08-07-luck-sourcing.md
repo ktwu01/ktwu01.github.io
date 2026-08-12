@@ -10,6 +10,8 @@ tags:
 
 A long time ago, I came across a book called *Chase, Chance, and Creativity: The Lucky Art of Novelty*（《追逐、机遇和创造力：新奇的幸运艺术》）. I no longer remember everything in it, but its central idea stayed somewhere in the back of my mind: luck and creativity are not entirely random. Chance may arrive unexpectedly, but we can still choose how often we encounter it and whether we are ready to recognize it.
 
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 Yesterday, while talking with Anne, I found a phrase for this idea: **luck sourcing**—the sourcing of getting lucky.
 
 We usually speak about luck as if it simply happens to us. But perhaps luck can be sourced: through the people we meet, the conversations we enter, the places we spend time, the questions we keep asking, and the strange ideas we decide not to dismiss too quickly. We cannot command a lucky outcome, but we may be able to create more places for luck to come from.
