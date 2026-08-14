@@ -13,7 +13,7 @@ title                    : "koutian.is-a.dev"
 title_separator          : "-"
 name                     : &name "Koutian Wu"
 description              : &description "AI4Geoscience PhD student at UT Austin specializing in explainable AI for physics-based land surface modeling, Noah-MP research, and Earth system science. Expert in Python, MATLAB, HPC, and machine learning for atmospheric and geoscience applications."
-url                      : https://ktwu01.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://koutian.is-a.dev # the base hostname & protocol for your site. This is the custom domain (see CNAME); keep it ahead of the github.io fallback so asset links stay same-origin HTTPS and do not get 301-downgraded to http (which browsers block as mixed content).
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ktwu01/ktwu01.github.io"
 
