@@ -26,6 +26,24 @@
       }
     ]
   },
+  "/posts/2024/12/ai-writing-assistant/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2024/12/ai-writing-assistant/"
+      }
+    ]
+  },
+  "/posts/2025/02/nasa-finesst-resources/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/02/nasa-finesst-resources/"
+      }
+    ]
+  },
   "/posts/2025/06/ut01/": {
     "variants": [
       {
@@ -80,12 +98,39 @@
       }
     ]
   },
+  "/posts/2025/07/school-evaluator/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/07/school-evaluator/"
+      }
+    ]
+  },
+  "/posts/2025/07/summer-calculator/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/07/summer-calculator/"
+      }
+    ]
+  },
   "/posts/2025/07/welcome/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2025/07/welcome/"
+      }
+    ]
+  },
+  "/posts/2025/07/zuoguohuadiao-life-calculator/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/07/zuoguohuadiao-life-calculator/"
       }
     ]
   },
@@ -134,6 +179,24 @@
       }
     ]
   },
+  "/posts/2025/10/alphaearthhack/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/10/alphaearthhack/"
+      }
+    ]
+  },
+  "/posts/2025/10/crypto-dashboard/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/10/crypto-dashboard/"
+      }
+    ]
+  },
   "/posts/2025/11/neural-galaxy/": {
     "variants": [
       {
@@ -143,12 +206,48 @@
       }
     ]
   },
+  "/posts/2025/11/tqqq-ml-trend/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/11/tqqq-ml-trend/"
+      }
+    ]
+  },
+  "/posts/2025/12/buffy-github-opensource/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/12/buffy-github-opensource/"
+      }
+    ]
+  },
+  "/posts/2025/12/legacy-ustc-resources/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/12/legacy-ustc-resources/"
+      }
+    ]
+  },
   "/posts/2025/12/noah-agent-preprint/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2025/12/noah-agent-preprint/"
+      }
+    ]
+  },
+  "/posts/2025/12/transformer-silicon-steel-bottleneck/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/12/transformer-silicon-steel-bottleneck/"
       }
     ]
   },
@@ -179,6 +278,15 @@
       }
     ]
   },
+  "/posts/2026/01/nuclear-fusion-singularity/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/01/nuclear-fusion-singularity/"
+      }
+    ]
+  },
   "/posts/2026/01/simon-willison-substack-llm-insights/": {
     "variants": [
       {
@@ -188,12 +296,30 @@
       }
     ]
   },
+  "/posts/2026/01/us-survival-guide/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/01/us-survival-guide/"
+      }
+    ]
+  },
   "/posts/2026/01/wispr-flow-product-vs-monetization/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/01/wispr-flow-product-vs-monetization/"
+      }
+    ]
+  },
+  "/posts/2026/02/YC-rebels/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/02/YC-rebels/"
       }
     ]
   },
@@ -233,6 +359,33 @@
       }
     ]
   },
+  "/posts/2026/02/massive-collaborative-science-mega-authors/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/02/massive-collaborative-science-mega-authors/"
+      }
+    ]
+  },
+  "/posts/2026/02/mindset-of-disruptive-innovators/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/02/mindset-of-disruptive-innovators/"
+      }
+    ]
+  },
+  "/posts/2026/02/silicon-valley-spiritual-strata/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/02/silicon-valley-spiritual-strata/"
+      }
+    ]
+  },
   "/posts/2026/03/2055-brain-to-brain-and-the-real-future/": {
     "variants": [
       {
@@ -248,6 +401,15 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/03/ai-can-accelerate-career-growth-and-ai-for-science/"
+      }
+    ]
+  },
+  "/posts/2026/03/ai-survival-guide/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/ai-survival-guide/"
       }
     ]
   },
@@ -278,12 +440,30 @@
       }
     ]
   },
+  "/posts/2026/03/finding-outliers-statistics/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/finding-outliers-statistics/"
+      }
+    ]
+  },
   "/posts/2026/03/five-years-phd-chatgpt/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/03/five-years-phd-chatgpt/"
+      }
+    ]
+  },
+  "/posts/2026/03/from-collaboration-to-autonomy-agent-evolution/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/from-collaboration-to-autonomy-agent-evolution/"
       }
     ]
   },
@@ -296,12 +476,84 @@
       }
     ]
   },
+  "/posts/2026/03/measuring-work-by-energy-consumption/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/measuring-work-by-energy-consumption/"
+      }
+    ]
+  },
+  "/posts/2026/03/openclaw-second-brain-for-ai-workers/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/openclaw-second-brain-for-ai-workers/"
+      }
+    ]
+  },
+  "/posts/2026/03/phd-self-design-kpi/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/phd-self-design-kpi/"
+      }
+    ]
+  },
   "/posts/2026/03/research-grounding-bilateral-vc-phd-programs/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/03/research-grounding-bilateral-vc-phd-programs/"
+      }
+    ]
+  },
+  "/posts/2026/03/sales-matters-more-than-tech/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/sales-matters-more-than-tech/"
+      }
+    ]
+  },
+  "/posts/2026/03/search-ads-rec-vs-ai-matching/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/search-ads-rec-vs-ai-matching/"
+      }
+    ]
+  },
+  "/posts/2026/03/vibe-coding-vc/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/vibe-coding-vc/"
+      }
+    ]
+  },
+  "/posts/2026/03/why-foundation-model-companies-push-agent-products/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/why-foundation-model-companies-push-agent-products/"
+      }
+    ]
+  },
+  "/posts/2026/04/ai-phd-survival-guide/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/ai-phd-survival-guide/"
       }
     ]
   },
@@ -323,12 +575,30 @@
       }
     ]
   },
+  "/posts/2026/04/american-cuisine-umami/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/american-cuisine-umami/"
+      }
+    ]
+  },
   "/posts/2026/04/black-hole-llm-isomorphism/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/04/black-hole-llm-isomorphism/"
+      }
+    ]
+  },
+  "/posts/2026/04/conversation-chenxi-hu/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/conversation-chenxi-hu/"
       }
     ]
   },
@@ -341,12 +611,48 @@
       }
     ]
   },
+  "/posts/2026/04/female-friendly-jobs-china/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/female-friendly-jobs-china/"
+      }
+    ]
+  },
+  "/posts/2026/04/female-friendly-jobs-compare-cn-us/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/female-friendly-jobs-compare-cn-us/"
+      }
+    ]
+  },
+  "/posts/2026/04/female-friendly-jobs/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/female-friendly-jobs/"
+      }
+    ]
+  },
   "/posts/2026/04/gibbs-phenomenon-llm-hallucination/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/04/gibbs-phenomenon-llm-hallucination/"
+      }
+    ]
+  },
+  "/posts/2026/04/hao-tokens/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/hao-tokens/"
       }
     ]
   },
@@ -386,6 +692,24 @@
       }
     ]
   },
+  "/posts/2026/04/share-research-skills-short/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/share-research-skills-short/"
+      }
+    ]
+  },
+  "/posts/2026/04/tacc-field-trip/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/04/tacc-field-trip/"
+      }
+    ]
+  },
   "/posts/2026/04/time-position-encoding-agent-state/": {
     "variants": [
       {
@@ -413,6 +737,51 @@
       }
     ]
   },
+  "/posts/2026/05/ai-human-mind-gateway/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/ai-human-mind-gateway/"
+      }
+    ]
+  },
+  "/posts/2026/05/anthropic-research-preview-iteration/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/anthropic-research-preview-iteration/"
+      }
+    ]
+  },
+  "/posts/2026/05/ashley-matheny-trees-as-pumps/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/ashley-matheny-trees-as-pumps/"
+      }
+    ]
+  },
+  "/posts/2026/05/claude-code-demo-deck/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/claude-code-demo-deck/"
+      }
+    ]
+  },
+  "/posts/2026/05/daniella-rempe-trees-drink-from-rock/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/daniella-rempe-trees-drink-from-rock/"
+      }
+    ]
+  },
   "/posts/2026/05/earth-space-ai-org-skill-packages/": {
     "variants": [
       {
@@ -422,12 +791,39 @@
       }
     ]
   },
+  "/posts/2026/05/eric-greene-dna-curtains-and-single-molecule/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/eric-greene-dna-curtains-and-single-molecule/"
+      }
+    ]
+  },
+  "/posts/2026/05/esm-skill-packages/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/esm-skill-packages/"
+      }
+    ]
+  },
   "/posts/2026/05/future-world-jobs-ai/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/05/future-world-jobs-ai/"
+      }
+    ]
+  },
+  "/posts/2026/05/geeta-persad-aerosols-and-policy/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/geeta-persad-aerosols-and-policy/"
       }
     ]
   },
@@ -458,12 +854,48 @@
       }
     ]
   },
+  "/posts/2026/05/honorary-doctorate-analysis/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/honorary-doctorate-analysis/"
+      }
+    ]
+  },
+  "/posts/2026/05/juan-santiago-microfluidics-30-years/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/juan-santiago-microfluidics-30-years/"
+      }
+    ]
+  },
+  "/posts/2026/05/kehan-dong-early-builders-and-inner-journey/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/kehan-dong-early-builders-and-inner-journey/"
+      }
+    ]
+  },
   "/posts/2026/05/learning-ai-vs-using-ai/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/05/learning-ai-vs-using-ai/"
+      }
+    ]
+  },
+  "/posts/2026/05/marc-hesse-fluid-mechanics-of-everything/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/marc-hesse-fluid-mechanics-of-everything/"
       }
     ]
   },
@@ -503,6 +935,15 @@
       }
     ]
   },
+  "/posts/2026/05/sean-xiang-bloombase-long-build/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/sean-xiang-bloombase-long-build/"
+      }
+    ]
+  },
   "/posts/2026/05/stock-101-brokerage-review/": {
     "variants": [
       {
@@ -518,6 +959,15 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/05/survivorship-bias-rolling-dice/"
+      }
+    ]
+  },
+  "/posts/2026/05/tech-founder-success-cost-analysis/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/tech-founder-success-cost-analysis/"
       }
     ]
   },
@@ -548,6 +998,24 @@
       }
     ]
   },
+  "/posts/2026/05/why-anthropic-doesnt-do-perm/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/why-anthropic-doesnt-do-perm/"
+      }
+    ]
+  },
+  "/posts/2026/05/yang-zhenning-chronicle/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/05/yang-zhenning-chronicle/"
+      }
+    ]
+  },
   "/posts/2026/05/yang-zhenning-wealth-questions/": {
     "variants": [
       {
@@ -575,6 +1043,15 @@
       }
     ]
   },
+  "/posts/2026/06/ai-performance-which-one-are-you/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/ai-performance-which-one-are-you/"
+      }
+    ]
+  },
   "/posts/2026/06/ai-talent-inflation-revisited/": {
     "variants": [
       {
@@ -584,12 +1061,48 @@
       }
     ]
   },
+  "/posts/2026/06/china-overseas-ai-api-compliance/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/china-overseas-ai-api-compliance/"
+      }
+    ]
+  },
+  "/posts/2026/06/design-defaults-and-ai-shovels/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/design-defaults-and-ai-shovels/"
+      }
+    ]
+  },
+  "/posts/2026/06/friend-met-ua-sfo-pvg/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/friend-met-ua-sfo-pvg/"
+      }
+    ]
+  },
   "/posts/2026/06/gitgitgadget-first-pr/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/06/gitgitgadget-first-pr/"
+      }
+    ]
+  },
+  "/posts/2026/06/heart-age-test/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/heart-age-test/"
       }
     ]
   },
@@ -611,12 +1124,66 @@
       }
     ]
   },
+  "/posts/2026/06/poetry-society-markdown-git-unicorns/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/poetry-society-markdown-git-unicorns/"
+      }
+    ]
+  },
+  "/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/"
+      }
+    ]
+  },
+  "/posts/2026/06/social-contradictions-reflections/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/social-contradictions-reflections/"
+      }
+    ]
+  },
+  "/posts/2026/06/strike-surface/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/strike-surface/"
+      }
+    ]
+  },
   "/posts/2026/06/what-it-takes-to-land-a-git-patch/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/06/what-it-takes-to-land-a-git-patch/"
+      }
+    ]
+  },
+  "/posts/2026/06/why-i-choose-ai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/why-i-choose-ai/"
+      }
+    ]
+  },
+  "/posts/2026/07/ai-does-not-always-mean-artificial-intelligence/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/ai-does-not-always-mean-artificial-intelligence/"
       }
     ]
   },
@@ -647,12 +1214,39 @@
       }
     ]
   },
+  "/posts/2026/07/benchmark-radar/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/benchmark-radar/"
+      }
+    ]
+  },
   "/posts/2026/07/benchmark-value-market-and-scientific-question-setting/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/07/benchmark-value-market-and-scientific-question-setting/"
+      }
+    ]
+  },
+  "/posts/2026/07/compute-tokens-are-the-new-eggs/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/compute-tokens-are-the-new-eggs/"
+      }
+    ]
+  },
+  "/posts/2026/07/dbs-asia-safest-bank-explained/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/dbs-asia-safest-bank-explained/"
       }
     ]
   },
@@ -665,6 +1259,15 @@
       }
     ]
   },
+  "/posts/2026/07/fortran-zip-bomb/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/fortran-zip-bomb/"
+      }
+    ]
+  },
   "/posts/2026/07/from-news-signals-to-github-repos-and-business-opportunities/": {
     "variants": [
       {
@@ -674,12 +1277,66 @@
       }
     ]
   },
+  "/posts/2026/07/github-contributions-sperm-vs-egg-donation/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/github-contributions-sperm-vs-egg-donation/"
+      }
+    ]
+  },
   "/posts/2026/07/hard-benchmarks-should-not-be-coding-tricks/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/07/hard-benchmarks-should-not-be-coding-tricks/"
+      }
+    ]
+  },
+  "/posts/2026/07/is-contributing-on-github-like-donating-sperm/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/is-contributing-on-github-like-donating-sperm/"
+      }
+    ]
+  },
+  "/posts/2026/07/li-hongzhang-rudu-poem-startup-parallel/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/li-hongzhang-rudu-poem-startup-parallel/"
+      }
+    ]
+  },
+  "/posts/2026/07/liang-wenfeng-four-hour-transcript-2030/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/liang-wenfeng-four-hour-transcript-2030/"
+      }
+    ]
+  },
+  "/posts/2026/07/llm-after-world-2030/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/llm-after-world-2030/"
+      }
+    ]
+  },
+  "/posts/2026/07/llm-application-opportunities/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/llm-application-opportunities/"
       }
     ]
   },
@@ -764,6 +1421,15 @@
       }
     ]
   },
+  "/posts/2026/07/what-top-minds-see-in-ai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/what-top-minds-see-in-ai/"
+      }
+    ]
+  },
   "/posts/2026/07/why-alias-cannot-stop-an-agent-from-rm-rf/": {
     "variants": [
       {
@@ -809,6 +1475,24 @@
       }
     ]
   },
+  "/posts/2026/08/mulva-hall-126887-dollar-parking-space/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/mulva-hall-126887-dollar-parking-space/"
+      }
+    ]
+  },
+  "/posts/2026/08/ut-austin-genai-society/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/ut-austin-genai-society/"
+      }
+    ]
+  },
   "/zh/posts/2024/08/lead-utexas/": {
     "variants": [
       {
@@ -833,6 +1517,24 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2024/10/nasa-finesst-guide/"
+      }
+    ]
+  },
+  "/zh/posts/2024/12/ai-writing-assistant/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2024/12/ai-writing-assistant/"
+      }
+    ]
+  },
+  "/zh/posts/2025/02/nasa-finesst-resources/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/02/nasa-finesst-resources/"
       }
     ]
   },
@@ -890,12 +1592,39 @@
       }
     ]
   },
+  "/zh/posts/2025/07/school-evaluator/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/07/school-evaluator/"
+      }
+    ]
+  },
+  "/zh/posts/2025/07/summer-calculator/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/07/summer-calculator/"
+      }
+    ]
+  },
   "/zh/posts/2025/07/welcome/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2025/07/welcome/"
+      }
+    ]
+  },
+  "/zh/posts/2025/07/zuoguohuadiao-life-calculator/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/07/zuoguohuadiao-life-calculator/"
       }
     ]
   },
@@ -944,6 +1673,24 @@
       }
     ]
   },
+  "/zh/posts/2025/10/alphaearthhack/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/10/alphaearthhack/"
+      }
+    ]
+  },
+  "/zh/posts/2025/10/crypto-dashboard/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/10/crypto-dashboard/"
+      }
+    ]
+  },
   "/zh/posts/2025/11/neural-galaxy/": {
     "variants": [
       {
@@ -953,12 +1700,48 @@
       }
     ]
   },
+  "/zh/posts/2025/11/tqqq-ml-trend/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/11/tqqq-ml-trend/"
+      }
+    ]
+  },
+  "/zh/posts/2025/12/buffy-github-opensource/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/12/buffy-github-opensource/"
+      }
+    ]
+  },
+  "/zh/posts/2025/12/legacy-ustc-resources/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/12/legacy-ustc-resources/"
+      }
+    ]
+  },
   "/zh/posts/2025/12/noah-agent-preprint/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2025/12/noah-agent-preprint/"
+      }
+    ]
+  },
+  "/zh/posts/2025/12/transformer-silicon-steel-bottleneck/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/12/transformer-silicon-steel-bottleneck/"
       }
     ]
   },
@@ -989,6 +1772,15 @@
       }
     ]
   },
+  "/zh/posts/2026/01/nuclear-fusion-singularity/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/01/nuclear-fusion-singularity/"
+      }
+    ]
+  },
   "/zh/posts/2026/01/simon-willison-substack-llm-insights/": {
     "variants": [
       {
@@ -998,12 +1790,30 @@
       }
     ]
   },
+  "/zh/posts/2026/01/us-survival-guide/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/01/us-survival-guide/"
+      }
+    ]
+  },
   "/zh/posts/2026/01/wispr-flow-product-vs-monetization/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/01/wispr-flow-product-vs-monetization/"
+      }
+    ]
+  },
+  "/zh/posts/2026/02/YC-rebels/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/02/YC-rebels/"
       }
     ]
   },
@@ -1043,6 +1853,33 @@
       }
     ]
   },
+  "/zh/posts/2026/02/massive-collaborative-science-mega-authors/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/02/massive-collaborative-science-mega-authors/"
+      }
+    ]
+  },
+  "/zh/posts/2026/02/mindset-of-disruptive-innovators/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/02/mindset-of-disruptive-innovators/"
+      }
+    ]
+  },
+  "/zh/posts/2026/02/silicon-valley-spiritual-strata/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/02/silicon-valley-spiritual-strata/"
+      }
+    ]
+  },
   "/zh/posts/2026/03/2055-brain-to-brain-and-the-real-future/": {
     "variants": [
       {
@@ -1058,6 +1895,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/03/ai-can-accelerate-career-growth-and-ai-for-science/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/ai-survival-guide/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/ai-survival-guide/"
       }
     ]
   },
@@ -1088,12 +1934,30 @@
       }
     ]
   },
+  "/zh/posts/2026/03/finding-outliers-statistics/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/finding-outliers-statistics/"
+      }
+    ]
+  },
   "/zh/posts/2026/03/five-years-phd-chatgpt/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/03/five-years-phd-chatgpt/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/from-collaboration-to-autonomy-agent-evolution/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/from-collaboration-to-autonomy-agent-evolution/"
       }
     ]
   },
@@ -1106,12 +1970,84 @@
       }
     ]
   },
+  "/zh/posts/2026/03/measuring-work-by-energy-consumption/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/measuring-work-by-energy-consumption/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/openclaw-second-brain-for-ai-workers/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/openclaw-second-brain-for-ai-workers/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/phd-self-design-kpi/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/phd-self-design-kpi/"
+      }
+    ]
+  },
   "/zh/posts/2026/03/research-grounding-bilateral-vc-phd-programs/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/03/research-grounding-bilateral-vc-phd-programs/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/sales-matters-more-than-tech/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/sales-matters-more-than-tech/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/search-ads-rec-vs-ai-matching/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/search-ads-rec-vs-ai-matching/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/vibe-coding-vc/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/vibe-coding-vc/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/why-foundation-model-companies-push-agent-products/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/why-foundation-model-companies-push-agent-products/"
+      }
+    ]
+  },
+  "/zh/posts/2026/04/ai-phd-survival-guide/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/ai-phd-survival-guide/"
       }
     ]
   },
@@ -1133,12 +2069,30 @@
       }
     ]
   },
+  "/zh/posts/2026/04/american-cuisine-umami/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/american-cuisine-umami/"
+      }
+    ]
+  },
   "/zh/posts/2026/04/black-hole-llm-isomorphism/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/04/black-hole-llm-isomorphism/"
+      }
+    ]
+  },
+  "/zh/posts/2026/04/conversation-chenxi-hu/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/conversation-chenxi-hu/"
       }
     ]
   },
@@ -1151,12 +2105,48 @@
       }
     ]
   },
+  "/zh/posts/2026/04/female-friendly-jobs-china/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/female-friendly-jobs-china/"
+      }
+    ]
+  },
+  "/zh/posts/2026/04/female-friendly-jobs-compare-cn-us/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/female-friendly-jobs-compare-cn-us/"
+      }
+    ]
+  },
+  "/zh/posts/2026/04/female-friendly-jobs/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/female-friendly-jobs/"
+      }
+    ]
+  },
   "/zh/posts/2026/04/gibbs-phenomenon-llm-hallucination/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/04/gibbs-phenomenon-llm-hallucination/"
+      }
+    ]
+  },
+  "/zh/posts/2026/04/hao-tokens/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/hao-tokens/"
       }
     ]
   },
@@ -1196,6 +2186,24 @@
       }
     ]
   },
+  "/zh/posts/2026/04/share-research-skills-short/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/share-research-skills-short/"
+      }
+    ]
+  },
+  "/zh/posts/2026/04/tacc-field-trip/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/04/tacc-field-trip/"
+      }
+    ]
+  },
   "/zh/posts/2026/04/time-position-encoding-agent-state/": {
     "variants": [
       {
@@ -1223,6 +2231,51 @@
       }
     ]
   },
+  "/zh/posts/2026/05/ai-human-mind-gateway/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/ai-human-mind-gateway/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/anthropic-research-preview-iteration/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/anthropic-research-preview-iteration/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/ashley-matheny-trees-as-pumps/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/ashley-matheny-trees-as-pumps/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/claude-code-demo-deck/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/claude-code-demo-deck/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/daniella-rempe-trees-drink-from-rock/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/daniella-rempe-trees-drink-from-rock/"
+      }
+    ]
+  },
   "/zh/posts/2026/05/earth-space-ai-org-skill-packages/": {
     "variants": [
       {
@@ -1232,12 +2285,39 @@
       }
     ]
   },
+  "/zh/posts/2026/05/eric-greene-dna-curtains-and-single-molecule/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/eric-greene-dna-curtains-and-single-molecule/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/esm-skill-packages/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/esm-skill-packages/"
+      }
+    ]
+  },
   "/zh/posts/2026/05/future-world-jobs-ai/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/05/future-world-jobs-ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/geeta-persad-aerosols-and-policy/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/geeta-persad-aerosols-and-policy/"
       }
     ]
   },
@@ -1268,12 +2348,48 @@
       }
     ]
   },
+  "/zh/posts/2026/05/honorary-doctorate-analysis/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/honorary-doctorate-analysis/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/juan-santiago-microfluidics-30-years/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/juan-santiago-microfluidics-30-years/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/kehan-dong-early-builders-and-inner-journey/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/kehan-dong-early-builders-and-inner-journey/"
+      }
+    ]
+  },
   "/zh/posts/2026/05/learning-ai-vs-using-ai/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/05/learning-ai-vs-using-ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/marc-hesse-fluid-mechanics-of-everything/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/marc-hesse-fluid-mechanics-of-everything/"
       }
     ]
   },
@@ -1313,6 +2429,15 @@
       }
     ]
   },
+  "/zh/posts/2026/05/sean-xiang-bloombase-long-build/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/sean-xiang-bloombase-long-build/"
+      }
+    ]
+  },
   "/zh/posts/2026/05/stock-101-brokerage-review/": {
     "variants": [
       {
@@ -1328,6 +2453,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/05/survivorship-bias-rolling-dice/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/tech-founder-success-cost-analysis/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/tech-founder-success-cost-analysis/"
       }
     ]
   },
@@ -1358,6 +2492,24 @@
       }
     ]
   },
+  "/zh/posts/2026/05/why-anthropic-doesnt-do-perm/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/why-anthropic-doesnt-do-perm/"
+      }
+    ]
+  },
+  "/zh/posts/2026/05/yang-zhenning-chronicle/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/05/yang-zhenning-chronicle/"
+      }
+    ]
+  },
   "/zh/posts/2026/05/yang-zhenning-wealth-questions/": {
     "variants": [
       {
@@ -1385,6 +2537,15 @@
       }
     ]
   },
+  "/zh/posts/2026/06/ai-performance-which-one-are-you/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/ai-performance-which-one-are-you/"
+      }
+    ]
+  },
   "/zh/posts/2026/06/ai-talent-inflation-revisited/": {
     "variants": [
       {
@@ -1394,12 +2555,48 @@
       }
     ]
   },
+  "/zh/posts/2026/06/china-overseas-ai-api-compliance/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/china-overseas-ai-api-compliance/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/design-defaults-and-ai-shovels/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/design-defaults-and-ai-shovels/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/friend-met-ua-sfo-pvg/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/friend-met-ua-sfo-pvg/"
+      }
+    ]
+  },
   "/zh/posts/2026/06/gitgitgadget-first-pr/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/06/gitgitgadget-first-pr/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/heart-age-test/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/heart-age-test/"
       }
     ]
   },
@@ -1421,12 +2618,66 @@
       }
     ]
   },
+  "/zh/posts/2026/06/poetry-society-markdown-git-unicorns/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/poetry-society-markdown-git-unicorns/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/social-contradictions-reflections/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/social-contradictions-reflections/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/strike-surface/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/strike-surface/"
+      }
+    ]
+  },
   "/zh/posts/2026/06/what-it-takes-to-land-a-git-patch/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/06/what-it-takes-to-land-a-git-patch/"
+      }
+    ]
+  },
+  "/zh/posts/2026/06/why-i-choose-ai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/why-i-choose-ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/ai-does-not-always-mean-artificial-intelligence/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/ai-does-not-always-mean-artificial-intelligence/"
       }
     ]
   },
@@ -1457,12 +2708,39 @@
       }
     ]
   },
+  "/zh/posts/2026/07/benchmark-radar/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/benchmark-radar/"
+      }
+    ]
+  },
   "/zh/posts/2026/07/benchmark-value-market-and-scientific-question-setting/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/07/benchmark-value-market-and-scientific-question-setting/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/compute-tokens-are-the-new-eggs/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/compute-tokens-are-the-new-eggs/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/dbs-asia-safest-bank-explained/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/dbs-asia-safest-bank-explained/"
       }
     ]
   },
@@ -1475,6 +2753,15 @@
       }
     ]
   },
+  "/zh/posts/2026/07/fortran-zip-bomb/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/fortran-zip-bomb/"
+      }
+    ]
+  },
   "/zh/posts/2026/07/from-news-signals-to-github-repos-and-business-opportunities/": {
     "variants": [
       {
@@ -1484,12 +2771,66 @@
       }
     ]
   },
+  "/zh/posts/2026/07/github-contributions-sperm-vs-egg-donation/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/github-contributions-sperm-vs-egg-donation/"
+      }
+    ]
+  },
   "/zh/posts/2026/07/hard-benchmarks-should-not-be-coding-tricks/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/07/hard-benchmarks-should-not-be-coding-tricks/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/is-contributing-on-github-like-donating-sperm/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/is-contributing-on-github-like-donating-sperm/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/li-hongzhang-rudu-poem-startup-parallel/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/li-hongzhang-rudu-poem-startup-parallel/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/liang-wenfeng-four-hour-transcript-2030/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/liang-wenfeng-four-hour-transcript-2030/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/llm-after-world-2030/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/llm-after-world-2030/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/llm-application-opportunities/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/llm-application-opportunities/"
       }
     ]
   },
@@ -1574,6 +2915,15 @@
       }
     ]
   },
+  "/zh/posts/2026/07/what-top-minds-see-in-ai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/what-top-minds-see-in-ai/"
+      }
+    ]
+  },
   "/zh/posts/2026/07/why-alias-cannot-stop-an-agent-from-rm-rf/": {
     "variants": [
       {
@@ -1616,6 +2966,24 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/08/luck-sourcing/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/mulva-hall-126887-dollar-parking-space/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/mulva-hall-126887-dollar-parking-space/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/ut-austin-genai-society/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/ut-austin-genai-society/"
       }
     ]
   }
