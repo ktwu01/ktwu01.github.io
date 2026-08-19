@@ -5,6 +5,7 @@ on:
     paths:
       - '_posts/**.md'
       - '_data/language_links.json'
+      - '_data/parity_baseline.json'
       - '_includes/language-switcher.html'
       - '_includes/masthead.html'
       - '_layouts/single.html'
@@ -13,14 +14,18 @@ on:
       - 'scripts/generate_language_links.py'
       - 'scripts/generate_author_notes.py'
       - 'scripts/lint_blog_format.py'
+      - 'scripts/check_bilingual_parity.py'
       - 'scripts/check_blog.py'
       - 'tests/**.py'
       - 'tests/fixtures/**'
+      - 'Gemfile'
+      - 'Gemfile.lock'
       - '.github/workflows/blog-lint.yml'
   pull_request:
     paths:
       - '_posts/**.md'
       - '_data/language_links.json'
+      - '_data/parity_baseline.json'
       - '_includes/language-switcher.html'
       - '_includes/masthead.html'
       - '_layouts/single.html'
@@ -29,9 +34,12 @@ on:
       - 'scripts/generate_language_links.py'
       - 'scripts/generate_author_notes.py'
       - 'scripts/lint_blog_format.py'
+      - 'scripts/check_bilingual_parity.py'
       - 'scripts/check_blog.py'
       - 'tests/**.py'
       - 'tests/fixtures/**'
+      - 'Gemfile'
+      - 'Gemfile.lock'
       - '.github/workflows/blog-lint.yml'
   workflow_dispatch: # Allow manual runs
 
@@ -49,3 +57,14 @@ jobs:
 
       - name: Check blog content
         run: python3 scripts/check_blog.py --check
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Summarize blog coverage
+        run: python3 scripts/check_blog.py --check --summary

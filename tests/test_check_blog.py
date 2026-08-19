@@ -18,11 +18,15 @@ class BlogWorkflowTests(unittest.TestCase):
     def test_check_mode_runs_every_read_only_check(self):
         commands = [command for _, command in CHECK_BLOG.workflow(fix=False)]
 
-        self.assertEqual(len(commands), 4)
+        self.assertEqual(len(commands), 5)
         self.assertTrue(all(command[0] == sys.executable for command in commands))
         self.assertIn([sys.executable, "scripts/lint_blog_format.py"], commands)
         self.assertIn(
             [sys.executable, "scripts/generate_language_links.py", "--check"],
+            commands,
+        )
+        self.assertIn(
+            [sys.executable, "scripts/check_bilingual_parity.py", "--check"],
             commands,
         )
         self.assertNotIn(
