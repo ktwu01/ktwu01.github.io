@@ -1664,6 +1664,15 @@
       }
     ]
   },
+  "/posts/2026/08/gamestop-vs-niu-lai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/gamestop-vs-niu-lai/"
+      }
+    ]
+  },
   "/posts/2026/08/github-app-permissions-quietly-pile-up/": {
     "variants": [
       {
@@ -3362,6 +3371,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/08/benchmark-radar-day9/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/gamestop-vs-niu-lai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/gamestop-vs-niu-lai/"
       }
     ]
   },
