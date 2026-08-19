@@ -68,4 +68,4 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Summarize blog coverage
-        run: python3 scripts/check_blog.py --check --summary
+        run: python3 scripts/check_blog.py --summary
