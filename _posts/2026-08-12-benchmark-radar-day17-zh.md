@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第十七天：审计加固与发布级美化"
 date: 2026-08-12
-permalink: /posts/2026/08/benchmark-radar-day17/
+permalink: /zh/posts/2026/08/benchmark-radar-day17/
 tags:
   - AI
   - Benchmarks
@@ -13,7 +13,7 @@ tags:
 
 审计发现已处理。顶栏新增联系方式和数据导出。第十七天是加固与美化日。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

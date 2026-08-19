@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第八天：稳定化与最小修复"
 date: 2026-08-03
-permalink: /posts/2026/08/benchmark-radar-day8/
+permalink: /zh/posts/2026/08/benchmark-radar-day8/
 tags:
   - AI
   - Benchmarks
@@ -11,7 +11,7 @@ tags:
 
 注册表大爆炸之后的安静一天。第八天用两次精确修复稳定了流水线。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

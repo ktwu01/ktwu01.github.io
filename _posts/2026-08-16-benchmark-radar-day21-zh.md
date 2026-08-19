@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第二十一天：OpenReview 认证与响应式布局"
 date: 2026-08-16
-permalink: /posts/2026/08/benchmark-radar-day21/
+permalink: /zh/posts/2026/08/benchmark-radar-day21/
 tags:
   - AI
   - Benchmarks
@@ -13,7 +13,7 @@ tags:
 
 OpenReview 完成了认证接入，宽屏布局得以扩展，手机端的显示问题也修复了。第二十一天是横跨多个模块的修复日。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

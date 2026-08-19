@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第二十天：完整中文支持与洞察块"
 date: 2026-08-15
-permalink: /posts/2026/08/benchmark-radar-day20/
+permalink: /zh/posts/2026/08/benchmark-radar-day20/
 tags:
   - AI
   - Benchmarks
@@ -13,7 +13,7 @@ tags:
 
 雷达开始说中文了。第二十天交付了完整的 zh 国际化词典、洞察块和完整的社交清单。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

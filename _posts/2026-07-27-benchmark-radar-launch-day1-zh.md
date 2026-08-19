@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第一天：构建累积仪表板 MVP"
 date: 2026-07-27
-permalink: /posts/2026/07/benchmark-radar-launch-day1/
+permalink: /zh/posts/2026/07/benchmark-radar-launch-day1/
 tags:
   - AI
   - Benchmarks
@@ -11,7 +11,7 @@ tags:
 
 Benchmark Radar 项目的第一天。从零开始，一天之内搭建出了可运行的累积仪表板。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 第一天覆盖了系统的每一层：CI/CD 流水线、数据持久化、Today 仪表板 MVP、注意力信号处理，以及 arXiv RSS 降级方案。一次性推送了 20 个 commit。
 

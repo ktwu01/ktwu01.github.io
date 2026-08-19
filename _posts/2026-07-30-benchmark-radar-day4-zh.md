@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第四天：历史记忆与新鲜度检测"
 date: 2026-07-30
-permalink: /posts/2026/07/benchmark-radar-day4/
+permalink: /zh/posts/2026/07/benchmark-radar-day4/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 雷达学会了记忆。第四天加入了历史数据回填、过期检测和 agentic 分类。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

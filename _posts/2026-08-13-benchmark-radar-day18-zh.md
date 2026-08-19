@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第十八天：稳定运行"
 date: 2026-08-13
-permalink: /posts/2026/08/benchmark-radar-day18/
+permalink: /zh/posts/2026/08/benchmark-radar-day18/
 tags:
   - AI
   - Benchmarks
@@ -11,7 +11,7 @@ tags:
 
 管道无人干预地运行了。第十八天是稳定性的证明。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

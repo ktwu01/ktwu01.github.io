@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第二天：累积趋势与工件去重"
 date: 2026-07-28
-permalink: /posts/2026/07/benchmark-radar-day2/
+permalink: /zh/posts/2026/07/benchmark-radar-day2/
 tags:
   - AI
   - Benchmarks
@@ -11,7 +11,7 @@ tags:
 
 雷达开始有记忆了。第二天建起了累积趋势图，并解决了工件别名问题。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

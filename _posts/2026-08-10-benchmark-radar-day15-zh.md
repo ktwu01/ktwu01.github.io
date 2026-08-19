@@ -1,13 +1,14 @@
 ---
 title: "Benchmark Radar 第十五天：社交媒体流水线与微信集成"
 date: 2026-08-10
-permalink: /posts/2026/08/benchmark-radar-day15/
+permalink: /zh/posts/2026/08/benchmark-radar-day15/
 tags: [benchmark-radar, social-media, wechat, pipeline, github-issues]
 ---
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 每日社交媒体帖文生成模块上线。微信渠道检查清单及发布文案模板就绪。每日 GitHub Issue 机制退役（社交素材改为通过产物分发）。合并日期的 items.json 生成完成。渠道每日标记修复。问答标识符片段处理完成。README 更新。
 

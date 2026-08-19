@@ -1214,6 +1214,51 @@
       }
     ]
   },
+  "/posts/2026/07/benchmark-radar-day2/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/benchmark-radar-day2/"
+      }
+    ]
+  },
+  "/posts/2026/07/benchmark-radar-day3/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/benchmark-radar-day3/"
+      }
+    ]
+  },
+  "/posts/2026/07/benchmark-radar-day4/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/benchmark-radar-day4/"
+      }
+    ]
+  },
+  "/posts/2026/07/benchmark-radar-day5/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/benchmark-radar-day5/"
+      }
+    ]
+  },
+  "/posts/2026/07/benchmark-radar-launch-day1/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/07/benchmark-radar-launch-day1/"
+      }
+    ]
+  },
   "/posts/2026/07/benchmark-radar/": {
     "variants": [
       {
@@ -1454,6 +1499,168 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/07/yvr-nexus-wayfinding-first-time-traveler/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day10/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day10/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day11/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day11/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day12/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day12/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day13/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day13/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day14/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day14/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day15/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day15/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day16/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day16/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day17/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day17/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day18/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day18/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day19/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day19/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day20/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day20/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day21/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day21/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day22/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day22/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day23/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day23/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day6/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day6/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day7/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day7/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day8/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day8/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day9/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day9/"
       }
     ]
   },
@@ -2708,6 +2915,51 @@
       }
     ]
   },
+  "/zh/posts/2026/07/benchmark-radar-day2/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/benchmark-radar-day2/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/benchmark-radar-day3/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/benchmark-radar-day3/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/benchmark-radar-day4/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/benchmark-radar-day4/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/benchmark-radar-day5/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/benchmark-radar-day5/"
+      }
+    ]
+  },
+  "/zh/posts/2026/07/benchmark-radar-launch-day1/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/07/benchmark-radar-launch-day1/"
+      }
+    ]
+  },
   "/zh/posts/2026/07/benchmark-radar/": {
     "variants": [
       {
@@ -2948,6 +3200,168 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/07/yvr-nexus-wayfinding-first-time-traveler/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day10/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day10/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day11/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day11/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day12/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day12/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day13/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day13/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day14/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day14/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day15/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day15/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day16/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day16/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day17/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day17/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day18/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day18/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day19/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day19/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day20/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day20/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day21/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day21/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day22/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day22/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day23/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day23/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day6/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day6/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day7/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day7/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day8/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day8/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day9/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day9/"
       }
     ]
   },

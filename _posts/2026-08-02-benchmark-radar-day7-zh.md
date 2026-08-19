@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第七天：模型卡采纳排行榜与注册表 v0.3.0"
 date: 2026-08-02
-permalink: /posts/2026/08/benchmark-radar-day7/
+permalink: /zh/posts/2026/08/benchmark-radar-day7/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 最大的一天。模型卡采纳排行榜上线，注册表扩展到 2026 年前沿，版本号升至 0.3.0。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

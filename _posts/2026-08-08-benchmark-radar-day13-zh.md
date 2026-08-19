@@ -1,13 +1,14 @@
 ---
 title: "Benchmark Radar 第十三天：仪表板美化与证据溯源"
 date: 2026-08-08
-permalink: /posts/2026/08/benchmark-radar-day13/
+permalink: /zh/posts/2026/08/benchmark-radar-day13/
 tags: [benchmark-radar, dashboard, evidence-grounding, qa, openalex]
 ---
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 Favicon 已添加到仪表板。URL 参数作用域修复完毕。仪表板每日问答功能上线。简报证据溯源机制完成（此前约 80% 的证据被丢弃，现已恢复）。KW-Bench 评分标准纳入仓库内管理。基准测试构建者调研启动。轨迹数据点可检查。联系人清单梳理完整。OpenAlex 空标题问题修复。
 

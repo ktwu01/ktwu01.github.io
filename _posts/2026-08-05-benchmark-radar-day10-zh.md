@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第十天：AI 简报、GPT 洞察与发布准备"
 date: 2026-08-05
-permalink: /posts/2026/08/benchmark-radar-day10/
+permalink: /zh/posts/2026/08/benchmark-radar-day10/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 雷达开始说话了。第十天加入了 AI 生成的每日简报、GPT 驱动的洞察分析，以及面向中文社交平台的发布文案。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

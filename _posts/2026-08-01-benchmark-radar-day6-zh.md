@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第六天：Hacker News 集成与定时可靠性"
 date: 2026-08-01
-permalink: /posts/2026/08/benchmark-radar-day6/
+permalink: /zh/posts/2026/08/benchmark-radar-day6/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 雷达开始监听 Hacker News。第六天加入了社区注意力信号，并加固了每日定时运行的可靠性。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

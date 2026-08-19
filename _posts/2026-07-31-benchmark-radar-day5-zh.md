@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第五天：无障碍趋势图与全景分析"
 date: 2026-07-31
-permalink: /posts/2026/07/benchmark-radar-day5/
+permalink: /zh/posts/2026/07/benchmark-radar-day5/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 趋势图有了一个真正的悬浮卡片。全景分析报告发布了。agentic 基准的数量从 3 跳到了 78。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

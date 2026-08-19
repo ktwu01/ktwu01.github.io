@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第九天：采纳前沿与分数进展层"
 date: 2026-08-04
-permalink: /posts/2026/08/benchmark-radar-day9/
+permalink: /zh/posts/2026/08/benchmark-radar-day9/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 排行榜变成了研究工作台。第九天加入了采纳前沿、分数进展和饱和度可视化。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

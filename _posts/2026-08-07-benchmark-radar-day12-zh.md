@@ -1,13 +1,14 @@
 ---
 title: "Benchmark Radar 第十二天：每日 RSS 订阅源"
 date: 2026-08-07
-permalink: /posts/2026/08/benchmark-radar-day12/
+permalink: /zh/posts/2026/08/benchmark-radar-day12/
 tags: [benchmark-radar, rss, github-pages, subscriptions]
 ---
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
+
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 基于快照历史生成的每日 RSS 订阅源，已作为 GitHub Pages 产物发布。订阅源采用机器可读格式输出。
 

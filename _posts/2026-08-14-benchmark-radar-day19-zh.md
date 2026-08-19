@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第十九天：地理空间信号与厂商 Logo 饱和度"
 date: 2026-08-14
-permalink: /posts/2026/08/benchmark-radar-day19/
+permalink: /zh/posts/2026/08/benchmark-radar-day19/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 雷达扩展到了地理空间和卫星 AI 领域。第十九天为饱和度图添加了领域特定信号和厂商 Logo。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

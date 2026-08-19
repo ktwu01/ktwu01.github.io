@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第二十三天：外部基准目录与排行榜导航器"
 date: 2026-08-18
-permalink: /posts/2026/08/benchmark-radar-day23/
+permalink: /zh/posts/2026/08/benchmark-radar-day23/
 tags:
   - AI
   - Benchmarks
@@ -13,7 +13,7 @@ tags:
 
 雷达吸收了外部目录。第二十三天构建了外部目录系统，并在排行榜中新增了基准测试搜索功能。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

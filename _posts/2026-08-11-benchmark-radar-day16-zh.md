@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第十六天：计数准确性与渐进式披露"
 date: 2026-08-11
-permalink: /posts/2026/08/benchmark-radar-day16/
+permalink: /zh/posts/2026/08/benchmark-radar-day16/
 tags:
   - AI
   - Benchmarks
@@ -12,7 +12,7 @@ tags:
 
 单一采纳者的基准测试被少算了。展开面板令人不知所措。第十六天同时修复了这两个问题。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

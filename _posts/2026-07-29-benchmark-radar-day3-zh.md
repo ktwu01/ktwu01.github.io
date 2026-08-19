@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第三天：可链接的评分对话框与过滤器修复"
 date: 2026-07-29
-permalink: /posts/2026/07/benchmark-radar-day3/
+permalink: /zh/posts/2026/07/benchmark-radar-day3/
 tags:
   - AI
   - Benchmarks
@@ -11,7 +11,7 @@ tags:
 
 内容不多，但两个精准的修复让雷达变得可分享了。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 

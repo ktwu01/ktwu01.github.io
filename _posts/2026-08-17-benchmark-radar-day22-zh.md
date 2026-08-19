@@ -1,7 +1,7 @@
 ---
 title: "Benchmark Radar 第二十二天：数据完整性与社区频道"
 date: 2026-08-17
-permalink: /posts/2026/08/benchmark-radar-day22/
+permalink: /zh/posts/2026/08/benchmark-radar-day22/
 tags:
   - AI
   - Benchmarks
@@ -13,7 +13,7 @@ tags:
 
 过时运行不再能污染快照数据，微信群正式公开。第二十二天强化了数据完整性并扩展了社区渠道。
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 ## 今日交付
 
