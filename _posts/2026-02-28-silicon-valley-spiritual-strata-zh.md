@@ -190,8 +190,6 @@ PayPal黑手党促进了风险投资文化和生态系统的自我繁殖。
 
 硅谷的商业机密不在董事会会议室交换，而在咖啡馆。
 
-- **大学大道（University Avenue, Palo Alto）**：
-    
     - **Coupa Café**：这里是创业者与天使投资人见面的首选地。点一杯咖啡，留意周围的对话，你可能会听到下一个估值十亿的想法正在雏形阶段 。   
         
     - **幸运办公室（165 University Ave）**：这座不起眼的小楼曾先后是Google和PayPal的早期办公室 。它是硅谷风水学的极致体现——不仅因为位置，更因为这里汇聚了最密集的信息流。   
@@ -236,347 +234,50 @@ PayPal黑手党促进了风险投资文化和生态系统的自我繁殖。
 
 ### 参考文献索引
 
-- **淘金热与心理根源**：   
-    
-- **八叛徒与公司谱系**：   
-    
-- **萨克森宁假说与法律结构**：   
-    
-- **斯坦福与特曼的贡献**：   
-    
-- **伯克利、反文化与开源精神**：   
-    
-- **地理地标与旅行指南**：   
-    
-
-[
-
-![](https://t1.gstatic.com/faviconV2?url=https://asteriskmag.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-asteriskmag.com
-
-Silicon Valley's Gold Rush Roots - Asterisk Magazine
-
-Opens in a new window](https://asteriskmag.com/issues/06/silicon-valleys-gold-rush-roots)[
-
-![](https://t1.gstatic.com/faviconV2?url=https://laist.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-laist.com
-
-How California's gold rush forged the path for today's tech innovators | LAist
-
-Opens in a new window](https://laist.com/news/kpcc-archive/risk-takers-still-see-golden-opportunities-in-cali)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://calmatters.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-calmatters.org
-
-How California's gold rush forged the path for today's tech innovators - CalMatters
-
-Opens in a new window](https://calmatters.org/economy/2018/03/californias-gold-rush-forged-path-todays-tech-innovators/)[
-
-![](https://t1.gstatic.com/faviconV2?url=https://seobrien.medium.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-seobrien.medium.com
-
-Silicon Valley's Culture of Creative Destruction | by Paul O'Brien - Medium
-
-Opens in a new window](https://seobrien.medium.com/silicon-valleys-culture-of-creative-destruction-4ff2a06aed1a)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://www.theguardian.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-theguardian.com
-
-Silicon Valley's culture of failure … and 'the walking dead' it leaves behind - The Guardian
-
-Opens in a new window](https://www.theguardian.com/technology/2014/jun/28/silicon-valley-startup-failure-culture-success-myth)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://miguelparente.medium.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-miguelparente.medium.com
-
-From the PayPal Mafia to the Google AI Talent Diaspora | by Miguel Parente | Medium
-
-Opens in a new window](https://miguelparente.medium.com/from-the-paypal-mafia-to-the-google-ai-diaspora-c8d113b57d58)[
-
-![](https://t0.gstatic.com/faviconV2?url=https://www.youtube.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-youtube.com
-
-The Traitorous Eight - Founders of Silicon Valley - YouTube
-
-Opens in a new window](https://www.youtube.com/watch?v=E5C0fuDi7Pw)[
-
-![](https://t0.gstatic.com/faviconV2?url=https://medium.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-medium.com
-
-The Power of Networks: How Historical Entrepreneurial Networks ...
-
-Opens in a new window](https://medium.com/@bvglants/the-power-of-networks-how-historical-entrepreneurial-networks-shaped-silicon-valley-today-65357dcf396d)[
-
-![](https://t1.gstatic.com/faviconV2?url=https://fleximize.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-fleximize.com
-
-Ventures of the PayPal Mafia - Fleximize
-
-Opens in a new window](https://fleximize.com/paypal-mafia/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-PayPal Mafia - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/PayPal_Mafia)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://emekandukwe.medium.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-emekandukwe.medium.com
-
-The Mafia That Runs The Tech World- How they got so Powerful - Chukwuemeka Ndukwe
-
-Opens in a new window](https://emekandukwe.medium.com/the-mafia-that-runs-the-tech-world-how-they-got-so-powerful-74add41b57b9)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://jws.com.au/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-jws.com.au
-
-Following Silicon Valley's lead? Reforming non-compete arrangements in Australian PE/VC deals - Johnson Winter Slattery
-
-Opens in a new window](https://jws.com.au/what-we-think/following-silicon-valleys-lead-reforming-non-compete-arrangements-in-australian-pe-vc-deals/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://conversational-leadership.net/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-conversational-leadership.net
-
-Silicon Valley Versus Route 128 Innovation Story - Conversational Leadership
-
-Opens in a new window](https://conversational-leadership.net/silicon-valley-versus-route-128/)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://review.law.stanford.edu/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-review.law.stanford.edu
-
-Equilibrium in High-Tech Startup Labor Markets - Stanford Law Review
-
-Opens in a new window](https://review.law.stanford.edu/wp-content/uploads/sites/3/2018/04/70-Stan.-L.-Rev.-1235.pdf)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://nyulawreview.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-nyulawreview.org
-
-The Legal Infrastructure of High Technology Industrial Districts ...
-
-Opens in a new window](https://nyulawreview.org/issues/volume-74-number-3/the-legal-infrastructure-of-high-technology-industrial-districts-silicon-valley-route-128-and-covenants-not-to-compete/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-Frederick Terman - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/Frederick_Terman)[
-
-![](https://t3.gstatic.com/faviconV2?url=http://www.siliconvalley-usa.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-siliconvalley-usa.com
-
-History Of The Silicon Valley
-
-Opens in a new window](http://www.siliconvalley-usa.com/about/terman.html)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://steveblank.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-steveblank.com
-
-The Secret History of Silicon Valley Part X: Stanford Crosses the Rubicon - Steve Blank
-
-Opens in a new window](https://steveblank.com/2009/08/17/stanford-crosses-the-rubicon/)[
-
-![](https://t0.gstatic.com/faviconV2?url=https://bigthink.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-bigthink.com
-
-How the '60s counterculture created Silicon Valley - Big Think
-
-Opens in a new window](https://bigthink.com/the-present/1960s-counterculture-created-silicon-valley/)[
-
-![](https://t0.gstatic.com/faviconV2?url=https://retroreport.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-retroreport.org
-
-Transcript: The 1969 Occupation of Alcatraz Was a Catalyst for Indigenous Activism
-
-Opens in a new window](https://retroreport.org/transcript/the-1969-occupation-of-alcatraz-was-a-catalyst-for-indigenous-activism/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-Occupation of Alcatraz - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/Occupation_of_Alcatraz)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://vcresearch.berkeley.edu/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-vcresearch.berkeley.edu
-
-Student 'hackers' design new ways to research the Free Speech Movement
-
-Opens in a new window](https://vcresearch.berkeley.edu/news/student-hackers-design-new-ways-research-free-speech-movement)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://preserve.lehigh.edu/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-preserve.lehigh.edu
-
-Binary Freedom: Free Software, the Internet, and Activism in the Digital Age - Lehigh Preserve
-
-Opens in a new window](https://preserve.lehigh.edu/system/files/derivatives/coverpage/455433.pdf)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://computerhistory.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-computerhistory.org
-
-Community Memory: Precedents in Social Media and Movements - CHM
-
-Opens in a new window](https://computerhistory.org/blog/community-memory-precedents-in-social-media-and-movements/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-Community Memory - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/Community_Memory)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-History of the Berkeley Software Distribution - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/History_of_the_Berkeley_Software_Distribution)[
-
-![](https://t1.gstatic.com/faviconV2?url=https://grad.berkeley.edu/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-grad.berkeley.edu
-
-The Tech World's Big Boost from Berkeley
-
-Opens in a new window](https://grad.berkeley.edu/news/profiles/big-boost/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-Berkeley Software Distribution - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://en.wikipedia.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-en.wikipedia.org
-
-Homebrew Computer Club - Wikipedia
-
-Opens in a new window](https://en.wikipedia.org/wiki/Homebrew_Computer_Club)[
-
-![](https://t1.gstatic.com/faviconV2?url=https://www.allaboutcircuits.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-allaboutcircuits.com
-
-The Homebrew Computer Club and the Dawn of the Personal Computer - News
-
-Opens in a new window](https://www.allaboutcircuits.com/news/homebrew-computer-club-dawn-personal-computer/)[
-
-![](https://t0.gstatic.com/faviconV2?url=https://www.hp.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-hp.com
-
-A real gem: HP's audio oscillator patent turns 60 - Virtual museum
-
-Opens in a new window](https://www.hp.com/hpinfo/abouthp/histnfacts/museum/earlyinstruments/0002/0002history.html)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://www.hewlettpackardhistory.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-hewlettpackardhistory.com
-
-A Deal with Disney: HP 200B Oscillator
-
-Opens in a new window](https://www.hewlettpackardhistory.com/item/a-deal-with-disney/)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://livefromsiliconvalley.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-livefromsiliconvalley.com
-
-Silicon Valley's Coffee Culture: Where Tech Meets Espresso - LIVE ...
-
-Opens in a new window](https://livefromsiliconvalley.com/silicon-valleys-coffee-culture-where-tech-meets-espresso/)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://steveblank.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-steveblank.com
-
-Steve Blank A Visitors Guide to Silicon Valley
-
-Opens in a new window](https://steveblank.com/2011/02/22/a-visitors-guide-to-silicon-valley/)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://huggingface.co/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-huggingface.co
-
-sgoel9/paul_graham_essays · Datasets at Hugging Face
-
-Opens in a new window](https://huggingface.co/datasets/sgoel9/paul_graham_essays)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://huggingface.co/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-huggingface.co
-
-sgoel9/paul_graham_essays · Datasets at Hugging Face
-
-Opens in a new window](https://huggingface.co/datasets/sgoel9/paul_graham_essays/viewer/default/train)[
-
-![](https://t0.gstatic.com/faviconV2?url=https://inmenlo.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-inmenlo.com
-
-Sand Hill Road - The Other Side of the Creek - InMenlo
-
-Opens in a new window](https://inmenlo.com/2025/10/07/sand-hill-road-the-other-side-of-the-creek/)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://www.sfgate.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-sfgate.com
-
-Rosewood Sand Hill the place to be seen and unseen - SFGATE
-
-Opens in a new window](https://www.sfgate.com/style/article/Rosewood-Sand-Hill-the-place-to-be-seen-and-unseen-2323909.php)[
-
-![](https://t2.gstatic.com/faviconV2?url=https://computerhistory.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-computerhistory.org
-
-Silicon Valley: Building on a Culture of Looking Forward - CHM - Computer History Museum
-
-Opens in a new window](https://computerhistory.org/stories/silicon-valley/)[
-
-![](https://t1.gstatic.com/faviconV2?url=https://www.fordstoremorganhill.com/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-fordstoremorganhill.com
-
-Silicon Valley Landmarks - The Ford Store Morgan Hill Blog
-
-Opens in a new window](https://www.fordstoremorganhill.com/blogs/2296/silicon-valley-landmarks/)[
-
-![](https://t3.gstatic.com/faviconV2?url=https://www.siliconvalleyguide.org/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)
-
-siliconvalleyguide.org
-
-Silicon Valley Guide
-
-Opens in a new window](https://www.siliconvalleyguide.org/)
-
-[](https://www.wnycstudios.org/podcasts/anxiety/episodes/silicon-valleys-history-fumbles-capitalism)
+- **淘金热与心理根源**：
+  - [Silicon Valley's Gold Rush Roots - Asterisk Magazine](https://asteriskmag.com/issues/06/silicon-valleys-gold-rush-roots)
+  - [How California's gold rush forged the path for today's tech innovators | LAist](https://laist.com/news/kpcc-archive/risk-takers-still-see-golden-opportunities-in-cali)
+  - [How California's gold rush forged the path for today's tech innovators - CalMatters](https://calmatters.org/economy/2018/03/californias-gold-rush-forged-path-todays-tech-innovators/)
+  - [Silicon Valley's Culture of Creative Destruction | by Paul O'Brien - Medium](https://seobrien.medium.com/silicon-valleys-culture-of-creative-destruction-4ff2a06aed1a)
+  - [Silicon Valley's culture of failure … and 'the walking dead' it leaves behind - The Guardian](https://www.theguardian.com/technology/2014/jun/28/silicon-valley-startup-failure-culture-success-myth)
+- **八叛徒与公司谱系**：
+  - [From the PayPal Mafia to the Google AI Talent Diaspora | by Miguel Parente | Medium](https://miguelparente.medium.com/from-the-paypal-mafia-to-the-google-ai-diaspora-c8d113b57d58)
+  - [The Traitorous Eight - Founders of Silicon Valley - YouTube](https://www.youtube.com/watch?v=E5C0fuDi7Pw)
+  - [The Power of Networks: How Historical Entrepreneurial Networks Shaped Silicon Valley](https://medium.com/@bvglants/the-power-of-networks-how-historical-entrepreneurial-networks-shaped-silicon-valley-today-65357dcf396d)
+  - [Ventures of the PayPal Mafia - Fleximize](https://fleximize.com/paypal-mafia/)
+  - [PayPal Mafia - Wikipedia](https://en.wikipedia.org/wiki/PayPal_Mafia)
+  - [The Mafia That Runs The Tech World - Chukwuemeka Ndukwe](https://emekandukwe.medium.com/the-mafia-that-runs-the-tech-world-how-they-got-so-powerful-74add41b57b9)
+- **萨克森宁假说与法律结构**：
+  - [Following Silicon Valley's lead? Reforming non-compete arrangements in Australian PE/VC deals - Johnson Winter Slattery](https://jws.com.au/what-we-think/following-silicon-valleys-lead-reforming-non-compete-arrangements-in-australian-pe-vc-deals/)
+  - [Silicon Valley Versus Route 128 Innovation Story - Conversational Leadership](https://conversational-leadership.net/silicon-valley-versus-route-128/)
+  - [Equilibrium in High-Tech Startup Labor Markets - Stanford Law Review](https://review.law.stanford.edu/wp-content/uploads/sites/3/2018/04/70-Stan.-L.-Rev.-1235.pdf)
+  - [The Legal Infrastructure of High Technology Industrial Districts - NYU Law Review](https://nyulawreview.org/issues/volume-74-number-3/the-legal-infrastructure-of-high-technology-industrial-districts-silicon-valley-route-128-and-covenants-not-to-compete/)
+- **斯坦福与特曼的贡献**：
+  - [Frederick Terman - Wikipedia](https://en.wikipedia.org/wiki/Frederick_Terman)
+  - [History Of The Silicon Valley - siliconvalley-usa.com](http://www.siliconvalley-usa.com/about/terman.html)
+  - [The Secret History of Silicon Valley Part X: Stanford Crosses the Rubicon - Steve Blank](https://steveblank.com/2009/08/17/stanford-crosses-the-rubicon/)
+- **伯克利、反文化与开源精神**：
+  - [How the '60s counterculture created Silicon Valley - Big Think](https://bigthink.com/the-present/1960s-counterculture-created-silicon-valley/)
+  - [Transcript: The 1969 Occupation of Alcatraz Was a Catalyst for Indigenous Activism](https://retroreport.org/transcript/the-1969-occupation-of-alcatraz-was-a-catalyst-for-indigenous-activism/)
+  - [Occupation of Alcatraz - Wikipedia](https://en.wikipedia.org/wiki/Occupation_of_Alcatraz)
+  - [Student 'hackers' design new ways to research the Free Speech Movement](https://vcresearch.berkeley.edu/news/student-hackers-design-new-ways-research-free-speech-movement)
+  - [Binary Freedom: Free Software, the Internet, and Activism in the Digital Age - Lehigh Preserve](https://preserve.lehigh.edu/system/files/derivatives/coverpage/455433.pdf)
+  - [Community Memory: Precedents in Social Media and Movements - CHM](https://computerhistory.org/blog/community-memory-precedents-in-social-media-and-movements/)
+  - [Community Memory - Wikipedia](https://en.wikipedia.org/wiki/Community_Memory)
+  - [History of the Berkeley Software Distribution - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_Berkeley_Software_Distribution)
+  - [The Tech World's Big Boost from Berkeley](https://grad.berkeley.edu/news/profiles/big-boost/)
+  - [Berkeley Software Distribution - Wikipedia](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
+  - [Homebrew Computer Club - Wikipedia](https://en.wikipedia.org/wiki/Homebrew_Computer_Club)
+  - [The Homebrew Computer Club and the Dawn of the Personal Computer - All About Circuits](https://www.allaboutcircuits.com/news/homebrew-computer-club-dawn-personal-computer/)
+- **地理地标与旅行指南**：
+  - [A real gem: HP's audio oscillator patent turns 60 - Virtual museum](https://www.hp.com/hpinfo/abouthp/histnfacts/museum/earlyinstruments/0002/0002history.html)
+  - [A Deal with Disney: HP 200B Oscillator](https://www.hewlettpackardhistory.com/item/a-deal-with-disney/)
+  - [Silicon Valley's Coffee Culture: Where Tech Meets Espresso - LIVE from Silicon Valley](https://livefromsiliconvalley.com/silicon-valleys-coffee-culture-where-tech-meets-espresso/)
+  - [Steve Blank A Visitors Guide to Silicon Valley](https://steveblank.com/2011/02/22/a-visitors-guide-to-silicon-valley/)
+  - [sgoel9/paul_graham_essays - Hugging Face](https://huggingface.co/datasets/sgoel9/paul_graham_essays)
+  - [sgoel9/paul_graham_essays - Hugging Face (viewer)](https://huggingface.co/datasets/sgoel9/paul_graham_essays/viewer/default/train)
+  - [Sand Hill Road - The Other Side of the Creek - InMenlo](https://inmenlo.com/2025/10/07/sand-hill-road-the-other-side-of-the-creek/)
+  - [Rosewood Sand Hill the place to be seen and unseen - SFGATE](https://www.sfgate.com/style/article/Rosewood-Sand-Hill-the-place-to-be-seen-and-unseen-2323909.php)
+  - [Silicon Valley: Building on a Culture of Looking Forward - Computer History Museum](https://computerhistory.org/stories/silicon-valley/)
+  - [Silicon Valley Landmarks - The Ford Store Morgan Hill Blog](https://www.fordstoremorganhill.com/blogs/2296/silicon-valley-landmarks/)
+  - [Silicon Valley Guide](https://www.siliconvalleyguide.org/)

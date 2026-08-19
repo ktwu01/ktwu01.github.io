@@ -13,8 +13,6 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-# 只要你在用AI辅助科研，敲一行命令就能把你脑子里的「隐性经验」变成能发Nature的资本
-
 这两天我们在搞一个挺离谱，但也挺牛逼的事。
 
 说实话，每次看大家发 paper，我总觉得最精华的东西其实都不在 paper 里。那些怎么调参、怎么避坑的直觉，怎么跟导师周旋的经验，随着你毕业或换方向，可能就彻底失传了，想想其实挺可惜的。

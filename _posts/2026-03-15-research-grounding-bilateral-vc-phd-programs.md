@@ -22,6 +22,14 @@ This preprint is a research compendium that brings together literature across ec
 > 中文导读：
 > 这篇 preprint 的重要性，不只是它在批评 PhD 体系，而是它试图把“博士培养为什么会系统性失灵”这个问题，放回激励设计与制度设计的框架里重新讨论。它把博士培养和风投中的双边风险管理、信息不对称、分阶段投资、退出机制联系起来，也进一步说明：在 AI 正快速压缩科研周期的今天，旧式博士制度为什么越来越不适配，以及我们可以用什么更结构化的方式去重构它。
 
+## Citation
+
+> Wu, K. (2026). *Research grounding for a bilateral venture capital model of PhD programs*. Zenodo. https://doi.org/10.5281/zenodo.19040077
+
+## PDF
+
+- [Read the PDF](https://doi.org/10.5281/zenodo.19040077)
+
 ## Full preprint
 
 {% include preprints/research-grounding-bilateral-vc-phd-programs.md %}

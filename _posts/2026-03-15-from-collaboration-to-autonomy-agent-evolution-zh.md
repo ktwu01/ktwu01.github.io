@@ -148,6 +148,8 @@ Agent2Agent（A2A）模式代表了交互进化的终极形态，其可以类比
 
 正如2000年代初期的API标准开启了互联网的互联时代，2025至2026年的A2A协议热潮正在开启一个认知互联的时代。这不仅是技术的跃迁，更是人类历史上第一次能够通过协议让“思考”和“行动”实现大规模的自动化。在这个新纪元，价值不再仅仅产生于人类的点击之间，而是在数以亿计的自治智能体无声的博弈与协作中流动。
 
+## 参考资料
+
 [
 
 ![](https://t3.gstatic.com/faviconV2?url=https://www.kore.ai/&client=BARD&type=FAVICON&size=256&fallback_opts=TYPE,SIZE,URL)

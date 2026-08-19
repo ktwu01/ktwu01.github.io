@@ -19,6 +19,8 @@ tags:
 
 不是方向上有点偏，而是整个 framing 就错了。Prompt caching 不是工程上的妥协，它更接近 transformer 架构在数学上要求你这么做。
 
+## 推理过程中实际发生了什么
+
 先回到推理过程本身。
 
 Transformer 在处理一串 token 的时候，attention 机制会在每一层为每个 token 计算三组东西，Query，也就是 Q，Key，也就是 K，Value，也就是 V。对位置 $$i$$ 来说，attention 输出大概长这样。
@@ -27,7 +29,7 @@ $$\text{Attention}(Q_i, K, V) = \text{softmax}\left(\frac{Q_i K^T}{\sqrt{d_k}}\r
 
 这里最关键的一点是，K 和 V 只依赖输入 token 本身，不依赖当前正在计算哪个 query 位置。
 
-所以，如果一个 prompt 长度是 $$N$$，你要继续生成 $$M$$ 个新 token，那么那段 prompt 对应的 KV 矩阵只需要算一次。后面每一步 decode，都可以复用这批 K 和 V。
+所以，如果一个 prompt 长度是 $$N$$，你要继续生成 $$M$$ 个新 token，那么全部 $$N$$ 个 prompt token 的 KV 矩阵只需要算一次，后续每一步 decode 复用的都是这 $$M$$ 份缓存。
 
 这就是 KV cache。
 
@@ -38,6 +40,8 @@ $$\text{Attention}(Q_i, K, V) = \text{softmax}\left(\frac{Q_i K^T}{\sqrt{d_k}}\r
 这不叫干净。
 
 这叫浪费。
+
+## 为什么"技术债"这个框架是错的
 
 回到技术债这个词。
 
@@ -57,6 +61,8 @@ KV cache 不符合这个定义。
 
 那就是算法本身。
 
+## 这个主张隐含了一个错误的反事实
+
 很多时候，大家隐含的想象是，未来 token 足够便宜了，caching 就不重要了。
 
 但就算推理成本下降 100 倍，KV cache 仍然是正确做法。你会用它，不是因为贵，而是因为重新计算已经拿到的 K 和 V 在数学上就是冗余。成本只是这个冗余的外在表现，不是问题的根。
@@ -67,11 +73,15 @@ KV cache 不符合这个定义。
 
 那是一个不太讲道理的计算。
 
+## Claude Code 实际在做什么
+
 Claude Code 这块其实也一样。
 
 Claude Code 会在一个 session 里缓存 system prompt、tool definitions、repo context。这些东西在多轮对话里通常就是固定 prefix。固定 prefix 的 K 和 V 可以复用，所以就应该复用。
 
 Claude API 的价格也反映了这点，cache hit 大概是 fresh tokens 的 10% 左右。但这个价格不是设计的原因，而是工程现实的结果。
+
+## 如果你想把什么东西称为技术债
 
 如果真要找技术债，LLM 基础设施里当然有一堆。
 
@@ -88,6 +98,8 @@ Context window 仍然是硬边界，所以 prefill-and-extend 这类策略也可
 它不是绕过数学。
 
 它是把数学实现对了。
+
+## 结论
 
 当然，你可以说 transformer 本身只是一个阶段性架构。这个观点是成立的。Attention 对 sequence length 是 $$O(n^2)$$，长上下文任务迟早会逼出新的架构。
 
