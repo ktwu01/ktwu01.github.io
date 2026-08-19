@@ -23,3 +23,4 @@ vendor/
 output/
 */.lingtai/
 _posts/.recipe/
+.worktrees/
