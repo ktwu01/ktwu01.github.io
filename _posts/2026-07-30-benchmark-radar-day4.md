@@ -14,36 +14,31 @@ The radar learned to remember. Day four added historical backfill, staleness det
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. Today the radar got a memory and a way to tell you when its data is stale.
 
-**simulate-history command.** A new CLI command backfills historical snapshots by simulating past collection runs. Four historical snapshots were generated to give the trend map actual data to display.
+We added a command called `simulate-history`. It backfills old snapshots by replaying past collection runs. We generated four historical snapshots so the trend map finally has real history to draw.
 
-**Staleness banner.** The dashboard now shows a banner when data is older than expected. If the daily run fails or stalls, users see a warning instead of trusting stale numbers.
+The dashboard now shows a banner when the data is older than expected. If the daily run fails or stalls, you see a warning instead of trusting numbers that are two days old.
 
-**Corpus totals by category.** The Today view now shows total distinct artifacts broken down by category (benchmarks, datasets, leaderboards, research). This gives an immediate sense of scale.
+The Today view now shows total distinct artifacts split by category (benchmarks, datasets, leaderboards, research). You get a sense of scale the moment you open it.
 
-**Agentic taxonomy category.** A new "agentic" category was added to the taxonomy with matching retrieval keywords. Agent benchmarks were being classified into generic categories; now they have their own.
+We added an "agentic" category to the taxonomy. Agent benchmarks (think SWE-bench, WebArena, OSWorld) were being lumped into generic buckets. Now they have their own home, with matching search keywords.
 
-**Trend delta fixes.** Re-announced updates were excluded from trend deltas. A releases-only view was added. The arXiv keyword filter was tightened to focus on benchmark and dataset introductions.
+A few smaller fixes: re-announced updates no longer distort the trend deltas, we added a releases-only view, and we tightened the arXiv keyword filter to focus on new benchmark and dataset announcements. When you expand a record, it now shows fresh content instead of repeating the teaser. The radar now runs twice a day, so a failed trigger gets a retry the same day.
 
-**Record expansion fix.** When a record is expanded, the dashboard now shows new content instead of repeating the teaser text.
+Why this matters.
 
-**Daily radar scheduling.** The radar was configured to run twice a day so a failed trigger gets a same-day retry.
+A radar without history is a daily newspaper. A radar with history is an atlas you can flip through. The simulate-history command bridged "we started yesterday" and "we have months of data," giving the trend map something real.
 
-## Why it matters
+The staleness banner matters just as much. If the data is two days old, the dashboard should say so out loud. Trust needs honesty about freshness.
 
-A radar without history is a daily newspaper. A radar with history is an atlas. The simulate-history command filled the gap between "we started yesterday" and "we have months of data," giving the trend map something real to show.
+The agentic category tracks a real shift: agent benchmarks are growing fast enough to deserve their own label.
 
-The staleness banner was equally important. If data is two days old, the dashboard should say so. Trust requires transparency about freshness.
-
-The agentic taxonomy category reflected a real market shift: agent benchmarks (SWE-bench, WebArena, OSWorld) were growing fast enough to deserve their own classification.
-
-## Issues addressed
-
-- \#35, \#42, \#45: freshness banner, corpus totals, history backfill
-- \#52: corpus totals visibility
-- \#53: freshness fields
-- \#55: trend delta fixes
-- \#58: agentic taxonomy category
+Issues addressed:
+- #35, #42, #45: freshness banner, corpus totals, history backfill
+- #52: corpus totals visibility
+- #53: freshness fields
+- #55: trend delta fixes
+- #58: agentic taxonomy category
 
 Day five: trend chart hover cards and the benchmark landscape report.

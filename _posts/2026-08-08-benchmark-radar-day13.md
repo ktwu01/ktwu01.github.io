@@ -10,46 +10,40 @@ tags:
   - Favicon
 ---
 
-Every claim now links to its source. Day thirteen added evidence grounding, daily Q&A, and several UX fixes.
+The radar now backs up every claim with a link. Day thirteen added evidence grounding, a daily Q&A on the dashboard, and a stack of small fixes.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. A leaderboard is just a public ranking of who scored best, and we have one. We spent the day making that ranking honest and easy to read.
 
-**Favicon.** The site finally got an icon. Small detail, big identity signal.
+We gave the site an icon, finally. It is the small picture in your browser tab, and it makes the project feel real instead of a blank page.
 
-**URL parameter scoping.** Filters are now written only for the active view into the URL. Previously, all views' filters leaked into the URL, creating confusion when switching between views.
+Filters now stay where you expect them. Before, the web address (the URL) carried filters from every view at once. Switch views and you got settings for a page you were not even looking at. Now the URL only records the view you are on, so a link you share shows exactly what you saw.
 
-**Daily Q&A on dashboard.** The daily Q&A section is now rendered on the dashboard, making the radar's self-questions and answers visible to users.
+The daily Q&A now shows up on the dashboard. Each day the radar asks itself questions about the benchmark world and answers them. Now you can read those questions instead of them living in a hidden file.
 
-**Briefing evidence grounding.** The daily briefing now answers questions instead of only listing findings. Each answer is grounded in specific evidence sources. 80% of previously discarded briefing evidence was recovered.
+The daily briefing changed shape. It used to just list findings. Now it answers questions, and every answer points at the source it came from. We recovered about 80% of the evidence we used to throw away, so the briefing got much fuller.
 
-**KW-Bench rubric owned.** The KW-Bench rubric is now maintained within this repository instead of being an external dependency.
+A model card is a short public sheet where a lab describes one of its AI models. We also pulled the KW-Bench rubric, our grading checklist for benchmarks, into this repository. It used to live outside as a dependency, so now it cannot break underneath us.
 
-**Benchmark builder survey.** A survey of who builds the popular benchmarks was added (#164).
+We added a survey of who builds the popular benchmarks (issue #164). You can now click points on the trajectory chart to see what they mean. The contact CSV export now lists the full set of benchmark contacts. And until now, a research paper with no title in OpenAlex (a free catalog of papers and authors) could crash the daily run. We skip those now with a warning.
 
-**Trajectory points inspectable.** Points on the trajectory chart can now be clicked or focused to reveal details.
+Why this matters.
 
-**Complete contact inventory.** The benchmark contact CSV export now includes the complete inventory.
+The evidence grounding was the big one. A radar that says "benchmark X is trending" with no source is just an opinion. A radar that says "benchmark X showed up in three model cards this week, here are the line numbers" is proof you can check yourself.
 
-**OpenAlex null title fix.** Untitled OpenAlex works no longer crash the daily run. They are skipped with a warning.
+The URL fix solved a real annoyance. You share a link, and the person who opens it sees the filters you meant, not leftover settings from a different page.
 
-## Why it matters
+Issues addressed
 
-Evidence grounding was the most important change of the day. A radar that says "benchmark X is trending" without citing where that claim comes from is just opinion. A radar that says "benchmark X appeared in 3 model cards this week (GPT-4 card line 42, Claude card line 18, Gemini card line 31)" is evidence.
-
-The URL parameter scoping fix addressed a real user confusion: when you shared a URL, it carried filters from views the recipient was not looking at. Scoping filters to the active view made URLs actually represent what they showed.
-
-## Issues addressed
-
-- \#160: URL parameter view scoping and favicon
-- \#161: OpenAlex null title fix
-- \#162: briefing evidence starvation
-- \#159: render daily Q&A
-- \#163: trajectory interactions
-- \#164: benchmark builder survey
-- \#166: render daily questions on dashboard
-- \#167: complete contact CSV
-- \#168: trajectory point inspection
+- #160: scope URL filters to the active view and add the site icon
+- #161: stop OpenAlex papers with no title from crashing the run
+- #162: fix the briefing running out of evidence
+- #159: show the daily Q&A
+- #163: let users click trajectory points
+- #164: survey of who builds popular benchmarks
+- #166: render daily questions on the dashboard
+- #167: full contact list in the CSV
+- #168: click trajectory points for details
 
 Day fourteen: feed coverage, briefing reliability, and production Q&A.

@@ -11,49 +11,32 @@ tags:
   - i18n
 ---
 
-OpenReview got authenticated. Wide screens got wider. Phones stopped breaking. Day twenty-one was a cross-cutting fix day.
+Hi, Koutian here. Day twenty-one was a fix day that touched many parts at once.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+OpenReview is the site that hosts peer reviews for the top AI conferences. Peer review is the process where other researchers grade a paper before it is accepted. We can now log into OpenReview's API v2 using the `openreview-py` client. That opens up review data from NeurIPS, ICML, ICLR, and other venues. A CI workflow, the automated test that runs on every change, now checks that login works so we catch broken credentials early.
 
-**OpenReview API v2 authentication.** The radar can now authenticate with OpenReview's API v2 using the `openreview-py` client. This opens access to peer review data from NeurIPS, ICML, ICLR, and other venues.
+The Chinese and English toggle button now responds to clicks. Before, the button was there but did nothing. It also shows the target script as a 中 / EN glyph instead of a plain label.
 
-**OpenReview auth test workflow.** A CI workflow tests the OpenReview authentication to catch credential issues early.
+We fixed three phone layout problems. Icons now render correctly on small screens. The masthead wraps on narrow phones so the utility row does not spill over the edge. The mobile squares shrank to 2.1rem so they fit a 320px phone.
 
-**Language toggle button wired.** The Chinese/English language toggle button was wired so it actually responds to clicks. Previously the button existed but did nothing.
+On wide screens the radar now uses more horizontal space (issue #223). We enlarged the header nav icons and cut the empty space on the right.
 
-**Language glyph display.** The toggle button now shows the target script as a 中/EN glyph instead of a generic label.
+The dashboard is faster now. `radar.json`, the data file behind the page, is cached, and filter updates wait for you to pause typing before re-rendering (issue #222). The page no longer redraws on every keystroke.
 
-**Mobile utility grid fixes.** Three fixes addressed phone layout issues:
-- Icons corrected to render properly on small screens
-- Masthead wrapped on narrow phones so the utility grid does not overflow
-- Mobile squares shrunk to 2.1rem to fit a 320px phone
+Saturation scores, the points where benchmark scores flatten out, are now tagged with model logos. The chart explains itself. We widened the daily questions section for easier reading, and utility icons now give instant visual feedback when you tap them. We also restored the code formatter to a clean baseline after the language changes.
 
-**Wide-screen layout.** The radar now uses more horizontal space on wide screens (issue #223). Header nav icons were enlarged and right-side whitespace was reduced.
+Why this matters to you.
 
-**Dashboard performance.** `radar.json` is now cached and filter re-renders are debounced (issue #222). This prevents the dashboard from re-rendering on every keystroke.
+OpenReview is the most useful change here. The radar can now track not just which benchmarks get released, but how the research community receives them. A benchmark that gets strong reviews at NeurIPS is more likely to be used than one that gets rejected. The phone and wide-screen fixes mean the site works whether you check it on a bus or on a big monitor. The speed fix means the filters feel instant instead of laggy.
 
-**Saturation score identification.** Saturation scores are now identified with model logos, making the chart self-documenting.
+Issues addressed:
 
-**Daily questions section widened.** The daily questions section was given more width for readability.
-
-**Utility icon feedback.** Utility icon interactions now provide immediate visual feedback.
-
-**Formatter baseline restored.** Code formatting was restored to a clean baseline after the i18n changes.
-
-## Why it matters
-
-The OpenReview authentication was the most strategically important change. OpenReview hosts peer reviews for the top AI conferences. Accessing this data means the radar can track not just which benchmarks are released, but how they are received by the peer review community. A benchmark that gets strong reviews at NeurIPS is more likely to be adopted than one that gets rejected.
-
-The mobile fixes were a usability commitment. If the dashboard breaks on a 320px phone, it is unusable for anyone checking the radar on their commute. The wide-screen fix was the opposite end: on a 4K monitor, the radar should use the available space, not center itself in a narrow column.
-
-## Issues addressed
-
-- \#220: mobile utility grid overflow
-- \#221: language toggle wiring
-- \#222: cache radar.json and debounce filters
-- \#223: wide-screen horizontal space
+- #220: mobile utility grid overflow
+- #221: language toggle wiring
+- #222: cache radar.json and debounce filters
+- #223: wide-screen horizontal space
 - OpenReview API v2 authentication
 - Language glyph display
 - Dashboard performance improvements

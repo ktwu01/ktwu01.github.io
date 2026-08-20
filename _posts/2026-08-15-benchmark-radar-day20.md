@@ -11,55 +11,38 @@ tags:
   - Social Media
 ---
 
-The radar spoke Chinese. Day twenty delivered full zh i18n, insight blocks, and a complete social checklist.
+Hi, Koutian here. Day twenty taught the radar to speak Chinese and to summarize itself.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+i18n means internationalization, which is just the setup that lets a site show more than one language. We added a full Chinese dictionary with the static HTML wiring, so every label and description on the site now has a Chinese version. In Chinese mode the site title reads "Benchmark 雷达日报", which means Benchmark Radar Daily.
 
-**Full zh i18n dictionary.** A complete Chinese translation dictionary was added with static HTML wiring. Every UI string, label, and description has a Chinese equivalent.
+The Today page now compiles the day's scan into short insight blocks. Instead of a wall of raw findings, you see small summaries sorted by how important they are. You can grasp the day in thirty seconds instead of studying it for thirty minutes.
 
-**Chinese title.** The site title translates to "Benchmark 雷达日报" (Benchmark Radar Daily) in Chinese mode.
+We overhauled the daily social checklist. We dropped the personal and direct channels that were just noise. We added Reddit subreddit links and the Hacker News submit URL, which is where the real signal lives. Weekly channels are now split from daily ones. Every daily checklist now leads with a badge showing the record count. Non-daily channels still show every day but sit in their own group.
 
-**Today page insight blocks.** The day scan now compiles into scannable insight blocks. Instead of reading through raw findings, users see structured summaries organized by significance.
+We added model cards to the adoption registry for DeepSeek-V4-Pro-0813, GLM-5.1, GLM-5.2, Qwen3.8-27B, and AI2 OLMo 3. A model card is a short profile that records a model's key facts. We simplified the README around the core use cases and published the record-count badge. We also added a Chinese README with the WeChat group QR code.
 
-**Social checklist overhaul.** The daily social checklist was overhauled:
-- Personal and direct channels were dropped from the daily rotation
-- Reddit subreddit links and Hacker News submit URL were added
-- Weekly cadence channels were separated from daily channels
-- Every daily checklist now leads with the records-count badge
-- Non-daily channels render every day but are grouped separately
+We tightened the Q&A caveat rule. It no longer applies to shares that are not in a category. An uncited score of 100 now gets rejected by validation, so a fake-looking number cannot slip through.
 
-**Model cards added.** DeepSeek-V4-Pro-0813, GLM-5.1, GLM-5.2, Qwen3.8-27B, and AI2 OLMo 3 were added to the adoption registry.
+We marked the social test channels as daily so timezone differences stop causing test failures.
 
-**README simplified.** The README was simplified around core use cases. A data-driven record-count badge was published.
+Why this matters to you.
 
-**Zh-CN README.** A Chinese README was added with the WeChat group QR code.
+The Chinese support is a reach decision. China's AI labs, DeepSeek, Qwen, GLM, and others, post benchmarks often. A Chinese UI opens the radar to a much larger audience. The insight blocks save you time: the dashboard now does the first pass of reading for you. The social change means we post where people actually look, not everywhere at once.
 
-**Caveat exemption tightened.** The Q&A caveat-exemption was restricted: it no longer applies to non-category shares. An uncited score of 100 is now rejected by validation.
+Issues addressed:
 
-**Social test timezone fix.** Social test channels were marked as daily to avoid timezone-dependent test failures.
-
-## Why it matters
-
-The Chinese i18n was a market decision. The AI benchmark ecosystem has significant activity in China: DeepSeek, Qwen, GLM, and other Chinese model labs publish benchmarks frequently. Making the radar accessible in Chinese expanded its potential audience significantly.
-
-The insight blocks were a UX improvement for information density. Raw findings require interpretation; insight blocks deliver pre-interpreted summaries. This matters for users who scan the dashboard in thirty seconds rather than studying it for thirty minutes.
-
-The social checklist overhaul reflected a shift from "post everywhere" to "post where it matters." Personal channels were noise; Reddit and Hacker News were signal.
-
-## Issues addressed
-
-- \#197: records badge and zh-CN README
-- \#201: simplify README
-- \#203: Today page insight blocks
-- \#206: social checklist overhaul
-- \#207: Q&A uncited score rejection
-- \#210: records badge daily
-- \#211: insight blocks
-- \#213: icon fixes
-- \#216: zh i18n dictionary
-- \#217: social test timezone fix
+- #197: records badge and zh-CN README
+- #201: simplify README
+- #203: Today page insight blocks
+- #206: social checklist overhaul
+- #207: Q&A uncited score rejection
+- #210: records badge daily
+- #211: insight blocks
+- #213: icon fixes
+- #216: zh i18n dictionary
+- #217: social test timezone fix
 - Model card additions (DeepSeek, GLM, Qwen, OLMo)
 
 Day twenty-one: OpenReview auth, wide-screen layout, and mobile fixes.

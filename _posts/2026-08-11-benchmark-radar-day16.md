@@ -10,39 +10,39 @@ tags:
   - Progressive Disclosure
 ---
 
-Single-adopter benchmarks were under-counted. Drill-downs were overwhelming. Day sixteen fixed both.
+Some benchmarks were counted wrong, and the dashboards were overwhelming. Day sixteen fixed both.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. A leaderboard is just a public ranking of who scored best. Ours had a quiet bug, and the pages were too busy. We cleaned both up.
 
-**Single-adopter benchmark count fix.** Benchmarks adopted by only one model card were being under-counted. The fix ensures these benchmarks are counted accurately, even when their adoption is narrow.
+Benchmarks adopted by only one model card were being under-counted. A model card is a short public sheet where a lab describes one of its AI models. The fix now counts them correctly, even when just one lab picked them up.
 
-**Progressive disclosure restored.** Drill-down sections in the leaderboard, Q&A, and homepage are now collapsed by default. Users expand what they want to read instead of being confronted with everything at once.
+Drill-down sections are now collapsed by default on the leaderboard, the Q&A, and the homepage. You click to open what you want instead of facing everything at once. This is called progressive disclosure: show the summary, hide the detail until asked.
 
-**Daily social-checklist issue restored.** The daily social-checklist issue was restored after being accidentally retired. The issue date is now derived from the report date, not the wall clock, preventing timezone-related misalignment.
+We brought back the daily social-checklist issue after retiring it by mistake. Its date now comes from the report, not the computer's clock, so it no longer lands on the wrong day across time zones.
 
-**workflow_dispatch publish default.** The `workflow_dispatch` publish input now defaults to `true` (issue #88). Previously, manual workflow runs required explicitly setting the publish flag.
+Manual pipeline runs now publish by default (issue #88). Before, you had to tick a box every time you ran it by hand. A workflow_dispatch is just a manual button to start the build, and now it does the expected thing.
 
-**Brand icons in frontier circles.** The adoption frontier circles now show real brand icons (OpenAI, Google, Anthropic, etc.) instead of generic markers. This makes the frontier chart immediately scannable.
+The frontier circles on the chart now show real brand icons: OpenAI, Google, Anthropic, and others, instead of plain dots. The frontier is the edge of which models adopt which benchmarks, and the icons make it scannable at a glance.
 
-## Why it matters
+Why this matters.
 
-The single-adopter count fix addressed a data accuracy issue. When a benchmark has exactly one adopter, under-counting it makes the adoption landscape look less diverse than it is. For a tool that claims to track benchmark adoption, this kind of error undermines trust.
+The count fix was about trust. If a one-adopter benchmark shows as zero, the adoption map looks less diverse than reality. For a tool that tracks adoption, a wrong count is a broken promise.
 
-Progressive disclosure was a UX principle applied to information density. The radar collects a lot of data; showing all of it at once overwhelms new users. Collapsing drill-downs lets the dashboard serve both casual browsers (who see summaries) and deep researchers (who expand what they need).
+Progressive disclosure is about not drowning people. The radar grabs a lot of data. Collapsing it lets a quick visitor read the summary and a researcher expand what they need.
 
-The brand icons in frontier circles were a visual identity improvement. When you see the OpenAI logo next to a benchmark adoption point, you immediately know who adopted it, without reading a legend.
+The brand icons save you a legend. See the OpenAI mark next to a point and you know who adopted it without hunting.
 
-## Issues addressed
+Issues addressed
 
-- \#88: default workflow_dispatch publish to true, restore daily social issue, date from report
-- \#99: correct under-counted single-adopter benchmarks
-- \#183: restore progressive disclosure
-- \#184: restore daily social issue
-- \#185: workflow_dispatch default
-- \#187: single-adopter audit
-- \#188: progressive disclosure restore
-- \#178: brand icons in frontier circles
+- #88: default manual runs to publish, bring back the daily social issue, date it from the report
+- #99: fix under-counted single-adopter benchmarks
+- #183: restore progressive disclosure
+- #184: bring back the daily social issue
+- #185: default the manual publish flag
+- #187: audit single-adopter counts
+- #188: restore progressive disclosure
+- #178: brand icons in frontier circles
 
 Day seventeen: audit hardening, masthead actions, and production polish.

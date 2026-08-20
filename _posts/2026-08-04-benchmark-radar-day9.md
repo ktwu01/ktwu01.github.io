@@ -10,45 +10,41 @@ tags:
   - Research Workbench
 ---
 
-The leaderboard became a research workbench. Day nine added the adoption frontier, score progression, and saturation visualization.
+The leaderboard became a research workbench. Hi, Koutian here. Day nine added the adoption frontier, score progression, and saturation charts.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+We added a benchmark adoption frontier. It is a chart that shows which benchmarks labs are picking up fastest across model card releases. It plots adoption speed against how mature each benchmark is.
 
-**Benchmark adoption frontier.** A new visualization showing which benchmarks are being adopted fastest across model card releases. The frontier chart plots adoption velocity against benchmark maturity.
+We built a score progression layer with 70 source-verified score observations. Each observation links to the exact model card or paper that reported it, down to the file and line. MMLU is one standard test of broad knowledge, and now you can watch GPT-4's MMLU score move across releases.
 
-**Score progression layer.** A new data layer with 70 source-verified benchmark score observations. Each observation links to the specific model card or paper that reported the score, with file and line evidence.
+The dashboard now draws score saturation and adoption on one shared time axis. You can see when a benchmark's scores stopped improving next to when labs stopped using it.
 
-**Saturation and adoption on one time axis.** The dashboard now draws both score saturation and adoption on a shared time axis, making it possible to see when a benchmark's scores plateaued relative to when labs stopped adopting it.
+We redesigned the leaderboard, tracked as FINDING-001, into a research workbench instead of a plain ranked list. Each benchmark entry now shows score history, adoption path, and the source behind every claim. A ranked list serves a casual reader. A workbench serves a researcher who needs to trace a claim back to its source.
 
-**Research workbench redesign.** The leaderboard was redesigned (FINDING-001) to function as a research workbench rather than a simple ranked list. Each benchmark entry now shows score history, adoption trajectory, and source evidence.
+We now verify each cited score against the benchmark it claims to report. That catches cases where a score got pinned to the wrong benchmark.
 
-**Score verification.** Each cited score card is verified against the actual benchmark it claims to report. This catches mismatches where a score is attributed to the wrong benchmark.
+The reading gap is the time between a benchmark's last mention and today. We now measure it against each benchmark's own last mention, not one global clock.
 
-**Reading gap fixes.** The reading gap (the time between a benchmark's latest mention and the current date) is now measured against each benchmark's own latest mention, not a global clock.
+Pipeline fixes landed too. Custom registry pairing with default scores works now. The default registry is found through an equivalent path. Non-finite score values get rejected.
 
-**Pipeline fixes.** Custom registry pairing with default scores was fixed. The default registry is now recognized through an equivalent path. Non-finite score values are rejected.
+We backfilled the August 2 snapshot after a collection gap. We also documented the second discovery window in the CI workflow.
 
-**Aug 2 snapshot backfill.** The August 2 snapshot was backfilled after a collection gap.
+Why this matters.
 
-**Discovery window documentation.** The second discovery window in the CI workflow was documented.
+This was the day the radar moved from a collection tool to an analysis tool. The score layer lets you ask how GPT-4's MMLU scores changed over time. The frontier lets you ask which benchmarks labs are converging on. Both questions help you pick which benchmarks to run on your own models.
 
-## Why it matters
+The workbench redesign reflects who the tool is for now. A researcher needs to follow a claim back to the paper, not just see a number.
 
-This was the day the radar crossed from "collection tool" to "analysis instrument." The score progression layer made it possible to ask: "How have GPT-4's MMLU scores changed across releases?" The adoption frontier made it possible to ask: "Which benchmarks are labs converging on?" These are questions that matter for anyone deciding which benchmarks to run on their own models.
+Issues addressed:
 
-The research workbench redesign reflected a shift in who the tool was for. A ranked list serves a casual reader. A workbench serves a researcher who needs to trace claims back to sources.
-
-## Issues addressed
-
-- \#106: document discovery slot
-- \#108: backfill Aug 2 snapshot
-- \#113: document discovery window
-- \#114: saturation visualization
-- \#115: Aug 2 snapshot backfill
-- Score progression with 70 source-verified observations
-- Benchmark adoption frontier
-- Research workbench redesign
+- #106: document discovery slot
+- #108: backfill the August 2 snapshot
+- #113: document the second discovery window
+- #114: saturation visualization
+- #115: backfill August 2 snapshot
+- score progression with 70 source-verified observations
+- benchmark adoption frontier
+- research workbench redesign
 
 Day ten: daily briefing, GPT radar insight, and launch preparation.

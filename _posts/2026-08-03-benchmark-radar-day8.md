@@ -9,26 +9,24 @@ tags:
   - Pipeline
 ---
 
-A quiet day after the registry explosion. Day eight stabilized the pipeline with two precise fixes.
+A quiet day after the registry explosion. Hi, Koutian here. Day eight settled the pipeline with two precise fixes.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+The pipeline is the automated job that collects data every day. Sometimes it runs twice in one day. Now the second run appends to the existing record instead of wiping it. The morning collection stays intact instead of being thrown away.
 
-**Second pass appended, not replaced.** When the radar runs twice in a day, the second pass now appends to the existing record instead of replacing it. This preserves the full day's collection rather than losing the morning run.
+We also scoped the schedule latency warning. It used to fire on every small delay. Now it only fires when the queue is genuinely stuck. That keeps the CI logs, which are the automated run reports, free of noise.
 
-**Schedule latency warning scoped.** The warning about schedule latency now only fires when the queue is actually pathological, not on every slight delay. This reduces noise in the CI logs.
+Why this matters.
 
-## Why it matters
+After day seven's big changes, the pipeline had to prove it still ran clean. These two bugs only show up when the daily schedule runs more than once, so they slipped through until now.
 
-After the massive day seven changes (registry expansion, taxonomy stamps, version bump), the pipeline needed to prove it still ran cleanly. These two fixes addressed failure modes that only appear when the daily schedule actually runs multiple times per day.
+The append fix protects your data. If the morning run grabbed 150 records and the evening run grabbed 120, replacing would lose 30. Appending keeps all 270.
 
-The "append, don't replace" fix was particularly important for data integrity. If the morning run collected 150 records and the evening run collected 120, replacing would lose 30 records. Appending keeps everything.
+Issues addressed:
 
-## Issues addressed
-
-- \#109: radar minimum fixes
-- Second pass append behavior
-- Schedule latency warning scoping
+- #109: radar minimum fixes
+- second pass now appends instead of replacing
+- schedule latency warning only fires on real stalls
 
 Day nine: benchmark adoption frontier and score visualization.

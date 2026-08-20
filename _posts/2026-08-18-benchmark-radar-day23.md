@@ -11,54 +11,54 @@ tags:
   - Normalization
 ---
 
-The radar absorbed external catalogs. Day twenty-three built the external catalog system and added benchmark search to the leaderboard.
+Day twenty-three of Benchmark Radar. We started pulling in other people's benchmark lists, and we made the leaderboard searchable.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+A leaderboard is a public ranking of who scored best. A "shard" is just a small data file. "Normalizing" means converting data into one common shape. Today the radar learned to read catalogs built by other projects and turn them into its own format.
 
-**External benchmark catalog.** A new system normalizes external benchmark catalogs (llm-stats, OpenCompass) into the radar's internal format. Each source is crawled, normalized into per-benchmark shards, and validated against an identity layer.
+We built an external benchmark catalog. It reads catalogs from llm-stats and OpenCompass and converts them into the radar's internal format. Each source is crawled, split into per-benchmark files, and checked against an identity layer. You now get benchmarks we did not have to crawl ourselves.
 
-**Identity layer.** A hand-checked seed of benchmark identities (`identity.yml`) anchors the normalization. Candidates are generated automatically, but the authoritative identities are human-verified. This prevents incorrect merges while allowing automated expansion.
+The identity layer is a hand-checked list that says which names mean the same benchmark. We seed it by hand and let the system suggest the rest. The authoritative names are verified by a human. This stops the system from wrongly merging two different benchmarks, or splitting one in two. Two different benchmarks will not get fused by mistake.
 
-**Per-benchmark shards.** The `normalize-external` command emits per-benchmark shard files. Each shard contains the benchmark's metadata, scores, and source references in a standardized format.
+The `normalize-external` command now writes one file per benchmark. Each file holds that benchmark's metadata, scores, and source links in one standard shape. Each benchmark's data lives in one predictable place.
 
-**Leaderboard benchmark search.** The leaderboard navigator now includes benchmark search (M1 starting point). Users can search for specific benchmarks by name, capability level, or vendor.
+The leaderboard navigator now has benchmark search. You can look up a benchmark by name, capability level, or vendor. This is the first step (we call it M1) toward browsing at scale. You can find a benchmark in seconds instead of scrolling forever.
 
-**Search index.** The search index is emitted into `site/data` for client-side search. This enables fast, offline-capable benchmark lookup.
+The search index is written into `site/data` so the browser can search without a server. That makes lookups fast and they work offline. Lookup works even with no internet.
 
-**OpenCompass round 2 integration.** The OpenCompass round 2 catalog was merged into the external catalog with full identity resolution.
+We merged the OpenCompass round 2 catalog into the external catalog with full identity resolution. More benchmarks, fully identified.
 
-**Collapsed issue sections.** The issue #240 sections default to collapsed but visible, reducing visual clutter while keeping content accessible.
+The sections in issue #240 now start collapsed but still visible. That cuts clutter while keeping the content one click away. You see less noise, same info.
 
-**Pages deploy for external catalog.** The external catalog is built and deployed as part of the GitHub Pages workflow.
+The external catalog is now built and deployed as part of the GitHub Pages workflow. The catalog now shows up on the live site.
 
-**Invariant pinning.** Shard and identity invariants are pinned at 100%, ensuring the normalization pipeline maintains perfect consistency.
+We pinned the shard and identity rules at 100% consistency. The pipeline must stay perfectly consistent or the data is meaningless. Attention to this is why the numbers hold up.
 
-**Navigator audit correction.** The navigator claim was corrected and office hours findings were recorded.
+We corrected the navigator's earlier claim and recorded what we learned in office hours. We fixed a wrong claim we had made before.
 
-**Ruff formatting applied.** All external catalog modules were formatted with ruff.
+All external catalog modules were formatted with ruff. Cleaner code, fewer style fights.
 
-## Why it matters
+Why this matters.
 
-The external catalog was the radar's biggest architectural expansion. Before this, the radar collected data from its own sources. After this, it can ingest and normalize data from external benchmark registries. This means the radar's coverage is no longer limited by what its own crawlers can reach; it can absorb the entire benchmark ecosystem by integrating existing catalogs.
+The external catalog is the biggest change to the radar's structure so far. Before, the radar only read its own sources. Now it can swallow whole catalogs built by others. So its coverage is no longer capped by what our own crawler can reach.
 
-The identity layer was the key technical decision. Automated normalization is powerful but dangerous: a wrong merge (two different benchmarks merged into one, or one benchmark split into two) corrupts the data permanently. The hand-checked seed ensures correctness at the foundation while the automated system handles scale.
+The identity layer was the key call. Automatic conversion is powerful but risky: one wrong merge corrupts the data for good. The hand-checked seed keeps the base correct while the machine handles the volume.
 
-The leaderboard search was the first step toward making the radar's data navigable at scale. With hundreds of benchmarks, scrolling is not enough. Search makes specific benchmarks findable in seconds.
+The leaderboard search is the first step to making hundreds of benchmarks browsable. Scrolling does not scale. Search finds a specific benchmark in seconds.
 
-## Issues addressed
+Issues addressed
 
-- \#240: external catalog sections
-- \#246: external catalog modules
-- \#247: navigator audit correction
-- External catalog system (llm-stats, OpenCompass)
-- Identity layer with hand-checked seed
-- Per-benchmark shard emission
-- Leaderboard benchmark search
-- Search index generation
-- Invariant pinning at 100%
+- #240: external catalog sections
+- #246: external catalog modules
+- #247: navigator audit correction
+- external catalog system (llm-stats, OpenCompass)
+- identity layer with hand-checked seed
+- per-benchmark file output
+- leaderboard benchmark search
+- search index generation
+- invariant pinning at 100%
 
 ---
 
-*This concludes the first 23 days of Benchmark Radar development. From a blank repository to a full-featured benchmark intelligence platform with Chinese i18n, AI-powered briefings, social media integration, and external catalog normalization, the project shipped something every day for three weeks straight.*
+That closes out the first 23 days of Benchmark Radar. We started from an empty repo and, every day for three weeks, shipped something: Chinese language support, AI-written briefings, social posts, and now external catalog normalization.

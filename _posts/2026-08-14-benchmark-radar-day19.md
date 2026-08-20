@@ -10,25 +10,23 @@ tags:
   - Visualization
 ---
 
-The radar expanded into geospatial and satellite AI. Day nineteen added domain-specific signals and vendor logos to the saturation chart.
+Hi, Koutian here. Day nineteen pushed the radar into maps and satellites.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+We expanded the `DATA_SIGNALS` config to watch for geospatial and satellite AI vendors. Geospatial AI is software that reads the Earth from space: land use, crop health, disaster damage, that kind of thing. The radar now tracks benchmarks and models from companies working on Earth observation, remote sensing, and geospatial intelligence.
 
-**Geospatial/satellite vendor signals.** The DATA_SIGNALS configuration was expanded to include geospatial and satellite AI vendors. This means the radar now watches for benchmarks and models from companies working on Earth observation, remote sensing, and geospatial intelligence.
+The frontier chart shows where benchmark scores stop improving, a plateau we call saturation. Those saturation points now display the vendor logos that produced them. When a score curve flattens out, you can see which companies drove it there.
 
-**Vendor logos on saturation points.** The score saturation points in the frontier chart now display vendor logos. When a benchmark's scores reach a saturation plateau, the chart shows which vendors contributed those scores.
+Why this matters to you.
 
-## Why it matters
+Geospatial and satellite AI is a fast-growing corner of the field. Models like Prithvi (from NASA and IBM), SatMAE, and Clay get tested on tasks like land use classification, change detection, and atmospheric modeling. Adding these signals means the radar is no longer stuck on language and general AI. It now covers a wider slice of AI evaluation.
 
-Geospatial and satellite AI represent a growing segment of the benchmark landscape. Models like Prithvi (NASA/IBM), SatMAE, and Clay are being evaluated on tasks like land use classification, change detection, and atmospheric modeling. Adding these signals meant the radar was no longer limited to NLP and general AI benchmarks; it was covering the full breadth of AI evaluation work.
+The vendor logos make the chart tell its own story. Before, you had to cross-check a legend to learn who pushed a benchmark forward. Now the logos say it on the chart itself.
 
-The vendor logos on saturation points made the frontier chart self-documenting. Previously, you needed to cross-reference a legend to understand who was driving a benchmark's score progression. Now the logos tell the story directly.
+Issues addressed:
 
-## Issues addressed
-
-- \#156: geospatial/satellite vendor signals in DATA_SIGNALS
+- #156: geospatial and satellite vendor signals in DATA_SIGNALS
 - Vendor logos on score saturation points
 
 Day twenty: Chinese i18n, insight blocks, and social checklist.

@@ -10,45 +10,43 @@ tags:
   - Community
 ---
 
-KW-Bench got a capability rubric. The community got launch posts. Day eleven was a dual-track day.
+KW-Bench got a capability rubric. The community got launch posts. Hi, Koutian here. Day eleven ran on two tracks at once.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+We built a KW-Bench capability rubric. KW-Bench is our own set of benchmarks. The rubric assigns a level, L0 through L5, to each benchmark based on what it measures. The assignment is content-hash deterministic, meaning the same input always yields the same level, so anyone can check it.
 
-**KW-Bench L0-L5 capability rubric.** A deterministic rubric that assigns capability levels (L0 through L5) to benchmarks based on what they measure. The assignment is content-hash deterministic: the same input always produces the same level.
+We published the capability layer in shadow mode. It runs next to the old classification but does not override it yet. That lets us test the rubric on real data before we trust it as the default.
 
-**KW-Bench shadow mode.** The capability layer was published in shadow mode, meaning it runs alongside the existing classification but does not yet override it. This lets the team validate the rubric against real data before making it authoritative.
+The shadow store tracks KW-Bench state across runs. We hardened it against corruption and stale state, and fixed seven regressions left over from the last round of pattern fixes.
 
-**Shadow store recovery.** The shadow store (which tracks KW-Bench state across runs) was hardened against corruption and stale state. Seven regressions from the previous round of pattern fixes were corrected.
+We derived and normalized benchmark tracks, then deduplicated the normalized names so the same track is not listed twice.
 
-**Canonical benchmark tracks.** Benchmark tracks were derived and normalized, with deduplication applied to normalized track names.
+Classifications are now cached by content hash. Re-running the rubric on unchanged data skips the reprocessing.
 
-**Content hash caching.** Classifications are cached by content hash, so re-running the rubric on unchanged data does not reprocess everything.
+Overlapping trend categories used to collapse into each other in the Venn diagram, which shows how groups overlap. Now they render independently.
 
-**Venn diagram overlap fix.** Overlapping trend categories now render independently instead of collapsing into each other.
+We prepared copy-ready posts for the community launch channels and documented the Chinese launch channels.
 
-**Community launch posts.** Copy-ready posts were prepared for community launch channels. The Chinese launch channels were documented.
+We corrected the README's description of what the radar watches, so it matches what the tool actually does.
 
-**Radar source description corrected.** The README's description of what the radar watches was corrected for accuracy.
+Why this matters.
 
-## Why it matters
+The capability rubric answers a question the community kept asking: which benchmarks are actually hard? L0 benchmarks are trivially solvable. L5 benchmarks are genuine open problems. Because the assignment is deterministic, you can reproduce it yourself and confirm the labels.
 
-The KW-Bench capability rubric was an attempt to answer a question the community kept asking: "Which benchmarks are actually hard?" L0 benchmarks are trivially solvable; L5 benchmarks represent genuine open problems. The deterministic assignment means the rubric is reproducible: anyone can verify the classification.
+Shadow mode was a deliberate choice. Shipping a new classification without testing it would be reckless. Shadow mode lets us compare the rubric's output against known-good labels before it becomes the default.
 
-Shadow mode was a deliberate choice. Publishing a new classification system without validation is reckless. Shadow mode lets the team compare the rubric's output against known-good classifications before making it the default.
+The launch posts were our first message to the outside world. The radar had been building in private. This was the day it went public.
 
-The community launch posts were the first external-facing communication. The radar had been building in private; this was the moment it went public.
+Issues addressed:
 
-## Issues addressed
-
-- \#144: Chinese launch channels
-- \#148: community launch copy
-- \#151: Venn relation fix
-- \#154: KW-Bench MVP merge
+- #144: Chinese launch channels
+- #148: community launch copy
+- #151: fix the Venn overlap rendering
+- #154: merge the KW-Bench MVP
 - KW-Bench L0-L5 capability rubric
-- Shadow store recovery and hardening
-- Canonical benchmark track derivation
-- Content hash caching
+- shadow store recovery and hardening
+- canonical benchmark track derivation
+- content hash caching
 
 Day twelve: daily RSS feed.

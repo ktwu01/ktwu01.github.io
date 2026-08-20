@@ -14,36 +14,27 @@ The radar now watches Hacker News. Day six added community attention signals and
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. Today the radar started listening to what practitioners talk about, not just what researchers publish.
 
-**Hacker News attention collection.** The radar now pulls benchmark-related discussions from Hacker News. This adds a community signal: when a benchmark gets discussed on HN, it means practitioners are paying attention, not just researchers.
+The radar now pulls benchmark discussions from Hacker News (HN, a big tech news site). When a benchmark gets discussed there, it means working engineers are paying attention, not just academics. That is our first community-sourced signal.
 
-**Hacker News observations kept stable and bounded.** The HN collector produces a bounded set of observations per run. This prevents a single viral thread from overwhelming the daily snapshot.
+The HN collector keeps its output bounded. One viral thread cannot flood the daily snapshot. We also made the arXiv RSS feed tougher: entries with broken metadata are skipped instead of crashing the pipeline. On weekends and holidays, arXiv often returns nothing, so the radar now finishes cleanly on an empty day instead of failing.
 
-**arXiv RSS document filtering.** Incompatible arXiv RSS documents are now rejected instead of crashing the pipeline. Some arXiv RSS entries have malformed metadata; the system skips them gracefully.
+PR #75 fixed reliability in the scheduled workflow, including fallback handling and error recovery. We added the landscape report figures to the docs and bumped the GitHub App token action from 2.2.2 to 3.2.0.
 
-**Empty arXiv day handling.** When arXiv returns no results for a day (which happens on weekends and holidays), the radar completes successfully instead of failing.
+Why this matters.
 
-**Scheduled radar reliability.** PR #75 addressed reliability issues in the scheduled workflow, including fallback handling and error recovery.
+Hacker News is where people discuss what they actually use. Adding HN let the radar catch a benchmark gaining real-world traction, not just citations. It is the first time the system listens to the community.
 
-**Landscape report figures.** Generated figures from the landscape report were added to the documentation.
+The arXiv hardening matters just as much. A daily run that dies on a quiet Sunday is a run you stop trusting. Surviving empty days and bad RSS means the schedule can run on its own.
 
-**GitHub App token bump.** The `actions/create-github-app-token` was updated from 2.2.2 to 3.2.0.
-
-## Why it matters
-
-Hacker News is where AI practitioners discuss what they actually use, not what they publish. Adding HN signals meant the radar could detect when a benchmark was gaining practical traction, not just academic citations. This was the first community-sourced signal in the system.
-
-The arXiv hardening was equally important. A daily run that fails on a quiet Sunday is a run you stop trusting. Making the system survive empty days and malformed RSS entries meant the schedule could run unattended.
-
-## Issues addressed
-
-- \#70: GitHub App token bump
-- \#71: landscape report figures
-- \#73: hide duplicate report tables
-- \#75: scheduled radar reliability
-- \#76: Hacker News collector integration
+Issues addressed:
+- #70: GitHub App token bump
+- #71: landscape report figures
+- #73: hide duplicate report tables
+- #75: scheduled radar reliability
+- #76: Hacker News collector integration
 - arXiv RSS document filtering
-- Empty arXiv day handling
+- empty arXiv day handling
 
 Day seven: model card adoption leaderboard and registry expansion.

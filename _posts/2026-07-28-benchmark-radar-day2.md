@@ -9,36 +9,29 @@ tags:
   - Deduplication
 ---
 
-The radar gained memory. Day two built cumulative trend maps and solved the artifact alias problem.
+The radar gained memory. Day two added trend maps that span time, plus a fix for benchmarks showing up under many names.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. Today the radar stopped being a daily snapshot and started keeping a longer story. Two changes did that.
 
-**Cumulative trend map.** The radar now shows how benchmark counts change over time, not just today's snapshot. Each category (benchmarks, datasets, leaderboards, research) gets its own trend line.
+The trend map now shows how benchmark counts move over time. Before, you only saw today. Now each kind of item (benchmarks, datasets, leaderboards, and research papers) gets its own line on the chart. You can watch the field grow instead of guessing.
 
-**Artifact alias resolution.** The same benchmark can appear under different names across sources. The system now resolves aliases across snapshots so one artifact counts once in cumulative trends, regardless of how many titles it has been listed under.
+The alias resolver fixes a quiet problem. The same benchmark often appears under different names across sources. The system now links those names together, so one artifact counts once. That keeps the totals honest.
 
-**Explorer merged into main radar.** The separate Explorer view was folded into the primary radar interface. Two views were competing for attention; one unified view won.
+We also folded the Explorer view into the main radar. There were two screens doing the same job, so we made them one. The priority scoring got retuned too, so a genuinely new benchmark is not buried under re-announced updates. The evidence pipeline now pulls from more sources, and we cleaned up some clutter on the page (the masthead, the Trends section, and the Sources panel). The Sources panel is no longer pinned, and the repo badges are now clickable links instead of plain text.
 
-**Priority scoring recalibrated.** The scoring system was adjusted to better distinguish genuinely new benchmarks from re-announced updates.
+Why this matters.
 
-**Evidence source coverage expanded.** More sources were added to the evidence collection pipeline.
+A benchmark radar lives or dies on deduplication. Without it, one benchmark shows up ten times under ten names and every count is wrong. Our resolver matches on exact identifiers, not fuzzy title guesses, so it stays precise.
 
-**UI chrome cleanup.** Redundant UI elements were removed from the masthead, Trends section, and Sources panel. The Sources panel was unpinned. Repo badges were changed from rosters to actionable links.
+The trend map was the first proof this project is not just a daily scanner. It is becoming a record of how the AI benchmark world changes month to month.
 
-## Why it matters
-
-Artifact deduplication is the core technical challenge of any benchmark radar. Without it, the same benchmark appears ten times under ten slightly different names, and every count is inflated. The alias resolver uses exact identifiers, not fuzzy title matching, which keeps precision high.
-
-The cumulative trend map was the first sign that this project was not just a daily scanner. It was becoming a longitudinal instrument, tracking the AI benchmark ecosystem across time.
-
-## Issues addressed
-
-- \#29: radar UX and coverage fixes
-- \#33: resolve radar issues
-- \#46: resolve artifact aliases across snapshots
-- Duplicate detection via exact identifiers
-- Priority scoring recalibration
+Issues addressed:
+- #29: radar UX and coverage fixes
+- #33: resolve radar issues
+- #46: resolve artifact aliases across snapshots
+- duplicate detection via exact identifiers
+- priority scoring recalibration
 
 Day three: scan date filter fixes and linkable rubric dialogs.

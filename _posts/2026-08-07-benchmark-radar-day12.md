@@ -10,24 +10,18 @@ tags:
   - Automation
 ---
 
-The radar now publishes an RSS feed. Day twelve was a single-feature day with an outsized impact.
+The radar now has an RSS feed. Day twelve was a small day, one feature, but it changes how you follow the project.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. RSS is a simple way to subscribe to updates, like a bookmark that fills itself in. You paste the feed link into any RSS reader and new items show up without visiting the site. No email signup, no API key, no setup.
 
-**Daily RSS feed.** A new CI step generates an RSS feed from the snapshot history. Each day's findings appear as an RSS entry with links to the cited evidence. The feed is published as a GitHub Pages artifact.
+We added a step to the automatic build pipeline (a PR is a proposed change to the code, and CI is the pipeline that runs our build). It scans the saved daily snapshots and turns them into one RSS entry per day. Each entry links straight to the evidence behind the finding. The feed is hosted on GitHub Pages, the free web host GitHub gives each project.
 
-## Why it matters
+Why this matters.
 
-RSS is the lowest-friction way to subscribe to a data stream. No email setup, no webhook configuration, no API key. You point your RSS reader at the feed URL and you get daily updates.
+Benchmarks do not arrive on a timetable. Some weeks are quiet, then five drop at once. RSS fits that mess: you see what happened and when, and the radar never has to decide how to "notify" you.
 
-For a benchmark radar, RSS is particularly natural. Benchmarks are updated on irregular schedules. Some weeks are quiet; others have five new releases. RSS handles this gracefully: you see what happened, when it happened, without the radar needing to decide how to "notify" you.
-
-The feed also made the radar's output machine-readable. Other tools can subscribe to the feed and trigger their own workflows when new benchmarks appear.
-
-## Issues addressed
-
-- \#157: publish daily RSS feed from snapshot history
+The feed also makes our output readable by other programs. Another tool can watch the feed and run its own work the moment a new benchmark appears. That is how the radar starts talking to the rest of the ecosystem.
 
 Day thirteen: favicon, URL fixes, and daily Q&A on the dashboard.

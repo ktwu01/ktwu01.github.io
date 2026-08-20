@@ -10,51 +10,49 @@ tags:
   - Version Release
 ---
 
-The biggest single day. The Model Card Adoption Rank leaderboard launched, the registry expanded to the 2026 frontier, and the version bumped to 0.3.0.
+Day seven was the biggest single day. Hi, Koutian here. We launched a new leaderboard, grew the registry to the 2026 frontier, and bumped the version to 0.3.0.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+A leaderboard is just a public ranking of who scored best. Our new Model Card Adoption Rank ranks benchmarks by how many model cards point at them. A model card is a short spec sheet that says what an AI model was tested on. If GPT-4, Claude, and Gemini all cite a benchmark in their cards, that benchmark ranks higher than one cited by a single paper. We compute the rank from a registry, which is a catalog of model card to benchmark links that we curate by hand.
 
-**Model Card Adoption Rank leaderboard.** A new leaderboard view that ranks benchmarks by how many model cards reference them. A benchmark cited by GPT-4, Claude, and Gemini model cards scores higher than one cited by a single paper. The rank is computed from a curated registry of model card to benchmark mappings.
+The registry also grew up. It used to hold only summary counts. Now it holds full records, stretched out to the 2026 frontier, the newest crop of models. Each model card now expands to the exact benchmarks it reports, and those benchmarks link back to the cards that cited them.
 
-**Registry expansion.** The registry was expanded from summary counts to full records, then to the 2026 frontier. Each model card is now expanded to the specific benchmarks it reports, with reverse links from benchmarks back to citing cards.
+We merged the Frontier-Bench series into Terminal-Bench in #96. The count stayed at 13 because this was a cleanup of overlapping benchmarks, not a new addition.
 
-**Frontier-Bench merged into Terminal-Bench.** The Frontier-Bench series was merged into the Terminal-Bench series (#96). The count stayed at 13 because the merge was a consolidation of overlapping benchmarks, not an addition.
+The registry is now a two-way graph. Model cards point to the benchmarks they cite, and benchmarks point back to every card that cited them. You can walk either direction.
 
-**Bidirectional registry links.** The registry is now a bidirectional graph: model cards link to the benchmarks they cite, and benchmarks link back to every card that cites them.
+We started trusting academic sources more than random web scrapes. A paper from a real venue counts for more than a blog post.
 
-**Scholarly source reliability hardening.** Sources from academic venues are now treated with higher reliability than random web scrapes.
+Three validation gaps closed. We now reject repeated documents, scalar aliases, and impossible mentions. Date checking got stricter too.
 
-**Validation hardening.** Three remaining registry validation gaps were closed. Rejected: repeated documents, scalar aliases, impossible mentions. Date validation was hardened.
+We bumped the version to 0.3.0 to signal how much the registry grew.
 
-**Version bump to 0.3.0.** The version was bumped to reflect the scope of the registry expansion.
+Two benchmark families, Fable 5 and Mythos 5, came out of a comparison table and joined the registry.
 
-**Fable 5 / Mythos 5 benchmarks.** These benchmarks were extracted from a comparison table and added to the registry.
+We stamped the existing corpus with its taxonomy, which is the tagging scheme used to sort the benchmarks. Category counts now bind to the taxonomy that produced them. If we reclassify later, that becomes a visible event you can see.
 
-**Taxonomy stamp.** The existing corpus was stamped with the taxonomy that classified it, and category counts were bound to their producing taxonomy. Reclassification became a visible event.
+The adoption rank is now citable, and we added an on-ramp so new contributors can join in.
 
-**Adoption rank citable.** The adoption rank was made citable, and a contributor on-ramp was added.
+Why this matters.
 
-## Why it matters
+The Model Card Adoption Rank was our first move past just listing benchmarks. It answers a sharper question: which benchmarks do the top labs actually use when they ship models? That tells you where to spend your own testing time, far better than a bare list of what exists.
 
-The Model Card Adoption Rank was the project's first competitive intelligence feature. Instead of just listing benchmarks, the radar now answered: which benchmarks do the top labs actually use when they release models? This is a fundamentally different question from "which benchmarks exist," and the answer is far more useful for anyone deciding where to invest evaluation effort.
+Going from summary counts to full records was a data quality promise. Partial data gives you partial answers. Full records let anyone check our work.
 
-The registry expansion from summary counts to full records was a data quality commitment. Partial data produces partial conclusions; full records produce auditable ones.
+The taxonomy stamp fixes a quiet trap. If you reclassify your corpus, you must record which taxonomy version sorted each record. Without that, comparing this month to last month means nothing.
 
-The taxonomy stamp addressed a subtle but critical issue: if you reclassify your corpus, you need to record which taxonomy version classified each record. Otherwise, historical comparisons are meaningless.
+Issues addressed:
 
-## Issues addressed
-
-- \#85: model card adoption leaderboard
-- \#87: scholarly source reliability
-- \#89: expand model card registry
-- \#92: leaderboard Fable/Mythos benchmarks
-- \#93: version bump to 0.3.0
-- \#96: merge Frontier-Bench into Terminal-Bench
-- \#100: frontier bench citation merge
-- \#101: citable adoption rank
-- \#102: bind category counts to taxonomy
-- \#103: stamp existing corpus with taxonomy
+- #85: model card adoption leaderboard
+- #87: trust academic sources more than web scrapes
+- #89: grow the model card registry
+- #92: add Fable and Mythos benchmarks to the leaderboard
+- #93: bump version to 0.3.0
+- #96: merge Frontier-Bench into Terminal-Bench
+- #100: merge frontier bench citations
+- #101: make the adoption rank citable
+- #102: bind category counts to the taxonomy
+- #103: stamp the existing corpus with the taxonomy
 
 Day eight: stabilization and radar minimum fixes.

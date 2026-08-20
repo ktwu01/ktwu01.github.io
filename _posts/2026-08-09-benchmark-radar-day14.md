@@ -10,45 +10,41 @@ tags:
   - Production
 ---
 
-The daily pipeline went from fragile to reliable. Day fourteen expanded feeds, hardened the briefing, and enabled Q&A in production.
+The daily pipeline went from fragile to reliable. Day fourteen added more feeds, hardened the briefing, and turned on Q&A in production.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. The radar collects from a bunch of sources every day. We widened that net and then made sure nothing falls through the cracks.
 
-**Expanded first-party benchmark feed coverage.** More benchmark-specific RSS feeds were added to the collection pipeline. Curated feeds for AI news and updates were included.
+We added more first-party benchmark feeds, the ones the benchmark teams publish themselves, plus a few curated feeds for AI news. That means more benchmarks land in the daily scan without us hunting for them.
 
-**Sponsor-bait suppression.** GitHub resource-listing spam (repos that exist only to aggregate links for SEO) is now filtered out. These repos inflate counts without adding signal.
+Some GitHub repos exist only to pile up links for search ranking. They inflate our counts without adding anything real. We now filter those out, so the numbers you see are honest.
 
-**OpenAI briefing retry budget.** The briefing API call now has enough retry budget to outlast TPM (tokens per minute) limits. Previously, a single rate limit error could kill the entire briefing.
+The daily briefing uses OpenAI's API to write itself. That API limits how many words you can send per minute (we call that the TPM, or tokens per minute). Before, one rate-limit error could kill the whole briefing. Now it retries enough times to wait out the limit.
 
-**Truncated output prevention.** The OpenAI briefing output is now checked for truncation. If the response was cut off, it is rejected and retried instead of being published as-is.
+We also check whether the briefing got cut off mid-sentence. If it did, we throw it away and ask again instead of posting a broken summary.
 
-**Single daily run at 9AM SGT.** The radar was switched from multiple daily runs to a single run at 9AM Singapore time. This simplifies the schedule and reduces API costs while maintaining reliability.
+We changed the schedule to one run a day at 9AM Singapore time. Running it several times a day made people wonder which run "counted." One fixed time is easy to audit.
 
-**Daily Q&A enabled in production.** The daily question-and-answer feature was enabled and required in production. Each day, the radar generates questions about the benchmark landscape and answers them from the collected data.
+The daily Q&A is now live in production, not just in testing. Every day the radar writes its own questions about the benchmark world and answers them from the data it collected.
 
-**Collection method labeling.** Source health rows are now labeled by their actual collection method (what the run did), not the generic "Radar ingest" label. This makes it possible to diagnose which part of the pipeline produced each row.
+We started labeling each source by how we actually collected it, instead of a generic "Radar ingest" tag. That way, when a row looks wrong, we can tell which part of the pipeline made it. Old snapshots got a backfill with the right label. And we told git to ignore the .worktrees/ folder, which holds separate working copies of the code.
 
-**Backfill collection method.** Snapshots recorded before collection method labeling existed were backfilled with the correct method.
+Why this matters.
 
-**Worktrees gitignore.** The `.worktrees/` directory was added to `.gitignore`.
+The single 9AM run was about sanity. Multiple runs left everyone guessing which one was the real daily record. Now there is one, and you can trust it.
 
-## Why it matters
+Turning on Q&A in production was a step toward the radar watching on its own. It notices things and reports them, instead of waiting for a person to ask. That is the whole point of a radar.
 
-The switch to a single daily run at 9AM SGT was an operational decision. Multiple runs per day were creating confusion about which run was "the" daily run. A single predictable run at a fixed time made the schedule auditable.
+Issues addressed
 
-The Q&A feature in production was a milestone. The radar was no longer just collecting data; it was generating its own questions about the data and answering them. This is a step toward autonomous monitoring: the system notices things and reports them, instead of waiting for a human to ask.
-
-## Issues addressed
-
-- \#169: expand first-party benchmark feed coverage
-- \#170: suppress sponsor-bait spam
-- \#171: briefing retry budget for TPM limits
-- \#172: prevent truncated briefing output
-- \#175: enable daily Q&A in production
-- \#176: single daily run at 9AM SGT
-- \#177: label radar ingest sources by collection method
-- Collection method backfill
+- #169: add more first-party benchmark feeds
+- #170: filter out sponsor-bait spam repos
+- #171: let the briefing retry past rate limits
+- #172: stop posting a cut-off briefing
+- #175: turn on daily Q&A in production
+- #176: one run a day at 9AM Singapore time
+- #177: label sources by how they were collected
+- collection method backfill for old snapshots
 
 Day fifteen: social media integration and daily post generation.

@@ -9,41 +9,28 @@ tags:
   - Launch
 ---
 
-Day one of Benchmark Radar. The project went from zero to a running cumulative dashboard in a single day.
+Day one of Benchmark Radar. We went from nothing to a working daily dashboard in a single day.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-The first day covered every layer of the system: CI/CD pipeline, data persistence, the Today dashboard MVP, attention signal processing, and arXiv RSS fallback. Twenty commits landed in a single push.
+Hi, Koutian here. On day one, Benchmark Radar went from a blank page to a dashboard that quietly collects data every day. In one go, twenty chunks of work (we call each one a "commit") landed. They touched everything: the automatic build pipeline, how we store data, the daily view, and a backup plan for when the main source fails.
 
-## What shipped
+Here is what we built.
 
-**Infrastructure.** The GitHub Actions workflow was established with actions/checkout, upload/download-artifact, and setup-python bumped to their latest major versions. pytest was widened from `<9` to `<10` to keep pace with upstream.
+We set up the automatic pipeline. It now uses the latest versions of its tools, so it stays in step with the rest of the ecosystem.
 
-**Cumulative dashboard MVP.** The core idea: persist daily snapshots outside the protected `main` branch so they accumulate over time. Each snapshot captures the full scored corpus, not just a summary.
+The dashboard now saves each day's full set of data instead of throwing it away at the end of the day. That is the heart of the project: a growing record you can look back on.
 
-**Attention signal fixes.** Duplicate signals were removed and detail rendering was corrected so the dashboard actually reflected what the pipeline collected.
+We fixed some bugs where the dashboard showed the wrong numbers. Now what you see matches what the pipeline actually collected.
 
-**arXiv RSS fallback.** When the primary arXiv search endpoint fails, the system falls back to the RSS feed. This matters because arXiv search is rate-limited and unreliable at scale.
+When the main arXiv search is down, the system now falls back to the RSS feed. arXiv search gets rate-limited, so this backup keeps the daily run alive instead of failing.
 
-**Today dashboard.** The overview was compacted, cleaned up, and simplified. The goal was a page you could scan in thirty seconds.
+The main page is now short enough to read in thirty seconds.
 
-## Why it matters
+Why this matters.
 
-The hardest part of building a radar is not collecting data; it is making yesterday's data still mean something tomorrow. Persistence was the first commitment: every daily scan produces a record that future runs can compare against. Without that, the radar would forget everything overnight.
+The hard part of a radar is not collecting data. It is making yesterday's data still useful tomorrow. So our first promise was to save every daily scan. Without that, the radar would forget everything overnight, and the whole idea falls apart.
 
-The arXiv fallback was also a foundational decision. Primary endpoints fail. RSS feeds are lower-fidelity but more resilient. Having both from day one meant the daily run would not break when arXiv rate-limited the crawler.
+The backup feed was also an important early choice. The main source fails sometimes. RSS is lower quality but tougher. Having both from day one means the daily run does not break when arXiv blocks the crawler.
 
-## Issues addressed
-
-- \#4, \#5, \#1, \#2, \#3: dependency bumps
-- \#10: cumulative radar dashboard MVP
-- \#11: persist snapshots outside protected main
-- \#13: attention signal details and duplicates
-- \#14: compact Today overview
-- \#16: clean up Today dashboard UI
-- \#17: ignore local development artifacts
-- \#18: simplify Today dashboard
-- \#21: main snapshot source of truth
-- \#22: fall back to arXiv RSS
-
-Tomorrow: cumulative trend maps, UI cleanup, and evidence source expansion.
+Next up: trend maps over time, cleanup, and more sources.

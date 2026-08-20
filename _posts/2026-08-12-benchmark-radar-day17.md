@@ -11,48 +11,40 @@ tags:
   - Contacts
 ---
 
-The audit findings were addressed. Masthead got contact info and data export. Day seventeen was a hardening and polish day.
+Hi, Koutian here. Day seventeen was a cleanup day. We fixed what an internal audit found and made the site look finished.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+The masthead is the bar at the top of the site. It now shows how to reach us on WeChat and Discord. WeChat and Discord are two chat apps. This makes it easy for you to join the community and ask questions.
 
-**WeChat/Discord contact sheet in masthead.** The masthead now shows contact information for WeChat and Discord, making it easy for users to join the community.
+The masthead also has a one-click export button now. You can download all the radar's data in one click. A radar that only shows data on its own page keeps that data locked up. One that lets you export everything becomes a tool you can build on.
 
-**One-click data export dialog.** A new dialog in the masthead lets users export the radar's data in one click. This makes the radar's data portable and reusable.
+The frontier circles now show the real logos of each vendor at the points where scores stop climbing. That finishes the brand-icon work from the day before.
 
-**Real brand icons in frontier circles.** The adoption frontier circles now show actual vendor logos at score saturation points. This was the visual completion of the brand icon work from the previous day.
+We hardened several dashboard behaviors that the audit flagged. That covers edge cases in rendering and in how data is shown.
 
-**Dashboard audit fixes.** Several dashboard behaviors flagged by an internal audit were hardened, including edge cases in rendering and data display.
+When an HTTP request runs out of retries, the system now reports a `RequestError` instead of crashing with an assertion. An assertion failure kills the whole process. A `RequestError` can be caught, logged, and retried. This means a failed daily run now tells you what went wrong instead of dying silently.
 
-**HTTP retry exhaustion fix.** When HTTP requests exhaust their retry budget, the system now raises a `RequestError` instead of asserting. This prevents crashes and provides better error messages.
+Hacker News sends us numbers as cluster keys. We were sorting them as text, so 10 landed before 2. The fix sorts them as real numbers. The order is now correct.
 
-**Hacker News sort fix.** Numeric cluster keys from Hacker News were being sorted lexicographically instead of numerically. The fix ensures proper numeric ordering.
+We rescored the saved snapshots with the pipeline's word-start matcher. This corrected some scoring mistakes. We also aligned the composition-shift detail keys with the fields the code actually returns, which fixed a display bug.
 
-**Snapshot rescore.** Snapshots were rescored with the pipeline's word-start matcher to correct scoring inconsistencies.
+The Pages workflow is the job that publishes the site. It now rebuilds when scores or config files change, not only when the code changes. You see updates even when the change was just a number.
 
-**Stats alignment fix.** Composition-shift detail keys were aligned with the returned fields, fixing a data display issue.
+We documented the OpenAI briefing flags and how to set up a local token. We also added `graphify-out` and `.claude` to `.gitignore` so those dev folders stay out of the repo.
 
-**CI rebuild on score/config changes.** The Pages workflow now rebuilds when scores or config files change, not just when source code changes.
+Why this matters to you.
 
-**OpenAI briefing documentation.** The OpenAI briefing flags and local PAT setup were documented.
+The export button is the big one. If you can pull the data out, you can check our work or reuse it in your own project. The retry fix keeps the daily run alive, so the dashboard does not go blank after a small network hiccup.
 
-**Graphify-out and .claude gitignored.** Development artifacts were added to `.gitignore`.
+Issues addressed:
 
-## Why it matters
-
-The data export dialog was a commitment to data portability. A radar that only shows data on its own dashboard is a walled garden. A radar that lets you export everything is a tool others can build on.
-
-The HTTP retry exhaustion fix was a production reliability improvement. An assertion failure crashes the process; a `RequestError` can be caught, logged, and retried. This is the difference between "the daily run failed silently" and "the daily run reported what went wrong."
-
-## Issues addressed
-
-- \#178: real brand icons in frontier circles
-- \#190: frontier marker assertions
-- \#191: WeChat/Discord contact sheet
-- \#193: one-click data export dialog
-- \#194: masthead actions
-- \#196: audit hardening round
+- #178: real brand icons in the frontier circles
+- #190: frontier marker assertions
+- #191: WeChat and Discord contact info
+- #193: one-click data export dialog
+- #194: masthead actions
+- #196: audit hardening round
 - HTTP retry exhaustion fix
 - Hacker News sort fix
 - Snapshot rescore

@@ -13,29 +13,24 @@ A small day with two precise fixes that made the radar shareable.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-## What shipped
+Hi, Koutian here. Today was quiet, but the two fixes made the tool much easier to share with other people.
 
-**Scan date filter fix.** The scan date filter was reverting to the old date on selection. The fix ensures the filter stays on the newly selected date.
+The scan date filter used to snap back to the old date after you picked a new one. We fixed it so the filter stays where you put it.
 
-**Linkable rubric dialog.** The rubric dialog (which explains the scoring criteria) is now accessible via a URL hashtag. You can link directly to a specific rubric in a message or paper.
+The rubric dialog now opens from a URL. A rubric is the set of rules we use to score each benchmark. You can now send someone a link that lands straight on a specific rubric, which is handy in a chat or a paper. A new test guards that linking so it does not break later.
 
-**Rubric hash test.** A new test guards against regression in the rubric linking behavior.
+We also fixed the record expansion display, which was not rendering right, and the trend map, which now shows the full set of data instead of a slice.
 
-**Record expansion display fix.** The record expansion state was not rendering correctly; now it does.
+Why this matters.
 
-**Trend map corpus fix.** The trend map now represents the full corpus, not just a subset.
+Linkability sounds small, but it changes how you use a tool. When you can send a URL to one benchmark's rubric, the radar becomes something you cite, not just something you visit once.
 
-## Why it matters
+The filter fix is about trust. If you pick a date and it reverts, you stop trusting the controls. Tiny fixes like this are how trust is built.
 
-Linkability sounds trivial, but it changes how a tool gets used. When you can send someone a URL that lands on a specific benchmark's rubric, the radar becomes something you cite in a paper or share in a Slack channel, not just something you visit once.
-
-The scan date filter fix was a UX reliability issue: if a user selects a date and the filter reverts, they learn not to trust the controls. Small fixes compound into trust.
-
-## Issues addressed
-
-- \#48: scan date filter and rubric link
-- Rubric dialog linkable via URL hashtag
-- Record expansion state rendering
-- Trend map full corpus representation
+Issues addressed:
+- #48: scan date filter and rubric link
+- rubric dialog linkable via URL hashtag
+- record expansion state rendering
+- trend map full corpus representation
 
 Day four: history backfill, freshness banners, and the agentic taxonomy.
