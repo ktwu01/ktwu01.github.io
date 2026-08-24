@@ -31,6 +31,8 @@ author_profile: true
 
 ### Shenzhen X-Institute (深圳零一学院) Features
 
+- **[他们是大学里的"异类"，却在这里遇到不想围绩点转的"同路人"（中国科学报）](https://mp.weixin.qq.com/s/ui7QcFRw4b4yABMvanQR_g)** — *China Science Daily feature (高教聚焦, Mar. 19, 2024) on how X-Institute convenes "X-type" talent. Profiles Koutian Wu's path from a struggling first-year to leading a 3D-chip heat-dissipation research project and becoming the first student to pass X-Institute's Senior Undergraduate Researcher Program defense*
+
 - **[教育变革的技术奇点时刻到来了吗？](https://mp.weixin.qq.com/s/5PdjLR-f7dPwozvgEFWQsg)** — *As a USTC student and X-Institute scholar, Koutian Wu shares his experiences at the Shenzhen X-Institute*
 
 - **[寻找X-学子说：吴叩天：从零到一、创造无限](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)** — *Interview featuring Koutian Wu discussing his journey of innovation from zero to one*
@@ -81,4 +83,4 @@ author_profile: true
 
 ---
 
-*Last updated: June 2026*
+*Last updated: August 2026*
