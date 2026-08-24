@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV - Koutian Wu | AI4Geoscience PhD Student at UT Austin"
-excerpt: "Comprehensive CV of Koutian Wu, AI4Geoscience PhD student specializing in explainable AI for land surface modeling, with experience in Python, MATLAB, HPC, and Earth system science research."
+excerpt: "Comprehensive CV of Koutian Wu, PhD student working on AI agents for science: agent evaluation and benchmark design (ESM-bench), land surface modeling, and full-stack engineering."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -14,23 +14,49 @@ redirect_from:
 
 Highlights
 ======
+* Incoming Research Intern (AI for Science Data & Evaluation), Tencent Qingyun Talent Program
+* Open-source contributor to repositories totaling 100K+ stars (git/git, multica, ai-agent-book, AionUi, harbor); 10K+ GitHub contributions in the last year
 * Seeking internships in AI Agent Development/Test/Evaluation, ML/DL/DS, and Full-Stack Engineering
-* 2+ years work experience (US/International)
-* 4+ years research/programming experience
-* 300+ stars on GitHub
+* 2+ years work experience (US/International); 4+ years research/programming experience
+* Invited reviewer for *Planetary and Space Sciences* (Elsevier, Scopus Q2), with further review invitations from IEEE TNNLS, ACM Computing Surveys, ACM Transactions on Sensor Networks, the COLM workshop track, and ACM AgentSkills
 
 Education
 ======
 * **Ph.D. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: May 2029
   * TA for 1,000+ students (Rating: 4.5/5.0)
-  * Invited Reviewer for *Planetary and Space Sciences* (Elsevier, Scopus Q2)
+  * Advisors: Dr. Zong-Liang Yang
 
-* **B.S. in Geosciences (Honors Class)**, University of Science and Technology of China, 2020 - 2024
+* **B.S. with Honors in Geosciences (Honors Class)**, University of Science and Technology of China, 2020 - 2024
   * Nominated for the Highest Honor for USTC undergraduates (one of the two ESS School nominees)
   * Founded one of the largest student clubs, grew from 0 to 1,300+ members. [News]
 
 Work Experience
 ======
+* **Incoming Research Intern, AI for Science Data & Evaluation** (official offer received Aug 2026)
+  * Tencent Qingyun Talent Program (top-talent program), Tencent America
+  * Focus: data quality control, benchmark design, LLM-as-judge rubrics, and evaluation harnesses for AI agent systems
+
+* **Core Founding Team Member** (Jan 2026 - Present)
+  * Starting Point One (SP1), Remote
+  * Sourced 100+ talents for Kehan Dong (CEO of SP1, ex-YC China Partner); sent 1,000+ outreach emails supporting post-investment hiring for Mira (raised $6.6M from General Catalyst)
+
+* **Graduate Research Assistant** (Aug 2025 - Present)
+  * Jackson School of Geosciences, University of Texas at Austin
+  * AI for Noah-MP Land Surface Model: implementing rock and wood moisture into the Noah-MP land surface model
+
+* **Project Lead, High-Performance Computing Allocation** (Aug 2025 - Present)
+  * NSF NCAR, Remote
+  * Proposed and secured NSF NCAR allocation: 1k GPU + 22k CPU hours.
+  * Integrating machine learning parameter calibration for a SOTA physics-based land surface model (Noah-MP).
+  * Developing a multi-expert AI agent system for automated parameterization of physics-based climate models.
+
+* **Research Assistant, ML Model/Multi-agent Development** (Aug 2025 - Jan 2026)
+  * UT Austin, Austin, TX
+
+* **Lead Developer, ESM-bench** (Dec 2025 - Present)
+  * UT Austin
+  * Designed a 243-task benchmark and multi-model evaluation harness measuring where frontier models fail on real scientific code. [Preprint](https://zenodo.org/records/19802836)
+
 * **AI Intern, AI Agent Knowledge Base Evaluation** (Jul 2025 - Aug 2025)
   * 19Pine.AI (Singapore), Remote
   * Implemented a multi-dimensional evaluation system from scratch for PineAgent's RAG knowledge base.
@@ -49,142 +75,66 @@ Work Experience
   * Designed an architecture for a RAG-based knowledge base to customize student graduate program applications.
   * Identified critical bugs and exposed API keys, helping avoid significant potential losses.
 
-* **Research Assistant, ML Model/Multi-agent Development** (Aug 2025 - Jan 2026)
-  * UT Austin, Austin, TX
-
-* **Project Lead, High-Performance Computing Allocation** (Aug 2025 - Present)
-  * NSF NCAR, Remote
-  * Proposed and secured NSF NCAR allocation: 1k GPU + 22k CPU hours.
-  * Integrating machine learning parameter calibration for a SOTA physics-based land surface model (Noah-MP).
-  * Developing a multi-expert AI agent system for automated parameterization for physics-based climate models.
-
-Publications
-======
-* Wu, K., He, C., & Yang, Z.-L.* (in preparation). **Noah-Agent: A Multi-Expert AI Agent Framework for Automated Parameterization and Validation of Large-Scale Fortran Climate Models** [Preprint]
-* Wu, K., Yi, W.*, Xue, X.*, Reid, I., & Lu, M. (2024). **Diurnal and Seasonal Variations of Meteor Speed and Arrival Angle Observed by Mengcheng Meteor Radar**. *JGR: Space Physics*. [Paper] [Code] [Data]
-
-Skills
-======
-* Python, FastAPI, JavaScript, TypeScript, React, SQL, PyTorch, TensorFlow, LangChain, RAG
-* Docker, HPC, AWS/GCP, Redis, Git, HuggingFace
-
-Education
-======
-* **Ph.D. in Geological and Earth Sciences/Geosciences**, The University of Texas at Austin, Aug 2024 - May 2029
-  * Focus: Model Optimization of Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
-  * Activities: Model Optimization research
-  * Advisors: Dr. Zong-Liang Yang
-
-* **B.S. with Honors in Geological and Earth Sciences/Geosciences**, University of Science and Technology of China, Sep 2020 - Jul 2024
-  * Founding President, USTC Student Xingyun Poetry Club (Currently 1,197+ members) 2020-2022
-  * Second youngest student club president in USTC history (age 17 in Sep 2021)
-
-Work Experience
-======
-* **Graduate Research Assistant** (Aug 2025 - Present)
-  * Jackson School of Geosciences, The University of Texas at Austin
-  * AI for Noah-MP Land Surface Model: Implementing rock and wood moisture into the Noah-MP land surface model
-  * Skills: Machine Learning, Land Surface Model development
-
-* **Project Admin** (Aug 2025 - Present)
-  * NSF NCAR - The National Center for Atmospheric Research
-  * Project Admin for NCAR/CISL Allocation Project UTAA0012: "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions"
-  * Coordinated with PI (Prof. Zong-Liang Yang, UT Austin), responsible for technical leadership and implementation
-  * Awarded resources: 1,000 GPU hours on NSF NCAR Derecho-GPU, 20,000 CPU core-hours on NSF NCAR Derecho, 2,000 CPU core-hours on Casper, and 2 TB campaign storage
-
-* **AI Agent Evaluation Engineer Intern** (Jul 2025)
-  * PineAI, Shanghai, China (Remote)
-  * Designed and implemented AI evaluation system architecture for AI Agent knowledge base assessment
-  * Developed automated data anonymization algorithms processing 1000+ conversation texts with 70%+ accuracy
-  * Built standardized Prompt engineering workflows with LLM-powered automatic Q&A extraction
-  * Tech Stack: Python, Shell, FastAPI, Celery, Redis, LLM APIs
-
-* **Full-Stack LLM Developer Intern** (Jun 2025 - Jul 2025)
-  * Beijing ZaiwenAI Technology Co., Ltd., Beijing, China (Remote)
-  * Independently completed full development cycle including product design, tech stack selection, full-stack development, and cloud deployment
-  * Built comprehensive LLM text processing system integrating text polishing, AI detection, and plagiarism reduction features
-  * Developed RESTful API backend using FastAPI with Celery+Redis asynchronous task queue, improving processing efficiency by 65%+
-  * Project: https://github.com/ktwu01/1AI-polish/
-
 * **Graduate Teaching Assistant** (Aug 2024 - May 2025)
   * The University of Texas at Austin
   * Helped prepare course syllabus, office hours, and grade homework for ~1040 students
-  * Skills: Quantitative Data, Perl, Shell Scripting, Python
 
 * **Scientific Visitor** (Jun 2024 - Aug 2024)
   * Peking University, Beijing, China
-  * Hydrology and Water Resources Science, Model evaluation of Physics-based Land Surface Models
-  * Advisor: Prof. Peirong Lin
+  * Hydrology and Water Resources Science, model evaluation of physics-based land surface models; Advisor: Prof. Peirong Lin
 
 * **Visiting Scholar** (Jul 2023 - Dec 2023)
-  * NSF NCAR - The National Center for Atmospheric Research, Boulder, Colorado
+  * NSF NCAR, Boulder, Colorado
   * Research on volcanic perturbations in the MLT region using WACCM-X simulation and meteor radar observations
   * Re-confirmed that a single volcano can send shockwaves around Earth, seen in simulations and observations
 
 * **Student Fellow** (Oct 2021 - Feb 2024)
   * Shenzhen X-Institute (A Shenzhen Government-Tsinghua Univ. Initiative)
-  * Skills: Quantitative Data, Scientific Communications, Analytical Reasoning, Academic Writing, Python, Scholarly Research, Machine Learning
-
-* **President & Founder** (Nov 2020 - Jun 2022)
-  * USTC Student Xingyun Poetry Club
-  * Founded & Led USTC's first poetry club, managing all operations from inception to official establishment
-  * Built & Managed a core team of 8 co-founders and 4 vice presidents
-  * Directed 25+ events, including weekly poetry salons (202+ attendees), poetry competitions, and cross-club collaborations
-  * Grew club to 1,096+ members as of 2025
 
 Research Interests
 ======
-* **AI for Land Surface Modeling**: Implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling
-* **Plant-Rock-Water Interactions**: Developing models for rock and wood moisture in land surface systems
-* **High Performance Computing**: Utilizing GPU and CPU clusters for large-scale geoscience simulations
-* **Model Optimization**: Physics-based land surface models including Noah-MP, CTSM, and HRLDAS
-* **Climate Modeling**: Physics-based community climate models (e.g., WACCM)
+* **AI Agent Evaluation for Science**: benchmarks and harnesses for whether AI agents understand scientific models and code
+* **AI for Land Surface Modeling**: implementing explainable AI/ML to improve physics-based Noah-MP land surface modeling
+* **High Performance Computing**: GPU and CPU clusters for large-scale geoscience simulations
+* **Model Optimization**: physics-based land surface models including Noah-MP, CTSM, HRLDAS
 
 Skills
 ======
-* **Programming Languages**
-  * Python, MATLAB, Fortran, Shell Scripting, Perl, HTML, JavaScript
-* **AI/ML Technologies**
-  * Machine Learning, LLM APIs, Prompt Engineering, AI Agent Evaluation, LLM-as-a-judge
-* **Frameworks and Tools**
-  * FastAPI, Celery, Redis, Vue.js, LaTeX
-* **Geoscience Specialties**
-  * Land Surface Model Development, Model Evaluation, High Performance Computing (HPC)
-  * Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
-  * Physics-based Community Climate Models (WACCM)
-* **Research Skills**
-  * Quantitative Data Analysis, Scientific Communications, Academic Writing, Scholarly Research
+* **Programming**: Python, JavaScript/TypeScript, MATLAB, Fortran, Shell, SQL
+* **AI/ML**: AI Agent Evaluation, LLM-as-a-judge, benchmark design, LLM APIs, Prompt Engineering, PyTorch, LangChain, RAG, HuggingFace
+* **Frameworks and Tools**: FastAPI, Celery, Redis, Vue.js, React, Docker, Git, HPC, AWS/GCP
+* **Geoscience**: Land Surface Model Development (Noah-MP, CTSM, HRLDAS), WACCM, Model Evaluation
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and Leadership
 ======
 * **Project Admin**, NCAR/CISL Allocation Project UTAA0012 (Aug 2025 - Present)
   * Technical leadership and implementation of project workflows for "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling"
 * **President & Founder**, USTC Student Xingyun Poetry Club (Nov 2020 - Jun 2022)
-  * Founded USTC's first poetry club, grew to 1,096+ members as of 2025
+  * Founded USTC's first poetry club, grew to 1,300+ members
   * Organized 25+ cultural events with 202+ attendees
   * Managed team of 8 co-founders and 4 vice presidents
 * **Graduate Teaching Assistant**, The University of Texas at Austin (Aug 2024 - May 2025)
   * Course preparation, office hours, and grading for ~1040 students
 
-Research Projects and Publications
+Research Projects
 ======
 * **Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region**
   * Investigated using WACCM-X Simulation and Meteor Radar Observations
@@ -198,7 +148,3 @@ Awards and Honors
   * 20,000 CPU core-hours on NSF NCAR Derecho
   * 2,000 CPU core-hours on Casper
   * 2 TB campaign storage
-* **Bachelor of Science with Honors** (Jul 2024)
-  * University of Science and Technology of China
-* **Second Youngest Student Club President in USTC History** (Sep 2021)
-  * Age 17 when elected as President of USTC Student Xingyun Poetry Club
