@@ -95,3 +95,5 @@ AI 评估需要更好的发现基础设施，但它也需要对你用来做发�
 这个项目受 [agents-radar](https://github.com/duanyytop/agents-radar) 启发，它的来源和评分是为基准和 AI 数据研究重新设计的。它用 MIT 许可证发布，[源码](https://github.com/ktwu01/benchmark-radar) 和 [在线仪表盘](https://ktwu01.github.io/benchmark-radar/) 都公开。
 
 目标不是再做一个排行榜。而是让基准周围那个快速变化的版图，稍微更容易被检视，也稍微更难被误读。
+
+2026 年 8 月 25 日更新。这份日志现在也是一份公开的成长记录：一个项目如何走向 1000 颗星。三十篇日更之后，仓库有 86 颗星、17 个 fork，其中 53 颗来自 v0.8.0 发布和搜索与引用改造之后的两天。最新一篇是 Benchmark Radar 第三十天，仓库现在会在 README 里画出自己的星标历史。

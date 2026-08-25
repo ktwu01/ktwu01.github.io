@@ -1682,6 +1682,15 @@
       }
     ]
   },
+  "/posts/2026/08/benchmark-radar-day30/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day30/"
+      }
+    ]
+  },
   "/posts/2026/08/benchmark-radar-day6/": {
     "variants": [
       {
@@ -3452,6 +3461,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/08/benchmark-radar-day29/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day30/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day30/"
       }
     ]
   },

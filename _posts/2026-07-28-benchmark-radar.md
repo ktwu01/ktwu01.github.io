@@ -104,3 +104,5 @@ Ranking systems easily hide editorial decisions inside a score. Data pipelines e
 The project is inspired by [agents-radar](https://github.com/duanyytop/agents-radar), with its sources and scoring redesigned for benchmark and AI-data research. It is released under the MIT License, and both the [source code](https://github.com/ktwu01/benchmark-radar) and the [live dashboard](https://ktwu01.github.io/benchmark-radar/) are public.
 
 The goal is not to produce one more leaderboard. It is to make the fast-moving landscape around benchmarks a little easier to inspect, and a little harder to misread.
+
+Update, August 25, 2026. This log is now also a live record of the road to 1,000 stars. Thirty daily posts in, the repository holds 86 stars and 17 forks, including 53 stars in the two days after the v0.8.0 release and the search and citation work described along the way. The newest entry is Benchmark Radar Day 30, and the repository now charts its own star history in the README.
