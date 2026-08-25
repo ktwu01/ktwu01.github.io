@@ -1754,6 +1754,15 @@
       }
     ]
   },
+  "/posts/2026/08/three-single-letter-ai-domains/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/three-single-letter-ai-domains/"
+      }
+    ]
+  },
   "/posts/2026/08/ut-austin-genai-society/": {
     "variants": [
       {
@@ -3515,6 +3524,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/08/mulva-hall-126887-dollar-parking-space/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/three-single-letter-ai-domains/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/three-single-letter-ai-domains/"
       }
     ]
   },
