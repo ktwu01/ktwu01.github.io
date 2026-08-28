@@ -1781,6 +1781,15 @@
       }
     ]
   },
+  "/posts/2026/08/ut-austin-linkedin-feature/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/ut-austin-linkedin-feature/"
+      }
+    ]
+  },
   "/zh/posts/2024/08/lead-utexas/": {
     "variants": [
       {
@@ -3560,6 +3569,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/08/ut-austin-genai-society/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/ut-austin-linkedin-feature/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/ut-austin-linkedin-feature/"
       }
     ]
   }

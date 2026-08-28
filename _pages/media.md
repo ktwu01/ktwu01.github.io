@@ -7,6 +7,21 @@ author_profile: true
 
 ## Featured Media Coverage
 
+### UT Austin LinkedIn Feature {#ut-austin-linkedin-feature}
+
+- **[The University of Texas at Austin Office of Graduate and Postdoctoral Studies](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8)** — *LinkedIn feature on my land-surface modeling research, teaching, science communication, and UT01 campus resource hub (August 26, 2026)*
+  - [Related post](/posts/2026/08/ut-austin-linkedin-feature/)
+
+<iframe
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7498454292794691586?collapsed=1"
+  height="670"
+  width="504"
+  style="display: block; width: 100%; max-width: 504px; border: 0;"
+  loading="lazy"
+  allowfullscreen
+  title="UT Austin Office of Graduate and Postdoctoral Studies feature on Koutian Wu">
+</iframe>
+
 ### Texas Coast & Research Media
 
 - **[Port Aransas South Jetty - How satellites and AI protect the Texas coast](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/)** — *Institute Insights feature on our UT team's satellite remote sensing and AI work for Texas coastal water quality (May 28, 2026)*
