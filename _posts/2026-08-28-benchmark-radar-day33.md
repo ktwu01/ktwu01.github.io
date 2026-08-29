@@ -15,6 +15,8 @@ Day thirty-three of Benchmark Radar. The radar learned to find benchmark release
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Keyword search only finds pages that contain the words you searched for. A brand-new repository inside a known AI lab can slip past it because the repo has no searchable text yet. A discovery source is a place the radar watches for new work. A model card is the document a lab publishes with a model.
 
 PR #415 expands discovery beyond keyword search. The radar now scans 360 priority GitHub organizations for newly created public repositories, so a benchmark that launches inside a known lab is found by who made it, not by what words it happens to contain. Hugging Face Daily Papers, Kaggle datasets, and Zenodo records were added as discovery sources, and Hugging Face Spaces are included so public leaderboards and benchmark explorers are visible. Every candidate still passes through the existing taxonomy, low-value suppression, scoring, future-date checks, and exact URL deduplication, so broader eyes do not mean a looser filter.
@@ -34,3 +36,5 @@ Issues addressed
 - scoreboard: 115 of 1,000 stars, 21 forks
 
 Day thirty-four: the star history chart redrawn by the repository itself, line by line.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

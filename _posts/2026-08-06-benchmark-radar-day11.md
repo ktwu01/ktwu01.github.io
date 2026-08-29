@@ -14,6 +14,8 @@ KW-Bench got a capability rubric. The community got launch posts. Hi, Koutian he
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 We built a KW-Bench capability rubric. KW-Bench is our own set of benchmarks. The rubric assigns a level, L0 through L5, to each benchmark based on what it measures. The assignment is content-hash deterministic, meaning the same input always yields the same level, so anyone can check it.
 
 We published the capability layer in shadow mode. It runs next to the old classification but does not override it yet. That lets us test the rubric on real data before we trust it as the default.
@@ -50,3 +52,5 @@ Issues addressed:
 - content hash caching
 
 Day twelve: daily RSS feed.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

@@ -15,6 +15,8 @@ Hi, Koutian here. Day twenty taught the radar to speak Chinese and to summarize 
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 i18n means internationalization, which is just the setup that lets a site show more than one language. We added a full Chinese dictionary with the static HTML wiring, so every label and description on the site now has a Chinese version. In Chinese mode the site title reads "Benchmark 雷达日报", which means Benchmark Radar Daily.
 
 The Today page now compiles the day's scan into short insight blocks. Instead of a wall of raw findings, you see small summaries sorted by how important they are. You can grasp the day in thirty seconds instead of studying it for thirty minutes.
@@ -46,3 +48,5 @@ Issues addressed:
 - Model card additions (DeepSeek, GLM, Qwen, OLMo)
 
 Day twenty-one: OpenReview auth, wide-screen layout, and mobile fixes.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

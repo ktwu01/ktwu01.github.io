@@ -15,6 +15,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 你好，我是 Koutian。第二十天，雷达终于能整句整句说中文了。
 
 我们加了完整的中文翻译词典，接进了网页。现在界面上每个按钮、标签、说明都有对应的中文。网站在中文模式下，标题变成了「Benchmark 雷达日报」。你如果中文更顺手，看这个工具就不费劲了。
@@ -54,3 +56,5 @@ README 也动了。我们把它围绕核心用法重写了一遍，还挂上了�
 - 模型卡新增（DeepSeek、GLM、Qwen、OLMo）
 
 第二十一天：OpenReview 认证、宽屏布局和移动端修复。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

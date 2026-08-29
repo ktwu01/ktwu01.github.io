@@ -15,6 +15,8 @@ Day twenty-seven of Benchmark Radar. We made the Today list load a page at a tim
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Pagination means showing a long list in pages instead of all at once. A bootstrap payload is the small file the page loads first to appear quickly. SEO is how search engines find and describe a site.
 
 PR #315 pages the Today list. Before, the first paint tried to render every observation, so your browser fetched and drew the whole day. Now it paints 20 cards, then watches a sentinel below the list. When you scroll near the bottom it loads the next 20 in place, so an expanded card stays open and the rank keeps counting across pages. A status line reads loaded of total, like 20 of 136, plus scroll for more. The legend was trimmed to 136 normal and 9 attention plus the sort note; the raw total that repeated the same number is gone. The export badge, its dialog, and the client-side CSV builder are gone too; requests for the full dataset now point to the contact sheet.
@@ -56,3 +58,5 @@ Issues addressed
 - #328: leaderboard Scores over time restored in the bootstrap
 
 Day twenty-eight: one source of truth for the data, and one `h1` for the page.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

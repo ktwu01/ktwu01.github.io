@@ -15,6 +15,8 @@ Hi, Koutian here. Day seventeen was a cleanup day. We fixed what an internal aud
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 The masthead is the bar at the top of the site. It now shows how to reach us on WeChat and Discord. WeChat and Discord are two chat apps. This makes it easy for you to join the community and ask questions.
 
 The masthead also has a one-click export button now. You can download all the radar's data in one click. A radar that only shows data on its own page keeps that data locked up. One that lets you export everything becomes a tool you can build on.
@@ -52,3 +54,5 @@ Issues addressed:
 - CI rebuild triggers
 
 Day eighteen: stable operation.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

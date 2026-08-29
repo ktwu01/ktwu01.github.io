@@ -13,6 +13,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做了什么
 
 我们修了扫描日期过滤器。之前你选好日期，过滤器会自己跳回旧日期。现在修好之后，它会稳稳停在你新选的那天。
@@ -39,3 +41,5 @@ tags:
 - 趋势图全语料库展示
 
 明天：历史数据回填、新鲜度提示横幅和 agentic 分类学。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

@@ -15,6 +15,8 @@ Day twenty-four of Benchmark Radar. We put the results first on the homepage, an
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A "filter" is a control that narrows what you see. A "sidebar" is a narrow column beside the main content. A "wordmark" is the text version of a logo.
 
 PR #249 reorders the Today view. The matching results now lead. The daily briefing and the Q&A move to the right sidebar. The filter bar becomes one compact row with a "Filters (N)" button whose badge counts the active extra filters. You see the answer before the explanation.
@@ -70,3 +72,5 @@ Issues addressed
 - #277: why the list is empty
 
 Day twenty-five: scores on their dates, and a radar that does not rank itself.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

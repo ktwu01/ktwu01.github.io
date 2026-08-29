@@ -14,6 +14,8 @@ The trend chart got a real hover card. The landscape report got published. And t
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. Today the chart became usable for everyone, and we found out we had badly undercounted agent benchmarks.
 
 The trend chart used to rely on the browser's built-in tooltips. We replaced them with a custom hover card. It works with a mouse or trackpad, stays clear of tall bars, reads itself out to screen readers, follows the column as you scroll, and closes with the Escape key. Screen reader users can finally interact with the chart.
@@ -37,3 +39,5 @@ Issues addressed:
 - #73: hide duplicate report tables
 
 Day six: Hacker News integration and scheduled radar reliability.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

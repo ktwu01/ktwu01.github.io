@@ -15,6 +15,8 @@ Benchmark Radar 的第三十三天。雷达学会了找到关键词搜索永远�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 关键词搜索只能找到包含你搜索词的页面。一个知名 AI 机构里刚建好的全新仓库可能完全漏掉，因为仓库里还没有可搜索的文字。发现源是雷达盯着看新工作的地方。模型卡片是实验室随模型一起发布的文档。
 
 PR #415 把发现能力扩展到关键词搜索之外。雷达现在扫描 360 个重点 GitHub 机构的新建公开仓库，在知名实验室里上线的基准靠「谁建的」被找到，而不是靠碰巧包含什么词。Hugging Face Daily Papers、Kaggle 数据集和 Zenodo 记录加入发现源，Hugging Face Spaces 也纳入视野，公开排行榜和基准浏览器都可见。每个候选仍要过现有的分类法、低价值抑制、打分、未来日期检查和精确 URL 去重，视野变宽不等于过滤变松。
@@ -34,3 +36,5 @@ PR #413 加入 GLM-5.3-Flash 模型卡片，带 14 个基准，数据来自 z.ai
 - 记分牌：115 / 1000 星，21 个 fork
 
 第三十四天：仓库自己重画的星标历史图，一条线一条线。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

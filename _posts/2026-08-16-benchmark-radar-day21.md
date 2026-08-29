@@ -15,6 +15,8 @@ Hi, Koutian here. Day twenty-one was a fix day that touched many parts at once.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 OpenReview is the site that hosts peer reviews for the top AI conferences. Peer review is the process where other researchers grade a paper before it is accepted. We can now log into OpenReview's API v2 using the `openreview-py` client. That opens up review data from NeurIPS, ICML, ICLR, and other venues. A CI workflow, the automated test that runs on every change, now checks that login works so we catch broken credentials early.
 
 The Chinese and English toggle button now responds to clicks. Before, the button was there but did nothing. It also shows the target script as a 中 / EN glyph instead of a plain label.
@@ -43,3 +45,5 @@ Issues addressed:
 - Daily questions section width
 
 Day twenty-two: data integrity, social cadence, and RSS feeds.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

@@ -14,6 +14,8 @@ AI benchmarks now show up faster than any one researcher can keep up with. So I 
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 [Benchmark Radar](https://github.com/ktwu01/benchmark-radar) is an open-source tool that looks for new AI benchmarks, evaluation methods, datasets, leaderboards, and data-quality research every day. A benchmark is a test that measures how well an AI model does at something. It pulls records from primary and structured sources, removes duplicates, sorts them with a visible tagging system, ranks them with explainable signals, and publishes both a daily GitHub Issue and a [cumulative dashboard](https://ktwu01.github.io/benchmark-radar/).
 
 I am about to start a new adventure, and part of that job is exactly this kind of searching. I need to know which benchmarks, evaluation methods, datasets, and data-quality ideas are showing up, and I need a reliable way to keep up. That is why I needed Benchmark Radar, and why I built it.
@@ -106,3 +108,5 @@ The project is inspired by [agents-radar](https://github.com/duanyytop/agents-ra
 The goal is not to produce one more leaderboard. It is to make the fast-moving landscape around benchmarks a little easier to inspect, and a little harder to misread.
 
 Update, August 25, 2026. This log is now also a live record of the road to 1,000 stars. Thirty daily posts in, the repository holds 86 stars and 17 forks, including 53 stars in the two days after the v0.8.0 release and the search and citation work described along the way. The newest entry is Benchmark Radar Day 30, and the repository now charts its own star history in the README.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

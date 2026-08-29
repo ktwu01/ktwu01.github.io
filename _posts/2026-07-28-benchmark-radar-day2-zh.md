@@ -13,6 +13,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做了什么
 
 我们建起了累积趋势图。雷达现在能画出各基准数量随时间的变化，而不只是当天的快照。每个分类（基准、数据集、排行榜、研究）都有自己那条趋势线。
@@ -42,3 +44,5 @@ tags:
 - 优先级评分重新校准
 
 明天：扫描日期过滤器修复和可链接的评分细则对话框。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

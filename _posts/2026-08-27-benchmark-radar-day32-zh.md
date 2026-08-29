@@ -15,6 +15,8 @@ Benchmark Radar 的第三十二天。我们修掉了静默失败的数据错误�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 静默数据错误是指数据已被弄坏、但流程没有大声报错，管道对损坏的数据报告成功。采纳表示某个东西被使用的广度；对发布而言，过去只统计二进制文件的下载量。简报是每天简短总结当天动向的文本。
 
 PR #403 在整个管道里追查静默错误。GitHub 和 Hugging Face 记录的创建时间与更新时间现在分开保存，格式错误和未来时间戳被拒绝而不是凭空捏造新鲜度，纯日期值统一按 UTC 解析。各个第一方源和 OpenReview 的会议互相隔离，一个源失败不再抹掉健康结果。每日去重和同日快照的身份判定真正传递闭包化，迟到的重试不会覆盖更新的同日通过元数据，还修复了 arXiv PDF 身份、Semantic Scholar 边界日丢失和回填跨日篡改。这些错误之前全部是静默的。
@@ -40,3 +42,5 @@ PR #378 让每日简报读起来像人写的。简报是 GPT 写的当天证据�
 - 记分牌：113 / 1000 星，21 个 fork
 
 第三十三天：一个能抓到关键词搜索永远抓不到的基准发布的雷达。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

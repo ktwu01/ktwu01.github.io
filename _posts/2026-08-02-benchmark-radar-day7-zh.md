@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做的事
 
 模型卡采纳排行榜是一个全新视图，按有多少张模型卡引用了这个基准来排名。模型卡就是一张小卡片，记录某个 AI 模型（比如 GPT-4）自己报告了哪些基准。一个同时被 GPT-4、Claude、Gemini 的模型卡引用的基准，排名自然比只被一篇论文提到的基准高。排名靠一张人工整理的模型卡到基准对应表算出来。
@@ -58,3 +60,5 @@ Frontier-Bench 系列并进了 Terminal 系列（#96）。总数还是 13 个没
 - #103：为已有语料库盖上分类法标签
 
 第八天：稳定化与最小修复。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

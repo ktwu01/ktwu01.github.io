@@ -14,6 +14,8 @@ Hi, Koutian here. Day nineteen pushed the radar into maps and satellites.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 We expanded the `DATA_SIGNALS` config to watch for geospatial and satellite AI vendors. Geospatial AI is software that reads the Earth from space: land use, crop health, disaster damage, that kind of thing. The radar now tracks benchmarks and models from companies working on Earth observation, remote sensing, and geospatial intelligence.
 
 The frontier chart shows where benchmark scores stop improving, a plateau we call saturation. Those saturation points now display the vendor logos that produced them. When a score curve flattens out, you can see which companies drove it there.
@@ -30,3 +32,5 @@ Issues addressed:
 - Vendor logos on score saturation points
 
 Day twenty: Chinese i18n, insight blocks, and social checklist.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

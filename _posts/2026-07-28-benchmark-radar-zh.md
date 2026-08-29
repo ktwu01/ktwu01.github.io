@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 Benchmark Radar 是一个开源系统，每天找新发布的 AI 基准、评估方法、数据集、排行榜，还有数据质量研究。它从一手和结构化来源收记录，做去重，用一套看得见的分类法归类，再用能解释的信号排序，每天发一个 GitHub issue（issue 就是一个待办或 bug 单）和一份累计仪表盘。
 
 我正要开启一段新冒险，而我工作的一大部分就是找这类信息。我得知道哪些基准、评估方法、数据集、数据质量的点子在冒头，我也得有一种靠谱的方式跟上它们。这就是我需要 Benchmark Radar 的原因，也是我动手建它的原因。
@@ -97,3 +99,5 @@ AI 评估需要更好的发现基础设施，但它也需要对你用来做发�
 目标不是再做一个排行榜。而是让基准周围那个快速变化的版图，稍微更容易被检视，也稍微更难被误读。
 
 2026 年 8 月 25 日更新。这份日志现在也是一份公开的成长记录：一个项目如何走向 1000 颗星。三十篇日更之后，仓库有 86 颗星、17 个 fork，其中 53 颗来自 v0.8.0 发布和搜索与引用改造之后的两天。最新一篇是 Benchmark Radar 第三十天，仓库现在会在 README 里画出自己的星标历史。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

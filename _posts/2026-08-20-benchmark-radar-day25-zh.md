@@ -16,6 +16,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做了什么
 
 PR #291 上线了评分第 4 版。它把 `ktwu01/benchmark-radar` 这个仓库从自己的排行榜里踢了出去。因为这个仓库的描述全都是基准相关的词，又每天都在提交，之前的相关性计算让它在头 27 个采集日里有 9 天挤进了前五。排除时用的是精确的「owner/name」配对，绝不用模糊的子串匹配，所以像 `H20Zhang/Agent-Benchmark-Radar` 这种真记录纹丝不动。
@@ -88,3 +90,5 @@ PR #297 在 pytest 配置里加了 `pythonpath = ["src"]`。这样跑测试时�
 - Pytest 工作树导入修复
 
 第二十六天：隐藏曲线与返回按钮的回归。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

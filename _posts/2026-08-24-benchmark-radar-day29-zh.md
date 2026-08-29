@@ -15,6 +15,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 PR #349 把三处关联修复合成一次发布。第一是排行榜的显示换算。抓来的 `llm-stats` 分数存为 0 到 1，例如 0.72，而站内其余处都说 0 到 100。图的几何本来就是对的，只是标签与提示按 100 倍读错了。现在显示层乘 100，0.72 读作 72，存的值与点的位置都不动。在 0 到 100 的轴上读 72，仍是原来那个点。
 
 第二是排序顺序。雷达原来把新鲜发布与例行更新按同一套时效混排。现在发布排在更新之前，且在发布内部按新鲜度分层，让最鲜的直达第一页。实现上对当天发布按龄分级，今天发的基准即便相关性相近，也排在两周前发的前面。以前一个新发布可能被一串老基准的更新挤到第三页，现在第一页先回答今天新出现了什么，再说今天什么变了。
@@ -42,3 +44,5 @@ PR #350 修了导航高亮。以前只有部分栏目看起来是选中，因为
 - #350：五处导航共用高亮类、带 ARIA 与 Rubric 恢复
 
 第三十天：给每张卡片配一句可扫读的发布摘要。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

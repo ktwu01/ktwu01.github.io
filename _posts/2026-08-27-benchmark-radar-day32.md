@@ -15,6 +15,8 @@ Day thirty-two of Benchmark Radar. We fixed data errors that failed silently, ta
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A silent data error is one that corrupts results without failing loudly, so the pipeline reports success on data it mangled. Adoption means how widely something is used; for a release it used to mean only how many binary files were downloaded. A briefing is the short daily summary of what moved.
 
 PR #403 hunts down silent errors across the whole pipeline. Creation and update timestamps for GitHub and Hugging Face records are now kept distinct, malformed and future timestamps are rejected instead of inventing freshness, and date-only values parse consistently as UTC. Individual first-party feeds and OpenReview venues are isolated, so one failing source no longer erases healthy results. Daily dedup and same-day snapshot identity are now genuinely transitive, newer same-day pass metadata survives a stale retry, and fixes land for arXiv PDF identity, Semantic Scholar boundary-day loss, and backfill cross-day mutation. Every one of these failed silently before.
@@ -40,3 +42,5 @@ Issues addressed
 - scoreboard: 113 of 1,000 stars, 21 forks
 
 Day thirty-three: a radar that finds benchmark releases no keyword search would ever catch.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

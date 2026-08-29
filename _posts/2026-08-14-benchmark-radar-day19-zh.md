@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 你好，我是 Koutian。第十九天，雷达把目光投向了地球。
 
 我们先说「地理空间」和「卫星 AI」是什么。简单讲，就是用 AI 看卫星照片、做土地分类、监测地面变化这类活儿。雷达现在会专门盯这一行的厂商和模型了。配置里多了一类信号来源，把做地球观测、遥感和地理空间智能的公司都收了进来。你以后会发现，这类基准测试（benchmark，就是用来考 AI 的一套题）和模型发布，雷达不会再漏掉。
@@ -32,3 +34,5 @@ tags:
 - 分数饱和度点上的厂商 Logo
 
 第二十天：完整中文支持、洞察块和社交清单。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

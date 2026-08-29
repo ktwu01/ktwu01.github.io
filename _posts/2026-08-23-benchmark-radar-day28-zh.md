@@ -15,6 +15,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 PR #337 移除可生成的分片。`site/data/benchmark-index.json` 与 `site/data/benchmarks/` 里的 1,148 个文件，本就是 `benchmark-radar normalize-external` 从已入库的抓取 CSV、`data/leaderboard_snapshots.yml` 与 `data/external/identity.yml` 生成的。它们又被提交了一次，仓库里就有两份同一目录。直接在 `main` 上重跑，会改写 50 个已漂移的分片。现在它们被 gitignore，改为在 CI 里生成。全新检出会先生成再让下游读取，模型注册表在分片缺失时直接拒绝写入。不再用提交去复制真相。
 
 PR #329 润色文档。两份 README 都把语言切换挪到标题右上角，改成直白标签 `[中文](README.zh-CN.md)` 与 `[English](README.md)`，不再是文件名样式。两份都新增 Acknowledgements 致谢，说明前沿分数的数据源是 `llm-stats`，AIME 2025 图表即基于 `llm-stats.com`。两份都在末尾加上 BibTeX，`Wu 2026`，指向 `CITATION.cff` 的机器可读元数据。首页支援卡也改成提醒可引用，头部新增 Cite 按钮，一键可得引用。
@@ -42,3 +44,5 @@ PR #331 与 PR #337 也调整了 CI 的工序顺序。`benchmark-radar classify`
 - CI 中分片与分类提前于读取步骤执行
 
 第二十九天：发布先于更新、分数落在 0 到 100、导航高亮看得见。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

@@ -15,6 +15,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 你好，我是 Koutian。第二十二天，我们守住了数据的底线。
 
 先说「过时运行保护」。每天雷达会存一份当天的数据快照。但有时任务触发晚了，跑出来的是旧数据。我们改了：这种过时运行不能再覆盖掉更新的快照。这是 PR #235，我们把它标成了 P1，也就是数据完整性里最该先修的问题。你看到的快照，永远是那一拨里最新的，不会被旧数据反咬一口。
@@ -55,3 +57,5 @@ GitHub Pages 的发布流程也改了。以前只有改了源代码才重新发�
 - 探索视图简化
 
 第二十三天：外部目录与排行榜导航器。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

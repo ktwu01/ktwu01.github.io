@@ -13,6 +13,8 @@ The radar gained memory. Day two added trend maps that span time, plus a fix for
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. Today the radar stopped being a daily snapshot and started keeping a longer story. Two changes did that.
 
 The trend map now shows how benchmark counts move over time. Before, you only saw today. Now each kind of item (benchmarks, datasets, leaderboards, and research papers) gets its own line on the chart. You can watch the field grow instead of guessing.
@@ -35,3 +37,5 @@ Issues addressed:
 - priority scoring recalibration
 
 Day three: scan date filter fixes and linkable rubric dialogs.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
