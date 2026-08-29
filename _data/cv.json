@@ -32,6 +32,14 @@
   },
   "work": [
     {
+      "company": "Tencent",
+      "position": "Research Intern, AI Data Trial (Benchmark Radar)",
+      "website": "https://github.com/ktwu01/benchmark-radar",
+      "startDate": "2026-07-01",
+      "endDate": "",
+      "summary": "Built Benchmark Radar, a production-deployed open-source dashboard ranking which benchmarks frontier labs report, across 30+ curated documents from 10 organizations. Automated a daily snapshot pipeline; audited AI training-data vendor deliveries against a per-task STEM coverage protocol; ran a cross-benchmark vendor-classification audit reconciling a canonical benchmark sheet."
+    },
+    {
       "company": "Jackson School of Geosciences, The University of Texas at Austin",
       "position": "Graduate Research Assistant",
       "website": "",

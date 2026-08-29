@@ -113,6 +113,7 @@ Contributed to the [Starting Point One (SP1) documentary](https://www.bilibili.c
 I am currently working as a Graduate Research Assistant at UT Austin and Project Admin for NCAR/CISL Allocation Project UTAA0012, "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions." This project is funded with significant computational resources including 1,000 GPU hours on NSF NCAR Derecho-GPU and 20,000 CPU core-hours.
 
 ### Recent Experience
+- **Research Intern, AI Data Trial** - Tencent (Jul 2026 - Present)
 - **Graduate Research Assistant** - Jackson School of Geosciences, UT Austin (Aug 2025 - Present)
 - **Project Lead** - NSF NCAR (Aug 2025 - Present)
 - **AI Agent Evaluation Engineer Intern** - PineAI (Jul 2025)

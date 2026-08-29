@@ -14,9 +14,9 @@ redirect_from:
 
 Highlights
 ======
-* Incoming Research Intern (AI for Science Data & Evaluation), Tencent Qingyun Talent Program
+* Research Intern, AI Data Trial (Benchmark Radar), Tencent
 * Open-source contributor to repositories totaling 100K+ stars (git/git, multica, ai-agent-book, AionUi, harbor); 10K+ GitHub contributions in the last year
-* Seeking internships in AI Agent Development/Test/Evaluation, ML/DL/DS, and Full-Stack Engineering
+* Open to research internships in AI Agent Development/Test/Evaluation, ML/DL/DS, and Full-Stack Engineering
 * 2+ years work experience (US/International); 4+ years research/programming experience
 * Invited reviewer for *Planetary and Space Sciences* (Elsevier, Scopus Q2), with further review invitations from IEEE TNNLS, ACM Computing Surveys, ACM Transactions on Sensor Networks, the COLM workshop track, and ACM AgentSkills
 
@@ -32,9 +32,12 @@ Education
 
 Work Experience
 ======
-* **Incoming Research Intern, AI for Science Data & Evaluation** (official offer received Aug 2026)
+* **Research Intern, AI Data Trial** (Jul 2026 - Present)
   * Tencent Qingyun Talent Program (top-talent program), Tencent America
-  * Focus: data quality control, benchmark design, LLM-as-judge rubrics, and evaluation harnesses for AI agent systems
+  * Built Benchmark Radar, a production-deployed open-source dashboard ranking which benchmarks frontier labs report, across 30+ curated documents from 10 organizations
+  * Automated a daily snapshot pipeline that republishes the leaderboard without manual intervention; hardened the audit pipeline after a security/reliability review
+  * Audited raw deliveries from AI training-data vendors against a per-task STEM coverage protocol, producing dated, reproducible reports
+  * Ran a cross-benchmark vendor-classification audit across three review passes, reconciling a canonical benchmark sheet covering 11 vendor leads
 
 * **Core Founding Team Member** (Jan 2026 - Present)
   * Starting Point One (SP1), Remote
