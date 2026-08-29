@@ -1,6 +1,6 @@
 ---
 title: "UT01 Navigation Platform"
-excerpt: "Unified resource platform for UT Austin campus services — 10,700+ visits, with cross-device optimization."
+excerpt: "Unified resource platform for UT Austin campus services — 34,940+ visits, with cross-device optimization."
 collection: portfolio
 header:
   teaser: /images/portfolio/covers/ut01-navigation.svg
@@ -20,7 +20,7 @@ UT01 is a full-stack web application that addresses the challenge of fragmented 
 ## Key Achievements
 
 ### User Impact
-- **10,700+ visits**: Demonstrated significant user adoption and engagement
+- **34,940+ visits**: Demonstrated significant user adoption and engagement
 - **Unified Access**: Centralized access to previously fragmented UT Austin services
 - **User-Centered Design**: Built based on comprehensive user research and feedback
 
@@ -55,7 +55,7 @@ UT01 is a full-stack web application that addresses the challenge of fragmented 
 - **Project Management**: Independent project execution from conception to deployment
 
 ## Impact and Recognition
-The UT01 platform successfully addressed a real need in the UT Austin community, as evidenced by the 10,700+ visits and continued user engagement. The project demonstrates the ability to identify community problems, conduct research, and develop technical solutions that provide genuine value to users.
+The UT01 platform successfully addressed a real need in the UT Austin community, as evidenced by the 34,940+ visits and continued user engagement. The project demonstrates the ability to identify community problems, conduct research, and develop technical solutions that provide genuine value to users.
 
 ## Future Development
 The platform continues to evolve based on user feedback and changing campus needs, with ongoing maintenance and feature additions planned to further enhance the user experience.
