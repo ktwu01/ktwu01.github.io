@@ -15,7 +15,7 @@ Benchmark Radar 的第三十二天。我们修掉了静默失败的数据错误�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 静默数据错误是指数据已被弄坏、但流程没有大声报错，管道对损坏的数据报告成功。采纳表示某个东西被使用的广度；对发布而言，过去只统计二进制文件的下载量。简报是每天简短总结当天动向的文本。
 
@@ -43,4 +43,4 @@ PR #378 让每日简报读起来像人写的。简报是 GPT 写的当天证据�
 
 第三十三天：一个能抓到关键词搜索永远抓不到的基准发布的雷达。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

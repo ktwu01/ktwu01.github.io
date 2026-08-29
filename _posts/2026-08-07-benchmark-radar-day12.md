@@ -14,7 +14,7 @@ The radar now has an RSS feed. Day twelve was a small day, one feature, but it c
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://benchmark-radar.org/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
 
 Hi, Koutian here. RSS is a simple way to subscribe to updates, like a bookmark that fills itself in. You paste the feed link into any RSS reader and new items show up without visiting the site. No email signup, no API key, no setup.
 
@@ -28,4 +28,4 @@ The feed also makes our output readable by other programs. Another tool can watc
 
 Day thirteen: favicon, URL fixes, and daily Q&A on the dashboard.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.

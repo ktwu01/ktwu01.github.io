@@ -15,7 +15,7 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 PR #315 给今日列表加分页。以前首屏要把当天全部观察全画出来，浏览器既要取完整数据又要一次性渲染。现在首屏只画 20 张卡片，列表底下放一个岗哨。滚到底附近就地追加下 20 张，已展开的卡不收起，排名跨页连续。底部状态行写已加载多少、共多少，例如 20 of 136，scroll for more。图例精简到 136 normal、9 attention 加一句排序说明，重复的原始总数删掉。导出徽标、弹窗和前端 CSV 拼装也删掉，需要全量数据的去联系页索取。
 
@@ -57,4 +57,4 @@ PR #325 补上 #236 的机械 SEO。生成式 `sitemap.xml` 覆盖所有可索�
 
 第二十八天：数据只剩一个真相来源，页面只剩一个 `h1`。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

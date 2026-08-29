@@ -15,7 +15,7 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 PR #302 在同一张排行榜和每项基准的图表上修了四处。第一，`?view=leaderboard` 现在以排名开头。以前排名是页面上的第六块，被折叠在方法说明、证据条、发现面板、搜索框和一块 480px 高的图后面。改后你先看到五行摘要，紧接着就是完整的 80 行表格。表格仍保留筛选、展开全部和默认收起，所有旧链接都还能用。排名和图现在默认一致：图默认打开第 1 名 GPQA Diamond，而不是随手抓到的最新条目。
 
@@ -50,4 +50,4 @@ PR #308 用大白话重写了过期横幅，并加上两个按钮：说明哪里
 
 第二十七天：给今日列表分页，把标题砍半，给 21 个基准正名。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

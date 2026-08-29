@@ -13,7 +13,7 @@ Day one of Benchmark Radar. We went from nothing to a working daily dashboard in
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://benchmark-radar.org/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
 
 Hi, Koutian here. On day one, Benchmark Radar went from a blank page to a dashboard that quietly collects data every day. In one go, twenty chunks of work (we call each one a "commit") landed. They touched everything: the automatic build pipeline, how we store data, the daily view, and a backup plan for when the main source fails.
 
@@ -37,4 +37,4 @@ The backup feed was also an important early choice. The main source fails someti
 
 Next up: trend maps over time, cleanup, and more sources.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.

@@ -15,7 +15,7 @@ Day twenty-six of Benchmark Radar. We put the ranking where it belongs, made the
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://benchmark-radar.org/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
 
 A ranking is an ordered list from most to least. The Back button is the browser arrow that returns you to the last page. A frontier line is a stepped line that connects the best score seen so far. A stale banner is the warning shown when the page is out of date.
 
@@ -52,4 +52,4 @@ Issues addressed
 
 Day twenty-seven: paging the Today list, halving a title, and naming 21 benchmarks correctly.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.

@@ -15,7 +15,7 @@ Day thirty-three of Benchmark Radar. The radar learned to find benchmark release
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://benchmark-radar.org/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
 
 Keyword search only finds pages that contain the words you searched for. A brand-new repository inside a known AI lab can slip past it because the repo has no searchable text yet. A discovery source is a place the radar watches for new work. A model card is the document a lab publishes with a model.
 
@@ -37,4 +37,4 @@ Issues addressed
 
 Day thirty-four: the star history chart redrawn by the repository itself, line by line.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.

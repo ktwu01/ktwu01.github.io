@@ -21,6 +21,6 @@ The hand-curated Model Card Adoption Rank answers a narrow question: which AI be
 Open source (MIT), v0.8.0, 117+ stars. Built as part of my AI Data Trial research internship at Tencent.
 
 ## Links
-- **Live dashboard**: [https://koutian.is-a.dev/benchmark-radar/](https://koutian.is-a.dev/benchmark-radar/)
+- **Live dashboard**: [https://benchmark-radar.org/](https://benchmark-radar.org/)
 - **Code**: [https://github.com/ktwu01/benchmark-radar](https://github.com/ktwu01/benchmark-radar)
 - **Daily log series**: [Benchmark Radar Day 30](/posts/2026/08/benchmark-radar-day30/)

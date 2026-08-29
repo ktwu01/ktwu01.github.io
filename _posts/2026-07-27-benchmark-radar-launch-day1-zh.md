@@ -13,7 +13,7 @@ Benchmark Radar 第一天。我们从零开始，一天之内搭出了一个能�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 你好，我是 Koutian。第一天，Benchmark Radar 从一张白纸变成了一个每天默默收数据的仪表板。我们一次性落了 20 段代码改动（每段叫一个 commit，就是保存好的一段代码修改）。它们碰到了每一层：自动构建流水线、怎么存数据、每天视图，还有一个主源挂掉时的备用方案。
 
@@ -50,4 +50,4 @@ Benchmark Radar 第一天。我们从零开始，一天之内搭出了一个能�
 
 明天：累积趋势图、UI 清理、证据来源扩展。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

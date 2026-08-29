@@ -15,7 +15,7 @@ Benchmark Radar 的第三十一天。每张发布卡片现在都带一行摘要�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 发布卡片是某个基准新版本的条目。裸标签就是版本号本身，比如 `v1.11.0`，读者看不出这次改了什么。必填项是提交表单前必须填写的输入框。sighting 是雷达某次扫描中看到一条记录。
 
@@ -54,4 +54,4 @@ PR #400 是三个小的一致性修复：`.env.example` 补上每日工作流已
 
 第三十二天：一个发布没有任何二进制文件也能算采纳的排名。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

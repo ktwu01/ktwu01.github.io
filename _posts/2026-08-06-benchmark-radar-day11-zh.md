@@ -9,7 +9,7 @@ tags: [benchmark-radar, kw-bench, capability-rubric, shadow-mode, community]
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 大家好，我是 Koutian。先说几个词。KW-Bench 是我们自己做的一套基准测试。内容哈希（content hash）是一段数据的指纹，同样的内容永远得到同样的指纹，所以能用来做确定性判定。影子模式（shadow mode）是新功能先在背后运行、不影响真实输出的做法，验证没问题了再正式启用。
 
@@ -42,4 +42,4 @@ KW-Bench 的 L0 到 L5 能力分级标准正式上线了。它用的是确定性
 - Issue #151
 - Issue #154
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

@@ -15,7 +15,7 @@ Day thirty-one of Benchmark Radar. Every release card now carries a one-line sum
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://benchmark-radar.org/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
 
 A release card is the entry for a new version of a benchmark. A bare tag is just the version string, like `v1.11.0`, which tells a reader nothing about what changed. A required field is a box a reporter must fill before the form submits. A sighting is one scan in which the radar saw a record.
 
@@ -54,4 +54,4 @@ Issues addressed
 
 Day thirty-two: a ranking that counts adoption even when a release ships no binary files.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.

@@ -15,7 +15,7 @@ Benchmark Radar 的第三十天。写到今天，这份日志正式变成一场�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 先解释几个词：星标是 GitHub 用户留在仓库上的书签，星标数是衡量一个项目受关注度最粗糙的指标；fork 是别人复制一份你的仓库、由他自己持有；徽章是 README 顶部那些带字的小图片；注册表是雷达维护的基准总表。
 
@@ -53,4 +53,4 @@ PR #366 把展示规则写进在这个仓库干活的智能体会读的 AGENTS.m
 
 第三十一天：每张发布卡片一句可扫读的摘要。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

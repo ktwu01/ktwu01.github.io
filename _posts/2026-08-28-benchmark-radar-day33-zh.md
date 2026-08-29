@@ -15,7 +15,7 @@ Benchmark Radar 的第三十三天。雷达学会了找到关键词搜索永远�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 关键词搜索只能找到包含你搜索词的页面。一个知名 AI 机构里刚建好的全新仓库可能完全漏掉，因为仓库里还没有可搜索的文字。发现源是雷达盯着看新工作的地方。模型卡片是实验室随模型一起发布的文档。
 
@@ -37,4 +37,4 @@ PR #413 加入 GLM-5.3-Flash 模型卡片，带 14 个基准，数据来自 z.ai
 
 第三十四天：仓库自己重画的星标历史图，一条线一条线。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

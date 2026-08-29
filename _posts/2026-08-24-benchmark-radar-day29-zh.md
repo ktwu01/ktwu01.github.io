@@ -15,7 +15,7 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
 
 PR #349 把三处关联修复合成一次发布。第一是排行榜的显示换算。抓来的 `llm-stats` 分数存为 0 到 1，例如 0.72，而站内其余处都说 0 到 100。图的几何本来就是对的，只是标签与提示按 100 倍读错了。现在显示层乘 100，0.72 读作 72，存的值与点的位置都不动。在 0 到 100 的轴上读 72，仍是原来那个点。
 
@@ -45,4 +45,4 @@ PR #350 修了导航高亮。以前只有部分栏目看起来是选中，因为
 
 第三十天：给每张卡片配一句可扫读的发布摘要。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。

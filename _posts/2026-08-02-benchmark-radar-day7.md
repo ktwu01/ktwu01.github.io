@@ -14,7 +14,7 @@ Day seven was the biggest single day. Hi, Koutian here. We launched a new leader
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://benchmark-radar.org/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
 
 A leaderboard is just a public ranking of who scored best. Our new Model Card Adoption Rank ranks benchmarks by how many model cards point at them. A model card is a short spec sheet that says what an AI model was tested on. If GPT-4, Claude, and Gemini all cite a benchmark in their cards, that benchmark ranks higher than one cited by a single paper. We compute the rank from a registry, which is a catalog of model card to benchmark links that we curate by hand.
 
@@ -59,4 +59,4 @@ Issues addressed:
 
 Day eight: stabilization and radar minimum fixes.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.
