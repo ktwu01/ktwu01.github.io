@@ -9,15 +9,13 @@ tags:
   - 创业
 ---
 
-五位YC叛逆者：为何被选中，为何被驱逐，又为何凤凰涅槃？
+五位 YC 叛逆者：有人被驱逐、有人被重新接纳，后来又发生了什么？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 标题备选
 
 被 YC 踢出局后，才是他们人生的开始
-
-五位YC叛逆者：为何被选中，为何被驱逐，又为何凤凰涅槃？
 
 ## 引言
 
@@ -54,29 +52,30 @@ Hacker News 的算法决定了成千上万技术人员每天看到的内容。�
 
 YC 校友的身份是一种强大的群体标志。一些被移出社群的创始人表示，当他们被标记为不受欢迎的人时，这种网络效应会反转：他们的名字非但不再打开大门，反而可能引发私下警告、被移出私人 WhatsApp 群组、在产品演示日受到冷遇，以及被担心牵连的往届校友冷落。这些软封禁，往往比技术上撤销登录凭证更具破坏性。
 
-## 五位曾被YC驱逐的创始人
+## 五位“YC 叛徒”
 
 ### 1. 布雷克·尤尼茨（Breck Yunits）：被驱逐的吹哨人
 
 尤尼茨（Yunits）是个典型的黑客：痴迷于真理、数据可视化和更好的系统（Scrolling/Tree Notation）。YC 欣赏他这种不受约束的极客精神和重构世界的野心。他是那种不仅想改变产品，还想改变游戏规则的人。
 
-但问题来了：当这种重构的欲望指向 YC 自身的商业模式时，不仅不被欣赏，反而成了原罪。YC 欣赏他致力于通过技术和逻辑优化世界的理想主义，但当他试图优化 YC 的利润分配机制（《Carry》提案），并试图打破 YC 内部的潜规则时，这种理想主义就变成了威胁。
+但问题来了：当这种重构的欲望指向 YC 自身的商业模式时，它就不再被欣赏了。让尤尼茨被 YC 看中的理想主义，转向 YC 的利益分配和内部规则后，也就变成了威胁。
 
-尤尼茨的《Carry》提案主张创建一个新的基金或加速器项目，让创始人之间共享carry（附带权益/利润分成）。他认为，如果启动这样一个项目，将会对初创公司和导师更具吸引力，因为它能更好地协调参与者之间的利益。这实际上是在挑战 YC 的风险投资模式的核心经济结构（即向基金收取 2% 管理费、并从投资回报中抽取 20% 附带权益）；简单说，他想重新分蛋糕。
+尤尼茨的[《Carry》提案](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to/)主张让 YC 同批创始人分享 YC 的 carry，也就是基金管理者从投资利润中获得的分成。他认为，真正为 YC 创造长期价值的是同批创始人，他们也应该分享收益。简单说，他想重新分蛋糕。
 
 尤尼茨不仅提出了重新分配利益的《Carry》提案，还公开批评 Hacker News 的算法审查机制。他不能忍受一个标榜开放的社区存在隐秘的操纵。
 
 紧张局势最终演变为彻底决裂。尤尼茨越来越公开地批评他认为 Hacker News 上的审查制度。他认为该平台操纵帖子的可见度，以偏袒 YC 支持的观点并压制异议。
 在 Reddit 上关于 YC 内部文化的讨论中，尤尼茨（发帖人为 breck）发表了措辞严厉的批评：
 
-> "我根本不在乎被 Dickface 踢出去。真正让我恼火的是 HackerNews 上没完没了的审查，以及他们每天的其他审查。我不是要求他们给我的帖子点赞，我是要求他们允许别人给我的帖子点踩。他们这么害怕别人看到我写的东西，这恰恰暴露了他们是多么胆小如鼠。"
-> "I don't give a shit about being kicked out of Dickface. What really pisses me off is the endless censorship on HackerNews and their daily censorship. I'm not asking them to upvote my posts, I'm asking them to allow others to downvote my posts. The fact that they're so afraid of people seeing what I write exposes just how cowardly they are."
+> “我根本不在乎被 Dickface 踢出去。真正让我恼火的是 Hacker News 持续不断的审查，以及他们日常进行的其他审查。我不是要求他们给我的内容点赞，而是要求他们允许我的内容被点踩。他们如此害怕人们读到我写的东西，恰恰说明他们是一群多么胆小的懦夫。”
+>
+> "I couldn't give two shits about being kicked out of Dickface. It's the constant censorship on HackerNews and their other daily censorship that pisses me off. I'm not asking them to upvote my stuff, I'm asking them to let my stuff be downvoted. The fact that they are so afraid of people reading what I have to write that shows what scared little cowards they are." ——[Breck Yunits 在 Reddit 上的原文](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to/)
 
 ![YC-kickoff-breck](/images/yc-rebels/YC-kickoff-breck.png)
 
 这次是一个真正的冲突：尤尼茨不仅仅是违反了规则，他攻击的是机构的勇气和正直。
 
-YC的回应是全方面的：尤尼茨表示自己被Bookface内部论坛踢出、被官方@ycombinator Twitter账号屏蔽、甚至邮件服务器也遭到彻底封锁。尤尼茨声称："他们直接屏蔽了所有@ycombinator.com邮箱地址，阻止我发送邮件。"
+YC 的回应是全方面的：尤尼茨说，自己被踢出 Bookface、被官方 @ycombinator Twitter 账号屏蔽，也无法向 @ycombinator.com 地址发送邮件。他在同一篇 [Reddit 讨论](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to/)中描述了这三件事。
 
 在尤尼茨看来，这种强力封锁表明，他被归类为敌对分子，而不仅仅是一个行为不端的校友。对于机构而言，一个即使是出于善意但不可控的内部批评者，比外部竞争对手更危险。
 
@@ -86,7 +85,7 @@ YC的回应是全方面的：尤尼茨表示自己被Bookface内部论坛踢出�
 
 但问题来了：当这种坦率指向自己人时，情况就变了。YC 欣赏他对事实的执着和打破常规的极客精神，但当他将社区内部的特权行为（插队打疫苗）公之于众时，这种坦率就变成了对圈子的背叛。
 
-2021年3月，YC 创始人在 Bookface 内部论坛上发帖，分享如何绕过疫苗接种资格限制，并向其他创始人提供插队建议。这些策略包括谎报自身情况或利用县级预约网站的漏洞。比加尔认为这是严重的道德败坏和科技精英特权的体现，于是在推特上描述了这件事，并附上了隐去人名的对话截屏。
+2021 年 3 月，一位 YC 创始人在 Bookface 内部论坛上发帖，分享如何绕过疫苗接种资格限制，并向其他创始人提供插队建议。这些策略包括谎报自身情况或利用县级预约网站的漏洞。比加尔认为这是严重的道德败坏和科技精英特权的体现，于是在推特上描述了这件事。[TechCrunch 报道](https://techcrunch.com/2021/06/09/does-what-happens-at-yc-stay-at-yc/)，值得注意的是，他并未发布截屏或任何可识别当事人的信息。
 
 对于 YC 而言，这可能不仅是一次泄密，更是对社区内部保密文化的公然违背。Bookface 的第一规则是：Bookface 上发生的事，必须留在 Bookface。
 
@@ -109,7 +108,7 @@ YC内部对García Martínez的反应大多是维护他的。一些知名校友�
 
 YC联合创始人Jessica Livingston回应称："YC并没有在反思。"这条回复获得了数百个赞，而达默的帖子只获得了几个赞。愤怒之下，达默将对话截图发布到LinkedIn和Twitter上，撤回了她之前对YC创始人的所有赞美。
 
-两周后，达默被YC校友网络除名。对于是否后悔公开表达不满，她在接受TechCrunch采访时说道：
+YC 要求达默删除截屏。不到两周后，她被移出 Bookface，但她的联合创始人和 Prolific 仍留在 YC，[YC 也告诉她可以联系他们重新参与](https://techcrunch.com/2021/06/09/does-what-happens-at-yc-stay-at-yc/)。对于是否后悔公开表达不满，达默说道：
 
 > "人们在不知道该做什么时就会使用规则。这关乎勇气，这关乎真正为正确的事情挺身而出。"
 > "People use rules when they don't know what else to do. This is about courage, this is about actually standing up for what is right."
@@ -120,7 +119,7 @@ YC联合创始人Jessica Livingston回应称："YC并没有在反思。"这条�
 
 YC 容忍男性另类的幽默和行为（通常将其包装成高度自主），但对这种行为进行监管却被视为文化冲突或有害行为。在达默看来，她被剔除一事表明，YC将多数群体（男性）的舒适度置于少数群体（女性）的安全和包容性之上。
 
-### 4. 帕克·康拉德（Parker Conrad）：因合规丑闻被逐的增长狂徒、复出与机构性康复
+### 4. 帕克·康拉德（Parker Conrad）：被 Zenefits 逼退，又被 YC 重新接纳
 
 康拉德（Conrad）是Move Fast and Break Things这一格言的肉身化身。从 Zenefits 到 Rippling，他展示了极强的执行力和为了增长不惜一切代价的野心。这正是 Paul Graham 推崇的精神。
 
@@ -128,19 +127,17 @@ YC 容忍男性另类的幽默和行为（通常将其包装成高度自主）�
 
 然而，这种超高速增长也付出了代价。2016年，Zenefits被曝开发了一款名为"The Macro"的软件工具，该工具允许保险经纪人通过让培训模块在他们睡觉时持续运行来规避强制性的州执照要求。简单说，就是让系统自动完成培训，省得人亲自学。由此引发的监管丑闻迫使康拉德耻辱地辞职。他遭到媒体、美国证券交易委员会 (SEC) 以及他自己的董事会（安德森·霍洛维茨基金，也就是大家俗称的 a16z）的猛烈抨击。
 
-YC 曾经欣赏他不顾一切的增长动力和极强的现实扭曲力场（这个概念最早用来形容乔布斯，指用个人魅力让团队相信并实现看似不可能的目标），这给 YC 带来了巨大的价值回报。但当这种动力失控导致了合规丑闻时，康拉德就从明星创始人变成了有毒资产。
-
-康拉德曾将被这群人孤立的感觉描述为被视为 **放射性（radioactive）**，因为YC不仅把他视为失败者，还视他为一种传染源：他在YC网络中的存在，可能会给其他初创公司带来更加严格的监管机构的审查。
+康拉德从明星创始人变成了“放射性资产”。他后来描述过自己躲在家中，而投资人和危机公关公司在外面塑造关于他的故事。但 YC 没有驱逐他：康拉德在 [TechCrunch 的采访](https://techcrunch.com/2021/11/18/parker-conrad-i-like-working-with-people-who-have-a-chip-on-their-shoulder/)中说，YC、Garry Tan 和其他早期投资人在 Rippling 创立之初就支持了他。
 
 
 根据SEC的官方文件，2017年10月，康拉德个人支付数十万美元，Zenefits公司支付数十万美元的罚款。
 
 ![YC-kickoff-Conrad](/images/yc-rebels/YC-kickoff-Conrad.png)
 
-康拉德在 Zenefits 危机中声誉受损，然而，康拉德并没有偃旗息鼓。他创办了Rippling，另一家人力资源/IT公司。Rippling 参加了 YC W17，YC 后来公开庆祝其成长。时任 YC CEO Garry Tan 也在2025年采访了康拉德。下面是一些有意思的信息：
+康拉德没有偃旗息鼓。他创办了 Rippling，又带着它参加 YC W17。这是他继 Zenefits 之后第二次参加 YC。YC 后来公开庆祝 Rippling 的成长，Garry Tan 也在 2025 年采访了康拉德。[Axios 报道了他重返 YC 的经过。](https://www.axios.com/2017/12/15/why-parker-conrad-went-back-to-startup-bootcamp-1513301070)下面是一些有意思的信息：
 
 - **复合型创业公司**：康拉德公开批评了YC专注于一件事的标准建议。他认为，对于B2B软件而言，你需要同时开发多种产品线，形成相互集成的产品矩阵，才能打造一个真正解决企业深层需求的复合型创业公司（compound startup），而不是只做一个单点工具。
-- **成功**：Rippling 目前的估值超过 130 亿美元，比 Zenefits 的估值还要高。
+- **成功**：根据 [YC 的公司页面](https://www.ycombinator.com/companies/rippling)，Rippling 在 2025 年 5 月以 168 亿美元估值融资，超过 Zenefits 的历史峰值。
 - **创始人模式的证明**：2024 年，保罗·格雷厄姆写了一篇题为创始人模式的文章，部分灵感来自布莱恩·切斯基，但与康拉德的微观管理风格以及拒绝职业经理人的建议产生了深刻的共鸣。YC 后来公开介绍康拉德和 Rippling，并邀请他讨论复合型创业公司。
 
 ### 5. 安德鲁·托尔巴（Andrew Torba）：政治流亡者
@@ -167,9 +164,9 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 
 但五个“YC叛徒”的故事并不是同一种悖论：
 
-- **尤尼茨（Breck Yunits）**：因独立思考吸引YC，却因成为吹哨人而被驱逐
+- **尤尼茨（Breck Yunits）**：因独立思考吸引 YC，却在把这种独立用来挑战 YC 后被驱逐
 - **比加尔（Paul Biggar）**：因极度透明吸引YC，却因泄露机密而被驱逐
-- **达默（Katia Damer）**：因挑战现状吸引YC，却因挑战性别歧视而被驱逐
+- **达默（Katia Damer）**：因挑战现状吸引 YC，却在挑战性别歧视后被移出 Bookface
 - **康拉德（Parker Conrad）**：经历合规丑闻后创业复出，并得到 YC 公开重新接纳
 - **托尔巴（Andrew Torba）**：因言论自由吸引YC，却因网络喷子而被驱逐
 
@@ -181,7 +178,7 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 - 尤尼茨保持了他的思想纯洁性（树状图）
 - 托尔巴将 Gab 建成了一个备受争议的平行平台
 
-这表明YC网络效应固然强大，但并非必不可少。事实上，对于最具雄心的创始人而言，Bookface 的封闭圈子反而可能成为一种负担——它让人只听得到圈内人的声音，看不到外部世界的机会。被踢出 YC 会迫使创始人失去人脉和同行认可的支撑，从零开始构建。
+这表明 YC 网络效应固然强大，但并非必不可少。事实上，对于最具雄心的创始人而言，Bookface 的封闭圈子反而可能成为一种负担——它让人只听得到圈内人的声音，看不到外部世界的机会。四个人离开了这张网，继续从零开始。康拉德则带着 Rippling 从正门走了回来。
 
 ### "反精英"的崛起
 
@@ -229,6 +226,8 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 5.  **Parker Conrad**:
     *   [SEC.gov: SEC Charges Zenefits and CEO](https://www.sec.gov/files/litigation/admin/2017/33-10429-s.pdf)
     *   [UC Berkeley Law: Zenefits and Parker Conrad Fined by SEC](https://sites.law.berkeley.edu/thenetwork/2017/11/11/sec-fines-zenefits-and-former-ceo-parker-conrad/)
+    *   [Axios: Why Parker Conrad went back to 'startup bootcamp'](https://www.axios.com/2017/12/15/why-parker-conrad-went-back-to-startup-bootcamp-1513301070)
+    *   [TechCrunch: Parker Conrad on rebuilding after Zenefits](https://techcrunch.com/2021/11/18/parker-conrad-i-like-working-with-people-who-have-a-chip-on-their-shoulder/)
     *   [Y Combinator: Parker Conrad interview](https://www.linkedin.com/posts/y-combinator_parker-conrad-is-co-founder-ceo-of-rippling-activity-7283498646292049920-M5Vh)
 6.  **Andrew Torba**:
     *   [Hacker News: Gab's founder, the Trump-supporting Andrew Torba, was also kicked out of Y-Combinator's network](https://news.ycombinator.com/item?id=15259708)
