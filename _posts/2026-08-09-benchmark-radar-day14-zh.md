@@ -10,6 +10,8 @@ tags: [benchmark-radar, feeds, reliability, production-qa, scheduling]
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 订阅源（feed，就是雷达每天去抓数据的新闻源头）覆盖面更广了。我们多接了一些第一方基准测试的源头，抓到的东西更全。你以后看到的清单会更多更全。
 
 我们加了一个过滤器，专门挡掉「赞助诱导内容」。说白了就是那些挂着基准测试名号、其实是来打广告的文章。这样你看到的都是真内容，不是软文。
@@ -43,3 +45,5 @@ OpenAI 简报（每天自动写的一份总结）现在有了重试预算。网�
 - Issue #175
 - Issue #176
 - Issue #177
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

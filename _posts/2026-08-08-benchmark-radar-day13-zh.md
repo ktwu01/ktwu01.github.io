@@ -9,6 +9,8 @@ tags: [benchmark-radar, dashboard, evidence-grounding, qa, openalex]
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 大家好，我是 Koutian。先说两个词。favicon 是浏览器标签页上那个小图标。OpenAlex 是一个收录论文和作者的数据库。证据溯源（evidence grounding）指的是每条结论都能追回到原始数据，你自己能去核对。
 
 第十三天做了这些。
@@ -46,3 +48,5 @@ OpenAlex 里空标题的问题修好了。
 - Issue #166
 - Issue #167
 - Issue #168
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

@@ -13,6 +13,8 @@ Hi, Koutian here. Day eighteen was a quiet day, and that was the point.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 The pipeline ran on its own and saved its daily snapshot. No code changed. No bugs got fixed. No features got added.
 
 
@@ -23,3 +25,5 @@ Not every day needs a new feature. A day where the pipeline runs clean, the snap
 Stability is the hardest thing to ship because you cannot see it. It is the absence of problems. It works quietly and you only notice it when it breaks. Day eighteen was invisible, and that is exactly what we wanted.
 
 Day nineteen: geospatial signals and vendor logos.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

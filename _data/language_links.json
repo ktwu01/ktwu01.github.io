@@ -314,15 +314,6 @@
       }
     ]
   },
-  "/posts/2026/02/YC-rebels/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2026/02/YC-rebels/"
-      }
-    ]
-  },
   "/posts/2026/02/ai-paper-collaboration-for-domain-experts/": {
     "variants": [
       {
@@ -2129,15 +2120,6 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/01/wispr-flow-product-vs-monetization/"
-      }
-    ]
-  },
-  "/zh/posts/2026/02/YC-rebels/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2026/02/YC-rebels/"
       }
     ]
   },

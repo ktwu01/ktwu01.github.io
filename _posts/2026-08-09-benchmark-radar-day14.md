@@ -14,6 +14,8 @@ The daily pipeline went from fragile to reliable. Day fourteen added more feeds,
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. The radar collects from a bunch of sources every day. We widened that net and then made sure nothing falls through the cracks.
 
 We added more first-party benchmark feeds, the ones the benchmark teams publish themselves, plus a few curated feeds for AI news. That means more benchmarks land in the daily scan without us hunting for them.
@@ -48,3 +50,5 @@ Issues addressed
 - collection method backfill for old snapshots
 
 Day fifteen: social media integration and daily post generation.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

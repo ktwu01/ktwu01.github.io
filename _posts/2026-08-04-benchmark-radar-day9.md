@@ -14,6 +14,8 @@ The leaderboard became a research workbench. Hi, Koutian here. Day nine added th
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 We added a benchmark adoption frontier. It is a chart that shows which benchmarks labs are picking up fastest across model card releases. It plots adoption speed against how mature each benchmark is.
 
 We built a score progression layer with 70 source-verified score observations. Each observation links to the exact model card or paper that reported it, down to the file and line. MMLU is one standard test of broad knowledge, and now you can watch GPT-4's MMLU score move across releases.
@@ -48,3 +50,5 @@ Issues addressed:
 - research workbench redesign
 
 Day ten: daily briefing, GPT radar insight, and launch preparation.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

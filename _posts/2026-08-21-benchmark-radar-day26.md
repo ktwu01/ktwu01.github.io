@@ -15,6 +15,8 @@ Day twenty-six of Benchmark Radar. We put the ranking where it belongs, made the
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A ranking is an ordered list from most to least. The Back button is the browser arrow that returns you to the last page. A frontier line is a stepped line that connects the best score seen so far. A stale banner is the warning shown when the page is out of date.
 
 PR #302 fixes four things on the same two pages, the leaderboard and the per-benchmark chart. First, the ranking now leads `?view=leaderboard`. It used to be the sixth block on the page, collapsed behind a method note, an evidence strip, a findings panel, a search box, and a 480px chart. Now you see a five-line summary first and the full 80-row table right under it. The table keeps its filter, its show-all toggle, and its collapsed default, so no link breaks. The ranking and the chart now agree by design: the chart opens on rank 1, which is GPQA Diamond, not on the newest instrument we happened to crawl.
@@ -49,3 +51,5 @@ Issues addressed
 - OpenAI quota surfaced on rate-limit errors
 
 Day twenty-seven: paging the Today list, halving a title, and naming 21 benchmarks correctly.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

@@ -9,6 +9,8 @@ tags: [benchmark-radar, rss, github-pages, subscriptions]
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 大家好，我是 Koutian。先说两个词。RSS 是一种订阅方式，你把它加到自己的阅读器里，有更新就会自动收到。GitHub Pages 是 GitHub 提供的免费网页托管，网站就挂在上面。
 
 第十二天做了这些。
@@ -22,3 +24,5 @@ RSS 是摩擦最小的订阅方式。它不用配邮件服务器，不用搭 web
 解决掉的 issue：
 
 - Issue #157
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

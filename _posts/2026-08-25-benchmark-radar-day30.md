@@ -15,6 +15,8 @@ Day thirty of Benchmark Radar. Thirty posts in, this log has become a live broad
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A star is a bookmark a GitHub user leaves on a repository, and the star count is the crudest measure of attention a project gets. A fork is a copy of the repository someone else owns. A badge is one of the small labeled images at the top of a README. A registry is the radar's master list of benchmarks.
 
 The scoreboard first. The repository went public on July 27. For its first four weeks it collected 33 stars, about one a day, while shipping something every single day. Then came 27 stars on August 24 and 26 more today, 53 in two days, for 86 total plus 17 forks. The goal this series now tracks in the open is 1,000. Nine hundred fourteen to go.
@@ -50,3 +52,5 @@ Issues addressed
 - scoreboard: 86 of 1,000 stars, 53 of them in the last two days
 
 Day thirty-one: a one-line summary on every release card.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

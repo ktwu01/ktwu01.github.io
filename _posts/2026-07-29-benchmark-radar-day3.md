@@ -13,6 +13,8 @@ A small day with two precise fixes that made the radar shareable.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. Today was quiet, but the two fixes made the tool much easier to share with other people.
 
 The scan date filter used to snap back to the old date after you picked a new one. We fixed it so the filter stays where you put it.
@@ -34,3 +36,5 @@ Issues addressed:
 - trend map full corpus representation
 
 Day four: history backfill, freshness banners, and the agentic taxonomy.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

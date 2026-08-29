@@ -15,6 +15,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做了什么
 
 PR #249 把今天视图的顺序调了过来。匹配到的结果排在最前面。每日简报和问答搬到了右边一栏。上方筛选栏收成一行小控件，点一下会展开更多筛选。
@@ -93,3 +95,5 @@ issue #259 把爬取任务收窄到 76 个数据密集的 llm-stats 基准。之
 - #277：列表为何为空
 
 第二十五天：分数落在它们所属的日期上，一个不再推荐自己的雷达。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

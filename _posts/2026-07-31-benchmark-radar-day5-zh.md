@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做的事
 
 我们把浏览器自带的提示框换成了自己做的悬浮卡片。它鼠标和触控板都能用，不会被高的柱子挡住。视障用户用屏幕阅读器也能读，屏幕阅读器是一种把屏幕内容念出来的软件。图表滚动时卡片跟着当前那一列走，按 Escape 键就能关掉。
@@ -44,3 +46,5 @@ tags:
 - #73：隐藏重复的报告表格
 
 明天：Hacker News 集成和定时雷达可靠性。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

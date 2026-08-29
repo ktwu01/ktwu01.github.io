@@ -14,6 +14,8 @@ The radar learned to remember. Day four added historical backfill, staleness det
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. Today the radar got a memory and a way to tell you when its data is stale.
 
 We added a command called `simulate-history`. It backfills old snapshots by replaying past collection runs. We generated four historical snapshots so the trend map finally has real history to draw.
@@ -42,3 +44,5 @@ Issues addressed:
 - #58: agentic taxonomy category
 
 Day five: trend chart hover cards and the benchmark landscape report.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

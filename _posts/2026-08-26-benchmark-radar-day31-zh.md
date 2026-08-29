@@ -15,6 +15,8 @@ Benchmark Radar 的第三十一天。每张发布卡片现在都带一行摘要�
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 发布卡片是某个基准新版本的条目。裸标签就是版本号本身，比如 `v1.11.0`，读者看不出这次改了什么。必填项是提交表单前必须填写的输入框。sighting 是雷达某次扫描中看到一条记录。
 
 PR #383 修复了把发布标题解析成裸标签的 bug。`modelscope/evalscope@v1.11.0` 之前被命名为 `v1.11.0`，卡片读起来像版本号而不是发布。PR #385 随后回填了剩余的 10 个裸标签标题，覆盖八个每日快照中的六个 EvalScope 和 MTEB 发布，并把所有修正和未来的记录打上 `github-releases/2` 标记，同时保留原始载荷哈希。现在每张发布卡片都有一行可扫读的摘要。
@@ -51,3 +53,5 @@ PR #400 是三个小的一致性修复：`.env.example` 补上每日工作流已
 - 记分牌：107 / 1000 星，20 个 fork
 
 第三十二天：一个发布没有任何二进制文件也能算采纳的排名。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

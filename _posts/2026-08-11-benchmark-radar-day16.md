@@ -14,6 +14,8 @@ Some benchmarks were counted wrong, and the dashboards were overwhelming. Day si
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. A leaderboard is just a public ranking of who scored best. Ours had a quiet bug, and the pages were too busy. We cleaned both up.
 
 Benchmarks adopted by only one model card were being under-counted. A model card is a short public sheet where a lab describes one of its AI models. The fix now counts them correctly, even when just one lab picked them up.
@@ -46,3 +48,5 @@ Issues addressed
 - #178: brand icons in frontier circles
 
 Day seventeen: audit hardening, masthead actions, and production polish.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

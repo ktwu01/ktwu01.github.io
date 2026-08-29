@@ -15,6 +15,8 @@ Day twenty-nine of Benchmark Radar. We ranked new releases before routine update
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A release is a brand-new benchmark that did not exist before. An update is a change to something we already listed, like a version bump or a new score. A 0 to 1 score and a 0 to 100 score can show the same value with a different ruler.
 
 PR #349 covers three linked fixes that shipped together as one release. The first is display scaling for the leaderboard. Crawled `llm-stats` scores are stored as 0 to 1, like 0.72, but the rest of the site speaks in 0 to 100. The chart geometry was already right, only the labels and the tooltip read off by a factor of 100. Now the display multiplies by 100, so 0.72 reads as 72, without changing the stored value or moving any point. A point at 72 on a 0 to 100 axis is still the same dot it was.
@@ -44,3 +46,5 @@ Issues addressed
 - #350: one shared active class for all nav items with ARIA and Rubric restore
 
 Day thirty: one-line release summaries for every card you scan.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

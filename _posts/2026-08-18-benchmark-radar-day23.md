@@ -15,6 +15,8 @@ Day twenty-three of Benchmark Radar. We started pulling in other people's benchm
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A leaderboard is a public ranking of who scored best. A "shard" is just a small data file. "Normalizing" means converting data into one common shape. Today the radar learned to read catalogs built by other projects and turn them into its own format.
 
 We built an external benchmark catalog. It reads catalogs from llm-stats and OpenCompass and converts them into the radar's internal format. Each source is crawled, split into per-benchmark files, and checked against an identity layer. You now get benchmarks we did not have to crawl ourselves.
@@ -62,3 +64,5 @@ Issues addressed
 ---
 
 That closes out the first 23 days of Benchmark Radar. We started from an empty repo and, every day for three weeks, shipped something: Chinese language support, AI-written briefings, social posts, and now external catalog normalization.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

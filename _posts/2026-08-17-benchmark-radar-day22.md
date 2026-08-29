@@ -15,6 +15,8 @@ Day twenty-two of Benchmark Radar. We locked down data integrity and opened up t
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 A "PR" is a proposed change to the code. An "issue" is a tracked to-do or bug. A "README" is the main info page for a project. We used all three a lot today.
 
 We protected the daily snapshots from stale runs. A stale run is old data from a delayed trigger. Before today, that old data could overwrite a newer snapshot. PR #235 fixes this, and we marked it P1, which means high priority for data integrity. This means the dashboard will not quietly replace good data with old data.
@@ -57,3 +59,5 @@ Issues addressed
 - Explore view simplified
 
 Day twenty-three: external catalog and leaderboard navigator.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

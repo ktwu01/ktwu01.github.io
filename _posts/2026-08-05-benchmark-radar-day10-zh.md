@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 大家好，我是 Koutian。先说几个词。token 是大模型处理文字的基本单位，它按 token 算字数，也按 token 计费。速率限制（rate limit）是 API 每分钟能处理的量有上限，超了就会报错。webhook 是一种自动通知，事件发生时会主动推给你。
 
 第十天做了这些。
@@ -66,3 +68,5 @@ OpenAI 的速率限制现在会处理了。碰到 API 报速率限制错误，�
 - #143：折叠简报证据详情
 
 第十一天：KW-Bench 能力层与社区发布。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

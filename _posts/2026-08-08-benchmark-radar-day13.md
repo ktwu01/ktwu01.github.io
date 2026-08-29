@@ -14,6 +14,8 @@ The radar now backs up every claim with a link. Day thirteen added evidence grou
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar is live.** Track new AI benchmarks, datasets, and leaderboards every day: [open the dashboard](https://ktwu01.github.io/benchmark-radar/) or [star it on GitHub](https://github.com/ktwu01/benchmark-radar).
+
 Hi, Koutian here. A leaderboard is just a public ranking of who scored best, and we have one. We spent the day making that ranking honest and easy to read.
 
 We gave the site an icon, finally. It is the small picture in your browser tab, and it makes the project feel real instead of a blank page.
@@ -47,3 +49,5 @@ Issues addressed
 - #168: click trajectory points for details
 
 Day fourteen: feed coverage, briefing reliability, and production Q&A.
+
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://ktwu01.github.io/benchmark-radar/) to explore the scans.

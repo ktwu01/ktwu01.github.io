@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做的事
 
 我们让雷达从 Hacker News 拉取和基准有关的讨论。这多了一条社区信号：一个基准在 HN 上被聊，说明真有实践者在用，而不只是学术圈在发论文。Hacker News 是一个技术爱好者扎堆的新闻社区。
@@ -47,3 +49,5 @@ arXiv 的加固同样重要。要是在某个安静的周日跑挂了一次，�
 - arXiv 空日处理
 
 第七天：模型卡采纳排行榜与注册表扩展。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。

@@ -14,6 +14,8 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
+**Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://ktwu01.github.io/benchmark-radar/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。
+
 今天做的事
 
 我们加了一个命令行命令，叫 simulate-history。它会假装过去的每一天都跑过一次采集，用来补出历史快照。我们用它生成了四个历史快照，趋势图这下有了真东西可画。
@@ -47,3 +49,5 @@ tags:
 - #58：agentic 分类
 
 明天：趋势图悬浮卡片和基准全景分析报告。
+
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://ktwu01.github.io/benchmark-radar/) 浏览扫描结果。
