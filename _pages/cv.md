@@ -32,29 +32,26 @@ Education
 
 Work Experience
 ======
-* **Research Intern, AI Data Trial** (Jul 2026 - Present)
+* **Research Intern, AI Data Trial** (Jul 2026 - Aug 2026)
   * Tencent Qingyun Talent Program (top-talent program), Tencent America
   * Built Benchmark Radar, a production-deployed open-source dashboard ranking which benchmarks frontier labs report, across 30+ curated documents from 10 organizations
   * Automated a daily snapshot pipeline that republishes the leaderboard without manual intervention; hardened the audit pipeline after a security/reliability review
   * Audited raw deliveries from AI training-data vendors against a per-task STEM coverage protocol, producing dated, reproducible reports
   * Ran a cross-benchmark vendor-classification audit across three review passes, reconciling a canonical benchmark sheet covering 11 vendor leads
 
-* **Core Founding Team Member** (Jan 2026 - Present)
+* **Core Founding Team Member** (Jan 2026 - Jul 2026)
   * Starting Point One (SP1), Remote
   * Sourced 100+ talents for Kehan Dong (CEO of SP1, ex-YC China Partner); sent 1,000+ outreach emails supporting post-investment hiring for Mira (raised $6.6M from General Catalyst)
 
-* **Graduate Research Assistant** (Aug 2025 - Present)
+* **Graduate Research Assistant** (Aug 2025 - May 2026)
   * Jackson School of Geosciences, University of Texas at Austin
   * AI for Noah-MP Land Surface Model: implementing rock and wood moisture into the Noah-MP land surface model
 
-* **Project Lead, High-Performance Computing Allocation** (Aug 2025 - Present)
+* **Project Lead, High-Performance Computing Allocation** (Aug 2025 - Aug 2026)
   * NSF NCAR, Remote
   * Proposed and secured NSF NCAR allocation: 1k GPU + 22k CPU hours.
   * Integrating machine learning parameter calibration for a SOTA physics-based land surface model (Noah-MP).
   * Developing a multi-expert AI agent system for automated parameterization of physics-based climate models.
-
-* **Research Assistant, ML Model/Multi-agent Development** (Aug 2025 - Jan 2026)
-  * UT Austin, Austin, TX
 
 * **Lead Developer, ESM-bench** (Dec 2025 - Present)
   * UT Austin
