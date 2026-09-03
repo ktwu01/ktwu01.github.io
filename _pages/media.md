@@ -1,16 +1,13 @@
 ---
 layout: archive
-title: "Media Coverage"
+title: "Media"
 permalink: /media/
 author_profile: true
 ---
 
-## Featured Media Coverage
+## Coverage
 
-### UT Austin LinkedIn Feature {#ut-austin-linkedin-feature}
-
-- **[The University of Texas at Austin Office of Graduate and Postdoctoral Studies](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8)** — *LinkedIn feature on my land-surface modeling research, teaching, science communication, and UT01 campus resource hub (August 26, 2026)*
-  - [Related post](/posts/2026/08/ut-austin-linkedin-feature/)
+- [UT Austin Office of Graduate and Postdoctoral Studies](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8) (August 26, 2026). My land-surface modeling research, teaching, science communication, and UT01. [Related post](/posts/2026/08/ut-austin-linkedin-feature/)
 
 <iframe
   src="https://www.linkedin.com/embed/feed/update/urn:li:share:7498454292794691586?collapsed=1"
@@ -22,51 +19,43 @@ author_profile: true
   title="UT Austin Office of Graduate and Postdoctoral Studies feature on Koutian Wu">
 </iframe>
 
-### Texas Coast & Research Media
+- [Using Eight Billion AI Personas for Psychology Research Has Its Ups and Downs](https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/) (Forbes, August 26, 2026). Coverage of MatrAIx, a study I coauthored.
 
-- **[Port Aransas South Jetty - How satellites and AI protect the Texas coast](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/)** — *Institute Insights feature on our UT team's satellite remote sensing and AI work for Texas coastal water quality (May 28, 2026)*
-  - [Related post](/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/)
+- [MatrAIx coverage by 机器之心](https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ). Coverage of a study I coauthored.
 
-### People's Daily & Major Chinese Media
+- [ASI-Bench coverage by 机器之心](https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ). Coverage of a benchmark I coauthored.
 
-- **[People's Daily Overseas Edition (人民日报海外版)](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html)** — *从"零"到"一" 破界创新 (From "Zero" to "One": Breaking Boundaries in Innovation)*
-   - [PDF](https://paper.people.com.cn/rmrbhwb/pc/attachement/202505/28/f3ee6c67-784e-4c9e-a94f-5f95bcc8ab59.pdf)
-   - [people.cn repost](http://sz.people.com.cn/n2/2025/0528/c202846-41242096.html) 
-  - [Tsinghua University Repost](http://tsinghua.edu.cn/info/1182/119191.htm)
+- [Port Aransas South Jetty](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/) (May 28, 2026). Satellites and AI for Texas coastal water quality. [Related post](/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/)
 
-- **[China Science Daily (中国科学报)](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm)** — *深圳零一学院：回到创新人才培养的"农业时代"*
-  - [Tsinghua University Repost](https://www.tsinghua.edu.cn/info/1182/110251.htm)
-  - [Sina Finance Repost](https://finance.sina.com.cn/tech/roll/2024-03-19/doc-inanvchv0363211.shtml)
+- [People's Daily Overseas Edition (人民日报海外版)](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html) (May 28, 2025). 从“零”到“一” 破界创新. [PDF](https://paper.people.com.cn/rmrbhwb/pc/attachement/202505/28/f3ee6c67-784e-4c9e-a94f-5f95bcc8ab59.pdf) · [people.cn](http://sz.people.com.cn/n2/2025/0528/c202846-41242096.html) · [Tsinghua University](http://tsinghua.edu.cn/info/1182/119191.htm)
 
-### Television & Video Features
+- [China Science Daily (中国科学报)](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm) (March 19, 2024). 深圳零一学院：回到创新人才培养的“农业时代”. [Tsinghua University](https://www.tsinghua.edu.cn/info/1182/110251.htm) · [Sina Finance](https://finance.sina.com.cn/tech/roll/2024-03-19/doc-inanvchv0363211.shtml)
 
-- **[Mango TV - Gold Rush 2026 (夺金2026)](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525)** — *Featured as Austin young founder in Episode 1*
+## Video
 
-- **[Starting Point One (SP1) startup documentary](https://www.bilibili.com/video/BV1yB7D6cEzd/?share_source=copy_web&vd_source=f6cb1d4d49fac24f8cbf7d78d9e52491)** — *Contributed to this documentary*
+- [Mango TV, *Gold Rush 2026* (夺金2026)](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525). Featured in Episode 1 as a young founder in Austin.
 
-### Shenzhen X-Institute (深圳零一学院) Features
+- [Starting Point One startup documentary](https://www.bilibili.com/video/BV1yB7D6cEzd/?share_source=copy_web&vd_source=f6cb1d4d49fac24f8cbf7d78d9e52491). Contributor.
 
-- **[他们是大学里的"异类"，却在这里遇到不想围绩点转的"同路人"（中国科学报）](https://mp.weixin.qq.com/s/ui7QcFRw4b4yABMvanQR_g)** — *China Science Daily feature (高教聚焦, Mar. 19, 2024) on how X-Institute convenes "X-type" talent. Profiles Koutian Wu's path from a struggling first-year to leading a 3D-chip heat-dissipation research project and becoming the first student to pass X-Institute's Senior Undergraduate Researcher Program defense*
+## Other mentions
 
-- **[教育变革的技术奇点时刻到来了吗？](https://mp.weixin.qq.com/s/5PdjLR-f7dPwozvgEFWQsg)** — *As a USTC student and X-Institute scholar, Koutian Wu shares his experiences at the Shenzhen X-Institute*
+- [他们是大学里的“异类”，却在这里遇到不想围绩点转的“同路人”](https://mp.weixin.qq.com/s/ui7QcFRw4b4yABMvanQR_g) (China Science Daily, March 19, 2024). My path from a difficult first year to leading a 3D-chip cooling project and completing X-Institute's Senior Undergraduate Researcher Program.
 
-- **[寻找X-学子说：吴叩天：从零到一、创造无限](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ)** — *Interview featuring Koutian Wu discussing his journey of innovation from zero to one*
+- [教育变革的技术奇点时刻到来了吗？](https://mp.weixin.qq.com/s/5PdjLR-f7dPwozvgEFWQsg). My experience at X-Institute as a USTC student.
 
-- **[拔尖创新人才联合培养系列研讨会](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg)** — *Invited to speak as student representative at Tsinghua University during a seminar on cultivating top innovative talents*
+- [寻找X-学子说：吴叩天：从零到一、创造无限](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ). Interview about research and building projects.
 
-### Academic & Research Features
+- [拔尖创新人才联合培养系列研讨会](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg). Invited student speaker at Tsinghua University.
 
-- **[Planetary Science (行星科学 公众号)](https://mp.weixin.qq.com/s/fF8_heipcfaUCRLDJk0tTw)** — *流星雷达观测中纬度流星速度和通量的时空分布特征研究 (Research on spatiotemporal distribution characteristics of meteor velocity and flux)*
+- [Planetary Science (行星科学)](https://mp.weixin.qq.com/s/fF8_heipcfaUCRLDJk0tTw). 流星雷达观测中纬度流星速度和通量的时空分布特征研究.
 
-### University & Cultural Activities
+- [USTC Library (中国科大图书馆)](https://mp.weixin.qq.com/s/IlDikI0OkhHFaNcfvo6i_g). Third prize in the 2020 campus calligraphy competition.
 
-- **[USTC Library (中国科大图书馆)](https://mp.weixin.qq.com/s/IlDikI0OkhHFaNcfvo6i_g)** — *Third prize winner in soft pen calligraphy competition at the 2020 4th Campus Student Calligraphy and Painting Competition*
+- [USTC Student Club Association (中国科学技术大学社团管指委)](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA). Founding of the Xingyun Poetry Club. The club's events and posts have reached 100,000+ views across platforms.
 
-- **[USTC Student Club Association (中国科学技术大学社团管指委)](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA)** — *云山起翰墨，星斗焕文章——贺星云诗社结社 (Coverage of the founding of the Xingyun Poetry Club)*
+- [瀚海奇点](https://mp.weixin.qq.com/s/dKZe-jx4EZsIChMkNvqR3Q). 2021 Science Fiction Night.
 
-- **[瀚海奇点 公众号](https://mp.weixin.qq.com/s/dKZe-jx4EZsIChMkNvqR3Q)** — *2021科幻之夜晚会 (Coverage of participation in the 2021 Science Fiction Night Gala)*
-
-- **[Linchuan No.1 Middle School (江西临川第一中学)](https://mp.weixin.qq.com/s/HnUK7p1CVrdTaererPiB4A)** — *春风育桃李 杏坛尽芳菲——中国科学技术大学给我校发来喜报 (Congratulatory report on admission to USTC)*
+- [Linchuan No. 1 Middle School](https://mp.weixin.qq.com/s/HnUK7p1CVrdTaererPiB4A). Congratulatory note on my admission to USTC.
 
 <!---
 
@@ -78,50 +67,44 @@ author_profile: true
 
 --->
 
-## Public Profiles & Sites
+## Profiles
 
-### Academic and professional profiles
+- [Publications](/publications/)
+- [Google Scholar](https://scholar.google.com/citations?user=s9w1k-cAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-8409-3579)
+- [Semantic Scholar](https://www.semanticscholar.org/author/Koutian-Wu/2325913235)
+- [ResearchGate](https://www.researchgate.net/profile/Koutian-Wu)
+- [Scopus](https://www.scopus.com/inward/authorDetails.url?authorID=59362866500&partnerID=MN8TOARS)
+- [LinkedIn](https://www.linkedin.com/in/ktwu01/)
+- [UT Jackson School](https://www.jsg.utexas.edu/student/koutian_wu/)
+- [GitHub](https://github.com/ktwu01)
+- [X](https://x.com/ktwu01)
+- [Instagram](https://www.instagram.com/ktwu01/)
+- [Science, Y'all!](https://www.jsg.utexas.edu/science-yall/about/)
 
-- **[Google Scholar](https://scholar.google.com/citations?user=s9w1k-cAAAAJ&hl=en)** — *Publications and citations*
-- **[ORCID](https://orcid.org/0000-0002-8409-3579)** — *Academic identifier*
-- **[Semantic Scholar](https://www.semanticscholar.org/author/Koutian-Wu/2325913235)** — *Author profile*
-- **[ResearchGate](https://www.researchgate.net/profile/Koutian-Wu)** — *Research profile*
-- **[Scopus](https://www.scopus.com/inward/authorDetails.url?authorID=59362866500&partnerID=MN8TOARS)** — *Author ID 59362866500*
-- **[LinkedIn](https://www.linkedin.com/in/ktwu01/)** — *Professional profile*
-- **[UT Jackson School profile](https://www.jsg.utexas.edu/student/koutian_wu/)** — *University profile*
-- **[GitHub](https://github.com/ktwu01)** — *Research and software projects*
-- **[X](https://x.com/ktwu01)** — *Public updates*
-- **[Instagram](https://www.instagram.com/ktwu01/)** — *Public profile*
-- **[Science, Y'all! About Page](https://www.jsg.utexas.edu/science-yall/about/)** — *Editorial board member*
+Also active on Xiaohongshu, WeChat and QQ.
 
--  Public profile links are listed above. Also active across Xiaohongshu, WeChat and QQ.
+## Projects
 
-### Websites and research projects
-
-- **[Academic website](https://koutian.is-a.dev/)** — *Research, publications and writing*
-- **[Personal site](https://ktwu01.github.io/)** — *Portfolio and blog*
-- **[Benchmark Radar](https://benchmark-radar.org/)** — *AI benchmark tracker*
-- **[ResearchSkills.ai](https://researchskills.ai/)** — *Scientific research skills registry*
-- **[MatrAIx](https://matraix.ai/)** — *Multi-agent simulation research*
-- **[ASI-Bench](https://asibench.apexin.ai/)** — *AI evaluation benchmark*
-- **[ResearchClawBench](https://internscience.github.io/ResearchClawBench-Home/)** — *Autonomous research benchmark*
-- **[UT01](https://ut01.github.io/)** — *UT Austin resource directory*
-- **[Earth-Space-AI](https://github.com/earth-space-ai)** — *Research organization*
-- **[Tacite](https://tacite.ai/)** — *Local-first AI assistant*
-- **[Crypto Dashboard](https://ktwu01.github.io/crypto-dashboard)** — *Crypto market dashboard*
-- **[AI-Polish](https://ktwu01.github.io/1AI-polish)** — *LLM text-processing demo*
+- [Academic website](https://koutian.is-a.dev/)
+- [Personal site](https://ktwu01.github.io/)
+- [Benchmark Radar](https://benchmark-radar.org/)
+- [ResearchSkills.ai](https://researchskills.ai/)
+- [MatrAIx](https://matraix.ai/)
+- [ASI-Bench](https://asibench.apexin.ai/)
+- [ResearchClawBench](https://internscience.github.io/ResearchClawBench-Home/)
+- [UT01](https://ut01.github.io/)
+- [Earth-Space-AI](https://github.com/earth-space-ai)
+- [Tacite](https://tacite.ai/)
+- [Crypto Dashboard](https://ktwu01.github.io/crypto-dashboard)
+- [AI-Polish](https://ktwu01.github.io/1AI-polish)
 
 
-## Awards & Recognition
+## Awards
 
-- **[USTC 2024 Outstanding Graduation Thesis Award](https://www.teach.ustc.edu.cn/wp-content/uploads/2024/06/%E6%95%99%E5%AD%97202418%E5%8F%B7-%E5%85%B3%E4%BA%8E%E6%8E%88%E4%BA%88%E5%BC%A0%E9%AA%90%E7%AD%8987%E5%90%8D%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E7%94%9F2024%E5%B9%B4%E5%BA%A6%E6%A0%A1%E7%BA%A7%E4%BC%98%E7%A7%80%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E5%A5%96%E7%9A%84%E5%86%B3%E5%AE%9A.pdf)** — *Official list of winners*
+- [USTC 2024 Outstanding Graduation Thesis Award](https://www.teach.ustc.edu.cn/wp-content/uploads/2024/06/%E6%95%99%E5%AD%97202418%E5%8F%B7-%E5%85%B3%E4%BA%8E%E6%8E%88%E4%BA%88%E5%BC%A0%E9%AA%90%E7%AD%8987%E5%90%8D%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E7%94%9F2024%E5%B9%B4%E5%BA%A6%E6%A0%A1%E7%BA%A7%E4%BC%98%E7%A7%80%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E5%A5%96%E7%9A%84%E5%86%B3%E5%AE%9A.pdf). Official list.
 
-- **[USTC 2023 Undergraduate Research Plan Outstanding Award](https://www.teach.ustc.edu.cn/wp-content/uploads/2023/12/202333%E5%8F%B7-%E5%85%B3%E4%BA%8E%E6%8E%88%E4%BA%88%E8%94%A1%E6%AD%A3%E6%B5%A9%E7%AD%8919%E5%90%8D%E5%90%8C%E5%AD%A6%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A0%94%E7%A9%B6%E8%AE%A1%E5%88%92%E6%A0%A1%E7%BA%A7%E4%BC%98%E7%A7%80%E5%A5%96%E5%86%B3%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)** — *Official list of winners*
-
-## Research Publications
-
-- **[探索空间奥秘，开启科研之旅](https://www.sjdz.org.cn/cn/article/doi/10.19975/j.dqyxx.2023-019?viewType=HTML)** — *2022年空间科学与技术专业实践教育后记*
-  - [ProQuest Version](https://www.proquest.com/openview/7fe1b9fe96844e22e0c553aa62e9b2fa/1.pdf?pq-origsite=gscholar&cbl=6840769)
+- [USTC 2023 Undergraduate Research Plan Outstanding Award](https://www.teach.ustc.edu.cn/wp-content/uploads/2023/12/202333%E5%8F%B7-%E5%85%B3%E4%BA%8E%E6%8E%88%E4%BA%88%E8%94%A1%E6%AD%A3%E6%B5%A9%E7%AD%8919%E5%90%8D%E5%90%8C%E5%AD%A6%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A0%94%E7%A9%B6%E8%AE%A1%E5%88%92%E6%A0%A1%E7%BA%A7%E4%BC%98%E7%A7%80%E5%A5%96%E5%86%B3%E5%AE%9A%E7%9A%84%E9%80%9A%E7%9F%A5.pdf). Official list.
 
 ---
 
