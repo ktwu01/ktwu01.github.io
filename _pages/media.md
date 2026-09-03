@@ -67,23 +67,50 @@ author_profile: true
 - **[瀚海奇点 公众号](https://mp.weixin.qq.com/s/dKZe-jx4EZsIChMkNvqR3Q)** — *2021科幻之夜晚会 (Coverage of participation in the 2021 Science Fiction Night Gala)*
 
 - **[Linchuan No.1 Middle School (江西临川第一中学)](https://mp.weixin.qq.com/s/HnUK7p1CVrdTaererPiB4A)** — *春风育桃李 杏坛尽芳菲——中国科学技术大学给我校发来喜报 (Congratulatory report on admission to USTC)*
-<!-- 
-## Search Results & Verification
 
-### Official Search Links
+<!---
+
+## Search Results & Verification: Official Search Links
 
 - **[People.com.cn Search Results](https://www.google.com/search?q=%22%E5%90%B4%E5%8F%A9%E5%A4%A9%22+site:people.com.cn)** — *Google search results for Koutian Wu on the People's Daily website*
 
-- **[Tsinghua.edu.cn Search Results](https://www.google.com/search?q=%22%E5%90%B4%E5%8F%A9%E5%A4%A9%22+site:tsinghua.edu.cn)** — *Google search results for Koutian Wu on the Tsinghua University website* -->
+- **[Tsinghua.edu.cn Search Results](https://www.google.com/search?q=%22%E5%90%B4%E5%8F%A9%E5%A4%A9%22+site:tsinghua.edu.cn)** — *Google search results for Koutian Wu on the Tsinghua University website*
 
-## Academic Profiles & Verification
+--->
+
+## Public Profiles & Sites
+
+### Academic and professional profiles
 
 - **[Google Scholar](https://scholar.google.com/citations?user=s9w1k-cAAAAJ&hl=en)** — *Publications and citations*
 - **[ORCID](https://orcid.org/0000-0002-8409-3579)** — *Academic identifier*
+- **[Semantic Scholar](https://www.semanticscholar.org/author/Koutian-Wu/2325913235)** — *Author profile*
 - **[ResearchGate](https://www.researchgate.net/profile/Koutian-Wu)** — *Research profile*
+- **[Scopus](https://www.scopus.com/inward/authorDetails.url?authorID=59362866500&partnerID=MN8TOARS)** — *Author ID 59362866500*
 - **[LinkedIn](https://www.linkedin.com/in/ktwu01/)** — *Professional profile*
-- **[UT Austin JSG People Directory](https://www.jsg.utexas.edu/people/)** — *Official directory listing*
+- **[UT Jackson School profile](https://www.jsg.utexas.edu/student/koutian_wu/)** — *University profile*
+- **[GitHub](https://github.com/ktwu01)** — *Research and software projects*
+- **[X](https://x.com/ktwu01)** — *Public updates*
+- **[Instagram](https://www.instagram.com/ktwu01/)** — *Public profile*
 - **[Science, Y'all! About Page](https://www.jsg.utexas.edu/science-yall/about/)** — *Editorial board member*
+
+-  Public profile links are listed above. Also active across Xiaohongshu, WeChat and QQ.
+
+### Websites and research projects
+
+- **[Academic website](https://koutian.is-a.dev/)** — *Research, publications and writing*
+- **[Personal site](https://ktwu01.github.io/)** — *Portfolio and blog*
+- **[Benchmark Radar](https://benchmark-radar.org/)** — *AI benchmark tracker*
+- **[ResearchSkills.ai](https://researchskills.ai/)** — *Scientific research skills registry*
+- **[MatrAIx](https://matraix.ai/)** — *Multi-agent simulation research*
+- **[ASI-Bench](https://asibench.apexin.ai/)** — *AI evaluation benchmark*
+- **[ResearchClawBench](https://internscience.github.io/ResearchClawBench-Home/)** — *Autonomous research benchmark*
+- **[UT01](https://ut01.github.io/)** — *UT Austin resource directory*
+- **[Earth-Space-AI](https://github.com/earth-space-ai)** — *Research organization*
+- **[Tacite](https://tacite.ai/)** — *Local-first AI assistant*
+- **[Crypto Dashboard](https://ktwu01.github.io/crypto-dashboard)** — *Crypto market dashboard*
+- **[AI-Polish](https://ktwu01.github.io/1AI-polish)** — *LLM text-processing demo*
+
 
 ## Awards & Recognition
 
@@ -98,4 +125,4 @@ author_profile: true
 
 ---
 
-*Last updated: August 2026*
+*Last updated: September 2026*
