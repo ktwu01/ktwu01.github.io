@@ -1,23 +1,23 @@
 {% assign media_page = site.pages | where: 'permalink', '/media/' | first %}
 <section class="home-media" aria-labelledby="home-media-title">
-  <div class="home-media__heading">
-    <div><p class="home-media__eyebrow">In the spotlight</p><h2 id="home-media-title">Stories beyond the lab<span aria-hidden="true">.</span></h2></div>
-    <a class="home-media__archive" href="{{ '/media/' | relative_url }}">All media <span aria-hidden="true">↗</span></a>
-  </div>
-  <p class="home-media__intro">Selected profiles, press, and television appearances, alongside coverage of research I coauthored.</p>
-  <div class="media-deck" role="region" aria-roledescription="carousel" aria-label="Featured media" tabindex="0">
-    <div class="media-deck__stage">
+  <div class="home-media__heading"><h2 id="home-media-title">Media</h2><a href="{{ '/media/' | relative_url }}">All coverage <span aria-hidden="true">↗</span></a></div>
+  <p class="home-media__intro">Selected features and coverage of research I coauthored.</p>
+  <div class="news-deck" role="region" aria-roledescription="carousel" aria-label="Featured media">
+    <div class="news-stage"><div class="news-track">
       {% for item in media_page.featured_media %}
-      <a class="media-card media-card--{{ item.tone }}" href="{{ item.url | escape }}" aria-label="{{ item.outlet | escape }}: {{ item.title | escape }}">
-        <div class="media-card__art" aria-hidden="true"><span class="media-card__edition">{{ item.kind }}</span><span class="media-card__masthead">{{ item.masthead }}</span><span class="media-card__index">{{ forloop.index | prepend: '0' }} / {{ forloop.length }}</span><span class="media-card__seal">KW</span></div>
-        <div class="media-card__body"><p class="media-card__outlet">{{ item.outlet }}</p><h3>{{ item.title }}</h3><p class="media-card__description">{{ item.description }}</p><div class="media-card__footer"><span>{{ item.date_label }}</span><span aria-hidden="true">↗</span></div></div>
+      <a class="news-card" data-tone="press" href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">
+        <div class="news-card__img">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | escape }}" loading="lazy" width="800" height="500">
+          <span class="news-card__badge"><img src="{{ item.logo | relative_url }}" alt="{{ item.outlet | escape }}" loading="lazy"></span>
+        </div>
+        <div class="news-card__body">
+          <p class="news-card__meta"><span class="news-card__kind">{{ item.kind }}</span><span class="news-card__source">{{ item.outlet }}</span></p>
+          <h3>{{ item.title }}</h3>
+          <p class="news-card__note">{{ item.description }}</p>
+          <p class="news-card__foot"><span class="news-card__date">{{ item.date_label }}</span><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 16 16 8m0 0H9.5M16 8v6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></p>
+        </div>
       </a>
       {% endfor %}
-    </div>
-    <div class="media-deck__controls" hidden>
-      <button type="button" data-media-prev aria-label="Previous media highlight">←</button>
-      <p class="media-deck__status" aria-live="polite" aria-atomic="true"></p>
-      <button type="button" data-media-next aria-label="Next media highlight">→</button>
-    </div>
+    </div></div>
   </div>
 </section>

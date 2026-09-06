@@ -47,7 +47,7 @@ the site to GitHub Pages on pushes to `main`.
 
 The homepage is a curated view of the `featured_media` front matter in that same file, rendered by `_includes/home-media.html`. Its coverflow presentation lives in `assets/css/home-media.css` and `assets/js/home-media.js`; it must not replace or remove archive listings. Keep each highlight consistent with its archive entry.
 
-The visual direction is inspired by [AmberLJC’s news deck](https://github.com/AmberLJC/AmberLJC.github.io/commit/6e229f2fb045ba154b46190b62b018b383e50ec4), implemented here with original typography-based cards and manual navigation.
+The image-led coverflow styling and motion are adapted from [AmberLJC’s news deck](https://github.com/AmberLJC/AmberLJC.github.io/commit/6e229f2fb045ba154b46190b62b018b383e50ec4), including its screenshot panels, floating outlet badges, 3D positioning, arrow controls, pagination dots, and automatic sliding. Local adaptations add theme colors, an explicit pause button, and reduced-motion support. Screenshots, publisher images, and outlet marks are stored in `images/media/`; their source links and descriptions remain in `_pages/media.md`.
 
 ## Blog Posts
 
