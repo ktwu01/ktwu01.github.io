@@ -51,7 +51,7 @@ redirect_from:
   }
 </style>
 
-A researcher and founder working on AI for Science.
+<!-- A researcher and founder working on AI for Science. -->
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
