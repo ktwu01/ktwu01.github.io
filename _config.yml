@@ -28,7 +28,7 @@ author:
   bio              : "AI4Sci PhD @ UT-Austin. ex-Undergrad @ USTC."
   location         : "Austin, TX, US"
   employer         : "University of Texas at Austin"
-  uri              : "https://ktwu01.github.io"
+  uri              : # "https://ktwu01.github.io"
   email            : "ktwugoat@gmail.com"
 
   # Academic websites
@@ -36,7 +36,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=s9w1k-cAAAAJ"
   impactstory      : # URL
-  orcid            : # Add your ORCID if you have one
+  orcid            : 0000-0002-8409-3579
   semantic         : # URL
   pubmed           : # Add your PubMed profile if you have one
   researchgate     : # URL
