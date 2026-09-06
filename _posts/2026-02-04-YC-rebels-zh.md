@@ -56,16 +56,13 @@ YC 校友的身份是一种强大的群体标志。一些被移出社群的创�
 
 ### 1. 布雷克·尤尼茨（Breck Yunits）：被驱逐的吹哨人
 
-尤尼茨（Yunits）是个典型的黑客：痴迷于真理、数据可视化和更好的系统（Scrolling/Tree Notation）。YC 欣赏他这种不受约束的极客精神和重构世界的野心。他是那种不仅想改变产品，还想改变游戏规则的人。
+尤尼茨（Yunits）是个典型的黑客：痴迷于真理、数据可视化和更好的系统（Scrolling/Tree Notation）。这种不受约束的极客精神，正合 YC 对创始人的想象。但一个总想改进系统的人，很难同意 YC 自己的规则就不必再问了。
 
-但问题来了：当这种重构的欲望指向 YC 自身的商业模式时，它就不再被欣赏了。让尤尼茨被 YC 看中的理想主义，转向 YC 的利益分配和内部规则后，也就变成了威胁。
+到 [2022 年 12 月](https://news.ycombinator.com/item?id=34044696)，他已经在公开谈论自己被 Bookface 封禁。被踢出去之后，他继续批评 YC。
 
-尤尼茨的[《Carry》提案](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to/)主张让 YC 同批创始人分享 YC 的 carry，也就是基金管理者从投资利润中获得的分成。他认为，真正为 YC 创造长期价值的是同批创始人，他们也应该分享收益。简单说，他想重新分蛋糕。
+2024 年 9 月，他把问题问到了 YC 的收益分配上。他的[《Carry》提案](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to/)主张，同批创始人应该要求分享 YC 的 carry，也就是基金管理者从投资利润中拿走的分成。他的理由很直接：创始人给 YC 创造了长期价值，为什么不能分享基金的收益？
 
-尤尼茨不仅提出了重新分配利益的《Carry》提案，还公开批评 Hacker News 的算法审查机制。他不能忍受一个标榜开放的社区存在隐秘的操纵。
-
-紧张局势最终演变为彻底决裂。尤尼茨越来越公开地批评他认为 Hacker News 上的审查制度。他认为该平台操纵帖子的可见度，以偏袒 YC 支持的观点并压制异议。
-在 Reddit 上关于 YC 内部文化的讨论中，尤尼茨（发帖人为 breck）发表了措辞严厉的批评：
+他对 Hacker News 的不满更直接。在同一篇 Reddit 讨论中，尤尼茨（发帖人为 breck）指责平台操纵帖子的可见度、压制对 YC 的批评。他甚至把 Bookface 改叫 Dickface：
 
 > “我根本不在乎被 Dickface 踢出去。真正让我恼火的是 Hacker News 持续不断的审查，以及他们日常进行的其他审查。我不是要求他们给我的内容点赞，而是要求他们允许我的内容被点踩。他们如此害怕人们读到我写的东西，恰恰说明他们是一群多么胆小的懦夫。”
 >
@@ -73,25 +70,27 @@ YC 校友的身份是一种强大的群体标志。一些被移出社群的创�
 
 ![YC-kickoff-breck](/images/yc-rebels/YC-kickoff-breck.png)
 
-这次是一个真正的冲突：尤尼茨不仅仅是违反了规则，他攻击的是机构的勇气和正直。
+他连被读者点踩都愿意，争的是让读者先看到。一个标榜开放的平台，总该让读者自己判断对它的批评。
 
-YC 的回应是全方面的：尤尼茨说，自己被踢出 Bookface、被官方 @ycombinator Twitter 账号屏蔽，也无法向 @ycombinator.com 地址发送邮件。他在同一篇 [Reddit 讨论](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to/)中描述了这三件事。
+尤尼茨在同一篇讨论中还说，自己被官方 @ycombinator Twitter 账号屏蔽，也无法向 @ycombinator.com 地址发邮件。一个被移出内部社区的人，继续追问这个社区在公共讨论里有多大权力。
 
-在尤尼茨看来，这种强力封锁表明，他被归类为敌对分子，而不仅仅是一个行为不端的校友。对于机构而言，一个即使是出于善意但不可控的内部批评者，比外部竞争对手更危险。
+YC 赞美创始人挑战规则，尤尼茨连 YC 的规则也要挑战。这样的反骨，招人的时候很迷人，相处起来就未必了。
 
-### 2. 保罗·比加尔（Paul Biggar）：疫苗排队泄密者
+### 2. 保罗·比加尔（Paul Biggar）：宁可得罪自己人
 
-比加尔（Biggar）是CircleCI和Darklang的创始人，一直是个透明文化的倡导者。YC 鼓励创始人要诚实、直接，别整那些公关辞令。在早期，这种坦率确实是建立信任的基石。
+比加尔是 CircleCI 的联合创始人，也是如今 [Tech for Palestine](https://techforpalestine.org/team) 的创始人兼首席执行官。把疫苗插队风波和他后来的巴勒斯坦倡议放在一起看，这个人有个一贯的脾气：事情不对，做事的人跟自己多熟、帮过自己多少，都不能成为闭嘴的理由。
 
-但问题来了：当这种坦率指向自己人时，情况就变了。YC 欣赏他对事实的执着和打破常规的极客精神，但当他将社区内部的特权行为（插队打疫苗）公之于众时，这种坦率就变成了对圈子的背叛。
+YC 鼓励创始人诚实、直接，少说公关话。可坦率也有让圈子难堪的时候。
 
-2021 年 3 月，一位 YC 创始人在 Bookface 内部论坛上发帖，分享如何绕过疫苗接种资格限制，并向其他创始人提供插队建议。这些策略包括谎报自身情况或利用县级预约网站的漏洞。比加尔认为这是严重的道德败坏和科技精英特权的体现，于是在推特上描述了这件事。[TechCrunch 报道](https://techcrunch.com/2021/06/09/does-what-happens-at-yc-stay-at-yc/)，值得注意的是，他并未发布截屏或任何可识别当事人的信息。
+2021 年 3 月，一位 YC 创始人在 Bookface 上发帖，分享如何绕过疫苗接种资格限制，还向其他创始人传授插队的办法。这些策略包括谎报自身情况或利用县级预约网站的漏洞。比加尔看不惯这种特权行为，便在推特上说了这件事。他没有发截图，也没有公开当事人的身份。[TechCrunch 报道](https://techcrunch.com/2021/06/09/does-what-happens-at-yc-stay-at-yc/)，YC 以向外分享 Bookface 内部信息为由，将他移出了 Bookface。
 
-对于 YC 而言，这可能不仅是一次泄密，更是对社区内部保密文化的公然违背。Bookface 的第一规则是：Bookface 上发生的事，必须留在 Bookface。
+Bookface 的规矩很明确：内部信息不得向外分享。可当内部信息变成了教人插队打疫苗的教程，保密究竟在保护什么？YC 要求守住社区边界，比加尔把公众健康排在了前面。
 
 ![Paul Biggar Tweet](/images/yc-rebels/paul_biggar_tweet.png)
 
-比加尔把公众健康和道德责任置于社群保密规则之上。这在某种意义上是最高尚的品格，但在 YC 这样的校友网络中，这是最不可饶恕的罪行。YC 则表示，移除他的原因是向社群外部分享了 Bookface 内部信息。
+两年多后，他把同样的质问带到了更大的圈子里。2023 年 12 月，他发表[《I Can’t Sleep》](https://blog.paulbiggar.com/i-cant-sleep/)，批评科技行业领导者和投资人在加沙战争中的沉默与辩护，其中就有投资过他、扶持过他的人。他在文中点名宣布，以后不会再向这些人融资，也不再替他们介绍人脉。
+
+此后，他创立并领导 Tech for Palestine，继续为巴勒斯坦发声。Bookface 一事没有成为他收敛的理由。他愿意为自己认定的是非得罪人，也愿意继续为此做事。
 
 ### 3. 凯蒂娅·达默（Ekaterina "Katia" Damer）：性别之战
 
@@ -164,8 +163,8 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 
 但五个“YC叛徒”的故事并不是同一种悖论：
 
-- **尤尼茨（Breck Yunits）**：因独立思考吸引 YC，却在把这种独立用来挑战 YC 后被驱逐
-- **比加尔（Paul Biggar）**：因极度透明吸引YC，却因泄露机密而被驱逐
+- **尤尼茨（Breck Yunits）**：被移出 Bookface 后继续追问，YC 的收益该怎么分，公开讨论该由谁说了算
+- **比加尔（Paul Biggar）**：把疫苗插队的事说到圈外，被 YC 以违反保密规则为由移出 Bookface
 - **达默（Katia Damer）**：因挑战现状吸引 YC，却在挑战性别歧视后被移出 Bookface
 - **康拉德（Parker Conrad）**：经历合规丑闻后创业复出，并得到 YC 公开重新接纳
 - **托尔巴（Andrew Torba）**：因言论自由吸引YC，却因网络喷子而被驱逐
@@ -173,7 +172,7 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 然而，对他们中的任何人来说，无论是被剔除、遭遇声誉危机，还是与 YC 分道扬镳，都没有终止他们之后的事业：
 
 - 康拉德创建了一家更大的公司（Rippling）
-- 比加尔成为该行业的道德代言人（Darklang）
+- 比加尔创立并领导 Tech for Palestine，继续为巴勒斯坦发声
 - 达默打造了市场领导者（Prolific）
 - 尤尼茨保持了他的思想纯洁性（树状图）
 - 托尔巴将 Gab 建成了一个备受争议的平行平台
@@ -212,15 +211,21 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 
 被精英阶层边缘化不是终点，而可能是新起点。真正的叛逆者不会被系统打败，他们会创造新的系统。有时候，被踢出局反而是最好的开始。
 
+**Thanks** to Breck Yunits, Paul Biggar, Yuxuan Cao, Xiangliu, Chonghao Su and Sean Xiang for reading drafts of this.
+
+
 ## 参考资料
 
 1.  **Paul Graham**:
     *   [What We Look for in Founders](http://www.paulgraham.com/founders.html)
 2.  **Breck Yunits**:
+    *   [Hacker News：Breck 于 2022 年 12 月 18 日谈及被 Bookface 封禁](https://news.ycombinator.com/item?id=34044696)
     *   [Reddit: My advice to everyone in accelerators](https://www.reddit.com/r/startups/comments/1fas00y/my_advice_to_everyone_in_accelerators_advice_to_yc/)
 3.  **Paul Biggar**:
     *   [Gadgets 360: Y Combinator 'Kicked Out' Founder for Jumping COVID-19 Vaccine Queue](https://gadgets360.com/internet/news/y-combinator-yc-kick-off-fire-entrepreneur-founder-jumping-covid-19-vaccine-queue-coronavirus-2458848)
     *   [TechCrunch: Does what happens at YC stay at YC?](https://techcrunch.com/2021/06/09/does-what-happens-at-yc-stay-at-yc/)
+    *   [Paul Biggar：《I Can’t Sleep》（2023 年 12 月）](https://blog.paulbiggar.com/i-cant-sleep/)
+    *   [Tech for Palestine：团队与董事会](https://techforpalestine.org/team)
 4.  **Katia Damer**:
     *   [TechCrunch: Does what happens at YC stay at YC?](https://techcrunch.com/2021/06/09/does-what-happens-at-yc-stay-at-yc/)
 5.  **Parker Conrad**:
