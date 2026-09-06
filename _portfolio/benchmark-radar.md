@@ -18,7 +18,7 @@ The hand-curated Model Card Adoption Rank answers a narrow question: which AI be
 - Self-generated star-history chart published to its own branch, so every growth claim is checkable
 
 ## Status
-Open source (MIT), v0.8.0, 117+ stars. Built as part of my AI Data Trial research internship at Tencent.
+Open source (MIT), v0.8.0, 117+ stars.
 
 ## Links
 - **Live dashboard**: [https://benchmark-radar.org/](https://benchmark-radar.org/)

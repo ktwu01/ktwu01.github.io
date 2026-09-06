@@ -30,15 +30,15 @@
       }
     ]
   },
-  "work": [
+  "awards": [
     {
-      "company": "Tencent",
-      "position": "Research Intern, AI Data Trial (Benchmark Radar)",
-      "website": "https://github.com/ktwu01/benchmark-radar",
-      "startDate": "2026-07-01",
-      "endDate": "",
-      "summary": "Built Benchmark Radar, a production-deployed open-source dashboard ranking which benchmarks frontier labs report, across 30+ curated documents from 10 organizations. Automated a daily snapshot pipeline; audited AI training-data vendor deliveries against a per-task STEM coverage protocol; ran a cross-benchmark vendor-classification audit reconciling a canonical benchmark sheet."
-    },
+      "title": "Hunyuan AI Data & Evaluation Offer",
+      "date": "2026-08",
+      "awarder": "Tencent Qingyun Talent Program",
+      "summary": "Received Tencent Qingyun Talent Program: Hunyuan AI Data & Evaluation Offer | Aug. 2026"
+    }
+  ],
+  "work": [
     {
       "company": "Jackson School of Geosciences, The University of Texas at Austin",
       "position": "Graduate Research Assistant",

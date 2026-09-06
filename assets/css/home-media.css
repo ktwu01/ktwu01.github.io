@@ -1,0 +1,37 @@
+/* Original implementation inspired by AmberLJC's news coverflow (see README). */
+.home-media { margin: 2.5rem 0; padding: 1.6rem 0; border-block: 1px solid var(--global-border-color); }
+.home-media__heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.home-media .home-media__eyebrow { margin: 0 0 .5rem; font: 600 .65rem/1.4 monospace; letter-spacing: .18em; text-transform: uppercase; }
+.home-media h2 { margin: 0; padding: 0; border: 0; font-size: clamp(1.45rem, 3vw, 2rem); letter-spacing: -.045em; }
+.home-media h2 span { color: #c06637; }
+.home-media__archive { flex-shrink: 0; font-size: .75rem; }
+.home-media .home-media__intro { max-width: 38rem; margin: .8rem 0 1.2rem; font-size: .8rem; opacity: .8; }
+.media-deck { outline-offset: 5px; }
+.media-deck__stage { display: flex; gap: 1rem; overflow-x: auto; padding: 1rem .5rem 2rem; scroll-snap-type: x mandatory; }
+.home-media .media-card { --ink: #99421a; --paper: #f6ddc3; flex: 0 0 min(310px, 85%); color: var(--global-text-color); background: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 18px; overflow: hidden; text-decoration: none; scroll-snap-align: center; box-shadow: 0 16px 30px -24px #0008; }
+.home-media .media-card--blue { --ink: #254e73; --paper: #d4e5ef; }
+.home-media .media-card--red { --ink: #9f2c2e; --paper: #f5dbd7; }
+.home-media .media-card--purple { --ink: #674485; --paper: #e7ddf1; }
+.home-media .media-card--green { --ink: #315e4d; --paper: #dce8d7; }
+.media-card__art { height: 180px; position: relative; display: flex; flex-direction: column; justify-content: space-between; padding: 22px; color: var(--ink); background: radial-gradient(ellipse at 100% 0, #fff9, transparent 70%), var(--paper); overflow: hidden; }
+.media-card__art::after { content: ''; position: absolute; width: 210px; height: 210px; border: 1px solid currentColor; border-radius: 50%; right: -90px; bottom: -145px; box-shadow: 0 0 0 18px #ffffff30, 0 0 0 36px #ffffff30; }
+.media-card__edition, .media-card__index { font: .55rem/1.4 monospace; text-transform: uppercase; letter-spacing: .15em; }
+.media-card__masthead { font: bold 2.1rem/.95 Georgia, serif; letter-spacing: -.06em; max-width: 230px; }
+.media-card__seal { position: absolute; right: 20px; bottom: 17px; font: italic 1.1rem Georgia, serif; }
+.media-card__body { padding: 20px; display: flex; flex-direction: column; min-height: 242px; }
+.home-media .media-card__outlet { margin: 0; font: 600 .6rem/1.5 monospace; }
+.home-media .media-card h3 { margin: 10px 0; font-size: 1rem; line-height: 1.3; letter-spacing: -.025em; }
+.home-media .media-card__description { margin: 0 0 18px; font-size: .72rem; line-height: 1.6; }
+.media-card__footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; font: .6rem/1.5 monospace; }
+.media-card__footer span:last-child { font-size: 1.1rem; }
+.media-deck.is-ready .media-deck__stage { display: block; position: relative; overflow: hidden; perspective: 1100px; touch-action: pan-y; scroll-snap-type: none; }
+.media-deck.is-ready .media-card { position: absolute; width: var(--media-card-width, 310px); top: 20px; left: 50%; transform-origin: center; transition: transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; }
+.media-deck.is-ready .media-card.is-active { box-shadow: 0 24px 38px -22px #0006; }
+.media-deck__controls { display: flex; justify-content: center; align-items: center; gap: 1rem; }
+.media-deck__controls[hidden] { display: none; }
+.media-deck__controls button { width: 44px; height: 44px; padding: 0; border: 1px solid var(--global-border-color); border-radius: 50%; background: var(--global-bg-color); color: var(--global-text-color); cursor: pointer; }
+.media-deck__controls button:hover { border-color: var(--global-text-color); }
+.home-media .media-deck__status { margin: 0; width: 14rem; text-align: center; font: .6rem/1.5 monospace; }
+.home-media :focus-visible { outline: 3px solid var(--global-link-color); outline-offset: 4px; }
+@media (max-width: 480px) { .home-media__heading { align-items: flex-start; } .home-media__archive { font-size: .65rem; } .media-card__art { height: 160px; } .media-deck__controls { gap: .5rem; } }
+@media (prefers-reduced-motion: reduce) { .media-deck.is-ready .media-card { transition: none; } }

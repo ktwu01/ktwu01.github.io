@@ -1,0 +1,23 @@
+{% assign media_page = site.pages | where: 'permalink', '/media/' | first %}
+<section class="home-media" aria-labelledby="home-media-title">
+  <div class="home-media__heading">
+    <div><p class="home-media__eyebrow">In the spotlight</p><h2 id="home-media-title">Stories beyond the lab<span aria-hidden="true">.</span></h2></div>
+    <a class="home-media__archive" href="{{ '/media/' | relative_url }}">All media <span aria-hidden="true">↗</span></a>
+  </div>
+  <p class="home-media__intro">Selected profiles, press, and television appearances, alongside coverage of research I coauthored.</p>
+  <div class="media-deck" role="region" aria-roledescription="carousel" aria-label="Featured media" tabindex="0">
+    <div class="media-deck__stage">
+      {% for item in media_page.featured_media %}
+      <a class="media-card media-card--{{ item.tone }}" href="{{ item.url | escape }}" aria-label="{{ item.outlet | escape }}: {{ item.title | escape }}">
+        <div class="media-card__art" aria-hidden="true"><span class="media-card__edition">{{ item.kind }}</span><span class="media-card__masthead">{{ item.masthead }}</span><span class="media-card__index">{{ forloop.index | prepend: '0' }} / {{ forloop.length }}</span><span class="media-card__seal">KW</span></div>
+        <div class="media-card__body"><p class="media-card__outlet">{{ item.outlet }}</p><h3>{{ item.title }}</h3><p class="media-card__description">{{ item.description }}</p><div class="media-card__footer"><span>{{ item.date_label }}</span><span aria-hidden="true">↗</span></div></div>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="media-deck__controls" hidden>
+      <button type="button" data-media-prev aria-label="Previous media highlight">←</button>
+      <p class="media-deck__status" aria-live="polite" aria-atomic="true"></p>
+      <button type="button" data-media-next aria-label="Next media highlight">→</button>
+    </div>
+  </div>
+</section>

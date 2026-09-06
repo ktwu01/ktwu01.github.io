@@ -81,6 +81,17 @@
   </div>
   {% endif %}
   
+  {% if cv.awards.size > 0 %}
+  <div class="cv-section">
+    <h2>Offers &amp; Recognition</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">{{ award.summary | escape }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">

@@ -41,6 +41,14 @@ Open `http://localhost:4000`.
 GitHub Actions runs the blog linter and tests on push, and builds and deploys
 the site to GitHub Pages on pushes to `main`.
 
+## Media Coverage
+
+**All listings in `/media/` (`_pages/media.md`) are the source of truth for media coverage.** Preserve the complete archive, including press, video, and other mentions, when changing the homepage presentation. Add or update coverage there first.
+
+The homepage is a curated view of the `featured_media` front matter in that same file, rendered by `_includes/home-media.html`. Its coverflow presentation lives in `assets/css/home-media.css` and `assets/js/home-media.js`; it must not replace or remove archive listings. Keep each highlight consistent with its archive entry.
+
+The visual direction is inspired by [AmberLJC’s news deck](https://github.com/AmberLJC/AmberLJC.github.io/commit/6e229f2fb045ba154b46190b62b018b383e50ec4), implemented here with original typography-based cards and manual navigation.
+
 ## Blog Posts
 
 Source filenames:

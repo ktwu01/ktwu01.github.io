@@ -2,6 +2,7 @@
 permalink: /
 title: "👋 Hi, I’m Koutian (<ruby>吴叩天<rp>(</rp><rt>Wú Kòu Tiān</rt><rp>)</rp></ruby>)"
 author_profile: true
+featured_media: true
 redirect_from:
   - /about/
   - /about.html
@@ -66,17 +67,13 @@ I am a researcher and founder working on AI agent for Science.
 
 * I have a hamster named ASI, and I hope he lives to see artificial superintelligence.
 
-*Featured by [UT Austin Graduate Studies](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8), [People's Daily](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html), [Tsinghua News](http://tsinghua.edu.cn/info/1182/119191.htm), [China Science Daily](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm), [Port Aransas South Jetty](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/), and [Mango TV](https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525).*
-
-*Research I coauthored has also been covered by [Forbes (US)](https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/) and 机器之心 (Synced): [MatrAIx](https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ) and [ASI-Bench](https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ). See more in [Media Coverage](/media/).*
+{% include home-media.html %}
 
 Contributed to the [Starting Point One (SP1) documentary](https://www.bilibili.com/video/BV1yB7D6cEzd/?share_source=copy_web&vd_source=f6cb1d4d49fac24f8cbf7d78d9e52491).
 
 ## NEWS
 
-* [UT Austin's Office of Graduate and Postdoctoral Studies featured my research, teaching, and science communication on LinkedIn](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8). [Read my post](/posts/2026/08/ut-austin-linkedin-feature/) or view the feature in [Media Coverage](/media/#ut-austin-linkedin-feature).
-
-* I co-authored three August 2026 preprints with international collaborators: [MatrAIx](https://arxiv.org/abs/2608.04205), a population-scale simulated-user infrastructure of 8.3 billion persona agents that drew press coverage in [Forbes (US)](https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/), [机器之心 (Synced)](https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ), [NZZ am Sonntag](https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/die-ki-vermessung-der-menschheit-unsere-acht-milliarden-doppelgaenger-ld.10019342), [Numerama](https://www.numerama.com/tech/2308727-ces-chercheurs-ont-cree-83-milliards-dhumains-virtuels-pour-tester-des-produits-a-notre-place.html), and [WIRED Czech](https://www.wired.cz/news-beat/harvard-a-mit-vytvorily-ai-simulaci-obsahujici-83-miliardy-virtualnich-lidi) and was featured on [Hugging Face Daily Papers](https://huggingface.co/papers/2608.04205); [MicroVerse](https://arxiv.org/abs/2608.15844), an instrument measuring identity drift in long-horizon multi-agent simulations; and [ASI-Bench](https://arxiv.org/abs/2608.17271), 60 research-grade tasks across 11 scientific domains, also covered by [机器之心 (Synced)](https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ).
+* I co-authored three August 2026 preprints with international collaborators: [MatrAIx](https://arxiv.org/abs/2608.04205), a population-scale simulated-user infrastructure of 8.3 billion persona agents; [MicroVerse](https://arxiv.org/abs/2608.15844), an instrument measuring identity drift in long-horizon multi-agent simulations; and [ASI-Bench](https://arxiv.org/abs/2608.17271), 60 research-grade tasks across 11 scientific domains.
 
 * I co-authored a peer-reviewed book chapter on the ethics of generative GeoAI in [Geography According to Foundation Models](https://ebooks.iospress.nl/doi/10.3233/FAIA260483) (IOS Press, 2026), writing the section on trust in AI and GeoAI models.
 
@@ -116,7 +113,7 @@ Contributed to the [Starting Point One (SP1) documentary](https://www.bilibili.c
 I am currently working as a Graduate Research Assistant at UT Austin and Project Admin for NCAR/CISL Allocation Project UTAA0012, "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions." This project is funded with significant computational resources including 1,000 GPU hours on NSF NCAR Derecho-GPU and 20,000 CPU core-hours.
 
 ### Recent Experience
-- **Research Intern, AI Data Trial** - Tencent (Jul 2026 - Present)
+- Received **Tencent Qingyun Talent Program: Hunyuan AI Data & Evaluation Offer** | Aug. 2026
 - **Graduate Research Assistant** - Jackson School of Geosciences, UT Austin (Aug 2025 - Present)
 - **Project Lead** - NSF NCAR (Aug 2025 - Present)
 - **AI Agent Evaluation Engineer Intern** - PineAI (Jul 2025)

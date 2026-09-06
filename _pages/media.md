@@ -3,6 +3,79 @@ layout: archive
 title: "Media"
 permalink: /media/
 author_profile: true
+featured_media:
+  - outlet: "UT Austin Graduate Studies"
+    masthead: "UT Austin"
+    title: "Research, teaching & a life in science"
+    description: "My land-surface modeling research, teaching, science communication, and UT01."
+    kind: "Profile"
+    date_label: "August 26, 2026"
+    url: "https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8"
+    tone: "orange"
+  - outlet: "Forbes (US)"
+    masthead: "Forbes"
+    title: "Eight billion AI personas. Real research questions."
+    description: "Coverage of MatrAIx, a study I coauthored, and its uses and limitations for psychology research."
+    kind: "Research coverage"
+    date_label: "August 26, 2026"
+    url: "https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/"
+    tone: "blue"
+  - outlet: "People’s Daily"
+    masthead: "People’s Daily"
+    title: "From zero to one"
+    description: "Featured in the Overseas Edition’s coverage of innovation and education."
+    kind: "Press"
+    date_label: "May 28, 2025"
+    url: "http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html"
+    tone: "red"
+  - outlet: "Tsinghua News"
+    masthead: "Tsinghua"
+    title: "Breaking boundaries in education"
+    description: "Tsinghua University’s republication of the People’s Daily feature."
+    kind: "Press"
+    date_label: "May 28, 2025"
+    url: "http://tsinghua.edu.cn/info/1182/119191.htm"
+    tone: "purple"
+  - outlet: "China Science Daily"
+    masthead: "Science Daily"
+    title: "Growing the next generation of innovators"
+    description: "Coverage of Shenzhen X-Institute and its approach to nurturing research talent."
+    kind: "Press"
+    date_label: "March 19, 2024"
+    url: "https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm"
+    tone: "green"
+  - outlet: "Port Aransas South Jetty"
+    masthead: "South Jetty"
+    title: "How satellites and AI protect the Texas coast"
+    description: "Satellites, artificial intelligence, and coastal water quality."
+    kind: "Press"
+    date_label: "May 28, 2026"
+    url: "https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/"
+    tone: "blue"
+  - outlet: "Mango TV"
+    masthead: "Mango TV"
+    title: "A young founder in Austin"
+    description: "Featured in Episode 1 of Gold Rush 2026. Watch from my appearance."
+    kind: "Television"
+    date_label: "Gold Rush 2026"
+    url: "https://youtu.be/1tyDh6d85og?si=G7zP7SBsipOaIBWD&t=1525"
+    tone: "orange"
+  - outlet: "机器之心 (Synced)"
+    masthead: "Synced"
+    title: "MatrAIx: a world of persona agents"
+    description: "Coverage of the population-scale simulation research I coauthored."
+    kind: "Research coverage"
+    date_label: "MatrAIx"
+    url: "https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ"
+    tone: "purple"
+  - outlet: "机器之心 (Synced)"
+    masthead: "Synced"
+    title: "ASI-Bench: research-grade challenges for AI"
+    description: "Coverage of the benchmark I coauthored: 60 tasks across 11 scientific domains."
+    kind: "Research coverage"
+    date_label: "ASI-Bench"
+    url: "https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ"
+    tone: "green"
 ---
 
 ## Coverage
@@ -32,6 +105,14 @@ author_profile: true
 - [People's Daily Overseas Edition (人民日报海外版)](http://paper.people.com.cn/rmrbhwb/pc/content/202505/28/content_30075905.html) (May 28, 2025). 从“零”到“一” 破界创新. [PDF](https://paper.people.com.cn/rmrbhwb/pc/attachement/202505/28/f3ee6c67-784e-4c9e-a94f-5f95bcc8ab59.pdf) · [people.cn](http://sz.people.com.cn/n2/2025/0528/c202846-41242096.html) · [Tsinghua University](http://tsinghua.edu.cn/info/1182/119191.htm)
 
 - [China Science Daily (中国科学报)](https://news.sciencenet.cn/htmlnews/2024/3/519447.shtm) (March 19, 2024). 深圳零一学院：回到创新人才培养的“农业时代”. [Tsinghua University](https://www.tsinghua.edu.cn/info/1182/110251.htm) · [Sina Finance](https://finance.sina.com.cn/tech/roll/2024-03-19/doc-inanvchv0363211.shtml)
+
+### More coverage of MatrAIx
+
+- [Forbes Türkiye](https://www.forbes.com.tr/saglik/hastaya-dokunmadan-once-8-3-milyar-kez-denemek-sagligin-yeni-test-dunyasi-matraix)
+- [NZZ am Sonntag](https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/die-ki-vermessung-der-menschheit-unsere-acht-milliarden-doppelgaenger-ld.10019342)
+- [Numerama](https://www.numerama.com/tech/2308727-ces-chercheurs-ont-cree-83-milliards-dhumains-virtuels-pour-tester-des-produits-a-notre-place.html)
+- [WIRED Czech](https://www.wired.cz/news-beat/harvard-a-mit-vytvorily-ai-simulaci-obsahujici-83-miliardy-virtualnich-lidi)
+- [Hugging Face Daily Papers](https://huggingface.co/papers/2608.04205)
 
 ## Video
 
