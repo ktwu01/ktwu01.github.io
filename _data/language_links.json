@@ -1718,6 +1718,33 @@
       }
     ]
   },
+  "/posts/2026/08/benchmark-radar-day34/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day34/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day35/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day35/"
+      }
+    ]
+  },
+  "/posts/2026/08/benchmark-radar-day36/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/08/benchmark-radar-day36/"
+      }
+    ]
+  },
   "/posts/2026/08/benchmark-radar-day6/": {
     "variants": [
       {
@@ -1814,6 +1841,51 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/08/ut-austin-linkedin-feature/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day37/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day37/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day38/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day38/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day39/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day39/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day40/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day40/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day41/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day41/"
       }
     ]
   },
@@ -3545,6 +3617,33 @@
       }
     ]
   },
+  "/zh/posts/2026/08/benchmark-radar-day34/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day34/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day35/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day35/"
+      }
+    ]
+  },
+  "/zh/posts/2026/08/benchmark-radar-day36/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/08/benchmark-radar-day36/"
+      }
+    ]
+  },
   "/zh/posts/2026/08/benchmark-radar-day6/": {
     "variants": [
       {
@@ -3641,6 +3740,51 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/08/ut-austin-linkedin-feature/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day37/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day37/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day38/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day38/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day39/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day39/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day40/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day40/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day41/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day41/"
       }
     ]
   },
