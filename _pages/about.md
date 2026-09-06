@@ -14,6 +14,14 @@ redirect_from:
 <!-- For social meadia count, see /Users/kw35262/Library/Mobile Documents/com~apple~CloudDocs/0KWCV/吴叩天简历_KOL校园大使_中科大本科_UTAustin博士在读_copy/README.md -->
 
 <style>
+  .quick-facts-more {
+    margin-bottom: 1.5rem;
+  }
+
+  .quick-facts-more > summary {
+    cursor: pointer;
+  }
+
   .home-priority-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -49,23 +57,28 @@ I am a researcher and founder working on AI agent for Science.
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
-* I founded [earth-space-ai.org](https://earth-space-ai.org) to democratize Earth and space sciences modeling with AI, covering 8 domains from Earth-system models to heliophysics.
-
-* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), after starting as a research novice.
-
 * I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
 
 * I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
 
-* I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
-
-<!-- * I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge. -->
-
 * I am a [contributor to Git](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa), the version control system used by virtually every software project in the world.
+
+* I have a hamster named ASI, and I hope he lives to see Artificial Super Intelligence.
+
+<details class="quick-facts-more" markdown="1">
+<summary>click to expand</summary>
+
+* I founded [earth-space-ai.org](https://earth-space-ai.org) to democratize Earth and space sciences modeling with AI, covering 8 domains from Earth-system models to heliophysics.
+
+* I earned the First Honor Graduate distinction at [Shenzhen X-Institute](https://mp.weixin.qq.com/s/NnHevjfUSDETgGEAHVtnkQ), after starting as a research novice.
+
+* I published an SCI paper shortly after graduation, overcoming a starting point of minimal technical skills.
 
 * I contribute to open-source repositories totaling 100K+ stars (git/git, multica, ai-agent-book, AionUi, harbor) and made 10K+ GitHub contributions in the last year.
 
-* I have a hamster named ASI, and I hope he lives to see artificial superintelligence.
+<!-- * I co-founded [tacite.ai](https://tacite.ai) with a $2M+ USD valuation, building the venture from zero business knowledge. -->
+
+</details>
 
 {% include home-media.html %}
 
