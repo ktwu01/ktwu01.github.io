@@ -1,0 +1,220 @@
+/* A living, procedural water garden. Content and layout remain site-owned. */
+html.monet-site {
+  --monet-paper: #f7f5ed;
+  --monet-paper-rgb: 247, 245, 237;
+  --monet-ink: #253d36;
+  --monet-muted: #53675e;
+  --monet-green: #446b5a;
+  --monet-blue: #315e68;
+  --monet-lilac: #d9d0e3;
+  --monet-line: rgba(65, 94, 84, .22);
+  --global-base-color: #446b5a;
+  --global-bg-color: #f7f5ed;
+  --global-footer-bg-color: #e7eadd;
+  --global-border-color: #cbd4c7;
+  --global-dark-border-color: #9eafa0;
+  --global-code-background-color: #edf0e5;
+  --global-code-text-color: #253d36;
+  --global-fig-caption-color: #53675e;
+  --global-link-color: #315e68;
+  --global-link-color-hover: #254c40;
+  --global-link-color-visited: #605779;
+  --global-masthead-link-color: #253d36;
+  --global-masthead-link-color-hover: #446b5a;
+  --global-text-color: #253d36;
+  --global-text-color-light: #53675e;
+  --global-thead-color: #e3e9dc;
+  --pf-title: #315e68;
+  --pf-accent: #7c6942;
+  --pf-panel-bg: rgba(251, 249, 240, .88);
+  --pf-panel-line: #cbd4c7;
+  --pf-fig-bg: #fdfcf6;
+  --pf-muted: #53675e;
+  background: var(--monet-paper);
+}
+
+/* Keep the existing theme switch, with a moonlit pond for its dark setting. */
+html.monet-site[data-theme="dark"] {
+  --monet-paper: #172d2a;
+  --monet-paper-rgb: 23, 45, 42;
+  --monet-ink: #edeedf;
+  --monet-muted: #b9c9bc;
+  --monet-green: #aac7a9;
+  --monet-blue: #acd2d7;
+  --monet-lilac: #bdb3d2;
+  --monet-line: rgba(176, 203, 181, .24);
+  --global-base-color: #446b5a;
+  --global-bg-color: #172d2a;
+  --global-footer-bg-color: #1e3630;
+  --global-border-color: #435e51;
+  --global-dark-border-color: #627e69;
+  --global-code-background-color: #213c33;
+  --global-code-text-color: #e0e9cf;
+  --global-fig-caption-color: #b9c9bc;
+  --global-link-color: #acd2d7;
+  --global-link-color-hover: #d0e4c4;
+  --global-link-color-visited: #c7bedb;
+  --global-masthead-link-color: #edeedf;
+  --global-masthead-link-color-hover: #b9d8b8;
+  --global-text-color: #edeedf;
+  --global-text-color-light: #b9c9bc;
+  --global-thead-color: #2c463c;
+  --pf-title: #acd2d7;
+  --pf-accent: #d5c393;
+  --pf-panel-bg: rgba(27, 51, 44, .92);
+  --pf-panel-line: #435e51;
+  --pf-fig-bg: #213c33;
+  --pf-muted: #b9c9bc;
+  color-scheme: dark;
+}
+
+.monet-site body { isolation: isolate; background: transparent; }
+.monet-background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 88% 28%, #b9c9bf, transparent 52%),
+    radial-gradient(ellipse at 20% 85%, #b3b9d1, transparent 48%),
+    linear-gradient(125deg, #e4e4d9, #adc5cb 60%, #b4c2b4);
+}
+.monet-background canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.8s ease;
+}
+.monet-background canvas[data-ready="true"] { opacity: 1; }
+.monet-site[data-theme="dark"] .monet-background { filter: brightness(.48) saturate(.75); }
+
+/* Washes behind the reading columns leave the outer painting visible. */
+.monet-site body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    rgba(var(--monet-paper-rgb), .25),
+    rgba(var(--monet-paper-rgb), .78) 16%,
+    rgba(var(--monet-paper-rgb), .95) 32%,
+    rgba(var(--monet-paper-rgb), .95) 76%,
+    rgba(var(--monet-paper-rgb), .36));
+}
+.monet-academic .masthead {
+  background: rgba(var(--monet-paper-rgb), .91);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 4px 22px rgba(31, 60, 47, .04);
+}
+.monet-academic .masthead::after { background: var(--monet-line); }
+.monet-academic :is(.greedy-nav, .masthead__menu-item) { background: transparent; }
+.monet-academic .greedy-nav .hidden-links {
+  background: var(--monet-paper);
+  border-color: var(--global-border-color);
+  box-shadow: 0 12px 32px rgba(31, 60, 47, .15);
+}
+.monet-academic .greedy-nav .hidden-links::after { border-color: var(--monet-paper) transparent; }
+.monet-academic .greedy-nav a::before { background: var(--monet-green); }
+.monet-academic .page__footer {
+  background: rgba(var(--monet-paper-rgb), .88);
+  border-color: var(--monet-line);
+}
+.monet-academic :is(h1, h2, h3, h4, h5, h6, .author__name) { color: var(--monet-ink); }
+.monet-academic .author__avatar img {
+  border-color: var(--global-dark-border-color);
+  background: rgba(var(--monet-paper-rgb), .7);
+  box-shadow: 0 8px 30px rgba(31, 60, 47, .12);
+}
+.monet-academic .author__urls i { color: var(--monet-muted); }
+.monet-academic a { text-decoration-thickness: 1px; text-underline-offset: .16em; }
+.monet-academic :is(.page__content, .archive) { overflow-wrap: anywhere; }
+.monet-academic .page__title ruby { white-space: nowrap; }
+.monet-academic :is(a, button, summary, input, select, textarea):focus-visible {
+  outline: 2px solid var(--monet-blue);
+  outline-offset: 4px;
+}
+.monet-academic ::selection { color: #253d36; background: #d9d0e3; }
+.monet-academic :is(.btn--primary, .btn--inverse, .cv-header-nav .home-button) {
+  color: #fffdf3 !important;
+  background: #446b5a;
+  border-color: #446b5a;
+}
+.monet-academic :is(.btn--primary, .btn--inverse, .cv-header-nav .home-button):hover { background: #315343; }
+.monet-academic :is(.toc, .pagination--pager, .author__urls) { background-color: var(--monet-paper); }
+.monet-academic :is(.page__language-switcher, blockquote) { border-color: var(--global-dark-border-color); }
+.monet-academic :is(input, textarea, select) {
+  color: var(--monet-ink);
+  background-color: var(--monet-paper);
+  border-color: var(--global-dark-border-color);
+}
+.monet-academic .home-media { --amber: var(--monet-green); }
+.monet-academic .news-card { background: var(--monet-paper); border-color: var(--global-border-color); }
+.monet-academic .news-card.is-active {
+  border-color: var(--global-dark-border-color);
+  box-shadow: 0 26px 48px -28px rgba(31, 60, 47, .38);
+}
+.monet-academic .news-card[data-tone="press"] { --seam: #948451; }
+.monet-academic .news-card[data-tone="talk"] { --seam: #628d91; }
+.monet-academic .news-card[data-tone="event"] { --seam: #728e67; }
+.monet-academic .news-dots button { background: var(--global-dark-border-color); }
+.monet-academic .news-dots button.is-active { background: var(--monet-green); }
+.monet-academic .pf-num { background: #315e68; }
+.monet-academic .pf-key__label { color: #fffdf3; background: #7c6942; }
+.monet-academic .pf-card__media { background: #315e68; }
+
+/* The alternate CV has its own stylesheet; these selectors keep it in theme. */
+.monet-academic .cv-container { color: var(--monet-ink); }
+.monet-academic :is(.cv-header h1, .cv-section h2, .cv-profile-item a) { color: var(--monet-blue); }
+.monet-academic :is(.cv-skill-category h3, .cv-interest h3) { color: var(--monet-ink); }
+.monet-academic :is(.cv-section h2 i, .cv-item-date, .cv-item-subtitle, .cv-language-fluency, .cv-references) { color: var(--monet-muted); }
+.monet-academic :is(.cv-header, .cv-section h2, .cv-header-nav, .cv-download-links) { border-color: var(--global-border-color); }
+.monet-academic :is(.cv-skill-keyword, .cv-project-keyword, .cv-interest-keyword) {
+  color: var(--monet-ink);
+  background: var(--global-code-background-color);
+}
+
+@media (min-width: 925px) {
+  .monet-academic .author__urls { background: transparent; }
+}
+@media (max-width: 924px) {
+  .monet-site body::before {
+    background: linear-gradient(90deg, rgba(var(--monet-paper-rgb), .86),
+      rgba(var(--monet-paper-rgb), .95) 16%, rgba(var(--monet-paper-rgb), .92) 85%,
+      rgba(var(--monet-paper-rgb), .77));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .monet-background canvas { transition: none; }
+  .monet-academic :is(.masthead, #main, .page__footer) { animation: none; }
+  .monet-academic :is(a, button, p, span, h1, h2, h3, img) { transition: none; }
+}
+@media print {
+  .monet-background, .monet-site body::before { display: none; }
+  html.monet-site, html.monet-site[data-theme="dark"] {
+    --monet-paper: #fff;
+    --monet-ink: #222;
+    --monet-muted: #444;
+    --monet-blue: #315e68;
+    --global-text-color: #222;
+    --global-bg-color: #fff;
+    --global-border-color: #d4d8d0;
+    --global-dark-border-color: #adb5a6;
+    --global-fig-caption-color: #444;
+    --global-text-color-light: #444;
+    --global-code-background-color: #f3f3f3;
+    --global-code-text-color: #222;
+    --global-link-color: #315e68;
+    --global-link-color-visited: #315e68;
+    --pf-panel-bg: #fff;
+    --pf-title: #315e68;
+    --pf-accent: #7c6942;
+    --pf-fig-bg: #f7f7f3;
+    --pf-muted: #444;
+    background: #fff;
+    color-scheme: light;
+  }
+  .monet-academic { background: #fff; color: #222; }
+}

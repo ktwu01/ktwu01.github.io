@@ -1,0 +1,224 @@
+/* First-party pages that do not use the shared Jekyll layout. Typography,
+   document geometry, slide navigation, and map content stay page-owned. */
+html.monet-slides {
+  --bg: #f7f5ed;
+  --bg-2: #eeefe5;
+  --fg: #253d36;
+  --fg-mute: #53675e;
+  --accent: #446b5a;
+  --accent-2: #315e68;
+  --bad: #8b4755;
+  --good: #36624a;
+  --rule: #65603b;
+  --card: rgba(250, 249, 241, .87);
+  --line: rgba(65, 94, 84, .24);
+}
+
+html.monet-slides body {
+  background: transparent;
+  color: var(--fg);
+}
+
+html.monet-slides body::before {
+  background: linear-gradient(105deg,
+    rgba(247, 245, 237, .94) 0%,
+    rgba(247, 245, 237, .90) 42%,
+    rgba(247, 245, 237, .75) 74%,
+    rgba(247, 245, 237, .54) 100%);
+}
+
+html.monet-slides .cover,
+html.monet-slides .divider {
+  background: transparent;
+}
+
+html.monet-slides .topbar,
+html.monet-slides .footbar {
+  background: rgba(247, 245, 237, .94);
+  box-shadow: 0 0 20px rgba(247, 245, 237, .8);
+}
+
+html.monet-slides .card,
+html.monet-slides .q,
+html.monet-slides .pillar,
+html.monet-slides .badbox,
+html.monet-slides .map-cell,
+html.monet-slides .sheet .box {
+  box-shadow: 0 4px 22px rgba(37, 61, 54, .045);
+}
+
+html.monet-slides .card.bad {
+  border-color: rgba(139, 71, 85, .32);
+  background: linear-gradient(180deg, rgba(217, 190, 203, .24), transparent), var(--card);
+}
+
+html.monet-slides .card.good {
+  border-color: rgba(54, 98, 74, .32);
+  background: linear-gradient(180deg, rgba(190, 210, 187, .26), transparent), var(--card);
+}
+
+html.monet-slides .q.bad {
+  border-color: rgba(139, 71, 85, .32);
+}
+
+html.monet-slides .q.good {
+  border-color: rgba(54, 98, 74, .32);
+}
+
+html.monet-slides .q.bad .tag {
+  background: rgba(217, 190, 203, .35);
+}
+
+html.monet-slides .q.good .tag {
+  background: rgba(190, 210, 187, .4);
+}
+
+html.monet-slides .rule {
+  background: rgba(234, 229, 205, .74);
+}
+
+html.monet-slides .dialogue {
+  background: rgba(247, 245, 237, .82);
+}
+
+html.monet-slides .callout {
+  background: linear-gradient(135deg, rgba(202, 220, 225, .6), rgba(217, 208, 227, .55));
+  border-color: var(--line);
+}
+
+html.monet-slides .nav-btns button:hover,
+html.monet-slides .map-cell:hover {
+  background: rgba(217, 208, 227, .66);
+  border-color: var(--accent);
+}
+
+html.monet-slides :is(a, button, .map-cell):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+/* The report files also generate print documents. Their print palette and
+   page-break rules remain unchanged. */
+@media screen {
+  html.monet-report body {
+    color: #253d36;
+    background: transparent;
+    overflow-wrap: anywhere;
+  }
+
+  html.monet-report body::before {
+    background: linear-gradient(100deg,
+      rgba(247, 245, 237, .92),
+      rgba(247, 245, 237, .90) 60%,
+      rgba(247, 245, 237, .80));
+  }
+
+  html.monet-report h1,
+  html.monet-report .cover h1,
+  html.monet-report h2 {
+    color: #253d36;
+    border-bottom-color: #446b5a;
+  }
+
+  html.monet-report h3,
+  html.monet-report a {
+    color: #315e68;
+  }
+
+  html.monet-report h4 {
+    color: #66536e;
+  }
+
+  html.monet-report .cover .subtitle,
+  html.monet-report .cover .meta,
+  html.monet-report blockquote {
+    color: #53675e;
+  }
+
+  html.monet-report .cover .divider,
+  html.monet-report blockquote {
+    border-color: #446b5a;
+  }
+
+  html.monet-report blockquote {
+    background: rgba(233, 237, 224, .92);
+  }
+
+  html.monet-report strong,
+  html.monet-report b {
+    color: #253d36;
+  }
+
+  html.monet-report code {
+    color: #784659;
+    background: rgba(217, 208, 227, .58);
+  }
+
+  html.monet-report table {
+    background: rgba(247, 245, 237, .94);
+  }
+
+  html.monet-report thead th {
+    background: #446b5a;
+    color: #f7f5ed;
+  }
+
+  html.monet-report tbody tr:nth-child(even) {
+    background: rgba(202, 220, 225, .24);
+  }
+
+  html.monet-report tbody td,
+  html.monet-report hr {
+    border-color: rgba(65, 94, 84, .24);
+  }
+
+  html.monet-report a:hover {
+    color: #253d36;
+    text-decoration: underline;
+  }
+}
+
+html.monet-map body {
+  color: #253d36;
+  background: transparent;
+}
+
+html.monet-map #map {
+  max-width: calc(100vw - 22px);
+  border-color: rgba(65, 94, 84, .28);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(37, 61, 54, .1);
+}
+
+html.monet-map .leaflet-bar a,
+html.monet-map .leaflet-control-attribution,
+html.monet-map .leaflet-popup-content-wrapper,
+html.monet-map .leaflet-popup-tip {
+  color: #253d36;
+  background: #f7f5ed;
+}
+
+html.monet-map .leaflet-bar a:hover {
+  background: #d9d0e3;
+}
+
+html.monet-map .leaflet-container a {
+  color: #315e68;
+}
+
+html.monet-map .leaflet-bar,
+html.monet-map .leaflet-control-layers {
+  border-color: rgba(65, 94, 84, .28);
+  box-shadow: 0 2px 8px rgba(37, 61, 54, .14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.monet-slides .slide {
+    animation: none;
+  }
+
+  html.monet-slides .progress,
+  html.monet-slides .map-cell {
+    transition: none;
+  }
+}
