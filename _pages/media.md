@@ -7,6 +7,8 @@ author_profile: true
 
 ## Coverage
 
+<a id="ut-austin-linkedin-feature"></a>
+
 - [UT Austin Office of Graduate and Postdoctoral Studies](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8) (August 26, 2026). My land-surface modeling research, teaching, science communication, and UT01. [Related post](/posts/2026/08/ut-austin-linkedin-feature/)
 
 <iframe
@@ -19,11 +21,11 @@ author_profile: true
   title="UT Austin Office of Graduate and Postdoctoral Studies feature on Koutian Wu">
 </iframe>
 
-- [Using Eight Billion AI Personas for Psychology Research Has Its Ups and Downs](https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/) (Forbes, August 26, 2026). Coverage of MatrAIx, a study I coauthored.
+- [Using Eight Billion AI Personas for Psychology Research Has Its Ups and Downs](https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/) (Forbes US, Lance Eliot, August 26, 2026). Discusses [MatrAIx](/publication/2026-matraix-persona-agents), a study I coauthored, and the opportunities and limitations of using billions of AI personas for psychology research.
 
-- [MatrAIx coverage by 机器之心](https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ). Coverage of a study I coauthored.
+- [MatrAIx coverage by 机器之心 (Synced)](https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ). Covers [MatrAIx](/publication/2026-matraix-persona-agents), a study I coauthored, and its 8.3 billion persona agents for simulating diverse users and evaluating AI systems and digital products.
 
-- [ASI-Bench coverage by 机器之心](https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ). Coverage of a benchmark I coauthored.
+- [ASI-Bench coverage by 机器之心 (Synced)](https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ). Covers [ASI-Bench](/publication/2026-asi-bench), a benchmark I coauthored, with 60 research-grade tasks across 11 scientific domains for evaluating AI agents on scientific research.
 
 - [Port Aransas South Jetty](https://www.portasouthjetty.com/articles/how-satellites-and-ai-protect-the-texas-coast/) (May 28, 2026). Satellites and AI for Texas coastal water quality. [Related post](/posts/2026/06/port-aransas-south-jetty-satellites-ai-texas-coast/)
 

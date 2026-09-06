@@ -29,11 +29,12 @@ MatrAIx is a population-scale simulated-user evaluation infrastructure for testi
 
 ## Media Coverage
 
-Selected coverage and recognition, curated from the project's official release notes:
+Selected press coverage and research community recognition:
 
 **International press**
 
-- Forbes Türkiye: [Hastaya dokunmadan önce 8,3 milyar kez denemek: Sağlığın yeni test dünyası MatrAIx](https://www.forbes.com.tr/saglik/hastaya-dokunmadan-once-8-3-milyar-kez-denemek-sagligin-yeni-test-dunyasi-matraix)
+- Forbes (US): [Using Eight Billion AI Personas for Psychology Research Has Its Ups and Downs](https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/) — Lance Eliot, August 26, 2026. Discusses MatrAIx as a tool for psychology research, including the benefits of large-scale experiments and the limits of treating simulated personas as human subjects.
+- 机器之心 (Synced): [MatrAIx coverage](https://mp.weixin.qq.com/s/Hy-G4O5MoeGInAb40nS7iQ). Coverage of the project's 8.3 billion persona agents for simulating diverse users and evaluating AI systems and digital products.
 - NZZ am Sonntag: [Die KI-Vermessung der Menschheit: Unsere acht Milliarden Doppelgänger](https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/die-ki-vermessung-der-menschheit-unsere-acht-milliarden-doppelgaenger-ld.10019342)
 - Numerama (France): [Ces chercheurs ont créé 8,3 milliards d'humains virtuels pour tester des produits à notre place](https://www.numerama.com/tech/2308727-ces-chercheurs-ont-cree-83-milliards-dhumains-virtuels-pour-tester-des-produits-a-notre-place.html)
 - Infobae (Spain/Latin America): [Así prueba la IA un mundo con 8.300 millones de personas digitales: MatrAIx es el metaverso](https://www.infobae.com/tecno/2026/08/10/asi-prueba-la-ia-un-mundo-con-8300-millones-de-personas-digitales-matraix-es-el-metaverso/)
