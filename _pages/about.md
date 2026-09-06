@@ -51,15 +51,13 @@ redirect_from:
   }
 </style>
 
-I am a researcher and founder working on AI agent for Science.
-
-## Quick Facts
+A researcher and founder working on AI for Science.
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
 * I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
 
-* I returned to Tsinghua University to deliver a [lecture to 40+ teachers across the country](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
+* I returned to Tsinghua University to deliver a [lecture](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
 
 * I am a [contributor to Git](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa), the version control system used by virtually every software project in the world.
 
@@ -111,14 +109,14 @@ I am a researcher and founder working on AI agent for Science.
   </section>
 </div>
 
-## Current Work
+## Recent Work
 
-I am currently working as a Graduate Research Assistant at UT Austin and Project Admin for NCAR/CISL Allocation Project UTAA0012, "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions." This project is funded with significant computational resources including 1,000 GPU hours on NSF NCAR Derecho-GPU and 20,000 CPU core-hours.
+I am recently working as a Graduate Research Assistant at UT Austin and Project Admin for NCAR/CISL Allocation Project UTAA0012, "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions." This project is funded with computational resources including 1,000 GPU hours on NSF NCAR Derecho-GPU and 20,000 CPU core-hours.
 
 ### Recent Experience
-- Received **Tencent Qingyun Talent Program: Hunyuan AI Data & Evaluation Offer** | Aug. 2026
-- **Graduate Research Assistant** - Jackson School of Geosciences, UT Austin (Aug 2025 - Present)
-- **Project Lead** - NSF NCAR (Aug 2025 - Present)
+- Received **Tencent Hunyuan Qingyun Talent Program: AI Data & Evaluation Intern Offer** (Aug. 2026)
+- **Graduate Research Assistant** - Jackson School of Geosciences, UT Austin (Aug 2025 - Jan 2026)
+- **Project Lead** - NSF NCAR (Aug 2025 - Aug 2026)
 - **AI Agent Evaluation Engineer Intern** - PineAI (Jul 2025)
 - **Full-Stack LLM Developer Intern** - Beijing ZaiwenAI Technology Co., Ltd. (Jun 2025 - Jul 2025)
 - **Graduate Teaching Assistant** - UT Austin (Aug 2024 - May 2025)
