@@ -5,7 +5,7 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js monet-site"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CKNXVY1T2"></script>
@@ -21,7 +21,9 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="monet-academic">
+
+    {% include monet-background.html %}
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh">
+<html class="monet-site monet-slides" lang="zh">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -463,8 +463,11 @@
 
   .hidden { display: none !important; }
 </style>
+<link rel="stylesheet" href="/assets/css/monet.css">
+<link rel="stylesheet" href="/assets/css/monet-standalone.css">
 </head>
 <body>
+<div class="monet-background" aria-hidden="true"><canvas></canvas></div>
 
 <div class="progress" id="progress"></div>
 <div class="topbar">
@@ -1085,5 +1088,6 @@
   if (!isNaN(fromHash)) show(fromHash - 1); else show(0);
 </script>
 
+<script type="module" src="/assets/js/monet/index.js"></script>
 </body>
 </html>

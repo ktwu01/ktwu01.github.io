@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="monet-site monet-map">
 
 <head>
 	<title>Talk Locations Map</title>
@@ -14,9 +14,12 @@
 	<script src="leaflet_dist/leaflet.markercluster-src.js"></script>
 	<script src="org-locations.js?v=3"></script>
 
+<link rel="stylesheet" href="/assets/css/monet.css">
+<link rel="stylesheet" href="/assets/css/monet-standalone.css">
 </head>
 
 <body>
+<div class="monet-background" aria-hidden="true"><canvas></canvas></div>
 
 	<div id="map"></div>
 	<span>Mouse over a cluster to see the bounds of its children and click a cluster to zoom to those bounds</span>
@@ -41,6 +44,7 @@
 		map.addLayer(markers);
 		map.zoomIn();
 	</script>
+<script type="module" src="/assets/js/monet/index.js"></script>
 </body>
 
 </html>

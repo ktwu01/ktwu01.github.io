@@ -5,7 +5,7 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js monet-site">
   <head>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CKNXVY1T2"></script>
@@ -26,7 +26,8 @@ layout: compress
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cv-layout.css">
   </head>
 
-  <body class="cv-layout">
+  <body class="cv-layout monet-academic">
+    {% include monet-background.html %}
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 

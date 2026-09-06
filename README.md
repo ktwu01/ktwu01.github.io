@@ -41,6 +41,23 @@ Open `http://localhost:4000`.
 GitHub Actions runs the blog linter and tests on push, and builds and deploys
 the site to GitHub Pages on pushes to `main`.
 
+## Living Monet theme
+
+The site uses a procedural, animated water-garden background adapted from the
+Tacite `/test11` concept. It draws brush marks directly in WebGL; there is no
+painting image, video download, or additional runtime dependency. Existing
+content, typography, navigation, media, and page layouts are preserved.
+
+`assets/css/monet.css` owns the shared palette and reading surfaces, including
+the existing dark theme. `assets/js/monet/index.js` initializes the decorative
+canvas supplied by `_includes/monet-background.html`. Both shared layouts use
+it; standalone reports, slide decks, and the talk map also include the theme,
+with their surface overrides in `assets/css/monet-standalone.css`.
+
+The painting pauses in hidden tabs, becomes still with reduced motion enabled,
+and uses fewer brush marks on phones. A CSS color field remains when JavaScript
+or WebGL is unavailable. Print layouts hide the background.
+
 ## Media Coverage
 
 **All listings in `/media/` (`_pages/media.md`) are the source of truth for media coverage.** Preserve the complete archive, including press, video, and other mentions, when changing the homepage presentation. Add or update coverage there first.
