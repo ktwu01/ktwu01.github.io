@@ -1,7 +1,7 @@
 {% assign media_page = site.pages | where: 'permalink', '/media/' | first %}
 <section class="home-media" aria-labelledby="home-media-title">
   <div class="home-media__heading"><h2 id="home-media-title">Media</h2><a href="{{ '/media/' | relative_url }}">All coverage <span aria-hidden="true">↗</span></a></div>
-  <p class="home-media__intro">Selected features and coverage of research I coauthored.</p>
+  <!-- <p class="home-media__intro">Selected features and coverage of research I coauthored.</p> -->
   <div class="news-deck" role="region" aria-roledescription="carousel" aria-label="Featured media">
     <div class="news-stage"><div class="news-track">
       {% for item in media_page.featured_media %}
