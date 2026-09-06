@@ -69,16 +69,6 @@ I am a researcher and founder working on AI agent for Science.
 
 {% include home-media.html %}
 
-Contributed to the [Starting Point One (SP1) documentary](https://www.bilibili.com/video/BV1yB7D6cEzd/?share_source=copy_web&vd_source=f6cb1d4d49fac24f8cbf7d78d9e52491).
-
-## NEWS
-
-* I co-authored three August 2026 preprints with international collaborators: [MatrAIx](https://arxiv.org/abs/2608.04205), a population-scale simulated-user infrastructure of 8.3 billion persona agents; [MicroVerse](https://arxiv.org/abs/2608.15844), an instrument measuring identity drift in long-horizon multi-agent simulations; and [ASI-Bench](https://arxiv.org/abs/2608.17271), 60 research-grade tasks across 11 scientific domains.
-
-* I co-authored a peer-reviewed book chapter on the ethics of generative GeoAI in [Geography According to Foundation Models](https://ebooks.iospress.nl/doi/10.3233/FAIA260483) (IOS Press, 2026), writing the section on trust in AI and GeoAI models.
-
-* I released two preprints on AI agents for Earth system science: [ESM-bench](https://zenodo.org/records/19802836), a 243-task benchmark for whether AI agents understand Earth System Model physics and code, and [Noah-Agent](https://zenodo.org/records/17862049), a multi-expert agent framework for Fortran climate models.
-
 <div class="home-priority-grid">
   <section class="home-priority-column">
     <h2>Most Interested In</h2>
