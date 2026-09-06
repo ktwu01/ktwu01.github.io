@@ -16,3 +16,7 @@ ASI-Bench evaluates frontier AI systems on research-grade scientific work at a s
 - **Paper (arXiv)**: [https://arxiv.org/abs/2608.17271](https://arxiv.org/abs/2608.17271)
 - **Website**: [https://asibench.apexin.ai/](https://asibench.apexin.ai/)
 - **Code**: [https://github.com/apexin-ai/ASI-Bench](https://github.com/apexin-ai/ASI-Bench)
+
+## Media Coverage
+
+- 机器之心 (Synced): [ASI-Bench coverage](https://mp.weixin.qq.com/s/-zwyUrNrHJ6rrNxOWw0oyQ). Coverage of the benchmark's 60 research-grade tasks across 11 scientific domains and its evaluation of AI agents on scientific research.
