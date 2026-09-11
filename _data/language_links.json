@@ -1889,6 +1889,60 @@
       }
     ]
   },
+  "/posts/2026/09/benchmark-radar-day42/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day42/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day43/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day43/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day44/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day44/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day45/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day45/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day46/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day46/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day47/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day47/"
+      }
+    ]
+  },
   "/posts/2026/09/the-most-expensive-thing-is-the-question/": {
     "variants": [
       {
@@ -3794,6 +3848,60 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/benchmark-radar-day41/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day42/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day42/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day43/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day43/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day44/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day44/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day45/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day45/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day46/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day46/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day47/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day47/"
       }
     ]
   },
