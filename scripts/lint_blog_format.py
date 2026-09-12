@@ -23,6 +23,52 @@ POSTS_DIR = "_posts/"
 # Local-image rules remain prospective so unrelated legacy content does not
 # need an image migration. URL rules are intentionally strict for all posts.
 LOCAL_IMAGE_POLICY_START = "2026-07-16"
+# Chinese prose rules, all in the same family: state what a thing IS instead of
+# defining it by what it is not, and open a section with the point instead of
+# announcing that a point is coming. Both read as AI slop / translated English.
+# Prospective, like the image policy above: these govern posts dated from the
+# policy start onward, so the ~570 occurrences in older posts do not have to be
+# rewritten in one pass. Raise this date only after the backlog is cleaned.
+POSITIVE_PHRASING_POLICY_START = "2026-09-13"
+
+SLOP_MESSAGE = "These are serious AI slop, change to non-ai-slop."
+
+# Literal substrings. Checked line by line, outside code fences.
+FORBIDDEN_PHRASES = [
+    ("\u800c\u4e0d\u662f", "the \"X\uff0c\u800c\u4e0d\u662fY\" contrast"),
+    ("\u800c\u975e", "the \"X\u800c\u975eY\" contrast"),
+]
+
+# Regex patterns, same policy and same message. The negation pattern is clause
+# bounded: the two halves must sit in one clause, so "\u4e0d\u662f\u8fd9\u4e2a\u9886\u57df\u662f" split across
+# clauses does not trip it.
+FORBIDDEN_PATTERNS = [
+    (
+        re.compile(
+            "\u4e0d\u662f[^\uff0c\u3002\uff1b\uff01\uff1f\u3001\n\uff08\uff09()]{1,10}"
+            "(?:[\uff0c,\u2014-]\\s*(?:\u800c\u662f|\u624d\u662f|\u662f)|\\s*(?:\u800c\u662f|\u624d\u662f))"
+        ),
+        "the \"\u4e0d\u662f X\uff0c\u662f Y\" contrast",
+    ),
+]
+
+# Throat-clearing: an opening sentence that announces you are about to speak
+# instead of speaking. Anchored to line start because the offence is positional
+# (first line of the post, first line under a heading).
+THROAT_CLEARING = re.compile(
+    "^\\s*(?:"
+    "\u8bf4\u4e00\u4ef6|\u8fd9\u91cc\u6709(?:\u4e00\u4e2a|\u4e2a)|\u4eca\u5929(?:\u60f3|\u6765)(?:\u804a\u804a|\u8bf4\u8bf4|\u8bb2\u8bb2)|"
+    "\u5148(?:\u8bb2|\u8bf4)(?:\u4e2a|\u4e00\u4e2a)(?:\u6545\u4e8b|\u7b11\u8bdd)|\u8bdd\u4e0d\u591a\u8bf4|\u4e0b\u9762(?:\u8fdb\u5165|\u8bf4\u8bf4)\u6b63\u9898|"
+    "\u4e8b\u60c5\u8981\u4ece|\u6211\u5148(?:\u4ea4\u4ee3|\u8bf4\u660e)|\u5148(?:\u58f0\u660e|\u8bf4\u660e)\u4e00\u70b9|"
+    "\u5148\u8bf4\u7ed3\u8bba|\u672c\u6587(?:\u5c06|\u4f1a|\u65e8\u5728|\u8bd5\u56fe)|\u5b83\u8bf4\u7684\u662f\u4e00\u4ef6|"
+    "\u6211\u60f3\u8bf4\u7684\u662f|\u9700\u8981\u8bf4\u660e\u7684\u662f|\u4e0d\u5f97\u4e0d\u8bf4|\u5766\u7387\u5730(?:\u8bb2|\u8bf4)|"
+    "\u7b80\u5355\u8bf4|\u5bb9\u6211\u5148|\u611f\u8c22(?:\u5927\u5bb6|\u5404\u4f4d)|\u5f88\u9ad8\u5174\u6709\u673a\u4f1a"
+    ")"
+)
+THROAT_CLEARING_MESSAGE = (
+    "Throat-clearing opener. Lead with the point itself. " + SLOP_MESSAGE
+)
+
 # Patterns that indicate AI tool-use markup leaked into the file. Any hit is a
 # parser-breaking format error and must be removed. Add new patterns here when
 # new leak shapes appear. Patterns are built from chr() so this script itself
@@ -156,6 +202,56 @@ def check_single_dollar_math(content):
     return hits
 
 
+def follows_positive_phrasing_policy(filename):
+    match = re.match(r"^(\d{4}-\d{2}-\d{2})-", filename)
+    return bool(match and match.group(1) >= POSITIVE_PHRASING_POLICY_START)
+
+
+def check_forbidden_phrases(content):
+    """Flag AI-slop prose patterns, ignoring fenced code blocks.
+
+    Covers three shapes of the same offence (defining a thing by what it is
+    not) plus throat-clearing openers. Returns (lineno, hit, message) tuples.
+    """
+    hits = []
+    in_fence = False
+    previous_blank_or_heading = True
+    for lineno, line in enumerate(content.split("\n"), 1):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            previous_blank_or_heading = False
+            continue
+        if in_fence:
+            continue
+
+        for phrase, label in FORBIDDEN_PHRASES:
+            if phrase in line:
+                hits.append((lineno, phrase, f"Avoid {label}. {SLOP_MESSAGE}"))
+
+        for pattern, label in FORBIDDEN_PATTERNS:
+            match = pattern.search(line)
+            if match:
+                hits.append(
+                    (lineno, match.group(0), f"Avoid {label}. {SLOP_MESSAGE}")
+                )
+
+        # Throat-clearing is positional: only the opening line of the post and
+        # the first line under a heading can commit it.
+        if previous_blank_or_heading and stripped:
+            match = THROAT_CLEARING.match(stripped)
+            if match:
+                hits.append((lineno, match.group(0), THROAT_CLEARING_MESSAGE))
+
+        previous_blank_or_heading = (
+            (not stripped)
+            or stripped.startswith("#")
+            # The "---" closing front matter opens the post body.
+            or stripped == "---"
+        )
+    return hits
+
+
 def check_file_content(content, filepath="2026-07-01-example.md"):
     """Lint already-loaded post content (also convenient for unit tests)."""
     issues = []
@@ -175,6 +271,10 @@ def check_file_content(content, filepath="2026-07-01-example.md"):
     math_hits = check_single_dollar_math(content)
     for ln, fragment in math_hits:
         issues.append(f"Single-$ LaTeX math at line {ln} ({fragment!r}); GitHub Pages requires $$ ... $$")
+
+    if follows_positive_phrasing_policy(filename):
+        for ln, hit, guidance in check_forbidden_phrases(content):
+            issues.append(f"Forbidden phrase {hit!r} at line {ln}. {guidance}")
 
     if not FRONT_MATTER.match(content):
         return issues  # Not a Jekyll post or no front matter

@@ -264,6 +264,71 @@ class LocalImageLintTests(unittest.TestCase):
 
         self.assertIn("does not match its extension", issues[0])
 
+    def test_forbidden_phrase_flagged_in_prose(self):
+        hits = BLOG_LINT.check_forbidden_phrases("\u8bf4\u7684\u662f A \u800c\u4e0d\u662f B\u3002")
+
+        self.assertEqual(len(hits), 1)
+        self.assertEqual(hits[0][1], "\u800c\u4e0d\u662f")
+        self.assertIn("AI slop", hits[0][2])
+
+    def test_all_negation_variants_flagged(self):
+        variants = [
+            "\u8bf4\u7684\u662f A \u800c\u4e0d\u662f B\u3002",
+            "\u57fa\u4e8e\u76f4\u89c9\u800c\u975e\u6570\u636e\u3002",
+            "\u771f\u6b63\u7684\u74f6\u9888\u4e0d\u662f\u65f6\u95f4\uff0c\u800c\u662f\u6ce8\u610f\u529b\u3002",
+            "\u90a3\u4e0d\u662f\u9053\u6b49\uff0c\u662f\u901a\u544a\u3002",
+            "\u8fd9\u4e0d\u662f\u66b4\u529b\u7edf\u8ba1\u800c\u662f\u63a8\u7406\u3002",
+        ]
+        for text in variants:
+            with self.subTest(text=text):
+                self.assertTrue(BLOG_LINT.check_forbidden_phrases(text))
+
+    def test_cross_clause_negation_is_not_flagged(self):
+        """"\u4e0d\u662f X \u662f Y" spanning two clauses is ordinary prose."""
+        for text in [
+            "\u4ed6\u95ee\u7684\u4e0d\u662f\u8fd9\u4e2a\u9886\u57df\u662f\u4ec0\u4e48\u3002",
+            "\u8fd9\u4e0d\u662f\u6211\u60f3\u8981\u7684\u7ed3\u679c\u3002",
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(BLOG_LINT.check_forbidden_phrases(text), [])
+
+    def test_throat_clearing_flagged_only_at_opening_positions(self):
+        body = (
+            "---\ntitle: 'x'\n---\n"
+            "\u5148\u8bf4\u7ed3\u8bba\uff1a\u8fd9\u662f\u91cd\u70b9\u3002\n\n"
+            "## \u5c0f\u8282\n\n"
+            "\u8bf4\u4e00\u4ef6\u771f\u4e8b\u3002\n"
+        )
+        lines = [hit[0] for hit in BLOG_LINT.check_forbidden_phrases(body)]
+
+        self.assertEqual(lines, [4, 8])
+
+    def test_throat_clearing_ignored_mid_paragraph(self):
+        text = "\u7b2c\u4e00\u53e5\u6b63\u5e38\u3002\n\u7b80\u5355\u8bf4\u8fd9\u6ca1\u95ee\u9898\u3002"
+
+        self.assertEqual(BLOG_LINT.check_forbidden_phrases(text), [])
+
+    def test_forbidden_phrase_ignored_inside_code_fence(self):
+        fenced = "```\ngrep \u800c\u4e0d\u662f file\n```"
+
+        self.assertEqual(BLOG_LINT.check_forbidden_phrases(fenced), [])
+
+    def test_forbidden_phrase_policy_is_prospective(self):
+        post = (
+            "---\ntitle: 'x'\npermalink: /zh/posts/2026/09/x/\n---\n"
+            "\u8bf4\u7684\u662f A \u800c\u4e0d\u662f B\u3002\n"
+        )
+        start = BLOG_LINT.POSITIVE_PHRASING_POLICY_START
+
+        self.assertTrue(BLOG_LINT.follows_positive_phrasing_policy(f"{start}-x-zh.md"))
+        self.assertFalse(BLOG_LINT.follows_positive_phrasing_policy("2026-01-01-x-zh.md"))
+
+        flagged = BLOG_LINT.check_file_content(post, f"_posts/{start}-x-zh.md")
+        legacy = BLOG_LINT.check_file_content(post, "_posts/2026-01-01-x-zh.md")
+
+        self.assertTrue(any("AI slop" in issue for issue in flagged))
+        self.assertFalse(any("AI slop" in issue for issue in legacy))
+
 
 if __name__ == "__main__":
     unittest.main()
