@@ -1,5 +1,5 @@
 ---
-title: "Benchmark Radar 第四十七天：引用面转为读者优先——Cite 卡片、CITATION.md 与顶部导航入口"
+title: "Benchmark Radar 第四十七天：引用位置转为读者优先——Cite 卡片、CITATION.md 与顶部导航入口"
 date: 2026-09-11
 permalink: /zh/posts/2026/09/benchmark-radar-day47/
 tags:
@@ -11,13 +11,13 @@ tags:
   - Plain English
 ---
 
-Benchmark Radar 的第四十七天。arXiv 论文上线后，引用面全面转为读者优先：Cite 卡片默认折叠 APA 与 BibTeX，仓库根目录落地 `CITATION.md`，顶部导航新增 Cite 入口。记分牌：185 颗星，30 个 fork。
+Benchmark Radar 的第四十七天。arXiv 论文上线后，引用位置全面转为读者优先：Cite 卡片默认折叠 APA 与 BibTeX，仓库根目录落地 `CITATION.md`，顶部导航新增 Cite 入口。记分牌：185 颗星，30 个 fork。
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 **Benchmark Radar 已上线。** 每天追踪新的 AI 基准测试、数据集与排行榜：[打开仪表盘](https://benchmark-radar.org/) 或 [在 GitHub 上 Star](https://github.com/ktwu01/benchmark-radar)。阅读论文：[arXiv:2609.11115](https://arxiv.org/abs/2609.11115)。
 
-PR #601 在所有引用面引用 arXiv 论文：仪表盘页脚、CLI `--cite` 输出、README 徽章、引用页现统一指向 `arXiv:2609.11115`，含完整作者列表与年份。
+PR #601 在所有引用位置标注 arXiv 论文：仪表盘页脚、CLI `--cite` 输出、README 徽章、引用页现统一指向 `arXiv:2609.11115`，含完整作者列表与年份。
 
 PR #602 在顶部导航栏加入 Cite 入口。读者在仪表盘任何页面都能一键跳转引用页，无需翻找页脚。
 
@@ -35,7 +35,7 @@ PR #604 让 Cite 卡片以读者为本：推荐句用自然语言，复制按钮
 
 解决的问题
 
-- #600：全引用面引用 arXiv 论文
+- #600：所有引用位置标注 arXiv 论文
 - #601：顶部导航新增 Cite 入口
 - #602：Cite 对话框默认折叠 APA/BibTeX
 - #603：Cite 卡片读者优先（推荐句、复制按钮、arXiv 链接）

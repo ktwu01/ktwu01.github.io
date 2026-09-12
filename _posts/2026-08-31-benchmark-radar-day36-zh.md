@@ -39,6 +39,6 @@ PR #466 把审核过的身份覆盖规则接进目录输出，46 个解析成功
 - #446：隐私声明折叠到披露按钮之后
 - 记分牌：128 / 1000 星，24 个 fork
 
-第三十七天：一张引用卡片、一次点击的 CLI 设置，以及覆盖整个档案的搜索。
+第三十七天：一张引用卡片、一次点击的 CLI 设置，以及覆盖整个存档的搜索。
 
 > 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。阅读论文：[arXiv:2609.11115](https://arxiv.org/abs/2609.11115)。

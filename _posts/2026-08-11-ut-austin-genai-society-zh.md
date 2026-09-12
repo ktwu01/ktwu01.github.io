@@ -10,7 +10,7 @@ tags:
   - hv-analysis
 ---
 
-一个生成式 AI 学生社团，怎样才能不止于办讲座、转发资讯和追逐下一款模型？
+一个生成式 AI 学生社团，怎样才能不止于办讲座、转发新闻和追逐下一款模型？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
