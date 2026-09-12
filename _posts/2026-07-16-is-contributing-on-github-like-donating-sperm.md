@@ -1,5 +1,5 @@
 ---
-title: 'Is Contributing on GitHub Like Donating Sperm?'
+title: 'Contributing on GitHub Is Sperm Donation'
 date: 2026-07-16
 permalink: /posts/2026/07/is-contributing-on-github-like-donating-sperm/
 tags:
@@ -10,13 +10,11 @@ tags:
   - reflection
 ---
 
-Here is an inappropriate analogy that nevertheless captures something real about open-source work:
+Going around GitHub opening issues and pull requests is sperm donation. The same mechanism, running as-is.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-> Going around GitHub opening issues and pull requests is surprisingly like donating sperm—and not much like donating eggs.
-
-The analogy is deliberately provocative. It is not a claim about gender or the value of either form of donation. It describes an asymmetry in **replication cost, contribution volume, and selection**.
+The asymmetry sits in three places: **replication cost, contribution volume, and who does the selecting.** Nothing here is about gender, or about which form of donation is more admirable. Open source has spent twenty years covering that asymmetry with words like collaboration, community, and building together. The words do not cover it.
 
 ## Why the analogy works
 
@@ -91,19 +89,92 @@ It becomes:
 
 > How much uncertainty did my contribution remove for the people responsible for the project?
 
-A useful issue demonstrates that the problem exists, defines its scope, and distinguishes it from known cases. A useful pull request fits the architecture, passes tests, explains its tradeoffs, and reduces rather than exports maintenance burden.
+A useful issue demonstrates that the problem exists, defines its scope, and distinguishes it from known cases.
 
 High volume produces exposure. It does not by itself produce impact.
 
+That much I believed when I wrote this post. Then I started maintaining projects myself, and found out what the sentence actually costs.
+
+## A note added later: when I became the egg
+
+When I wrote this post, I was standing on the contributor's side. What I thought about was how to send my own ideas out, into as many projects as possible.
+
+Then I started maintaining a few open-source projects of my own, and the view flipped. Now I am the one receiving the pull requests.
+
+It is a strange experience. I used to think about how to get other people to accept my work. Now I think about what is worth letting in.
+
+If opening pull requests all over GitHub is cyber sperm donation, then the maintainer is the egg. More precisely, the maintainer is the zona pellucida, the layer around it. Its job is not to wait for whoever turns up. Its job is to keep almost everyone out.
+
+The process is not gentle. A single ejaculate is on the order of hundreds of millions of sperm; the number that reach the egg is on the order of hundreds; the number that completes fertilization is normally one. And the egg is not passive about it. The moment a sperm fuses with the egg membrane, a calcium wave inside the egg triggers the cortical granules to dump their contents. That shuts the door in two stages: the membrane stops accepting further fusion within minutes, and enzymes released into the surrounding space chemically modify the zona over the following half hour to few hours, until it can no longer be bound or penetrated at all. None of this machinery exists to let more sperm in. It exists to guarantee that **only one** does, because two ruins the embryo.
+
+That is the maintainer's job, described honestly. Open source does not like describing it that way, because it does not sound welcoming to newcomers.
+
+## Most pull requests should be rejected, and that is not unkind
+
+The last couple of years brought a new category of arrival: the AI-generated pull request.
+
+Someone points a model at a repository, asks it to find a few "improvements," and lets it submit. The title is well formed. The description is complete. The diff even looks clean. But open it up and you usually find: a function nobody calls, renamed; a block of already clear code, buried in comments; the README's English rewritten into different English that is equally correct and no better; or a fix for a bug that does not exist.
+
+My prior is explicit: **assume this class of pull request is bad until it proves otherwise.**
+
+Someone will call that prejudice against AI-assisted contributors. It is not. The prior is not on "you used AI." It is on "you did not verify." Someone who writes code with a model, runs the tests, can explain why the change is shaped that way, and will come back when it breaks: that pull request gets merged, and it is often better than the handwritten alternative. AI genuinely lowers the cost of good contributions too. What I am blocking is not the model. It is the move where generation cost goes to zero and verification cost gets handed entirely to me.
+
+That move got very cheap very recently. When the cost of submitting a pull request falls to nearly zero, submission volume rises toward infinity, and the cost of review does not fall at all. A maintainer's attention is the one thing in this system that never got cheaper. It is a scarce resource and it has to be spent like one.
+
+So the default stance is: **the burden of proof is yours, not mine.**
+
+To get in, a pull request has to convince me of three things:
+
+- **The problem is real.** Reproduction steps, or an issue, or an explanation of who actually hits this. "I think this is nicer" does not qualify.
+- **The solution belongs to this project.** No parallel structure, no new dependency to save three lines, no rewriting my architecture into the one you are used to.
+- **It does not hand me its maintenance cost.** Tests, documentation, edge cases considered. When it breaks later, I should not have to read it from scratch to find out what it was for.
+
+Missing one, I ask for it. Missing all three, I close it, and I do not feel bad.
+
+## A joke: I have been on both sides
+
+I have a patch in `git/git`. That Git. The one everybody uses, the one Linus wrote. Junio C Hamano merged it, my name is on the commit as author, and [every `git clone` in the world now carries it](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa). It was a one-line fix: the `*.pl` line in `.gitattributes` said `eof=lf` where it should have said `eol=lf`.
+
+The same person then opened several pull requests in a row against kimi-cli and had them rejected by the maintainer, one after another.
+
+The difference between those two outcomes is exactly what this post is about.
+
+The patch that landed in Git did not come from browsing the source looking for something to fix. It came from hitting a real CRLF/LF problem in my own blog repository, writing a `.gitattributes` by hand to solve it, and learning the difference between `eol` and `eof` in the process. A day later I recognized the same typo sitting in Git's own file. The problem was real, because I had been the one bitten by it. The fix was one line and touched no architecture. The maintenance cost was zero. All three conditions, met. And before submitting I went and learned that Git does not take GitHub pull requests at all: it runs on a mailing list, you go through GitGitGadget, you sign off your commits.
+
+The rejected ones? I can see now what they were. Cheap to produce, clean on the surface, and built on somebody else's hole. I was doing exactly one thing: distributing.
+
+So that maintainer was right. He was doing his job. He was being the zona pellucida.
+
+And now I sit on the other side making the same call about other people's work. The useful part of that is it becomes very hard to resent being rejected. You know exactly what the person on the other side is doing, because you have done it.
+
+## Saying no is a skill you have to learn
+
+I used to be bad at saying no.
+
+A pull request would come in, and even when it was weak, my first thought was: this person spent time on it, am I being too harsh? Maybe merge it now and clean it up later?
+
+That instinct is wrong, and wrong in a specific way. Once code is merged, its maintenance cost is mine, not the contributor's. The contributor submits and leaves. I keep the thing alive for ten years. A "merge now, fix later" decision trades a one-time rejection cost for a permanent maintenance cost.
+
+The asymmetry is this. Rejecting a pull request costs one uncomfortable conversation, once. Merging a bad one costs permanent technical debt, plus a precedent for everyone after: if that got in, so can this. You pay the first cost once. You pay the second forever.
+
+And "I don't want to hurt them" is a false reason anyway. What hurts people is not rejection. It is being ignored. "We are not going in this direction, and here is why" is far more respectful than silence for three months. Rejecting someone is what you do when you take them seriously: I read your work, I judged it properly, I am telling you the result. Leaving it to rot is what not caring looks like.
+
+So I reject fast now, and I say why.
+
+Going from "how do I get my work out there" to "what is worth letting in" is not just a change of role. It is a change of skill. Distribution runs on volume and nerve. Selection runs on judgment and the ability to say no. The first can be powered by enthusiasm. The second can only be powered by standards. Enthusiasm runs out. Standards do not.
+
 ## From spreading genes to raising offspring
 
-The analogy is funniest—and most accurate—at the lowest-commitment edge of open source: opening many issues, proposing many ideas, and sending small patches into unfamiliar projects.
+The analogy holds best at the lowest-commitment edge of open source: opening many issues, proposing many ideas, and sending small patches into unfamiliar projects.
 
-It becomes less accurate as responsibility increases.
+It starts to break down the moment responsibility enters.
 
 Submitting a thought is propagation. Getting it reviewed is selection. Getting it merged is inheritance. Maintaining it through future releases is something else: parenting.
 
 That is the dividing line between merely leaving traces across GitHub and building something with other people. The strongest open-source contributors do not only distribute their ideas widely. They stay long enough to help those ideas survive contact with reality.
 
-**Related post:**
-- [中文版：在 GitHub 到处提 Issue 和 PR，为什么像“捐精”而不像“捐卵”]({{ site.baseurl }}/zh/posts/2026/07/github-contributions-sperm-vs-egg-donation/)
+**Related posts:**
+- [中文版：在 GitHub 上做贡献，就是赛博捐精]({{ site.baseurl }}/zh/posts/2026/07/is-contributing-on-github-like-donating-sperm/)
+- [在 GitHub 到处提 Issue 和 PR，为什么像“捐精”而不像“捐卵”]({{ site.baseurl }}/zh/posts/2026/07/github-contributions-sperm-vs-egg-donation/)
+- [I Am Now an Official Git Contributor]({{ site.baseurl }}/posts/2026/06/official-git-contributor/), the full story of that one-line patch.
+- [I Sent My First Git Patch to GitGitGadget's Doorstep]({{ site.baseurl }}/posts/2026/06/gitgitgadget-first-pr/), and why Git does not take GitHub pull requests.
