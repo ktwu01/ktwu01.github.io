@@ -100,4 +100,4 @@ AI 评估需要更好的发现基础设施，但它也需要对你用来做发�
 
 2026 年 8 月 25 日更新。这份日志现在也是一份公开的成长记录：一个项目如何走向 1000 颗星。三十篇日更之后，仓库有 86 颗星、17 个 fork，其中 53 颗来自 v0.8.0 发布和搜索与引用改造之后的两天。最新一篇是 Benchmark Radar 第三十天，仓库现在会在 README 里画出自己的星标历史。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。阅读论文：[arXiv:2609.11115](https://arxiv.org/abs/2609.11115)。

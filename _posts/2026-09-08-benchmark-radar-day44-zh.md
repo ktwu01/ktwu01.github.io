@@ -42,4 +42,4 @@ UI 润色不是表面功夫。统一间距与排版降低读者在扫描排序�
 
 第四十五天：论文最后准备——内容重新授权、冻结数据 CI 核验、报告测试与手稿对齐。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。阅读论文：[arXiv:2609.11115](https://arxiv.org/abs/2609.11115)。

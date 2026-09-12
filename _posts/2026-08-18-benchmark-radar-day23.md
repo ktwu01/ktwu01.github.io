@@ -65,4 +65,4 @@ Issues addressed
 
 That closes out the first 23 days of Benchmark Radar. We started from an empty repo and, every day for three weeks, shipped something: Chinese language support, AI-written briefings, social posts, and now external catalog normalization.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans. Read the paper: [arXiv:2609.11115](https://arxiv.org/abs/2609.11115).

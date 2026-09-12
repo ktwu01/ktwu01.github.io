@@ -43,4 +43,4 @@ PR #588 合并 agents 分支策略：动 `main` 或论文子模块指针需显�
 
 第四十六天：arXiv 论文上线——`arXiv:2609.11115` 发布，v0.11.0 释出，全项目引用面更新。
 
-> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。
+> 想跟进 Benchmark Radar？[在 GitHub 上 Star 仓库](https://github.com/ktwu01/benchmark-radar) 获取每日更新，或 [打开实时仪表盘](https://benchmark-radar.org/) 浏览扫描结果。阅读论文：[arXiv:2609.11115](https://arxiv.org/abs/2609.11115)。

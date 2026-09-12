@@ -109,4 +109,4 @@ The goal is not to produce one more leaderboard. It is to make the fast-moving l
 
 Update, August 25, 2026. This log is now also a live record of the road to 1,000 stars. Thirty daily posts in, the repository holds 86 stars and 17 forks, including 53 stars in the two days after the v0.8.0 release and the search and citation work described along the way. The newest entry is Benchmark Radar Day 30, and the repository now charts its own star history in the README.
 
-> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans.
+> Want to follow Benchmark Radar? [Star the repo on GitHub](https://github.com/ktwu01/benchmark-radar) for daily updates, or [open the live dashboard](https://benchmark-radar.org/) to explore the scans. Read the paper: [arXiv:2609.11115](https://arxiv.org/abs/2609.11115).
