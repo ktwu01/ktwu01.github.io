@@ -1844,6 +1844,33 @@
       }
     ]
   },
+  "/posts/2026/09/benchmark-radar-alphaxiv/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-alphaxiv/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-arxivdaily-sjtu/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-arxivdaily-sjtu/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-dailyaiwire/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-dailyaiwire/"
+      }
+    ]
+  },
   "/posts/2026/09/benchmark-radar-day37/": {
     "variants": [
       {
@@ -1943,12 +1970,183 @@
       }
     ]
   },
+  "/posts/2026/09/benchmark-radar-day48/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day48/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day49/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day49/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day50/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day50/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day51/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day51/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day52/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day52/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-geepity-interactive/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-geepity-interactive/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-isfahan-ai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-isfahan-ai/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-linkedin-launch-share/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-linkedin-launch-share/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-linkedin-typesafe-share/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-linkedin-typesafe-share/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-moltbook/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-moltbook/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-moonlight-review/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-moonlight-review/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-paperswithcode/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-paperswithcode/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-typesafe-ai-daily/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-typesafe-ai-daily/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-x-community-share/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-x-community-share/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-x-huggingpapers/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-x-huggingpapers/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-x-scifi/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-x-scifi/"
+      }
+    ]
+  },
   "/posts/2026/09/passing-on-spiritual-genes/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/passing-on-spiritual-genes/"
+      }
+    ]
+  },
+  "/posts/2026/09/pessimist-case-for-solar-system-expansion/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/pessimist-case-for-solar-system-expansion/"
+      }
+    ]
+  },
+  "/posts/2026/09/stop-aligning-ai-to-humans/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/stop-aligning-ai-to-humans/"
+      }
+    ]
+  },
+  "/posts/2026/09/the-gift-of-the-magi/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/the-gift-of-the-magi/"
       }
     ]
   },
@@ -3815,6 +4013,33 @@
       }
     ]
   },
+  "/zh/posts/2026/09/benchmark-radar-alphaxiv/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-alphaxiv/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-arxivdaily-sjtu/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-arxivdaily-sjtu/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-dailyaiwire/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-dailyaiwire/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/benchmark-radar-day37/": {
     "variants": [
       {
@@ -3914,12 +4139,183 @@
       }
     ]
   },
+  "/zh/posts/2026/09/benchmark-radar-day48/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day48/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day49/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day49/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day50/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day50/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day51/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day51/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day52/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day52/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-geepity-interactive/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-geepity-interactive/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-isfahan-ai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-isfahan-ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-linkedin-launch-share/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-linkedin-launch-share/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-linkedin-typesafe-share/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-linkedin-typesafe-share/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-moltbook/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-moltbook/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-moonlight-review/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-moonlight-review/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-paperswithcode/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-paperswithcode/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-typesafe-ai-daily/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-typesafe-ai-daily/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-x-community-share/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-x-community-share/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-x-huggingpapers/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-x-huggingpapers/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-x-scifi/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-x-scifi/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/passing-on-spiritual-genes/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/passing-on-spiritual-genes/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/pessimist-case-for-solar-system-expansion/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/pessimist-case-for-solar-system-expansion/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/stop-aligning-ai-to-humans/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/stop-aligning-ai-to-humans/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/the-gift-of-the-magi/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/the-gift-of-the-magi/"
       }
     ]
   },
