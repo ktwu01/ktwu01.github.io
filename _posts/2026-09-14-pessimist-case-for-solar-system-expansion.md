@@ -33,7 +33,7 @@ So the disagreement is not about whether the energy exists. It is about everythi
 
 A tenth of the lunar surface is 3.79 million square kilometers, larger than India.
 
-The world's publicly listed module makers shipped around 536 GW of solar panels in 2025 ([InfoLink ranking via TaiyangNews](https://taiyangnews.info/amp/story/business/solar-module-shipment-2025-ranking)). At the 20% efficiency the original assumes, roughly 200 W per square meter, that is about 2.7 billion square meters a year. Hold that rate fixed and covering the area takes about 1,415 years.
+The twelve module suppliers in InfoLink's 2025 ranking shipped a combined 536 GW ([InfoLink 2025 global module shipment ranking](https://www.infolink-group.com/energy-article/solar-topic-infolink-2025-global-module-shipment-ranking-combined-shipments-reach-536-gw)). That is not world output. Aiko, Risen and First Solar sit outside the ranking, so the global figure is higher and every year count below is an upper bound. At the 20% efficiency the original assumes, roughly 200 W per square meter, 536 GW is about 2.7 billion square meters a year. Hold that rate fixed and covering the area takes about 1,415 years.
 
 I want to be careful about what that number does and does not show, because the obvious reply is a good one and I will come back to it.
 
@@ -47,9 +47,9 @@ Industrial silicon comes from carbothermic reduction: silica plus carbon at arou
 
 Carbon in lunar regolith measures about 100 ppm in bulk Apollo soils, with a range of 1 to 250 ppm, and it is almost entirely implanted by the solar wind. With no atmosphere and no hydrosphere, the Moon has no mechanism to sequester carbon as carbonate rock ([Cannon, Accessible Carbon on the Moon](https://arxiv.org/pdf/2104.13521)).
 
-At 100 ppm, collecting the carbon for one tonne of silicon means processing about 8,550 tonnes of regolith. Polar volatiles are far richer: the LCROSS impact plume implied roughly 5,000 ppm elemental carbon at the site, which improves the ratio to about 171, once you have established a mining industry inside a permanently shadowed crater at 40 K.
+At 100 ppm, collecting the carbon for one tonne of silicon, once through with no recovery, means processing about 8,550 tonnes of regolith. Polar volatiles are far richer: the LCROSS impact plume implied roughly 5,000 ppm elemental carbon at the site, which improves the ratio to about 171, once you have established a mining industry inside a permanently shadowed crater at 40 K.
 
-Two honest caveats. Carbon here is a reagent, not a consumable, and the carbon monoxide can in principle be reduced and the carbon returned to the furnace, so a closed loop needs far less fresh carbon than once-through operation. And carbothermic reduction is not the only route to silicon; molten regolith electrolysis avoids carbon altogether and has been studied for exactly this reason.
+Two honest caveats. The reaction does consume the carbon, which leaves as carbon monoxide, but that CO can in principle be reduced and the carbon returned to the furnace, so a closed loop needs far less fresh carbon than once-through operation. The recovery step costs energy and equipment of its own. And carbothermic reduction is not the only route to silicon; molten regolith electrolysis avoids carbon altogether and has been studied for exactly this reason.
 
 What none of those alternatives has done is produce a square meter of working panel from lunar feedstock. The demonstrated state of the art is gram-scale and square-centimeter-scale laboratory samples. The material path to 3.79 million square kilometers is not a detail left to implementation.
 
@@ -57,17 +57,17 @@ What none of those alternatives has done is produce a square meter of working pa
 
 Lightsails carry an efficiency term the original omits.
 
-The instantaneous energy efficiency of a photon sail is about 2v/c, and averaged across the whole burn it comes out to approximately v/c. At 0.01c the exact figure is 0.995%. Round it to one percent. The remaining 99% of the beam energy leaves as light.
+The instantaneous energy efficiency of a photon sail is about 2v/c, and averaged across the whole burn it comes out to approximately v/c. At 0.01c the exact expression gives 0.995%. Round it to one percent. The remaining 99% of the beam energy leaves as light.
 
 So the energy bill per shipment is close to m·c·v/2. Sending 100 tonnes to 0.01c costs 4.49e19 joules, or about 12,500 TWh. Humanity generates roughly 30,000 TWh of electricity per year. One 100-tonne one-way delivery is five months of Earth's entire electrical output.
 
-The 260 TW array produces 2.28 million TWh per year. Spend every photon of it on launches and you get about 18,000 tonnes a year at 0.01c. A mid-size bulk carrier holds 50,000 tonnes.
+The 260 TW array produces 2.28 million TWh per year. Spend every photon of it on acceleration and you get about 18,000 tonnes a year to 0.01c. That figure is accelerated mass, sail and vehicle included, with nothing held back for braking at the far end and no allowance for conversion or beam losses, so delivered cargo is some fraction of it. A mid-size bulk carrier holds 50,000 tonnes.
 
-The original gives a range, 0.001c to 0.01c, and the low end is ten times better: roughly 183,000 tonnes a year, because the energy cost scales with the square of the speed while the efficiency penalty scales with the speed. That is a real answer to this objection, and it is the answer I would give in the original's place. It also concedes the point that 0.01c is the expensive choice rather than the natural one.
+The original gives a range, 0.001c to 0.01c, and the low end is ten times better: roughly 182,000 tonnes a year, because the energy cost scales with the square of the speed while the efficiency penalty scales with the speed. That is a real answer to this objection, and it is the answer I would give in the original's place. It also concedes the point that 0.01c is the expensive choice rather than the natural one.
 
-Which raises the question of why 0.01c is in the argument at all. Solar system logistics has never needed it. A Hohmann departure from low Earth orbit is about 3.6 km/s to Mars and about 6.3 km/s to Jupiter. 0.01c is 2,998 km/s, between two and three orders of magnitude beyond the requirement. What makes Mars hard is not the six-month cruise. The cargo arrives to no power, no repair, no spares and no factory.
+Which raises the question of what 0.01c buys. The original wants freight measured in days and weeks, and 0.01c delivers exactly that, so the speed is a stated requirement and not an arbitrary one. The question is the price. A Hohmann departure from low Earth orbit is about 3.6 km/s to Mars and about 6.3 km/s to Jupiter; 0.01c is 2,998 km/s, 833 and 476 times those numbers, at an energy cost rising with the square. Buying transit time at that exchange rate pays off only where transit time is the binding constraint. For a cargo run it rarely is. What makes Mars hard is what the cargo arrives to: no power, no repair, no spares and no factory.
 
-The scale of the hardware follows from that choice. Starshot has a real cost model: $8.0B of beam director capital cost, made up of $2.0B of lasers at 200 GW maximum transmitted power, $2.8B of optics at 2.7 m effective primary diameter measured in kilometers, and $3.1B of energy storage, pushing a 3.6 gram sailcraft carrying a 1 gram payload on a 4.1 m sail ([Parkin, Starshot System Model](https://parkinresearch.com/wp-content/uploads/2018/07/starshotmodel.pdf)). A 260 TW array is 1,300 times that transmitted power.
+The scale of the hardware follows from that choice. Starshot has a real cost model: $8.0B of beam director capital cost, made up of $2.0B of lasers at 200 GW maximum transmitted power, $2.8B of optics at a 2.7 km effective primary diameter, and $3.1B of energy storage, pushing a 3.6 gram sailcraft carrying a 1 gram payload on a 4.1 m sail ([Parkin, Starshot System Model](https://parkinresearch.com/wp-content/uploads/2018/07/starshotmodel.pdf)). That 200 GW is transmitted optical power in a design aimed at 0.2c. The lunar 260 TW is generated electrical power, so comparing them needs a wall-plug efficiency in between. Even at a generous 50% conversion the lunar beam is still more than six hundred times Starshot's.
 
 The sail material does not exist yet either. Atwater's group at Caltech framed this as an open materials problem in Nature Materials in 2018: the sail needs near-zero absorption in the laser band and high enough emissivity to radiate away whatever it does absorb ([Atwater et al., Nature Materials 17, 861-867](https://www.nature.com/articles/s41563-018-0075-8)). Work since has stayed at the scale of thin-film samples.
 
@@ -85,7 +85,7 @@ Dust on radiator surfaces could not be removed. Apollo 12's magnetometer ran abo
 
 The line in that report I keep returning to: brushing worked much better in ground tests than it did on the Moon. That is the failure mode of the whole optimistic genre. The simulation was fine.
 
-Hours of operation degraded Apollo hardware measurably. The original's argument needs machines that run for decades. Nothing about better cognition closes that gap by itself, because the gap is in bearings, seals, lubricants and coatings. A jammed drill bit connected to an ASI is still a jammed drill bit.
+Hours of operation degraded Apollo hardware measurably. The original does not need any single machine to last decades, because it proposes repair and local manufacturing, and that is the right answer to give. What it does need is repair and replacement throughput that stays ahead of a wear rate this high. Every gram of replacement mass, every hour of repair, and every part the local foundry cannot yet make is drawn from the same industrial capacity that is supposed to be covering 3.79 million square kilometers. Better cognition does not reduce the wear, because the wear is in bearings, seals, lubricants and coatings.
 
 ## The chip is the hardest thing to deliver
 
@@ -93,9 +93,9 @@ The chain rests on one sentence in the original: carry a chip, and you carry pow
 
 Space processors are generations behind. The RAD5545 runs at 45 nm, draws about 20 W and delivers 3.7 GFLOPS. That is the radiation-tolerant part, not the frontier part, and the distance between them is the point.
 
-I want to state the radiation tradeoff more carefully than I first did. It is true that smaller geometries hold less critical charge per storage node, which all else equal invites more single-event upsets. It is not true that advanced nodes are simply more fragile: FinFET geometries have shown reduced sensitivity to some single-event effects, and modern parts lean on error correction and redundancy. The real obstacle is not a law of physics. It is that the qualification pipeline for space-rated silicon runs years behind the commercial one, and running frontier inference on a decade-old node is a different proposition from running it on current hardware.
+I want to state the radiation tradeoff more carefully than I first did. It is true that smaller geometries hold less critical charge per storage node, which all else equal invites more single-event upsets. It is not true that advanced nodes are simply more fragile: FinFET geometries have shown reduced sensitivity to some single-event effects, and modern parts lean on error correction and redundancy. The obstacle sits in the qualification pipeline. Space-rated silicon certifies years behind the commercial process, and running frontier inference on a decade-old node is a different proposition from running it on current hardware.
 
-Cooling is a genuine constraint and I had the geometry backwards on first pass. In vacuum, final heat rejection happens by radiation only. Lunar noon ground runs about 390 K and radiates about 1,312 W/m². That is why a vertical radiator facing the ground is the bad configuration: it has a large view factor to the hot surface and needs working fluid above roughly 325 K before it rejects any net heat at all. The fix is geometric and well understood. A horizontal radiator parallel to the ground has essentially no view of it ([NASA lunar radiator study](https://ntrs.nasa.gov/citations/20130013573)). Shaded, facing the sky, a surface at 350 K with emissivity 0.9 rejects about 766 W/m², so a megawatt of compute needs on the order of 1,300 m² of radiator.
+Cooling is a genuine constraint and I had the geometry backwards on first pass. In vacuum, final heat rejection happens by radiation only. Lunar noon ground runs about 390 K, radiating about 1,312 W/m² as a blackbody and about 1,181 W/m² at the emissivity 0.9 I use for the radiator itself. That is why a vertical radiator facing the ground is the bad configuration: it has a large view factor to the hot surface and needs working fluid above roughly 325 K before it rejects any net heat at all. The fix is geometric and well understood. The upward face of a horizontal radiator has essentially no view of the ground ([NASA lunar radiator study](https://ntrs.nasa.gov/citations/20130013573)). Shaded, facing the sky, a surface at 350 K with emissivity 0.9 rejects about 766 W/m², so a megawatt of compute needs on the order of 1,300 m² of sky-facing radiator.
 
 1,300 square meters per megawatt is not a wall. It is a mass and area budget, and it belongs in the ledger alongside the panels, which is where the original does not put it.
 
@@ -103,11 +103,11 @@ Cooling is a genuine constraint and I had the geometry backwards on first pass. 
 
 Here is the objection I find hardest, and it is aimed straight at my own arithmetic.
 
-Dividing a fixed target by today's production rate is exactly the denominator trick I accused the original of. Industrial capacity is not fixed. Apply 5% annual growth to solar output and my 1,415 fixed-output years becomes about 88 calendar years. At 3% it is about 128. Both land inside the original's 50 to 200 year window. The whole point of the bootstrapping story is that you ship seed equipment, the seed equipment builds more equipment, bulk material stays local, and only scarce components come from Earth. Under that model, the correct quantity is not total mass over current shipping capacity. It is the net reproduction rate of a lunar industrial system after maintenance and replacement.
+Dividing a fixed target by today's production rate is exactly the denominator trick I accused the original of. Industrial capacity is not fixed. Apply 5% annual growth to solar output and my 1,415 fixed-output years becomes about 88 calendar years. At 3% it is about 128. Both land inside the original's 50 to 200 year window. The whole point of the bootstrapping story is that you ship seed equipment, the seed equipment builds more equipment, bulk material stays local, and only scarce components come from Earth. Under that model, the correct quantity is the net reproduction rate of a lunar industrial system after maintenance and replacement. Total mass over current shipping capacity measures something else.
 
 That reply is correct, and it means the honest version of my thesis is narrower than the one I started with. I cannot show that this is impossible in 50 to 200 years. Nobody can.
 
-What I can say is that the reply relocates the argument rather than winning it. A self-expanding industrial system needs its replacement rate to exceed its wear rate, and every specific thing we know about operating machinery on the lunar surface bears on that one inequality. Apollo hardware degraded measurably in 21 to 75 hours. Brushing failed in the field after working in the lab. The seals failed. That is the number the original needs and never estimates: not terawatts, but how much of its own maintenance a lunar factory can cover before it needs another shipment.
+What I can say is that the reply relocates the argument rather than winning it. A self-expanding industrial system needs its replacement rate to exceed its wear rate, and every specific thing we know about operating machinery on the lunar surface bears on that one inequality. Apollo hardware degraded measurably in 21 to 75 hours. Brushing failed in the field after working in the lab. The seals failed. That is the number the original needs and never estimates: how much of its own maintenance a lunar factory can cover before it needs another shipment. A terawatt figure does not answer it.
 
 Energy abundance is the part of this story that was never really in doubt. Sunlight has been falling on the Moon for four billion years.
 
@@ -117,13 +117,13 @@ One thing the original never raises. A directed-energy installation delivering 2
 
 Article IV of the Outer Space Treaty states that the Moon and other celestial bodies shall be used "exclusively for peaceful purposes," and forbids military bases, installations and fortifications, along with the testing of any type of weapon ([UNOOSA treaty text](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html)).
 
-How other nations respond on the day one country finishes a steerable 260 TW laser is not a question with a technical answer, and it is a live constraint on whether the thing gets built at all.
+The original never says who owns the array, or whether its output is ever concentrated into a single steerable beam. Those details decide whether the thing reads as infrastructure or as armament, the question has no technical answer, and it is a live constraint on whether it gets built at all.
 
 ## What would change my mind
 
-The original derives everything from energy abundance. The binding constraints sit in materials, mechanism lifetime, and whether a local industrial base can reproduce itself faster than it wears out.
+The original does name its pieces: fission, communications, robotics, charging, manufacturing, repair, braking at the destination. What it does not do is cost any of them. The binding constraints sit in materials, maintenance throughput, and whether a local industrial base can reproduce itself faster than it wears out.
 
-For scale against present reality: NASA's lunar fission effort was restructured in August 2025 around a target of at least 100 kilowatts electric, ready for launch by late 2029, up from the previous 40 kilowatt design aimed at the mid-2030s ([Scientific American on the directive](https://www.scientificamerican.com/article/nasa-boosts-plans-for-nuclear-reactor-on-the-moon/)). The original assumes a megawatt-class reactor, ten times that target. The last time humans went to the Moon was 1972.
+For scale against present reality: NASA's lunar fission effort was restructured in August 2025 around a target of at least 100 kilowatts electric, ready for launch by late 2029, up from the previous 40 kilowatt design aimed at the mid-2030s ([Scientific American on the directive](https://www.scientificamerican.com/article/nasa-boosts-plans-for-nuclear-reactor-on-the-moon/)). The original assumes a megawatt-class reactor, ten times that minimum. The last time humans went to the Moon was 1972.
 
 Four results would move my estimate substantially.
 
@@ -137,7 +137,7 @@ Fourth, sail absorptivity in the laser band meeting design requirements at meter
 
 Any one of those advances this more than another essay about 260 TW.
 
-The most appealing thing about the original is its faith that whatever physics permits will eventually get built. Physics does permit it. The question the essay skips is the one every actual machine on the lunar surface has answered badly so far: not whether the energy is there, but whether the hardware lasts long enough to spend it.
+The most appealing thing about the original is its faith that whatever physics permits will eventually get built. Physics does permit it. The question the essay skips is the one every actual machine on the lunar surface has answered badly so far: whether the hardware lasts long enough to spend the energy. Whether the energy is there was never the hard part.
 
 **Related posts:**
 - [中文版：宇宙大航海时代的悲观论点]({{ site.baseurl }}/zh/posts/2026/09/pessimist-case-for-solar-system-expansion/)
