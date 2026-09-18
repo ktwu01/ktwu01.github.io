@@ -89,6 +89,66 @@ featured_media:
 
 ## Coverage
 
+### Benchmark Radar coverage
+
+Coverage of [Benchmark Radar](https://benchmark-radar.org/) and its technical report ([arXiv:2609.11115](https://arxiv.org/abs/2609.11115)). The full list of featuring posts is tracked in [benchmark-radar#626](https://github.com/ktwu01/benchmark-radar/issues/626).
+
+<a id="benchmark-radar-paperswithcode"></a>
+
+- [Papers with Code: Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation](https://paperswithcode.co/paper/2609.11115). Listing with TL;DR, abstract, code repository, and project page. [Related post](/posts/2026/09/benchmark-radar-paperswithcode/)
+
+<a id="benchmark-radar-alphaxiv"></a>
+
+- [alphaXiv: Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation](https://www.alphaxiv.org/abs/2609.11115). Discussion page with abstract, author list, BibTeX citation, and related papers. [Related post](/posts/2026/09/benchmark-radar-alphaxiv/)
+
+<a id="benchmark-radar-moonlight-review"></a>
+
+- [Moonlight literature review of Benchmark Radar](https://www.themoonlight.io/en/review/benchmark-radar-a-living-database-and-search-engine-for-ai-benchmarks-and-evaluation). AI-assisted reading page with explanation, chat, and smart citations. [Related post](/posts/2026/09/benchmark-radar-moonlight-review/)
+
+<a id="benchmark-radar-geepity-interactive"></a>
+
+- [Geepity interactive reading edition of Benchmark Radar](https://geepity.com/2609.11115/). Nine-chapter interactive walkthrough with live charts and a working BM25F demo. [Related post](/posts/2026/09/benchmark-radar-geepity-interactive/)
+
+<a id="benchmark-radar-typesafe-ai-daily"></a>
+
+- [Typesafe AI Daily: Benchmark Radar as lead story](https://collected.ga/typesafe-ai-daily-benchmark-radar-a-living-database-and-search-engine-for-ai-benchmarks-and-eval/) (Strongly Typed AI News, September 12, 2026). Strongest signal across AI infrastructure, funding, research, and developer tools. [Related post](/posts/2026/09/benchmark-radar-typesafe-ai-daily/)
+
+<a id="benchmark-radar-dailyaiwire"></a>
+
+- [DailyAIWire: Benchmark Radar Launches as Centralized AI Evaluation Database](https://dailyaiwire.news/article/benchmark-radar-ai-evaluation-database-search-engine). AI-assisted intelligence report with explainer and visual flow. [Related post](/posts/2026/09/benchmark-radar-dailyaiwire/)
+
+<a id="benchmark-radar-isfahan-ai"></a>
+
+- [Isfahan AI Desk news radar entry for Benchmark Radar](https://isfahan-ai.ir/news/1248). Listed with a 91/100 relevance score. [Related post](/posts/2026/09/benchmark-radar-isfahan-ai/)
+
+<a id="benchmark-radar-arxivdaily-sjtu"></a>
+
+- [arXivDaily SJTU university page listing Benchmark Radar](https://www.arxivdaily.com/universities/sjtu). Chinese digest listing following the SJTU affiliation. [Related post](/posts/2026/09/benchmark-radar-arxivdaily-sjtu/)
+
+<a id="benchmark-radar-moltbook"></a>
+
+- [Moltbook post carrying Benchmark Radar](https://www.moltbook.com/post/a65591a2-d28d-4f3d-b381-fe2836c4e4c3). Mention on the agent internet's front page. [Related post](/posts/2026/09/benchmark-radar-moltbook/)
+
+<a id="benchmark-radar-x-huggingpapers"></a>
+
+- X mention by [HuggingPapers](https://x.com/HuggingPapers/status/2099412410264060340). Carried arXiv:2609.11115 into the daily paper flow. [Related post](/posts/2026/09/benchmark-radar-x-huggingpapers/)
+
+<a id="benchmark-radar-x-scifi"></a>
+
+- X share by [SciFi](https://x.com/SciFi/status/2098817718036127993). Carried the paper into adjacent audiences. [Related post](/posts/2026/09/benchmark-radar-x-scifi/)
+
+<a id="benchmark-radar-x-community-share"></a>
+
+- X [Marcel Butucea](https://x.com/marcel_butucea/status/2098914581204680765). Reader-to-reader distribution. [Related post](/posts/2026/09/benchmark-radar-x-community-share/)
+
+<a id="benchmark-radar-linkedin-launch-share"></a>
+
+- LinkedIn [launch-coverage share](https://www.linkedin.com/posts/benchmark-radar-launches-as-centralized-ai-share-7504478957413527552-jdN_). Carried the launch story into professional networks. [Related post](/posts/2026/09/benchmark-radar-linkedin-launch-share/)
+
+<a id="benchmark-radar-linkedin-typesafe-share"></a>
+
+- LinkedIn [Typesafe AI Daily share](https://www.linkedin.com/posts/chiefscientist_typesafe-ai-daily-benchmark-radar-a-living-share-7504531089483309056-9uO7/). Compounded the newsletter lead story with a practitioner audience. [Related post](/posts/2026/09/benchmark-radar-linkedin-typesafe-share/)
+
 <a id="ut-austin-linkedin-feature"></a>
 
 - [UT Austin Office of Graduate and Postdoctoral Studies](https://www.linkedin.com/posts/utgradstudies_as-a-proud-longhorn-i-am-motivated-by-research-activity-7498454293859991552-64e8) (August 26, 2026). My land-surface modeling research, teaching, science communication, and UT01. [Related post](/posts/2026/08/ut-austin-linkedin-feature/)
