@@ -2186,6 +2186,15 @@
       }
     ]
   },
+  "/posts/2026/09/coffee-is-also-soy-milk/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/coffee-is-also-soy-milk/"
+      }
+    ]
+  },
   "/posts/2026/09/passing-on-spiritual-genes/": {
     "variants": [
       {
@@ -4424,6 +4433,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/benchmark-radar-x-scifi/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/coffee-is-also-soy-milk/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/coffee-is-also-soy-milk/"
       }
     ]
   },
