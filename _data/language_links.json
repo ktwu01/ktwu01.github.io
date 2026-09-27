@@ -2195,6 +2195,15 @@
       }
     ]
   },
+  "/posts/2026/09/life-and-last-letter/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/life-and-last-letter/"
+      }
+    ]
+  },
   "/posts/2026/09/passing-on-spiritual-genes/": {
     "variants": [
       {
@@ -4442,6 +4451,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/coffee-is-also-soy-milk/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/life-and-last-letter/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/life-and-last-letter/"
       }
     ]
   },
