@@ -26,7 +26,7 @@ In the last two years, I lost people in two different ways.
 
 One evening the phone rang, and a relative was suddenly gone. Ten years ago, this relative took part in and witnessed a major decision of mine, and, just like me, had spent eight years drifting abroad. One phone call, and they had stepped out of my life.
 
-I also went through a different kind of departure. The person I had been with for two years, the person whose name I had written into my will, became my ex a few months ago. Still alive, just no longer in my life. The line in my will is still there. The relationship between the one who wrote it and the one it names has changed.
+I also went through a different kind of departure. The person I had been with for two years, the person whose name I had written into my will, and I broke up in the last few days. Still alive, just no longer in my life. I have spent these days thinking about all of this, and it hurts. The line in my will is still there. The relationship between the one who wrote it and the one it names has changed.
 
 When I was 22, I died three times, and I saw my life flash before my eyes.
 
@@ -34,11 +34,13 @@ So I know death is terrible. I am still figuring out what life is for. I often c
 
 Recently I realized I probably need to revise my will.
 
-Revising a will is harder than writing one. When you write it, you only have to know who you love. When you revise it, you have to admit that some of those people are gone: some have left this world, some have left your life. Crossing out a name takes one stroke of the pen.
+It is not only a name that needs to change. What I am about to take on has changed too. A will says who I am responsible for and how much. Both of those have shifted, so the will has to shift with them.
 
 A will is not the only document like this. A prenup says how things get split if two people part. A term sheet (the key terms an investor and a founder agree on first) says who gets their money back if the company fails. Each one is written while things are still good, for the day they might end.
 
 That is why a will is part of a love letter.
+
+This is what I have been thinking about these days. I wrote it down because I want you to know.
 
 So, everyone:
 
