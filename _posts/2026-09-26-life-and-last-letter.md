@@ -30,7 +30,7 @@ I did not write a will because I wanted to leave. I don't know what death means.
 
 Writing a will is how I move forward. Once you know the worst case, you can give everything you have. That is one of the reasons I was so brave back then.
 
-In the last two years, I lost people in two different ways.
+In the last two years, two people left my life, each in a different way.
 
 One evening the phone rang, and a relative was suddenly gone. Ten years ago, this relative took part in and witnessed a major decision of mine, and, just like me, had spent eight years drifting abroad. One phone call, and they had stepped out of my life.
 
