@@ -38,7 +38,7 @@ I also went through a different kind of departure. The person I had been with fo
 
 The line in my will is still there. The relationship between the one who wrote it and the one it names has changed. When I see her name now and think about changing it, I feel at peace. I also feel the weight of it.
 
-I am 22, almost 23. By now, I have died three times, and I have seen my life flash before my eyes.
+I am 22, almost 23. By now, I have come close to death three times, and I have seen my life flash before my eyes.
 
 So I know death is terrible. I am still figuring out what life is for. I often cry, guilty that I haven't reached the goals I set for my life. I often grieve that life is short and I haven't made time to enjoy it. And every now and then, the family in my will give me a headache.
 
