@@ -53,7 +53,7 @@ redirect_from:
 
 I was a Ph.D. student at UT Austin, and I recently moved to the M.S. track (graduating Dec 2026) to devote myself to building interesting things.
 
-Before that, I graduated from the School of Earth and Space Sciences at USTC (B.S. in Geophysics, Honors).
+Before that, I graduated from the School of Earth and Space Sciences at USTC (B.S. in Space Physics, Honors).
 
 I love open-source projects, and I built many of them during my Ph.D. years. [Benchmark Radar](https://github.com/ktwu01/benchmark-radar) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/benchmark-radar?style=social)](https://github.com/ktwu01/benchmark-radar) is the first project to track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.
 

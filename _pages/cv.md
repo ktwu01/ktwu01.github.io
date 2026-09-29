@@ -26,7 +26,7 @@ Education
   * TA for 1,000+ students (Rating: 4.5/5.0)
   * Advisors: Dr. Zong-Liang Yang
 
-* **B.S. with Honors in Geosciences (Honors Class)**, University of Science and Technology of China, 2020 - 2024
+* **B.S. with Honors in Space Physics (Honors Class)**, University of Science and Technology of China, 2020 - 2024
   * Nominated for the Highest Honor for USTC undergraduates (one of the two ESS School nominees)
   * Founded one of the largest student clubs, grew from 0 to 1,300+ members. [News]
 
