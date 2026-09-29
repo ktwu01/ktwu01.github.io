@@ -28,7 +28,7 @@ Education
 
 * **B.S. with Honors in Space Physics (Honors Class)**, University of Science and Technology of China, 2020 - 2024
   * Nominated for the Highest Honor for USTC undergraduates (one of the two ESS School nominees)
-  * Founded one of the largest student clubs, grew from 0 to 1,300+ members. [News]
+  * Founded one of the largest student clubs, grew from 0 to 1,300+ members. [News](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA)
 
 Work Experience
 ======
