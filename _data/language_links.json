@@ -2231,6 +2231,33 @@
       }
     ]
   },
+  "/posts/2026/09/researcher-profile-500ai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-500ai/"
+      }
+    ]
+  },
+  "/posts/2026/09/researcher-profile-aimodels-fyi/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-aimodels-fyi/"
+      }
+    ]
+  },
+  "/posts/2026/09/researcher-profile-catalyzex/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-catalyzex/"
+      }
+    ]
+  },
   "/posts/2026/09/stop-aligning-ai-to-humans/": {
     "variants": [
       {
@@ -4496,6 +4523,33 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/pessimist-case-for-solar-system-expansion/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-500ai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-500ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-aimodels-fyi/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-aimodels-fyi/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-catalyzex/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-catalyzex/"
       }
     ]
   },
