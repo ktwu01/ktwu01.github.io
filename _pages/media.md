@@ -113,7 +113,7 @@ Coverage of [Benchmark Radar](https://benchmark-radar.org/) and its technical re
 
 <a id="benchmark-radar-typesafe-ai-daily"></a>
 
-- [Typesafe AI Daily: Benchmark Radar as lead story](https://collected.ga/typesafe-ai-daily-benchmark-radar-a-living-database-and-search-engine-for-ai-benchmarks-and-eval/) (Strongly Typed AI News, September 12, 2026). Strongest signal across AI infrastructure, funding, research, and developer tools. [Related post](/posts/2026/09/benchmark-radar-typesafe-ai-daily/)
+- [Strongly Typed AI News: Benchmark Radar as lead story](https://collected.ga/typesafe-ai-daily-benchmark-radar-a-living-database-and-search-engine-for-ai-benchmarks-and-eval/) ("Typesafe AI Daily" issue, September 12, 2026). Named the strongest of 12 signals from a 49-source crawl of AI infrastructure, funding, research, and developer tools. [Related post](/posts/2026/09/benchmark-radar-typesafe-ai-daily/)
 
 <a id="benchmark-radar-dailyaiwire"></a>
 
@@ -149,7 +149,7 @@ Coverage of [Benchmark Radar](https://benchmark-radar.org/) and its technical re
 
 <a id="benchmark-radar-linkedin-typesafe-share"></a>
 
-- LinkedIn [Typesafe AI Daily share](https://www.linkedin.com/posts/chiefscientist_typesafe-ai-daily-benchmark-radar-a-living-share-7504531089483309056-9uO7/). Compounded the newsletter lead story with a practitioner audience. [Related post](/posts/2026/09/benchmark-radar-linkedin-typesafe-share/)
+- LinkedIn [share by Alexy Khrabrov](https://www.linkedin.com/posts/chiefscientist_typesafe-ai-daily-benchmark-radar-a-living-share-7504531089483309056-9uO7/), who runs Strongly Typed AI News. Carried the lead story to a practitioner audience. [Related post](/posts/2026/09/benchmark-radar-linkedin-typesafe-share/)
 
 <a id="ut-austin-linkedin-feature"></a>
 
