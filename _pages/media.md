@@ -87,6 +87,8 @@ featured_media:
     logo: "/images/media/logos/synced.webp"
 ---
 
+{% include home-media.html %}
+
 ## Coverage
 
 ### Benchmark Radar coverage
