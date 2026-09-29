@@ -51,7 +51,11 @@ redirect_from:
   }
 </style>
 
-<!-- A researcher and founder working on AI for Science. -->
+I was a Ph.D. student at UT Austin, and I recently moved to the M.S. track (graduating Dec 2026) to devote myself to building interesting things.
+
+Before that, I graduated from the School of Earth and Space Sciences at USTC (B.S. in Space Physics, Honors).
+
+I love open-source projects, and I built many of them during my Ph.D. years. [Benchmark Radar](https://github.com/ktwu01/benchmark-radar) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/benchmark-radar?style=social)](https://github.com/ktwu01/benchmark-radar) is the first project to track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
@@ -124,9 +128,9 @@ I am recently working as a Graduate Research Assistant at UT Austin and Project 
 
 ## Education
 
-**Doctor of Philosophy - PhD, Geological and Earth Sciences/Geosciences**
-*The University of Texas at Austin* (Aug 2024 - May 2029)
-Focus: Model Optimization of Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
+**M.S. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: Dec 2026 (transferred from the Ph.D. track)
+*The University of Texas at Austin* (Aug 2024 - Dec 2026)
+Focus: AI Eval x Model Optimization of Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
 
 **Bachelor of Science - BS (with Honors), Space Physics**
 *University of Science and Technology of China* (Sep 2020 - Jul 2024)
