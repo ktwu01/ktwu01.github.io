@@ -2195,12 +2195,48 @@
       }
     ]
   },
+  "/posts/2026/09/china-science-daily-x-institute/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/china-science-daily-x-institute/"
+      }
+    ]
+  },
+  "/posts/2026/09/china-science-daily-x-students-wechat/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/china-science-daily-x-students-wechat/"
+      }
+    ]
+  },
   "/posts/2026/09/coffee-is-also-soy-milk/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/coffee-is-also-soy-milk/"
+      }
+    ]
+  },
+  "/posts/2026/09/education-technology-singularity/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/education-technology-singularity/"
+      }
+    ]
+  },
+  "/posts/2026/09/forbes-us-matraix-coverage/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/forbes-us-matraix-coverage/"
       }
     ]
   },
@@ -2213,6 +2249,69 @@
       }
     ]
   },
+  "/posts/2026/09/linchuan-no1-ustc-admission/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/linchuan-no1-ustc-admission/"
+      }
+    ]
+  },
+  "/posts/2026/09/mango-tv-gold-rush-2026/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/mango-tv-gold-rush-2026/"
+      }
+    ]
+  },
+  "/posts/2026/09/matraix-forbes-turkiye/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/matraix-forbes-turkiye/"
+      }
+    ]
+  },
+  "/posts/2026/09/matraix-hugging-face-daily-papers/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/matraix-hugging-face-daily-papers/"
+      }
+    ]
+  },
+  "/posts/2026/09/matraix-numerama/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/matraix-numerama/"
+      }
+    ]
+  },
+  "/posts/2026/09/matraix-nzz-am-sonntag/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/matraix-nzz-am-sonntag/"
+      }
+    ]
+  },
+  "/posts/2026/09/matraix-wired-czech/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/matraix-wired-czech/"
+      }
+    ]
+  },
   "/posts/2026/09/passing-on-spiritual-genes/": {
     "variants": [
       {
@@ -2222,12 +2321,192 @@
       }
     ]
   },
+  "/posts/2026/09/peoples-daily-x-institute/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/peoples-daily-x-institute/"
+      }
+    ]
+  },
   "/posts/2026/09/pessimist-case-for-solar-system-expansion/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/pessimist-case-for-solar-system-expansion/"
+      }
+    ]
+  },
+  "/posts/2026/09/planetary-science-meteor-radar/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/planetary-science-meteor-radar/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-github/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-github/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-instagram/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-instagram/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-linkedin/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-linkedin/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-publications-index/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-publications-index/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-science-yall/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-science-yall/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-ut-jackson-school/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-ut-jackson-school/"
+      }
+    ]
+  },
+  "/posts/2026/09/profile-x/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/profile-x/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-academic-website/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-academic-website/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-ai-polish/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-ai-polish/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-asi-bench/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-asi-bench/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-crypto-dashboard/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-crypto-dashboard/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-earth-space-ai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-earth-space-ai/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-matraix/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-matraix/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-personal-site/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-personal-site/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-researchclawbench/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-researchclawbench/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-researchskills-ai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-researchskills-ai/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-tacite/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-tacite/"
+      }
+    ]
+  },
+  "/posts/2026/09/project-ut01/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/project-ut01/"
       }
     ]
   },
@@ -2258,12 +2537,93 @@
       }
     ]
   },
+  "/posts/2026/09/researcher-profile-google-scholar/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-google-scholar/"
+      }
+    ]
+  },
+  "/posts/2026/09/researcher-profile-orcid/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-orcid/"
+      }
+    ]
+  },
+  "/posts/2026/09/researcher-profile-researchgate/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-researchgate/"
+      }
+    ]
+  },
+  "/posts/2026/09/researcher-profile-scopus/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-scopus/"
+      }
+    ]
+  },
+  "/posts/2026/09/researcher-profile-semantic-scholar/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/researcher-profile-semantic-scholar/"
+      }
+    ]
+  },
+  "/posts/2026/09/science-fiction-night-2021/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/science-fiction-night-2021/"
+      }
+    ]
+  },
+  "/posts/2026/09/starting-point-one-documentary/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/starting-point-one-documentary/"
+      }
+    ]
+  },
   "/posts/2026/09/stop-aligning-ai-to-humans/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/stop-aligning-ai-to-humans/"
+      }
+    ]
+  },
+  "/posts/2026/09/synced-asi-bench-coverage/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/synced-asi-bench-coverage/"
+      }
+    ]
+  },
+  "/posts/2026/09/synced-matraix-coverage/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/synced-matraix-coverage/"
       }
     ]
   },
@@ -2282,6 +2642,69 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/the-most-expensive-thing-is-the-question/"
+      }
+    ]
+  },
+  "/posts/2026/09/tsinghua-news-peoples-daily-x-institute/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/tsinghua-news-peoples-daily-x-institute/"
+      }
+    ]
+  },
+  "/posts/2026/09/tsinghua-talent-training-seminar/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/tsinghua-talent-training-seminar/"
+      }
+    ]
+  },
+  "/posts/2026/09/ustc-library-calligraphy-award/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/ustc-library-calligraphy-award/"
+      }
+    ]
+  },
+  "/posts/2026/09/ustc-outstanding-graduation-thesis-2024/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/ustc-outstanding-graduation-thesis-2024/"
+      }
+    ]
+  },
+  "/posts/2026/09/ustc-undergraduate-research-award-2023/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/ustc-undergraduate-research-award-2023/"
+      }
+    ]
+  },
+  "/posts/2026/09/ustc-xingyun-poetry-club/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/ustc-xingyun-poetry-club/"
+      }
+    ]
+  },
+  "/posts/2026/09/x-institute-student-interview/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/x-institute-student-interview/"
       }
     ]
   },
@@ -4490,12 +4913,48 @@
       }
     ]
   },
+  "/zh/posts/2026/09/china-science-daily-x-institute/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/china-science-daily-x-institute/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/china-science-daily-x-students-wechat/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/china-science-daily-x-students-wechat/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/coffee-is-also-soy-milk/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/coffee-is-also-soy-milk/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/education-technology-singularity/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/education-technology-singularity/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/forbes-us-matraix-coverage/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/forbes-us-matraix-coverage/"
       }
     ]
   },
@@ -4508,6 +4967,69 @@
       }
     ]
   },
+  "/zh/posts/2026/09/linchuan-no1-ustc-admission/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/linchuan-no1-ustc-admission/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/mango-tv-gold-rush-2026/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/mango-tv-gold-rush-2026/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/matraix-forbes-turkiye/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/matraix-forbes-turkiye/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/matraix-hugging-face-daily-papers/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/matraix-hugging-face-daily-papers/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/matraix-numerama/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/matraix-numerama/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/matraix-nzz-am-sonntag/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/matraix-nzz-am-sonntag/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/matraix-wired-czech/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/matraix-wired-czech/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/passing-on-spiritual-genes/": {
     "variants": [
       {
@@ -4517,12 +5039,192 @@
       }
     ]
   },
+  "/zh/posts/2026/09/peoples-daily-x-institute/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/peoples-daily-x-institute/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/pessimist-case-for-solar-system-expansion/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/pessimist-case-for-solar-system-expansion/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/planetary-science-meteor-radar/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/planetary-science-meteor-radar/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-github/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-github/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-instagram/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-instagram/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-linkedin/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-linkedin/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-publications-index/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-publications-index/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-science-yall/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-science-yall/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-ut-jackson-school/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-ut-jackson-school/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/profile-x/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/profile-x/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-academic-website/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-academic-website/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-ai-polish/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-ai-polish/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-asi-bench/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-asi-bench/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-crypto-dashboard/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-crypto-dashboard/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-earth-space-ai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-earth-space-ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-matraix/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-matraix/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-personal-site/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-personal-site/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-researchclawbench/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-researchclawbench/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-researchskills-ai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-researchskills-ai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-tacite/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-tacite/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/project-ut01/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/project-ut01/"
       }
     ]
   },
@@ -4553,12 +5255,93 @@
       }
     ]
   },
+  "/zh/posts/2026/09/researcher-profile-google-scholar/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-google-scholar/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-orcid/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-orcid/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-researchgate/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-researchgate/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-scopus/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-scopus/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/researcher-profile-semantic-scholar/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/researcher-profile-semantic-scholar/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/science-fiction-night-2021/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/science-fiction-night-2021/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/starting-point-one-documentary/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/starting-point-one-documentary/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/stop-aligning-ai-to-humans/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/stop-aligning-ai-to-humans/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/synced-asi-bench-coverage/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/synced-asi-bench-coverage/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/synced-matraix-coverage/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/synced-matraix-coverage/"
       }
     ]
   },
@@ -4577,6 +5360,69 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/the-most-expensive-thing-is-the-question/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/tsinghua-news-peoples-daily-x-institute/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/tsinghua-news-peoples-daily-x-institute/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/tsinghua-talent-training-seminar/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/tsinghua-talent-training-seminar/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/ustc-library-calligraphy-award/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/ustc-library-calligraphy-award/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/ustc-outstanding-graduation-thesis-2024/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/ustc-outstanding-graduation-thesis-2024/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/ustc-undergraduate-research-award-2023/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/ustc-undergraduate-research-award-2023/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/ustc-xingyun-poetry-club/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/ustc-xingyun-poetry-club/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/x-institute-student-interview/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/x-institute-student-interview/"
       }
     ]
   },
