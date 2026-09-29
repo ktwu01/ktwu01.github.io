@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV - Koutian Wu | AI4Geoscience PhD Student at UT Austin"
-excerpt: "Comprehensive CV of Koutian Wu, PhD student working on AI agents for science: agent evaluation and benchmark design (ESM-bench), land surface modeling, and full-stack engineering."
+title: "CV - Koutian Wu | AI4Geoscience M.S. Student at UT Austin"
+excerpt: "Comprehensive CV of Koutian Wu, M.S. student working on AI agents for science: agent evaluation and benchmark design (ESM-bench), land surface modeling, and full-stack engineering."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -22,7 +22,7 @@ Highlights
 
 Education
 ======
-* **Ph.D. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: May 2029
+* **M.S. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: Dec 2026 (transferred from the Ph.D. track)
   * TA for 1,000+ students (Rating: 4.5/5.0)
   * Advisors: Dr. Zong-Liang Yang
 
