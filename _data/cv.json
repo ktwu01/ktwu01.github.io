@@ -3,8 +3,8 @@
     "name": "Koutian Wu (吴叩天)",
     "email": "ktwugoat@gmail.com",
     "phone": "",
-    "website": "https://ktwu01.github.io",
-    "summary": "AI4Geoscience PhD student at UT-Austin Jackson School of Geosciences, specializing in explainable AI for physics-based land surface modeling. Former undergraduate at USTC with expertise in space physics and atmospheric sciences.",
+    "website": "https://koutian.is-a.dev",
+    "summary": "AI for Geosciences M.S. student at UT Austin's Jackson School of Geosciences, specializing in AI evaluation and physics-based land surface modeling. Former USTC undergraduate with expertise in space physics and atmospheric sciences.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -40,11 +40,19 @@
   ],
   "work": [
     {
+      "company": "The University of Texas at Austin",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Teaching Assistant for GEO 302C in Spring 2026, followed by a Fall 2026 teaching appointment."
+    },
+    {
       "company": "Jackson School of Geosciences, The University of Texas at Austin",
       "position": "Graduate Research Assistant",
       "website": "",
       "startDate": "2025-08-01",
-      "endDate": "",
+      "endDate": "2025-12-31",
       "summary": "AI for Noah-MP Land Surface Model: Implementing rock and wood moisture into the Noah-MP land surface model. Advised by Dr. Zong-Liang Yang."
     },
     {
@@ -77,16 +85,16 @@
       "website": "",
       "startDate": "2024-08-01",
       "endDate": "2025-05-31",
-      "summary": "Earth in 2100 (GEO 303E): Prepared course syllabus, office hours, and graded homework for ~1040 students."
+      "summary": "Supported 1,013 students across two semesters of Earth in 2100 (GEO 303E), with seven-item evaluation means of 4.09/5 in Fall 2024 and 4.49/5 in Spring 2025."
     }
   ],
   "education": [
     {
       "institution": "The University of Texas at Austin",
-      "area": "Ph.D. in Geological and Earth Sciences/Geosciences",
-      "studyType": "Doctor of Philosophy",
+      "area": "AI for Geosciences",
+      "studyType": "Master of Science",
       "startDate": "2024-08-01",
-      "endDate": "2029-05-31",
+      "endDate": "2026-12-31",
       "gpa": null,
       "courses": ["Model Optimization: Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)", "Rock Climbing"]
     },
@@ -217,7 +225,14 @@
       "institution": "University of Texas at Austin, Jackson School of Geosciences",
       "date": "2024-08-01",
       "role": "Graduate Teaching Assistant",
-      "description": "Prepared and led weekly office hours for 520+ students, graded assignments, and provided mentorship for an interdisciplinary course examining Earth system changes and climate projections."
+      "description": "Supported 1,013 students across Fall 2024 and Spring 2025 through course communication, grading, feedback, and explanations of course concepts."
+    },
+    {
+      "course": "GEO 302C",
+      "institution": "University of Texas at Austin, Jackson School of Geosciences",
+      "date": "2026-01-01",
+      "role": "Graduate Teaching Assistant",
+      "description": "Served as a Graduate Teaching Assistant during Spring 2026."
     }
   ],
   "portfolio": [

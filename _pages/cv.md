@@ -23,7 +23,7 @@ Highlights
 Education
 ======
 * **M.S. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: Dec 2026 (transferred from the Ph.D. track)
-  * TA for 1,000+ students (Rating: 4.5/5.0)
+  * Graduate Teaching Assistant in Fall 2024, Spring 2025, Spring 2026, and Fall 2026
   * Advisors: Dr. Zong-Liang Yang
 
 * **B.S. with Honors in Space Physics (Honors Class)**, University of Science and Technology of China, 2020 - 2024
@@ -36,7 +36,11 @@ Work Experience
   * Starting Point One (SP1), Remote
   * Sourced 100+ talents for Kehan Dong (CEO of SP1, ex-YC China Partner); sent 1,000+ outreach emails supporting post-investment hiring for Mira (raised $6.6M from General Catalyst)
 
-* **Graduate Research Assistant** (Aug 2025 - May 2026)
+* **Graduate Teaching Assistant** (Jan 2026 - Present)
+  * The University of Texas at Austin
+  * TA for GEO 302C in Spring 2026; current Fall 2026 appointment
+
+* **Graduate Research Assistant** (Aug 2025 - Dec 2025)
   * Jackson School of Geosciences, University of Texas at Austin
   * AI for Noah-MP Land Surface Model: implementing rock and wood moisture into the Noah-MP land surface model
 
@@ -70,7 +74,8 @@ Work Experience
 
 * **Graduate Teaching Assistant** (Aug 2024 - May 2025)
   * The University of Texas at Austin
-  * Helped prepare course syllabus, office hours, and grade homework for ~1040 students
+  * Supported 1,013 students across two semesters of Earth in 2100 (GEO 303E)
+  * Earned seven-item course-evaluation means of 4.09/5 in Fall 2024 and 4.49/5 in Spring 2025
 
 * **Scientific Visitor** (Jun 2024 - Aug 2024)
   * Peking University, Beijing, China
@@ -124,9 +129,6 @@ Service and Leadership
   * Founded USTC's first poetry club, grew to 1,300+ members
   * Organized 25+ cultural events with 202+ attendees
   * Managed team of 8 co-founders and 4 vice presidents
-* **Graduate Teaching Assistant**, The University of Texas at Austin (Aug 2024 - May 2025)
-  * Course preparation, office hours, and grading for ~1040 students
-
 Research Projects
 ======
 * **Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region**
