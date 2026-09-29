@@ -207,7 +207,7 @@ Sam Altman 发表声明澄清，托尔巴被移除并非因为他的政治立场
 
 被精英阶层边缘化不是终点，而可能是新起点。真正的叛逆者不会被系统打败，他们会创造新的系统。有时候，被踢出局反而是最好的开始。
 
-**Thanks** to Breck Yunits, Paul Biggar, Yuxuan Cao, Xiangliu, Chonghao Su and Sean Xiang for reading drafts of this.
+**Thanks** to Breck Yunits, Paul Biggar, Yuxuan Cao, Xiangliu, Chonghao Su, Sean Xiang, Roderick Dong, Haowen Xia, Shaodong Liu and others for reading and commenting on drafts of this.
 
 
 ## 参考资料
