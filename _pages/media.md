@@ -95,6 +95,10 @@ featured_media:
 
 Coverage of [Benchmark Radar](https://benchmark-radar.org/) and its technical report ([arXiv:2609.11115](https://arxiv.org/abs/2609.11115)). The full list of featuring posts is tracked in [benchmark-radar#626](https://github.com/ktwu01/benchmark-radar/issues/626).
 
+<a id="benchmark-radar-hugging-face-daily-papers"></a>
+
+- [Hugging Face Daily Papers: Benchmark Radar](https://huggingface.co/papers/2609.11115) (September 14, 2026). First of 26 papers that day, with 171 upvotes as of September 29, plus links to the code, project site, and dataset. [Related post](/posts/2026/09/benchmark-radar-hugging-face-daily-papers/)
+
 <a id="benchmark-radar-paperswithcode"></a>
 
 - [Papers with Code: Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation](https://paperswithcode.co/paper/2609.11115). Listing with TL;DR, abstract, code repository, and project page. [Related post](/posts/2026/09/benchmark-radar-paperswithcode/)
