@@ -1,6 +1,10 @@
 {% assign media_page = site.pages | where: 'permalink', '/media/' | first %}
+{% if page.permalink == '/media/' %}
+<section class="home-media" aria-label="Featured media">
+{% else %}
 <section class="home-media" aria-labelledby="home-media-title">
   <div class="home-media__heading"><h2 id="home-media-title">Media</h2><a href="{{ '/media/' | relative_url }}">All coverage <span aria-hidden="true">↗</span></a></div>
+{% endif %}
   <!-- <p class="home-media__intro">Selected features and coverage of research I coauthored.</p> -->
   <div class="news-deck" role="region" aria-roledescription="carousel" aria-label="Featured media">
     <div class="news-stage"><div class="news-track">
