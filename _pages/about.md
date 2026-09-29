@@ -128,9 +128,9 @@ I am recently working as a Graduate Research Assistant at UT Austin and Project 
 
 ## Education
 
-**Master of Science - MS, Geological and Earth Sciences/Geosciences**
+**M.S. Student in AI for Geosciences**, University of Texas at Austin, 2024 - Expected: Dec 2026 (transferred from the Ph.D. track)
 *The University of Texas at Austin* (Aug 2024 - Dec 2026)
-Focus: Model Optimization of Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
+Focus: AI Eval x Model Optimization of Physics-based Land Surface Models (Noah-MP, CTSM, HRLDAS)
 
 **Bachelor of Science - BS (with Honors), Space Physics**
 *University of Science and Technology of China* (Sep 2020 - Jul 2024)
