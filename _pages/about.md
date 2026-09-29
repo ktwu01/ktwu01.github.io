@@ -115,15 +115,19 @@ I love open-source projects, and I built many of them during my Ph.D. years. [Be
 
 ## Recent Work
 
-I am recently working as a Graduate Research Assistant at UT Austin and Project Admin for NCAR/CISL Allocation Project UTAA0012, "Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions." This project is funded with computational resources including 1,000 GPU hours on NSF NCAR Derecho-GPU and 20,000 CPU core-hours.
+I currently serve as a Graduate Teaching Assistant at UT Austin and Project
+Admin for NCAR/CISL Allocation Project UTAA0012, "Explainable AI for Improving
+Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions."
+The project has computational resources including 1,000 GPU hours on NSF NCAR
+Derecho-GPU and 20,000 CPU core-hours.
 
 ### Recent Experience
 - Received **Tencent Hunyuan Qingyun Talent Program: AI Data & Evaluation Intern Offer** (Aug. 2026)
-- **Graduate Research Assistant** - Jackson School of Geosciences, UT Austin (Aug 2025 - Jan 2026)
+- **Graduate Teaching Assistant** - UT Austin (Jan 2026 - Present; previously Aug 2024 - May 2025)
+- **Graduate Research Assistant** - Jackson School of Geosciences, UT Austin (Aug 2025 - Dec 2025)
 - **Project Lead** - NSF NCAR (Aug 2025 - Aug 2026)
 - **AI Agent Evaluation Engineer Intern** - PineAI (Jul 2025)
 - **Full-Stack LLM Developer Intern** - Beijing ZaiwenAI Technology Co., Ltd. (Jun 2025 - Jul 2025)
-- **Graduate Teaching Assistant** - UT Austin (Aug 2024 - May 2025)
 - **Visiting Scholar** - NSF NCAR (Jul 2023 - Dec 2023)
 
 ## Education
