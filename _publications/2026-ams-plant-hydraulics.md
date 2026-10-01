@@ -6,6 +6,7 @@ permalink: /publication/2026-ams-plant-hydraulics
 excerpt: 'Conference poster presenting the integration and evaluation of a plant hydraulics scheme in the Noah-MP land surface model.'
 date: 2026-01-25
 venue: '106th AMS Annual Meeting'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Wu, K., Li, L., Rempe, D., Matheny, A., Mbarak, M., & Yang, Z.-L. (2026). "How Does Integrating Plant Hydraulics Improve Noah-MP Land Surface Model." Poster presented at the <i>106th AMS Annual Meeting</i>, Houston, TX.'
 ---
 

@@ -7,6 +7,7 @@ excerpt: 'AGU Fall Meeting abstract studying wave perturbations from the 2022 Hu
 date: 2023-12-15
 venue: 'AGU Fall Meeting 2023'
 paperurl: 'https://ui.adsabs.harvard.edu/abs/2023AGUFMSA33B2892W/abstract'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Wu, K., Liu, H.-L., Yi, W., & Xue, X. (2023). "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using the WACCM-X Simulation and Meteor Radar Observations." <i>AGU Fall Meeting Abstracts</i>, SA33B-2892.'
 ---
 

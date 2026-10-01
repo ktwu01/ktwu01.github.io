@@ -7,6 +7,7 @@ excerpt: 'A population-scale simulated-user evaluation infrastructure with 8.3 b
 date: 2026-08-04
 venue: 'arXiv preprint arXiv:2608.04205'
 paperurl: 'https://arxiv.org/abs/2608.04205'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Li, X., et al. (including Wu, K.) (2026). "MatrAIx: Simulating the World with 8.3 Billion Persona Agents." <i>arXiv preprint arXiv:2608.04205</i>.'
 ---
 

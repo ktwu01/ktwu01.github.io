@@ -7,6 +7,7 @@ excerpt: 'Peer-reviewed book chapter reviewing key ethical issues in generative 
 date: 2026-01-01
 venue: 'Geography According to Foundation Models, Vol. 422, IOS Press'
 paperurl: 'https://ebooks.iospress.nl/doi/10.3233/FAIA260483'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Mai, G., Lao, N., Zhang, J., Mao, L., Wang, Z., Wu, N., Janowicz, K., Wu, K., Rao, J., Gao, S., & Zhu, R. (2026). "On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust." In <i>Geography According to Foundation Models</i>, Vol. 422, pp. 215-232. IOS Press. DOI 10.3233/FAIA260483.'
 ---
 

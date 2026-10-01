@@ -7,6 +7,7 @@ excerpt: 'A comprehensive report on space physics practical education initiative
 date: 2024-08-01
 venue: 'Review of Geophysics and Planetary Physics'
 paperurl: 'https://www.sjdz.org.cn/en/article/doi/10.19975/j.dqyxx.2023-019'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Wu, K.*, Xu, X., Jiang, J., & Shen, A. (2024). "A Summary Report on the Space Physics Practical Education in 2022." <i>Review of Geophysics and Planetary Physics</i>.'
 ---
 

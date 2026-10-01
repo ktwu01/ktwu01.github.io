@@ -7,6 +7,7 @@ excerpt: 'Preprint. A multi-expert AI agent framework for automated parameteriza
 date: 2025-01-01
 venue: 'Preprint (Zenodo); in preparation'
 paperurl: 'https://zenodo.org/records/17862049'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Wu, K. (2025). "Noah-Agent: A Multi-Expert AI Agent Framework for Automated Parameterization and Validation of Large-Scale Fortran Climate Models (v0.1)." <i>Preprint, Zenodo</i>. https://zenodo.org/records/17862049'
 ---
 

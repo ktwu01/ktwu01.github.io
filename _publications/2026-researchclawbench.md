@@ -7,6 +7,7 @@ excerpt: 'A benchmark for end-to-end autonomous scientific research across 40 ta
 date: 2026-05-28
 venue: 'arXiv preprint; submitted to AAAI 2027'
 paperurl: 'https://arxiv.org/abs/2606.07591'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Xu, W., et al. (including Wu, K.) (2026). "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research." <i>arXiv preprint</i>. Submitted to AAAI 2027.'
 ---
 

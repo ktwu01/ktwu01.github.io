@@ -7,6 +7,7 @@ excerpt: 'A behavioral-science instrument that measures identity drift in genera
 date: 2026-08-16
 venue: 'arXiv preprint arXiv:2608.15844'
 paperurl: 'https://arxiv.org/abs/2608.15844'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Ng, S., et al. (including Wu, K.) (2026). "MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations." <i>arXiv preprint arXiv:2608.15844</i>.'
 ---
 

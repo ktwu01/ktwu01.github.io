@@ -7,6 +7,7 @@ excerpt: 'Preprint. A 243-task benchmark testing whether AI agents understand Ea
 date: 2026-01-01
 venue: 'Preprint (Zenodo); in preparation for NeurIPS Datasets and Benchmarks'
 paperurl: 'https://zenodo.org/records/19802836'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Wu, K., Cao, Y., & Mai, G. (2026). "ESM-bench: A Benchmark for Evaluating Whether AI Agents Understand Earth System Model Physics and Code." <i>Preprint, Zenodo</i>. https://zenodo.org/records/19802836'
 ---
 

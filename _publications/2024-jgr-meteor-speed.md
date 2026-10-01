@@ -7,6 +7,7 @@ excerpt: 'This study investigates diurnal and seasonal variations of meteor spee
 date: 2024-12-01
 venue: 'JGR: Space Physics'
 paperurl: 'https://doi.org/10.1029/2024JA032767'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Wu, K., Yi, W.*, Xue, X.*, Reid, I., & Lu, M. (2024). "Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar." <i>JGR: Space Physics</i>.'
 ---
 

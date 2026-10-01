@@ -7,6 +7,7 @@ excerpt: 'A benchmark with 60 project-level tasks across 11 scientific domains t
 date: 2026-08-18
 venue: 'arXiv preprint arXiv:2608.17271'
 paperurl: 'https://arxiv.org/abs/2608.17271'
+bibtexurl: '/files/ktwu01.bib'
 citation: 'Zhou, J., et al. (including Wu, K.) (2026). "ASI-Bench: At the Dawn of Artificial Superintelligence." <i>arXiv preprint arXiv:2608.17271</i>.'
 ---
 
