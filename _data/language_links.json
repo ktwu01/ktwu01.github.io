@@ -2087,6 +2087,60 @@
       }
     ]
   },
+  "/posts/2026/09/benchmark-radar-day61/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day61/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day62/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day62/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day63/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day63/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day64/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day64/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day65/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day65/"
+      }
+    ]
+  },
+  "/posts/2026/09/benchmark-radar-day66/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/benchmark-radar-day66/"
+      }
+    ]
+  },
   "/posts/2026/09/benchmark-radar-geepity-interactive/": {
     "variants": [
       {
@@ -2714,6 +2768,51 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/your-data-never-left-your-computer/"
+      }
+    ]
+  },
+  "/posts/2026/10/benchmark-radar-day67/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/benchmark-radar-day67/"
+      }
+    ]
+  },
+  "/posts/2026/10/benchmark-radar-day68/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/benchmark-radar-day68/"
+      }
+    ]
+  },
+  "/posts/2026/10/benchmark-radar-day69/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/benchmark-radar-day69/"
+      }
+    ]
+  },
+  "/posts/2026/10/benchmark-radar-day70/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/benchmark-radar-day70/"
+      }
+    ]
+  },
+  "/posts/2026/10/benchmark-radar-day71/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/benchmark-radar-day71/"
       }
     ]
   },
@@ -4814,6 +4913,60 @@
       }
     ]
   },
+  "/zh/posts/2026/09/benchmark-radar-day61/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day61/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day62/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day62/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day63/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day63/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day64/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day64/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day65/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day65/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/benchmark-radar-day66/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/benchmark-radar-day66/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/benchmark-radar-geepity-interactive/": {
     "variants": [
       {
@@ -5441,6 +5594,51 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/your-data-never-left-your-computer/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/benchmark-radar-day67/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/benchmark-radar-day67/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/benchmark-radar-day68/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/benchmark-radar-day68/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/benchmark-radar-day69/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/benchmark-radar-day69/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/benchmark-radar-day70/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/benchmark-radar-day70/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/benchmark-radar-day71/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/benchmark-radar-day71/"
       }
     ]
   },
