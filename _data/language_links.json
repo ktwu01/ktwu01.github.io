@@ -2771,6 +2771,15 @@
       }
     ]
   },
+  "/posts/2026/10/agent-pr-gate/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/agent-pr-gate/"
+      }
+    ]
+  },
   "/posts/2026/10/benchmark-radar-day67/": {
     "variants": [
       {
@@ -5603,6 +5612,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/your-data-never-left-your-computer/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/agent-pr-gate/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/agent-pr-gate/"
       }
     ]
   },
