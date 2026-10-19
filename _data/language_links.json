@@ -2834,6 +2834,24 @@
       }
     ]
   },
+  "/posts/2026/10/researcher-profile-hyperai/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/researcher-profile-hyperai/"
+      }
+    ]
+  },
+  "/posts/2026/10/researcher-profile-muck-rack/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/researcher-profile-muck-rack/"
+      }
+    ]
+  },
   "/posts/2026/10/think-big-or-pie-in-the-sky/": {
     "variants": [
       {
@@ -5675,6 +5693,24 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/closeness-does-not-mean-a-shared-path/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/researcher-profile-hyperai/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/researcher-profile-hyperai/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/researcher-profile-muck-rack/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/researcher-profile-muck-rack/"
       }
     ]
   },
