@@ -284,6 +284,8 @@ Coverage of [Benchmark Radar](https://benchmark-radar.org/) and its technical re
 - [ResearchGate](https://www.researchgate.net/profile/Koutian-Wu). [Related post](/posts/2026/09/researcher-profile-researchgate/)
 - [Scopus](https://www.scopus.com/inward/authorDetails.url?authorID=59362866500&partnerID=MN8TOARS). [Related post](/posts/2026/09/researcher-profile-scopus/)
 - [CatalyzeX](https://www.catalyzex.com/author/Koutian%20Wu). [Related post](/posts/2026/09/researcher-profile-catalyzex/)
+- [Muck Rack](https://muckrack.com/koutian-wu). [Related post](/posts/2026/10/researcher-profile-muck-rack/)
+- [HyperAI](https://hyper.ai/en/search?q=Koutian+Wu). [Related post](/posts/2026/10/researcher-profile-hyperai/)
 - [500AI](https://www.500ai.org/researchers/github-ktwu01). [Related post](/posts/2026/09/researcher-profile-500ai/)
 - [AIModels.fyi](https://www.aimodels.fyi/author-profile/koutian-wu-84285fcb-c3c7-43fb-b751-e3c7bfb7e534). [Related post](/posts/2026/09/researcher-profile-aimodels-fyi/)
 - [LinkedIn](https://www.linkedin.com/in/ktwu01/). [Related post](/posts/2026/09/profile-linkedin/)
