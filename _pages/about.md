@@ -51,7 +51,7 @@ redirect_from:
   }
 </style>
 
-22yo PhD-dropout founder @ [UT Austin](https://www.utexas.edu/), automating sci research. [Contributor to Git's source code](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa); coauthored work [featured by Forbes](/media/#forbes-us-matraix-coverage). Prev @ USTC Space Physics.
+23yo PhD-dropout founder @ [UT Austin](https://www.utexas.edu/), automating sci research. [Contributor to Git's source code](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa); coauthored work [featured by Forbes](/media/#forbes-us-matraix-coverage). Prev @ USTC Space Physics.
 
 
 * I built [Benchmark Radar](https://github.com/ktwu01/benchmark-radar) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/benchmark-radar?style=social)](https://github.com/ktwu01/benchmark-radar), which is the first project to track 33,707+ AI benchmark, eval, dataset, and data-quality records from 40 public sources, with linked evidence and daily updates. Researchers and evaluation engineers from these institutions use Benchmark Radar for benchmark discovery and score tracking:
