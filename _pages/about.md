@@ -51,11 +51,7 @@ redirect_from:
   }
 </style>
 
-I was a Ph.D. student at UT Austin, and I recently moved to the M.S. track (graduating Dec 2026) to devote myself to building interesting things.
-
-Before that, I graduated from the School of Earth and Space Sciences at USTC (B.S. in Space Physics, Honors).
-
-I love open-source projects, and I built many of them during my Ph.D. years. [Benchmark Radar](https://github.com/ktwu01/benchmark-radar) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/benchmark-radar?style=social)](https://github.com/ktwu01/benchmark-radar) is the first project to track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.
+22yo PhD-dropout founder @ [UT Austin](https://www.utexas.edu/), automating sci research. [Contributor to Git's source code](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa); coauthored work [featured by Forbes](/media/#forbes-us-matraix-coverage). Prev @ USTC Space Physics.
 
 * I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
