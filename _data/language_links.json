@@ -2861,6 +2861,15 @@
       }
     ]
   },
+  "/posts/2026/10/scientists-desire/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/scientists-desire/"
+      }
+    ]
+  },
   "/posts/2026/10/think-big-or-pie-in-the-sky/": {
     "variants": [
       {
@@ -5738,6 +5747,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/researcher-profile-muck-rack/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/scientists-desire/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/scientists-desire/"
       }
     ]
   },
