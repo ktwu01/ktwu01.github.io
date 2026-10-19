@@ -2870,6 +2870,15 @@
       }
     ]
   },
+  "/posts/2026/10/what-i-learned-at-22/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/what-i-learned-at-22/"
+      }
+    ]
+  },
   "/zh/posts/2024/08/lead-utexas/": {
     "variants": [
       {
@@ -5738,6 +5747,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/think-big-or-pie-in-the-sky/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/what-i-learned-at-22/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/what-i-learned-at-22/"
       }
     ]
   }
