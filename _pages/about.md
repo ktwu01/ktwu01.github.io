@@ -53,18 +53,23 @@ redirect_from:
 
 22yo PhD-dropout founder @ [UT Austin](https://www.utexas.edu/), automating sci research. [Contributor to Git's source code](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa); coauthored work [featured by Forbes](/media/#forbes-us-matraix-coverage). Prev @ USTC Space Physics.
 
-* I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
-* I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
+* I built [Benchmark Radar](https://github.com/ktwu01/benchmark-radar) [![GitHub stars](https://img.shields.io/github/stars/ktwu01/benchmark-radar?style=social)](https://github.com/ktwu01/benchmark-radar), which is the first project to track 33,707+ AI benchmark, eval, dataset, and data-quality records from 40 public sources, with linked evidence and daily updates. Researchers and evaluation engineers from these institutions use Benchmark Radar for benchmark discovery and score tracking:
+
+<img src="assets/researchers.svg" alt="Institutions whose researchers use Benchmark Radar: Google, Amazon, AWS, IBM, ByteDance, Carnegie Mellon, Harvard, MIT, NUS, Auckland, Alibaba, Tencent, Tencent Hunyuan, Qwen, StepFun, Kuaishou, Zhihu, Tsinghua, SJTU" />
 
 * I returned to Tsinghua University to deliver a [lecture](https://mp.weixin.qq.com/s/GLtqO0zHtHMRsFmApiWThg) as the only undergraduate among 40+ scholars, three years after being rejected by the institution.
-
-* I am a [contributor to Git](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa), the version control system used by virtually every software project in the world.
 
 * I have a hamster named ASI, and I hope he lives to see Artificial Super Intelligence.
 
 <details class="quick-facts-more" markdown="1">
 <summary>click to expand</summary>
+
+* I am a [contributor to Git](https://github.com/git/git/commit/0bf506efd40251ebdc9ed829d8bb90d879d2c7aa), the version control system used by virtually every software project in the world.
+
+* I achieved the Finalist position for the USTC Guo Moruo Scholarship, the university's highest honor, after initially ranking last in the college entrance exam.
+
+* I founded and grew [USTC Xingyun Poetry Club](https://mp.weixin.qq.com/s/1eiKsI-LtHZQVlkXHX5-VA) from scratch to 1,300+ members.
 
 * I founded [earth-space-ai.org](https://earth-space-ai.org) to democratize Earth and space sciences modeling with AI, covering 8 domains from Earth-system models to heliophysics.
 
