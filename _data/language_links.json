@@ -530,6 +530,15 @@
       }
     ]
   },
+  "/posts/2026/03/venturephd-preprint/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/03/venturephd-preprint/"
+      }
+    ]
+  },
   "/posts/2026/03/vibe-coding-vc/": {
     "variants": [
       {
@@ -2843,15 +2852,6 @@
       }
     ]
   },
-  "/posts/2026/10/venturephd-preprint/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2026/10/venturephd-preprint/"
-      }
-    ]
-  },
   "/zh/posts/2024/08/lead-utexas/": {
     "variants": [
       {
@@ -3380,6 +3380,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/03/search-ads-rec-vs-ai-matching/"
+      }
+    ]
+  },
+  "/zh/posts/2026/03/venturephd-preprint/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/03/venturephd-preprint/"
       }
     ]
   },
@@ -5693,15 +5702,6 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/think-big-or-pie-in-the-sky/"
-      }
-    ]
-  },
-  "/zh/posts/2026/10/venturephd-preprint/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2026/10/venturephd-preprint/"
       }
     ]
   }

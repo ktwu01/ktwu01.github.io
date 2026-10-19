@@ -1,7 +1,7 @@
 ---
 title: "VenturePhD：用风投的双边合约重做博士培养"
-date: 2026-10-18
-permalink: /zh/posts/2026/10/venturephd-preprint/
+date: 2026-03-15
+permalink: /zh/posts/2026/03/venturephd-preprint/
 tags:
   - research
   - preprint
