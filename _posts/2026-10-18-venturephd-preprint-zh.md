@@ -10,9 +10,12 @@ tags:
   - higher-education
 ---
 
-读博的人，可能花上好几年押在一个课题、一个导师身上，最后才知道这段关系到底是在培养你还是在困住你。工资、实验室、考核、推荐信，全捏在一个人手里。想换方向，代价几乎是全部。风投几十年来一直在处理这种一边倒的赌局：合约约束双方，退出有价。我的新预印本 *VenturePhD*，就是把这套逻辑搬进博士培养。
+**Original Publication Date:** March 15, 2026
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
+读博的人，可能花上好几年押在一个课题、一个导师身上，最后才知道这段关系到底是在培养你还是在困住你。工资、实验室、考核、推荐信，全捏在一个人手里。想换方向，代价几乎是全部。风投几十年来一直在处理这种一边倒的赌局：合约约束双方，退出有价。我的新预印本 *VenturePhD*，就是把这套逻辑搬进博士培养。
+
 
 论文发在 [SocArXiv](https://osf.io/preprints/socarxiv/7hd3u_v1) 和 [Zenodo](https://zenodo.org/records/23287504)。
 

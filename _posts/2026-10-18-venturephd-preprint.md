@@ -10,9 +10,12 @@ tags:
   - higher-education
 ---
 
-A PhD student can spend years on a project and an advisor before learning whether that relationship will train them or trap them. One person controls their salary, their lab access, their evaluation, and their recommendation letters. Leaving costs almost everything. Venture capital has handled this kind of lopsided bet for decades with contracts that bind both sides and price the exit. My new preprint, *VenturePhD*, imports that logic into doctoral education.
+**Original Publication Date:** March 15, 2026
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
+A PhD student can spend years on a project and an advisor before learning whether that relationship will train them or trap them. One person controls their salary, their lab access, their evaluation, and their recommendation letters. Leaving costs almost everything. Venture capital has handled this kind of lopsided bet for decades with contracts that bind both sides and price the exit. My new preprint, *VenturePhD*, imports that logic into doctoral education.
+
 
 The paper is on [SocArXiv](https://osf.io/preprints/socarxiv/7hd3u_v1) and [Zenodo](https://zenodo.org/records/23287504).
 
