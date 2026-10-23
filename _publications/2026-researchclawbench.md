@@ -2,6 +2,7 @@
 title: "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research"
 collection: publications
 category: preprints
+research_topics: [ai-for-science, ai-evaluation]
 permalink: /publication/2026-researchclawbench
 excerpt: 'A benchmark for end-to-end autonomous scientific research across 40 tasks from 10 scientific domains, with real-paper grounding and expert-curated multimodal rubrics.'
 date: 2026-05-28

@@ -2,6 +2,7 @@
 title: "Noah-Agent: A Multi-Expert AI Agent Framework for Automated Parameterization and Validation of Large-Scale Fortran Climate Models (v0.1)"
 collection: publications
 category: preprints
+research_topics: [ai-for-science, earth-space-science]
 permalink: /publication/2025-noah-agent
 excerpt: 'Preprint. A multi-expert AI agent framework for automated parameterization and validation of large-scale Fortran climate models. Version 0.1, in preparation.'
 date: 2025-01-01

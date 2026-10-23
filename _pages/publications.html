@@ -5,32 +5,69 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
+
 {% if site.author.googlescholar %}
   <p class="wordwrap google-scholar-callout">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
 {% endif %}
+<p class="publication-resources">BibTeX for all works: <a href="{{ '/files/ktwu01.bib' | relative_url }}">ktwu01.bib</a> | <a href="https://github.com/ktwu01/publications">GitHub</a></p>
 
-<p>BibTeX for all works: <a href="/files/ktwu01.bib">ktwu01.bib</a> | <a href="https://github.com/ktwu01/publications">GitHub</a></p>
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign publications = site.publications | sort: 'date' | reverse %}
+<div class="publications" data-publications>
+  <form class="publication-filters" role="search" aria-label="Filter publications" hidden>
+    <fieldset class="publication-topics">
+      <legend>Choose a topic</legend>
+      <div class="publication-topic-options">
+        <button type="button" data-topic="" aria-pressed="true">All topics <span data-topic-count>{{ publications.size }}</span></button>
+        {% for topic in site.data.publication_topics %}
+          <button type="button" data-topic="{{ topic.id }}" aria-pressed="false">{{ topic.title }} <span data-topic-count></span></button>
+        {% endfor %}
+      </div>
+    </fieldset>
+    <div class="publication-controls">
+      <label class="publication-search">Find a publication
+        <input type="search" name="q" placeholder="Title or keyword" autocomplete="off">
+      </label>
+      <label>Type
+        <select name="type">
+          <option value="">All types</option>
+          {% for category in site.publication_category %}
+            <option value="{{ category[0] }}">{% if category[0] == 'conferences' %}Conferences / workshops{% else %}{{ category[1].title }}{% endif %}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Year
+        <select name="year">
+          <option value="">All years</option>
+          {% assign previous_year = '' %}
+          {% for post in publications %}
+            {% assign year = post.date | date: '%Y' %}
+            {% if year != previous_year %}<option value="{{ year }}">{{ year }}</option>{% endif %}
+            {% assign previous_year = year %}
+          {% endfor %}
+        </select>
+      </label>
+      <button type="reset" class="publication-reset">Clear filters</button>
+    </div>
+  </form>
+  <p class="publication-results" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+  {% assign previous_year = '' %}
+  {% for post in publications %}
+    {% assign year = post.date | date: '%Y' %}
+    {% if year != previous_year %}
+      {% unless forloop.first %}</section>{% endunless %}
+      <section class="publication-year" aria-labelledby="publications-{{ year }}">
+        <h2 id="publications-{{ year }}">{{ year }}</h2>
+    {% endif %}
+    {% include publication-entry.html %}
+    {% assign previous_year = year %}
+    {% if forloop.last %}</section>{% endif %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
+  <div class="publication-empty" hidden>
+    <h2>No publications match these filters.</h2>
+    <p>Try another topic, year, or search term.</p>
+    <button type="button" class="publication-reset" data-clear-filters>Clear all filters</button>
+  </div>
+</div>

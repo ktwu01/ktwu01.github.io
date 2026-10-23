@@ -2,6 +2,7 @@
 title: "On the Ethics of Generative GeoAI: Explainability, Bias, Hallucination, Accountability, Privacy, and Trust"
 collection: publications
 category: books
+research_topics: [earth-space-science, responsible-ai]
 permalink: /publication/2026-geoai-ethics-foundation-models
 excerpt: 'Peer-reviewed book chapter reviewing key ethical issues in generative GeoAI. Wu authored Section 8, "Trust in AI and GeoAI Models," covering geo-hallucination, uncertainty as an ethical requirement, and provenance-aware protocols.'
 date: 2026-01-01

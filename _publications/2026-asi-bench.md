@@ -2,6 +2,7 @@
 title: "ASI-Bench: At the Dawn of Artificial Superintelligence"
 collection: publications
 category: preprints
+research_topics: [ai-for-science, ai-evaluation]
 permalink: /publication/2026-asi-bench
 excerpt: 'A benchmark with 60 project-level tasks across 11 scientific domains that evaluates frontier models on open-ended scientific research beyond human-expert benchmarks.'
 date: 2026-08-18

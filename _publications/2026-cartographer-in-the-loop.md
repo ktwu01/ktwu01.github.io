@@ -2,6 +2,7 @@
 title: "Cartographer in the Loop: Interactive Land Cover Change Screening Using Geospatial Foundation Model Embeddings"
 collection: publications
 category: conferences
+research_topics: [earth-space-science]
 permalink: /publication/2026-cartographer-in-the-loop
 excerpt: 'Conference paper at CaGIS 2026 on interactive land cover change screening with geospatial foundation model embeddings.'
 date: 2026-09-08

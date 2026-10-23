@@ -2,6 +2,7 @@
 title: "From Personas to Simulated Users: A Fitness-for-Purpose Survey"
 collection: publications
 category: preprints
+research_topics: [social-simulation]
 permalink: /publication/2027-personas-simulated-users
 excerpt: 'A fitness-for-purpose survey of the progression from static personas to simulated users, submitted to the AAAI 2027 Artificial Intelligence for Social Impact Track.'
 date: 2027-01-01

@@ -1,0 +1,105 @@
+.publications {
+  --publication-line: var(--global-border-color, #cbd4c7);
+  --publication-muted: var(--global-text-color-light, #53675e);
+  --publication-paper: var(--global-bg-color, #f7f5ed);
+}
+.publications [hidden] { display: none !important; }
+.publication-resources { font-size: .8em; }
+.publication-filters {
+  padding: 1em 0;
+  margin: 1.4em 0 0;
+  border-block: 1px solid var(--publication-line);
+}
+.publication-topics { border: 0; padding: 0; margin: 0; min-width: 0; }
+.publication-topics legend {
+  margin-bottom: .7em;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.publication-topic-options { display: flex; flex-wrap: wrap; gap: .4em; }
+.publication-topic-options button {
+  min-height: 44px;
+  padding: .5em .75em;
+  border: 1px solid var(--publication-line);
+  border-radius: 4px;
+  background: var(--publication-paper);
+  color: var(--global-text-color);
+  font: inherit;
+  font-size: .85rem;
+  cursor: pointer;
+}
+.publication-topic-options button[aria-pressed="true"] {
+  background: var(--monet-ink, #253d36);
+  color: var(--monet-paper, #f7f5ed);
+  border-color: var(--monet-ink, #253d36);
+}
+.publication-topic-options [data-topic-count] { margin-left: .4em; font-variant-numeric: tabular-nums; }
+.publication-controls { display: flex; flex-wrap: wrap; align-items: end; gap: .65em; margin-top: 1em; }
+.publication-controls label { flex: 1 1 120px; margin: 0; font-size: .85rem; color: var(--publication-muted); }
+.publication-controls .publication-search { flex: 2 1 210px; }
+.publication-controls input, .publication-controls select {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  height: 44px;
+  padding: .5em .65em;
+  margin: .4em 0 0;
+  border: 1px solid var(--publication-line);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 1rem;
+}
+.publication-reset {
+  min-height: 44px;
+  padding: .4em;
+  border: 0;
+  background: transparent;
+  color: var(--global-link-color, #315e68);
+  font: inherit;
+  font-size: .85rem;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  cursor: pointer;
+}
+.publication-results { margin: 1em 0; font-size: .85rem; color: var(--publication-muted); }
+.publication-year > h2 { margin: 1.2em 0 0; font-size: 1.25em; }
+.publication-entry { padding: 1.2em 0; border-bottom: 1px solid var(--publication-line); }
+.publication-meta { display: flex; align-items: center; flex-wrap: wrap; gap: .7em; color: var(--publication-muted); font-size: .75rem; }
+.publication-type { padding: .1em .45em; border: 1px solid var(--publication-line); border-radius: 3px; }
+.publication-entry h3 { margin: .5em 0; font-size: 1em; line-height: 1.45; }
+.publication-entry h3 a { text-decoration: none; }
+.publication-entry h3 a:hover { text-decoration: underline; }
+.publication-venue { margin: 0 0 .6em; color: var(--publication-muted); font-size: .85rem; }
+.publication-excerpt { font-size: 1rem; }
+.publication-excerpt p { margin: 0 0 .8em; }
+.publication-tags { display: flex; flex-wrap: wrap; gap: .4em; padding: 0; margin: .5em 0; list-style: none; }
+.publication-tags a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: .2em .6em;
+  background: var(--global-code-background-color, #edf0e5);
+  border-radius: 3px;
+  font-size: .75rem;
+  text-decoration: none;
+}
+.publication-actions { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5em 1.2em; margin-top: .7em; font-size: .85rem; }
+.publication-actions details { flex-basis: 100%; }
+.publication-actions summary { display: list-item; cursor: pointer; width: fit-content; }
+.publication-actions details p { margin: .6em 0 0; }
+.publication-empty { padding: 1em 0; }
+.publication-empty h2 { font-size: 1.1em; }
+.publication-empty p { font-size: 1rem; }
+@media (max-width: 600px) {
+  .publication-controls .publication-search { flex-basis: 100%; }
+  .publication-entry h3 { font-size: 1.05em; }
+  .publication-controls label { min-width: 0; }
+}
+@media print {
+  .publication-filters, .publication-results, .publication-empty { display: none !important; }
+  .publications .publication-entry[hidden], .publications .publication-year[hidden] { display: block !important; }
+}
+
+.publication-topic-options button:hover { border-color: var(--global-link-color); }

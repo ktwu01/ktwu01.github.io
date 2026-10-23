@@ -2,6 +2,7 @@
 title: "How Does Integrating Plant Hydraulics Improve Noah-MP Land Surface Model"
 collection: publications
 category: conferences
+research_topics: [earth-space-science]
 permalink: /publication/2026-ams-plant-hydraulics
 excerpt: 'Conference poster presenting the integration and evaluation of a plant hydraulics scheme in the Noah-MP land surface model.'
 date: 2026-01-25

@@ -41,6 +41,16 @@ Open `http://localhost:4000`.
 GitHub Actions runs the blog linter and tests on push, and builds and deploys
 the site to GitHub Pages on pushes to `main`.
 
+## Publications
+
+Add publication records under `_publications/`. Keep the existing `category` for
+the publication type. Set `research_topics` to a list of IDs from
+`_data/publication_topics.yml`; a paper can belong to several topics.
+
+The publications page lists works by year. Its topic, search, type, and year
+filters combine, and topic counts reflect the other active filters. Copy the
+filtered URL to share a selection. Without JavaScript, all works remain visible.
+
 ## Living Monet theme
 
 The site uses a procedural, animated water-garden background adapted from the
