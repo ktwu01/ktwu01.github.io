@@ -12,10 +12,9 @@ tags:
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
-这篇不谈学术不端，不谈谁造假、谁抄袭，也不替学术纯洁性操心。数据可以全是真的，方程可以全是对的，人照样在卖。我只谈欲望：想知道的欲望，想被看见的欲望，还有大家最不愿意摆上桌的那一种。
+叠甲：这篇文章里面，我们假定：所有科研者数据都是真的，方程都是对的，没有学术不端。我只谈欲望：想知道的欲望，想被看见的欲望，还有大家最不愿意摆上桌的那一种。
 
-
-先去一座神殿。
+让咱们先去一座神殿。
 
 凤凰城有过一家 Phoenix Goddess Temple。创办人 Tracy Elise 自称女祭司，说店里做的是宗教性的性疗愈。出事以后她说：“[I’m a priestess under attack.](https://www.phoenixnewtimes.com/news/the-trouble-with-sex-why-phoenix-goddess-temple-founder-insists-shes-a-priestess-not-a-prostitute-8213397/)”法院没被神殿说服。2018 年，亚利桑那州上诉法院维持了她的定罪，[判决](https://www.azcourts.gov/Portals/0/OpinionFiles/Div1/2018/1%20CA-CR%2016-0373%20State%20v.%20Elise.pdf#page=4)写得很清楚：特定金额换特定性行为，一则广告标价一小时 204 美元；有人来了没付钱，神殿还会打电话追问为什么。
 
