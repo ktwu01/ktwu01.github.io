@@ -2,6 +2,7 @@
 title: "MatrAIx: Simulating the World with 8.3 Billion Persona Agents"
 collection: publications
 category: preprints
+research_topics: [social-simulation]
 permalink: /publication/2026-matraix-persona-agents
 excerpt: 'A population-scale simulated-user evaluation infrastructure with 8.3 billion persona records, four interactive playground environments, and 1,010 application tasks across 25+ domains.'
 date: 2026-08-04

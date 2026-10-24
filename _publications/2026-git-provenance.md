@@ -2,6 +2,7 @@
 title: "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories"
 collection: publications
 category: conferences
+research_topics: [ai-for-science, responsible-ai]
 permalink: /publication/2026-git-provenance
 excerpt: 'Accepted as a poster at the NeurIPS 2026 Workshop on AI-Native Academia.'
 date: 2026-09-25

@@ -1,0 +1,24 @@
+<article class="publication-entry" data-publication data-topics="{{ post.research_topics | join: ' ' | escape }}" data-type="{{ post.category | escape }}" data-year="{{ post.date | date: '%Y' }}">
+  <div class="publication-meta">
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y' }}</time>
+    <span class="publication-type">{% case post.category %}{% when 'books' %}Book chapter{% when 'manuscripts' %}Journal article{% when 'conferences' %}Conference / workshop{% when 'preprints' %}Preprint / working paper{% else %}{{ post.category | escape }}{% endcase %}</span>
+  </div>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  {% if post.venue %}<p class="publication-venue">{{ post.venue }}</p>{% endif %}
+  {% if post.excerpt %}<div class="publication-excerpt">{{ post.excerpt | markdownify }}</div>{% endif %}
+  <ul class="publication-tags" aria-label="Research topics">
+    {% for topic in site.data.publication_topics %}
+      {% if post.research_topics contains topic.id %}
+        <li><a href="{{ '/publications/' | relative_url }}?topic={{ topic.id }}" data-filter-topic="{{ topic.id }}">{{ topic.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <div class="publication-actions">
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+    {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+    {% if post.bibtexurl %}<a href="{{ post.bibtexurl | relative_url }}">BibTeX</a>{% endif %}
+    {% if post.citation %}
+      <details><summary>Citation<span class="sr-only"> for {{ post.title | strip_html }}</span></summary><p>{{ post.citation }}</p></details>
+    {% endif %}
+  </div>
+</article>

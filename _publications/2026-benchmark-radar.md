@@ -2,6 +2,7 @@
 title: "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation"
 collection: publications
 category: preprints
+research_topics: [ai-evaluation]
 permalink: /publication/2026-benchmark-radar
 excerpt: 'Preprint. A living database and search engine for AI benchmarks and evaluation.'
 date: 2026-09-10

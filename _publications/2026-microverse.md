@@ -2,6 +2,7 @@
 title: "MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations"
 collection: publications
 category: preprints
+research_topics: [social-simulation]
 permalink: /publication/2026-microverse
 excerpt: 'A behavioral-science instrument that measures identity drift in generative agents carrying an immutable "soul file" through a resource-scarce, long-horizon multi-agent simulation.'
 date: 2026-08-16

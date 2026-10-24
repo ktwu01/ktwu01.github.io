@@ -2,6 +2,7 @@
 title: "A Summary Report on the Space Physics Practical Education in 2022"
 collection: publications
 category: manuscripts
+research_topics: [earth-space-science]
 permalink: /publication/2024-space-physics-education
 excerpt: 'A comprehensive report on space physics practical education initiatives in 2022, documenting educational programs and outcomes in space science education.'
 date: 2024-08-01

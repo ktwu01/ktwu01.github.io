@@ -2,6 +2,7 @@
 title: "Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using the WACCM-X Simulation and Meteor Radar Observations"
 collection: publications
 category: conferences
+research_topics: [earth-space-science]
 permalink: /publication/2023-hunga-tonga-mlt
 excerpt: 'AGU Fall Meeting abstract studying wave perturbations from the 2022 Hunga-Tonga eruption in the mesosphere and lower thermosphere using WACCM-X simulations and meteor radar observations.'
 date: 2023-12-15

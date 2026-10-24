@@ -2,6 +2,7 @@
 title: "Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar"
 collection: publications
 category: manuscripts
+research_topics: [earth-space-science]
 permalink: /publication/2024-jgr-meteor-speed
 excerpt: 'This study investigates diurnal and seasonal variations of meteor speed and arrival angle using Mengcheng meteor radar observations, providing insights into meteoroid dynamics in the mesosphere and lower thermosphere.'
 date: 2024-12-01

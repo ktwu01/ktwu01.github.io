@@ -2,6 +2,7 @@
 title: "ESM-bench: A Benchmark for Evaluating Whether AI Agents Understand Earth System Model Physics and Code"
 collection: publications
 category: preprints
+research_topics: [ai-for-science, ai-evaluation, earth-space-science]
 permalink: /publication/2026-esm-bench
 excerpt: 'Preprint. A 243-task benchmark testing whether AI agents understand Earth System Model physics and code, with multi-model evaluation, a classification rubric, precision/recall/F1 scoring, and leakage detection. In preparation for NeurIPS Datasets and Benchmarks.'
 date: 2026-01-01
