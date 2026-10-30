@@ -10,7 +10,7 @@ tags:
 
 Somebody put up a poster with nothing on it but a QR code.
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01)
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 No title. No logo. No words at all. Just the code, waiting.
 
