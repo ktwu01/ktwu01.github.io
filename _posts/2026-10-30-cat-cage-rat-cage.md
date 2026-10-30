@@ -10,9 +10,10 @@ tags:
 
 Tomorrow, Amazon delivers two boxes to my apartment.
 
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
 ![My Amazon orders page: mouse traps on the left, cat carrier on the right, both arriving tomorrow](/images/cat-cage-rat-cage-orders.jpg)
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01)
 
 Box one is a cat carrier. I do not own a cat.
 
