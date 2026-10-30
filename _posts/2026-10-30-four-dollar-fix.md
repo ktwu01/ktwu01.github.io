@@ -10,7 +10,7 @@ tags:
 
 My hamster's cage broke.
 
-> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01)
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
 ASI is a Syrian hamster, and Syrian hamster housing standards are not a joke. At least 600 square inches of unbroken floor space. A wheel 11 to 12 inches across. Bedding deep enough to dig in. Bar spacing no wider than half an inch, or the tenant leaves through the wall.
 
