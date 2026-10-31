@@ -3023,6 +3023,15 @@
       }
     ]
   },
+  "/posts/2026/10/mystery-qr-code/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/mystery-qr-code/"
+      }
+    ]
+  },
   "/posts/2026/10/researcher-profile-hyperai/": {
     "variants": [
       {
@@ -6089,6 +6098,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/four-dollar-fix/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/mystery-qr-code/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/mystery-qr-code/"
       }
     ]
   },
