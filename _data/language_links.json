@@ -3032,6 +3032,15 @@
       }
     ]
   },
+  "/posts/2026/10/pumpkin-patch/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/pumpkin-patch/"
+      }
+    ]
+  },
   "/posts/2026/10/researcher-profile-hyperai/": {
     "variants": [
       {
@@ -6107,6 +6116,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/mystery-qr-code/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/pumpkin-patch/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/pumpkin-patch/"
       }
     ]
   },
