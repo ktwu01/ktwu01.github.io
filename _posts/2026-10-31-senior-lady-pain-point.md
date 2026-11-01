@@ -13,7 +13,7 @@ I recently met a senior lady, Ms. C, who has one habit wherever she goes. Before
 
 Ms. C studied history when she was young, and she had her heart set on revolution. Then one day she saw a new word in the newspaper, semiconductor. The paper called it a technology revolution. She was thrilled. She had missed the revolution in her own field, and she was not going to miss this one.
 
-So she became an intern at a company called Standard, working on something named the bar code, the striped label you scan to tag a product and pull up its information.
+So she became an intern at a company, working on something named the bar code, the striped label you scan to tag a product and pull up its information.
 
 Most interns would start by learning the technology. Not her. She went around asking everyone the same question. Exactly what is the pain point. What is the pain point of semiconductors.
 
