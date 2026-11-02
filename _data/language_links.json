@@ -3068,6 +3068,15 @@
       }
     ]
   },
+  "/posts/2026/10/senior-lady-pain-point/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/senior-lady-pain-point/"
+      }
+    ]
+  },
   "/posts/2026/10/think-big-or-pie-in-the-sky/": {
     "variants": [
       {
@@ -3083,6 +3092,15 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/10/what-i-learned-at-22/"
+      }
+    ]
+  },
+  "/posts/2026/11/private-jet-risk/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/11/private-jet-risk/"
       }
     ]
   },
@@ -6155,6 +6173,15 @@
       }
     ]
   },
+  "/zh/posts/2026/10/senior-lady-pain-point/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/senior-lady-pain-point/"
+      }
+    ]
+  },
   "/zh/posts/2026/10/think-big-or-pie-in-the-sky/": {
     "variants": [
       {
@@ -6170,6 +6197,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/what-i-learned-at-22/"
+      }
+    ]
+  },
+  "/zh/posts/2026/11/private-jet-risk/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/11/private-jet-risk/"
       }
     ]
   }
