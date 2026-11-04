@@ -1,7 +1,9 @@
 ---
 title: "UT01"
-date: 2026-09-29
-permalink: /zh/posts/2026/09/project-ut01/
+date: 2025-06-08
+permalink: /zh/posts/2025/06/project-ut01/
+redirect_from:
+  - /zh/posts/2026/09/project-ut01/
 tags:
   - media
   - project

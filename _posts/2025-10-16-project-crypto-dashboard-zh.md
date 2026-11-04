@@ -1,7 +1,9 @@
 ---
 title: "Crypto Dashboard"
-date: 2026-09-29
-permalink: /zh/posts/2026/09/project-crypto-dashboard/
+date: 2025-10-16
+permalink: /zh/posts/2025/10/project-crypto-dashboard/
+redirect_from:
+  - /zh/posts/2026/09/project-crypto-dashboard/
 tags:
   - media
   - project
