@@ -44,6 +44,15 @@
       }
     ]
   },
+  "/posts/2025/05/hong-kong-day-trip-plan/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/05/hong-kong-day-trip-plan/"
+      }
+    ]
+  },
   "/posts/2025/06/project-ai-polish/": {
     "variants": [
       {
@@ -3137,6 +3146,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2025/02/nasa-finesst-resources/"
+      }
+    ]
+  },
+  "/zh/posts/2025/05/hong-kong-day-trip-plan/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/05/hong-kong-day-trip-plan/"
       }
     ]
   },
