@@ -1,8 +1,7 @@
 ---
-title: '技术创业成功者的发迹代价：痛苦、路径、情感与金钱的横纵分析'
+title: 'The Price of a Tech Founder''s Rise: A Horizontal-Vertical Analysis of Pain, Paths, Love, and Money'
 date: 2026-05-26
 permalink: /posts/2026/05/tech-founder-success-cost-analysis/
-lang: zh
 tags:
   - tech-entrepreneurship
   - founder-psychology
@@ -11,481 +10,481 @@ tags:
   - wealth-management
 ---
 
-> 研究时间：2026-05-26  
+> Research date: 2026-05-26  
 
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-> 研究领域：技术创业、创始人心理、亲密关系、财富管理  
-> 研究对象：Sam Altman、Alexandr Wang、Elon Musk，并扩展至 Jensen Huang、Jeff Bezos、Mark Zuckerberg、Melanie Perkins / Cliff Obrecht、Brian Chesky、Bill Gates  
-> 方法论：横纵分析法（Horizontal-Vertical Analysis）  
+> Fields: tech entrepreneurship, founder psychology, intimate relationships, wealth management  
+> Subjects: Sam Altman, Alexandr Wang, Elon Musk, extended to Jensen Huang, Jeff Bezos, Mark Zuckerberg, Melanie Perkins / Cliff Obrecht, Brian Chesky, Bill Gates  
+> Method: Horizontal-Vertical Analysis  
 
-## 一句话结论
+## One-sentence conclusion
 
-技术创业成功者并不是靠“事业、情感、金钱同时平衡”走出来的。他们更常见的路径是：在某个阶段主动接受事业对生活的挤压，但必须用制度化方式给关系和金钱设止损线。
+Successful tech founders do not get there by "balancing career, love, and money all at once." The more common path is to accept, at certain stages, that the company will squeeze the rest of life, while setting institutional stop-loss lines for relationships and money.
 
-危险不在于忙，危险在于三件事叠加：把公司危机隐瞒给伴侣，把估值当作个人安全感，把“使命”变成要求身边人无限配合的理由。真正可持续的平衡，不是每天平均分配时间，而是清楚知道哪个阶段允许失衡、失衡多久、谁承担代价、什么时候还债。
+The danger is not being busy. The danger is three things stacked together: hiding company crises from a partner, treating valuation as personal security, and turning "the mission" into a reason to demand unlimited cooperation from the people around you. A sustainable balance does not mean dividing time evenly every day. It means knowing clearly which stage allows imbalance, for how long, who pays for it, and when the debt gets repaid.
 
-## 研究口径
+## Definitions
 
-这里的“成功”拆成四个口径：
+"Success" is split into four measures here:
 
-| 成功口径 | 含义 | 常见时间 |
+| Measure of success | Meaning | Typical time |
 |---|---:|---:|
-| 首个有效验证 | 有真实用户、客户、收入、技术突破或投资人认可 | 1-3 年 |
-| 首次显性成功 | 被收购、上市、进入独角兽估值、成为行业基础设施 | 3-7 年 |
-| 制度性成功 | 公司摆脱创始人个人英雄主义，进入组织、治理、资本市场或国家级合作 | 8-15 年 |
-| 时代级成功 | 公司重塑产业结构、成为全球基础设施、创始人成为公共人物 | 15-30 年 |
+| First real validation | Real users, customers, revenue, a technical breakthrough, or investor backing | 1-3 years |
+| First visible success | Acquisition, IPO, unicorn valuation, becoming industry infrastructure | 3-7 years |
+| Institutional success | The company outgrows founder heroics and enters the world of organization, governance, capital markets, or national-level partnerships | 8-15 years |
+| Era-defining success | The company reshapes an industry, becomes global infrastructure, and the founder becomes a public figure | 15-30 years |
 
-很多外界说的“少年成名”，只看到了第一个或第二个口径。Musk 从 Zip2 到第一次出售用了约 4 年，但从 Zip2 到 SpaceX / Tesla 走出 2008 生死线，已经跨过 13 年。Jensen Huang 创办 NVIDIA 到 AI 时代的全球地位，接近 30 年。Sam Altman 的 Loopt 7 年退出并不算巨额胜利，但他从 YC、OpenAI 到 2023 年全球公共事件中心，周期接近 18 年。
+Much of what outsiders call "early fame" only sees the first or second measure. Musk took about 4 years from Zip2 to his first sale, but more than 13 years from Zip2 to getting SpaceX and Tesla past the 2008 life-or-death line. Jensen Huang took nearly 30 years from founding NVIDIA to NVIDIA's global standing in the AI era. Sam Altman's 7-year exit from Loopt was no huge win, but his path from YC and OpenAI to the center of a global public event in 2023 took nearly 18 years.
 
-## 纵向分析：技术创业者发迹的四段路
+## Vertical analysis: the four stages of a tech founder's rise
 
-### 0-2 年：用混乱换认知
+### Years 0-2: trading chaos for understanding
 
-这一段的核心不是“努力”，而是用极高密度的现实反馈修正幻觉。
+The core of this stage is using very dense feedback from reality to correct illusions. Effort alone is not the point.
 
-常见痛苦：
+Common pains:
 
-- 产品无人关心，创始人必须接受“技术很强但市场冷淡”的羞辱。
-- 现金流短，个人储蓄、信用卡、家人支持、伴侣收入常被卷入风险。
-- 团队关系高度脆弱，合伙人之间对速度、质量、股权、权力的理解常不一致。
-- 情感生活开始被压缩，伴侣最先感受到的是“人还在，注意力已经不在”。
+- Nobody cares about the product, and the founder has to accept the humiliation of "strong technology, cold market."
+- Cash is short, and personal savings, credit cards, family support, and a partner's income often get pulled into the risk.
+- Team relationships are fragile, and cofounders often disagree on speed, quality, equity, and power.
+- Love life starts to get squeezed, and the partner is the first to feel that "the person is still here, but their attention is gone."
 
-代表案例：
+Examples:
 
-- Airbnb 早期支付不起房租，用政治主题麦片盒筹钱，也被投资人认为难以规模化。
-- Canva 在成为全球设计工具前，Melanie Perkins 与 Cliff Obrecht 从校刊设计工具 Fusion Books 起步，多年遭遇投资人拒绝。
-- NVIDIA 早期判断失误，押注的图形路线不被市场采用，后来转向 RIVA 128 才撑住公司。
+- In its early days Airbnb could not pay rent, raised money by selling politically themed cereal boxes, and was told by investors it could not scale.
+- Before Canva became a global design tool, Melanie Perkins and Cliff Obrecht started with Fusion Books, a design tool for school yearbooks, and were turned down by investors for years.
+- NVIDIA misjudged early on: the graphics approach it bet on was not adopted by the market, and only the later shift to the RIVA 128 kept the company alive.
 
-### 3-7 年：用拒绝换验证
+### Years 3-7: trading rejection for validation
 
-这一段经常出现第一次对外可见的成功：被收购、独角兽估值、关键大客户、关键融资、平台化增长。
+This stage often brings the first success visible to outsiders: acquisition, unicorn valuation, a key enterprise customer, a key funding round, platform growth.
 
-常见痛苦：
+Common pains:
 
-- 创始人要把“技术叙事”翻译成客户愿意付钱的商业语言。
-- 外部融资带来速度，也带来治理压力、稀释、董事会约束。
-- 伴侣关系从“支持梦想”变成“共同承担波动”，但常常没有正式讨论风险边界。
-- 创始人开始被身份绑架：退出不再只是个人选择，而会影响员工、投资人、客户。
+- The founder has to translate a "technology story" into business language customers will pay for.
+- Outside funding brings speed, and also governance pressure, dilution, and board constraints.
+- The relationship with a partner shifts from "supporting a dream" to "sharing the volatility," but the boundaries of risk often never get formally discussed.
+- The founder starts to be held hostage by identity: quitting is no longer a personal choice, because it affects employees, investors, and customers.
 
-代表案例：
+Examples:
 
-- Sam Altman 的 Loopt 2005 年进入 YC，2012 年被 Green Dot 收购，时间约 7 年。
-- Alexandr Wang 2016 年 19 岁离开 MIT 创办 Scale AI，2019 年 Scale 进入独角兽阶段，约 3 年。
-- Musk 1995 年创办 Zip2，1999 年卖给 Compaq，约 4 年。
-- Amazon 1994 年创办，1997 年 IPO，约 3 年，但真正商业模型要更久才被广泛承认。
+- Sam Altman's Loopt entered YC in 2005 and was acquired by Green Dot in 2012, about 7 years.
+- Alexandr Wang left MIT at 19 in 2016 to found Scale AI, and Scale reached unicorn status in 2019, about 3 years.
+- Musk founded Zip2 in 1995 and sold it to Compaq in 1999, about 4 years.
+- Amazon was founded in 1994 and went public in 1997, about 3 years, though its business model took much longer to be widely accepted.
 
-### 8-15 年：用组织换规模
+### Years 8-15: trading organization for scale
 
-这一段的困难从“能不能做出来”变成“能不能让系统不因自己而崩”。
+In this stage the hard question shifts from "can we build it?" to "can we keep the system from collapsing because of me?"
 
-常见痛苦：
+Common pains:
 
-- 创始人必须从产品和技术细节，转向组织设计、招聘、财务、法务、媒体、政策。
-- 公司越成功，创始人的私人关系越难保持普通人的节奏。
-- 钱从“活下去的资源”变成“权力、控制权、社会地位和风险暴露”。
-- 伴侣、孩子、父母、朋友会逐渐面对一个问题：他们爱的是人，还是一个不断扩张的任务系统？
+- The founder has to move from product and technical detail to organization design, hiring, finance, legal, media, and policy.
+- The more successful the company, the harder it is for the founder's private relationships to keep an ordinary rhythm.
+- Money turns from "a resource for survival" into "power, control, social status, and exposure to risk."
+- Partners, children, parents, and friends gradually face a question: do they love the person, or an ever-expanding mission system?
 
-代表案例：
+Examples:
 
-- Facebook 2004 年创办，2012 年 IPO，约 8 年。Zuckerberg 与 Priscilla Chan 在 IPO 后一天结婚，家庭和公司公共化几乎同时发生。
-- Airbnb 2008 年创办，2020 年 IPO，约 12 年，中间经历投资人拒绝、监管摩擦、疫情重创、裁员。
-- Bill Gates 1975 年创办 Microsoft，1986 年 IPO，约 11 年。
+- Facebook was founded in 2004 and went public in 2012, about 8 years. Zuckerberg married Priscilla Chan the day after the IPO, so family and company went public almost at the same moment.
+- Airbnb was founded in 2008 and went public in 2020, about 12 years, passing through investor rejection, regulatory friction, a devastating pandemic, and layoffs.
+- Bill Gates founded Microsoft in 1975, and it went public in 1986, about 11 years.
 
-### 15-30 年：用公共代价换时代影响
+### Years 15-30: trading public cost for influence on an era
 
-这一段不再只是公司成功，而是公司变成产业基础设施后带来的外部性：AI 安全、社交网络影响、供应链、劳工、国家安全、监管、垄断、舆论。
+At this stage the issue is no longer only company success, but the externalities that come once the company becomes industry infrastructure: AI safety, the effects of social networks, supply chains, labor, national security, regulation, monopoly, public opinion.
 
-常见痛苦：
+Common pains:
 
-- 创始人从企业家变成公共议题的一部分。
-- 情感关系被长期高压、财富结构、公众审视放大。
-- 公司每个战略选择都会被道德化、政治化、媒体化。
-- 财富不再只是自由，也会制造继承、慈善、控制权、离婚、家族关系等复杂问题。
+- The founder goes from entrepreneur to part of a public issue.
+- Intimate relationships get amplified by years of high pressure, wealth structures, and public scrutiny.
+- Every strategic choice the company makes gets moralized, politicized, and turned into media.
+- Wealth stops being only freedom and also creates complex problems of inheritance, philanthropy, control, divorce, and family relations.
 
-代表案例：
+Examples:
 
-- NVIDIA 1993 年创办，1997 年 RIVA 128 关键转向，1999 年推出 GeForce 256；到 2012 年深度学习爆发、2023 年生成式 AI 基础设施地位确立，是 20-30 年级别的复利。
-- OpenAI 2015 年创办，ChatGPT 2022 年爆发，2023 年 Sam Altman 被董事会罢免又回归，短时间内进入全球治理议题。
-- Tesla / SpaceX 在 2008 年濒临崩溃后继续复利，真正成为全球交通、能源、航天议题中心，是 Musk 多段创业叠加后的结果。
+- NVIDIA was founded in 1993, made its key pivot with the RIVA 128 in 1997, and launched the GeForce 256 in 1999. Its position became established with the 2012 deep learning boom and as generative AI infrastructure in 2023: compounding on a 20-30 year scale.
+- OpenAI was founded in 2015, ChatGPT took off in 2022, and in 2023 Sam Altman was removed by the board and then returned, entering the realm of global governance within a short time.
+- Tesla and SpaceX kept compounding after nearly collapsing in 2008, and became true centers of global transport, energy, and space issues as the result of Musk's several ventures stacked on each other.
 
-## 通常多少年成功：案例时间表
+## How long does success usually take: a timeline of cases
 
-| 人物 | 起点 | 首次显性成功 | 更大级别成功 | 时间判断 |
+| Person | Start | First visible success | Larger-scale success | Time judgment |
 |---|---:|---:|---:|---|
-| Sam Altman | 2005 Loopt | 2012 Loopt 被 Green Dot 收购 | 2022-2023 OpenAI 全球化、CEO 危机后回归 | 首次 7 年；时代级约 17-18 年 |
-| Alexandr Wang | 2016 Scale AI | 2019 独角兽；2022 进入 Forbes 亿万富豪叙事 | 2025 Meta 投资 Scale，Wang 加入 Meta AI | 首次 3 年；大平台级约 9 年 |
-| Elon Musk | 1995 Zip2 | 1999 Zip2 出售 | 2008 SpaceX / Tesla 生死线；2012 后逐步成为全球级 | 首次 4 年；时代级 15 年以上 |
-| Jensen Huang | 1993 NVIDIA | 1997 RIVA 128；1999 GeForce 256 | 2012 深度学习转折；2023 AI 基础设施核心 | 首次 4-6 年；时代级约 20-30 年 |
-| Jeff Bezos | 1994 Amazon | 1997 IPO | AWS、Prime、物流网络、云基础设施 | 首次 3 年；制度性 10 年以上 |
-| Mark Zuckerberg | 2004 Facebook | 2006-2008 快速扩张 | 2012 IPO；后进入全球社交基础设施与监管议题 | IPO 8 年；公共代价持续 |
-| Melanie Perkins / Cliff Obrecht | 2007 Fusion Books；2013 Canva | 2013 融资与上线；2018 独角兽 | 2021 后全球设计平台 | 按 Canva 5 年；按原始想法 10 年以上 |
-| Brian Chesky | 2007/2008 Airbnb | 2009 YC 与早期融资 | 2020 IPO | 首次 1-2 年；制度性约 12 年 |
-| Bill Gates | 1975 Microsoft | 1981 IBM PC 相关机会；1986 IPO | Windows / Office 时代平台化 | IPO 11 年；垄断级更久 |
+| Sam Altman | 2005 Loopt | 2012 Loopt acquired by Green Dot | 2022-2023 OpenAI goes global; return after the CEO crisis | First: 7 years; era-level: about 17-18 years |
+| Alexandr Wang | 2016 Scale AI | 2019 unicorn; 2022 enters the Forbes billionaire narrative | 2025 Meta invests in Scale, Wang joins Meta AI | First: 3 years; big-platform level: about 9 years |
+| Elon Musk | 1995 Zip2 | 1999 Zip2 sold | 2008 SpaceX / Tesla life-or-death line; gradually global after 2012 | First: 4 years; era-level: 15+ years |
+| Jensen Huang | 1993 NVIDIA | 1997 RIVA 128; 1999 GeForce 256 | 2012 deep learning turning point; 2023 core of AI infrastructure | First: 4-6 years; era-level: about 20-30 years |
+| Jeff Bezos | 1994 Amazon | 1997 IPO | AWS, Prime, logistics network, cloud infrastructure | First: 3 years; institutional: 10+ years |
+| Mark Zuckerberg | 2004 Facebook | 2006-2008 rapid expansion | 2012 IPO; later global social infrastructure and regulatory issues | IPO: 8 years; public cost ongoing |
+| Melanie Perkins / Cliff Obrecht | 2007 Fusion Books; 2013 Canva | 2013 funding and launch; 2018 unicorn | Global design platform after 2021 | 5 years by Canva; 10+ years from the original idea |
+| Brian Chesky | 2007/2008 Airbnb | 2009 YC and early funding | 2020 IPO | First: 1-2 years; institutional: about 12 years |
+| Bill Gates | 1975 Microsoft | 1981 IBM PC opportunity; 1986 IPO | Platform dominance in the Windows / Office era | IPO: 11 years; monopoly-level: longer |
 
-归纳：技术创业者的“第一次被市场证明”常在 3-7 年；“变成公司机器”常要 8-15 年；“变成时代结构的一部分”常要 15-30 年。媒体喜欢压缩成一句“天才少年创业成功”，真实路径通常更长、更硬、更不干净。
+Summary: a tech founder's "first proof from the market" usually comes in 3-7 years; "becoming a company machine" usually takes 8-15 years; "becoming part of the structure of an era" usually takes 15-30 years. The media like to compress it into "boy genius startup success." The real path is usually longer, harder, and messier.
 
-## 横向分析：九组案例
+## Horizontal analysis: nine cases
 
-### 1. Sam Altman：从普通退出到治理风暴
+### 1. Sam Altman: from an ordinary exit to a governance storm
 
-Altman 的早期创业 Loopt 不是一个超级神话。它进入 YC 很早，拿到关注，也有运营和合作，但最终 2012 年以约 4,340 万美元现金被 Green Dot 收购。对普通创业者这是成功，对硅谷神话叙事并不算压倒性胜利。
+Altman's early startup, Loopt, was no super-myth. It entered YC early, got attention, ran operations and partnerships, and in 2012 was acquired by Green Dot for about 43.4 million dollars in cash. For an ordinary founder that is success; by Silicon Valley's mythic standards it was no overwhelming win.
 
-真正让 Altman 成为时代人物的是后续路径：YC 总裁、OpenAI 联合创始人、ChatGPT 之后的全球 AI 议题中心。2023 年 11 月，OpenAI 董事会宣布他离任；数日后，在员工、投资人、合作方压力下，他回归 CEO，并更换初始董事会。这是创始人痛苦的另一种形式：公司已经不是单纯属于创始人的产品，而是被治理结构、资本、员工共识和公共风险共同塑造。
+What made Altman a figure of the era was the path that followed: president of YC, cofounder of OpenAI, and after ChatGPT, the center of the global AI debate. In November 2023, OpenAI's board announced his departure; days later, under pressure from employees, investors, and partners, he returned as CEO and the initial board was replaced. This is another form of founder pain: the company is no longer just the founder's product, but something shaped jointly by governance structures, capital, employee consensus, and public risk.
 
-情感线索上，公开资料中 Altman 曾与 Loopt 联合创始人 Nick Sivo 有关系，后与软件工程师 Oliver Mulherin 结婚。2024 年 1 月，多家媒体报道 Altman 与 Mulherin 完婚。2025 年，公开报道也提到他已成为父亲。Altman 的情感叙事与 Musk 不同：外界看到的不是连续公开冲突，而是高度低调、边界较强的私人生活。
+On the personal side, public sources say Altman was once in a relationship with Loopt cofounder Nick Sivo, and later married software engineer Oliver Mulherin. In January 2024, multiple outlets reported that Altman and Mulherin had married. In 2025, public reports also mentioned that he had become a father. Altman's personal story differs from Musk's: what outsiders see is not a string of public conflicts, but a very low-key private life with strong boundaries.
 
-关键痛苦：
+Key pains:
 
-- 早期产品没有成为巨型消费平台，退出金额有限。
-- 从投资人、孵化器管理者转向 AI 公司 CEO，身份不断重构。
-- OpenAI 的非营利 / 营利混合治理结构在 2023 年爆发高强度冲突。
-- AI 安全、商业化、国家竞争、资本回报同时压到个人身上。
+- The early product never became a giant consumer platform, and the exit was modest.
+- His identity kept being rebuilt, from investor and incubator manager to AI company CEO.
+- OpenAI's hybrid nonprofit / for-profit governance structure erupted into intense conflict in 2023.
+- AI safety, commercialization, national competition, and returns to capital all pressed on one person at once.
 
-启示：技术创始人的最大风险有时不是产品失败，而是组织目标、治理结构和个人权威之间出现裂缝。
+Takeaway: a tech founder's biggest risk is sometimes not product failure, but a crack opening between organizational goals, governance structure, and personal authority.
 
-### 2. Alexandr Wang：极早成功，但情感信息几乎不可见
+### 2. Alexandr Wang: very early success, with almost no visible personal life
 
-Alexandr Wang 不是 “Alexander Wang”。他 1997 年出生，19 岁从 MIT 退学，2016 年与 Lucy Guo 创办 Scale AI。Scale 的核心不是炫目的模型，而是 AI 数据标注、数据管线、模型评估和政府 / 企业客户所需的数据基础设施。2019 年，Scale 进入独角兽估值；2022 年，Forbes 把 Wang 放入最年轻白手起家亿万富豪叙事中；2025 年，Meta 宣布对 Scale 进行约 143 亿美元级别投资，并招募 Wang 加入 Meta AI / superintelligence 方向。
+Alexandr Wang is not "Alexander Wang." Born in 1997, he left MIT at 19 and founded Scale AI with Lucy Guo in 2016. Scale's core is not a flashy model, but AI data labeling, data pipelines, model evaluation, and the data infrastructure government and enterprise customers need. In 2019 Scale reached unicorn valuation; in 2022 Forbes placed Wang in the narrative of the youngest self-made billionaire; in 2025 Meta announced an investment in Scale on the order of 14.3 billion dollars and recruited Wang to Meta AI's superintelligence effort.
 
-他的痛苦不是“没人看见”，而是另一种：过早进入国家安全、AI 竞争、大客户依赖、平台公司关系、劳工与数据伦理的复杂区。Time 2025 年对 Scale 的报道也提到，Scale 的扩张伴随数据工人支付、联合创始人分歧等争议。对年轻创始人来说，这类痛苦不是贫穷，而是权力和责任来得太快。
+His pain was not "nobody sees me," but a different kind: entering too early into the complex territory of national security, AI competition, dependence on large customers, relations with platform companies, and labor and data ethics. TIME's 2025 coverage of Scale also noted that Scale's expansion came with controversies over pay for data workers and disagreements between cofounders. For a young founder, this kind of pain is not poverty. It is power and responsibility arriving too fast.
 
-情感线索上，截至本报告写作日，可靠公开资料中没有足够信息支持对 Wang 的伴侣、婚姻或亲密关系做判断。这里不能用八卦填空。反而可以观察到一个现象：他的公共叙事几乎完全被公司、AI 基础设施、国家竞争、Meta 交易吸收。对创始人本人来说，这也可能是一种“情感不可见性”：外界只看到战略角色，不再看到普通人的生活。
+On the personal side, as of this report's writing, reliable public sources do not contain enough information to support any judgment about Wang's partner, marriage, or intimate life. Gossip cannot fill that gap. One thing can be observed instead: his public story has been almost entirely absorbed by the company, AI infrastructure, national competition, and the Meta deal. For the founder himself, this may also be a kind of "emotional invisibility": outsiders see only a strategic role, and no longer an ordinary person's life.
 
-关键痛苦：
+Key pains:
 
-- 19 岁后快速进入高压商业系统，身份形成期与公司形成期重叠。
-- 数据基础设施看似后台，实际承担 AI 产业链压力。
-- 与政府、军方、平台公司、AI 实验室均有关系，商业成功很快带来政治与伦理压力。
-- 2025 年加入 Meta 后，个人野心、Scale 独立性、投资人回报之间产生新的张力。
+- He entered a high-pressure business system right after 19, so the years of forming an identity overlapped with the years of forming a company.
+- Data infrastructure looks like back-office work but actually carries pressure from the whole AI industry chain.
+- Ties to governments, militaries, platform companies, and AI labs mean business success quickly brought political and ethical pressure.
+- After joining Meta in 2025, new tension arose between personal ambition, Scale's independence, and investor returns.
 
-启示：年轻创始人不一定经历长期贫穷，但可能经历“成熟速度被公司强行拉快”的痛苦。
+Takeaway: young founders may not live through long poverty, but they may live through the pain of "being forced to mature at the company's speed."
 
-### 3. Elon Musk：高能量路径的关系代价
+### 3. Elon Musk: the relationship cost of a high-energy path
 
-Musk 的路径最能说明“第一次成功”和“真正成功”不是一回事。Zip2 1995 年创办，1999 年卖给 Compaq，Musk 获得第一桶金；之后 X.com / PayPal 带来更大资金；但 SpaceX 和 Tesla 在 2008 年同时遭遇极端压力。公开资料多次描述 2008 年是 Musk 事业与私人生活高度崩裂的一年：SpaceX 前三次发射失败，Tesla 融资艰难，全球金融危机爆发，他与第一任妻子 Justine Musk 的婚姻也走向结束。同年 12 月 NASA 授予 SpaceX 商业货运补给服务合同，成为关键转折。
+Musk's path shows most clearly that "first success" and "real success" are different things. Zip2 was founded in 1995 and sold to Compaq in 1999, giving Musk his first fortune; X.com / PayPal then brought much more money; but in 2008 SpaceX and Tesla came under extreme pressure at the same time. Public accounts repeatedly describe 2008 as the year Musk's career and private life cracked apart together: SpaceX's first three launches failed, Tesla struggled to raise money, the global financial crisis broke, and his marriage to his first wife, Justine Musk, was ending. That December, NASA awarded SpaceX a Commercial Resupply Services contract, the key turning point.
 
-情感线索非常公开，也非常破碎。Justine Musk 在 Marie Claire 的文章中从前妻视角写过婚姻中的权力感、职业被压低、离婚痛苦等经历。之后 Musk 与 Talulah Riley、Grimes、Shivon Zilis 等人的关系及子女也长期暴露在媒体中。这里不需要对私人道德做简单裁判，但可以看见一种模式：当创始人的人生系统永远以任务为中心，亲密关系很容易变成任务系统的附属品，关系中的对等感会被侵蚀。
+His personal life has been very public and very fractured. In an essay for Marie Claire, Justine Musk wrote from the ex-wife's perspective about the sense of power in the marriage, her career being sidelined, and the pain of the divorce. Musk's later relationships, with Talulah Riley, Grimes, Shivon Zilis, and others, and his children, have also been exposed to the media for years. There is no need for simple moral verdicts on private life here, but a pattern is visible: when a founder's whole life system always centers on the mission, intimate relationships easily become attachments to that system, and the sense of equality in the relationship erodes.
 
-关键痛苦：
+Key pains:
 
-- 早期睡办公室、现金极度紧张、反复被董事会或合伙人制衡。
-- 2008 年事业与婚姻同时进入危机，心理压力和财务压力叠加。
-- 多家公司、多家庭、多公共争议并行，个人能量极强，但关系稳定性成本极高。
-- 财富巨大后并未降低冲突，反而放大了媒体、法律、继承、子女、舆论压力。
+- Early on he slept in the office, cash was extremely tight, and boards or partners repeatedly checked his power.
+- In 2008 his career and marriage went into crisis together, stacking psychological and financial pressure.
+- Multiple companies, multiple families, and multiple public controversies ran in parallel. His personal energy is enormous, but the cost to relationship stability is very high.
+- Huge wealth did not reduce conflict. It amplified pressure from the media, the law, inheritance, children, and public opinion.
 
-启示：极端使命感可以制造突破，也可能让身边人长期处于被吞噬的位置。钱能救公司，不一定能救关系。
+Takeaway: an extreme sense of mission can produce breakthroughs, and it can also leave the people nearby in a position of being consumed for years. Money can save a company; it cannot necessarily save a relationship.
 
-### 4. Jensen Huang：长周期复利与稳定伴侣结构
+### 4. Jensen Huang: long-cycle compounding and a stable partnership
 
-Jensen Huang 是另一个重要样本，因为他的成功不符合“快速爆红”的创业叙事。NVIDIA 1993 年成立，早期押注的 NV1 路线并不顺利，公司一度接近现金耗尽。1997 年 RIVA 128 成为关键转折，1999 年 GeForce 256 定义 GPU 叙事。此后 NVIDIA 走过游戏显卡、CUDA、数据中心、深度学习、生成式 AI，才进入今天的全球基础设施地位。
+Jensen Huang is another important case, because his success does not fit the "overnight hit" startup story. NVIDIA was founded in 1993. Its early bet on the NV1 approach went badly, and the company nearly ran out of cash. The RIVA 128 in 1997 was the key turning point, and the GeForce 256 in 1999 defined the GPU story. After that NVIDIA went through gaming graphics cards, CUDA, data centers, deep learning, and generative AI before reaching its current position as global infrastructure.
 
-情感线索上，公开资料中 Huang 与妻子 Lori 的关系相对稳定。Oregon State University 的资料提到他与 Lori 的校园渊源，以及两人对学校工程学院的支持。这类案例提示：长期技术复利不必然要用亲密关系破碎来交换，但需要家庭系统能承受“十几年看不见最终结果”的长期压力。
+On the personal side, public sources show Huang's relationship with his wife Lori as relatively stable. Oregon State University's materials mention the couple's campus ties and their support for the university's engineering college. Cases like this suggest that long-term technical compounding does not have to be paid for with a broken relationship, but it does require a family system able to bear the long pressure of "not seeing the final result for more than a decade."
 
-关键痛苦：
+Key pains:
 
-- 早期技术路线判断错误，近乎失败。
-- 长期处于强竞争芯片行业，资本开支、供应链、客户周期都极重。
-- 真正时代级回报来得很晚，远超过普通创业耐心。
-- 成功后成为 AI 时代基础设施供应方，也承受地缘政治和供应链限制。
+- An early misjudgment of technical direction brought the company close to failure.
+- Years in a fiercely competitive chip industry, with very heavy capital spending, supply chains, and customer cycles.
+- The truly era-level payoff came very late, far beyond an ordinary founder's patience.
+- After success, as a supplier of AI-era infrastructure, the company also bears geopolitical and supply-chain constraints.
 
-启示：有些技术创业不是 5 年故事，而是 30 年故事。情感稳定的前提，是伴侣和家庭能理解长周期，而创始人也不能把“长期主义”变成家庭无限牺牲。
+Takeaway: some tech ventures are 30-year stories, and 5 years tells only the first chapter. Emotional stability depends on a partner and family who understand the long cycle, and on a founder who does not turn "long-termism" into unlimited sacrifice by the family.
 
-### 5. Jeff Bezos：长期主义能赢公司，不保证赢婚姻
+### 5. Jeff Bezos: long-termism can win the company without winning the marriage
 
-Amazon 1994 年创办，1997 年上市。Jeff Bezos 在 1997 年股东信中强调长期投入、牺牲短期利润、专注客户和规模。Amazon 早期长期亏损，外界并不总是相信它能成为基础设施级公司。后来 Amazon 通过电商、物流、Prime、AWS 逐渐形成巨大复利。
+Amazon was founded in 1994 and went public in 1997. In his 1997 shareholder letter, Jeff Bezos stressed long-term investment, sacrificing short-term profit, and focusing on customers and scale. Amazon lost money for years, and outsiders did not always believe it could become an infrastructure-level company. Over time, e-commerce, logistics, Prime, and AWS built enormous compounding.
 
-MacKenzie Scott 是 Amazon 早期重要的生活与创业同行者。两人 2019 年离婚，MacKenzie 获得 Amazon 股权，Bezos 保留更大比例的股票及投票控制。这个案例揭示了金钱与关系的区别：财富可以通过法律和股权安排相对理性地分配，亲密关系无法用同一套机制修复。长期主义可以让公司忍受亏损，却不必然让婚姻忍受长期忽略。
+MacKenzie Scott was an important early companion in both life and the venture. The two divorced in 2019; MacKenzie received Amazon stock, while Bezos kept a larger share of the stock and voting control. The case shows the difference between money and relationships: wealth can be divided fairly rationally through law and equity arrangements, but an intimate relationship cannot be repaired by the same mechanisms. Long-termism lets a company tolerate losses; it does not necessarily let a marriage tolerate long neglect.
 
-关键痛苦：
+Key pains:
 
-- 长期亏损期间承受资本市场和媒体怀疑。
-- 把极强客户执念扩张为组织文化，员工、家庭和个人都承受强度。
-- 离婚把私人关系、控制权、慈善和财富分配变成全球新闻。
-- 财富越大，越需要法律结构，但法律结构不是情感结构。
+- Years of losses under doubt from capital markets and the media.
+- An intense customer obsession expanded into an organizational culture, and employees, family, and the founder all bore its intensity.
+- The divorce turned a private relationship, control of the company, philanthropy, and the division of wealth into global news.
+- The bigger the wealth, the more legal structure it needs, but legal structure is not emotional structure.
 
-启示：公司可以靠长期主义复利，婚姻需要当下感知。两者时间尺度不同。
+Takeaway: a company can compound on long-termism, while a marriage needs attention in the present. The two run on different time scales.
 
-### 6. Mark Zuckerberg：年轻成功后的公共关系压力
+### 6. Mark Zuckerberg: the public pressure after young success
 
-Zuckerberg 2004 年创办 Facebook，2012 年 IPO，约 8 年进入资本市场级成功。他与 Priscilla Chan 的关系长期公开，二人在 Facebook IPO 后一天结婚。后来两人通过 Chan Zuckerberg Initiative 将部分财富与教育、医疗、科学研究等议题绑定。
+Zuckerberg founded Facebook in 2004, and it went public in 2012, reaching capital-market success in about 8 years. His relationship with Priscilla Chan was long public, and they married the day after Facebook's IPO. Later, through the Chan Zuckerberg Initiative, the two tied part of their wealth to education, health, and scientific research.
 
-这个案例不是“完美平衡”，而是另一种结构：家庭、财富与公共使命被制度化。Zuckerberg 的私人生活仍承受媒体压力，但他和 Chan 把部分财富分配、慈善方向、家庭叙事做成较清晰的公共结构。与此同时，Facebook / Meta 也长期承受隐私、内容治理、青少年影响、政治传播等争议。
+This case is not "perfect balance," but a different structure: family, wealth, and public mission made institutional. Zuckerberg's private life still bears media pressure, but he and Chan built a fairly clear public structure for part of their wealth distribution, philanthropic direction, and family story. At the same time, Facebook / Meta has faced long controversies over privacy, content governance, effects on teenagers, and political communication.
 
-关键痛苦：
+Key pains:
 
-- 从大学产品迅速进入全球平台，创始人成熟速度被迫加快。
-- 私人关系与 IPO、财富、舆论几乎同步公共化。
-- 公司成为社会基础设施后，技术决策变成政治与伦理议题。
-- 家庭和慈善结构必须承受“动机被审视”的压力。
+- A college product turned quickly into a global platform, forcing the founder to mature faster.
+- His private relationship went public almost in step with the IPO, his wealth, and public opinion.
+- Once the company became social infrastructure, technical decisions became political and ethical issues.
+- Family and philanthropic structures had to bear the pressure of having their motives scrutinized.
 
-启示：当事业无法保持私人状态时，家庭需要有自己的制度边界，而不是只靠感情默契。
+Takeaway: when a career can no longer stay private, a family needs institutional boundaries of its own, rather than relying only on unspoken understanding.
 
-### 7. Melanie Perkins / Cliff Obrecht：伴侣即合伙人的高难度正例
+### 7. Melanie Perkins / Cliff Obrecht: a hard-mode positive case of partners as cofounders
 
-Canva 的故事提供了少见的正向关系样本。Melanie Perkins 与 Cliff Obrecht 先从 Fusion Books 起步，解决学校年鉴设计问题，再把洞察扩展到普通人都能使用的设计工具 Canva。公开报道多次提到，他们在融资过程中遭遇大量拒绝，仍持续打磨叙事和产品。Canva 2013 年推出，后成为全球设计平台。
+Canva's story offers a rare positive relationship case. Melanie Perkins and Cliff Obrecht started with Fusion Books, solving the design problem of school yearbooks, and then extended that insight into Canva, a design tool anyone could use. Public reports repeatedly mention that they faced a great many rejections while fundraising and kept refining their story and product. Canva launched in 2013 and went on to become a global design platform.
 
-情感上，他们既是伴侣，也是共同创始人。Forbes 等资料把二人列为夫妻和商业伙伴。这种组合并不适合多数人，因为它把职业冲突、股权冲突、家庭冲突压在同一段关系上。一旦成功，关系能获得共同意义；一旦失败，生活和事业可能同时受损。Canva 的样本可借鉴之处不是“情侣创业”，而是共同价值观、长期信任和财富观的高度一致。二人曾公开表达通过 Canva Foundation 等方式捐出大部分财富的愿望，这让金钱从“个人消费升级”转向“共同使命”。
+They are both partners and cofounders. Forbes and other sources list the two as a couple and as business partners. This combination does not suit most people, because it loads career conflict, equity conflict, and family conflict onto a single relationship. With success, the relationship gains shared meaning; with failure, life and career may be damaged at once. What Canva offers to learn from is not "couples starting companies," but a very close alignment of shared values, long-term trust, and views on wealth. The two have publicly said they intend to give away most of their wealth, through the Canva Foundation and other means, turning money from "personal consumption upgrades" into "a shared mission."
 
-关键痛苦：
+Key pains:
 
-- 从澳大利亚到硅谷融资，地理和网络都不占优势。
-- 多年被投资人拒绝，必须不断重写故事和证明需求。
-- 伴侣与合伙人身份重叠，关系稳定性和公司稳定性互相影响。
-- 成功后面对全球平台、企业市场和财富分配。
+- Fundraising from Australia to Silicon Valley, with no advantage in geography or network.
+- Years of investor rejection, with constant rewriting of the story and proving of demand.
+- Overlapping roles as partners and cofounders, so the stability of the relationship and of the company affected each other.
+- After success, facing a global platform, the enterprise market, and wealth distribution.
 
-启示：伴侣创业可以非常强，也非常危险。它要求双方在权力、股权、金钱、生活边界上比普通情侣更早、更冷静地谈清楚。
+Takeaway: couples founding together can be very strong and very dangerous. It requires both people to discuss power, equity, money, and the boundaries of life earlier and more coolly than ordinary couples.
 
-### 8. Brian Chesky：从极端求生到孤独领导
+### 8. Brian Chesky: from desperate survival to lonely leadership
 
-Airbnb 早期是典型“被看不起”的创业：出租气垫床、投资人拒绝、信用卡债务、靠麦片盒求生。2009 年进入 YC 后开始获得关键支持。2020 年疫情重创旅游业，Airbnb 裁员约四分之一员工，推迟上市计划后又在同年完成 IPO。
+Airbnb in its early days was a classic "looked-down-upon" startup: renting out air mattresses, rejected by investors, carrying credit card debt, surviving on cereal boxes. After entering YC in 2009 it began to get key support. In 2020 the pandemic devastated travel; Airbnb laid off about a quarter of its staff, postponed its IPO plans, and then completed the IPO the same year.
 
-Chesky 的公开情感关系资料较少，不能强行展开伴侣故事。但他多次公开谈到孤独、工作成瘾、创始人领导压力等主题。这个案例说明：没有显眼婚姻故事，不代表没有情感代价。很多创始人的情感痛苦不是离婚新闻，而是长期没有普通人的生活节律，友谊、恋爱、家庭都被公司节奏替代。
+Public information about Chesky's personal relationships is scarce, and a partner story cannot be forced out of it. But he has spoken publicly many times about loneliness, workaholism, and the pressure of founder leadership. This case shows that the absence of a visible marriage story does not mean the absence of emotional cost. For many founders the emotional pain is no divorce headline, but years without an ordinary person's rhythm of life, with friendship, romance, and family all replaced by the company's tempo.
 
-关键痛苦：
+Key pains:
 
-- 早期被认为荒唐，必须用非常规方式证明执行力。
-- 监管、信任、安全、城市住房争议长期存在。
-- 疫情期间业务几乎被外部环境击穿，必须裁员、融资、重构成本。
-- 创始人孤独从早期现金焦虑，变成后期组织和公众责任。
+- Seen early on as absurd, he had to prove his ability to execute in unconventional ways.
+- Long-running disputes over regulation, trust, safety, and urban housing.
+- During the pandemic, outside conditions nearly broke the business, forcing layoffs, new funding, and a rebuilt cost structure.
+- Founder loneliness shifted from early cash anxiety to later organizational and public responsibility.
 
-启示：创业成功未必表现为情感戏剧，也可能表现为长期孤独和身份收缩。
+Takeaway: startup success does not always show up as emotional drama. It can also show up as long loneliness and a shrinking sense of self.
 
-### 9. Bill Gates：早期平台胜利与晚期关系清算
+### 9. Bill Gates: an early platform victory and a late reckoning in relationships
 
-Microsoft 1975 年创办，1986 年 IPO，约 11 年完成资本市场级成功。Gates 的早期强度是典型技术创始人路径：产品、授权、平台、商业谈判、操作系统生态。Microsoft 后来面对反垄断压力，Gates 也从技术企业家转向慈善机构共同管理者。
+Microsoft was founded in 1975 and went public in 1986, reaching capital-market success in about 11 years. Gates's early intensity followed the classic tech founder path: product, licensing, platform, business negotiation, the operating system ecosystem. Microsoft later faced antitrust pressure, and Gates moved from tech entrepreneur to co-manager of a philanthropic foundation.
 
-Bill Gates 与 Melinda French Gates 的婚姻 2021 年宣布结束，结束 27 年婚姻。二人长期共同参与 Gates Foundation，但离婚后基金会治理也发生调整。这个案例和 Bezos 有相似之处：当财富和共同事业高度绑定时，婚姻结束不会只影响两个人，还会牵动机构、慈善、声誉和公共信任。
+Bill Gates and Melinda French Gates announced the end of their 27-year marriage in 2021. The two had long run the Gates Foundation together, and after the divorce the foundation's governance was adjusted too. The case resembles Bezos's: when wealth and a shared venture are tightly bound, ending a marriage affects more than two people. It also pulls on institutions, philanthropy, reputation, and public trust.
 
-关键痛苦：
+Key pains:
 
-- 技术平台成功后，进入反垄断和公共监管压力。
-- 家庭、基金会、声誉、财富长期互相缠绕。
-- 晚年关系变化说明：共同事业并不能自动维系亲密关系。
-- 财富规模越大，分开时越需要治理结构承接冲击。
+- After the platform succeeded, it entered antitrust and public regulatory pressure.
+- Family, foundation, reputation, and wealth stayed entangled for years.
+- The late change in the relationship shows that a shared venture does not automatically sustain intimacy.
+- The larger the wealth, the more governance structure is needed to absorb the shock of separation.
 
-启示：共享使命不是亲密关系的替代品。共同管理一个伟大机构，也可能掩盖长期关系问题。
+Takeaway: a shared mission is no substitute for an intimate relationship. Jointly running a great institution can also cover up long-standing problems in the relationship.
 
-## 痛苦地图：他们真正熬过了什么
+## A map of pain: what they actually went through
 
-### 1. 现金痛苦
+### 1. Cash pain
 
-现金痛苦不是“没钱花”，而是持续做不可逆选择：要不要继续投自己的积蓄，要不要接受稀释，要不要裁员，要不要告诉伴侣公司只剩几个月 runway。Musk 2008 年、Airbnb 早期、Amazon 长期亏损、Canva 多年融资被拒，都是现金痛苦的不同版本。
+Cash pain is not "having no money to spend." It is making irreversible choices again and again: whether to keep putting in your own savings, whether to accept dilution, whether to lay people off, whether to tell your partner the company has only a few months of runway left. Musk in 2008, Airbnb's early days, Amazon's long losses, and Canva's years of rejected fundraising are all versions of cash pain.
 
-现金痛苦会直接进入关系。伴侣真正害怕的往往不是少花钱，而是不知道风险总额、不知道对方有没有备用方案、不知道自己是否已经被默认纳入创业抵押物。
+Cash pain goes straight into the relationship. What a partner really fears is often not spending less, but not knowing the total risk, not knowing whether there is a backup plan, and not knowing whether they have already been put up as collateral for the venture by default.
 
-### 2. 无反馈痛苦
+### 2. The pain of no feedback
 
-技术人最容易误判的是：能做出来，不等于有人要。Loopt、Airbnb、Canva、NVIDIA 早期都经历过市场反馈不足或方向错误。无反馈痛苦会伤害自尊，因为它否定的不是勤奋，而是判断力。
+The easiest misjudgment for technical people is thinking that being able to build something means someone wants it. Loopt, Airbnb, Canva, and NVIDIA all went through too little market feedback or a wrong direction early on. The pain of no feedback hurts self-esteem, because what it rejects is judgment, not effort.
 
-### 3. 被替换和失控痛苦
+### 3. The pain of being replaced and losing control
 
-创始人常以为公司越成功，自己控制力越强。现实相反：融资、董事会、关键客户、监管、资本市场都会改变控制权结构。Altman 2023 年的 OpenAI 危机是最清晰案例；Musk 早期在 Zip2、X.com / PayPal 也经历过权力结构变化。
+Founders often assume the more successful the company, the more control they have. Reality runs the other way: funding, the board, key customers, regulation, and capital markets all change the structure of control. Altman's 2023 OpenAI crisis is the clearest case; Musk also went through shifts in power structure at Zip2 and X.com / PayPal early on.
 
-### 4. 组织痛苦
+### 4. Organizational pain
 
-技术创始人早期靠速度，后期必须靠组织。组织痛苦包括招聘、授权、淘汰、文化、会议、管理层政治、法务、政策和公关。很多创始人会怀念早期写代码和做产品的纯粹，因为后期成功带来的工作并不是他们最初爱上的工作。
+Tech founders rely on speed early and must rely on organization later. Organizational pain includes hiring, delegating, firing, culture, meetings, management politics, legal, policy, and PR. Many founders miss the purity of writing code and building products in the early days, because the work success brings later is not the work they first fell in love with.
 
-### 5. 情感痛苦
+### 5. Emotional pain
 
-情感痛苦常有四种形态：
+Emotional pain usually takes four forms:
 
-- 缺席：创始人在物理上回家，但心理还在公司。
-- 不透明：公司风险不告诉伴侣，直到危机已经无法隐藏。
-- 不对等：创始人要求伴侣理解使命，却很少理解伴侣的人生目标。
-- 公共化：成功后离婚、伴侣、孩子、财富安排都可能被外界消费。
+- Absence: the founder comes home physically, but the mind stays at the company.
+- Opacity: company risk is kept from the partner until the crisis can no longer be hidden.
+- Inequality: the founder asks the partner to understand the mission, but rarely tries to understand the partner's own life goals.
+- Publicity: after success, divorce, partners, children, and wealth arrangements can all be consumed by outsiders.
 
-Musk / Justine、Bezos / MacKenzie、Gates / Melinda 提供了破裂型样本；Zuckerberg / Chan、Huang / Lori、Perkins / Obrecht 提供了相对稳定或制度化样本；Altman / Mulherin 显示出更低调的私人边界；Wang 的公开资料不足，不能做亲密关系推断。
+Musk / Justine, Bezos / MacKenzie, and Gates / Melinda offer cases of rupture; Zuckerberg / Chan, Huang / Lori, and Perkins / Obrecht offer relatively stable or institutionalized cases; Altman / Mulherin shows lower-key private boundaries; for Wang the public information is insufficient, and no inference about intimate life can be made.
 
-### 6. 道德痛苦
+### 6. Moral pain
 
-技术创业成功后，创始人必须面对一个问题：产品不再只是商业工具，而会改变社会结构。OpenAI 面对 AI 安全和劳动力冲击；Scale 面对数据工人、国防、AI 军事化；Meta 面对内容治理；Amazon 面对劳工与市场力量；NVIDIA 面对 AI 算力、出口管制与地缘政治。
+After a tech venture succeeds, the founder must face a question: the product is no longer just a business tool, and it will change the structure of society. OpenAI faces AI safety and the shock to labor; Scale faces data workers, defense, and the militarization of AI; Meta faces content governance; Amazon faces labor and market power; NVIDIA faces AI compute, export controls, and geopolitics.
 
-道德痛苦的特点是：没有纯技术解。创始人越成功，越不能只用工程语言回答问题。
+What marks moral pain is that it has no purely technical solution. The more successful the founder, the less they can answer in engineering language alone.
 
-## 横纵交汇：几条硬规律
+## Where the axes meet: some hard rules
 
-### 规律一：第一次成功常快，真正成功很慢
+### Rule one: first success often comes fast; real success comes slowly
 
-Zip2、Amazon、Scale 的首次显性成功都很快，但它们后来的影响来自更长周期。外界容易模仿“退学、融资、all in”，却忽视了后面十几年组织、资本、政策、关系的复利。
+Zip2, Amazon, and Scale all reached their first visible success quickly, but their later influence came from much longer cycles. Outsiders easily copy "drop out, raise money, go all in," and overlook the next decade-plus of compounding in organization, capital, policy, and relationships.
 
-### 规律二：伴侣常是隐形共同冒险者
+### Rule two: partners are often invisible co-adventurers
 
-很多创业故事把伴侣写成背景人物，这是错误的。早期伴侣可能承担房租、情绪、家庭劳动、社交牺牲、声誉压力，甚至在没有股权的情况下承担风险。MacKenzie Scott、Priscilla Chan、Lori Huang、Cliff Obrecht / Melanie Perkins、Oliver Mulherin、Justine Musk 等人处在不同位置，但都说明一件事：创业不是单人风险。
+Many startup stories write partners as background characters, which is wrong. An early partner may carry rent, emotions, household labor, social sacrifice, and reputational pressure, and may even bear risk without any equity. MacKenzie Scott, Priscilla Chan, Lori Huang, Cliff Obrecht / Melanie Perkins, Oliver Mulherin, and Justine Musk all stood in different positions, but they all show one thing: a startup is never a one-person risk.
 
-### 规律三：钱会放大原有关系结构
+### Rule three: money amplifies the existing structure of a relationship
 
-如果关系本来是透明、尊重、边界清晰的，钱会增加选择权。如果关系本来是隐瞒、控制、缺席、权力不对等的，钱会把这些问题法律化和媒体化。Musk、Bezos、Gates 的公开关系变化都显示：财富不会自动带来关系安全。
+If a relationship is already transparent, respectful, and clear about boundaries, money adds options. If it is already built on concealment, control, absence, and unequal power, money turns those problems into legal and media matters. The public changes in the relationships of Musk, Bezos, and Gates all show that wealth does not automatically bring relationship security.
 
-### 规律四：金钱的最佳作用是买选择权，不是买身份
+### Rule four: the best use of money is buying options, not buying identity
 
-第一次退出、二级市场套现、上市后卖股，最理性的作用是降低家庭系统的破产概率。很多创始人失败在：账面财富很高，个人现金流和家庭安全感仍很低。伴侣看到的是另一回事：你说自己身价很高，但家里仍像押上全部未来。
+A first exit, a secondary-market sale, selling stock after an IPO: the most rational use of these is to lower the chance that the family system goes bankrupt. Many founders fail here: their paper wealth is very high, while their personal cash flow and the family's sense of security remain very low. The partner sees something else: you say you are worth a fortune, but the household still feels like it has bet its whole future.
 
-### 规律五：创业者不能把高使命感当作关系豁免权
+### Rule five: a founder cannot treat a strong sense of mission as an exemption from the relationship
 
-使命可以解释为什么你忙，不能解释为什么你长期缺席、隐瞒、情绪转嫁、轻视对方职业或让对方没有选择。技术创业者尤其容易把“我在改变世界”当作万能理由。亲密关系里，世界再大，也不能抵消一个人长期被忽视的感受。
+The mission can explain why you are busy. It cannot explain why you are absent for years, hide things, offload your emotions, belittle the other person's career, or leave them no choice. Tech founders in particular tend to use "I'm changing the world" as an all-purpose excuse. In an intimate relationship, however big the world is, it cannot cancel out the feeling of being neglected for years.
 
-## 关键问题：如何平衡创业、情感，以及金钱？
+## The key question: how do you balance the startup, love, and money?
 
-### 先修正问题：不要追求静态平衡
+### First, fix the question: don't chase a static balance
 
-创业早期不可能每天平均分配事业、情感、金钱。更现实的目标是“有期限的失衡”。你可以在 6 个月、12 个月、24 个月内让事业优先，但必须让伴侣和家庭知道：
+In a startup's early days it is impossible to split career, love, and money evenly every day. A more realistic goal is "imbalance with a deadline." You can let the company come first for 6, 12, or 24 months, but your partner and family must know:
 
-- 失衡从什么时候开始；
-- 预计持续多久；
-- 最大财务损失是多少；
-- 哪些选择需要共同同意；
-- 到什么指标不达标就调整；
-- 情感上最低限度的投入是什么。
+- when the imbalance starts;
+- how long it is expected to last;
+- what the maximum financial loss is;
+- which choices need joint agreement;
+- which missed metrics trigger an adjustment;
+- what the minimum emotional investment will be.
 
-没有期限的失衡，会被关系系统理解为永久抛弃。
+An imbalance with no deadline will be read by the relationship system as permanent abandonment.
 
-### 创业前：先谈失败，不要只谈愿景
+### Before founding: talk about failure first, not only the vision
 
-创业前和伴侣谈四张表：
+Before founding, go through four tables with your partner:
 
-| 表 | 必须写清楚的问题 |
+| Table | Questions that must be spelled out |
 |---|---|
-| runway 表 | 个人和家庭可承受几个月无收入？最低生活费是多少？ |
-| 风险表 | 最多投入多少存款？是否允许借债？是否影响父母、孩子、房子？ |
-| 决策表 | 搬城市、降薪、追加投资、卖房、抵押、接受收购，哪些必须共同决策？ |
-| 关系表 | 每周最低相处时间、不可取消事件、情绪支持边界、争吵修复方式是什么？ |
+| Runway table | How many months without income can you and the family bear? What is the minimum cost of living? |
+| Risk table | How much savings at most goes in? Is borrowing allowed? Does it affect parents, children, the house? |
+| Decision table | Moving cities, taking a pay cut, investing more, selling the house, taking a mortgage, accepting an acquisition: which require a joint decision? |
+| Relationship table | What is the minimum weekly time together, which events can never be canceled, what are the limits of emotional support, and how do you repair after a fight? |
 
-如果这些话现在不谈，危机来时会以更差的方式出现。
+If these conversations don't happen now, they will happen in a worse way when the crisis comes.
 
-### 0-2 年：事业优先，但禁止情感静音
+### Years 0-2: the company comes first, but love must never go silent
 
-早期可以极度投入公司，但不能把亲密关系变成“等我成功再说”。
+Early on you can throw yourself into the company, but you cannot turn the relationship into "we'll talk once I succeed."
 
-可执行规则：
+Actionable rules:
 
-- 每周固定一次 90 分钟无手机沟通，只谈关系和生活，不开公司复盘会。
-- 每月一次家庭财务更新：现金、债务、收入、公司 runway、个人工资。
-- 不把伴侣当免费心理咨询师。可以分享压力，但不能把公司情绪原样倾倒。
-- 明确“红线事件”：重大疾病、家庭危机、孩子重要节点、伴侣职业关键时刻，不能被公司自动覆盖。
+- Once a week, a fixed 90-minute conversation with no phones, only about the relationship and life. Do not run a company review.
+- Once a month, a household finance update: cash, debt, income, company runway, personal salary.
+- Don't treat your partner as a free therapist. You can share pressure, but don't dump the company's emotions on them unfiltered.
+- Define "red-line events": serious illness, family crises, key moments for children, and key moments in the partner's career cannot be automatically overridden by the company.
 
-### 3-7 年：把钱从情绪中拿出来
+### Years 3-7: take the money out of the emotions
 
-进入融资、增长、估值阶段后，金钱会诱惑创始人做两种错误选择：账面财富很高但一分钱不落袋，或刚有钱就用消费证明自己成功。
+Once you enter fundraising, growth, and valuation, money tempts founders into two wrong choices: huge paper wealth with not a cent taken off the table, or spending to prove success as soon as money arrives.
 
-可执行规则：
+Actionable rules:
 
-- 有二级出售或退出机会时，合理拿一部分钱出来，先覆盖家庭安全垫。
-- 个人投资和公司股权分开看，不要让家庭全部资产等同于公司单一风险。
-- 不用奢侈消费安抚长期缺席。伴侣需要的是稳定、透明、时间，不只是礼物。
-- 融资成功后反而要设关系预算，因为公司会更忙，不会自动变轻松。
+- When there is a chance for a secondary sale or exit, take a reasonable amount off the table and cover the family's safety cushion first.
+- Look at personal investments and company equity separately, and don't let the family's entire wealth equal the single risk of the company.
+- Don't use luxury spending to soothe long absences. A partner needs stability, transparency, and time, not just gifts.
+- After a successful raise, set a relationship budget, because the company will get busier, not automatically easier.
 
-### 8-15 年：把关系制度化
+### Years 8-15: make the relationship institutional
 
-公司进入组织化后，创始人要承认自己已经不是自由职业者，而是公共角色。家庭也需要制度，不是浪漫口号。
+Once the company becomes an organization, the founder has to admit they are no longer a freelancer but a public role. The family needs institutions too, not romantic slogans.
 
-可执行规则：
+Actionable rules:
 
-- 每季度一次伴侣战略会：家庭、钱、健康、孩子、父母、居住地、未来 3 年计划。
-- 重大财富变化前先做法律与税务规划，避免让伴侣在事件发生后才被动理解。
-- 给伴侣保留独立身份：职业、朋友、兴趣、资产、声誉都不能被创始人的公司吞掉。
-- 对孩子和家庭活动做日历硬约束，像董事会一样不可随意取消。
+- Once a quarter, a partner strategy meeting: family, money, health, children, parents, where to live, the plan for the next 3 years.
+- Do legal and tax planning before major changes in wealth, so the partner isn't left to understand things passively after the fact.
+- Keep the partner's independent identity: career, friends, interests, assets, and reputation must not be swallowed by the founder's company.
+- Put hard calendar constraints on children and family events, as uncancellable as a board meeting.
 
-### 成功后：钱只解决资源问题，不解决关系问题
+### After success: money only solves resource problems, not relationship problems
 
-成功后最容易犯的错，是以为“我已经有钱了，所以关系应该更轻松”。现实往往相反。钱增加了选择权，也增加了不信任、外界诱惑、权力差、法律复杂度和公众审视。
+The easiest mistake after success is assuming "I'm rich now, so the relationship should get easier." Often it is the opposite. Money adds options, and also adds distrust, outside temptation, power gaps, legal complexity, and public scrutiny.
 
-可执行规则：
+Actionable rules:
 
-- 先还债：还财务债、时间债、情绪债，而不只是买资产。
-- 分散资产：降低家庭对单一公司、单一创始人角色的依赖。
-- 设立共同使命时，确认它是双方选择，而不是一方把公司使命外包给家庭。
-- 真正的财富自由，是你能在重要关系中保持诚实，而不是能买更多自由。
+- Pay off debts first: financial debt, time debt, emotional debt, and not only by buying assets.
+- Diversify assets: reduce the family's dependence on a single company and a single founder role.
+- When setting up a shared mission, confirm it is a choice both people made, not one person outsourcing the company's mission to the family.
+- Real financial freedom means you can stay honest in your most important relationships, not that you can buy more freedom.
 
-## 创始人和伴侣各自要守住什么
+## What founders and partners each must protect
 
-### 对创始人
+### For founders
 
-你可以把公司放在优先级第一，但不能假装别人没有为此付费。伴侣、孩子、父母、朋友、早期员工都在为你的优先级承担某种成本。
+You can put the company first, but you cannot pretend others aren't paying for it. Your partner, children, parents, friends, and early employees all bear some cost for your priorities.
 
-三条底线：
+Three bottom lines:
 
-- 不隐瞒重大风险；
-- 不用使命压制对方人生；
-- 不把金钱当作情感补偿的万能工具。
+- Don't hide major risks;
+- Don't use the mission to suppress the other person's life;
+- Don't treat money as an all-purpose emotional compensation.
 
-### 对伴侣
+### For partners
 
-支持创业不等于无限承受。你有权知道风险、有权要求边界、有权保留独立财务和职业空间。
+Supporting a startup does not mean bearing unlimited cost. You have the right to know the risks, to demand boundaries, and to keep independent finances and career space.
 
-三条底线：
+Three bottom lines:
 
-- 不做无股权、无知情权、无退出权的隐形共同创始人；
-- 不把对方公司成败当作自己价值；
-- 不长期接受“等我成功就好了”的空头承诺。
+- Don't become an invisible cofounder with no equity, no right to know, and no right to exit;
+- Don't treat the other person's company's success or failure as your own worth;
+- Don't accept the empty promise of "it'll be fine once I succeed" for years.
 
-## 最终框架：三账户平衡法
+## The final framework: the three-account balance method
 
-把创业、情感、金钱拆成三个账户。
+Split the startup, love, and money into three accounts.
 
-| 账户 | 存入什么 | 透支什么 | 预警信号 |
+| Account | What goes in | What gets overdrawn | Warning signs |
 |---|---|---|---|
-| 创业账户 | 用户、产品、团队、融资、现金流、战略选择 | 睡眠、稳定、私人时间 | 忙但没有有效进展，只剩惯性工作 |
-| 情感账户 | 透明、陪伴、尊重、共同决策、修复冲突 | 信任、耐心、身体健康 | 对方不再争吵，只剩冷淡 |
-| 金钱账户 | runway、现金、股权、资产配置、保险、法律结构 | 安全感、选择权 | 账面富有但家庭仍高度焦虑 |
+| Startup account | Users, product, team, funding, cash flow, strategic choices | Sleep, stability, private time | Busy but without real progress, only working out of inertia |
+| Love account | Transparency, companionship, respect, joint decisions, repairing conflict | Trust, patience, physical health | The other person stops fighting and only grows cold |
+| Money account | Runway, cash, equity, asset allocation, insurance, legal structure | Security, options | Rich on paper while the family stays highly anxious |
 
-创业者真正要做的不是让三个账户每天相等，而是避免任一账户长期负债。事业账户短期透支情感账户可以理解；长期透支后不还，就是关系破产。金钱账户短期贫穷可以理解；长期不透明，就是信任破产。
+What a founder really has to do is not keep the three accounts equal every day, but keep any one account from staying in debt for long. The startup account overdrawing the love account for a while is understandable; overdrawing it for years without repayment is relationship bankruptcy. Being poor in the money account for a while is understandable; being opaque about it for years is trust bankruptcy.
 
-最可执行的一句话：
+The most actionable sentence:
 
-> 允许阶段性失衡，但必须提前告知、设定期限、公开账本、保留底线、按期偿还。
+> Allow imbalance by stage, but announce it in advance, set a deadline, open the books, keep the bottom lines, and repay on schedule.
 
-## 对技术创业者的具体建议
+## Concrete advice for tech founders
 
-1. 用 3-7 年做第一个创业周期预期，不要用 18 个月幻想安排人生。
-2. 在创业前把个人最低工资、家庭 runway、最大投入金额写下来。
-3. 伴侣不是投资人，但必须拥有重大风险知情权。
-4. 第一次有流动性时，先买家庭安全垫，再谈身份消费。
-5. 每周固定关系时间，不讨论公司 KPI。
-6. 每月透明更新财务，不到崩盘才坦白。
-7. 创始人需要外部心理支持、导师、同伴群，不要把伴侣变成唯一情绪出口。
-8. 伴侣要保留独立资产、职业身份和社交系统。
-9. 若两人共同创业，股权、职责、决策权、分手 / 离婚预案要比普通情侣更早写清楚。
-10. 成功后主动还时间债，不要用礼物替代陪伴。
+1. Expect the first startup cycle to take 3-7 years, and don't plan your life around an 18-month fantasy.
+2. Before founding, write down your minimum personal salary, the family runway, and the maximum amount you'll put in.
+3. Your partner is not an investor, but must have the right to know about major risks.
+4. The first time you have liquidity, buy the family a safety cushion before talking about identity spending.
+5. Set fixed relationship time every week, and don't discuss company KPIs during it.
+6. Update finances transparently every month, rather than confessing only when things collapse.
+7. Founders need outside psychological support, mentors, and peer groups. Don't make your partner your only emotional outlet.
+8. Partners should keep independent assets, a career identity, and a social system.
+9. If two partners found a company together, write down equity, responsibilities, decision rights, and a breakup / divorce plan earlier than ordinary couples would.
+10. After success, actively repay your time debt, and don't substitute gifts for presence.
 
-## 资料来源
+## Sources
 
-主要事实来自公开报道、公司官方资料、监管文件、大学资料、研究论文和媒体访谈。情感关系部分只采用公开可核验信息，不对未公开私人生活做推断。
+The main facts come from public reporting, official company materials, regulatory filings, university materials, research papers, and media interviews. The relationship sections use only publicly verifiable information and make no inferences about private lives that have not been made public.
 
-- TechCrunch, "How Green Dot Will Use Loopt To Go After Mobile Payments"：https://techcrunch.com/2012/03/09/how-green-dot-will-use-loopt-to-go-after-mobile-payments/
-- TechCrunch, "Y Combinator President Sam Altman to Take the Stage at Disrupt SF 2015"：https://techcrunch.com/2015/06/25/y-combinator-president-sam-altman-to-take-the-stage-at-disrupt-sf-2015/
-- The New Yorker, "Sam Altman's Manifest Destiny"：https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
-- OpenAI, "OpenAI announces leadership transition"：https://openai.com/index/openai-announces-leadership-transition/
-- OpenAI, "Sam Altman returns as CEO, OpenAI has a new initial board"：https://openai.com/blog/sam-altman-returns-as-ceo-openai-has-a-new-initial-board
-- NBC News / Yahoo mirror, Sam Altman and Oliver Mulherin marriage report：https://tech.yahoo.com/ai/articles/openai-ceo-sam-altman-marries-212828476.html
-- Forbes, "The New Youngest Self-Made Billionaire In The World Is A 25-Year-Old College Dropout"：https://www.forbes.com/sites/colehorton/2022/05/25/the-new-youngest-self-made-billionaire-in-the-world-is-a-25-year-old-college-dropout/
-- Forbes, "Scale AI Cofounder Alexandr Wang Regains World's Youngest Self-Made Billionaire Title"：https://www.forbes.com/sites/mattdurot/2024/05/21/scale-ai-cofounder-alex-wang-regains-worlds-youngest-self-made-billionaire-title/
-- TIME, "Alexandr Wang"：https://qa.time.com/6310631/alexandr-wang-2/
-- TIME, "Former Scale AI CEO Alexandr Wang on AI's Potential and Its Deficiencies"：https://time.com/7296215/alexandr-wang-interview/
-- Scale AI, "Founder, Alexandr Wang, Joins Meta to Work on AI Efforts"：https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution
-- Associated Press, "Meta invests $14.3B in AI firm Scale and recruits its CEO"：https://apnews.com/article/4b55aabf7ea018e38ffdccb66e37cf26
-- Los Angeles Times, "Compaq Buys Software Firm Zip2"：https://www.latimes.com/archives/la-xpm-1999-feb-17-fi-8808-story.html
-- CNBC, "How Elon Musk founded Zip2 with his brother Kimbal"：https://www.cnbc.com/2018/06/19/how-elon-musk-founded-zip2-with-his-brother-kimbal.html
-- NASA / Office of Space Commerce archive, December 2008 CRS awards：https://space.commerce.gov/2008/12/
-- Marie Claire, Justine Musk, "I Was a Starter Wife"：https://www.marieclaire.com/sex-love/a5380/millionaire-starter-wife/
-- NVIDIA, "Our History: Innovations Over the Years"：https://www.nvidia.com/en-gb/about-nvidia/corporate-timeline/
-- Oregon State University, "Doing important, hard work you love"：https://engineering.oregonstate.edu/all-stories/doing-important-hard-work-you-love
-- CNBC, "Jensen Huang: I didn't know how to start a business when launching Nvidia"：https://www.cnbc.com/2024/05/11/jensen-huang-i-didnt-know-how-to-start-a-business-when-launching-nvidia.html
-- Amazon, "Amazon's original 1997 letter to shareholders"：https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders
-- Britannica, Amazon.com history：https://www.britannica.com/topic/Amazoncom
-- CNBC, MacKenzie Bezos Amazon stake coverage：https://www.cnbc.com/2020/01/27/mackenzie-bezos-sells-400-million-of-her-amazon-shares.html
-- TechCrunch, Zuckerberg and Priscilla Chan marriage after IPO：https://techcrunch.com/2012/05/19/day-after-ipo-mark-zuckerberg-marries-longtime-girlfriend-priscilla-chan/
-- TIME, Facebook 10-year history：https://time.com/4112/facebook-10-year-anniversary-history/
-- Canva, About Canva：https://www.canva.com/about/
-- CNBC, "Canva: How Melanie Perkins built a design start-up"：https://www.cnbc.com/2020/01/09/canva-how-melanie-perkins-built-a-3point2-billion-dollar-design-start-up.html
-- CNBC, Canva Disruptor 50 profile：https://www.cnbc.com/2022/05/17/canva-disruptor-50.html
-- Forbes, Cliff Obrecht & Melanie Perkins profile：https://www.forbes.com/profile/cliff-obrecht-melanie-perkins/
-- TechCrunch, "Airbnb And The Humble Hustle"：https://techcrunch.com/2015/08/19/airbnb-and-the-humble-hustle/
-- SEC, Airbnb Form S-1 / IPO registration：https://www.sec.gov/Archives/edgar/data/1559720/000119312520294801/d81668ds1.htm
-- TechCrunch, Airbnb 2020 layoffs：https://techcrunch.com/2020/05/05/citing-revenue-declines-airbnb-cuts-1900-jobs-or-around-25-of-its-global-workforce/
-- Microsoft, Facts About Microsoft：https://news.microsoft.com/facts-about-microsoft/
-- Goldman Sachs, Microsoft IPO history：https://www.goldmansachs.com/our-firm/history/moments/1986-microsoft-ipo.html
-- PBS NewsHour / AP, Bill and Melinda Gates divorce announcement：https://www.pbs.org/newshour/nation/bill-and-melinda-gates-announce-they-are-ending-marriage
-- Balderton Capital, Founder Wellbeing Survey：https://www.balderton.com/founder-well-being/founder-survey/
-- Freeman et al., "The prevalence and co-occurrence of psychiatric conditions among entrepreneurs and their families"：https://link.springer.com/article/10.1007/s11187-018-0059-8
-- Sifted, Founder mental health survey：https://sifted.eu/articles/founder-mental-health-2024
+- TechCrunch, "How Green Dot Will Use Loopt To Go After Mobile Payments": https://techcrunch.com/2012/03/09/how-green-dot-will-use-loopt-to-go-after-mobile-payments/
+- TechCrunch, "Y Combinator President Sam Altman to Take the Stage at Disrupt SF 2015": https://techcrunch.com/2015/06/25/y-combinator-president-sam-altman-to-take-the-stage-at-disrupt-sf-2015/
+- The New Yorker, "Sam Altman's Manifest Destiny": https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
+- OpenAI, "OpenAI announces leadership transition": https://openai.com/index/openai-announces-leadership-transition/
+- OpenAI, "Sam Altman returns as CEO, OpenAI has a new initial board": https://openai.com/blog/sam-altman-returns-as-ceo-openai-has-a-new-initial-board
+- NBC News / Yahoo mirror, Sam Altman and Oliver Mulherin marriage report: https://tech.yahoo.com/ai/articles/openai-ceo-sam-altman-marries-212828476.html
+- Forbes, "The New Youngest Self-Made Billionaire In The World Is A 25-Year-Old College Dropout": https://www.forbes.com/sites/colehorton/2022/05/25/the-new-youngest-self-made-billionaire-in-the-world-is-a-25-year-old-college-dropout/
+- Forbes, "Scale AI Cofounder Alexandr Wang Regains World's Youngest Self-Made Billionaire Title": https://www.forbes.com/sites/mattdurot/2024/05/21/scale-ai-cofounder-alex-wang-regains-worlds-youngest-self-made-billionaire-title/
+- TIME, "Alexandr Wang": https://qa.time.com/6310631/alexandr-wang-2/
+- TIME, "Former Scale AI CEO Alexandr Wang on AI's Potential and Its Deficiencies": https://time.com/7296215/alexandr-wang-interview/
+- Scale AI, "Founder, Alexandr Wang, Joins Meta to Work on AI Efforts": https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution
+- Associated Press, "Meta invests $14.3B in AI firm Scale and recruits its CEO": https://apnews.com/article/4b55aabf7ea018e38ffdccb66e37cf26
+- Los Angeles Times, "Compaq Buys Software Firm Zip2": https://www.latimes.com/archives/la-xpm-1999-feb-17-fi-8808-story.html
+- CNBC, "How Elon Musk founded Zip2 with his brother Kimbal": https://www.cnbc.com/2018/06/19/how-elon-musk-founded-zip2-with-his-brother-kimbal.html
+- NASA / Office of Space Commerce archive, December 2008 CRS awards: https://space.commerce.gov/2008/12/
+- Marie Claire, Justine Musk, "I Was a Starter Wife": https://www.marieclaire.com/sex-love/a5380/millionaire-starter-wife/
+- NVIDIA, "Our History: Innovations Over the Years": https://www.nvidia.com/en-gb/about-nvidia/corporate-timeline/
+- Oregon State University, "Doing important, hard work you love": https://engineering.oregonstate.edu/all-stories/doing-important-hard-work-you-love
+- CNBC, "Jensen Huang: I didn't know how to start a business when launching Nvidia": https://www.cnbc.com/2024/05/11/jensen-huang-i-didnt-know-how-to-start-a-business-when-launching-nvidia.html
+- Amazon, "Amazon's original 1997 letter to shareholders": https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders
+- Britannica, Amazon.com history: https://www.britannica.com/topic/Amazoncom
+- CNBC, MacKenzie Bezos Amazon stake coverage: https://www.cnbc.com/2020/01/27/mackenzie-bezos-sells-400-million-of-her-amazon-shares.html
+- TechCrunch, Zuckerberg and Priscilla Chan marriage after IPO: https://techcrunch.com/2012/05/19/day-after-ipo-mark-zuckerberg-marries-longtime-girlfriend-priscilla-chan/
+- TIME, Facebook 10-year history: https://time.com/4112/facebook-10-year-anniversary-history/
+- Canva, About Canva: https://www.canva.com/about/
+- CNBC, "Canva: How Melanie Perkins built a design start-up": https://www.cnbc.com/2020/01/09/canva-how-melanie-perkins-built-a-3point2-billion-dollar-design-start-up.html
+- CNBC, Canva Disruptor 50 profile: https://www.cnbc.com/2022/05/17/canva-disruptor-50.html
+- Forbes, Cliff Obrecht & Melanie Perkins profile: https://www.forbes.com/profile/cliff-obrecht-melanie-perkins/
+- TechCrunch, "Airbnb And The Humble Hustle": https://techcrunch.com/2015/08/19/airbnb-and-the-humble-hustle/
+- SEC, Airbnb Form S-1 / IPO registration: https://www.sec.gov/Archives/edgar/data/1559720/000119312520294801/d81668ds1.htm
+- TechCrunch, Airbnb 2020 layoffs: https://techcrunch.com/2020/05/05/citing-revenue-declines-airbnb-cuts-1900-jobs-or-around-25-of-its-global-workforce/
+- Microsoft, Facts About Microsoft: https://news.microsoft.com/facts-about-microsoft/
+- Goldman Sachs, Microsoft IPO history: https://www.goldmansachs.com/our-firm/history/moments/1986-microsoft-ipo.html
+- PBS NewsHour / AP, Bill and Melinda Gates divorce announcement: https://www.pbs.org/newshour/nation/bill-and-melinda-gates-announce-they-are-ending-marriage
+- Balderton Capital, Founder Wellbeing Survey: https://www.balderton.com/founder-well-being/founder-survey/
+- Freeman et al., "The prevalence and co-occurrence of psychiatric conditions among entrepreneurs and their families": https://link.springer.com/article/10.1007/s11187-018-0059-8
+- Sifted, Founder mental health survey: https://sifted.eu/articles/founder-mental-health-2024

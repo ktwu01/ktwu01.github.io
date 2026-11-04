@@ -2,7 +2,6 @@
 title: Measuring Work by Energy Consumption
 date: 2026-03-04
 permalink: /posts/2026/03/measuring-work-by-energy-consumption/
-lang: zh
 redirect_from:
   - /posts/2026/03/04/measuring-work-by-energy-consumption/
 tags:
@@ -12,55 +11,56 @@ tags:
   - proof-of-work
   - work-measurement
 ---
-衡量工作效率，最重要的指标或许不是投入的时间，而是消耗的能源。
 
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+The most important measure of work may be the energy it consumes, more than the time it takes.
 
-传统上，我们习惯用"思考了多少小时"或"工作了多长时间"来衡量工作成果。然而，这种基于时间的衡量方式存在根本性缺陷——它无法区分高效与低效的思考，也无法衡量思考的深度与质量。
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-马斯克曾提出一个有趣的观点：未来的货币可能不再是黄金，而是比特币这样的工作量证明（Proof of Work）系统。这个观点背后隐藏着一个更深刻的洞察：**真正的价值创造，最终都体现为能量的转化与消耗**。
+Traditionally we measure output by "how many hours I thought" or "how long I worked." This time-based measure has a basic flaw: it cannot tell efficient thinking from inefficient thinking, and it cannot measure the depth or quality of thought.
 
-## 工作量证明的本质
+Musk once suggested an interesting idea: the currency of the future may be a proof-of-work system like Bitcoin, rather than gold. Behind that idea sits a deeper insight: **real value creation ultimately shows up as the conversion and consumption of energy**.
 
-比特币的工作量证明机制，本质上是一种能源消耗的证明。矿工们消耗电力进行哈希计算，消耗的电力越多，获得的比特币奖励就越多。这个机制的核心逻辑是：**价值创造需要真实的能量投入**。
+## The essence of proof of work
 
-这个原理同样适用于知识工作。当我们说"思考"或"创造"时，大脑在消耗能量，计算机在消耗电力，整个思考过程都在消耗物理世界的能量。这种能量消耗，正是工作深度的直接体现。
+Bitcoin's proof-of-work mechanism is, at heart, a proof of energy spent. Miners burn electricity to compute hashes, and the more electricity they burn, the more bitcoin they earn. The core logic is: **creating value requires real energy input**.
 
-## 从时间衡量到能量衡量
+The same principle applies to knowledge work. When we "think" or "create," the brain burns energy, computers burn electricity, and the whole process of thinking consumes energy in the physical world. That consumption is a direct reflection of how deep the work goes.
 
-传统的时间管理方法存在根本缺陷：一个人可以"工作"8小时，但其中可能只有2小时是真正的高质量思考，其余时间只是"在场"而非"在场"。
+## From measuring time to measuring energy
 
-如果我们用"有效能量消耗"来衡量工作，情况会大不相同：
+Traditional time management has a basic flaw: a person can "work" eight hours, yet only two of them may be real high-quality thinking. The rest is just being present in body.
 
-1. **思考的"算力"消耗**：真正深入思考时，大脑的能耗会显著增加。这种"算力"消耗，正是创造性工作的核心。
+If we measured work by "effective energy consumption," the picture would look very different:
 
-2. **工具的能量成本**：现代知识工作离不开计算设备。你的电脑、服务器、云服务都在消耗电力。这些消耗不是成本，而是**价值创造的物理体现**。
+1. **The "compute" cost of thinking**: when you think deeply, the brain's energy use rises noticeably. This "compute" consumption is the core of creative work.
 
-3. **注意力作为能量流**：注意力是大脑最宝贵的能量资源。当你的注意力完全投入时，能量消耗最大，创造的价值也最大。
+2. **The energy cost of tools**: modern knowledge work depends on computing devices. Your laptop, servers, and cloud services all consume electricity. That consumption is a **physical expression of value creation**, more than a cost.
 
-## 马斯克的洞察
+3. **Attention as an energy flow**: attention is the brain's most precious energy resource. When your attention is fully engaged, energy use peaks, and so does the value created.
 
-马斯克对比特币和POW（工作量证明）的认可，本质上是对"价值需要真实成本"这一原则的认可。在知识工作中，这个原则同样适用：
+## Musk's insight
 
-- 浅层工作消耗的能量少，创造的价值也少
-- 深度工作消耗的能量多，但创造的价值呈指数级增长
-- 真正的创造性突破，往往伴随着巨大的能量投入
+Musk's endorsement of Bitcoin and PoW (proof of work) is, at heart, an endorsement of the principle that "value requires real cost." The same principle holds in knowledge work:
 
-## 实践建议
+- Shallow work consumes little energy and creates little value
+- Deep work consumes much more energy, and the value it creates grows exponentially
+- Real creative breakthroughs usually come with a huge energy investment
 
-1. **量化你的能量投入**：开始记录你每天在真正创造性工作上的"能量消耗"——不是时间，而是专注的强度。
+## Practical advice
 
-2. **优化能量分配**：像管理电力一样管理你的注意力。把最高能量的时段留给最重要的思考。
+1. **Quantify your energy input**: start recording your daily "energy consumption" on truly creative work. Track the intensity of focus, not the time.
 
-3. **接受能量消耗**：真正的创造需要真实的能量投入。不要害怕"浪费"能量在深度思考上——这正是价值创造的过程。
+2. **Optimize energy allocation**: manage your attention the way you would manage electricity. Save your highest-energy hours for your most important thinking.
 
-4. **衡量产出而非投入**：不要问"我工作了多久"，要问"我消耗了多少创造性能量"。
+3. **Accept the energy cost**: real creation requires real energy. Don't be afraid to "waste" energy on deep thinking. That spending is the process of creating value.
 
-比特币的POW机制告诉我们：真正的价值需要真实的能量投入。在知识工作中，这个能量就是我们的专注力、思考深度和创造性能量。
+4. **Measure output, not input**: stop asking "how long did I work?" and ask "how much creative energy did I spend?"
 
-下一次你评估工作成果时，不要问"我花了多少时间"，而要问："我投入了多少创造性能量？"
+Bitcoin's PoW mechanism tells us that real value requires real energy. In knowledge work, that energy is our focus, the depth of our thinking, and our creative drive.
 
-因为最终，价值不是用时间来衡量的，而是用创造价值所消耗的能量来衡量的。
+Next time you assess your work, don't ask "how much time did I spend?" Ask: "how much creative energy did I put in?"
+
+Because in the end, value is measured by the energy spent creating it, and time is the wrong yardstick.
 
 ---
-*注：本文灵感来源于对知识工作本质的思考，以及马斯克关于比特币和POW机制的讨论。真正的创造，无论是比特币挖矿还是知识创造，都需要真实的能量投入。*
+*Note: This piece was inspired by reflections on the nature of knowledge work and by Musk's comments on Bitcoin and PoW. Real creation, whether Bitcoin mining or knowledge creation, requires real energy input.*
