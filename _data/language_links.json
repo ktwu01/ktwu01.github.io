@@ -350,6 +350,15 @@
       }
     ]
   },
+  "/posts/2026/02/atherton-spring/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/02/atherton-spring/"
+      }
+    ]
+  },
   "/posts/2026/02/clear-plus-airport-security-experience/": {
     "variants": [
       {
@@ -1187,6 +1196,15 @@
       }
     ]
   },
+  "/posts/2026/06/two-years-later-the-boundless-sea/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/06/two-years-later-the-boundless-sea/"
+      }
+    ]
+  },
   "/posts/2026/06/what-it-takes-to-land-a-git-patch/": {
     "variants": [
       {
@@ -1871,6 +1889,15 @@
       }
     ]
   },
+  "/posts/2026/09/attention-and-user-weights/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/attention-and-user-weights/"
+      }
+    ]
+  },
   "/posts/2026/09/benchmark-radar-alphaxiv/": {
     "variants": [
       {
@@ -2312,6 +2339,15 @@
       }
     ]
   },
+  "/posts/2026/09/finding-the-feeling-of-a-lead/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/finding-the-feeling-of-a-lead/"
+      }
+    ]
+  },
   "/posts/2026/09/forbes-us-matraix-coverage/": {
     "variants": [
       {
@@ -2645,6 +2681,15 @@
       }
     ]
   },
+  "/posts/2026/09/skin-in-the-game/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/skin-in-the-game/"
+      }
+    ]
+  },
   "/posts/2026/09/starting-point-one-documentary/": {
     "variants": [
       {
@@ -2750,6 +2795,15 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/ustc-xingyun-poetry-club/"
+      }
+    ]
+  },
+  "/posts/2026/09/why-i-dont-call-people-brave/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/09/why-i-dont-call-people-brave/"
       }
     ]
   },
@@ -3023,6 +3077,15 @@
       }
     ]
   },
+  "/posts/2026/10/pumpkin-patch-resume/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/pumpkin-patch-resume/"
+      }
+    ]
+  },
   "/posts/2026/10/pumpkin-patch/": {
     "variants": [
       {
@@ -3056,6 +3119,15 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/10/scientists-desire/"
+      }
+    ]
+  },
+  "/posts/2026/10/the-only-legal-service/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/the-only-legal-service/"
       }
     ]
   },
@@ -3434,6 +3506,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/02/ai-paper-collaboration-for-domain-experts/"
+      }
+    ]
+  },
+  "/zh/posts/2026/02/atherton-spring/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/02/atherton-spring/"
       }
     ]
   },
@@ -4274,6 +4355,15 @@
       }
     ]
   },
+  "/zh/posts/2026/06/two-years-later-the-boundless-sea/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/06/two-years-later-the-boundless-sea/"
+      }
+    ]
+  },
   "/zh/posts/2026/06/what-it-takes-to-land-a-git-patch/": {
     "variants": [
       {
@@ -4958,6 +5048,15 @@
       }
     ]
   },
+  "/zh/posts/2026/09/attention-and-user-weights/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/attention-and-user-weights/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/benchmark-radar-alphaxiv/": {
     "variants": [
       {
@@ -5399,6 +5498,15 @@
       }
     ]
   },
+  "/zh/posts/2026/09/finding-the-feeling-of-a-lead/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/finding-the-feeling-of-a-lead/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/forbes-us-matraix-coverage/": {
     "variants": [
       {
@@ -5732,6 +5840,15 @@
       }
     ]
   },
+  "/zh/posts/2026/09/skin-in-the-game/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/skin-in-the-game/"
+      }
+    ]
+  },
   "/zh/posts/2026/09/starting-point-one-documentary/": {
     "variants": [
       {
@@ -5837,6 +5954,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/ustc-xingyun-poetry-club/"
+      }
+    ]
+  },
+  "/zh/posts/2026/09/why-i-dont-call-people-brave/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/09/why-i-dont-call-people-brave/"
       }
     ]
   },
@@ -6110,6 +6236,15 @@
       }
     ]
   },
+  "/zh/posts/2026/10/pumpkin-patch-resume/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/pumpkin-patch-resume/"
+      }
+    ]
+  },
   "/zh/posts/2026/10/pumpkin-patch/": {
     "variants": [
       {
@@ -6143,6 +6278,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/scientists-desire/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/the-only-legal-service/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/the-only-legal-service/"
       }
     ]
   },
