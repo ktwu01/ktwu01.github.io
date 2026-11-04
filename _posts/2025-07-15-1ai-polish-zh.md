@@ -3,8 +3,12 @@ title: '1AI-polish - AI 学术写作润色系统'
 date: 2025-07-15
 permalink: /zh/posts/2025/07/1ai-polish/
 redirect_from:
+  - /zh/posts/2025/06/project-ai-polish/
+  - /zh/posts/2026/09/project-ai-polish/
   - /posts/2025/07/1ai-polish-cn/
 tags:
+  - media
+  - project
   - ai
   - academic-writing
   - deepseek

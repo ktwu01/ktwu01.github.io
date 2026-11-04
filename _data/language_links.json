@@ -44,30 +44,12 @@
       }
     ]
   },
-  "/posts/2025/06/project-ai-polish/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2025/06/project-ai-polish/"
-      }
-    ]
-  },
   "/posts/2025/06/project-ut01/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2025/06/project-ut01/"
-      }
-    ]
-  },
-  "/posts/2025/06/ut01/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2025/06/ut01/"
       }
     ]
   },
@@ -3140,30 +3122,12 @@
       }
     ]
   },
-  "/zh/posts/2025/06/project-ai-polish/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2025/06/project-ai-polish/"
-      }
-    ]
-  },
   "/zh/posts/2025/06/project-ut01/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2025/06/project-ut01/"
-      }
-    ]
-  },
-  "/zh/posts/2025/06/ut01/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2025/06/ut01/"
       }
     ]
   },
