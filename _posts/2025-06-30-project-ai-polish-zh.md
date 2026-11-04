@@ -1,7 +1,9 @@
 ---
 title: "AI-Polish"
-date: 2026-09-29
-permalink: /zh/posts/2026/09/project-ai-polish/
+date: 2025-06-30
+permalink: /zh/posts/2025/06/project-ai-polish/
+redirect_from:
+  - /zh/posts/2026/09/project-ai-polish/
 tags:
   - media
   - project

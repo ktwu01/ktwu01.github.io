@@ -44,6 +44,24 @@
       }
     ]
   },
+  "/posts/2025/06/project-ai-polish/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/06/project-ai-polish/"
+      }
+    ]
+  },
+  "/posts/2025/06/project-ut01/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/06/project-ut01/"
+      }
+    ]
+  },
   "/posts/2025/06/ut01/": {
     "variants": [
       {
@@ -194,6 +212,15 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2025/10/crypto-dashboard/"
+      }
+    ]
+  },
+  "/posts/2025/10/project-crypto-dashboard/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2025/10/project-crypto-dashboard/"
       }
     ]
   },
@@ -2483,30 +2510,12 @@
       }
     ]
   },
-  "/posts/2026/09/project-ai-polish/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2026/09/project-ai-polish/"
-      }
-    ]
-  },
   "/posts/2026/09/project-asi-bench/": {
     "variants": [
       {
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/project-asi-bench/"
-      }
-    ]
-  },
-  "/posts/2026/09/project-crypto-dashboard/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2026/09/project-crypto-dashboard/"
       }
     ]
   },
@@ -2561,15 +2570,6 @@
         "label": "中文",
         "language": "zh",
         "url": "/zh/posts/2026/09/project-tacite/"
-      }
-    ]
-  },
-  "/posts/2026/09/project-ut01/": {
-    "variants": [
-      {
-        "label": "中文",
-        "language": "zh",
-        "url": "/zh/posts/2026/09/project-ut01/"
       }
     ]
   },
@@ -3140,6 +3140,24 @@
       }
     ]
   },
+  "/zh/posts/2025/06/project-ai-polish/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/06/project-ai-polish/"
+      }
+    ]
+  },
+  "/zh/posts/2025/06/project-ut01/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/06/project-ut01/"
+      }
+    ]
+  },
   "/zh/posts/2025/06/ut01/": {
     "variants": [
       {
@@ -3290,6 +3308,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2025/10/crypto-dashboard/"
+      }
+    ]
+  },
+  "/zh/posts/2025/10/project-crypto-dashboard/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2025/10/project-crypto-dashboard/"
       }
     ]
   },
@@ -5579,30 +5606,12 @@
       }
     ]
   },
-  "/zh/posts/2026/09/project-ai-polish/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2026/09/project-ai-polish/"
-      }
-    ]
-  },
   "/zh/posts/2026/09/project-asi-bench/": {
     "variants": [
       {
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/project-asi-bench/"
-      }
-    ]
-  },
-  "/zh/posts/2026/09/project-crypto-dashboard/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2026/09/project-crypto-dashboard/"
       }
     ]
   },
@@ -5657,15 +5666,6 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/09/project-tacite/"
-      }
-    ]
-  },
-  "/zh/posts/2026/09/project-ut01/": {
-    "variants": [
-      {
-        "label": "English",
-        "language": "en",
-        "url": "/posts/2026/09/project-ut01/"
       }
     ]
   },

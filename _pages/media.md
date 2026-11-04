@@ -306,11 +306,11 @@ Also active on Xiaohongshu, WeChat and QQ.
 - [MatrAIx](https://matraix.ai/). [Related post](/posts/2026/09/project-matraix/)
 - [ASI-Bench](https://asibench.apexin.ai/). [Related post](/posts/2026/09/project-asi-bench/)
 - [ResearchClawBench](https://internscience.github.io/ResearchClawBench-Home/). [Related post](/posts/2026/09/project-researchclawbench/)
-- [UT01](https://ut01.github.io/). [Related post](/posts/2026/09/project-ut01/)
+- [UT01](https://ut01.github.io/). [Related post](/posts/2025/06/project-ut01/)
 - [Earth-Space-AI](https://github.com/earth-space-ai). [Related post](/posts/2026/09/project-earth-space-ai/)
 - [Tacite](https://tacite.ai/). [Related post](/posts/2026/09/project-tacite/)
-- [Crypto Dashboard](https://ktwu01.github.io/crypto-dashboard). [Related post](/posts/2026/09/project-crypto-dashboard/)
-- [AI-Polish](https://ktwu01.github.io/1AI-polish). [Related post](/posts/2026/09/project-ai-polish/)
+- [Crypto Dashboard](https://ktwu01.github.io/crypto-dashboard). [Related post](/posts/2025/10/project-crypto-dashboard/)
+- [AI-Polish](https://ktwu01.github.io/1AI-polish). [Related post](/posts/2025/06/project-ai-polish/)
 
 
 ## Awards
