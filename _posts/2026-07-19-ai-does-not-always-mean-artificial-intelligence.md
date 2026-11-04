@@ -1,8 +1,7 @@
 ---
-title: "AI 不一定是人工智能：两个字母如何被不同世界反复占用"
+title: "AI Does Not Always Mean Artificial Intelligence: How Two Letters Keep Getting Claimed by Different Worlds"
 date: 2026-07-19
 permalink: /posts/2026/07/ai-does-not-always-mean-artificial-intelligence/
-lang: zh
 tags:
   - AI
   - language
@@ -10,70 +9,70 @@ tags:
   - aviation
 ---
 
-今天看航班时，我突然发现：**AI 是 Air India（印度航空）的航空公司代码。**
+Checking flights today, I suddenly noticed: **AI is the airline code for Air India.**
 
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-也就是说，`AI 302` 并不是某个新模型，更不是“人工智能 302 号实验”，而是一班印度航空航班。印度航空自己的公告也把 `AI` 称为其 designator code（航司代码）。
+So `AI 302` is not some new model, and certainly not "artificial intelligence experiment No. 302." It is an Air India flight. Air India's own announcements call `AI` its designator code.
 
-这件事让我意识到：我们现在看到字母 `AI`，几乎会条件反射地把它展开成 *Artificial Intelligence*。但这只是当下最强势的解释，并不是这两个字母的所有权证明。
+It made me realize that when we see the letters `AI` now, we expand them into *Artificial Intelligence* almost by reflex. But that is only the dominant reading of the moment. It is no proof of ownership over the two letters.
 
-## `.ai` 也不是为人工智能发明的
+## `.ai` was not invented for artificial intelligence either
 
-科技公司喜欢使用 `.ai` 域名，让人误以为它是类似 `.com` 的“人工智能专属后缀”。实际上，`.ai` 是 **Anguilla（安圭拉）**的国家和地区顶级域名。
+Tech companies love `.ai` domains, which makes people assume it is an "AI-only suffix" like `.com`. In fact, `.ai` is the country-code top-level domain of **Anguilla**.
 
-[IANA 的官方记录](https://www.iana.org/domains/root/db/ai.html)明确把 `.ai` 列为 country-code top-level domain，并将管理方列为安圭拉政府。互联网行业后来赋予了它第二层含义：一个原本代表加勒比海小岛的国家域名，逐渐成了 AI 创业公司的身份标签。
+[IANA's official record](https://www.iana.org/domains/root/db/ai.html) lists `.ai` as a country-code top-level domain, with the Government of Anguilla as its manager. The internet industry later gave it a second meaning: a country domain that once stood for a small Caribbean island gradually became an identity tag for AI startups.
 
-因此：
+So:
 
-- `company.ai` 可能表示“这是一家人工智能公司”；
-- 但在域名系统中，它首先表示“这个名字注册在安圭拉的国家域名之下”。
+- `company.ai` may say "this is an artificial intelligence company";
+- but in the domain name system, it first says "this name is registered under Anguilla's country domain."
 
-这不是人工智能创造了一个域名，而是人工智能产业借用了一个既有的国家代码。
+Artificial intelligence did not create a domain. The AI industry borrowed an existing country code.
 
-## Air India 也早就占用了 AI
+## Air India took AI long ago
 
-航空业使用两个字符识别航空公司。印度航空使用的就是 `AI`。例如，一张机票上的 `AI 302` 表示印度航空第 302 号航班。[印度航空的官方公告](https://www.airindia.com/in/en/newsroom/press-release/aix-connect-codeshare-agreement.html)也直接使用 “AI designator code” 这一表述。
+The airline industry identifies carriers with two-character codes, and Air India's is `AI`. On a ticket, `AI 302` means Air India flight 302. [Air India's official announcement](https://www.airindia.com/in/en/newsroom/press-release/aix-connect-codeshare-agreement.html) uses the phrase "AI designator code" directly.
 
-于是出现了一种有趣的语义冲突：
+That creates an amusing semantic clash:
 
-> AI flight 可以表示印度航空的航班，也可能表示由人工智能参与控制或调度的飞行。真正的含义只能由上下文决定。
+> An AI flight can mean an Air India flight, or a flight controlled or scheduled with the help of artificial intelligence. Only context decides which.
 
-## 其他行业中的 AI
+## AI in other fields
 
-`AI` 在不同专业系统中还承担着完全不同的工作：
+In different professional systems, `AI` does entirely different jobs:
 
-| 行业或场景 | AI 可能表示什么 |
+| Field or setting | What AI may mean |
 |---|---|
-| 图形设计 | **Adobe Illustrator**；`.ai` 是其原生矢量文件格式 |
-| 生殖医学 | **Artificial Insemination**，人工授精 |
-| 肿瘤学与药理学 | **Aromatase Inhibitor**，芳香化酶抑制剂 |
-| 心脏医学 | **Aortic Insufficiency**，主动脉瓣关闭不全 |
-| 保险 | **Additional Insured**，附加被保险人 |
-| 金融 | **Accrued Interest**，应计利息 |
-| 电子与控制工程 | **Analog Input**，模拟量输入 |
-| 组织管理 | **Appreciative Inquiry**，欣赏式探询 |
-| 国际组织 | **Amnesty International**，国际特赦组织 |
+| Graphic design | **Adobe Illustrator**; `.ai` is its native vector file format |
+| Reproductive medicine | **Artificial Insemination** |
+| Oncology and pharmacology | **Aromatase Inhibitor** |
+| Cardiology | **Aortic Insufficiency** |
+| Insurance | **Additional Insured** |
+| Finance | **Accrued Interest** |
+| Electronics and control engineering | **Analog Input** |
+| Organizational management | **Appreciative Inquiry** |
+| International organizations | **Amnesty International** |
 
-其中一些含义不只是历史遗迹，今天仍在生产环境中使用。例如，[Adobe 明确说明](https://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html)，AI 是 Adobe Illustrator 的原生矢量文件类型；美国国家癌症研究所则把 [aromatase inhibitor](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/aromatase-inhibitor) 定义为阻断芳香化酶活性的药物。在相应医学文本中，`AI therapy` 很可能是芳香化酶抑制剂治疗，而不是“人工智能治疗”。
+Some of these meanings are more than historical relics and are still used in production today. [Adobe states clearly](https://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html) that AI is Adobe Illustrator's native vector file type, and the US National Cancer Institute defines an [aromatase inhibitor](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/aromatase-inhibitor) as a drug that blocks the activity of the enzyme aromatase. In the relevant medical text, `AI therapy` most likely means aromatase inhibitor therapy, with no artificial intelligence involved.
 
-## 缩写没有所有权，只有上下文
+## Abbreviations have no owners, only contexts
 
-缩写的作用不是完整表达概念，而是让一个社群压缩沟通成本。同一组字母可以被多个社群独立选中：飞行员、设计师、医生、保险经纪人和机器学习研究者看到 `AI` 时，调用的知识体系并不相同。
+An abbreviation exists to let a community compress its communication, and it never carries the full concept. The same letters can be picked independently by many communities: when pilots, designers, doctors, insurance brokers, and machine learning researchers see `AI`, each calls up a different body of knowledge.
 
-人工智能的扩张正在改变这种平衡。搜索引擎、媒体和投资市场不断强化 *AI = Artificial Intelligence*，其他解释则被压到搜索结果后面。这是一种语言层面的“缩写占领”：某个行业获得足够多的资本、注意力与文化影响力后，便取得一组字母的默认解释权。
+The expansion of artificial intelligence is shifting that balance. Search engines, media, and investment markets keep reinforcing *AI = Artificial Intelligence*, and the other readings get pushed down the search results. This is a kind of abbreviation occupation at the level of language: once an industry gains enough capital, attention, and cultural influence, it wins the default reading of a pair of letters.
 
-但默认解释不等于唯一解释。
+But a default reading is not the only reading.
 
-下一次看到 `AI`，最好先问三个问题：
+Next time you see `AI`, it helps to ask three questions first:
 
-1. 它出现在哪个系统里？
-2. 谁写下了它？
-3. 周围的信息是航班号、域名、文件、病历，还是模型？
+1. Which system does it appear in?
+2. Who wrote it?
+3. Is the surrounding information a flight number, a domain, a file, a medical record, or a model?
 
-如果它出现在机票上，AI 可能正在把你送往印度；如果它出现在网址末尾，AI 的法律故乡可能是安圭拉；如果它出现在设计文件夹里，它可能只是一张 Illustrator 矢量图。
+If it is on a plane ticket, AI may be flying you to India. If it is at the end of a URL, AI's legal home may be Anguilla. If it is in a design folder, it may just be an Illustrator vector file.
 
-**人工智能并没有拥有 `AI`。它只是暂时赢得了这两个字母的解释权。**
+**Artificial intelligence does not own `AI`. It has only won, for now, the right to interpret these two letters.**
 
 ## Sources
 

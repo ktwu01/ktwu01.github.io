@@ -3,10 +3,15 @@ title: "UT01"
 date: 2025-06-08
 permalink: /zh/posts/2025/06/project-ut01/
 redirect_from:
+  - /zh/posts/2025/06/ut01/
+  - /posts/2025/06/ut01-cn/
   - /zh/posts/2026/09/project-ut01/
 tags:
   - media
   - project
+  - web-app
+  - student-tools
+  - ut-austin
 ---
 
 [UT01](https://ut01.github.io/) 是一个由学生搭建、免费开放的德州大学奥斯汀分校资源合集，把实用的校园信息和社区项目集中到一个公开网站上。
@@ -14,6 +19,8 @@ tags:
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
 
 大学新生的头几周，总在做一种奇怪的作业：找东西。成绩在哪查？学费账单在哪个系统，保险豁免又在哪个系统？UT Direct 和 MyUT 是一回事吗？每个答案都藏在某个官方页面里，而每个官方页面都默认你已经知道该去问哪个部门。
+
+作为 UT 学生，有两件事让我尤其头疼。查一下餐卡余额这种小事，也要在层层菜单里点好几下。而且 UT 的链接经常自动登出，存好的书签打开往往是“Sign in with your EID”页面，不是你想去的地方。
 
 科大的学生多年前就用一个页面解决了这个问题。由 Hypercube 和 ustclife 贡献者制作的“科大导航”（USTC Navigation），把学生需要的服务放在同一屏上，很多同学直接把它设成浏览器主页。
 
@@ -36,13 +43,13 @@ UT01 就是把这个思路搬到了奥斯汀。2025 年 6 月，我 fork 了科�
 - 国际学生服务
 - 就业：职业服务和招聘平台
 
-页面还有一个搜索框，以及在 Chrome、Edge、Firefox、Safari 和手机上把它设为主页的简短教程。
+页面还有一个搜索框，以及在 Chrome、Edge、Firefox、Safari 和手机上把它设为主页的简短教程。2025 年 8 月，网站新增了 UT AI 板块，以及一份把零散注册链接整合到一起的[注册指南](https://ut01.github.io/guides/registration-guide.html)。
 
 ## 设计取舍
 
 **一屏搞定。** 导航页的对手是浏览器地址栏。如果在 UT01 上找链接比直接搜索还慢，就没人会用。按学生的问题分组，不按学校的组织架构分组，速度就是这么来的。
 
-**不收集数据。** UT01 没有表单、没有登录，也没有任何接触账号密码的脚本。每一条都是指向官方网站的普通链接。一个放在学校登录页旁边的学生工具，必须一眼就能看出是安全的，否则就不该存在。
+**不碰账号，数据最少。** UT01 没有表单、没有登录，也没有任何接触账号密码的脚本。每一条都是指向官方网站的普通链接。网站使用匿名统计（Google Analytics 和 ClustrMaps 访客统计）了解同学们常用哪些链接，不收集姓名、邮箱或学业记录。一个放在学校登录页旁边的学生工具，必须一眼就能看出是安全的，否则就不该存在。
 
 **开放、可 fork。** 代码采用 CC BY-SA 4.0 许可，和原项目一致。任何人都可以在 [GitHub](https://github.com/ut01/ut01.github.io) 上提 issue 修正失效链接，其他学校也可以像我 fork 科大导航那样 fork 它。
 

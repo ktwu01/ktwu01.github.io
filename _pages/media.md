@@ -310,7 +310,7 @@ Also active on Xiaohongshu, WeChat and QQ.
 - [Earth-Space-AI](https://github.com/earth-space-ai). [Related post](/posts/2026/09/project-earth-space-ai/)
 - [Tacite](https://tacite.ai/). [Related post](/posts/2026/09/project-tacite/)
 - [Crypto Dashboard](https://ktwu01.github.io/crypto-dashboard). [Related post](/posts/2025/10/project-crypto-dashboard/)
-- [AI-Polish](https://ktwu01.github.io/1AI-polish). [Related post](/posts/2025/06/project-ai-polish/)
+- [AI-Polish](https://ktwu01.github.io/1AI-polish). [Related post](/posts/2025/07/1ai-polish/)
 
 
 ## Awards

@@ -1,255 +1,254 @@
 ---
-title: '把人扫地出门，再把博士学位塞回去：荣誉博士制度的横纵分析'
+title: 'Thrown Out, Then Handed a Doctorate: A Horizontal-Vertical Analysis of the Honorary Degree'
 date: 2026-05-12
 permalink: /posts/2026/05/honorary-doctorate-analysis/
-lang: zh
 tags:
   - higher-education
   - social-analysis
   - honorary-degree
 ---
 
-大学最擅长的表演，莫过于在一个人不再需要勋章时，隆重地为他披上一件绣着「博士」二字的学位袍。
+A university's favorite performance is to wait until a person no longer needs a medal, then ceremonially drape them in a gown embroidered with the word "Doctor."
 
-> 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+> Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-> 研究时间：2026年5月 | 所属领域：高等教育制度 / 社会文化现象 | 研究对象类型：制度/概念
-
----
-
-## 一、一句话定义
-
-大学最擅长的表演，莫过于在一个人不再需要勋章时，隆重地为他披上一件绣着「博士」二字的学位袍。
+> Research date: May 2026 | Field: higher education institutions / social and cultural phenomena | Subject type: institution / concept
 
 ---
 
-## 二、纵向分析：从豁免权到公关工具的五百年
+## 1. One-sentence definition
 
-### 2.1 它从来就不是关于学问的
-
-荣誉博士诞生的那一刻，就和学术没有太大关系。
-
-1478年，牛津大学把一个博士学位交给了 Lionel Woodville——一个以恩典之名被免除了全部学术要求的人。Woodville 不是什么伟大学者，他是国王爱德华四世的大舅子，时任埃克塞特主教座堂院长，手里握着大学需要的政治庇护。牛津给他学位，他给牛津安全。交易，就这么简单。
-
-这是有文献记录的最早荣誉博士。
-
-有趣的是，"honoris causa"这个拉丁词组，在牛津的正式记录里直到 1651 年才第一次出现。也就是说，这个制度存在了至少一百七十年，才有了自己的名字。在这一百七十年里，大家都知道在做什么，只是没人正式叫它什么。
-
-中世纪大学的学位是一张教学许可证（licentia docendi），最初由天主教会垄断颁发，申请者须通过考试、宣誓效忠、缴纳费用。但从建立之初，就存在一种叫做「dispensatio」（豁免）的惯例：对权贵、赞助人或特殊人物，可以豁免部分乃至全部常规要求，直接给学位。
-
-豁免，才是荣誉博士的真正起源。
-
-### 2.2 查理一世：把学位当糖果
-
-1642 年，英国内战爆发，查理一世把朝廷迁到牛津躲避议会军。为了换取大学的政治忠诚和财政支持，国王要求大学在仅仅几个月内（1642 年 11 月至 1643 年 2 月）向随行人员授出约 **350 个**荣誉学位，涵盖各学科博士头衔。
-
-350 个。几个月内。
-
-大学忍无可忍，向国王递交了请愿书，说这不仅损害大学声誉，还有切实的财务损失，因为通常考生要缴费的。这是历史记录中最早的荣誉学位批量化丑闻，也是社会第一次开始认真反思这个制度的边界在哪里。
-
-从这一刻起，荣誉博士就在两种力量之间反复拉扯：一边是大学维护自身声誉的本能，另一边是权贵利用学术背书谋取利益的冲动。这个矛盾从来没有被真正解决，只是换了更体面的包装而已。
-
-### 2.3 美洲：第一个荣誉博士给了谁
-
-1692 年，哈佛学院颁出了北美第一个荣誉学位，接受者是当时的哈佛院长 Increase Mather，头衔是神学博士。那一年，正是塞勒姆巫审（Salem witch trials）的高峰期，历史的荒诞在这里达到了某种奇异的密度。
-
-此后 79 年，哈佛没有再颁博士学位。
-
-真正确立「以社会贡献换取学术认可」这一模式的，是 1753 年哈佛授予本杰明·富兰克林的荣誉文学硕士。富兰克林从没上过大学，但他做了足够多影响人类文明的事。哈佛给他一个学位，他给哈佛一个故事——「你看，我们认识伟大的人」。
-
-这个交换逻辑，至今没变。
-
-### 2.4 从贵族到资本家：授予对象的演变
-
-18、19 世纪是荣誉博士的「大民主化」时期。
-
-随着工业革命推进和大学教育的扩张，授予对象从王公贵族逐渐扩展到科学家、艺术家、慈善家。推动力有两个：一是大学变得更多，竞争更激烈，需要通过颁奖提高声誉；二是中产阶级和工业资本家掌握了社会的实质权力，大学必须向权力弯腰。
-
-1897 年，纽约州立法机构明令禁止大学授予荣誉 PhD（理由是防止滥授「虚假博士」）。这直接导致了一个奇特的命名通货膨胀：美国大学把荣誉博士改名为「Doctor of Laws」（法学博士，LL.D.）、「Doctor of Humane Letters」（人文学博士，L.H.D.）等。名字变了，逻辑没变。博士不叫 PhD，但它出现在名片上，进入演讲介绍，成为「Dr.」前缀的合法来源。
-
-### 2.5 二十世纪：荣誉博士变成毕业典礼刚需
-
-20 世纪，荣誉博士完成了从「特殊惯例」到「制度惯例」的转型。
-
-哈佛是最好的指标。它有文献记录的 171 个荣誉学位中，**110 个（64%）在过去 15 年内颁发**，从每年 2-3 个增加到每年 9-10 个。这是一个清晰的加速趋势，跟大学的规模扩张、毕业典礼的媒体化、以及捐赠经济的重要性上升同步。
-
-荣誉博士变成了毕业典礼的「明星嘉宾」制度——有名气的人来演讲，大学顺手给个学位，皆大欢喜。
-
-### 2.6 反叛者的出现：那些说不的大学
-
-不是所有人都接受了这套逻辑。
-
-最著名的反叛者是 MIT。MIT 从 1868 年第一届毕业典礼起，到今天，**从未颁发过任何荣誉学位**。这一传统来自创始人 William Barton Rogers，他把荣誉学位称为「literary almsgiving of spurious merit and noisy popularity」（虚假功绩和喧嚣名气的文学施舍）。Rogers 受到托马斯·杰斐逊的影响，后者在创建弗吉尼亚大学时，也明确禁止荣誉学位。斯坦福、康奈尔、莱斯大学，也是同样的立场。
-
-这解释了为什么 2005 年乔布斯在斯坦福发表那篇著名的「Stay Hungry, Stay Foolish」演讲，却没有获得荣誉博士。不是没人想给他，是斯坦福的制度不允许。
-
-有意思的是，乔布斯一生从未接受过任何荣誉博士学位。这在科技界顶级人物中极为罕见。有分析认为，部分原因是他本人对这类仪式性荣誉没兴趣，另一原因是他的慈善捐赠极为有限，而荣誉学位通常和慈善贡献深度挂钩。
-
-### 2.7 荣誉博士的三重生存术
-
-现代荣誉博士在学术尊严与生存现实之间，练就了一套精密的生存术。
-
-它为招生办赚吆喝：1996 年，南安普顿学院授予青蛙柯密特（芝麻街角色）「两栖文学荣誉博士」，这件事被 31 家报纸报道，为学院带来了大量曝光和新生报名。它为财务处填金库：佛蒙特大学 2002-2012 年间颁出的 60 个荣誉学位中，58% 的获奖者在此前十年内有明确捐款记录，合计 1360 万美元，平均每人 22.8 万美元。哥伦比亚大学师范学院院长 Arthur E. Levine 直接坦承：「荣誉学位服务于两个目的——钱和曝光度，有时用来奖励捐款的人。」它充当外交部的编外礼宾：2019 年，普京访中，清华（习近平母校）授予其荣誉博士；同年，习近平访俄，普京母校圣彼得堡国立大学回礼。国家级领导人的互授，就是换了学术包装的外交礼仪。
-
-这三重功能同时运作，构成了大学体制在理想与现实之间的极限拉扯。
-
-### 2.8 撤销潮：制度的边界在哪里
-
-荣誉博士的「另一面」是撤销。
-
-最大规模的撤销案例是比尔·科斯比。他一生获得 **72 个**荣誉学位，性侵丑闻曝光后，截至 2018 年，已有 **62 所**大学宣布撤销，创下历史纪录。宾夕法尼亚大学、耶鲁大学（300 年历史中第一次撤销）、约翰斯·霍普金斯、卡内基梅隆……
-
-还有坎耶·韦斯特（Ye）。芝加哥艺术学院（SAIC）2015 年授予他荣誉博士，2022 年因他公开赞扬希特勒、发表大量反犹言论而撤销。那是该校 80 年历史中的第一次撤销。一份网络请愿在数天内征集到超过 4000 个签名。
-
-撤销，是授予的镜像：授予是「我认识这个成功的人」，撤销是「我不认识这个有毒的人」。两个动作都服务于同一个目的——维护机构自身的品牌。
+A university's favorite performance is to wait until a person no longer needs a medal, then ceremonially drape them in a gown embroidered with the word "Doctor."
 
 ---
 
-## 三、横向分析：谁认可你，认可什么
+## 2. Vertical analysis: five hundred years, from exemption to PR tool
 
-### 3.1 荣誉博士在荣誉体系里坐在哪个位置
+### 2.1 It was never about scholarship
 
-荣誉博士是个独特品类。它不像诺贝尔奖有领域划分，不像奥斯卡有评审体系，不像 Forbes 排名有量化标准。每所大学都是独立的颁奖机构，口径完全不同。
+From the moment the honorary doctorate was born, it had little to do with academics.
 
-| 荣誉类型 | 授予机构 | 门槛 | 含金量 |
+In 1478, Oxford gave a doctorate to Lionel Woodville, a man excused from every academic requirement by grace. Woodville was no great scholar. He was the brother-in-law of King Edward IV, then dean of Exeter Cathedral, and he held the political protection the university needed. Oxford gave him a degree; he gave Oxford security. A deal, as simple as that.
+
+This is the earliest documented honorary doctorate.
+
+Interestingly, the Latin phrase "honoris causa" first appears in Oxford's official records only in 1651. In other words, the practice existed for at least 170 years before it had a name. For those 170 years, everyone knew what was going on. Nobody formally called it anything.
+
+A medieval university degree was a license to teach (licentia docendi), originally issued under the monopoly of the Catholic Church. Applicants had to pass exams, swear loyalty, and pay fees. But from the very start there was a custom called "dispensatio" (exemption): for the powerful, for patrons, or for special figures, some or all of the usual requirements could be waived and the degree granted outright.
+
+Exemption is the true origin of the honorary doctorate.
+
+### 2.2 Charles I: degrees as candy
+
+In 1642 the English Civil War broke out, and Charles I moved his court to Oxford to escape the Parliamentary army. To secure the university's political loyalty and financial support, the king had it award about **350** honorary degrees to his entourage within just a few months (November 1642 to February 1643), including doctoral titles in every faculty.
+
+350. In a few months.
+
+The university finally had enough and petitioned the king, arguing that this damaged not only its reputation but also its finances, since candidates normally paid fees. It is the earliest recorded scandal of mass-produced honorary degrees, and the first time society began to think seriously about where the system's limits lay.
+
+From that moment on, the honorary doctorate has been pulled back and forth between two forces: the university's instinct to protect its reputation, and the urge of the powerful to profit from academic endorsement. The tension has never really been resolved. It has only been given more respectable packaging.
+
+### 2.3 America: who got the first honorary doctorate
+
+In 1692 Harvard College awarded the first honorary degree in North America, to its own president, Increase Mather, as Doctor of Divinity. That was the peak year of the Salem witch trials, and history's absurdity reached a strange density.
+
+Harvard then awarded no doctorates for 79 years.
+
+The model of "academic recognition in exchange for contributions to society" was truly set in 1753, when Harvard gave Benjamin Franklin an honorary Master of Arts. Franklin never went to college, but he had done enough to shape human civilization. Harvard gave him a degree; he gave Harvard a story: "See, we know great people."
+
+That logic of exchange has not changed since.
+
+### 2.4 From nobles to capitalists: how the recipients changed
+
+The 18th and 19th centuries were the honorary doctorate's era of "great democratization."
+
+As the Industrial Revolution advanced and university education expanded, recipients widened from princes and nobles to scientists, artists, and philanthropists. Two forces drove this. First, there were more universities and fiercer competition, so they needed awards to raise their profile. Second, the middle class and industrial capitalists held real power in society, and universities had to bow to that power.
+
+In 1897 the New York State Legislature banned universities from awarding honorary PhDs, to stop the spread of "fake doctors." This directly caused an odd inflation of names: American universities renamed honorary doctorates "Doctor of Laws" (LL.D.), "Doctor of Humane Letters" (L.H.D.), and so on. The name changed; the logic did not. The doctorate was no longer called a PhD, but it appeared on business cards, entered speaker introductions, and became a legitimate source of the "Dr." prefix.
+
+### 2.5 The 20th century: honorary doctorates become a commencement staple
+
+In the 20th century, the honorary doctorate completed its shift from "special custom" to "institutional routine."
+
+Harvard is the best indicator. Of its 171 documented honorary degrees, **110 (64%) were awarded in the past 15 years**, rising from 2–3 a year to 9–10 a year. It is a clear acceleration, in step with university expansion, the media-ization of commencement, and the growing importance of the donation economy.
+
+The honorary doctorate became commencement's "celebrity guest" system: a famous person comes to speak, the university hands over a degree along the way, and everyone is happy.
+
+### 2.6 The rebels: universities that say no
+
+Not everyone accepted this logic.
+
+The most famous rebel is MIT. From its first commencement in 1868 until today, MIT has **never awarded a single honorary degree**. The tradition comes from its founder, William Barton Rogers, who called honorary degrees "literary almsgiving of spurious merit and noisy popularity." Rogers was influenced by Thomas Jefferson, who explicitly banned honorary degrees when he founded the University of Virginia. Stanford, Cornell, and Rice take the same position.
+
+That explains why Steve Jobs gave his famous "Stay Hungry, Stay Foolish" speech at Stanford in 2005 without receiving an honorary doctorate. Plenty of people would have given him one; Stanford's rules simply don't allow it.
+
+Interestingly, Jobs never accepted any honorary doctorate in his life, which is very rare among the top figures in tech. Some analyses suggest that part of the reason was his own lack of interest in ceremonial honors, and part was that his philanthropic giving was very limited, while honorary degrees are often closely tied to philanthropy.
+
+### 2.7 The honorary doctorate's three survival skills
+
+Caught between academic dignity and the reality of survival, the modern honorary doctorate has developed a refined set of survival skills.
+
+It drums up business for admissions: in 1996, Southampton College gave Kermit the Frog (of *Sesame Street* fame) an "honorary Doctor of Amphibious Letters," which 31 newspapers covered, bringing the college a great deal of exposure and new applicants. It fills the treasury for the finance office: of the 60 honorary degrees the University of Vermont awarded from 2002 to 2012, 58% went to people with clear donation records in the previous ten years, totaling 13.6 million dollars, an average of 228,000 dollars each. Arthur E. Levine, president of Teachers College at Columbia, said it plainly: "Honorary degrees serve two purposes, money and visibility, and are sometimes used to reward people who have given money." And it serves as an unofficial protocol office for diplomacy: in 2019, during Putin's visit to China, Tsinghua (Xi Jinping's alma mater) gave him an honorary doctorate; that same year, when Xi visited Russia, Putin's alma mater, Saint Petersburg State University, returned the favor. An exchange between heads of state is diplomatic protocol in academic wrapping.
+
+All three functions run at once, stretching the university system to its limit between ideals and reality.
+
+### 2.8 The wave of revocations: where are the system's limits?
+
+The other side of the honorary doctorate is revocation.
+
+The largest revocation case is Bill Cosby. He received **72** honorary degrees in his lifetime. After his sexual assault scandal broke, **62** universities had announced revocations by 2018, a historical record: the University of Pennsylvania, Yale (its first revocation in 300 years), Johns Hopkins, Carnegie Mellon...
+
+Then there is Kanye West (Ye). The School of the Art Institute of Chicago (SAIC) gave him an honorary doctorate in 2015 and revoked it in 2022 after he publicly praised Hitler and made numerous antisemitic remarks. It was the school's first revocation in 80 years. An online petition gathered more than 4,000 signatures within days.
+
+Revocation is the mirror image of awarding. Awarding says "I know this successful person." Revoking says "I don't know this toxic person." Both serve the same purpose: protecting the institution's own brand.
+
+---
+
+## 3. Horizontal analysis: who recognizes you, and for what
+
+### 3.1 Where the honorary doctorate sits among honors
+
+The honorary doctorate is a category of its own. It has no fields like the Nobel Prize, no jury system like the Oscars, no quantitative standard like the Forbes rankings. Every university is an independent awarding body with completely different criteria.
+
+| Type of honor | Awarding body | Threshold | Value |
 |---------|---------|------|------|
-| 诺贝尔奖 | 瑞典/挪威皇家学院 | 极高，终身成就 | 最高 |
-| 总统自由勋章（美） | 美国总统 | 高，国家级认可 | 很高 |
-| 皇家学会院士（FRS） | 英国皇家学会 | 高，同行选举 | 很高 |
-| 荣誉博士 | 单所大学 | 参差不齐 | 高度依赖颁发机构 |
-| 荣誉教授 | 单所大学/研究机构 | 更低 | 中等偏低 |
+| Nobel Prize | Swedish/Norwegian royal academies and committees | Extremely high, lifetime achievement | Highest |
+| Presidential Medal of Freedom (US) | US President | High, national recognition | Very high |
+| Fellow of the Royal Society (FRS) | Royal Society (UK) | High, peer election | Very high |
+| Honorary doctorate | A single university | Uneven | Depends heavily on the awarding institution |
+| Honorary professorship | A single university or research institute | Lower | Medium to low |
 
-这张表有个关键问题：荣誉博士的含金量不是固定的，它高度依赖「是谁给的」。哈佛的荣誉博士和某个名不见经传学院的荣誉博士，字面上是同一个东西，实际上完全不同。这是一个「同名异质」的荣誉体系——名称标准化，内含价值却完全去中心化。
+The table has one key problem: the honorary doctorate's value is not fixed. It depends heavily on who gives it. An honorary doctorate from Harvard and one from an obscure college are, on paper, the same thing, and in practice entirely different. It is an honors system with "one name, many substances": the name is standardized, while the value inside is completely decentralized.
 
-更奇特的是，它可以同时被两种机构拒绝：MIT、斯坦福这类顶尖工科院校拒绝颁发，是因为认为这是「文学施舍」，损害学术严肃性；某些名不见经传的小学院则大量颁发，是因为颁出去越多越能刷存在感。两个极端都证明了同一件事：这个制度没有公认的核心价值，不同的机构对它的使用方式，反映的是各自的内部文化和利益逻辑，而非某种统一的学术标准。
+Stranger still, it can be rejected by two kinds of institutions at once. Top engineering schools such as MIT and Stanford refuse to award it because they see it as "literary almsgiving" that harms academic seriousness. Some obscure small colleges award many because the more they give away, the more attention they get. Both extremes prove the same thing: the system has no agreed core value, and how different institutions use it reflects their own internal culture and interests, with no unified academic standard behind it.
 
-### 3.2 「不同文化的态度」背后的同一套逻辑
+### 3.2 One logic behind "different cultural attitudes"
 
-美国、英国、德国、日本、中国——对荣誉博士的态度，表面上看差异极大，但剥开表皮，各地都在做同一件事：用学术语言包装非学术目的。
+The United States, Britain, Germany, Japan, China: on the surface their attitudes toward honorary doctorates differ widely, but peel back the skin and they are all doing the same thing, wrapping non-academic aims in academic language.
 
-美国发得最多。哈佛 171 个有记录的荣誉学位中，64% 集中在过去 15 年，加速趋势清晰，和募款压力同步。英国则有最著名的「拒绝授予」案例：1985 年 1 月 29 日，牛津大学以 738:319 的压倒性票数拒绝授予时任首相撒切尔夫人荣誉博士——这不是牛津在维护学术纯洁，这是 275 名牛津学者借这个渠道对政府削减教育经费进行的集体抗议。荣誉博士，成了政治武器。拒绝给，有时比给了更有力量。
+The United States awards the most. Of Harvard's 171 recorded honorary degrees, 64% fall within the past 15 years, a clear acceleration in step with fundraising pressure. Britain has the most famous case of refusal: on January 29, 1985, Oxford voted 738 to 319 to deny Prime Minister Margaret Thatcher an honorary doctorate. This was no defense of academic purity. It was a collective protest by Oxford academics against the government's cuts to education funding, expressed through this channel. The honorary doctorate became a political weapon. Refusing can sometimes carry more force than giving.
 
-德国的荣誉博士受各州高等教育法约束，颁发须依据严格标准，持有者必须以「Dr. h.c.」标注。日本的京都大学迄今只颁出 8 个，几乎全给诺贝尔级别的科学家。中国的清华给普京，普京的母校圣彼得堡国立大学回礼给习近平，沙特国王大学授予习近平荣誉博士，表彰「推动中沙关系」——是换了包装的外交礼仪。
+In Germany, honorary doctorates are governed by each state's higher education law, must follow strict criteria, and holders must use the form "Dr. h.c." Kyoto University in Japan has awarded only 8 so far, nearly all to Nobel-level scientists. In China, Tsinghua gave one to Putin, Putin's alma mater Saint Petersburg State University returned one to Xi Jinping, and King Saud University gave Xi an honorary doctorate for "advancing China–Saudi relations." This is diplomatic protocol with new wrapping.
 
-标准不同，但底层逻辑完全一致：大学在用学术头衔做非学术的事，区别只是目的是募款、是政治表达、还是外交礼宾。
+The standards differ, but the underlying logic is identical: universities use academic titles to do non-academic things. The only difference is whether the aim is fundraising, political expression, or diplomatic protocol.
 
-### 3.3 「辍学者被同一类机构封为博士」的现象地图
+### 3.3 A map of "dropouts crowned doctor by the same kind of institution"
 
-这份名单，比多数人想象的长：
+The list is longer than most people think:
 
-**比尔·盖茨**，哈佛大学数学系，1975 年大三辍学。2007 年 6 月 7 日，哈佛授予他法学博士（LL.D.）。他在典礼上开玩笑：「我等了超过 30 年来说这句话——爸爸，我告诉过你我会回来拿我的学位。」
+**Bill Gates**, Harvard mathematics, dropped out in his junior year in 1975. On June 7, 2007, Harvard gave him a Doctor of Laws (LL.D.). At the ceremony he joked: "I've been waiting more than 30 years to say this: Dad, I always told you I'd come back and get my degree."
 
-**马克·扎克伯格**，同样是哈佛，2005 年大二辍学。2017 年，哈佛授予他法学博士。辍学 12 年后重回，成为哈佛历史上最年轻的荣誉受勋者之一。他拿到邀请后，专门打电话向同为哈佛辍学生的盖茨请教如何发毕业演讲。
+**Mark Zuckerberg**, also Harvard, dropped out in his sophomore year in 2005. In 2017 Harvard gave him a Doctor of Laws. Returning 12 years after dropping out, he became one of the youngest honorees in Harvard's history. After getting the invitation, he called Gates, a fellow Harvard dropout, for advice on giving a commencement speech.
 
-**R·巴克敏斯特·富勒**，哈佛，被开除了**两次**。第一次是把钱花在跟杂耍团狂欢上，第二次是被重新录取后，以「不负责任、缺乏兴趣」为由再次被扫地出门。最终，他一生共获得 **47 个**荣誉博士学位。哈佛没有给他荣誉博士，但 1961 年邀请他担任诺顿访问教授，又在其毕业 50 周年之际选他为荣誉 Phi Beta Kappa 成员。体制用另一种方式和解了。
+**R. Buckminster Fuller**, Harvard, was expelled **twice**. The first time for spending his money partying with a vaudeville troupe; the second time, after being readmitted, he was thrown out again for "irresponsibility and lack of interest." In the end he received **47** honorary doctorates in his lifetime. Harvard never gave him an honorary doctorate, but in 1961 it invited him to be the Norton visiting professor, and on his 50th class anniversary it elected him an honorary member of Phi Beta Kappa. The institution made peace another way.
 
-**泰德·特纳**，布朗大学古典系，**因为让女友住在宿舍里被开除**。布朗于 1989 年给了他荣誉学士，1993 年给了他荣誉博士，并邀请他发表毕业演讲。
+**Ted Turner**, Brown University classics, was **expelled for letting his girlfriend stay in his dorm room**. Brown gave him an honorary bachelor's degree in 1989 and an honorary doctorate in 1993, and invited him to give the commencement address.
 
-**埃尔顿·约翰**，伦敦皇家音乐学院，11 岁获奖学金入学，学了六年后离开，未正式毕业。2002 年，皇家音乐学院授予他荣誉博士，成为该院 180 年历史中首批两位荣誉博士之一。他从自己没有毕业的母校，获得了博士头衔。
+**Elton John** entered London's Royal Academy of Music on a scholarship at 11, studied there for six years, and left without formally graduating. In 2002 the Royal Academy gave him an honorary doctorate, making him one of the first two honorary doctors in its 180-year history. He received a doctoral title from the school he never graduated from.
 
-**黄仁勋**，他不是辍学者——他在俄勒冈州立大学以最高荣誉毕业，后从斯坦福获得硕士。但他代表的那类故事同样典型：在系统边缘生存，被系统低估，用行动证明一切，然后被系统封为博士。他 15 岁在 Denny's 洗碗，合资 600 美元创立 NVIDIA，公司曾在距破产 30 天的边缘徘徊。NVIDIA 市值突破 3 万亿美元之后，全球顶尖大学排队给他学位：俄勒冈州立大学（2009）、台湾国立台湾大学（2020）、香港科技大学（2024）、瑞典林雪平大学（2025）、卡内基梅隆大学（2026）。
+**Jensen Huang** is not a dropout. He graduated from Oregon State University with highest honors and later earned a master's from Stanford. But his story belongs to the same type: surviving at the edge of the system, underestimated by it, proving everything through action, and then being crowned doctor by it. At 15 he washed dishes at Denny's. He co-founded NVIDIA with 600 dollars, and the company once hovered 30 days from bankruptcy. After NVIDIA's market value passed 3 trillion dollars, top universities around the world lined up to give him degrees: Oregon State University (2009), National Taiwan University (2020), the Hong Kong University of Science and Technology (2024), Linköping University in Sweden (2025), and Carnegie Mellon University (2026).
 
-这份名单的共同点不是「辍学」，而是「先被制度低估或排斥，后被制度追认」。
+What the people on this list share is not "dropping out." It is "first underestimated or excluded by the system, later recognized by it after the fact."
 
-### 3.4 被遗忘的另一群人：那些真正在熬博士的
+### 3.4 The forgotten group: the people actually grinding through a doctorate
 
-有一群人在所有这些仪式里是沉默的——那些用五六年时间钻进实验室、熬过答辩、被导师折腾、拿到真实 PhD 的人。
+One group is silent at all these ceremonies: the people who spend five or six years in the lab, survive their defense, get pushed around by their advisors, and earn a real PhD.
 
-当泰德·特纳在布朗大学台上穿学位袍时，台下有多少人花了五年才拿到那件同款外衣？当泰勒·斯威夫特 2022 年从纽约大学拿到艺术博士时，那些三十几岁还在写论文、靠微薄助学金生活的 NYU 博士生们，感受是什么？
+When Ted Turner stood on stage at Brown in a doctoral gown, how many people in the audience had spent five years earning the same gown? When Taylor Swift received a doctorate in fine arts from New York University in 2022, how did the NYU doctoral students in their thirties, still writing dissertations and living on thin stipends, feel?
 
-这种「学术插队」不是无代价的。它稀释了博士学位作为学术训练证明的信号价值。真正的问题不是大学给了名人学位，而是它用同一个符号，来表示两件完全不同的事：一是你经历了系统的学术训练，二是你很有名或者捐了很多钱。
+This kind of "academic line-cutting" is not free. It dilutes the signal value of the doctorate as proof of academic training. The real problem is not that universities give degrees to celebrities. It is that they use one symbol for two completely different things: that you went through systematic academic training, and that you are famous or gave a lot of money.
 
-用同一个词，表示两件不同的事，迟早会让这个词失去意义。
-
----
-
-## 四、横纵交汇洞察
-
-### 4.1 制度的追认，不是道歉
-
-把纵向历史和横向现象放在一起看，有一件事非常清晰：
-
-**荣誉博士从来不是「认可未来」的制度，它是「追认过去」的仪式。**
-
-1478 年给 Woodville，是因为他已经手握权力。1753 年给富兰克林，是因为他已经证明了自己。2007 年给盖茨，是因为他已经是世界首富超过十年。没有一所大学会在一个人还一无所有的时候授予他荣誉博士。荣誉博士是结果，不是预测。
-
-大学是人类社会最保守的机构之一——它们的任务是传承已知的知识，而不是押注未知的未来。所以它们总是在一个人「已经不需要这个荣誉」的时候，才把荣誉送出去。
-
-黄仁勋在 Denny's 洗碗的那些年，没有任何大学知道他的存在。NVIDIA 濒临破产的 1990 年代，没有大学给他打电话。直到 GPU 成为 AI 时代的基础设施、NVIDIA 市值比大多数国家的 GDP 还高，全球大学才开始排队。
-
-所以当大学授予荣誉博士时，它并不是在「承认自己当年看走眼了」——它根本没有看走眼，因为它当年压根没有看。它现在在做的，是抓住一个经过市场充分验证的机会，给自己贴上一个「我认识成功的人」的标签。
-
-这不是道歉，是营销。
-
-### 4.2 两条时间线，一个恒久错位
-
-理解这个现象，需要把两条时间线分开来看。
-
-制度的时间线是：认定价值，然后授予认可。这条线总是滞后的，因为认定需要共识，共识需要时间，而制度性共识尤其慢。
-
-个人的时间线是：感知机会，行动，创造价值。这条线是领先的。黄仁勋在 1992 年就看到了「PC 最终需要专用 3D 图形硬件」这个判断，那时大多数人还没意识到。
-
-两条线之间的错位，正是荣誉博士存在的空间。
-
-从爱弗雷特·罗杰斯「创新扩散」理论的视角看，大学是典型的「后期多数」甚至「落后者」：它在创新已经被社会全面验证之后，才正式接纳它。荣誉博士就是 S 型扩散曲线的最末端，一个「你已经赢了，现在我们宣布」的仪式。
-
-库恩在《科学革命的结构》里写，新范式的真正胜利，往往不是说服了旧范式的守卫者，而是等旧守卫者退出了历史舞台。荣誉博士是一个少见的例外：它是旧制度主动宣布「我接受了这个新范式」的仪式，而不是等旧守卫者自然老去。
-
-这个「主动宣布」有其代价——制度在这一刻承认了自己在识别时代方向上的局限。但代价是隐藏的，因为场面上看，给学位的是主动方，没有人注意到这句潜台词：「你已经不需要我们认可了，我们还是来了。」
-
-### 4.3 那些拒绝的人
-
-历史上有一批人主动拒绝了荣誉博士，值得单独讲。
-
-萧伯纳拒绝了爱丁堡大学的法律博士，在回信里写：「把法学博士颁给我是对我和对法律的侮辱。」
-
-门肯（H.L. Mencken）公开声明：「没有一个正派的人会接受一个他没有赚到的学位（No decent man would accept a degree he hadn't earned）。」此后，再没人邀请他了。
-
-拒绝的姿态本身，是另一种表态：「我不需要你的认可。」这比接受还要有力量，因为它宣示了一套独立于制度之外的自我评价体系。它在说：我的价值不由你来定义。
-
-乔布斯从未接受荣誉博士，或许也是这个逻辑的延伸。一个人有没有能力说「不需要」，跟他是否值得被认可无关——它测量的，是他对外部认可的依赖程度。
-
-### 4.4 「被扫地出门再塞回博士学位」的含义
-
-回到最初的问题：当年被退学或辍学的人，最后被同一类机构授予博士学位，这是为什么？
-
-大学用学位来颁授的，从来不是「学问」，而是「社会认可」。
-
-当一个人辍学去创业，并最终创造出巨大的社会价值，他已经积累了巨量的「社会认可」。荣誉博士只是把这种非正式的认可，转化成了学术体系内的正式符号。
-
-泰德·特纳被布朗开除，然后在三十年后穿着学位袍站在布朗的毕业典礼上。这个场景在感情上很戏剧，但在逻辑上是完全自洽的：大学的核心功能之一，是为社会精英提供身份标记。当一个人已经成为社会精英，大学自然要给他贴上自己的标签。
-
-不是大学认错了。是大学在做它一直以来做的事：认可权力。只是这次，权力的形态从出身和爵位，变成了市值和影响力。
-
-### 4.5 未来推演
-
-**最可能的剧本：AI 时代的荣誉博士通货膨胀**
-
-随着 AI 领域领袖的崛起，荣誉博士的颁发速度会继续加快。黄仁勋六年内从五六所顶级高校获颁学位。山姆·奥特曼从阿布扎比的 MBZUAI 获得了那所学校的**第一个**荣誉博士——一所 AI 时代的新大学，用 AI 时代的标志性人物来定义自己。
-
-这种加速有内在逻辑：AI 的影响力扩散比以往任何技术都快，大学跟不上的时间差在缩短。以前一个工业革命的商人要等几十年才能被大学认可，现在一个 AI 创业者可能只要等几年。
-
-含金量因此继续稀释。当人人都有，就没有人在乎它。
-
-**最危险的剧本：道德连带风险积累到临界点**
-
-科斯比案是一个警示。62 所大学耗费大量行政资源处理撤销事宜，还要面对公关危机。随着社会道德标准快速迭代，大学在授予荣誉博士时的风险越来越高。
-
-更深的问题是：当道德标准本身存在争议时，撤销权由谁行使？坎耶·韦斯特的案例没有争议，因为反犹主义有足够清晰的社会共识。但如果未来出现更模糊的案例——比如一个政治立场鲜明但未违法的科技领袖——大学会面临更难的选择。撤销可能触怒一半，不撤可能触怒另一半。
-
-**最乐观的剧本：荣誉博士变成行动号召**
-
-2025 年 5 月，Chris Klaus 在接受乔治亚理工学院荣誉博士时，宣布为当天所有毕业生承担创业成本。荣誉博士从「谢谢你曾经做了什么」变成了「让我们一起做什么」。
-
-如果荣誉博士能从单向的「我们认可你」，演变成双向的「我们共同创造」，它就不再只是一个仪式，而是一个真正的催化剂。
-
-但这还是少数。大多数荣誉博士典礼，主角穿上学位袍，发表演讲，然后脱下袍子，双方各自散去。制度继续运转，下一年再找下一个。
+Using one word for two different things will sooner or later drain the word of meaning.
 
 ---
 
-## 五、信息来源
+## 4. Where the two axes meet
 
-1. Honorary degree - Wikipedia, https://en.wikipedia.org/wiki/Honorary_degree （访问：2026年5月11日）
+### 4.1 Institutional recognition is not an apology
+
+Put the vertical history and the horizontal phenomena side by side, and one thing becomes very clear:
+
+**The honorary doctorate has never been a system for "recognizing the future." It is a ritual for "ratifying the past."**
+
+Woodville got his in 1478 because he already held power. Franklin got his in 1753 because he had already proved himself. Gates got his in 2007 because he had already been the world's richest man for more than a decade. No university gives an honorary doctorate to someone who still has nothing. The honorary doctorate is a result, not a prediction.
+
+Universities are among the most conservative institutions in human society. Their job is to pass on known knowledge, and betting on an unknown future falls outside it. So they always hand over the honor once a person "no longer needs it."
+
+During the years Jensen Huang washed dishes at Denny's, no university knew he existed. In the 1990s, when NVIDIA was on the brink of bankruptcy, no university called him. Only after the GPU became the infrastructure of the AI era, and NVIDIA's market value exceeded the GDP of most countries, did universities around the world start lining up.
+
+So when a university awards an honorary doctorate, it is not "admitting it misjudged him back then." It never misjudged him, because it never looked at him in the first place. What it does now is seize an opportunity the market has fully validated and give itself the label "I know successful people."
+
+This is marketing, not an apology.
+
+### 4.2 Two timelines, one permanent mismatch
+
+To understand the phenomenon, look at two timelines separately.
+
+The institution's timeline is: establish value, then grant recognition. This line always lags, because establishing value needs consensus, consensus needs time, and institutional consensus is especially slow.
+
+The individual's timeline is: sense the opportunity, act, create value. This line leads. In 1992 Jensen Huang had already made the call that "PCs will eventually need dedicated 3D graphics hardware," when most people had not yet seen it.
+
+The gap between the two lines is exactly the space the honorary doctorate occupies.
+
+From the perspective of Everett Rogers's "diffusion of innovations" theory, universities are a classic "late majority" or even "laggard": they formally embrace an innovation only after society has fully validated it. The honorary doctorate is the far end of the S-shaped diffusion curve, a ritual of "you've already won, and now we announce it."
+
+In *The Structure of Scientific Revolutions*, Kuhn writes that a new paradigm often truly wins not by persuading the guardians of the old one, but by waiting for those guardians to leave the stage. The honorary doctorate is a rare exception: it is a ritual in which the old institution actively announces "I accept this new paradigm," without waiting for the old guard to age out.
+
+This "active announcement" has a cost: at that moment, the institution admits the limits of its ability to read the direction of its time. But the cost is hidden, because on the surface the one giving the degree is the active party, and nobody notices the subtext: "You no longer need our recognition, and we came anyway."
+
+### 4.3 Those who refused
+
+Throughout history a number of people have turned down honorary doctorates, and they deserve their own section.
+
+George Bernard Shaw refused a Doctor of Laws from the University of Edinburgh, writing in his reply: "To confer a doctorate of law on me would be an insult to me and to the law."
+
+H. L. Mencken stated publicly: "No decent man would accept a degree he hadn't earned." After that, no one invited him again.
+
+The act of refusal is another kind of statement: "I don't need your recognition." It carries more force than acceptance, because it declares a system of self-assessment independent of the institution. It says: my value is not yours to define.
+
+Jobs never accepting an honorary doctorate may be an extension of the same logic. Whether a person can say "I don't need it" has nothing to do with whether they deserve recognition. What it measures is how much they depend on outside recognition.
+
+### 4.4 What "thrown out, then handed a doctorate" means
+
+Back to the original question: why do people who were expelled or dropped out end up receiving doctorates from the same kind of institution?
+
+What universities confer through degrees has never been "scholarship." It has always been "social recognition."
+
+When someone drops out to start a company and eventually creates enormous social value, he has already accumulated a huge amount of "social recognition." The honorary doctorate merely converts that informal recognition into a formal symbol within the academic system.
+
+Ted Turner was expelled from Brown, then thirty years later stood at Brown's commencement in a doctoral gown. Emotionally the scene is dramatic, but logically it is entirely consistent: one of a university's core functions is to provide identity markers for society's elite. Once a person has become part of that elite, the university naturally wants to put its own label on them.
+
+The university did not admit a mistake. It did what it has always done: recognize power. Only this time, power took the form of market value and influence, where it once took the form of birth and title.
+
+### 4.5 Scenarios for the future
+
+**Most likely: honorary doctorate inflation in the AI era**
+
+As leaders in AI rise, honorary doctorates will keep coming faster. Jensen Huang received degrees from five or six top universities within six years. Sam Altman received the **first** honorary doctorate ever awarded by MBZUAI in Abu Dhabi: a new university of the AI era defining itself through an iconic figure of the AI era.
+
+There is an internal logic to this acceleration: AI's influence spreads faster than any previous technology, so the lag before universities catch up is shrinking. An industrial-era merchant once had to wait decades for university recognition; an AI founder may now wait only a few years.
+
+The value keeps diluting as a result. When everyone has one, nobody cares.
+
+**Most dangerous: moral liability builds to a tipping point**
+
+The Cosby case is a warning. Sixty-two universities spent heavy administrative resources on revocations and also had to manage PR crises. As social moral standards shift quickly, the risk universities take when awarding honorary doctorates keeps rising.
+
+The deeper question is: when the moral standard itself is contested, who holds the power to revoke? The Kanye West case was not controversial, because there is a clear enough social consensus against antisemitism. But if murkier cases arise, say a tech leader with strong political views who has broken no law, universities will face harder choices. Revoking may anger half the public; not revoking may anger the other half.
+
+**Most optimistic: the honorary doctorate becomes a call to action**
+
+In May 2025, when Chris Klaus accepted an honorary doctorate from Georgia Tech, he announced he would cover startup costs for every graduate that day. The honorary doctorate shifted from "thank you for what you once did" to "let's do something together."
+
+If the honorary doctorate can evolve from a one-way "we recognize you" into a two-way "we create together," it stops being only a ritual and becomes a real catalyst.
+
+But that is still rare. At most honorary doctorate ceremonies, the honoree puts on the gown, gives a speech, takes the gown off, and both sides go their separate ways. The institution keeps running, and next year it finds the next one.
+
+---
+
+## 5. Sources
+
+1. Honorary degree - Wikipedia, https://en.wikipedia.org/wiki/Honorary_degree (accessed May 11, 2026)
 2. Oxford University Honorary Degrees: Early History, https://www.ox.ac.uk/news-and-events/The-University-Year/Encaenia/Honorary-Degrees-Early-History
 3. No honorary degrees is an MIT tradition going back to Thomas Jefferson - MIT News, https://news.mit.edu/2001/commdegrees
 4. Jensen Huang - Wikipedia, https://en.wikipedia.org/wiki/Jensen_Huang
@@ -274,6 +273,6 @@ tags:
 
 ---
 
-## 方法论说明
+## Methodology
 
-本文采用横纵分析法（Horizontal-Vertical Analysis）进行研究。该方法论由数字生命卡兹克（Khazix）提出，融合了索绪尔的历时-共时分析、社会科学的纵向-横截面研究设计、商学院案例研究法与竞争战略分析的核心思想：纵向追时间深度，横向追同期广度，最终交汇出判断。
+This piece uses Horizontal-Vertical Analysis. The method was proposed by Khazix (数字生命卡兹克) and combines the core ideas of Saussure's diachronic-synchronic analysis, the longitudinal and cross-sectional research designs of social science, the business-school case method, and competitive strategy analysis: the vertical axis follows depth in time, the horizontal axis follows breadth at one moment, and judgment emerges where they meet.
