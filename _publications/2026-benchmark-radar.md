@@ -13,3 +13,8 @@ citation: 'Wu, K., Zhou, J., Shang, E., Wang, J., Han, P., Wang, J., Xu, W., Lu,
 ---
 
 Preprint. A living database and search engine for AI benchmarks and evaluation.
+## Links
+
+- **Preprint (arXiv)**: [https://arxiv.org/abs/2609.11115](https://arxiv.org/abs/2609.11115)
+- **Website**: [https://benchmark-radar.org](https://benchmark-radar.org)
+- **Code**: [https://github.com/ktwu01/benchmark-radar](https://github.com/ktwu01/benchmark-radar)
