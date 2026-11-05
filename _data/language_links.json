@@ -3131,6 +3131,15 @@
       }
     ]
   },
+  "/posts/2026/10/the-real-risk-is-losing-optionality/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/10/the-real-risk-is-losing-optionality/"
+      }
+    ]
+  },
   "/posts/2026/10/think-big-or-pie-in-the-sky/": {
     "variants": [
       {
@@ -6296,6 +6305,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/10/the-only-legal-service/"
+      }
+    ]
+  },
+  "/zh/posts/2026/10/the-real-risk-is-losing-optionality/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/10/the-real-risk-is-losing-optionality/"
       }
     ]
   },

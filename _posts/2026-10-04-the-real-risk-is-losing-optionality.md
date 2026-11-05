@@ -1,5 +1,5 @@
 ---
-title: "The Real Risk Is Losing Optionality"
+title: 'The Real Risk Is Losing Optionality'
 date: 2026-10-04
 permalink: /posts/2026/10/the-real-risk-is-losing-optionality/
 tags:
@@ -9,236 +9,56 @@ tags:
   - entrepreneurship
 ---
 
-Entrepreneurship is not a low-risk activity.
-
-You can lose money. You can lose years. A product can fail, a market can disappear, a cofounder can leave, and a company can die after consuming an enormous amount of work.
-
-But I have become increasingly skeptical of the opposite assumption: that *not* starting a company is the safe path.
-
-A stable job can feel safe because the paycheck arrives every two weeks. You get used to the salary. Then you get used to the apartment, the car, the insurance, the school district, and the lifestyle that salary supports. Ten years pass. Your family depends on that income. Your skills become more specific to one company and one role. Then the company restructures, the industry changes, or the technology moves underneath you.
-
-At that point, a layoff is not just a job transition. It can become a forced reset at the exact moment when resetting is hardest.
-
-That does not mean everyone should become a founder. It means **risk cannot be measured only by short-term variance**.
+A salary can arrive on time every two weeks while your ability to leave the job gets smaller every year.
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
 
-The better question is:
+That is the part of career risk I keep coming back to. The paycheck stays predictable. The apartment gets more expensive. There is a car payment now, and a family depending on the income. Meanwhile, more of your expertise makes sense only inside the company that pays you.
 
-> **Will this path give me more options ten years from now, or fewer?**
+Then the company restructures. The income stops, but the commitments stay.
 
-That question applies to startups, academia, industry, relationships, money, health, and almost every major life decision.
+Starting a company can go wrong much faster. You can spend your savings building something nobody wants. A cofounder can leave. Years of work can end with a product you have to shut down. I understand why someone with people depending on them would look at that and choose the salary.
 
-# Risk Is the Loss of Choice
+I might make the same choice.
 
-I used to think about risk in the conventional way.
+What bothers me is treating the choice as settled once we have compared the next year's income. I want to know what happens after ten years on either path. If the arrangement breaks, what can I still do?
 
-Starting a company is risky. A salary is safe. A known path is safer than an unknown path.
+That is what I mean by optionality. Having another move available.
 
-But this definition captures only immediate uncertainty. It ignores path dependence.
+A job can give you more moves. It can pay for savings, teach you a skill that other employers need, and put you alongside people who will want to work with you again. A company you start can do the opposite. One customer pays all the bills, your savings are gone, and you cannot take a week off without everything stopping. Owning the company does not make that dependence disappear.
 
-A decision can look safe today while steadily reducing your ability to change direction tomorrow.
+So I cannot tell how free someone is from their job title. I would rather ask what they would have left if the job or company ended.
 
-Consider two people.
+Some of that is easy to picture. Money in the bank pays the rent while you look for work. A former colleague who trusts you might answer the phone. A piece of work you are allowed to share can help someone understand what you can do without needing to recognize your old employer's name.
 
-One takes a predictable job, increases spending every time income rises, develops expertise tied to one organization, and depends on one employer for nearly all financial security.
+Some of it is harder to count. Can you explain your work to a person outside your field? Can you learn something unfamiliar without needing someone to give you a syllabus? Do you have enough energy left at the end of the week to try?
 
-The other takes more visible risks: changes fields, builds products, publishes work, learns how to sell, saves capital, develops a public track record, and repeatedly works with people outside one institution.
+I used to put more weight on income than on these questions. Income is visible. The ability to start again is harder to put on a résumé.
 
-The second person's life may look much more volatile year to year.
+But it becomes visible quickly when you need it.
 
-But after ten years, who can recover faster from a shock?
+This changes the kind of risk I want to take. Before starting a project, I want to put a limit on what I can lose. How much money can I spend without missing obligations? How much time can I give it before deciding whether to continue? What would make me stop?
 
-Who can move to another city, start another company, change industries, survive six months without income, or call ten people who would build something with them?
+Writing those answers down feels less exciting than imagining success. It also makes failure something I can plan around.
 
-The answer is not obvious from salary alone.
+A rejected paper still leaves a draft to revise. A small product that nobody buys can leave code I own and a clearer idea of what customers need. But even those outcomes take work. If I never talk to a customer or finish anything, I may come away with little beyond time spent. Failure does not hand out useful lessons automatically.
 
-This is why I now think of risk as a problem of **optionality**.
+And some losses leave too little room to recover. I do not want to gamble my health, take on debt I cannot repay, or break someone's trust for the sake of calling myself ambitious. The people depending on me should not have to absorb a risk I have decided is acceptable for myself.
 
-The goal is not to eliminate uncertainty. The goal is to keep enough capability, capital, health, reputation, and freedom that uncertainty does not trap you.
+There is a quieter version of this problem in everyday spending.
 
-# Build Capital That Travels With You
+Each raise gives me a choice. I can make my life more expensive, or I can keep some of the money available for a future change. Spending it may be worth it. A safer home or help caring for family can matter more than another month of savings. I just want to notice when a new expense also makes it harder to leave a job I no longer want.
 
-A good career should produce more than income.
+The number I care about is how long I could cover essential expenses if my income stopped. Even a rough answer tells me something a salary figure cannot. It tells me how much time I would have before the next decision became urgent.
 
-It should accumulate assets that remain useful even when the current institution disappears.
+That time matters to me. It can let me turn down an offer I would otherwise have to take.
 
-I think about at least seven forms of capital.
+Of course, trying to keep every possible future open has its own cost. A paper needs sustained attention. A company needs someone willing to commit. A relationship cannot be built by keeping one foot out the door. If I keep changing direction to preserve my options, I may never build anything worth staying for.
 
-**Capability capital.** Can I do something the market continues to value? Am I learning how to build, reason, sell, write, lead, negotiate, and adapt?
+I want to commit with enough room to recover if things go wrong. That can be as ordinary as saving part of a salary, staying in touch with former colleagues, or finishing one project that someone outside my workplace can understand. It does not require twenty side projects. For someone already stretched by work and care responsibilities, protecting sleep may be the most useful place to start.
 
-**Ownership capital.** Do I own equity, intellectual property, products, code, datasets, or other assets? Or does all value disappear the moment I stop working?
+I still want work that matters to me. I also want to be able to afford doing it, and to remain well enough to continue. If a path consumes all my savings and health, believing in it will not give those things back.
 
-**Network capital.** Do I know people who would hire me, fund me, build with me, teach me, or introduce me to the next opportunity?
+So the next time I consider a job, a research direction, or a company, I want to look past whether it feels safe today. If it works, what will I be able to do next? If it fails, what will I have left to work with?
 
-**Reputation capital.** Have I produced work that other people can inspect? Papers, products, open-source projects, companies, essays, and other outputs travel better than job titles.
-
-**Financial capital.** How long can I operate without asking permission from the next paycheck?
-
-**Health capital.** Will I still have the physical and cognitive capacity to make hard choices ten or twenty years from now?
-
-**Time capital.** Have I preserved enough control over my time to learn, experiment, recover, and change direction?
-
-The point is not to maximize every category simultaneously. The point is to notice when a path pays you well while quietly destroying the assets that make you independent.
-
-# Take Recoverable Risks
-
-There is also a difference between risk that teaches you and risk that removes you from the game.
-
-Starting a project that fails can be recoverable.
-
-Submitting a paper and getting rejected can be recoverable.
-
-Changing fields can be recoverable.
-
-Moving to a new city can be recoverable.
-
-Building a company that does not work can be recoverable, especially if the process leaves you with skills, relationships, knowledge, and another chance to try.
-
-Other risks deserve much more caution: permanent health damage, unbounded debt, legal problems, destruction of trust, or decisions that eliminate your ability to work and live where you need to.
-
-This gives me a decision rule:
-
-> **Take risks that can make you stronger when they fail. Avoid risks that can remove you from the game.**
-
-Failure is not automatically good. Many failures are just expensive. The useful kind of risk has an asymmetric structure: success creates upside, while failure still leaves behind information or transferable capital.
-
-# Do Not Let One System Own Your Future
-
-A system becomes dangerous when it becomes a single point of failure.
-
-One employer.
-
-One customer.
-
-One advisor.
-
-One skill.
-
-One country.
-
-One source of income.
-
-One platform controlling your audience.
-
-One relationship controlling your sense of worth.
-
-The answer is not to fragment your attention across twenty unrelated pursuits. It is to build redundancy into the parts of life where one failure would otherwise be catastrophic.
-
-A researcher can build both academic credibility and industry capability.
-
-An employee can accumulate both salary and ownership.
-
-A founder can build both a company and a reputation that survives the company.
-
-A technical person can learn both how to build and how to communicate value.
-
-Redundancy creates resilience. It keeps one institution from becoming the owner of your future.
-
-# Convert Labor Into Assets
-
-Another principle follows from the same logic.
-
-Work should leave something behind.
-
-The weakest form of labor is:
-
-> Work once → get paid once.
-
-A stronger form is:
-
-> Work once → create an asset that continues to produce options.
-
-Research can become a paper, dataset, benchmark, method, or reputation.
-
-Code can become an open-source project, tool, company, or infrastructure.
-
-Knowledge can become a model, workflow, course, or system.
-
-A customer engagement can become reusable product insight.
-
-A salary can become financial runway.
-
-A conversation can become a long-term relationship.
-
-Experience can become judgment.
-
-If ten years of work leave you with nothing except ten years of salary history, you may have been productive without becoming more independent.
-
-# Keep Your Burn Rate Below Your Ability to Regenerate
-
-High income can create a strange form of fragility.
-
-As income rises, spending often follows. Better apartment. Better car. More subscriptions. More fixed commitments. Eventually, the person with the high salary cannot tolerate losing the high salary.
-
-The paycheck looks like wealth, but the dependency has increased.
-
-I increasingly care about a simpler metric:
-
-> **If my income stopped tomorrow, how long could I keep making decisions without panic?**
-
-Runway buys time. Time buys negotiation power. Negotiation power buys the ability to reject bad opportunities and wait for better ones.
-
-This is one reason wealth matters to me more than status.
-
-Status is a ranking assigned by other people.
-
-Wealth, at its most useful, is stored agency.
-
-It lets you say no.
-
-# Meaning Is Not Enough
-
-There is one more correction I want to make to the usual advice about meaningful work.
-
-People should pursue work that matters. But meaning alone is not a complete reward function.
-
-If you only optimize for meaning, other systems may happily consume your labor for free. You become useful to everyone except your future self.
-
-If you only optimize for money, you can become trapped in a game you no longer want to play.
-
-I want something harder to optimize:
-
-**meaning, wealth, health, and agency at the same time.**
-
-Meaning tells me what is worth doing.
-
-Wealth gives me resources and time.
-
-Health keeps me capable of acting.
-
-Agency preserves the right to change course.
-
-None of these replaces the others.
-
-# Stay in the Game
-
-The goal of life is not to avoid failure.
-
-The goal is to remain capable of acting after failure.
-
-That changes how I think about entrepreneurship.
-
-A startup has high variance. It can fail quickly and visibly. But high variance is not the same thing as high long-term risk.
-
-A conventional career can have low visible variance while accumulating hidden fragility: dependence on one salary, one institution, one specialization, one location, and one lifestyle.
-
-So I no longer want to ask only:
-
-> Is this safe?
-
-I want to ask:
-
-> What happens to my option set if this works?
->
-> What remains if it fails?
->
-> Does this decision make me harder to trap?
-
-The principle I want to carry forward is simple:
-
-> **Build a life where every decade gives you more options, not fewer. Take recoverable risks. Convert work into assets. Protect health. Keep your burn rate below your ability to regenerate. Never let one institution own your future.**
-
-Entrepreneurship is only one implementation of that principle.
-
-The deeper objective is freedom to keep choosing what comes next.
+The paycheck arriving every two weeks can be part of a good answer. I want to make sure I am using it to build a life I can still choose.
