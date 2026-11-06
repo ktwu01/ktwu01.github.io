@@ -1,5 +1,5 @@
 ---
-title: '用有限的知识做推理：一份阅读清单'
+title: '怎么样让 LLM 变得更杰出？'
 date: 2026-11-06
 permalink: /zh/posts/2026/11/reasoning-with-limited-knowledge/
 tags:
@@ -8,9 +8,15 @@ tags:
   - Research
 ---
 
-我想知道，怎样才能造出一个靠有限的已有知识就能推理的模型。下面这些项目研究抽象能力、从反馈中学习，以及解决陌生问题的方法。
+什么样的人是杰出的？我们怎么样才能造出杰出的东西？杰出的东西和平庸的东西有什么区别？
 
 > 作者：[Koutian Wu](https://www.linkedin.com/in/ktwu01/)；[GitHub: ktwu01](https://github.com/ktwu01/)
+
+从一开始，我一直在寻找卓越。我关心 taste，也就是分辨杰出与平庸的能力。这种判断力，在研究和其他领域里都重要。
+
+这个问题放到 AI 上，就是：怎么样让 LLM 变得更杰出？我希望它能凭借有限的已有知识，推理出没有被直接教过的东西。面对陌生问题，它能形成判断、检验答案，并发现自己的错误。
+
+我知道这很难，所以想看看已经有谁在做。这几个项目各自研究了其中一部分。
 
 - **François Chollet 和 ARC Prize。** Chollet 在 [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) 中，主张衡量智能时要看获取新技能的效率，并考虑已有知识和经验的影响。ARC 测试模型能否从少量示例中学会解决新问题。[ARC Prize 2025 技术报告](https://arxiv.org/abs/2601.10904) 讨论了迭代改进、程序合成，以及没有经过大规模通用预训练的小网络。ARC 成绩反映特定的一组能力，更广泛的智能还需要其他证据。
 

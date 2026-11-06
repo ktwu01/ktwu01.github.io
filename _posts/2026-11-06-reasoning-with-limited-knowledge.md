@@ -1,5 +1,5 @@
 ---
-title: 'Reasoning with Limited Knowledge: A Reading List'
+title: 'How Can We Make LLMs Exceptional?'
 date: 2026-11-06
 permalink: /posts/2026/11/reasoning-with-limited-knowledge/
 tags:
@@ -8,9 +8,15 @@ tags:
   - Research
 ---
 
-I want to understand how to build a model that can reason with limited prior knowledge. These projects explore abstraction, learning from feedback, and solving unfamiliar problems.
+What makes a person exceptional? How can we create exceptional things? What separates exceptional work from mediocre work?
 
 > Author: [Koutian Wu](https://www.linkedin.com/in/ktwu01/); [GitHub: ktwu01](https://github.com/ktwu01/)
+
+I have been searching for excellence from the beginning. I care about taste: the ability to distinguish exceptional work from mediocre work, in research and in other areas.
+
+For AI, that leads to a question: how can we make LLMs exceptional? I want a model that can use limited prior knowledge to reason through things it has never been taught. Faced with an unfamiliar problem, it should be able to form a judgment, check an answer, and recognize its own mistakes.
+
+I know this is difficult. I want to understand who is working on it. These projects each investigate part of that question.
 
 - **François Chollet and ARC Prize.** Chollet's [On the Measure of Intelligence](https://arxiv.org/abs/1911.01547) frames intelligence around the efficiency of acquiring new skills, accounting for prior knowledge and experience. ARC tests generalization from a few examples. The [ARC Prize 2025 technical report](https://arxiv.org/abs/2601.10904) discusses iterative refinement, program synthesis, and small networks trained without broad pretraining. ARC performance measures a particular set of capabilities; broader intelligence needs further evidence.
 
