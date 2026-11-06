@@ -3176,6 +3176,15 @@
       }
     ]
   },
+  "/posts/2026/11/reasoning-with-limited-knowledge/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/11/reasoning-with-limited-knowledge/"
+      }
+    ]
+  },
   "/zh/posts/2024/08/lead-utexas/": {
     "variants": [
       {
@@ -6350,6 +6359,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/11/private-jet-risk/"
+      }
+    ]
+  },
+  "/zh/posts/2026/11/reasoning-with-limited-knowledge/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/11/reasoning-with-limited-knowledge/"
       }
     ]
   }
