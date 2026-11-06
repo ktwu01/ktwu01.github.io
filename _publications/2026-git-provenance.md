@@ -13,3 +13,8 @@ citation: 'Wu, K., Huang, Z., & Geng, H. (2026). "What Git Does Not Record: Prov
 ---
 
 Accepted as a poster at the NeurIPS 2026 Workshop on AI-Native Academia.
+## Links
+
+- **Preprint (arXiv)**: [https://arxiv.org/abs/2610.28655](https://arxiv.org/abs/2610.28655)
+- **Code**: [https://github.com/ktwu01/git-provenance-auditor](https://github.com/ktwu01/git-provenance-auditor)
+- **Hugging Face**: [https://huggingface.co/papers/2610.28655](https://huggingface.co/papers/2610.28655)
