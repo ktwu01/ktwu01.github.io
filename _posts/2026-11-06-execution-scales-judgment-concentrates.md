@@ -1,5 +1,5 @@
 ---
-title: 'Execution Scales, Judgment Concentrates'
+title: 'Execution Scales. Judgment, Attention, and Relationships Concentrate'
 date: 2026-11-06
 permalink: /posts/2026/11/execution-scales-judgment-concentrates/
 tags:
@@ -32,13 +32,21 @@ And because everyone is using AI, rereading May, I was only half right.
 
 "Distributed" was the wrong word. What is actually happening: as AI improves, execution becomes more and more scalable. One person plus AI is what a team used to be. Code, experiments, 3D models, edits, first drafts, everything that once took headcount can now be copied without limit.
 
-Once execution scales and everyone has it, it stops being worth much. The value moves somewhere else. Judgment and attention are concentrating.
+Once execution scales and everyone has it, it stops being worth much. The value moves somewhere else. Judgment, attention, and relationships are concentrating.
 
 Look at the high schooler's Science paper. Who chose the question? Who decided which result was worth sending to Science, and which result was wrong? The professor. "High schoolers can publish in Science" really means a professor with good questions suddenly has unlimited hands.
 
 Look at the CS professor. He says he has no edge over someone who cannot code. If his edge was only that he could code, he's right, and he's finished. If his edge is knowing which problems are worth solving, it just grew tenfold. His remark exposes how many people never worked out what they are actually paid for.
 
 Look at film. [*Niu Lai*](https://www.chinanews.com.cn/cul/2026/08-17/10678996.shtml) hit Chinese theaters this August: a director and his 60-year-old mother, two people, five years, roughly ¥100,000 in hard costs. Latvia's [*Flow*](https://en.wikipedia.org/wiki/Flow_(2024_film)) was made in the open-source tool Blender, with four or five people working at once in the studio. Both teams were absurdly small. The outcomes could not be further apart. *Flow* beat Pixar for the Oscar. *Niu Lai* earned about ¥7,000 in its first ten days, then went viral because its 3D models were shockingly ugly, and [climbed to ¥170,000](https://www.sohu.com/a/1063251239_121814834). People bought tickets to laugh at it. Both teams managed the execution. The difference was taste and judgment. Whatever *Niu Lai* made later came entirely from attention, and attention gets scarcer the more films there are.
+
+Two conversations today filled in another piece.
+
+A friend who works for a California state agency said there's no research to speak of, just an ordinary job. It's pretty relaxed; he's just lost some of his drive. I told him losing your drive is fine. A life that demands constant striving feels like a pain native to East Asians. He said Americans are fairly competitive by global standards too, probably second only to East Asia. Watching us tinker with one thing after another, he sometimes worries he's falling behind the times. He joked that before long AI will run us all over, and said he still can't imagine how anyone uses up that many tokens. Some people I know burn tokens like it's a sport. Honestly, I can't use that many either.
+
+A friend from Tsinghua said AI is moving so fast that everyone's thinking is shifting, and only the advisors feel little impact. In a few years there may be far fewer jobs. I said: what the old guard does, applying for grants, working the room everywhere, building influence, talking big, AI cannot replace any of it.
+
+It was a joke, and it was also the answer. Relationships between people matter more and more, and professors hold the relationships. Execution scales. Relationships don't. The high schooler's Science submission got out the door on the professor's question, the professor's name, and the people the professor knows. When everyone uses AI, burning more or fewer tokens won't separate anyone. Whether someone will vouch for you will.
 
 Seen this way, my May predictions form one causal chain.
 
@@ -48,4 +56,6 @@ Arbitrageurs get stronger and winners take all because once trying costs almost 
 
 When a PhD becomes a distributed task, the degree changes meaning too. It used to prove you could do research on your own. Now it proves you can direct a crowd of people and a pile of AI to get research right. If a high schooler can publish in Science, a Science paper starts losing value as a signal. Evaluation will shift to what is harder to fake: a long track record, and who is willing to put their own name behind you.
 
-For an individual, the conclusion is simple. Stop competing on execution. AI has already paved that road. Own a good question, or own someone's trust, or own a channel where you get seen. Without any of the three, the fastest executor in the world is just working for someone else's judgment.
+For an individual, the conclusion is simple. Stop competing on execution. AI has already paved that road. Own a good question, or own relationships and people's trust, or own a channel where you get seen. Without any of the three, the fastest executor in the world is just working for someone else's judgment.
+
+Or do what my friend in California does. Eat well, drink well, sleep well, with family and the people you love around you. Nothing beats that, and AI can't take it either.
