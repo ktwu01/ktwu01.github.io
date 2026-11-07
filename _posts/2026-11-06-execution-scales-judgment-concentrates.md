@@ -26,11 +26,13 @@ The barrier to starting a company keeps dropping. More and more people start one
 
 A professor at BU said that yesterday he worked with a high school student on a paper submitted to Science, AI-related. If it gets in, it means that with AI, a high schooler can publish in Science. The barrier to doing research is already very low. At the [SciFM conference](https://www.scifmconferences.org/), a CS professor said that compared with someone who cannot code, he now has no advantage at all.
 
-Five months later, I was half right.
+Five months later, the trend is obvious. Everyone sees it, and everyone is using AI. What sounded like a prediction in May is common sense now.
+
+And because everyone is using AI, rereading May, I was only half right.
 
 "Distributed" was the wrong word. What is actually happening: as AI improves, execution becomes more and more scalable. One person plus AI is what a team used to be. Code, experiments, 3D models, edits, first drafts, everything that once took headcount can now be copied without limit.
 
-Once execution scales, it stops being worth much. The value moves somewhere else. Judgment and attention are concentrating.
+Once execution scales and everyone has it, it stops being worth much. The value moves somewhere else. Judgment and attention are concentrating.
 
 Look at the high schooler's Science paper. Who chose the question? Who decided which result was worth sending to Science, and which result was wrong? The professor. "High schoolers can publish in Science" really means a professor with good questions suddenly has unlimited hands.
 
