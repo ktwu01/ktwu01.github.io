@@ -3167,6 +3167,15 @@
       }
     ]
   },
+  "/posts/2026/11/execution-scales-judgment-concentrates/": {
+    "variants": [
+      {
+        "label": "中文",
+        "language": "zh",
+        "url": "/zh/posts/2026/11/execution-scales-judgment-concentrates/"
+      }
+    ]
+  },
   "/posts/2026/11/private-jet-risk/": {
     "variants": [
       {
@@ -6350,6 +6359,15 @@
         "label": "English",
         "language": "en",
         "url": "/posts/2026/11/ai-quota-ancient-genes/"
+      }
+    ]
+  },
+  "/zh/posts/2026/11/execution-scales-judgment-concentrates/": {
+    "variants": [
+      {
+        "label": "English",
+        "language": "en",
+        "url": "/posts/2026/11/execution-scales-judgment-concentrates/"
       }
     ]
   },
